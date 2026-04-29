@@ -20,29 +20,31 @@ The output is a static web app plus a project overview page.
 
 ## Current State
 
-Status as of 28 April 2026:
+Status as of 29 April 2026:
 
 - 49 country records are represented in `data/countries.js`.
 - 40 readable `Overview <Country>.docx` files are already represented in the app.
 - 40 country records are explicitly labelled `Deep dossier drafted`.
 - 35 country entries are represented in `data/transparency.js`.
-- `data/source-registry.csv` currently holds 1370 entries.
+- `data/source-registry.csv` currently holds 1385 entries.
 - `North Macedonia`, `San Marino`, `Monaco`, `Malta`, `Liechtenstein`, `Georgia`, `Azerbaijan`, `Armenia`, `Andorra`, `Albania`, `Kosovo`, `Bosnia and Herzegovina`, `Iceland`, `Belarus`, `Bulgaria`, `Serbia`, `Cyprus`, `Luxembourg`, `Latvia`, `Ireland`, `Austria`, `Switzerland`, `Spain`, `Slovenia`, `Czechia`, `Belgium`, `Croatia`, `Hungary`, `Russia`, `Ukraine`, `Turkey`, `Estonia`, `Greece`, `Portugal`, `Poland`, `Montenegro`, `Moldova`, `Slovakia`, `Sweden`, the `United Kingdom`, `Germany`, and `France` all have recent committee-and-case-file, reconciliation, or first-dossier work; the current practical work is final sweeps, missing-overview drafting, and the committee-and-case-file pilot workflow, now tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia.
 
 Current special cases:
 
 - `Albania`, `Andorra`, `Armenia`, `Azerbaijan`, `Georgia`, `Liechtenstein`, `Malta`, `Monaco`, and `San Marino` have first expanded app dossiers but no overview documents yet.
-- `United Kingdom` now has a synthesized `Overview United Kingdom.docx` and a reconciled app dossier; the remaining UK work is broader annual-statement, funder and devolved-boundary harvesting.
+- `United Kingdom` now has a synthesized `Overview United Kingdom.docx`, a reconciled app dossier, and the first quality-consolidation pilot; the remaining UK work is bulk annual-statement indexing plus broader government, NHS, charity, independent research-organisation, AWERB and university research-ethics harvesting.
 - `Vatican City` has a data folder but is not yet represented as an app country profile.
 
 ## Where Things Live
 
 - `index.html`: main app page
-- `project-overview.html`: project briefing and progress tracker
-- `app.js`: rendering logic
-- `styles.css`: styling
+- `reports/project-overview.html`: project briefing and progress tracker
+- `assets/js/app.js`: rendering logic
+- `assets/css/styles.css`: styling
+- `assets/images/`: shared visual assets
 - `protocol/index.html`: protocol page
-- `CASE-FILE-WORKFLOW.md`: dedicated instructions for the committee-and-case-file discovery pass
+- `docs/workflows/CASE-FILE-WORKFLOW.md`: dedicated instructions for the committee-and-case-file discovery pass
+- `docs/plans/NEXT-PHASE-QUALITY-PLAN.md`: quality-consolidation plan for current-source checks, ENRIO cross-checks, codes of conduct, committee directories, repository indexing, and missing overview completion
 - `data/countries.js`: main app dataset
 - `data/transparency.js`: extracted transparency layer
 - `data/source-registry.csv`: registry of collected web/PDF sources
@@ -59,31 +61,34 @@ Each country has a folder in `data/<Country>/` with:
 
 ### Immediate next method pass
 
-1. Committee-and-case-file discovery pass
+1. Quality-consolidation pass
 
 Start with:
 
-- `CASE-FILE-WORKFLOW.md`
+- `docs/plans/NEXT-PHASE-QUALITY-PLAN.md`
+- `docs/workflows/CASE-FILE-WORKFLOW.md`
 - existing deep dossiers in `data/countries.js`
 - current country source notes in `data/<Country>/raw documentation/source notes/`
 - the country `transparency` blocks and `integrityCommittees` directories already in the app
 
-This pass is meant to find the full handling network for each country, not only the headline national body, and then identify the strongest public case-file, decision, summary, archive or no-publication evidence for each route.
+The project has now completed committee-and-case-file passes for all 40 deep dossiers. The next phase is to raise every represented country toward top-tier quality: verify current source versions, cross-check ENRIO country reports where available, identify the main codes of conduct, normalize committee and institution directories, index the strongest public-output repositories, and keep boundary regimes separate.
 
-### Suggested next archive-heavy pilots for calibrating the method
+### Suggested next quality pilots for calibrating the method
 
-No fixed next pilot is currently pinned after the North Macedonia sweep. Choose the next pass from final-sweep notes that still ask for committee coverage, decision visibility, institutional annual reports, or boundary-lane separation.
+The United Kingdom completed the first quality-consolidation pilot on 29 April 2026. Use that working-note pattern for the next high-yield pass: source-currency note, ENRIO status, main code baseline, annual-report or repository directory seed, funder matrix, boundary targets, stable app-data updates, source-registry entries and syntax checks. Germany or France are the strongest next calibration choices because both already signal major institutional annual-report and repository-indexing work.
 
-### Countries already signalling committee or case-publication gaps
+### Countries already signalling high-yield quality work
 
-- Slovakia
-- Moldova
-- Montenegro
-- Poland
-- Portugal
-- France
 - Germany
+- France
+- Portugal
 - Greece
+- Poland
+- Ireland
+- Latvia
+- Luxembourg
+- North Macedonia
+- `United Kingdom` bulk extraction follow-up
 
 ### Missing overview drafting and representation gaps
 
@@ -172,7 +177,7 @@ For a full deep dossier, also add:
 
 ### 6. Update the tracker
 
-After finishing a country, update `project-overview.html`:
+After finishing a country, update `reports/project-overview.html`:
 
 - change the country status row
 - update the current focus callout
@@ -185,7 +190,7 @@ At minimum run:
 
 ```powershell
 node --check data/countries.js
-node --check app.js
+node --check assets/js/app.js
 ```
 
 Do not add browser or visual-inspection work to the default checklist unless the user explicitly asks for it.
@@ -438,7 +443,7 @@ Use `Deep dossier drafted` only when the country has:
 Complete this checklist:
 
 1. Update the country entry in `data/countries.js`.
-2. Update `project-overview.html`.
+2. Update `reports/project-overview.html`.
 3. If relevant, update `data/source-registry.csv`.
 4. If a new overview was created or extracted, update:
    - `data/extraction-status.md`
@@ -461,7 +466,7 @@ Complete this checklist:
 - `Slovakia` has now completed the committee-and-case-file pilot. Future Slovak work should monitor NKVIE publication practice for closed submissions, widen the institutional minutes/opinions sample beyond UPJS and STU, and deepen VEGA/KEGA plus clinical and animal boundary routes.
 - `France` has completed the committee-and-case-file pilot. Future French work should expand the institutional annual-report directory, track Inadis output practice, revisit CNRS/MIS report retention and request rules, and keep boundary registers separate from general misconduct publication.
 - `Germany` has completed the committee-and-case-file pilot. Future German work should expand the institutional annual-report directory beyond Freie Universitat Berlin and Gottingen, add more Land-level implementation examples, and deepen Fraunhofer and Max Planck institute-level routes.
-- `United Kingdom` has completed both the committee-and-case-file pilot and overview reconciliation. Future UK work should expand the institutional annual-statement directory, funder-by-funder reporting matrix, devolved health/REC/AWERB map, and university research-ethics examples.
+- `United Kingdom` has completed the committee-and-case-file pilot, overview reconciliation and first quality-consolidation pilot. Future UK work should bulk-index the annual-statement directory by year, institution, nation and depth category; extract misconduct tables from Cambridge, UCL, Manchester, Nottingham, Warwick, Sheffield, Glasgow, Edinburgh, Cardiff and Queen's Belfast; widen government, NHS, charity, independent research-organisation and cultural-institution statements; and deepen AWERB plus university research-ethics examples.
 - `Moldova` has now completed the committee-and-case-file pilot. Future Moldovan work should classify ANACEC Governing Board publication coverage by route and year, look for public Ethics and Management Council outputs beyond aggregate reporting, widen institutional committee coverage beyond USM, UTM and USMF, and complete the animal-research route.
 - `Montenegro` has now completed the committee-and-case-file pilot. Future Montenegrin work should index more archived national decisions, check whether `etickikomitet.edu.me` or a successor archive is live, widen institutional output checks beyond UCG, Mediterranean University and UDG, and deepen the animal-research plus copyright or IP boundary routes.
 - `Poland` has now completed the committee-and-case-file pilot. Future Polish work should widen local publication checks beyond UW, WUT, JUMC, IIMCB and IP PAN, add more PAN-institute and Lukasiewicz-network routes, track later PAN annual reports and plenary notes, confirm the ministerial disciplinary publication pattern, and deepen local animal and clinical boundary routes.

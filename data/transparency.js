@@ -2220,9 +2220,9 @@ window.TRANSPARENCY_DATA = [
       "Official web hubs, annual-statement PDFs, synthetic case-study PDFs, policy pages, searchable research-summary database, GOV.UK annual report and specialist decision list",
     hasArchive: false,
     keyNote:
-      "The UK pilot shows a decentralized annual-statement corridor: the public record usually reports named contacts, allegation counts, categories, anonymized rows or narrative lessons rather than full misconduct files. UKRIO case studies are synthetic; UKRI and devolved funders assure compliance; Wellcome and CRUK create confidential funder-reporting duties; HRA, ASRU and HFEA publish boundary records that must be coded separately.",
+      "The UK pilot shows a decentralized annual-statement corridor: the public record usually reports named contacts, allegation counts, categories, anonymized rows or narrative lessons rather than full misconduct files. The 29 April 2026 quality pass expanded the institutional statement seed directory and confirmed that this corridor is broader than the first pilot sample. UKRIO case studies are synthetic; UKRI and devolved funders assure compliance; Wellcome and CRUK create confidential funder-reporting duties; HRA, ASRU and HFEA publish boundary records that must be coded separately.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-23",
+    sourceDate: "2026-04-29",
     resources: [
       {
         label: "UKCORI analysis of annual research integrity statements 2025",
@@ -2233,6 +2233,16 @@ window.TRANSPARENCY_DATA = [
           "Analyses institutional annual statements and misconduct reporting patterns rather than publishing individual decisions",
         comment:
           "Best national evidence source for the UK annual-statement corridor."
+      },
+      {
+        label: "Review of annual statements on research integrity 2025",
+        url: "https://ukcori.org/wp-content/uploads/2025/09/Review-of-annual-statements-on-research-integrity-2025-Full-report.pdf",
+        resourceClass: "National annual-statement review",
+        scope: "HEI, government and independent research-organisation statements",
+        caseLevelInfo:
+          "Bulk statement analysis, not individual misconduct case publication",
+        comment:
+          "Quality-pass source for statement availability, template uptake and later dataset design."
       },
       {
         label: "UKRIO Case study pack No. 1",
@@ -2373,6 +2383,36 @@ window.TRANSPARENCY_DATA = [
           "Narrative case-learning trace for a potential PhD-thesis plagiarism allegation",
         comment:
           "Useful example of narrative institutional case visibility."
+      },
+      {
+        label: "Cambridge research integrity reports",
+        url: "https://www.cam.ac.uk/research/integrity/reports",
+        resourceClass: "Institutional annual statement hub",
+        scope: "Employer-level annual reports",
+        caseLevelInfo:
+          "Latest report is 2024-2025 and includes anonymized information about how allegations were assessed and investigated",
+        comment:
+          "Quality-pass seed source for the expanded annual-statement directory."
+      },
+      {
+        label: "Warwick annual statement on research integrity 2024-25",
+        url: "https://warwick.ac.uk/services/ris/research-integrity/annual-statements/research_integrity_eleventh_annual_statement_2024-25.pdf",
+        resourceClass: "Institutional annual statement",
+        scope: "Employer-level Concordat reporting",
+        caseLevelInfo:
+          "Template-style allegation table with at least one plagiarism allegation visible in the statement",
+        comment:
+          "Useful seed source for annual-statement depth coding."
+      },
+      {
+        label: "Glasgow annual statement on research integrity hub",
+        url: "https://www.gla.ac.uk/myglasgow/ris/researchintegrity/misconduct/annualstatementonresearchintegrity/",
+        resourceClass: "Institutional annual statement hub",
+        scope: "Scottish institutional annual statements",
+        caseLevelInfo:
+          "Current 2024-2025 statement plus archived annual statements back to 2014-2015",
+        comment:
+          "Useful long-run Scottish statement corridor."
       },
       {
         label: "HRA research summaries",

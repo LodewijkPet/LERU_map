@@ -95,7 +95,7 @@
       padding: 56px min(7vw, 88px) 36px;
       background:
         linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(232, 244, 241, 0.92) 58%, rgba(255, 248, 238, 0.8) 100%),
-        url("protocol/assets/europe-ri-map.png") center right / min(680px, 62vw) auto no-repeat;
+        url("../assets/images/europe-ri-map.png") center right / min(680px, 62vw) auto no-repeat;
       border-bottom: 1px solid var(--line);
     }
 
@@ -459,7 +459,7 @@
       .hero {
         background:
           linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(232, 244, 241, 0.96) 100%),
-          url("protocol/assets/europe-ri-map.png") center bottom / 100% auto no-repeat;
+          url("../assets/images/europe-ri-map.png") center bottom / 100% auto no-repeat;
       }
     }
   </style>
@@ -486,9 +486,9 @@
         <h1>Research Integrity Systems in Europe</h1>
         <p class="subtitle">A static, source-linked web app and evidence corpus for mapping how European research integrity systems are organized, documented, and made publicly visible.</p>
         <div class="actions" aria-label="Project links">
-          <a class="button" href="index.html">Open the map app</a>
-          <a class="button secondary" href="protocol/index.html">Open the protocol</a>
-          <a class="button secondary" href="data/extraction-status.md">Read extraction status</a>
+          <a class="button" href="../index.html">Open the map app</a>
+          <a class="button secondary" href="../protocol/index.html">Open the protocol</a>
+          <a class="button secondary" href="../data/extraction-status.md">Read extraction status</a>
         </div>
       </header>
 
@@ -499,7 +499,7 @@
           <div class="stat"><strong>49</strong><span>country records currently shown in the app</span></div>
           <div class="stat"><strong>40</strong><span>readable country overview DOCX files extracted</span></div>
           <div class="stat"><strong>194</strong><span>source and document links from country records</span></div>
-          <div class="stat"><strong>1370</strong><span>source-registry entries recorded</span></div>
+          <div class="stat"><strong>1385</strong><span>source-registry entries recorded</span></div>
           <div class="stat"><strong>35</strong><span>transparency-layer country entries</span></div>
         </div>
         <div class="callout">
@@ -513,15 +513,15 @@
         <div class="grid">
           <article class="panel">
             <h3>The Web App</h3>
-            <p>The main page, <a href="index.html">index.html</a>, displays a Europe map, a searchable country list, country detail panels, and full dossier sections. Users can select a country on the map or in the list, inspect the system profile, open collected files, and follow the recorded next research step.</p>
+            <p>The main page, <a href="../index.html">index.html</a>, displays a Europe map, a searchable country list, country detail panels, and full dossier sections. Users can select a country on the map or in the list, inspect the system profile, open collected files, and follow the recorded next research step.</p>
           </article>
           <article class="panel">
             <h3>The Evidence Corpus</h3>
-            <p>The <a href="data/">data folder</a> contains country overview documents, raw documentation, map data, source logs, app datasets, and the transparency layer. The corpus is designed so the interface can stay simple while the evidence trail remains visible and extendable.</p>
+            <p>The <a href="../data/">data folder</a> contains country overview documents, raw documentation, map data, source logs, app datasets, and the transparency layer. The corpus is designed so the interface can stay simple while the evidence trail remains visible and extendable.</p>
           </article>
           <article class="panel">
             <h3>The Protocol</h3>
-            <p>The separate <a href="protocol/index.html">protocol page</a> describes the planned mapping logic: units of observation, candidate variables, source hierarchy, quality checks, extraction workflow, and future quantitative outputs.</p>
+            <p>The separate <a href="../protocol/index.html">protocol page</a> describes the planned mapping logic: units of observation, candidate variables, source hierarchy, quality checks, extraction workflow, and future quantitative outputs.</p>
           </article>
           <article class="panel">
             <h3>The Transparency Layer</h3>
@@ -529,7 +529,7 @@
           </article>
         </div>
         <figure>
-          <img src="protocol/assets/europe-ri-map.png" alt="Conceptual map connecting countries, laws, national bodies, institutions, funders, public reports, and source records">
+          <img src="../assets/images/europe-ri-map.png" alt="Conceptual map connecting countries, laws, national bodies, institutions, funders, public reports, and source records">
           <figcaption>Conceptual data model from the protocol: countries are linked to laws, bodies, institutions, funders, public reports, and source records.</figcaption>
         </figure>
       </section>
@@ -556,37 +556,42 @@
             </thead>
             <tbody>
               <tr>
-                <td><a href="index.html">index.html</a>, <a href="app.js">app.js</a>, <a href="styles.css">styles.css</a></td>
+                <td><a href="../index.html">index.html</a>, <a href="../assets/js/app.js">assets/js/app.js</a>, <a href="../assets/css/styles.css">assets/css/styles.css</a></td>
                 <td>Main static web app: map, search, country detail, dossiers, and links to source files.</td>
                 <td><span class="tag green">Working app</span></td>
               </tr>
               <tr>
-                <td><a href="data/countries.js">data/countries.js</a></td>
+                <td><a href="../data/countries.js">data/countries.js</a></td>
                 <td>Structured country records used by the app.</td>
                 <td><span class="tag green">49 records</span></td>
               </tr>
               <tr>
-                <td><a href="data/transparency.js">data/transparency.js</a></td>
+                <td><a href="../data/transparency.js">data/transparency.js</a></td>
                 <td>Case-publication visibility layer, with default values for countries outside the source scope.</td>
                 <td><span class="tag green">35 entries</span></td>
               </tr>
               <tr>
-                <td><a href="CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a></td>
-                <td>Standing workflow for committee-and-case-file pilots, publication-route discovery, and later final sweeps.</td>
-                <td><span class="tag green">Active pilot method</span></td>
+                <td><a href="../docs/workflows/CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a></td>
+                <td>Standing workflow for committee-and-case-file pilots, publication-route discovery, and repository classification.</td>
+                <td><span class="tag green">40 pilots complete</span></td>
               </tr>
               <tr>
-                <td><a href="data/source-registry.csv">data/source-registry.csv</a></td>
+                <td><a href="../docs/plans/NEXT-PHASE-QUALITY-PLAN.md">NEXT-PHASE-QUALITY-PLAN.md</a></td>
+                <td>Quality-consolidation plan for current-source checks, ENRIO cross-checks, codes of conduct, committee directories, repository indexing, and missing overview completion.</td>
+                <td><span class="tag green">Next phase active</span></td>
+              </tr>
+              <tr>
+                <td><a href="../data/source-registry.csv">data/source-registry.csv</a></td>
                 <td>Registry of web and PDF sources used in country notes, overview extraction, and transparency coding.</td>
-                <td><span class="tag green">1370 entries</span></td>
+                <td><span class="tag green">1385 entries</span></td>
               </tr>
               <tr>
-                <td><a href="data/overview-extraction-log.csv">data/overview-extraction-log.csv</a></td>
+                <td><a href="../data/overview-extraction-log.csv">data/overview-extraction-log.csv</a></td>
                 <td>Audit trail for country overview extraction into the app dataset.</td>
                 <td><span class="tag green">40 extracted overviews</span></td>
               </tr>
               <tr>
-                <td><a href="protocol/index.html">protocol/index.html</a></td>
+                <td><a href="../protocol/index.html">protocol/index.html</a></td>
                 <td>Method scaffold for a future formal mapping study and data dictionary.</td>
                 <td><span class="tag gold">Working scaffold</span></td>
               </tr>
@@ -657,7 +662,7 @@
         <h2>Country Tracker</h2>
         <p class="lead">This working list tracks how far the data collection has progressed for each country or country folder in the local corpus. The next action column is deliberately practical: it tells us what kind of work is still needed before the country can be considered stable.</p>
         <div class="callout">
-          <strong>Current focus.</strong> The committee-and-case-file workflow has now been tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia. Bulgaria adds the ministerial-route-plus-institutional-fragments lesson: the national Academic Ethics Committee is a statutory route, but no stable public decision archive was verified; the strongest public case material is institutional annual-report or report-corridor evidence at UNWE and the Institute of Mechanics BAS, with many universities publishing procedures or internal-record rules rather than decisions. Belarus adds the attestation-route-with-metadata-target lesson: VAK is the strongest national consequence route for degree/title, deprivation, restoration and appeal matters, but the live VAK host timed out from this network and the located public layer remains procedure plus dissertation metadata; RCETH exposes a live clinical-trial boundary register, not a misconduct case archive. Iceland adds the statutory-body-with-no-located-archive lesson: Act No. 70/2019 creates the Committee on Good Scientific Practice, opinion routes and an annual-report duty, but no public committee opinion or annual-report archive was located; the clearest public case-like layer is health-research licence and approval visibility, which must stay separate from misconduct publication. Bosnia and Herzegovina adds the competence-layered-micro-publication lesson: no country-wide misconduct archive was located, but HEA accreditation documentation, UNSA Faculty of Electrical Engineering public ethics opinions, UNSA Ethics Council annual-report traces, Mostar approval lists and ALMBIH clinical-trial registers must be coded as separate local, QA or boundary lanes. Kosovo adds the quality-assurance-file-corridor lesson: no national general misconduct archive was located, but KAA publishes decision/report, monitoring, post-accreditation, annual-report and aggregate appeal corridors, while UP supplies isolated institutional ethics-case notices; these must be coded as QA and institutional micro-publication, not a national misconduct archive. North Macedonia adds the QA-corridor-plus-self-evaluation lesson: no national general misconduct archive was located, while AQHE evaluation reports and accreditation decisions, National Council ethics/report documents, UKIM unit self-evaluation snippets and AZLP notices must be kept as QA, member-ethics, institutional micro-publication or data-protection boundary lanes. Albania adds the starter-profile-to-first-dossier lesson: Law No. 80/2015 and NASRI/AKKSHI create a national research and ethics standards frame, but the practical route is institutional ethics councils; ASCAL decisions are a QA corridor, and the strongest public case-material trace found so far is UMT aggregate Ethics Council reporting, not individual misconduct decisions. Andorra now adds the compact-QA-plus-biomedical-boundary lesson: AQUA is the most public decision corridor but remains a higher-education QA and research-quality actor; the University of Andorra exposes research and academic-fraud procedure routes, while the Ministry of Health CEI is a biomedical approval lane, and no general misconduct decision archive was located. Armenia adds the degree-award-plus-institutional-ethics lesson: HESC/Supreme Certifying Committee is the strongest public national degree and title route, ANQA is the public QA file corridor, institutional ethics review is visible at NIH, YSMU, AUA, IMB and YSU, and no general misconduct decision archive was located. Azerbaijan adds the attestation-case-notice lesson: AAK is the strongest national degree/title route and publishes dissertation metadata plus selective plagiarism and court-reversal notices; TKTA remains a QA corridor, and clinical, IP, data, animal and open-science sources are boundary lanes rather than a general misconduct archive. Georgia adds the distributed-reform-plus-QA lesson: national science and academy laws create assessment and policy routes, ETHICS is building integrity policies, officers and board templates, NCEQE publishes QA decisions and registers, and TSU/TSMU/Ilia/EEU/CIU show institutional ethics routes, but no national general misconduct archive was located. Liechtenstein adds the microstate-institutional-route lesson: the national frame approves a very small higher-education system, but public misconduct routes are institutional ombudsperson procedures at the University of Liechtenstein and UFL; Zurich clinical ethics, animal-experiment, data-protection and IP routes are boundary lanes, and no general misconduct decision archive was located. Malta adds the institutional-ethics-plus-QA-corridor lesson: MFHEA publishes quality-assurance reports and outcome decisions, Xjenza Malta manages the R&I policy/funding layer, and the operational integrity routes found so far sit at the University of Malta and MCAST; Health Ethics Committee, Medicines Authority, animal, data, IP and open-science sources are boundary lanes, and no general misconduct decision archive was located. Monaco adds the public-research-plus-biomedical-boundary lesson: CSM is the central public research institution, IUM supplies the main higher-education ethics norm, the biomedical research law creates a consultative ethics and ministerial-control route, and APDP/CCIN, MCIPO, innovation-funding and animal/veterinary sources stay as boundary lanes; no general misconduct decision archive was located. San Marino adds the UniRSM-plus-CSB/CERS lesson: the general route is institutional through UniRSM's Code of Ethics, quality system and professor/researcher discipline regulation, while CSB/CERS supplies a public biomedical ethics and clinical-research corridor and the Data Protection Authority supplies the strongest structured boundary archive; no national general misconduct board, UniRSM misconduct archive or CERS approval register was located. The next phase is to draft the remaining missing overviews, widen final sweeps and decide whether Vatican City should become an app profile.
+          <strong>Current focus.</strong> All 40 deep dossiers now have committee-and-case-file repository overviews, and the United Kingdom has completed the first quality-consolidation pilot. The next phase is to apply that method country by country: verify current source versions, cross-check ENRIO country reports where available, identify each country's main codes of conduct, normalize committee and institution directories, index public-output repositories by route and year, complete the nine missing formal overview documents, and decide the Vatican City representation question.
         </div>
         <div class="table-wrap">
           <table>
@@ -718,7 +723,7 @@
               <tr><td>Switzerland</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed and ETH Zurich correction added. Switzerland is now coded as fragmented funder/institutional visibility: SNSF publishes anonymised annual case statistics and occasional case news, ETH Zurich exposes a live institutional list of anonymised reports plus aggregate procedure counts through table endpoints, and SCCSI monitors without conducting proceedings. Next index SNSF and ETH outputs, track SCCSI's first reports, widen institutional route checks and keep RAPS/HumRes, Swissmedic and animal-experiment authorisations separate.</td></tr>
               <tr><td>Turkey</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Turkey is now coded as a clear route network without a clear national case-reporting archive: YOK requires one-month reporting but keeps board decisions confidential, UAK exposes promotion consequences, TUBITAK/TUSEB publish AYEK procedure and consequence rules, Necmettin Erbakan University adds a rare legal-office precedent/template micro-source, and TITCK/HADMEK remain boundary registries. Next monitor aggregate outputs and widen university legal-office or local-board examples.</td></tr>
               <tr><td>Ukraine</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Ukraine is now coded with a structured NAQA second-line complaint/decision page, MON attestation consequences, NASU academy case publication, KPI institutional micro-publication, and separate clinical-trial and animal-research boundary routes. Next monitor post-2026 implementation, index NAQA outcomes by year and stage, and widen NASU/university examples.</td></tr>
-              <tr><td>United Kingdom</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot and overview reconciliation completed. Next build a broader annual-statement directory beyond King's, Oxford, Imperial, Edinburgh, Cardiff and Queen's Belfast, add a funder-by-funder reporting matrix, and keep HRA, ASRU and HFEA boundary registers separate from general misconduct handling.</td></tr>
+              <tr><td>United Kingdom</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot, overview reconciliation and first quality-consolidation pilot completed. The 29 April 2026 pass confirmed the 2025 Concordat/current-source baseline, added ENRIO cross-checking, expanded the annual-statement seed directory with Cambridge, UCL, Manchester, Nottingham, Warwick, Sheffield and Glasgow, and added a funder/public-body matrix seed. Next bulk-index UK annual statements by institution, nation, year and depth category, then deepen government, NHS, charity, independent research-organisation, AWERB and university research-ethics examples.</td></tr>
               <tr><td>Vatican City</td><td><span class="tag gold">Data folder only</span></td><td>Decide inclusion scope, collect or draft an overview, and add an app country profile if included.</td></tr>
             </tbody>
           </table>
@@ -727,27 +732,27 @@
 
       <section id="next">
         <h2>What Is Happening Now</h2>
-        <p class="lead">The project is in a consolidation phase: the app is functional, the initial extraction is broad, and the remaining work is about quality, consistency, depth, and communication.</p>
+        <p class="lead">The project has moved from coverage-building into quality consolidation: the app is functional, the country coverage is broad, all deep dossiers have case-file passes, and the next work is source currency, code and committee completeness, ENRIO cross-checking, repository indexing, and missing overview completion.</p>
         <div class="status-list">
           <div class="status-row">
             <strong>Latest focused pass</strong>
-            <p>North Macedonia has completed the committee-and-case-file pilot. The pass confirms a route-visible but case-archive-light system: the statutory Ethics Board remains public mainly through law, AQHE supplies the strongest QA file corridors, UKIM self-evaluation reports provide institutional micro-publication snippets, and AZLP data-protection notices must stay in a boundary lane.</p>
+            <p>The United Kingdom completed the first quality-consolidation pilot after the forty committee-and-case-file pilots. The pass adds a reusable working-note pattern for current-source checks, ENRIO comparison, code baselines, annual-statement directory seeds, funder matrices and boundary-repository targets.</p>
           </div>
           <div class="status-row">
-            <strong>Data consolidation</strong>
-            <p>Keep aligning country overviews, app records, source-registry entries, extraction logs and dossier-level transparency overrides so the public interface and evidence corpus tell the same story.</p>
+            <strong>Quality consolidation</strong>
+            <p>Use <a href="../docs/plans/NEXT-PHASE-QUALITY-PLAN.md">NEXT-PHASE-QUALITY-PLAN.md</a> to verify current legal and procedure versions, identify each country's main codes of conduct, cross-check ENRIO country reports, normalize committee and institution directories, and index repository corridors.</p>
           </div>
           <div class="status-row">
             <strong>Country completion</strong>
             <p>Use the country tracker to separate two jobs: turn the first app dossiers for Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino into formal overview documents, and decide whether Vatican City should become an app profile.</p>
           </div>
           <div class="status-row">
-            <strong>Dossier expansion</strong>
-            <p>Continue final sweeps and case-file passes on deep dossiers, using committee directories, transparency layers, publication ladders and source backbones together.</p>
+            <strong>Dossier hardening</strong>
+            <p>Use the United Kingdom pilot as the calibration example, then prioritize high-yield countries such as Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg and North Macedonia for annual-report directories, funder matrices, ENRIO comparison, and committee-output indexing.</p>
           </div>
           <div class="status-row">
             <strong>Method tightening</strong>
-            <p>Test and refine <a href="CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a>, including the distinction between handling body, final decision-maker and publication owner, plus lane-by-lane visibility coding, route-scope versus archive-scope coding, database-function and micro-publication-node coding, handler-directory versus case-output coding, aggregate-monitoring versus file-level publication, public data elements, non-public or restricted data elements, why a source is or is not a misconduct case file, archive-scope and publication-exclusion labels, archive-accessibility labels, archive-continuity, referral-path, publication-depth, publicity-mode, publication-lifecycle and outcome-maturity coding, and missingness notes.</p>
+            <p>Keep <a href="../docs/workflows/CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a> as the repository-coding method, but use it inside the quality phase: handling body, final decision-maker, publication owner, archive scope, public data fields, accessibility, retention and missingness still need consistent labels across countries.</p>
           </div>
           <div class="status-row">
             <strong>Presentation and review</strong>
@@ -762,12 +767,12 @@
         <div class="brief-box">
           <p><strong>The LERU map pilot is building a source-linked overview of research integrity systems across Europe.</strong> It collects country-level evidence on national bodies, institutional procedures, codes, funders, case-publication routes, and public reporting, then turns that material into a searchable web app with a map, country profiles, and deeper dossiers.</p>
           <p>The project matters because research integrity governance is visible in uneven ways across countries. Some systems have national decision archives, some publish annual summaries, some rely on institutional processes, and some have limited public case information. The map makes these differences easier to compare without losing the source trail behind each judgement.</p>
-          <p>The current version already contains 49 country records, 40 extracted country overview documents, a 1370-entry source registry, a transparency layer covering 35 jurisdictions, and a committee-and-case-file workflow now tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia. Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino have now been expanded from starter notes or data-folder-only status into first app dossiers, while Vatican City remains the only data-folder-only representation gap. The next phase is to fill remaining overview gaps, run more final sweeps, standardize the method, and prepare the material for review with collaborators.</p>
+          <p>The current version already contains 49 country records, 40 extracted country overview documents, a 1385-entry source registry, a transparency layer covering 35 jurisdictions, and a committee-and-case-file workflow now completed for all 40 deep dossiers. Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino have been expanded from starter notes or data-folder-only status into first app dossiers, while Vatican City remains the only data-folder-only representation gap. The United Kingdom has completed the first quality-consolidation pilot; the next phase is to apply that method across the remaining high-yield dossiers, finish missing formal overviews, and keep boundary regimes separate.</p>
         </div>
       </section>
 
       <footer class="footer">
-        <p>Prepared from the local project files on 28 April 2026. This page summarizes the current working state of the pilot and should be updated when new extraction passes, source reviews, or protocol decisions are made.</p>
+        <p>Prepared from the local project files on 29 April 2026. This page summarizes the current working state of the pilot and should be updated when new extraction passes, source reviews, or protocol decisions are made.</p>
       </footer>
     </main>
   </div>

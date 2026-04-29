@@ -49,7 +49,7 @@
         align-items: flex-end;
         overflow: hidden;
         color: var(--white);
-        background-image: url("protocol/assets/europe-ri-map.png");
+        background-image: url("../assets/images/europe-ri-map.png");
         background-position: center;
         background-size: cover;
       }
@@ -729,7 +729,7 @@
     <header class="hero">
       <div class="hero-inner">
         <div class="topline">
-          <span>Presentation report | prepared from local project files | 28 April 2026</span>
+          <span>Presentation report | prepared from local project files | 29 April 2026</span>
           <nav aria-label="Report navigation">
             <a href="#how">How it works</a>
             <a href="#findings">Findings</a>
@@ -745,17 +745,18 @@
           adjacent regulators, public archives, annual reports, and gaps.
         </p>
         <div class="hero-actions" aria-label="Useful project links">
-          <a class="primary" href="index.html">Open the map app</a>
+          <a class="primary" href="../index.html">Open the map app</a>
           <a href="project-overview.html">Open project overview</a>
-          <a href="protocol/index.html">Open protocol</a>
-          <a href="CASE-FILE-WORKFLOW.md">Open case-file workflow</a>
+          <a href="../protocol/index.html">Open protocol</a>
+          <a href="../docs/workflows/CASE-FILE-WORKFLOW.md">Open case-file workflow</a>
+          <a href="../docs/plans/NEXT-PHASE-QUALITY-PLAN.md">Open quality plan</a>
         </div>
 
         <div class="hero-metrics" aria-label="Current headline metrics">
-          <div><strong data-metric="countries">47</strong><span>country records represented in the app</span></div>
+          <div><strong data-metric="countries">49</strong><span>country records represented in the app</span></div>
           <div><strong data-metric="deep">40</strong><span>country records labelled deep dossier drafted</span></div>
           <div><strong data-metric="transparency">35</strong><span>jurisdictions in the transparency layer</span></div>
-          <div><strong>1311</strong><span>source-registry entries in the working corpus</span></div>
+          <div><strong>1370</strong><span>source-registry entries in the working corpus</span></div>
         </div>
       </div>
     </header>
@@ -790,7 +791,7 @@
           <div class="metric-card"><strong data-metric="boundaries">47</strong><span>country records with boundary-lane mapping</span></div>
         </div>
         <p class="data-warning" id="data-warning">
-          The live data files did not load, so the page is showing the embedded headline figures from 28 April 2026.
+          The live data files did not load, so the page is showing the embedded headline figures from 29 April 2026.
         </p>
       </section>
 
@@ -876,7 +877,7 @@
             <h3>What makes a deep dossier</h3>
             <p>
               A deep dossier has a source backbone, system map, network layers, committee directory, boundary map, timeline, and explicit transparency assessment.
-              The current corpus has moved from overview extraction into committee-and-case-file discovery, which is where the strongest comparative findings are emerging.
+              The current corpus has moved from coverage and case-file discovery into quality consolidation, where the strongest work is source currency, ENRIO comparison, code mapping, committee normalization, and repository indexing.
             </p>
             <p>
               The approach also makes uncertainty usable. "No public case archive identified" is not a failure of the profile; it is a finding about public accountability.
@@ -973,8 +974,8 @@
           <article class="finding">
             <h3>6. The project is moving from coverage to calibration.</h3>
             <p>
-              The first job was to cover the map. The current job is to refine the method: route scope, archive scope, publication owner, accessibility, retention, public data elements,
-              outcome maturity, and the difference between aggregate monitoring and case-file publication.
+              The first job was to cover the map and complete case-file passes for the deep dossiers. The current job is quality consolidation: source currency,
+              ENRIO cross-checking, code-of-conduct mapping, committee-directory normalization, repository indexing, and clear missingness notes.
             </p>
           </article>
         </div>
@@ -1038,27 +1039,28 @@
           <div class="list-box">
             <h3>Already substantial</h3>
             <ul>
-              <li>47 app country records</li>
+              <li>49 app country records</li>
               <li>40 deep dossiers</li>
               <li>40 readable overview documents represented</li>
               <li>35 transparency-layer entries</li>
-              <li>Committee-and-case-file workflow tested across 40 countries</li>
+              <li>Committee-and-case-file workflow completed across all 40 deep dossiers</li>
             </ul>
           </div>
           <div class="list-box">
             <h3>Known gaps</h3>
             <ul id="gap-list">
-              <li>Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, and Malta need formal overview documents.</li>
-              <li>Monaco, San Marino, and Vatican City have data folders but no app profiles yet.</li>
-              <li>Several dossiers still need wider institutional annual-report and committee-output sweeps.</li>
+              <li>Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco, and San Marino need formal overview documents.</li>
+              <li>Vatican City has a data folder but no app profile yet.</li>
+              <li>Several dossiers still need source-current checks, ENRIO cross-checks, code-of-conduct mapping, and wider institutional annual-report or committee-output sweeps.</li>
             </ul>
           </div>
           <div class="list-box">
             <h3>Next methodological work</h3>
             <ul>
+              <li>Run source-currency checks for laws, codes, procedures, annual reports, and boundary registers.</li>
+              <li>Cross-check ENRIO country reports and current ENRIO membership against the dossiers.</li>
+              <li>Normalize committee, office, ombudsperson, funder, and institutional route directories.</li>
               <li>Index case-publication archives by route, outcome, year, and public data fields.</li>
-              <li>Separate handling body, final decision-maker, and publication owner.</li>
-              <li>Code restricted, unstable, inaccessible, or no-publication evidence explicitly.</li>
             </ul>
           </div>
         </div>
@@ -1076,11 +1078,11 @@
             <h3>Suggested talk track</h3>
             <ol>
               <li>Open with the premise: research integrity systems are visible unevenly, and visibility is itself a governance feature.</li>
-              <li>Show the map and country list in <a href="index.html">index.html</a>.</li>
+              <li>Show the map and country list in <a href="../index.html">index.html</a>.</li>
               <li>Open one structured case-publication system, such as the Netherlands, Denmark, Finland, Sweden, or Ukraine.</li>
               <li>Contrast it with a distributed or low-publication system, such as Kosovo, Iceland, Malta, or Greece.</li>
               <li>Explain why boundary lanes must stay separate: bioethics, QA, animal research, data protection, IP, and open science do not equal misconduct handling.</li>
-              <li>Close with the next phase: finalize missing overviews, widen final sweeps, and standardize route-level case-file coding.</li>
+              <li>Close with the next phase: raise the corpus to top-tier quality through current-source checks, ENRIO comparison, code-of-conduct mapping, committee-directory normalization, repository indexing, and missing overview completion.</li>
             </ol>
           </div>
 
@@ -1126,7 +1128,7 @@
           </article>
           <article class="risk">
             <h3>Ongoing source collection</h3>
-            <p>Several countries still need final sweeps for institutional annual reports, public committee outputs, funder consequences, and boundary-lane separation.</p>
+            <p>Several countries still need source-current checks, ENRIO cross-checks, code-of-conduct mapping, institutional annual-report sweeps, public committee-output checks, funder consequence reviews, and boundary-lane separation.</p>
           </article>
           <article class="risk">
             <h3>No quality ranking</h3>
@@ -1141,18 +1143,19 @@
 
       <footer class="footer">
         <p>
-          Prepared from the local LERU map pilot files on 28 April 2026. Core files:
-          <a href="data/countries.js">data/countries.js</a>,
-          <a href="data/transparency.js">data/transparency.js</a>,
-          <a href="data/source-registry.csv">data/source-registry.csv</a>,
-          <a href="project-overview.html">project-overview.html</a>, and
-          <a href="CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a>.
+          Prepared from the local LERU map pilot files on 29 April 2026. Core files:
+          <a href="../data/countries.js">data/countries.js</a>,
+          <a href="../data/transparency.js">data/transparency.js</a>,
+          <a href="../data/source-registry.csv">data/source-registry.csv</a>,
+          <a href="project-overview.html">project-overview.html</a>,
+          <a href="../docs/workflows/CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a>, and
+          <a href="../docs/plans/NEXT-PHASE-QUALITY-PLAN.md">NEXT-PHASE-QUALITY-PLAN.md</a>.
         </p>
       </footer>
     </main>
 
-    <script src="data/countries.js"></script>
-    <script src="data/transparency.js"></script>
+    <script src="../data/countries.js"></script>
+    <script src="../data/transparency.js"></script>
     <script>
       (() => {
         const countries = Array.isArray(window.COUNTRY_DATA) ? window.COUNTRY_DATA : [];
@@ -1263,8 +1266,8 @@
 
         const items = [
           `${overviewGaps.join(", ")} need formal overview documents.`,
-          "Monaco, San Marino, and Vatican City have data folders but no app profiles yet.",
-          "Several dossiers still need wider institutional annual-report and committee-output sweeps."
+          "Vatican City has a data folder but no app profile yet.",
+          "Several dossiers still need source-current checks, ENRIO cross-checks, code-of-conduct mapping, and wider institutional annual-report or committee-output sweeps."
         ];
 
         gapList.replaceChildren(

@@ -6,7 +6,7 @@ Use it when a country already has a stable dossier, or when a final sweep needs 
 
 ## Why This Pass Exists
 
-As of 28 April 2026:
+As of 29 April 2026:
 
 - the app contains 49 country records
 - 40 of those records are already labelled `Deep dossier drafted`
@@ -604,7 +604,7 @@ When the sweep is mature enough:
 - tighten `summary`, `dataSignals` and `nextFocus`
 - add the strongest public sources to `sourceLinks`
 - add substantial new sources to `data/source-registry.csv`
-- update `project-overview.html` only when the country's next action has genuinely changed
+- update `reports/project-overview.html` only when the country's next action has genuinely changed
 
 ## Search Order
 
@@ -792,9 +792,9 @@ Completed pilots:
 
 Next targeted pilots:
 
-No fixed next pilot is pinned after North Macedonia. Choose the next target from countries whose current final-sweep notes still ask for committee coverage, decision visibility, institutional annual reports or boundary-lane separation.
+All 40 current deep dossiers have now completed this workflow. Use `docs/plans/NEXT-PHASE-QUALITY-PLAN.md` for the next phase of source-current, ENRIO-aware, code-of-conduct-aware and committee-directory consolidation.
 
-Then widen to countries whose current final-sweep notes already ask for more committee coverage or decision visibility, such as Portugal, Germany, Greece, Estonia, Turkey, Slovakia, Moldova, Hungary follow-up extraction and Ukraine's post-transition NAQA/institutional outputs.
+Further committee-and-case-file work should now be framed as follow-up extraction within the quality-consolidation phase, for example indexing already found repositories by year, outcome, public fields and route owner.
 
 ## After A Case-File Pass
 

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Research Integrity Systems in Europe</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
     <header class="site-header">
@@ -13,6 +13,7 @@
         <h1>Research integrity systems in Europe</h1>
       </div>
       <div class="header-actions">
+        <a href="#timeline">Timeline</a>
         <a href="#country-list">Country list</a>
         <a href="#country-detail">Country detail</a>
       </div>
@@ -34,52 +35,124 @@
         </div>
       </section>
 
-      <section class="workspace">
-        <section class="map-panel" aria-labelledby="map-title">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Europe view</p>
-              <h2 id="map-title">Pilot coverage</h2>
-            </div>
-            <div class="legend" aria-label="Map legend">
-              <span><i class="legend-system"></i> In system</span>
-              <span><i class="legend-context"></i> Context</span>
-            </div>
-          </div>
+      <nav class="view-tabs" aria-label="Map views">
+        <button class="view-tab is-active" id="system-view-tab" type="button" data-view="system" aria-controls="system-view" aria-selected="true">System map</button>
+        <button class="view-tab" id="timeline-view-tab" type="button" data-view="timeline" aria-controls="timeline-view" aria-selected="false">Development timeline</button>
+      </nav>
 
-          <div class="map-shell">
-            <svg id="europe-map" role="img" aria-label="Europe map with countries in the research integrity system"></svg>
-          </div>
+      <div class="view-pane" id="system-view">
+        <section class="workspace">
+          <section class="map-panel" aria-labelledby="map-title">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Europe view</p>
+                <h2 id="map-title">Pilot coverage</h2>
+              </div>
+              <div class="legend" aria-label="Map legend">
+                <span><i class="legend-system"></i> In system</span>
+                <span><i class="legend-context"></i> Context</span>
+              </div>
+            </div>
 
-          <p class="source-note">
-            Map geometry derived from
-            <a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Natural Earth</a>.
-          </p>
+            <div class="map-shell">
+              <svg id="europe-map" role="img" aria-label="Europe map with countries in the research integrity system"></svg>
+            </div>
+
+            <p class="source-note">
+              Map geometry derived from
+              <a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Natural Earth</a>.
+            </p>
+          </section>
+
+          <aside class="detail-panel" id="country-detail" aria-live="polite"></aside>
         </section>
 
-        <aside class="detail-panel" id="country-detail" aria-live="polite"></aside>
-      </section>
+        <section class="dossier-panel" id="country-dossier" aria-live="polite" hidden></section>
 
-      <section class="dossier-panel" id="country-dossier" aria-live="polite" hidden></section>
-
-      <section class="list-panel" id="country-list" aria-labelledby="list-title">
-        <div class="panel-heading">
-          <div>
-            <p class="eyebrow">Overview</p>
-            <h2 id="list-title">Countries</h2>
+        <section class="list-panel" id="country-list" aria-labelledby="list-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2 id="list-title">Countries</h2>
+            </div>
+            <label class="search-box">
+              <span>Search</span>
+              <input id="country-search" type="search" placeholder="Country, actor, document type">
+            </label>
           </div>
-          <label class="search-box">
-            <span>Search</span>
-            <input id="country-search" type="search" placeholder="Country, actor, document type">
-          </label>
+          <div class="country-grid" id="country-grid"></div>
+        </section>
+      </div>
+
+      <section class="timeline-view view-pane" id="timeline-view" aria-labelledby="timeline-title" hidden>
+        <div class="timeline-control-panel">
+          <div>
+            <p class="eyebrow">Development timeline</p>
+            <h2 id="timeline-title">Research integrity over time</h2>
+          </div>
+          <div class="timeline-controls" aria-label="Timeline controls">
+            <button class="card-action primary-action" id="timeline-play" type="button">Play</button>
+            <button class="card-action secondary-action" id="timeline-prev" type="button">Prev</button>
+            <button class="card-action secondary-action" id="timeline-next" type="button">Next</button>
+            <label>
+              <span>Speed</span>
+              <select id="timeline-speed">
+                <option value="1200">Calm</option>
+                <option value="750" selected>Normal</option>
+                <option value="350">Fast</option>
+              </select>
+            </label>
+            <label>
+              <span>Category</span>
+              <select id="timeline-category"></select>
+            </label>
+            <label>
+              <span>Lane</span>
+              <select id="timeline-lane">
+                <option value="all">All lanes</option>
+                <option value="core">Core RI</option>
+                <option value="boundary">Boundary regimes</option>
+              </select>
+            </label>
+            <label class="timeline-search-box">
+              <span>Search</span>
+              <input id="timeline-search" type="search" placeholder="Event, actor, source">
+            </label>
+            <button class="card-action secondary-action" id="timeline-reset" type="button">Reset</button>
+          </div>
         </div>
-        <div class="country-grid" id="country-grid"></div>
+
+        <section class="timeline-workspace">
+          <div class="timeline-map-panel">
+            <div class="timeline-map-header">
+              <div>
+                <p class="eyebrow">Timeline map</p>
+                <h3 id="timeline-year-label">Year</h3>
+              </div>
+              <div class="timeline-stat-row" id="timeline-stats"></div>
+            </div>
+            <div class="map-shell timeline-map-shell">
+              <svg id="timeline-map" role="img" aria-label="Europe map with timeline events"></svg>
+            </div>
+            <div class="timeline-slider-row">
+              <input id="timeline-year-range" type="range" min="1900" max="2026" value="2026" step="1" aria-label="Timeline year">
+              <output id="timeline-year-output" for="timeline-year-range">2026</output>
+            </div>
+            <div class="timeline-histogram" id="timeline-histogram" aria-label="Timeline event density by year"></div>
+            <div class="timeline-category-legend" id="timeline-legend" aria-label="Timeline category legend"></div>
+            <p class="source-note">
+              The timeline map shows recorded dossier events by year. It does not rank country maturity.
+            </p>
+          </div>
+
+          <aside class="timeline-event-panel" id="timeline-event-panel" aria-live="polite"></aside>
+        </section>
       </section>
     </main>
 
     <script src="data/europe-map.js"></script>
     <script src="data/countries.js"></script>
     <script src="data/transparency.js"></script>
-    <script src="app.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

@@ -50596,12 +50596,13 @@ window.COUNTRY_DATA = [
       "The funding-assurance layer is wider than UKRI: Research England, Medr, SFC and DfE NI each make the Concordat visible through grant conditions, assurance returns, annual statement links or named contact routes.",
       "Charitable funders add a strong confidential-reporting layer: Wellcome and CRUK expect host organisations to notify formal investigations, provide updates and share final investigation information where the case links to their funding.",
       "Public misconduct visibility usually appears through institutional annual statements rather than full person-level case files; King's shows aggregate tables, Oxford shows anonymized numbered allegations, and Imperial shows narrative case learning.",
+      "The 29 April 2026 quality pass expanded the annual-statement seed directory with Cambridge, UCL, Manchester, Nottingham, Warwick, Sheffield and Glasgow, confirming that the annual-statement corridor is broader than the first pilot sample.",
       "Four-nation institutional comparison should use roles and functions rather than one title: Oxford, Edinburgh, Cardiff and Queen's Belfast show the same annual-statement logic with different local governance names.",
       "Health, clinical, animal, fertility/embryology, data, trusted research, open research, researcher development, public engagement and publication ethics are adjacent regimes that shape integrity but should not be collapsed into one misconduct route.",
       "Boundary regimes such as HRA research summaries, ASRU non-compliance reporting and HFEA licence decisions can expose richer project or case-like fields than the general RI route, but they are not general misconduct archives."
     ],
     nextFocus:
-      "Committee-and-case-file pilot and overview reconciliation completed. Next build a broader national institutional directory from annual research integrity statements and named-contact pages, then add a funder-by-funder reporting matrix and a devolved health, REC, AWERB and university-research-ethics map for England, Scotland, Wales and Northern Ireland.",
+      "Committee-and-case-file pilot, overview reconciliation and first quality-consolidation pilot completed. Next bulk-index the UK annual-statement directory by year, institution, nation and depth category; extract misconduct tables from the expanded seed set; widen government, independent research organisation, NHS, charity and cultural-institution statements; and deepen AWERB and university research-ethics examples.",
     documents: [
       {
         label: "Overview United Kingdom.docx",
@@ -50849,9 +50850,9 @@ window.COUNTRY_DATA = [
         "No national general misconduct decision archive. Publication runs through employer annual statements, synthetic UKRIO learning material, funder policy/assurance pages and boundary-regime registers or decision lists.",
       format:
         "Official web hubs, annual-statement PDFs, statement hubs, synthetic case-study PDFs, policy pages, searchable research-summary database, GOV.UK annual report and specialist decision list",
-      sourceDate: "2026-04-23",
+      sourceDate: "2026-04-29",
       keyNote:
-        "The UK pilot shows a decentralized annual-statement corridor: the public record usually reports named contacts, allegation counts, categories, anonymized rows or narrative lessons rather than full misconduct files. UKRIO case studies are synthetic, UKCORI analyses statements, UKRI and devolved funders assure compliance, Wellcome and CRUK create confidential funder-reporting duties, and HRA/ASRU/HFEA publish boundary records that must be coded separately.",
+        "The UK pilot shows a decentralized annual-statement corridor: the public record usually reports named contacts, allegation counts, categories, anonymized rows or narrative lessons rather than full misconduct files. The 29 April 2026 quality pass confirmed the 2025 Concordat/current-source baseline, added ENRIO as a secondary cross-check and expanded the institutional annual-statement seed directory. UKRIO case studies are synthetic, UKCORI analyses statements, UKRI and devolved funders assure compliance, Wellcome and CRUK create confidential funder-reporting duties, and HRA/ASRU/HFEA publish boundary records that must be coded separately.",
       resources: [
         {
           label: "UKCORI analysis of annual research integrity statements 2025",
@@ -51007,7 +51008,7 @@ window.COUNTRY_DATA = [
     },
     dossierDetails: {
       readingGuide:
-        "Read the United Kingdom as a concordat-and-employer model rather than as a central national case-handling model. The national layer sets expectations, gives advice, coordinates evidence and creates funder assurance, but concrete allegations normally enter through the research employer. Annual public statements, named contacts and local procedures are therefore not side documents; they are the operational map of the system. The added Overview United Kingdom.docx sharpens this into a UK-wide core plus devolved assurance model: the Concordat, UKCORI and UKRIO are UK-wide, while Research England, Medr, SFC and DfE NI make compliance visible through funding and assurance routes. The 23 April 2026 case-file pilot adds a specific caution: UK transparency is strongest as an annual-statement corridor and in boundary registers, not as one national archive of full misconduct case files.",
+        "Read the United Kingdom as a concordat-and-employer model rather than as a central national case-handling model. The national layer sets expectations, gives advice, coordinates evidence and creates funder assurance, but concrete allegations normally enter through the research employer. Annual public statements, named contacts and local procedures are therefore not side documents; they are the operational map of the system. The added Overview United Kingdom.docx sharpens this into a UK-wide core plus devolved assurance model: the Concordat, UKCORI and UKRIO are UK-wide, while Research England, Medr, SFC and DfE NI make compliance visible through funding and assurance routes. The 23 April 2026 case-file pilot adds a specific caution: UK transparency is strongest as an annual-statement corridor and in boundary registers, not as one national archive of full misconduct case files. The 29 April 2026 quality pass keeps that conclusion but confirms the 2025 Concordat as the current baseline, adds ENRIO as a secondary cross-check and expands the annual-statement seed directory.",
       networkExtent:
         "The UK network starts with the Concordat's five principles and five commitments, UKCORI hosting and RICS review, and UKRIO's guidance corpus. It runs through UKRI and Research England policy, devolved assurance by Medr, SFC and DfE NI, charitable-funder requirements from Wellcome and CRUK, institutional research integrity offices, named senior roles, first points of contact, advisors, champions, inquiry panels and annual statements, and then into boundary regimes for health and social care research, clinical trials, animal research, fertility/embryology, data, trusted research, open research, publication ethics, researcher development, public engagement and research assessment. It ends where institutional investigation, funder assurance or specialist regulatory approval determines the next action; there is no single national misconduct regulator that takes over all cases.",
       systemMap: [
@@ -51097,7 +51098,7 @@ window.COUNTRY_DATA = [
         summary:
           "The UK committee directory is best read as a route directory and annual-statement corridor. National bodies set expectations, coordinate evidence or advise; funders assure and can sanction within grants; employers investigate and publish statements; and specialist ethics/regulatory bodies handle particular research types with their own project or decision records.",
         methodology:
-          "This UK committee-and-case-file pass starts from the local source bundle and the new Overview United Kingdom.docx, then anchors the national map in official UKCORI, UKRIO, UKRI, Research England, Medr, SFC, DfE NI, Wellcome, CRUK, HRA, GOV.UK, HFEA, King's, Oxford, Edinburgh, Cardiff, Queen's Belfast and Imperial sources. The main coding rule is to separate real misconduct case publication from annual-statement aggregates, anonymized numbered allegations, narrative case learning, synthetic UKRIO cases, confidential funder notification and boundary-regime project or licence records.",
+          "This UK committee-and-case-file pass starts from the local source bundle and the new Overview United Kingdom.docx, then anchors the national map in official UKCORI, UKRIO, UKRI, Research England, Medr, SFC, DfE NI, Wellcome, CRUK, Royal Society, HRA, GOV.UK, HFEA, ENRIO, King's, Oxford, Imperial, Cambridge, UCL, Manchester, Nottingham, Warwick, Sheffield, Glasgow, Edinburgh, Cardiff and Queen's Belfast sources. The main coding rule is to separate real misconduct case publication from annual-statement aggregates, anonymized numbered allegations, narrative case learning, synthetic UKRIO cases, confidential funder notification and boundary-regime project or licence records.",
         groups: [
           {
             title: "National framework, advisory and stewardship layer",
@@ -51654,6 +51655,65 @@ window.COUNTRY_DATA = [
                   "Representative Northern Ireland route.",
                   "Annual statements are visible from 2013-2014 onward.",
                   "Shows the same Concordat function under different local role titles."
+                ]
+              },
+              {
+                institution: "Expanded annual-statement directory seed",
+                committee: "Institutional annual research-integrity statement routes",
+                category: "Institutional annual statement directory",
+                scope:
+                  "Selected UK research employers across England, Scotland, Wales and Northern Ireland",
+                since: "Quality pass added 29 April 2026",
+                role:
+                  "Records the first expanded directory seed for later structured extraction. These sources show that the UK annual-statement corridor is broader than the original King's, Oxford and Imperial sample and should be indexed by statement year, organisation type, nation, named contacts, allegation counts, investigation counts, allegation categories, anonymization level and narrative learning.",
+                links: [
+                  {
+                    label: "Cambridge research integrity reports",
+                    type: "Official statement hub",
+                    url: "https://www.cam.ac.uk/research/integrity/reports"
+                  },
+                  {
+                    label: "Cambridge research misconduct procedure",
+                    type: "Official procedure page",
+                    url: "https://www.cam.ac.uk/research/integrity/research-misconduct"
+                  },
+                  {
+                    label: "UCL annual statement on research integrity 2023-2024",
+                    type: "Official PDF",
+                    url: "https://www.ucl.ac.uk/research-innovation-services/sites/research_innovation_services/files/ucl_research_integrity_annual_statement_2023-2024.pdf"
+                  },
+                  {
+                    label: "Manchester annual statement 2024/25",
+                    type: "Official PDF",
+                    url: "https://documents.manchester.ac.uk/display.aspx?DocID=76849"
+                  },
+                  {
+                    label: "Nottingham annual statement 2025",
+                    type: "Official PDF",
+                    url: "https://www.nottingham.ac.uk/research/documents/ethics-and-integrity/2025-uon-annual-statement-on-research-integrity.pdf"
+                  },
+                  {
+                    label: "Warwick annual statement 2024-25",
+                    type: "Official PDF",
+                    url: "https://warwick.ac.uk/services/ris/research-integrity/annual-statements/research_integrity_eleventh_annual_statement_2024-25.pdf"
+                  },
+                  {
+                    label: "Sheffield annual statement 2025",
+                    type: "Official PDF",
+                    url: "https://sheffield.ac.uk/sites/default/files/2026-01/Annual-statement-on-research-integrity%20UoS%202025.pdf"
+                  },
+                  {
+                    label: "Glasgow annual statement hub",
+                    type: "Official statement hub",
+                    url: "https://www.gla.ac.uk/myglasgow/ris/researchintegrity/misconduct/annualstatementonresearchintegrity/"
+                  }
+                ],
+                signals: [
+                  "This is a seed directory, not a completed national dataset.",
+                  "Cambridge exposes a 2024-2025 report hub and a misconduct procedure updated for allegations received from 12 February 2026.",
+                  "UCL, Manchester, Nottingham, Warwick and Sheffield give current large-HEI extraction targets for misconduct tables, named contacts, training and research-culture signals.",
+                  "Glasgow adds a long-run Scottish statement hub with a current 2024-2025 statement and older statements back to 2014-2015.",
+                  "Depth must be coded per statement: named contacts, aggregate counts, allegation categories, anonymized rows, narrative learning and full decisions are different visibility levels."
                 ]
               },
               {
@@ -52786,11 +52846,27 @@ window.COUNTRY_DATA = [
           note: "Key UK pilot source for statement availability, misconduct-reporting categories and uneven comparability."
         },
         {
+          label: "Review of annual statements on research integrity 2025",
+          type: "Official report PDF",
+          date: "July 2025",
+          scope: "HEI, government and independent research-organisation annual statements",
+          url: "https://ukcori.org/wp-content/uploads/2025/09/Review-of-annual-statements-on-research-integrity-2025-Full-report.pdf",
+          note: "Quality-pass source for statement availability, template uptake and bulk annual-statement methodology."
+        },
+        {
           label: "UKCORI raising concerns",
           type: "Official boundary statement",
           scope: "National committee non-case-handling boundary",
           url: "https://ukcori.org/support/",
           note: "States that UKCORI cannot investigate or comment on individual cases and is not a regulator or approved whistleblowing body."
+        },
+        {
+          label: "ENRIO United Kingdom country report",
+          type: "Secondary comparison page",
+          date: "reviewed and updated in 2024",
+          scope: "UK research-integrity landscape comparison",
+          url: "https://www.enrio.eu/country-reports/united-kingdom/",
+          note: "Confirms UKRIO advisory status, Concordat baseline, employer investigation responsibility and absence of a national misconduct regulator."
         },
         {
           label: "UKRIO role and remit",
@@ -52902,6 +52978,13 @@ window.COUNTRY_DATA = [
           scope: "CRUK-funded host institutions and grants",
           url: "https://www.cancerresearchuk.org/for-researchers/apply-for-and-manage-your-funding/research-policies-and-guidance/guidelines-for-scientific-conduct",
           note: "Host institutions investigate; CRUK expects notification and can apply funding sanctions."
+        },
+        {
+          label: "Royal Society grants policies and positions",
+          type: "Official funder policy page",
+          scope: "Royal Society award holders and host organisations",
+          url: "https://royalsociety.org/grants/about-grants/",
+          note: "Quality-pass source for learned-society funder expectations; host organisations investigate and report allegations."
         },
         {
           label: "HRA UK Policy Framework for Health and Social Care Research",
@@ -53055,6 +53138,70 @@ window.COUNTRY_DATA = [
           scope: "Northern Ireland annual statements of compliance",
           url: "https://www.qub.ac.uk/Research/Governance-ethics-and-integrity/Research-integrity/AnnualStatements/",
           note: "Annual statements visible from 2013-2014 onward."
+        },
+        {
+          label: "Cambridge research integrity reports",
+          type: "Official institutional statement hub",
+          date: "2024-2025 latest report",
+          scope: "Institutional annual research-integrity reports",
+          url: "https://www.cam.ac.uk/research/integrity/reports",
+          note: "Quality-pass seed source with anonymized information about how allegations were assessed and investigated."
+        },
+        {
+          label: "Cambridge research misconduct procedure",
+          type: "Official institutional procedure page",
+          date: "updated procedure approved 12 February 2026",
+          scope: "Institutional research-misconduct route",
+          url: "https://www.cam.ac.uk/research/integrity/research-misconduct",
+          note: "Current procedure applies to allegations received from 12 February 2026."
+        },
+        {
+          label: "UCL annual statement on research integrity 2023-2024",
+          type: "Official institutional PDF",
+          date: "2023-2024",
+          scope: "Institutional annual statement",
+          url: "https://www.ucl.ac.uk/research-innovation-services/sites/research_innovation_services/files/ucl_research_integrity_annual_statement_2023-2024.pdf",
+          note: "Quality-pass seed source for named contacts, code, ethics reform and Research Misconduct Committee annual analysis."
+        },
+        {
+          label: "Manchester annual statement on research integrity 2024/25",
+          type: "Official institutional PDF",
+          date: "2024-2025",
+          scope: "Institutional annual statement",
+          url: "https://documents.manchester.ac.uk/display.aspx?DocID=76849",
+          note: "Quality-pass seed source for a later misconduct-table extraction."
+        },
+        {
+          label: "Nottingham annual statement on research integrity 2025",
+          type: "Official institutional PDF",
+          date: "2025",
+          scope: "Institutional annual statement",
+          url: "https://www.nottingham.ac.uk/research/documents/ethics-and-integrity/2025-uon-annual-statement-on-research-integrity.pdf",
+          note: "Quality-pass seed source for current training, code and integrity-governance evidence."
+        },
+        {
+          label: "Warwick annual statement on research integrity 2024-25",
+          type: "Official institutional PDF",
+          date: "2024-2025",
+          scope: "Institutional annual statement",
+          url: "https://warwick.ac.uk/services/ris/research-integrity/annual-statements/research_integrity_eleventh_annual_statement_2024-25.pdf",
+          note: "Quality-pass seed source with a visible misconduct allegation table."
+        },
+        {
+          label: "Sheffield annual statement on research integrity 2025",
+          type: "Official institutional PDF",
+          date: "2025",
+          scope: "Institutional annual statement",
+          url: "https://sheffield.ac.uk/sites/default/files/2026-01/Annual-statement-on-research-integrity%20UoS%202025.pdf",
+          note: "Quality-pass seed source for concern-raising, policy and health/social-care governance links."
+        },
+        {
+          label: "Glasgow annual statement on research integrity hub",
+          type: "Official institutional statement hub",
+          date: "2024-2025 latest statement",
+          scope: "Scottish institutional annual statement corridor",
+          url: "https://www.gla.ac.uk/myglasgow/ris/researchintegrity/misconduct/annualstatementonresearchintegrity/",
+          note: "Quality-pass seed source with current and archived annual statements back to 2014-2015."
         },
         {
           label: "King's Code of Good Conduct in Research",
