@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research Integrity Systems in Europe</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">LERU map pilot</p>
+        <h1>Research integrity systems in Europe</h1>
+      </div>
+      <div class="header-actions">
+        <a href="#country-list">Country list</a>
+        <a href="#country-detail">Country detail</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-strip" aria-label="Collection summary">
+        <div>
+          <strong id="country-count">0</strong>
+          <span>countries</span>
+        </div>
+        <div>
+          <strong id="document-count">0</strong>
+          <span>source files</span>
+        </div>
+        <div>
+          <strong id="overview-count">0</strong>
+          <span>country overviews</span>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <section class="map-panel" aria-labelledby="map-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Europe view</p>
+              <h2 id="map-title">Pilot coverage</h2>
+            </div>
+            <div class="legend" aria-label="Map legend">
+              <span><i class="legend-system"></i> In system</span>
+              <span><i class="legend-context"></i> Context</span>
+            </div>
+          </div>
+
+          <div class="map-shell">
+            <svg id="europe-map" role="img" aria-label="Europe map with countries in the research integrity system"></svg>
+          </div>
+
+          <p class="source-note">
+            Map geometry derived from
+            <a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Natural Earth</a>.
+          </p>
+        </section>
+
+        <aside class="detail-panel" id="country-detail" aria-live="polite"></aside>
+      </section>
+
+      <section class="dossier-panel" id="country-dossier" aria-live="polite" hidden></section>
+
+      <section class="list-panel" id="country-list" aria-labelledby="list-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2 id="list-title">Countries</h2>
+          </div>
+          <label class="search-box">
+            <span>Search</span>
+            <input id="country-search" type="search" placeholder="Country, actor, document type">
+          </label>
+        </div>
+        <div class="country-grid" id="country-grid"></div>
+      </section>
+    </main>
+
+    <script src="data/europe-map.js"></script>
+    <script src="data/countries.js"></script>
+    <script src="data/transparency.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

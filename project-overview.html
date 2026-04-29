@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Overview | Research Integrity Systems in Europe</title>
+  <style>
+    :root {
+      --ink: #202625;
+      --muted: #5f6b67;
+      --line: #d6ded9;
+      --paper: #ffffff;
+      --wash: #f4f7f5;
+      --teal: #0b6b5f;
+      --teal-soft: #e4f2ef;
+      --coral: #bf3f4a;
+      --gold: #b5962f;
+      --green: #4f7a35;
+      --shadow: 0 12px 32px rgba(32, 38, 37, 0.08);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--wash);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.58;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: var(--teal);
+      text-underline-offset: 3px;
+    }
+
+    .page-shell {
+      display: grid;
+      grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 28px 22px;
+      overflow-y: auto;
+      background: #eef3f1;
+      border-right: 1px solid var(--line);
+    }
+
+    aside h2 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      line-height: 1.25;
+    }
+
+    aside p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    nav {
+      display: grid;
+      gap: 8px;
+    }
+
+    nav a {
+      display: block;
+      padding: 8px 10px;
+      border-radius: var(--radius);
+      color: var(--ink);
+      font-size: 0.94rem;
+      text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background: var(--paper);
+      outline: 2px solid transparent;
+    }
+
+    .hero {
+      padding: 56px min(7vw, 88px) 36px;
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(232, 244, 241, 0.92) 58%, rgba(255, 248, 238, 0.8) 100%),
+        url("protocol/assets/europe-ri-map.png") center right / min(680px, 62vw) auto no-repeat;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--coral);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      line-height: 1.12;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      max-width: 880px;
+      font-size: clamp(2.1rem, 5vw, 4.6rem);
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      font-size: clamp(1.45rem, 2.6vw, 2.35rem);
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 1.12rem;
+    }
+
+    p {
+      max-width: 980px;
+      margin: 0 0 14px;
+    }
+
+    .subtitle {
+      max-width: 880px;
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 9px 14px;
+      border: 1px solid var(--teal);
+      border-radius: var(--radius);
+      background: var(--teal);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      background: var(--paper);
+      color: var(--teal);
+    }
+
+    section {
+      padding: 42px min(7vw, 88px);
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:nth-of-type(even) {
+      background: #fbfcfc;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.04rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 1180px;
+      margin-top: 26px;
+    }
+
+    .stat,
+    .panel,
+    .step,
+    .status-row,
+    .brief-box {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .stat {
+      min-height: 118px;
+      padding: 16px;
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--teal);
+      font-size: clamp(1.65rem, 3vw, 2.4rem);
+      line-height: 1;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      max-width: 1180px;
+      margin-top: 24px;
+    }
+
+    .panel {
+      padding: 20px;
+    }
+
+    .panel p:last-child,
+    .brief-box p:last-child,
+    .status-row p:last-child {
+      margin-bottom: 0;
+    }
+
+    .callout {
+      max-width: 1120px;
+      margin: 24px 0 0;
+      padding: 18px 20px;
+      border: 1px solid #b9d7d2;
+      border-left: 5px solid var(--teal);
+      border-radius: var(--radius);
+      background: var(--teal-soft);
+    }
+
+    .workflow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 1180px;
+      margin-top: 24px;
+      counter-reset: step;
+    }
+
+    .step {
+      min-height: 160px;
+      padding: 18px 14px;
+      box-shadow: none;
+      counter-increment: step;
+    }
+
+    .step::before {
+      content: counter(step);
+      display: grid;
+      width: 32px;
+      height: 32px;
+      margin-bottom: 12px;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--teal);
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .step span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    figure {
+      max-width: 1180px;
+      margin: 26px 0 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      box-shadow: var(--shadow);
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .table-wrap {
+      max-width: 1180px;
+      margin-top: 22px;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    caption {
+      padding: 12px 14px;
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    th,
+    td {
+      padding: 12px 14px;
+      border-top: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eef3f1;
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 3px 8px;
+      border-radius: var(--radius);
+      background: #f0f7f5;
+      color: var(--teal);
+      font-size: 0.84rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .tag.gold {
+      background: #fff7e2;
+      color: #7a5e12;
+    }
+
+    .tag.green {
+      background: #edf5e9;
+      color: var(--green);
+    }
+
+    .tag.coral {
+      background: #faecee;
+      color: #9f2e38;
+    }
+
+    .status-list {
+      display: grid;
+      gap: 12px;
+      max-width: 1120px;
+      margin-top: 24px;
+    }
+
+    .status-row {
+      padding: 18px 20px;
+      box-shadow: none;
+    }
+
+    .status-row strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .brief-box {
+      max-width: 1120px;
+      margin-top: 24px;
+      padding: 22px;
+      background: #fffdf8;
+      border-left: 5px solid var(--gold);
+    }
+
+    ul {
+      max-width: 980px;
+      margin: 14px 0 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 7px;
+    }
+
+    .footer {
+      padding: 28px min(7vw, 88px);
+      color: var(--muted);
+      background: #eef3f1;
+      border-top: 1px solid var(--line);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 1080px) {
+      .page-shell {
+        display: block;
+      }
+
+      aside {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      nav {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .stats,
+      .workflow {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 720px) {
+      .hero,
+      section,
+      .footer {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      nav,
+      .grid,
+      .stats,
+      .workflow {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(232, 244, 241, 0.96) 100%),
+          url("protocol/assets/europe-ri-map.png") center bottom / 100% auto no-repeat;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <aside aria-label="Page navigation">
+      <h2>Project Overview</h2>
+      <p>Briefing page for explaining the LERU map pilot to collaborators and stakeholders.</p>
+      <nav>
+        <a href="#summary">Summary</a>
+        <a href="#product">What It Is</a>
+        <a href="#workflow">How It Works</a>
+        <a href="#progress">Progress</a>
+        <a href="#tracker">Country Tracker</a>
+        <a href="#next">Next Work</a>
+        <a href="#briefing">Short Briefing</a>
+      </nav>
+    </aside>
+
+    <main>
+      <header class="hero">
+        <p class="eyebrow">LERU map pilot</p>
+        <h1>Research Integrity Systems in Europe</h1>
+        <p class="subtitle">A static, source-linked web app and evidence corpus for mapping how European research integrity systems are organized, documented, and made publicly visible.</p>
+        <div class="actions" aria-label="Project links">
+          <a class="button" href="index.html">Open the map app</a>
+          <a class="button secondary" href="protocol/index.html">Open the protocol</a>
+          <a class="button secondary" href="data/extraction-status.md">Read extraction status</a>
+        </div>
+      </header>
+
+      <section id="summary">
+        <h2>Summary</h2>
+        <p class="lead">This project turns scattered national policies, research integrity procedures, public body pages, annual reports, and case-publication routes into a navigable European map. The current pilot combines a browser-based interface with structured country data, local source files, extraction logs, and a source registry.</p>
+        <div class="stats" aria-label="Current project metrics">
+          <div class="stat"><strong>49</strong><span>country records currently shown in the app</span></div>
+          <div class="stat"><strong>40</strong><span>readable country overview DOCX files extracted</span></div>
+          <div class="stat"><strong>194</strong><span>source and document links from country records</span></div>
+          <div class="stat"><strong>1370</strong><span>source-registry entries recorded</span></div>
+          <div class="stat"><strong>35</strong><span>transparency-layer country entries</span></div>
+        </div>
+        <div class="callout">
+          <strong>Core idea.</strong> The map is not only a visual country list. It is a working evidence system: each country profile records governance actors, document categories, extraction signals, next corpus steps, and public transparency information where available.
+        </div>
+      </section>
+
+      <section id="product">
+        <h2>What It Is</h2>
+        <p class="lead">The project has two connected parts: a public-facing static app and a research corpus behind it.</p>
+        <div class="grid">
+          <article class="panel">
+            <h3>The Web App</h3>
+            <p>The main page, <a href="index.html">index.html</a>, displays a Europe map, a searchable country list, country detail panels, and full dossier sections. Users can select a country on the map or in the list, inspect the system profile, open collected files, and follow the recorded next research step.</p>
+          </article>
+          <article class="panel">
+            <h3>The Evidence Corpus</h3>
+            <p>The <a href="data/">data folder</a> contains country overview documents, raw documentation, map data, source logs, app datasets, and the transparency layer. The corpus is designed so the interface can stay simple while the evidence trail remains visible and extendable.</p>
+          </article>
+          <article class="panel">
+            <h3>The Protocol</h3>
+            <p>The separate <a href="protocol/index.html">protocol page</a> describes the planned mapping logic: units of observation, candidate variables, source hierarchy, quality checks, extraction workflow, and future quantitative outputs.</p>
+          </article>
+          <article class="panel">
+            <h3>The Transparency Layer</h3>
+            <p>The transparency dataset asks a narrower question: how national or quasi-national research integrity bodies publish case material, and in what format. It measures public visibility of case handling, not the overall quality of a national misconduct system.</p>
+          </article>
+        </div>
+        <figure>
+          <img src="protocol/assets/europe-ri-map.png" alt="Conceptual map connecting countries, laws, national bodies, institutions, funders, public reports, and source records">
+          <figcaption>Conceptual data model from the protocol: countries are linked to laws, bodies, institutions, funders, public reports, and source records.</figcaption>
+        </figure>
+      </section>
+
+      <section id="workflow">
+        <h2>How It Works</h2>
+        <p class="lead">The project follows a staged extraction workflow. The current app already reflects these stages, while the protocol keeps the research method explicit.</p>
+        <div class="workflow">
+          <div class="step"><strong>Find sources</strong><span>Collect official national, institutional, funder, legal, and reporting sources.</span></div>
+          <div class="step"><strong>Draft overview</strong><span>Synthesize each country into a standard overview with system type, actors, document classes, signals, and next focus.</span></div>
+          <div class="step"><strong>Extract to app</strong><span>Convert the overview into structured JavaScript records for map, list, detail, and dossier views.</span></div>
+          <div class="step"><strong>Add transparency</strong><span>Attach case-publication visibility data and public resource links where the transparency overview covers the country.</span></div>
+          <div class="step"><strong>Deepen dossiers</strong><span>Expand selected countries with system maps, network layers, committee directories, source backbones, and case-file publication routes.</span></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Current data files and roles</caption>
+            <thead>
+              <tr>
+                <th>File or folder</th>
+                <th>Role in the project</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="index.html">index.html</a>, <a href="app.js">app.js</a>, <a href="styles.css">styles.css</a></td>
+                <td>Main static web app: map, search, country detail, dossiers, and links to source files.</td>
+                <td><span class="tag green">Working app</span></td>
+              </tr>
+              <tr>
+                <td><a href="data/countries.js">data/countries.js</a></td>
+                <td>Structured country records used by the app.</td>
+                <td><span class="tag green">49 records</span></td>
+              </tr>
+              <tr>
+                <td><a href="data/transparency.js">data/transparency.js</a></td>
+                <td>Case-publication visibility layer, with default values for countries outside the source scope.</td>
+                <td><span class="tag green">35 entries</span></td>
+              </tr>
+              <tr>
+                <td><a href="CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a></td>
+                <td>Standing workflow for committee-and-case-file pilots, publication-route discovery, and later final sweeps.</td>
+                <td><span class="tag green">Active pilot method</span></td>
+              </tr>
+              <tr>
+                <td><a href="data/source-registry.csv">data/source-registry.csv</a></td>
+                <td>Registry of web and PDF sources used in country notes, overview extraction, and transparency coding.</td>
+                <td><span class="tag green">1370 entries</span></td>
+              </tr>
+              <tr>
+                <td><a href="data/overview-extraction-log.csv">data/overview-extraction-log.csv</a></td>
+                <td>Audit trail for country overview extraction into the app dataset.</td>
+                <td><span class="tag green">40 extracted overviews</span></td>
+              </tr>
+              <tr>
+                <td><a href="protocol/index.html">protocol/index.html</a></td>
+                <td>Method scaffold for a future formal mapping study and data dictionary.</td>
+                <td><span class="tag gold">Working scaffold</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="progress">
+        <h2>Progress So Far</h2>
+        <p class="lead">As of the current project files, the app has moved beyond an initial prototype. It now contains extracted country profiles, source records, transparency scoring, and expanded dossier structures for a subset of countries.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Country record stages in the app</caption>
+            <thead>
+              <tr>
+                <th>Stage</th>
+                <th>Count</th>
+                <th>Countries</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="tag green">Deep dossier drafted</span></td>
+                <td>40</td>
+                <td>Netherlands, Denmark, Finland, Norway, Belgium, Czechia, Latvia, Lithuania, Luxembourg, Switzerland, United Kingdom, Kosovo, Cyprus, Bulgaria, Iceland, Bosnia and Herzegovina, North Macedonia, Serbia, Moldova, Slovakia, Slovenia, Ukraine, Austria, Belarus, Croatia, Estonia, Germany, Greece, Hungary, Italy, Poland, Turkey, Russia, Montenegro, Romania, France, Ireland, Portugal, Spain, Sweden</td>
+              </tr>
+              <tr>
+                <td><span class="tag gold">Expanded overview dossier</span></td>
+                <td>9</td>
+                <td>Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco, San Marino</td>
+              </tr>
+              <tr>
+                <td><span class="tag">Overview drafted</span></td>
+                <td>0</td>
+                <td>None currently</td>
+              </tr>
+              <tr>
+                <td><span class="tag gold">Initial source notes</span></td>
+                <td>0</td>
+                <td>None currently</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="grid">
+          <article class="panel">
+            <h3>Latest Overview Extraction</h3>
+            <p>The latest extraction pass, recorded on 17 April 2026, added eleven newly supplied readable overview countries: Bosnia and Herzegovina, Bulgaria, Cyprus, Iceland, Kosovo, Montenegro, North Macedonia, Romania, Russia, Serbia, and Turkey.</p>
+            <p>North Macedonia and Russia were renamed to the standard <strong>Overview &lt;Country&gt;.docx</strong> pattern before extraction. Romania was extracted after its restored DOCX became readable.</p>
+          </article>
+          <article class="panel">
+            <h3>Dossier Depth</h3>
+            <p>Forty country records currently include mature expanded dossier structures and are explicitly labelled as deep dossiers. Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino now have first expanded app dossiers, but remain outside the deep-dossier count until overview documents and fuller case-output sweeps are complete.</p>
+          </article>
+          <article class="panel">
+            <h3>Transparency Layer</h3>
+            <p>The transparency overview began with the EU-27 plus the United Kingdom, Switzerland, Norway, and Iceland, and the transparency dataset currently contains 35 scored jurisdictions after the Kosovo case-file pass. Current scoring includes 8 structured or stable archive/page systems, 9 fragmented, selective or mixed systems, 11 summary-based or institutional-statement systems, 6 low-publication or procedure-only systems, and 1 country with no national publication route identified.</p>
+          </article>
+          <article class="panel">
+            <h3>Known Corpus Gaps</h3>
+            <p>Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino have first expanded app dossiers but no overview documents yet. The United Kingdom overview has now been added and reconciled into the app dossier. Vatican City has a local data folder but is not yet represented as a country profile in the app.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tracker">
+        <h2>Country Tracker</h2>
+        <p class="lead">This working list tracks how far the data collection has progressed for each country or country folder in the local corpus. The next action column is deliberately practical: it tells us what kind of work is still needed before the country can be considered stable.</p>
+        <div class="callout">
+          <strong>Current focus.</strong> The committee-and-case-file workflow has now been tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia. Bulgaria adds the ministerial-route-plus-institutional-fragments lesson: the national Academic Ethics Committee is a statutory route, but no stable public decision archive was verified; the strongest public case material is institutional annual-report or report-corridor evidence at UNWE and the Institute of Mechanics BAS, with many universities publishing procedures or internal-record rules rather than decisions. Belarus adds the attestation-route-with-metadata-target lesson: VAK is the strongest national consequence route for degree/title, deprivation, restoration and appeal matters, but the live VAK host timed out from this network and the located public layer remains procedure plus dissertation metadata; RCETH exposes a live clinical-trial boundary register, not a misconduct case archive. Iceland adds the statutory-body-with-no-located-archive lesson: Act No. 70/2019 creates the Committee on Good Scientific Practice, opinion routes and an annual-report duty, but no public committee opinion or annual-report archive was located; the clearest public case-like layer is health-research licence and approval visibility, which must stay separate from misconduct publication. Bosnia and Herzegovina adds the competence-layered-micro-publication lesson: no country-wide misconduct archive was located, but HEA accreditation documentation, UNSA Faculty of Electrical Engineering public ethics opinions, UNSA Ethics Council annual-report traces, Mostar approval lists and ALMBIH clinical-trial registers must be coded as separate local, QA or boundary lanes. Kosovo adds the quality-assurance-file-corridor lesson: no national general misconduct archive was located, but KAA publishes decision/report, monitoring, post-accreditation, annual-report and aggregate appeal corridors, while UP supplies isolated institutional ethics-case notices; these must be coded as QA and institutional micro-publication, not a national misconduct archive. North Macedonia adds the QA-corridor-plus-self-evaluation lesson: no national general misconduct archive was located, while AQHE evaluation reports and accreditation decisions, National Council ethics/report documents, UKIM unit self-evaluation snippets and AZLP notices must be kept as QA, member-ethics, institutional micro-publication or data-protection boundary lanes. Albania adds the starter-profile-to-first-dossier lesson: Law No. 80/2015 and NASRI/AKKSHI create a national research and ethics standards frame, but the practical route is institutional ethics councils; ASCAL decisions are a QA corridor, and the strongest public case-material trace found so far is UMT aggregate Ethics Council reporting, not individual misconduct decisions. Andorra now adds the compact-QA-plus-biomedical-boundary lesson: AQUA is the most public decision corridor but remains a higher-education QA and research-quality actor; the University of Andorra exposes research and academic-fraud procedure routes, while the Ministry of Health CEI is a biomedical approval lane, and no general misconduct decision archive was located. Armenia adds the degree-award-plus-institutional-ethics lesson: HESC/Supreme Certifying Committee is the strongest public national degree and title route, ANQA is the public QA file corridor, institutional ethics review is visible at NIH, YSMU, AUA, IMB and YSU, and no general misconduct decision archive was located. Azerbaijan adds the attestation-case-notice lesson: AAK is the strongest national degree/title route and publishes dissertation metadata plus selective plagiarism and court-reversal notices; TKTA remains a QA corridor, and clinical, IP, data, animal and open-science sources are boundary lanes rather than a general misconduct archive. Georgia adds the distributed-reform-plus-QA lesson: national science and academy laws create assessment and policy routes, ETHICS is building integrity policies, officers and board templates, NCEQE publishes QA decisions and registers, and TSU/TSMU/Ilia/EEU/CIU show institutional ethics routes, but no national general misconduct archive was located. Liechtenstein adds the microstate-institutional-route lesson: the national frame approves a very small higher-education system, but public misconduct routes are institutional ombudsperson procedures at the University of Liechtenstein and UFL; Zurich clinical ethics, animal-experiment, data-protection and IP routes are boundary lanes, and no general misconduct decision archive was located. Malta adds the institutional-ethics-plus-QA-corridor lesson: MFHEA publishes quality-assurance reports and outcome decisions, Xjenza Malta manages the R&I policy/funding layer, and the operational integrity routes found so far sit at the University of Malta and MCAST; Health Ethics Committee, Medicines Authority, animal, data, IP and open-science sources are boundary lanes, and no general misconduct decision archive was located. Monaco adds the public-research-plus-biomedical-boundary lesson: CSM is the central public research institution, IUM supplies the main higher-education ethics norm, the biomedical research law creates a consultative ethics and ministerial-control route, and APDP/CCIN, MCIPO, innovation-funding and animal/veterinary sources stay as boundary lanes; no general misconduct decision archive was located. San Marino adds the UniRSM-plus-CSB/CERS lesson: the general route is institutional through UniRSM's Code of Ethics, quality system and professor/researcher discipline regulation, while CSB/CERS supplies a public biomedical ethics and clinical-research corridor and the Data Protection Authority supplies the strongest structured boundary archive; no national general misconduct board, UniRSM misconduct archive or CERS approval register was located. The next phase is to draft the remaining missing overviews, widen final sweeps and decide whether Vatican City should become an app profile.
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Country data-collection status</caption>
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Current level</th>
+                <th>Next action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Albania</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from official law, NASRI/AKKSHI, ASCAL, UT, UMT, UAMD and Elbasan sources. No overview document or public misconduct archive yet. Next draft <strong>Overview Albania.docx</strong>, inspect UT linked PDFs, widen institutional output checks and search AKKSHI/NASRI sanctions or annual reports.</td></tr>
+              <tr><td>Andorra</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from AQUA, UdA, Government research, AR+I, CEI, APDA and OMPA sources. No overview document or public misconduct archive yet. Next draft <strong>Overview Andorra.docx</strong>, inspect AQUA register and appeal outputs, widen UdA and private-HEI integrity checks, search AR+I internal RI policies and verify CEI publication practice.</td></tr>
+              <tr><td>Armenia</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from HESC/Supreme Certifying Committee degree routes, ANQA QA files, HESC grant terms, NIH, YSMU, AUA and IMB ethics routes, YSU originality-control evidence, and clinical, animal, data and IP boundary sources. No overview document or public general misconduct archive yet. Next draft <strong>Overview Armenia.docx</strong>, test HESC refusal/revocation order visibility, locate any current National Centre for Infectious Diseases REC page, widen institutional misconduct and authorship checks, and keep QA and boundary registers separate.</td></tr>
+              <tr><td>Austria</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Austria is now coded as a summary-based annual-report corridor: OeAWI annual reports from 2011 through 2023 are the strongest public case-material source, while FWF publishes annually and institutional pages at Vienna, Medical University of Innsbruck and Salzburg are route, publication-rule or internal-reporting fragments rather than public repositories. Next index OeAWI reports, test FWF annual outputs, search archived institutional case descriptions and widen Fachhochschule/private-university routes.</td></tr>
+              <tr><td>Azerbaijan</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from AAK degree/title attestation routes, dissertation metadata, selective plagiarism and court-reversal notices, TKTA QA files, Azerbaijan Science Foundation, UNEC and other institutional ethics/plagiarism routes, AEM clinical-research evidence, COPAT IP and ASCCA open-science boundary sources. No overview document or comprehensive general misconduct archive yet. Next draft <strong>Overview Azerbaijan.docx</strong>, index AAK decisions, bulletins and news for refusal, deprivation, restoration and appeal cases, widen institutional checks and keep QA and boundary routes separate.</td></tr>
+              <tr><td>Belarus</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Belarus is now coded as a procedure-and-metadata visibility system: VAK is the strongest national consequence route for degree/title, deprivation, restoration and appeal matters, but no public VAK decision archive was verified and the live host timed out from this network; RCETH adds a live clinical-trial boundary register and function page, while journal publication-ethics pages remain editorial routes rather than misconduct files. Next test VAK from a browser or non-blocked network, widen dissertation-council and anti-plagiarism checks, locate a direct laboratory-animal authority page, and keep RCETH plus journal routes separate.</td></tr>
+              <tr><td>Belgium</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Belgium is now coded lane by lane: VCWI annual reports through 2025, KU Leuven and UAntwerpen institutional annual reports, and CSIS/PINDARE FWB procedure visibility without a located public CSIS case-output archive. Next index VCWI reports, extract KU Leuven and UAntwerpen rows, test more Flemish and FWB institutions, monitor CSIS output practice, and keep boundary routes separate.</td></tr>
+              <tr><td>Bosnia and Herzegovina</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Bosnia and Herzegovina is now coded as a distributed competence-layered system with fragmented public micro-publication: no national general misconduct archive was found, but HEA exposes accreditation documentation, UNSA publishes Ethics Council rules/forms and Senate annual-report traces, ETF UNSA publishes ethics opinion PDFs, Mostar has approval-list traces, and ALMBIH plus animal, child-research and data routes are boundary visibility. Next index ETF opinions, locate any full UNSA Ethics Council reports, widen institution checks, harvest HEA documentation and keep clinical/animal/accreditation lanes separate.</td></tr>
+              <tr><td>Bulgaria</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Bulgaria is now coded as summary-based institutional fragments with an access-limited national route: the ministerial Academic Ethics Committee is statutory, but no stable public national decision archive was verified; UNWE publishes an annual report with complaint counts and a plagiarism summary, the Institute of Mechanics BAS publishes ethics-committee reports, and SWU, Trakia, MU Plovdiv, Svishtov and other routes mainly expose procedures, forms, composition or internal archives. Next index any accessible MON reports or decisions, widen institutional annual-report checks, and keep medical/scientific ethics approvals separate from misconduct publication.</td></tr>
+              <tr><td>Croatia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Croatia is now coded as a fragmented legacy-and-institutional publication system: the old Odbor gives public reports and individual opinions, Zagreb gives annual-report statistics, Rijeka gives public statements, while HRZZ and Split remain procedure or planned-reporting lanes without located public case files. Next index the legacy Odbor corpus, widen institutional annual-report checks, monitor National Council minimum principles and keep HALMED, animal, data and IP routes separate.</td></tr>
+              <tr><td>Cyprus</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Cyprus now has a low-publication coding rather than a pure no-publication coding: no national general misconduct archive was found, but CNBC publishes public research-proposal decision/register files for 2020-2023, opinions and annual reports, while CYQAA exposes quality-assurance complaint/report publication lanes. Next index CNBC decision PDFs, sample CYQAA final reports, search Greek institutional decision pages and keep bioethics/QA outputs separate from misconduct findings.</td></tr>
+              <tr><td>Czechia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Czechia is now coded as a distributed route system with one strong institutional micro-publication archive: Charles University Ethics Commission statements and minutes. CAS remains a visible academy route without a located public case-output archive, GA CR is consequence-rule evidence rather than a case archive, and SUKL/animal/data/security routes remain boundaries. Next index Charles statements and minutes by topic and outcome, search for comparable local-language archives, and test CAS output practice.</td></tr>
+              <tr><td>Denmark</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for wider institutional annual-report or minutes coverage beyond UCPH, confirmation on whether Aarhus publishes its annual summary reports, cleaner current case-output traces at DTU, SDU, AAU, CBS and RUC, and stronger funder consequence links to named handling routes.</td></tr>
+              <tr><td>Estonia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Estonia is now coded as a low general-misconduct-publication system with a live ETAG misconduct reporting and second-opinion route, prospective generalized outcome publication, UT and TAI approval-list visibility, and separate EBIN/biobank, CTIS, AKI and animal-project boundary lanes. Next monitor first ETAG outputs and widen approval-list checks beyond UT and TAI.</td></tr>
+              <tr><td>Finland</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for whether committed organisations publish local RI case summaries proactively or only expose documents through public-document rules, wider UAS and public-research-institute coverage, local publicity rules beyond Aalto, and clearer links between Research Council eligibility consequences and public TENK or local case summaries.</td></tr>
+              <tr><td>France</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Ofis is coded as aggregate national monitoring and handler-map infrastructure, CNRS/MIS as a selective operator case-report lane, Sorbonne as an institutional annual-report corridor, and Inadis as a second-look/file-analysis route. Next build a wider institutional annual-report directory and keep boundary registers separate from general misconduct publication.</td></tr>
+              <tr><td>Georgia</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from Matsne science, higher-education, academy, health and medicines laws; GNAs annual scientific-report assessment route; SRNSFG monitoring; ETHICS research-integrity reform pages; NCEQE QA decisions/register; TSU, TSMU, Ilia, EEU and CIU institutional routes; and PDPS/Sakpatenti boundary sources. No overview document or national general misconduct archive yet. Next draft <strong>Overview Georgia.docx</strong>, extract ETHICS outputs, index NCEQE QA files carefully, widen Georgian-language institutional checks, and keep QA and boundary routes separate.</td></tr>
+              <tr><td>Germany</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. The DFG press-release list is now coded as a stable funder case-publication lane, OWID as aggregate ombuds reporting, FU Berlin and Gottingen as institutional annual-report examples, and the Berlin shared ombuds office as handling infrastructure. Next expand the institutional annual-report directory, add more Land-level implementation examples, and deepen Fraunhofer and Max Planck institute routes.</td></tr>
+              <tr><td>Greece</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Greece is now coded as a low general-misconduct-publication system with institutional aggregate lanes at NKUA and the University of Macedonia, procedure-only complaint routes at Thessaly and HMU, confidential IMBB/FORTH handling, and stronger EOF/CTIS clinical-trial boundary publication. Next sweep should widen institutional activity-report checks and keep CTIS, ANILAB and HDPA records separate from general misconduct.</td></tr>
+              <tr><td>Hungary</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Hungary is now coded as low general misconduct publication with important lane-specific archives: TeB has a publication basis and aggregate Academy report traces, TUKEB exposes annual biomedical permit pages from 2010 through 2025, Corvinus exposes REC approval decision PDFs, and NNGYK/CTIS, ETT and NEBIH remain boundary lanes. Next verify whether TeB decisions are directly reachable, index TUKEB permits by year, widen institutional approval checks and broaden HUN-REN institute outputs.</td></tr>
+              <tr><td>Iceland</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Iceland is now coded as a statutory-body-with-no-located-archive system: Act No. 70/2019 creates the Committee on Good Scientific Practice, opinion routes and an annual-report duty, but no public committee opinion, procedure-rule or annual-report archive was found in this pass. National Bioethics Committee issued licences, Landspitali and HH approvals, Data Protection Authority routes and IRF misconduct clauses are boundary or project-governance visibility, not general misconduct case publication. Next locate any national committee website or reports, test the Icelandic licence list, and widen university and health-provider output checks.</td></tr>
+              <tr><td>Ireland</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Ireland is now coded as a summary-based national reporting system: NRIF/IUA publishes annual formal-investigation statistics from 2016 through 2023, while Research Ireland grant terms and institutional RIO routes at DCU, TUS, MTU, SETU, DkIT, NCI and Teagasc are procedure or route fragments rather than public case repositories. Next index the NRIF statistics series, watch for 2024 statistics and SRII2025, test NCI/MTU publication signals and widen public-RPO checks.</td></tr>
+              <tr><td>Italy</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for more public-research-institute and university routes beyond the current sample, especially whether additional institutions publish annual reports, governance-minutes case traces, restricted-record notices, public decisions or only committee pages; keep Sapienza, Parma, AIFA, animal-research, CNB and Garante micro-publication nodes separated by lane and public/non-public fields.</td></tr>
+              <tr><td>Kosovo</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Kosovo is now coded as a low general-misconduct-publication system with strong QA file corridors: KAA publishes accreditation decisions, expert reports, monitoring and post-accreditation reports, annual reporting and aggregate appeal activity, while UP exposes isolated Ethics Council and disciplinary notices. Next index KAA decision/report pages by institution and year, extract 2025 Appeals Committee statistics, look for public KAA Code of Ethics resolutions, track UP annual Ethics Council summaries and widen the HEI sample beyond UP, Mitrovica, Ferizaj and Rezonanca.</td></tr>
+              <tr><td>Latvia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Latvia is now coded as fragmented institutional case visibility: UL publishes Academic Ethics Commission decisions from 2019 through 2026, including a 7 January 2025 co-authorship breach decision, while no current LAS/LCS national case archive was located. Next index the UL decision stream, recheck LAS/LCS outputs, widen RSU/RTU/LBTU and other institutional checks, and keep research-ethics approvals plus biomedical, animal, data, open-science and AI boundaries separate.</td></tr>
+              <tr><td>Liechtenstein</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from Office of Education, higher-education law, University of Liechtenstein, UFL, Liechtenstein Institute, Office of Economic Affairs, clinical-trial, animal, data-protection and IP sources. No overview document or public general misconduct archive yet. Next draft <strong>Overview Liechtenstein.docx</strong>, inspect the University Better Science Policy file, check University and UFL annual reports for ombudsperson statistics, and keep Zurich clinical ethics plus animal/data/IP boundaries separate.</td></tr>
+              <tr><td>Lithuania</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for all institutional academic ethics commissions and research ethics committees, especially whether local bodies publish individual decisions, anonymized summaries, annual reports or only procedures.</td></tr>
+              <tr><td>Luxembourg</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Luxembourg remains summary-based rather than archive-based: LARI/CRI final reports are confidential, the 2023/2024 LARI annual report is still pending, the 2020-2022 report gives aggregate case counts, and FNR's 2020 statement is a rare public case-level signal. CNER publishes activity reports and favourable-opinion lists, and ALVA publishes animal-use statistics, but those are boundary lanes. Next monitor the LARI report, index LARI reports, and verify LIH/LIST internal routes.</td></tr>
+              <tr><td>Malta</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from MFHEA, Xjenza Malta, University of Malta, MCAST, Health Ethics Committee, Medicines Authority, animal, data-protection, IP and open-science sources. No overview document or public general misconduct archive yet. Next draft <strong>Overview Malta.docx</strong>, inspect University and MCAST annual reports or committee pages for UREC/FREC/REC statistics, check Xjenza Malta/MCST sanction or default outputs, and keep QA plus health/animal/data/IP boundaries separate.</td></tr>
+              <tr><td>Moldova</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Moldova is now coded as a mixed ANACEC Governing Board publication lane plus aggregate higher-education council reporting. Next sweep should classify ANACEC archive coverage by year and route, look for public council outputs beyond aggregate reporting, widen institutional committee coverage, and complete the animal route.</td></tr>
+              <tr><td>Monaco</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from CSM, IUM, ENIC Monaco, Legimonaco biomedical-research law, Monaco Innovation Fund, Horizon Europe, APDP/CCIN, MCIPO and animal/veterinary sources. No overview document or public general misconduct archive yet. Next draft <strong>Overview Monaco.docx</strong>, inspect CSM and IUM internal procedure sources, verify biomedical ethics committee publication practice, and keep biomedical/data/IP/funding/animal boundaries separate.</td></tr>
+              <tr><td>Montenegro</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Montenegro is now coded as a recurring national committee publication stream with archived continuity plus institutional publication duties at UCG, Mediterranean University and UDG. Next sweep should index more archived national decisions, test whether <code>etickikomitet.edu.me</code> or a successor archive is live, widen local output checks, and strengthen the animal and copyright or IP boundary trail.</td></tr>
+              <tr><td>Netherlands</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for remaining non-UNL LOWI affiliates, wider hbo coverage, and representative local annual-report traces beyond the sector hubs.</td></tr>
+              <tr><td>North Macedonia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. North Macedonia is now coded as a route-visible but case-archive-light system: the statutory Ethics Board remains procedure-only in public sources, AQHE exposes QA report and accreditation-decision corridors, National Council documents cover member ethics and reporting, UKIM self-evaluations expose discipline/plagiarism snippets, and AZLP notices are data-protection boundary material. Next verify Ethics Board outputs, index AQHE files and widen UKIM/SEEU self-evaluation and ethics-output checks.</td></tr>
+              <tr><td>Norway</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for wider institutional integrity committees, whether more institutions publish annual reports or anonymized local summaries, and whether REK project-register/postjournal material can be searched systematically without overstating it as misconduct case-file publication.</td></tr>
+              <tr><td>Poland</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Poland is now coded as PAN aggregate and anonymized case-trace visibility plus ministerial route pages and scattered institutional micro-publication nodes. Next sweep should widen the local publication sample beyond UW, WUT, JUMC, IIMCB and IP PAN, add more PAN-institute and Lukasiewicz routes, watch newer PAN reports and plenary notes, confirm current ministerial publication practice, and deepen the clinical and animal boundary trail.</td></tr>
+              <tr><td>Portugal</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Portugal is now coded as a distributed system with institutional opinion archives and local aggregate reporting, led by U.Porto CEUP public opinion folders and Coimbra CEIUC annual reporting, while CEIC adds boundary-lane indicators rather than general misconduct publication. Next sweep should widen the institutional sample, expand polytechnic coverage, watch for a clearer FCT public route, and keep clinical boundary outputs separate.</td></tr>
+              <tr><td>Romania</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for more non-university CDI publication routes, confirmation on whether the CNECSDTI hotarari archive is live or has moved, stronger current CNATDCU case-output visibility, wider institutional annual-report coverage beyond Bucharest and Cluj, and a cleaner live biomedical-boundary trail.</td></tr>
+              <tr><td>Russia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Russia is now coded as a lane-specific visibility system: VAK/GIS Nauka attestation orders are the strongest official case-like extraction target, VAK dissertation cards are route metadata, ANRI retractions are professional publication-ethics records, and GRLS clinical-trial permissions remain a boundary database. Next extract VAK orders by type/year, test source stability, widen autonomous-degree and university examples, monitor RAS ethics outputs, and deepen the animal/preclinical boundary trail.</td></tr>
+              <tr><td>San Marino</td><td><span class="tag gold">Expanded overview dossier</span></td><td>First app dossier drafted from UniRSM higher-education, ethics, discipline, research and QA sources; CSB/CERS bioethics and clinical-research sources; Authority Sanitaria, data-protection, USBM/IP, innovation-funding, animal-experimentation and freedom-of-science sources. No overview document, national general misconduct board, UniRSM misconduct archive or CERS approval register yet. Next draft <strong>Overview San Marino.docx</strong>, inspect UniRSM minutes and annual reporting, test CERS output publication, index CSB documents/opinions, and keep biomedical/data/IP/funding/animal boundaries separate.</td></tr>
+              <tr><td>Serbia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Serbia is now coded as a procedure-only national route with institutional and boundary visibility: the Committee for Ethics in Science is statutory, but no public misconduct archive, warning page or decision stream was found; Science Fund manuals expose grievance and Ethics Audit mechanics; Belgrade, Kragujevac, Novi Sad and Nis show procedure, appointment or committee-page fragments. Next monitor national committee appointment/output, locate the standalone Science Fund Ethics Act, widen institutional output checks and keep biomedical, animal, data, open-science and journal routes separate.</td></tr>
+              <tr><td>Slovakia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Slovakia is now coded as national aggregate monitoring plus institutional micro-publication nodes: NKVIE annual reporting and survey evidence nationally, with UPJS minutes and STU opinions locally. Next sweep should monitor closed-submission publication, widen the institutional sample, and deepen VEGA/KEGA plus clinical and animal routes.</td></tr>
+              <tr><td>Slovenia</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Slovenia is now coded as a national publication-rule but no live opinion-archive system: the National Council procedure requires anonymized publication of issued opinions, the 2023-2025 report records one ARIS-referred initiative that did not become a procedure, and institutional traces such as UL misconduct routing and FOV approval identifiers must be classified by lane. Next monitor first council opinions, verify the mandate-period discrepancy, widen university and institute output checks, and keep research-ethics approvals, medical ethics, animal, data and IP boundaries separate.</td></tr>
+              <tr><td>Spain</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Spain is now coded as a fragmented route/output visibility system: CEEI publishes national reports, recommendations and admission instructions, CIR-CAT publishes a procedure plus Recommendation 1/2025 on a UB/CERCA affiliation dispute, and no national searchable misconduct archive was identified. Next index CEEI and CIR-CAT outputs, widen autonomous-community and university/OPI checks, strengthen AEI funder evidence, and keep CEIm, biomedical and animal approvals separate.</td></tr>
+              <tr><td>Sweden</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Final sweep for a wider institutional sample beyond the current core universities, stronger public visibility of higher education institutions' annual anonymized reports or summaries to Npof, more non-HEI research principals and clinical-trial boundary traces, and clearer direct integrity consequences in current Formas, Forte and Vinnova terms.</td></tr>
+              <tr><td>Switzerland</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed and ETH Zurich correction added. Switzerland is now coded as fragmented funder/institutional visibility: SNSF publishes anonymised annual case statistics and occasional case news, ETH Zurich exposes a live institutional list of anonymised reports plus aggregate procedure counts through table endpoints, and SCCSI monitors without conducting proceedings. Next index SNSF and ETH outputs, track SCCSI's first reports, widen institutional route checks and keep RAPS/HumRes, Swissmedic and animal-experiment authorisations separate.</td></tr>
+              <tr><td>Turkey</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Turkey is now coded as a clear route network without a clear national case-reporting archive: YOK requires one-month reporting but keeps board decisions confidential, UAK exposes promotion consequences, TUBITAK/TUSEB publish AYEK procedure and consequence rules, Necmettin Erbakan University adds a rare legal-office precedent/template micro-source, and TITCK/HADMEK remain boundary registries. Next monitor aggregate outputs and widen university legal-office or local-board examples.</td></tr>
+              <tr><td>Ukraine</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot completed. Ukraine is now coded with a structured NAQA second-line complaint/decision page, MON attestation consequences, NASU academy case publication, KPI institutional micro-publication, and separate clinical-trial and animal-research boundary routes. Next monitor post-2026 implementation, index NAQA outcomes by year and stage, and widen NASU/university examples.</td></tr>
+              <tr><td>United Kingdom</td><td><span class="tag green">Deep dossier drafted</span></td><td>Committee-and-case-file pilot and overview reconciliation completed. Next build a broader annual-statement directory beyond King's, Oxford, Imperial, Edinburgh, Cardiff and Queen's Belfast, add a funder-by-funder reporting matrix, and keep HRA, ASRU and HFEA boundary registers separate from general misconduct handling.</td></tr>
+              <tr><td>Vatican City</td><td><span class="tag gold">Data folder only</span></td><td>Decide inclusion scope, collect or draft an overview, and add an app country profile if included.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="next">
+        <h2>What Is Happening Now</h2>
+        <p class="lead">The project is in a consolidation phase: the app is functional, the initial extraction is broad, and the remaining work is about quality, consistency, depth, and communication.</p>
+        <div class="status-list">
+          <div class="status-row">
+            <strong>Latest focused pass</strong>
+            <p>North Macedonia has completed the committee-and-case-file pilot. The pass confirms a route-visible but case-archive-light system: the statutory Ethics Board remains public mainly through law, AQHE supplies the strongest QA file corridors, UKIM self-evaluation reports provide institutional micro-publication snippets, and AZLP data-protection notices must stay in a boundary lane.</p>
+          </div>
+          <div class="status-row">
+            <strong>Data consolidation</strong>
+            <p>Keep aligning country overviews, app records, source-registry entries, extraction logs and dossier-level transparency overrides so the public interface and evidence corpus tell the same story.</p>
+          </div>
+          <div class="status-row">
+            <strong>Country completion</strong>
+            <p>Use the country tracker to separate two jobs: turn the first app dossiers for Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino into formal overview documents, and decide whether Vatican City should become an app profile.</p>
+          </div>
+          <div class="status-row">
+            <strong>Dossier expansion</strong>
+            <p>Continue final sweeps and case-file passes on deep dossiers, using committee directories, transparency layers, publication ladders and source backbones together.</p>
+          </div>
+          <div class="status-row">
+            <strong>Method tightening</strong>
+            <p>Test and refine <a href="CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a>, including the distinction between handling body, final decision-maker and publication owner, plus lane-by-lane visibility coding, route-scope versus archive-scope coding, database-function and micro-publication-node coding, handler-directory versus case-output coding, aggregate-monitoring versus file-level publication, public data elements, non-public or restricted data elements, why a source is or is not a misconduct case file, archive-scope and publication-exclusion labels, archive-accessibility labels, archive-continuity, referral-path, publication-depth, publicity-mode, publication-lifecycle and outcome-maturity coding, and missingness notes.</p>
+          </div>
+          <div class="status-row">
+            <strong>Presentation and review</strong>
+            <p>Use the app and this briefing page to explain the project to collaborators, identify confusing concepts, and decide which outputs should become formal deliverables.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="briefing">
+        <h2>Short Briefing</h2>
+        <p class="lead">A concise version for explaining the project to others.</p>
+        <div class="brief-box">
+          <p><strong>The LERU map pilot is building a source-linked overview of research integrity systems across Europe.</strong> It collects country-level evidence on national bodies, institutional procedures, codes, funders, case-publication routes, and public reporting, then turns that material into a searchable web app with a map, country profiles, and deeper dossiers.</p>
+          <p>The project matters because research integrity governance is visible in uneven ways across countries. Some systems have national decision archives, some publish annual summaries, some rely on institutional processes, and some have limited public case information. The map makes these differences easier to compare without losing the source trail behind each judgement.</p>
+          <p>The current version already contains 49 country records, 40 extracted country overview documents, a 1370-entry source registry, a transparency layer covering 35 jurisdictions, and a committee-and-case-file workflow now tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia. Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino have now been expanded from starter notes or data-folder-only status into first app dossiers, while Vatican City remains the only data-folder-only representation gap. The next phase is to fill remaining overview gaps, run more final sweeps, standardize the method, and prepare the material for review with collaborators.</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Prepared from the local project files on 28 April 2026. This page summarizes the current working state of the pilot and should be updated when new extraction passes, source reviews, or protocol decisions are made.</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
+

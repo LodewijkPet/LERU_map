@@ -1,0 +1,1280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presentation Report | LERU Map Pilot</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17212b;
+        --muted: #5e6874;
+        --line: #d9dedf;
+        --paper: #f7f5ef;
+        --white: #ffffff;
+        --teal: #0d766f;
+        --teal-dark: #095b56;
+        --rust: #a64f2a;
+        --gold: #c6922e;
+        --green: #437147;
+        --plum: #6b557d;
+        --blue: #3c6f91;
+        --shadow: 0 16px 38px rgba(23, 33, 43, 0.13);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .hero {
+        position: relative;
+        min-height: min(680px, 76vh);
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        color: var(--white);
+        background-image: url("protocol/assets/europe-ri-map.png");
+        background-position: center;
+        background-size: cover;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(13, 21, 28, 0.74);
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: auto 0 0;
+        height: 42%;
+        background: rgba(13, 21, 28, 0.22);
+      }
+
+      .hero-inner {
+        position: relative;
+        z-index: 1;
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 88px 0 42px;
+      }
+
+      .topline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 72px;
+        color: rgba(255, 255, 255, 0.84);
+        font-size: 0.86rem;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .topline nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        text-transform: none;
+      }
+
+      .topline a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+        text-decoration: none;
+      }
+
+      .hero h1 {
+        max-width: 940px;
+        margin: 0;
+        font-size: 5.25rem;
+        line-height: 0.97;
+        letter-spacing: 0;
+        text-wrap: balance;
+      }
+
+      .hero-summary {
+        max-width: 780px;
+        margin: 24px 0 0;
+        color: rgba(255, 255, 255, 0.86);
+        font-size: 1.13rem;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 30px;
+      }
+
+      .hero-actions a,
+      .plain-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 42px;
+        padding: 10px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .hero-actions a.primary {
+        background: var(--white);
+        color: var(--ink);
+        border-color: var(--white);
+      }
+
+      .hero-metrics {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1px;
+        margin-top: 44px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.18);
+      }
+
+      .hero-metrics div {
+        min-height: 110px;
+        padding: 18px;
+        background: rgba(12, 24, 30, 0.56);
+      }
+
+      .hero-metrics strong {
+        display: block;
+        font-size: 2.15rem;
+        line-height: 1;
+      }
+
+      .hero-metrics span {
+        display: block;
+        margin-top: 9px;
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 0.94rem;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 42px 0 84px;
+      }
+
+      section {
+        margin: 56px 0;
+      }
+
+      h2 {
+        max-width: 860px;
+        margin: 0;
+        font-size: 2.9rem;
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 1.15rem;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .eyebrow {
+        margin: 0 0 9px;
+        color: var(--rust);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .lead {
+        max-width: 860px;
+        margin-top: 16px;
+        color: var(--muted);
+        font-size: 1.09rem;
+      }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+        gap: 32px;
+        align-items: end;
+        margin-bottom: 28px;
+      }
+
+      .note-panel {
+        padding: 18px;
+        border-left: 4px solid var(--teal);
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .note-panel strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .grid.two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .card,
+      .finding,
+      .metric-card,
+      .flow-step,
+      .example-card,
+      .risk {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--white);
+        box-shadow: 0 8px 22px rgba(23, 33, 43, 0.06);
+      }
+
+      .card,
+      .finding,
+      .example-card,
+      .risk {
+        padding: 22px;
+      }
+
+      .card p,
+      .finding p,
+      .example-card p,
+      .risk p {
+        margin-top: 10px;
+        color: var(--muted);
+      }
+
+      .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .metric-card {
+        min-height: 132px;
+        padding: 18px;
+        border-top: 5px solid var(--teal);
+      }
+
+      .metric-card:nth-child(2) {
+        border-top-color: var(--rust);
+      }
+
+      .metric-card:nth-child(3) {
+        border-top-color: var(--gold);
+      }
+
+      .metric-card:nth-child(4) {
+        border-top-color: var(--green);
+      }
+
+      .metric-card:nth-child(5) {
+        border-top-color: var(--plum);
+      }
+
+      .metric-card:nth-child(6) {
+        border-top-color: var(--blue);
+      }
+
+      .metric-card strong {
+        display: block;
+        font-size: 2.05rem;
+        line-height: 1;
+      }
+
+      .metric-card span {
+        display: block;
+        margin-top: 9px;
+        color: var(--muted);
+      }
+
+      .workflow {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 12px;
+        counter-reset: step;
+      }
+
+      .flow-step {
+        position: relative;
+        min-height: 210px;
+        padding: 18px;
+        overflow: hidden;
+      }
+
+      .flow-step::before {
+        counter-increment: step;
+        content: counter(step);
+        display: grid;
+        width: 34px;
+        height: 34px;
+        margin-bottom: 22px;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--teal);
+        color: var(--white);
+        font-weight: 800;
+      }
+
+      .flow-step:nth-child(2)::before {
+        background: var(--rust);
+      }
+
+      .flow-step:nth-child(3)::before {
+        background: var(--gold);
+      }
+
+      .flow-step:nth-child(4)::before {
+        background: var(--green);
+      }
+
+      .flow-step:nth-child(5)::before {
+        background: var(--plum);
+      }
+
+      .flow-step p {
+        margin-top: 9px;
+        color: var(--muted);
+        font-size: 0.96rem;
+      }
+
+      .model-strip {
+        display: grid;
+        grid-template-columns: 1.25fr 0.75fr;
+        gap: 22px;
+        align-items: stretch;
+      }
+
+      .model-diagram {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--white);
+      }
+
+      .node {
+        min-height: 124px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fbfbf8;
+      }
+
+      .node strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .node span {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .node.main {
+        grid-column: 1 / -1;
+        background: #edf5f2;
+        border-color: rgba(13, 118, 111, 0.35);
+      }
+
+      .score-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+      }
+
+      .score-row {
+        display: grid;
+        grid-template-columns: 230px minmax(0, 1fr) 76px;
+        gap: 14px;
+        align-items: center;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--white);
+      }
+
+      .score-label {
+        font-weight: 800;
+      }
+
+      .score-label small {
+        display: block;
+        margin-top: 3px;
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 600;
+      }
+
+      .bar-shell {
+        height: 28px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: #edf0ed;
+      }
+
+      .bar {
+        height: 100%;
+        width: 0;
+        min-width: 8px;
+        border-radius: inherit;
+        background: var(--teal);
+      }
+
+      .score-row[data-score="3"] .bar {
+        background: var(--blue);
+      }
+
+      .score-row[data-score="2"] .bar {
+        background: var(--gold);
+      }
+
+      .score-row[data-score="1"] .bar {
+        background: var(--rust);
+      }
+
+      .score-row[data-score="0"] .bar {
+        background: var(--plum);
+      }
+
+      .score-count {
+        font-weight: 800;
+        text-align: right;
+      }
+
+      .score-examples {
+        grid-column: 2 / 4;
+        margin: -5px 0 2px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .findings {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .finding {
+        min-height: 220px;
+        border-top: 5px solid var(--teal);
+      }
+
+      .finding:nth-child(2) {
+        border-top-color: var(--rust);
+      }
+
+      .finding:nth-child(3) {
+        border-top-color: var(--gold);
+      }
+
+      .finding:nth-child(4) {
+        border-top-color: var(--green);
+      }
+
+      .finding:nth-child(5) {
+        border-top-color: var(--plum);
+      }
+
+      .finding:nth-child(6) {
+        border-top-color: var(--blue);
+      }
+
+      .example-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .example-card {
+        min-height: 260px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .example-card .country {
+        color: var(--rust);
+        font-size: 0.82rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .example-card h3 {
+        margin-top: 8px;
+      }
+
+      .example-card .stage {
+        margin-top: auto;
+        padding-top: 16px;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+
+      .status-lists {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .list-box {
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--white);
+      }
+
+      .list-box ul {
+        margin: 14px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .list-box li {
+        padding: 8px 0;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+      }
+
+      .presentation-path {
+        display: grid;
+        grid-template-columns: 0.88fr 1.12fr;
+        gap: 22px;
+      }
+
+      .talk-track {
+        padding: 24px;
+        border-radius: 8px;
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .talk-track p {
+        margin-top: 14px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .talk-track ol {
+        margin: 18px 0 0;
+        padding-left: 1.2rem;
+      }
+
+      .talk-track li {
+        margin: 10px 0;
+      }
+
+      .risk-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .footer {
+        margin-top: 64px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .footer a {
+        color: var(--teal-dark);
+        font-weight: 700;
+      }
+
+      .data-warning {
+        display: none;
+        margin-top: 14px;
+        padding: 12px 14px;
+        border: 1px solid rgba(166, 79, 42, 0.35);
+        border-radius: 8px;
+        background: #fff7f0;
+        color: #66361f;
+      }
+
+      @media (max-width: 980px) {
+        .hero h1 {
+          font-size: 4rem;
+        }
+
+        h2 {
+          font-size: 2.35rem;
+        }
+
+        .hero-metrics,
+        .metric-grid,
+        .grid,
+        .grid.two,
+        .workflow,
+        .model-strip,
+        .findings,
+        .example-grid,
+        .status-lists,
+        .presentation-path,
+        .risk-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .section-head {
+          grid-template-columns: 1fr;
+        }
+
+        .workflow {
+          counter-reset: step;
+        }
+      }
+
+      @media (max-width: 700px) {
+        .hero {
+          min-height: auto;
+        }
+
+        .hero-inner {
+          width: min(100% - 28px, 1180px);
+          padding: 38px 0 28px;
+        }
+
+        .topline {
+          display: block;
+          margin-bottom: 48px;
+        }
+
+        .topline nav {
+          margin-top: 14px;
+        }
+
+        .hero h1 {
+          font-size: 2.45rem;
+          line-height: 1;
+        }
+
+        h2 {
+          font-size: 1.85rem;
+        }
+
+        .hero-summary {
+          font-size: 1rem;
+        }
+
+        .hero-metrics,
+        .metric-grid,
+        .grid,
+        .grid.two,
+        .workflow,
+        .model-strip,
+        .model-diagram,
+        .findings,
+        .example-grid,
+        .status-lists,
+        .presentation-path,
+        .risk-grid {
+          grid-template-columns: 1fr;
+        }
+
+        main {
+          width: min(100% - 28px, 1180px);
+          padding-top: 28px;
+        }
+
+        section {
+          margin: 42px 0;
+        }
+
+        .score-row {
+          grid-template-columns: 1fr 64px;
+        }
+
+        .score-row .bar-shell,
+        .score-examples {
+          grid-column: 1 / -1;
+        }
+
+        .score-examples {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="topline">
+          <span>Presentation report | prepared from local project files | 28 April 2026</span>
+          <nav aria-label="Report navigation">
+            <a href="#how">How it works</a>
+            <a href="#findings">Findings</a>
+            <a href="#demo">Presentation path</a>
+          </nav>
+        </div>
+
+        <p class="eyebrow">LERU map pilot</p>
+        <h1>Mapping the visible and hidden machinery of research integrity in Europe</h1>
+        <p class="hero-summary">
+          This report explains the working logic of the LERU map pilot and highlights what the current evidence is already showing:
+          European research integrity systems are not just national bodies. They are routes, committees, funders, institutional rules,
+          adjacent regulators, public archives, annual reports, and gaps.
+        </p>
+        <div class="hero-actions" aria-label="Useful project links">
+          <a class="primary" href="index.html">Open the map app</a>
+          <a href="project-overview.html">Open project overview</a>
+          <a href="protocol/index.html">Open protocol</a>
+          <a href="CASE-FILE-WORKFLOW.md">Open case-file workflow</a>
+        </div>
+
+        <div class="hero-metrics" aria-label="Current headline metrics">
+          <div><strong data-metric="countries">47</strong><span>country records represented in the app</span></div>
+          <div><strong data-metric="deep">40</strong><span>country records labelled deep dossier drafted</span></div>
+          <div><strong data-metric="transparency">35</strong><span>jurisdictions in the transparency layer</span></div>
+          <div><strong>1311</strong><span>source-registry entries in the working corpus</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="summary">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Executive argument</p>
+            <h2>The project is a research instrument, not only a map.</h2>
+            <p class="lead">
+              The static app is the public face of a larger evidence system. Each country profile condenses legal texts, body pages,
+              university procedures, funder requirements, quality-assurance files, committee outputs, public case archives, and local
+              source notes into a comparable profile. The aim is to preserve national specificity while making comparison possible.
+            </p>
+          </div>
+          <aside class="note-panel">
+            <strong>The key message for a presentation</strong>
+            <p>
+              The strongest question is not "does a country have a research integrity body?" It is "where does a concern enter the
+              system, who handles it, who decides, who publishes, and what public evidence remains?"
+            </p>
+          </aside>
+        </div>
+
+        <div class="metric-grid" aria-label="Computed project metrics">
+          <div class="metric-card"><strong data-metric="documents">182</strong><span>document links listed in country records</span></div>
+          <div class="metric-card"><strong data-metric="overviews">40</strong><span>readable overview documents represented</span></div>
+          <div class="metric-card"><strong data-metric="sourceLinks">1484</strong><span>dossier source-backbone entries</span></div>
+          <div class="metric-card"><strong data-metric="timeline">704</strong><span>timeline events across country dossiers</span></div>
+          <div class="metric-card"><strong data-metric="committees">47</strong><span>country route directories with committee logic</span></div>
+          <div class="metric-card"><strong data-metric="boundaries">47</strong><span>country records with boundary-lane mapping</span></div>
+        </div>
+        <p class="data-warning" id="data-warning">
+          The live data files did not load, so the page is showing the embedded headline figures from 28 April 2026.
+        </p>
+      </section>
+
+      <section id="how">
+        <p class="eyebrow">How it works</p>
+        <h2>A five-step pipeline turns scattered documentation into comparable country dossiers.</h2>
+        <p class="lead">
+          The workflow is deliberately conservative. It starts with local overview documents and official sources, separates adjacent
+          regimes from misconduct handling, and records missingness instead of forcing each country into a single template.
+        </p>
+
+        <div class="workflow" aria-label="Project workflow">
+          <article class="flow-step">
+            <h3>Collect the source trail</h3>
+            <p>Gather laws, ministry pages, body websites, university procedures, funder conditions, annual reports, registers, and local source notes.</p>
+          </article>
+          <article class="flow-step">
+            <h3>Draft the country profile</h3>
+            <p>Normalize each country into system type, summary, key actors, document classes, data signals, next focus, and source links.</p>
+          </article>
+          <article class="flow-step">
+            <h3>Map the handling network</h3>
+            <p>Identify where concerns start, what committees or offices receive them, who makes final decisions, and which funders or bodies add consequences.</p>
+          </article>
+          <article class="flow-step">
+            <h3>Separate boundary regimes</h3>
+            <p>Keep research ethics approval, clinical trials, animal research, data protection, IP, QA, accreditation, and open science from general misconduct findings.</p>
+          </article>
+          <article class="flow-step">
+            <h3>Code public visibility</h3>
+            <p>Record whether evidence appears as decisions, opinions, case summaries, annual statistics, institutional fragments, procedure pages, or no located publication route.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="model">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Data model</p>
+            <h2>The app compares systems by routes and evidence, not by slogans.</h2>
+            <p class="lead">
+              A country can look centralized in law but distributed in practice. Another can have no national misconduct archive but strong institutional publication.
+              The dossier structure is built to capture that difference.
+            </p>
+          </div>
+          <aside class="note-panel">
+            <strong>Why the distinction matters</strong>
+            <p>
+              Without route-level coding, a clinical-trial register, accreditation decision, or plagiarism procedure can be mistaken for general research-misconduct transparency.
+            </p>
+          </aside>
+        </div>
+
+        <div class="model-strip">
+          <div class="model-diagram" aria-label="Simplified data model">
+            <div class="node main">
+              <strong>Country record</strong>
+              <span>System type, summary, actors, documents, extraction signals, next focus, and app-facing source links.</span>
+            </div>
+            <div class="node">
+              <strong>System map</strong>
+              <span>Where routes start, what they pass through, and where they end.</span>
+            </div>
+            <div class="node">
+              <strong>Network layers</strong>
+              <span>National bodies, institutions, funders, academies, regulators, and boundary authorities.</span>
+            </div>
+            <div class="node">
+              <strong>Committee directory</strong>
+              <span>Route-level directory for formal committees, offices, ombuds routes, councils, and institutional handling paths.</span>
+            </div>
+            <div class="node">
+              <strong>Transparency layer</strong>
+              <span>Public case-publication visibility, archive type, access model, and example resources.</span>
+            </div>
+            <div class="node">
+              <strong>Timeline and sources</strong>
+              <span>Legal and institutional developments plus the public source backbone used to justify the dossier.</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>What makes a deep dossier</h3>
+            <p>
+              A deep dossier has a source backbone, system map, network layers, committee directory, boundary map, timeline, and explicit transparency assessment.
+              The current corpus has moved from overview extraction into committee-and-case-file discovery, which is where the strongest comparative findings are emerging.
+            </p>
+            <p>
+              The approach also makes uncertainty usable. "No public case archive identified" is not a failure of the profile; it is a finding about public accountability.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="visibility">
+        <p class="eyebrow">Transparency findings</p>
+        <h2>Public case visibility falls into a ladder, not a binary yes or no.</h2>
+        <p class="lead">
+          The transparency layer currently covers 35 jurisdictions. Scores are about public visibility of case handling, not the quality of the national system.
+          The emerging pattern is that many countries publish something, but the publication owner and the handling route vary sharply.
+        </p>
+
+        <div class="score-grid" id="score-grid" aria-label="Transparency score distribution">
+          <div class="score-row" data-score="4">
+            <div class="score-label">Structured or stable archive<small>Score 4</small></div>
+            <div class="bar-shell"><div class="bar" style="width: 23%"></div></div>
+            <div class="score-count">8</div>
+            <div class="score-examples">Examples include Denmark, Finland, Lithuania, Netherlands, Norway, Romania, Sweden, and Ukraine.</div>
+          </div>
+          <div class="score-row" data-score="3">
+            <div class="score-label">Fragmented, selective, or mixed<small>Score 3</small></div>
+            <div class="bar-shell"><div class="bar" style="width: 26%"></div></div>
+            <div class="score-count">9</div>
+            <div class="score-examples">Examples include Belgium, Croatia, France, Germany, Italy, Latvia, Russia, Slovakia, and Switzerland.</div>
+          </div>
+          <div class="score-row" data-score="2">
+            <div class="score-label">Summary-based or annual-report route<small>Score 2</small></div>
+            <div class="bar-shell"><div class="bar" style="width: 31%"></div></div>
+            <div class="score-count">11</div>
+            <div class="score-examples">Examples include Austria, Czechia, Estonia, Ireland, Luxembourg, Poland, Portugal, Spain, and the United Kingdom.</div>
+          </div>
+          <div class="score-row" data-score="1">
+            <div class="score-label">Low-publication or procedure-only<small>Score 1</small></div>
+            <div class="bar-shell"><div class="bar" style="width: 17%"></div></div>
+            <div class="score-count">6</div>
+            <div class="score-examples">Examples include Cyprus, Greece, Hungary, Kosovo, Slovenia, and Turkey.</div>
+          </div>
+          <div class="score-row" data-score="0">
+            <div class="score-label">No national publication route found<small>Score 0</small></div>
+            <div class="bar-shell"><div class="bar" style="width: 3%"></div></div>
+            <div class="score-count">1</div>
+            <div class="score-examples">The current score-zero entry is Malta, where the located public material is institutional, QA, or boundary-lane evidence.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="findings">
+        <p class="eyebrow">Current interesting findings</p>
+        <h2>What the evidence is already telling us.</h2>
+        <p class="lead">
+          The strongest findings are methodological and substantive at the same time. They change how a European comparison should be framed.
+        </p>
+
+        <div class="findings">
+          <article class="finding">
+            <h3>1. There is no single European model.</h3>
+            <p>
+              Some countries have national boards with public decisions. Others rely on academies, funders, institutional first-line procedures, or statutory ethics councils.
+              A clean comparison needs to show whether the core is legal, soft-law, institutional, funder-led, attestation-led, or distributed across several layers.
+            </p>
+          </article>
+          <article class="finding">
+            <h3>2. Transparency is often not where the formal route is.</h3>
+            <p>
+              In several systems, the body that receives or investigates a concern is not the body that publishes public evidence. Publication may sit with a second-line body,
+              a sector association, a funder, a university board, an annual report, or a quality-assurance corridor.
+            </p>
+          </article>
+          <article class="finding">
+            <h3>3. Institutional micro-publication is a major evidence class.</h3>
+            <p>
+              Local committee opinions, university annual-report rows, ombuds statements, faculty-level decisions, and isolated case notices often provide stronger evidence
+              than national pages. These fragments matter because they show how the route actually operates.
+            </p>
+          </article>
+          <article class="finding">
+            <h3>4. Adjacent regimes can look more transparent than misconduct handling.</h3>
+            <p>
+              Clinical-trial registers, bioethics approval lists, animal-research authorizations, data-protection decisions, IP disputes, and accreditation files can be very visible.
+              The report keeps them separate so the map does not overstate research-misconduct publication.
+            </p>
+          </article>
+          <article class="finding">
+            <h3>5. No archive is still a finding.</h3>
+            <p>
+              For countries where no public case archive was located, the app records the strongest available route: statutory body, institutional procedure, QA output, annual statistics,
+              or boundary evidence. This lets the corpus distinguish missing publication from missing governance.
+            </p>
+          </article>
+          <article class="finding">
+            <h3>6. The project is moving from coverage to calibration.</h3>
+            <p>
+              The first job was to cover the map. The current job is to refine the method: route scope, archive scope, publication owner, accessibility, retention, public data elements,
+              outcome maturity, and the difference between aggregate monitoring and case-file publication.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="examples">
+        <p class="eyebrow">Country examples</p>
+        <h2>Examples that make the comparison concrete.</h2>
+        <p class="lead">
+          These examples are useful in a presentation because they show different types of system architecture and public evidence. They are not rankings.
+        </p>
+
+        <div class="example-grid" id="example-grid" aria-label="Selected country examples">
+          <article class="example-card">
+            <span class="country">Netherlands</span>
+            <h3>Publication owner and handler are not always the same.</h3>
+            <p>LOWI, UNL, VH, NWO, and institutions each expose different parts of the route. The Dutch example is strong for explaining why publication ownership must be coded separately.</p>
+            <span class="stage">Deep dossier drafted</span>
+          </article>
+          <article class="example-card">
+            <span class="country">Ukraine</span>
+            <h3>A structured second-line complaint page within a wider reform system.</h3>
+            <p>Ukraine now shows NAQA complaint and decision publication alongside MON consequences, academy and institutional examples, and post-2026 legal duties to monitor.</p>
+            <span class="stage">Deep dossier drafted</span>
+          </article>
+          <article class="example-card">
+            <span class="country">Switzerland</span>
+            <h3>Funder and institutional visibility can be stronger than national adjudication.</h3>
+            <p>SNSF annual case statistics and ETH Zurich anonymized reports are central public evidence, while SCCSI is a monitoring and coordination actor rather than a case handler.</p>
+            <span class="stage">Deep dossier drafted</span>
+          </article>
+          <article class="example-card">
+            <span class="country">Kosovo</span>
+            <h3>QA files are visible, but they are not a misconduct archive.</h3>
+            <p>KAA decision, monitoring, post-accreditation, annual-report, and appeal corridors are important public accountability evidence. The profile keeps them separate from general misconduct publication.</p>
+            <span class="stage">Deep dossier drafted</span>
+          </article>
+          <article class="example-card">
+            <span class="country">Iceland</span>
+            <h3>A statutory body can exist without a located public archive.</h3>
+            <p>The Committee on Good Scientific Practice is grounded in statute, but no public opinion or annual-report archive was located in this pass. Biomedical and hospital approvals remain boundary lanes.</p>
+            <span class="stage">Deep dossier drafted</span>
+          </article>
+          <article class="example-card">
+            <span class="country">Malta</span>
+            <h3>First app dossier, but no national general misconduct archive found.</h3>
+            <p>MFHEA, Xjenza Malta, University of Malta, MCAST, health ethics, medicines, animal, data, IP, and open-science routes form the located network. The formal overview document remains to be drafted.</p>
+            <span class="stage">Expanded overview dossier</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="status">
+        <p class="eyebrow">Current state</p>
+        <h2>The corpus is broad enough to present, but still visibly under construction.</h2>
+        <p class="lead">
+          The ongoing status is a strength if it is framed correctly. The report can show what has been built, what has been learned, and what still needs calibration before final claims.
+        </p>
+
+        <div class="status-lists">
+          <div class="list-box">
+            <h3>Already substantial</h3>
+            <ul>
+              <li>47 app country records</li>
+              <li>40 deep dossiers</li>
+              <li>40 readable overview documents represented</li>
+              <li>35 transparency-layer entries</li>
+              <li>Committee-and-case-file workflow tested across 40 countries</li>
+            </ul>
+          </div>
+          <div class="list-box">
+            <h3>Known gaps</h3>
+            <ul id="gap-list">
+              <li>Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, and Malta need formal overview documents.</li>
+              <li>Monaco, San Marino, and Vatican City have data folders but no app profiles yet.</li>
+              <li>Several dossiers still need wider institutional annual-report and committee-output sweeps.</li>
+            </ul>
+          </div>
+          <div class="list-box">
+            <h3>Next methodological work</h3>
+            <ul>
+              <li>Index case-publication archives by route, outcome, year, and public data fields.</li>
+              <li>Separate handling body, final decision-maker, and publication owner.</li>
+              <li>Code restricted, unstable, inaccessible, or no-publication evidence explicitly.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo">
+        <p class="eyebrow">Presentation path</p>
+        <h2>A useful way to present the project in 10 minutes.</h2>
+        <p class="lead">
+          Start with the problem, show the instrument, then use a few contrasting countries to make the findings memorable.
+        </p>
+
+        <div class="presentation-path">
+          <div class="talk-track">
+            <h3>Suggested talk track</h3>
+            <ol>
+              <li>Open with the premise: research integrity systems are visible unevenly, and visibility is itself a governance feature.</li>
+              <li>Show the map and country list in <a href="index.html">index.html</a>.</li>
+              <li>Open one structured case-publication system, such as the Netherlands, Denmark, Finland, Sweden, or Ukraine.</li>
+              <li>Contrast it with a distributed or low-publication system, such as Kosovo, Iceland, Malta, or Greece.</li>
+              <li>Explain why boundary lanes must stay separate: bioethics, QA, animal research, data protection, IP, and open science do not equal misconduct handling.</li>
+              <li>Close with the next phase: finalize missing overviews, widen final sweeps, and standardize route-level case-file coding.</li>
+            </ol>
+          </div>
+
+          <div class="grid two">
+            <article class="card">
+              <h3>What to emphasize</h3>
+              <p>
+                The app is already useful because it makes comparison possible without erasing complexity. It does not claim that all countries should have the same model.
+                It asks where accountability is visible and what kind of public source supports that judgement.
+              </p>
+            </article>
+            <article class="card">
+              <h3>What not to overclaim</h3>
+              <p>
+                Transparency scores are not system-quality scores. They measure public evidence of case handling. A low-publication system may still have real internal procedures,
+                while a visible boundary register may not be a misconduct route.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Good live searches</h3>
+              <p>
+                In the app, search for terms such as LOWI, annual report, ethics committee, funder, archive, bioethics, data protection, or quality assurance.
+                These searches reveal how the same issue travels through different national architectures.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Best closing line</h3>
+              <p>
+                The map is not just asking who has a research integrity body. It is asking what happens when a concern becomes a file, and whether the public can see any trace of it.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="limits">
+        <p class="eyebrow">Limitations</p>
+        <h2>The current findings should be presented with explicit guardrails.</h2>
+        <div class="risk-grid">
+          <article class="risk">
+            <h3>Language and access limits</h3>
+            <p>Some official sources are hard to reach, unstable, blocked, dynamic, or available only in national-language interfaces. The corpus records those limits rather than smoothing them away.</p>
+          </article>
+          <article class="risk">
+            <h3>Ongoing source collection</h3>
+            <p>Several countries still need final sweeps for institutional annual reports, public committee outputs, funder consequences, and boundary-lane separation.</p>
+          </article>
+          <article class="risk">
+            <h3>No quality ranking</h3>
+            <p>The transparency layer measures publication visibility, not fairness, speed, independence, investigative quality, or the culture of research integrity in a country.</p>
+          </article>
+          <article class="risk">
+            <h3>Evidence can move</h3>
+            <p>Web archives, annual reports, committee pages, and register outputs can change. The source registry and local documentation folders are part of the audit trail for later reconciliation.</p>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          Prepared from the local LERU map pilot files on 28 April 2026. Core files:
+          <a href="data/countries.js">data/countries.js</a>,
+          <a href="data/transparency.js">data/transparency.js</a>,
+          <a href="data/source-registry.csv">data/source-registry.csv</a>,
+          <a href="project-overview.html">project-overview.html</a>, and
+          <a href="CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a>.
+        </p>
+      </footer>
+    </main>
+
+    <script src="data/countries.js"></script>
+    <script src="data/transparency.js"></script>
+    <script>
+      (() => {
+        const countries = Array.isArray(window.COUNTRY_DATA) ? window.COUNTRY_DATA : [];
+        const transparency = Array.isArray(window.TRANSPARENCY_DATA) ? window.TRANSPARENCY_DATA : [];
+
+        if (!countries.length) {
+          const warning = document.getElementById("data-warning");
+          if (warning) warning.style.display = "block";
+          return;
+        }
+
+        const setMetric = (name, value) => {
+          document.querySelectorAll(`[data-metric="${name}"]`).forEach((node) => {
+            node.textContent = Number(value).toLocaleString("en-GB");
+          });
+        };
+
+        const countDocuments = countries.reduce((total, country) => total + (country.documents?.length || 0), 0);
+        const countOverviews = countries.filter((country) =>
+          (country.documents || []).some((doc) => /Overview .*\.docx/i.test(`${doc.label || ""} ${doc.path || ""}`))
+        ).length;
+        const countDeep = countries.filter((country) => country.stage === "Deep dossier drafted").length;
+        const countSourceLinks = countries.reduce(
+          (total, country) => total + (country.dossierDetails?.sourceLinks?.length || 0),
+          0
+        );
+        const countTimeline = countries.reduce(
+          (total, country) => total + (country.dossierDetails?.timeline?.length || 0),
+          0
+        );
+        const countCommittees = countries.filter((country) => country.dossierDetails?.integrityCommittees).length;
+        const countBoundaries = countries.filter((country) => country.dossierDetails?.boundaries?.length).length;
+
+        setMetric("countries", countries.length);
+        setMetric("deep", countDeep);
+        setMetric("transparency", transparency.length);
+        setMetric("documents", countDocuments);
+        setMetric("overviews", countOverviews);
+        setMetric("sourceLinks", countSourceLinks);
+        setMetric("timeline", countTimeline);
+        setMetric("committees", countCommittees);
+        setMetric("boundaries", countBoundaries);
+
+        renderTransparency(transparency);
+        renderGapList(countries);
+      })();
+
+      function renderTransparency(transparency) {
+        if (!transparency.length) return;
+
+        const scoreGrid = document.getElementById("score-grid");
+        if (!scoreGrid) return;
+
+        const labels = {
+          4: ["Structured or stable archive", "Score 4"],
+          3: ["Fragmented, selective, or mixed", "Score 3"],
+          2: ["Summary-based or annual-report route", "Score 2"],
+          1: ["Low-publication or procedure-only", "Score 1"],
+          0: ["No national publication route found", "Score 0"]
+        };
+        const order = [4, 3, 2, 1, 0];
+        const total = transparency.length;
+        const fragment = document.createDocumentFragment();
+
+        order.forEach((score) => {
+          const entries = transparency.filter((item) => item.score === score);
+          const row = document.createElement("div");
+          row.className = "score-row";
+          row.dataset.score = String(score);
+
+          const label = document.createElement("div");
+          label.className = "score-label";
+          label.textContent = labels[score][0];
+          const small = document.createElement("small");
+          small.textContent = labels[score][1];
+          label.appendChild(small);
+
+          const shell = document.createElement("div");
+          shell.className = "bar-shell";
+          const bar = document.createElement("div");
+          bar.className = "bar";
+          bar.style.width = `${Math.max(3, Math.round((entries.length / total) * 100))}%`;
+          shell.appendChild(bar);
+
+          const count = document.createElement("div");
+          count.className = "score-count";
+          count.textContent = entries.length;
+
+          const examples = document.createElement("div");
+          examples.className = "score-examples";
+          const names = entries.map((entry) => entry.country).join(", ");
+          examples.textContent = names ? `Current countries: ${names}.` : "No countries currently assigned to this score.";
+
+          row.append(label, shell, count, examples);
+          fragment.appendChild(row);
+        });
+
+        scoreGrid.replaceChildren(fragment);
+      }
+
+      function renderGapList(countries) {
+        const gapList = document.getElementById("gap-list");
+        if (!gapList) return;
+
+        const overviewGaps = countries
+          .filter((country) => country.stage === "Expanded overview dossier")
+          .map((country) => country.name);
+
+        const items = [
+          `${overviewGaps.join(", ")} need formal overview documents.`,
+          "Monaco, San Marino, and Vatican City have data folders but no app profiles yet.",
+          "Several dossiers still need wider institutional annual-report and committee-output sweeps."
+        ];
+
+        gapList.replaceChildren(
+          ...items.map((text) => {
+            const li = document.createElement("li");
+            li.textContent = text;
+            return li;
+          })
+        );
+      }
+    </script>
+  </body>
+</html>

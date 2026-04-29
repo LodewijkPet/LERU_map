@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>European Research Integrity Structure Mapping Protocol</title>
+  <style>
+    :root {
+      --ink: #202623;
+      --muted: #59635d;
+      --line: #d8ded9;
+      --paper: #ffffff;
+      --wash: #f6f8f7;
+      --teal: #147c80;
+      --green: #4f7a35;
+      --coral: #b84e3a;
+      --gold: #b48b1f;
+      --violet: #6b5b95;
+      --head: #eaf1ee;
+      --band: #f9fbfa;
+      --shadow: 0 12px 32px rgba(29, 38, 34, 0.08);
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--wash);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+    }
+    a { color: var(--teal); text-underline-offset: 3px; }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+      min-height: 100vh;
+    }
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 28px 22px;
+      overflow-y: auto;
+      background: #eef3f1;
+      border-right: 1px solid var(--line);
+    }
+    aside h2 { margin: 0 0 8px; font-size: 1rem; line-height: 1.25; }
+    aside p { margin: 0 0 20px; color: var(--muted); font-size: 0.9rem; }
+    nav ol { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+    nav a {
+      display: block;
+      padding: 8px 10px;
+      border-radius: var(--radius);
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.92rem;
+    }
+    nav a:hover, nav a:focus { background: #ffffff; outline: 2px solid transparent; }
+    .hero {
+      padding: 52px min(7vw, 84px) 34px;
+      background: linear-gradient(135deg, #ffffff 0%, #eef7f5 58%, #f9f1ee 100%);
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--coral);
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    h1 {
+      max-width: 1120px;
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 4.2rem);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      max-width: 980px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 1120px;
+      margin-top: 30px;
+    }
+    .meta div, .panel, .step, .timeline div {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+    .meta div { min-height: 98px; padding: 16px; background: rgba(255, 255, 255, 0.72); }
+    .label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    section {
+      padding: 38px min(7vw, 84px);
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+    section:nth-of-type(even) { background: #fbfcfc; }
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.45rem, 2.4vw, 2.2rem);
+      line-height: 1.14;
+      letter-spacing: 0;
+    }
+    h3 { margin: 28px 0 10px; font-size: 1.15rem; line-height: 1.25; }
+    p { max-width: 980px; margin: 0 0 14px; }
+    .lead { color: var(--muted); font-size: 1.02rem; }
+    .callout {
+      max-width: 1120px;
+      margin: 22px 0;
+      padding: 18px 20px;
+      background: #f0f7f5;
+      border: 1px solid #b9d7d2;
+      border-left: 5px solid var(--teal);
+      border-radius: var(--radius);
+    }
+    .warning { background: #fff7eb; border-color: #ead2a4; border-left-color: var(--gold); }
+    .visual {
+      max-width: 1120px;
+      margin: 24px 0 0;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .visual img { display: block; width: 100%; height: auto; }
+    .visual figcaption { padding: 12px 14px; color: var(--muted); font-size: 0.9rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      max-width: 1120px;
+    }
+    .panel { padding: 18px 20px; box-shadow: var(--shadow); }
+    .panel h3 { margin-top: 0; }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 1160px;
+      margin: 24px 0;
+      counter-reset: step;
+    }
+    .step { min-height: 150px; padding: 18px 14px 16px; }
+    .step:before {
+      counter-increment: step;
+      content: counter(step);
+      display: inline-grid;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 12px;
+      place-items: center;
+      color: #ffffff;
+      background: var(--teal);
+      border-radius: 50%;
+      font-weight: 700;
+    }
+    .step strong, .timeline strong { display: block; margin-bottom: 8px; line-height: 1.25; }
+    .step span, .timeline span { display: block; color: var(--muted); font-size: 0.9rem; }
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      max-width: 1160px;
+      margin: 16px 0;
+    }
+    .tools label { font-weight: 700; }
+    .tools input {
+      width: min(100%, 380px);
+      min-height: 40px;
+      padding: 8px 10px;
+      color: var(--ink);
+      background: #ffffff;
+      border: 1px solid #aeb8b2;
+      border-radius: var(--radius);
+      font: inherit;
+    }
+    .table-wrap {
+      max-width: 1160px;
+      margin: 16px 0 28px;
+      overflow-x: auto;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    table { width: 100%; min-width: 860px; border-collapse: collapse; font-size: 0.92rem; }
+    caption {
+      padding: 14px 16px;
+      color: var(--muted);
+      text-align: left;
+      font-weight: 700;
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+    }
+    th, td { padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th {
+      color: #1f332b;
+      background: var(--head);
+      text-align: left;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    tbody tr:nth-child(even) { background: var(--band); }
+    tbody tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      color: #ffffff;
+      background: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .high { background: var(--green); }
+    .medium { background: var(--gold); color: #251f08; }
+    .low { background: var(--coral); }
+    .pending { background: var(--violet); }
+    .code { font-family: Consolas, Monaco, "Courier New", monospace; font-size: 0.88em; white-space: nowrap; }
+    .defs {
+      display: grid;
+      grid-template-columns: minmax(160px, 260px) minmax(0, 1fr);
+      max-width: 1060px;
+      margin: 18px 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #ffffff;
+    }
+    .defs dt, .defs dd { margin: 0; padding: 13px 15px; border-bottom: 1px solid var(--line); }
+    .defs dt { color: #1f332b; background: var(--head); font-weight: 700; }
+    .defs dd { color: var(--muted); }
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 1120px;
+      margin: 20px 0;
+    }
+    .timeline div { min-height: 150px; padding: 16px; border-top: 5px solid var(--green); }
+    footer { padding: 26px min(7vw, 84px) 52px; color: var(--muted); background: #eef3f1; }
+    @media (max-width: 1040px) {
+      .layout { grid-template-columns: 1fr; }
+      aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+      nav ol, .meta, .steps, .timeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 720px) {
+      .hero, section, footer { padding-left: 18px; padding-right: 18px; }
+      nav ol, .meta, .grid, .steps, .timeline, .defs { grid-template-columns: 1fr; }
+      .meta div, .step, .timeline div { min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside aria-label="Protocol navigation">
+      <h2>RI Structure Map</h2>
+      <p>Draft scaffold for a quantitative, source-linked mapping study across Europe.</p>
+      <nav>
+        <ol>
+          <li><a href="#summary">Protocol Summary</a></li>
+          <li><a href="#rationale">Rationale</a></li>
+          <li><a href="#objectives">Objectives</a></li>
+          <li><a href="#scope">Scope</a></li>
+          <li><a href="#design">Study Design</a></li>
+          <li><a href="#data-model">Data Model</a></li>
+          <li><a href="#sources">Source Strategy</a></li>
+          <li><a href="#workflow">Workflow</a></li>
+          <li><a href="#quality">Quality Assurance</a></li>
+          <li><a href="#analysis">Analysis Plan</a></li>
+          <li><a href="#tables">Placeholder Tables</a></li>
+          <li><a href="#appendix">Appendix</a></li>
+        </ol>
+      </nav>
+    </aside>
+
+    <main>
+      <header class="hero">
+        <p class="eyebrow">Draft protocol - version 0.1</p>
+        <h1>European Research Integrity Structure Mapping Project</h1>
+        <p class="subtitle">A protocol for mapping the legal, institutional, educational, investigative, and reporting architecture of research integrity systems across Europe using reproducible quantitative extraction and source-level provenance.</p>
+        <div class="meta" aria-label="Protocol metadata">
+          <div><span class="label">Design</span><strong>Cross-sectional mapping study with source-verified extraction</strong></div>
+          <div><span class="label">Primary Unit</span><strong>European country or jurisdiction, nested with national and institutional actors</strong></div>
+          <div><span class="label">Perspective</span><strong>Clinical epidemiology, governance epidemiology, and empirical ethics</strong></div>
+          <div><span class="label">Updated</span><strong>15 April 2026 - Europe/Amsterdam</strong></div>
+        </div>
+      </header>
+
+      <section id="summary">
+        <h2>Protocol Summary</h2>
+        <p class="lead">The project will create a quantitative, source-linked map of how research integrity systems are organized, governed, implemented, and made transparent across Europe.</p>
+        <dl class="defs">
+          <dt>Working title</dt><dd>Mapping the Research Integrity Structure of Europe</dd>
+          <dt>Core output</dt><dd>Harmonized dataset, data dictionary, source registry, codebook, confidence ratings, and country-level profiles.</dd>
+          <dt>Study population</dt><dd>European countries and jurisdictions, with linked observations on national agencies, ministries, funders, research-performing organizations, universities, academies, and advisory bodies.</dd>
+          <dt>Primary outcome</dt><dd>Presence, scope, maturity, and transparency of research integrity infrastructure at national and institutional levels.</dd>
+          <dt>Source principle</dt><dd>Every coded observation must link to at least one retrievable source, with source type, date accessed, extracted field, and judgement recorded.</dd>
+          <dt>Draft status</dt><dd>All values in this HTML file are placeholders intended to show the planned table structure, not real findings.</dd>
+        </dl>
+        <div class="callout"><strong>Protocol premise.</strong> Research integrity structures can be studied as population-level systems. The project treats countries, institutions, and governance bodies as units of observation, applies explicit eligibility criteria, records system characteristics, and quantifies outcomes such as transparency, independence, procedural detail, and public reporting.</div>
+        <figure class="visual">
+          <img src="assets/europe-ri-map.png" alt="Conceptual research integrity structure map linking countries, laws, national bodies, institutions, funders, and public reports">
+          <figcaption>Conceptual data map for source-linked observations across countries, legal sources, national bodies, institutions, funders, and public reporting.</figcaption>
+        </figure>
+      </section>
+
+      <section id="rationale">
+        <h2>Rationale</h2>
+        <p class="lead">European research integrity policy is extensive but fragmented. A source-linked quantitative map can make differences in governance, accountability, prevention, investigation, and transparency visible in a form that supports comparative analysis.</p>
+        <div class="grid">
+          <div class="panel">
+            <h3>Problem Statement</h3>
+            <p>Research integrity systems are often described through narrative country reports, policy statements, codes of conduct, and institutional webpages. These materials vary in language, legal status, and level of detail.</p>
+            <p>This project will convert heterogeneous source material into a versioned dataset with operational definitions, extraction rules, adjudication procedures, and confidence ratings.</p>
+          </div>
+          <div class="panel">
+            <h3>Clinical Epidemiology Viewpoint</h3>
+            <p>The protocol borrows from systematic review methods: predefined eligibility criteria, calibration exercises, dual extraction for high-risk variables, source hierarchy, reproducible coding, missingness labels, and transparent audit trails.</p>
+            <p>Instead of patients, exposures, and clinical outcomes, the units are countries, organizations, rules, procedures, and governance outputs.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="objectives">
+        <h2>Objectives</h2>
+        <p class="lead">The study will estimate, describe, and compare the observable architecture of research integrity systems across Europe.</p>
+        <h3>Primary Objective</h3>
+        <p>To map the existence and characteristics of national and institutional research integrity structures across European countries using source-linked quantitative indicators.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 1. Candidate objectives and measurable endpoints</caption>
+            <thead><tr><th>Objective</th><th>Endpoint</th><th>Measurement Level</th><th>Planned Output</th></tr></thead>
+            <tbody>
+              <tr><td>Describe national governance models</td><td>Presence of national office, committee, ombuds body, or legally mandated authority</td><td>Country</td><td>Comparative governance typology</td></tr>
+              <tr><td>Quantify source transparency</td><td>Availability of procedures, annual reports, case statistics, decisions, and contact routes</td><td>Country and institution</td><td>Transparency score with source links</td></tr>
+              <tr><td>Compare prevention infrastructure</td><td>Mandatory training, curriculum content, authorship guidance, data management expectations</td><td>Institution and funder</td><td>Prevention infrastructure index</td></tr>
+              <tr><td>Map investigative procedures</td><td>Definitions, triage, investigation body, timelines, appeal mechanism, whistleblower protection</td><td>Country and institution</td><td>Procedure completeness matrix</td></tr>
+              <tr><td>Identify evidence gaps</td><td>Variables coded as not found, inaccessible, unclear, outdated, or language-limited</td><td>All levels</td><td>Gap map for follow-up verification</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="scope">
+        <h2>Scope and Definitions</h2>
+        <p class="lead">The project will use explicit inclusion criteria to avoid drifting between research integrity, research ethics, compliance, quality assurance, and general academic governance.</p>
+        <p><strong>Research integrity structure</strong> means the formal and observable system that defines responsible conduct of research, prevents breaches, handles concerns, investigates misconduct, records outcomes, and communicates standards to researchers, institutions, funders, and the public.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 2. Included and excluded content domains</caption>
+            <thead><tr><th>Domain</th><th>Included</th><th>Excluded or Secondary</th><th>Boundary Rule</th></tr></thead>
+            <tbody>
+              <tr><td>Research misconduct</td><td>Fabrication, falsification, plagiarism, questionable research practices</td><td>General employment disputes without RI content</td><td>Include when source explicitly connects procedure to research conduct.</td></tr>
+              <tr><td>Ethics review</td><td>Interaction between ethics committees and integrity bodies</td><td>Detailed biomedical ethics review unless linked to RI governance</td><td>Code as contextual unless the body has a formal integrity role.</td></tr>
+              <tr><td>Open science</td><td>Data sharing, preregistration, reporting transparency, reproducibility policies</td><td>General open access policy without integrity framing</td><td>Include when used as prevention, detection, or accountability mechanism.</td></tr>
+              <tr><td>Whistleblowing</td><td>Protected reporting channels for research misconduct or integrity concerns</td><td>General public-sector whistleblowing rules only</td><td>Code national background law separately from research-specific procedures.</td></tr>
+              <tr><td>Sanctions</td><td>Retractions, corrections, employment measures, funding consequences</td><td>Informal reputation effects</td><td>Require a formal source or policy statement.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The intended final frame is Europe as a broad region. The first analytic release can use a staged frame to protect feasibility: EU member states, EEA countries, Switzerland, and the United Kingdom first; wider Council of Europe countries can be added after piloting and translation capacity are confirmed.</p>
+      </section>
+
+      <section id="design">
+        <h2>Study Design</h2>
+        <p class="lead">A descriptive, cross-sectional mapping study with longitudinal versioning and repeatable source verification.</p>
+        <div class="steps" aria-label="Protocol workflow overview">
+          <div class="step"><strong>Define Units</strong><span>Confirm country frame, organization classes, and analytic hierarchy.</span></div>
+          <div class="step"><strong>Find Sources</strong><span>Search official, legal, institutional, funder, and published sources using recorded strategies.</span></div>
+          <div class="step"><strong>Extract Data</strong><span>Code variables with source identifiers, quotes, dates, and uncertainty labels.</span></div>
+          <div class="step"><strong>Adjudicate</strong><span>Resolve disagreements, document decisions, and update the codebook.</span></div>
+          <div class="step"><strong>Analyze</strong><span>Produce comparative tables, completeness maps, typologies, and sensitivity checks.</span></div>
+        </div>
+        <h3>Target Estimands</h3>
+        <p>The protocol does not estimate causal effects. It estimates descriptive system parameters, such as the proportion of countries with a national integrity body, the proportion with public case reports, the median number of procedural safeguards visible in policy, and the distribution of source confidence across domains.</p>
+        <h3>Repeat Measurement</h3>
+        <p>Each country and organization record should have a version date. When laws, policies, or websites change, the prior value remains in the archive and a new observation is added with an effective date, access date, and change note.</p>
+      </section>
+
+      <section id="data-model">
+        <h2>Data Model</h2>
+        <p class="lead">The data model separates entities, observations, sources, variables, and extraction decisions so that every reported value can be audited.</p>
+        <div class="grid">
+          <div class="panel">
+            <h3>Entity Tables</h3>
+            <p>Countries, national bodies, ministries, funders, research-performing organizations, integrity committees, ombuds offices, and policy documents should be stored as separate entities with stable identifiers.</p>
+          </div>
+          <div class="panel">
+            <h3>Observation Tables</h3>
+            <p>Each variable value should be stored with entity ID, variable ID, value, unit, source ID, extraction date, extractor ID, confidence rating, and notes. This avoids hiding evidence inside free-text summaries.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 3. Minimum data dictionary skeleton</caption>
+            <thead><tr><th>Variable ID</th><th>Level</th><th>Construct</th><th>Planned Type</th><th>Allowed Values</th><th>Primary Source Requirement</th></tr></thead>
+            <tbody>
+              <tr><td><span class="code">COV_COUNTRY_STATUS</span></td><td>Country</td><td>Country included in active mapping frame</td><td>Categorical</td><td>Included; pending; excluded; staged</td><td>Protocol eligibility decision</td></tr>
+              <tr><td><span class="code">LAW_RI_SPECIFIC</span></td><td>Country</td><td>Specific national law or regulation addressing research integrity</td><td>Binary plus text</td><td>Yes; no; unclear; not found</td><td>Legal text or official legal database</td></tr>
+              <tr><td><span class="code">NAT_BODY_EXISTS</span></td><td>Country</td><td>National research integrity body exists</td><td>Binary</td><td>Yes; no; unclear; not found</td><td>Official government or body webpage</td></tr>
+              <tr><td><span class="code">NAT_BODY_INDEPENDENCE</span></td><td>National body</td><td>Stated independence from ministries, institutions, or funders</td><td>Ordinal</td><td>High; moderate; low; unclear</td><td>Mandate, statute, annual report, or governance rules</td></tr>
+              <tr><td><span class="code">MISCONDUCT_DEFINITION</span></td><td>Country or institution</td><td>Definition of misconduct and questionable research practices</td><td>Structured text plus flags</td><td>FFP only; FFP plus QRP; broad RI breach; unclear</td><td>Code of conduct or procedure document</td></tr>
+              <tr><td><span class="code">REPORT_CHANNEL_PUBLIC</span></td><td>Country or institution</td><td>Publicly visible channel for submitting concerns</td><td>Binary</td><td>Yes; no; restricted; unclear</td><td>Official contact page or procedure</td></tr>
+              <tr><td><span class="code">CASE_STATS_PUBLIC</span></td><td>Country or institution</td><td>Public statistics on allegations, investigations, or outcomes</td><td>Ordinal</td><td>None; aggregate; case summaries; full reports</td><td>Annual report or case report archive</td></tr>
+              <tr><td><span class="code">TRAINING_MANDATORY</span></td><td>Institution or funder</td><td>Mandatory research integrity training for researchers or PhD candidates</td><td>Binary plus population</td><td>Yes; no; partial; unclear</td><td>Course catalogue, doctoral rules, HR policy, or funder condition</td></tr>
+              <tr><td><span class="code">APPEAL_MECHANISM</span></td><td>Country or institution</td><td>Formal appeal or review route after an investigation decision</td><td>Binary plus text</td><td>Yes; no; external only; unclear</td><td>Procedure document or legal source</td></tr>
+              <tr><td><span class="code">TRANSPARENCY_SCORE</span></td><td>Derived</td><td>Composite visibility of key public materials</td><td>Integer</td><td>0-10</td><td>Derived from source-linked component variables</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="sources">
+        <h2>Source Strategy</h2>
+        <p class="lead">The source strategy will prioritize primary, official, current, and archived materials. Secondary literature can inform searches but should not replace direct evidence when coding system variables.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 4. Source hierarchy and coding use</caption>
+            <thead><tr><th>Tier</th><th>Source Type</th><th>Examples</th><th>Allowed Use</th><th>Confidence Default</th></tr></thead>
+            <tbody>
+              <tr><td>S1</td><td>Legal or statutory source</td><td>Legislation, regulation, parliamentary act, official legal database</td><td>Code legal mandates, formal powers, obligations, appeal rights</td><td><span class="tag high">High</span></td></tr>
+              <tr><td>S2</td><td>Official national body source</td><td>National research integrity office, committee, ministry, academy, ombuds body</td><td>Code governance structure, procedures, annual reports, guidance</td><td><span class="tag high">High</span></td></tr>
+              <tr><td>S3</td><td>Institutional or funder policy</td><td>University procedure, funder grant condition, HR policy, doctoral regulation</td><td>Code local implementation, reporting route, training requirements</td><td><span class="tag medium">Medium</span></td></tr>
+              <tr><td>S4</td><td>Scholarly or grey literature</td><td>Peer-reviewed article, EU report, policy review, project deliverable</td><td>Identify candidate sources, contextualize systems, triangulate unclear variables</td><td><span class="tag medium">Medium</span></td></tr>
+              <tr><td>S5</td><td>Media, blog, or non-official source</td><td>News report, professional blog, third-party database</td><td>Signal source only; requires confirmation before coding formal variables</td><td><span class="tag low">Low</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Required Source Fields</h3>
+        <p>Every source record should include source ID, entity ID, title, issuing body, source tier, URL or archival location, publication date when available, access date, language, machine translation status, extractor ID, and a short evidence note.</p>
+        <div class="callout warning"><strong>Placeholder warning.</strong> The source URLs and source IDs in the tables below are invented examples. During real extraction, placeholder rows must be replaced by verified source records and archived where licensing and access conditions permit.</div>
+      </section>
+
+      <section id="workflow">
+        <h2>Data Collection Workflow</h2>
+        <p class="lead">The workflow is designed to produce analyzable data while preserving a clear trail from each numeric field back to a source.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 5. Extraction workflow and decision points</caption>
+            <thead><tr><th>Stage</th><th>Activity</th><th>Responsible Role</th><th>Output</th><th>Decision Rule</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Country scoping</td><td>Country lead</td><td>Eligibility row and country note</td><td>Confirm country is in the active geographic frame.</td></tr>
+              <tr><td>2</td><td>Source search</td><td>Extractor</td><td>Search log and candidate source list</td><td>Search official terms in English and national language where feasible.</td></tr>
+              <tr><td>3</td><td>Source screening</td><td>Extractor plus reviewer</td><td>Included source registry</td><td>Retain current official source unless superseded or archived only.</td></tr>
+              <tr><td>4</td><td>Variable extraction</td><td>Two extractors for priority variables</td><td>Observation table</td><td>Use exact allowed values and record quote or field evidence.</td></tr>
+              <tr><td>5</td><td>Disagreement resolution</td><td>Adjudicator</td><td>Final value plus adjudication note</td><td>Prefer higher-tier source; document unresolved ambiguity.</td></tr>
+              <tr><td>6</td><td>Data lock</td><td>Data manager</td><td>Versioned dataset release</td><td>Freeze data after validation, missingness checks, and source link checks.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Missingness Labels</h3>
+        <p>Missing data should not be coded as absence. Suggested labels: <span class="code">not_found</span>, <span class="code">not_applicable</span>, <span class="code">unclear</span>, <span class="code">source_inaccessible</span>, <span class="code">translation_pending</span>, and <span class="code">requires_expert_confirmation</span>.</p>
+      </section>
+
+      <section id="quality">
+        <h2>Quality Assurance</h2>
+        <p class="lead">Quality control should target the main risks in this project: language error, obsolete sources, hidden policy pages, ambiguous legal status, and inconsistent judgement between extractors.</p>
+        <div class="grid">
+          <div class="panel">
+            <h3>Extractor Calibration</h3>
+            <p>Before full extraction, each extractor should independently code the same pilot countries. Agreement should be reviewed by variable, not only overall. Variables with repeated disagreement need clearer definitions or examples in the codebook.</p>
+          </div>
+          <div class="panel">
+            <h3>Evidence Confidence</h3>
+            <p>Confidence should combine source tier, source recency, directness of evidence, translation reliability, and consistency across sources. Confidence is attached to each observation, not to a country as a whole.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 6. Observation confidence rubric</caption>
+            <thead><tr><th>Rating</th><th>Criteria</th><th>Example</th><th>Action</th></tr></thead>
+            <tbody>
+              <tr><td><span class="tag high">High</span></td><td>Direct official source, current, unambiguous, language verified</td><td>Official procedure states that the national committee publishes annual case statistics.</td><td>Accept for analysis.</td></tr>
+              <tr><td><span class="tag medium">Medium</span></td><td>Official but incomplete source, older source, or indirect source consistent with other material</td><td>Annual report describes cases but the procedure page is not updated.</td><td>Accept with sensitivity flag.</td></tr>
+              <tr><td><span class="tag low">Low</span></td><td>Non-official source, unclear translation, conflicting source material, or uncertain applicability</td><td>A policy review mentions a national office but no official website is found.</td><td>Do not use for primary coding until verified.</td></tr>
+              <tr><td><span class="tag pending">Pending</span></td><td>Candidate evidence identified but extraction is incomplete</td><td>Legal source found but not translated or reviewed.</td><td>Exclude from locked analysis until resolved.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="analysis">
+        <h2>Analysis Plan</h2>
+        <p class="lead">The primary analyses will be descriptive and comparative. Any index scores should remain transparent, decomposable, and source-linked.</p>
+        <h3>Descriptive Analyses</h3>
+        <p>Summarize categorical variables as counts and proportions across countries and organization types. Summarize ordinal scores with medians and ranges. Report missingness by variable, country, language, source tier, and entity type.</p>
+        <h3>Composite Measures</h3>
+        <p>Composite scores can be useful for visualization but should not replace component variables. Candidate indices include transparency, procedural completeness, prevention infrastructure, institutionalization, and public accountability. Each index must have a prespecified scoring rule and sensitivity analysis.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 7. Planned analytic outputs</caption>
+            <thead><tr><th>Output</th><th>Description</th><th>Required Dataset</th><th>Main Caveat</th></tr></thead>
+            <tbody>
+              <tr><td>Country profile</td><td>One-page summary of system structure, sources, confidence, and gaps</td><td>Country, source, observation, derived scores</td><td>Profile may reflect visible public sources rather than full internal practice.</td></tr>
+              <tr><td>Governance typology</td><td>Cluster countries by national body model, legal basis, and procedural scope</td><td>Country and national body variables</td><td>Different legal traditions may produce similar practical functions under different labels.</td></tr>
+              <tr><td>Transparency heat table</td><td>Show public availability of policies, reports, statistics, decisions, and contact points</td><td>Source registry and transparency variables</td><td>Website discoverability varies by language and search strategy.</td></tr>
+              <tr><td>Institutional sample map</td><td>Compare a defined sample of universities and research institutes within countries</td><td>Institution entity and observation tables</td><td>Sampling strategy determines generalizability.</td></tr>
+              <tr><td>Evidence gap report</td><td>Prioritized list of unresolved variables requiring expert confirmation or translation</td><td>Missingness and adjudication logs</td><td>Gaps may mean lack of public visibility, not lack of a real structure.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="tables">
+        <h2>Placeholder Tables</h2>
+        <p class="lead">These examples show the intended structure of the data outputs. Values are filler and should not be interpreted as factual country assessments.</p>
+        <div class="tools">
+          <label for="table-filter">Filter placeholder rows</label>
+          <input id="table-filter" type="search" placeholder="Try: Netherlands, national body, training, high">
+        </div>
+
+        <div class="table-wrap">
+          <table class="filterable">
+            <caption>Table 8. Placeholder country coverage tracker</caption>
+            <thead><tr><th>Country</th><th>Frame Status</th><th>Language Plan</th><th>Priority Sources Found</th><th>Extraction Status</th><th>Lead Note</th></tr></thead>
+            <tbody>
+              <tr><td>Netherlands</td><td><span class="tag high">Included</span></td><td>Dutch plus English</td><td>National code, university policies, funder pages</td><td>Pilot ready</td><td>Use as calibration country because multiple source types are expected.</td></tr>
+              <tr><td>Denmark</td><td><span class="tag high">Included</span></td><td>Danish plus English</td><td>Legal source, national body source, institutional examples</td><td>Source screening</td><td>Good candidate for testing legal-source extraction.</td></tr>
+              <tr><td>Finland</td><td><span class="tag high">Included</span></td><td>Finnish, Swedish, English</td><td>National guidance, investigation procedure, training sources</td><td>Search log started</td><td>May require multilingual source reconciliation.</td></tr>
+              <tr><td>Norway</td><td><span class="tag high">Included</span></td><td>Norwegian plus English</td><td>National committee pages, legal materials, annual reports</td><td>Search log started</td><td>Useful for public reporting variables.</td></tr>
+              <tr><td>Sweden</td><td><span class="tag high">Included</span></td><td>Swedish plus English</td><td>National authority source, legal source, university procedures</td><td>Source screening</td><td>Check distinction between authority, universities, and funders.</td></tr>
+              <tr><td>Belgium</td><td><span class="tag high">Included</span></td><td>Dutch, French, English</td><td>Belgian code, VCWI, CSIS, funder and institutional examples</td><td>Overview drafted</td><td>Code subnational community layers explicitly.</td></tr>
+              <tr><td>France</td><td><span class="tag high">Included</span></td><td>French plus English</td><td>Research-law articles, Ofis/Hceres, RIS sources, ANR, operator examples</td><td>Overview drafted</td><td>Track RIS role, biennial reporting, doctoral training, and Inadis development.</td></tr>
+              <tr><td>Ireland</td><td><span class="tag high">Included</span></td><td>English</td><td>National policy, NRIF outputs, annual statistics, RIO procedures, funder terms</td><td>Overview drafted</td><td>Useful for national harmonisation without central adjudication.</td></tr>
+              <tr><td>Portugal</td><td><span class="tag high">Included</span></td><td>Portuguese plus English</td><td>FCT, CNECV, CEIC/RNCES, institutional committees, data and ethics sources</td><td>Overview drafted</td><td>Separate general RI, funder governance, and regulated clinical ethics.</td></tr>
+              <tr><td>Spain</td><td><span class="tag high">Included</span></td><td>Spanish, Catalan, English</td><td>CEEI, national declaration, CSIC/ISCIII, AEI, regional sources</td><td>Overview drafted</td><td>Regional integrity and bioethics layers are part of the core map.</td></tr>
+              <tr><td>United Kingdom</td><td><span class="tag high">Included</span></td><td>English</td><td>Concordat, institutional procedures, funder guidance</td><td>Pilot ready</td><td>May need coding by devolved administration where relevant.</td></tr>
+              <tr><td>Germany</td><td><span class="tag medium">Staged</span></td><td>German plus English</td><td>National guidance, funder code, institutional implementation</td><td>Pending</td><td>Federal and institutional variation should be captured explicitly.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-wrap">
+          <table class="filterable">
+            <caption>Table 9. Placeholder national system architecture</caption>
+            <thead><tr><th>Country</th><th>National Body Model</th><th>Legal Basis</th><th>Public Case Reporting</th><th>Training Infrastructure</th><th>Evidence</th><th>Source IDs</th></tr></thead>
+            <tbody>
+              <tr><td>Netherlands</td><td>National advisory and institutional procedure model</td><td>Policy and institutional codes</td><td>Aggregate annual reporting</td><td>Institution-led training</td><td><span class="tag medium">Medium</span></td><td><span class="code">NL-S1</span>; <span class="code">NL-S3</span></td></tr>
+              <tr><td>Denmark</td><td>National statutory committee model</td><td>Specific national law</td><td>Case summaries available</td><td>Mixed national and institutional material</td><td><span class="tag high">High</span></td><td><span class="code">DK-S1</span>; <span class="code">DK-S2</span></td></tr>
+              <tr><td>Finland</td><td>National guidance and institution-led investigation model</td><td>National guideline and institutional commitment</td><td>Aggregate examples available</td><td>Guidance-based training</td><td><span class="tag medium">Medium</span></td><td><span class="code">FI-S2</span>; <span class="code">FI-S4</span></td></tr>
+              <tr><td>Norway</td><td>National committee and institutional responsibility model</td><td>Specific national law</td><td>Annual reporting visible</td><td>National resources plus institutional rules</td><td><span class="tag high">High</span></td><td><span class="code">NO-S1</span>; <span class="code">NO-S2</span></td></tr>
+              <tr><td>Sweden</td><td>National authority model</td><td>Specific national law</td><td>Decision-level reporting visible</td><td>Institution-led training</td><td><span class="tag high">High</span></td><td><span class="code">SE-S1</span>; <span class="code">SE-S2</span></td></tr>
+              <tr><td>Belgium</td><td>Federal container with community second-line models</td><td>Belgium-wide code plus community and institutional rules</td><td>Community and institution-dependent</td><td>Interuniversity and institution-led resources</td><td><span class="tag medium">Medium</span></td><td><span class="code">BE-S1</span>; <span class="code">BE-S2</span></td></tr>
+              <tr><td>France</td><td>RIS network coordinated nationally by Ofis/Hceres</td><td>Specific research-law provisions</td><td>Biennial institutional reporting and local RIS reports</td><td>Legally anchored doctoral and institutional training</td><td><span class="tag high">High</span></td><td><span class="code">FR-S1</span>; <span class="code">FR-S2</span></td></tr>
+              <tr><td>Ireland</td><td>National forum and institution-led procedure model</td><td>National policy and funder expectations</td><td>Annual consolidated national statistics</td><td>National guidance plus funder and institutional requirements</td><td><span class="tag high">High</span></td><td><span class="code">IE-S1</span>; <span class="code">IE-S2</span></td></tr>
+              <tr><td>Portugal</td><td>Funder-governance plus institutional ethics/integrity model</td><td>Funder rules, advisory recommendations, and clinical ethics law</td><td>Institution-dependent</td><td>Institution-led plus open-science/data infrastructure</td><td><span class="tag medium">Medium</span></td><td><span class="code">PT-S1</span>; <span class="code">PT-S2</span></td></tr>
+              <tr><td>Spain</td><td>National consultative, institutional, and regional model</td><td>Framework legislation plus national declaration and regional rules</td><td>Consultative analyses and institution-dependent reporting</td><td>Institution and public-research-body led</td><td><span class="tag medium">Medium</span></td><td><span class="code">ES-S1</span>; <span class="code">ES-S2</span></td></tr>
+              <tr><td>United Kingdom</td><td>Concordat and institutional governance model</td><td>Sector concordat and funder expectations</td><td>Institution-dependent</td><td>Institution and funder-led training</td><td><span class="tag medium">Medium</span></td><td><span class="code">UK-S2</span>; <span class="code">UK-S3</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-wrap">
+          <table class="filterable">
+            <caption>Table 10. Placeholder source registry</caption>
+            <thead><tr><th>Source ID</th><th>Country</th><th>Tier</th><th>Issuing Body</th><th>Document Type</th><th>Example URL</th><th>Access Date</th><th>Use in Coding</th></tr></thead>
+            <tbody>
+              <tr><td><span class="code">NL-S1</span></td><td>Netherlands</td><td>S2</td><td>National integrity body placeholder</td><td>National code or guidance</td><td>https://example.org/nl/research-integrity-code</td><td>2026-04-15</td><td>Definitions, responsibilities, reporting route</td></tr>
+              <tr><td><span class="code">DK-S1</span></td><td>Denmark</td><td>S1</td><td>Legal database placeholder</td><td>Research integrity act</td><td>https://example.org/dk/research-integrity-law</td><td>2026-04-15</td><td>Legal basis, investigative powers, appeal mechanism</td></tr>
+              <tr><td><span class="code">FI-S2</span></td><td>Finland</td><td>S2</td><td>National board placeholder</td><td>Procedure guideline</td><td>https://example.org/fi/responsible-conduct-guideline</td><td>2026-04-15</td><td>Procedure variables, definitions, institutional commitments</td></tr>
+              <tr><td><span class="code">NO-S2</span></td><td>Norway</td><td>S2</td><td>National committee placeholder</td><td>Annual report</td><td>https://example.org/no/integrity-annual-report</td><td>2026-04-15</td><td>Case statistics, public reporting, governance activities</td></tr>
+              <tr><td><span class="code">SE-S1</span></td><td>Sweden</td><td>S1</td><td>Legal source placeholder</td><td>Act or ordinance</td><td>https://example.org/se/research-misconduct-act</td><td>2026-04-15</td><td>National authority mandate, scope, decision process</td></tr>
+              <tr><td><span class="code">UK-S3</span></td><td>United Kingdom</td><td>S3</td><td>University placeholder</td><td>Institutional procedure</td><td>https://example.org/uk/university-ri-procedure</td><td>2026-04-15</td><td>Institutional implementation, investigation stages, training</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-wrap">
+          <table class="filterable">
+            <caption>Table 11. Placeholder institutional sample</caption>
+            <thead><tr><th>Institution ID</th><th>Country</th><th>Institution Type</th><th>RI Office</th><th>Public Procedure</th><th>Mandatory Training</th><th>Case Statistics</th><th>Confidence</th></tr></thead>
+            <tbody>
+              <tr><td><span class="code">INST-NL-001</span></td><td>Netherlands</td><td>Research university</td><td>Yes</td><td>Yes</td><td>PhD candidates</td><td>Not found</td><td><span class="tag medium">Medium</span></td></tr>
+              <tr><td><span class="code">INST-DK-001</span></td><td>Denmark</td><td>University hospital</td><td>Partial</td><td>Yes</td><td>Researchers on selected grants</td><td>Aggregate</td><td><span class="tag medium">Medium</span></td></tr>
+              <tr><td><span class="code">INST-FI-001</span></td><td>Finland</td><td>Research institute</td><td>Yes</td><td>Yes</td><td>Unclear</td><td>None visible</td><td><span class="tag low">Low</span></td></tr>
+              <tr><td><span class="code">INST-NO-001</span></td><td>Norway</td><td>Research university</td><td>Yes</td><td>Yes</td><td>Staff and doctoral candidates</td><td>Aggregate</td><td><span class="tag high">High</span></td></tr>
+              <tr><td><span class="code">INST-SE-001</span></td><td>Sweden</td><td>Research university</td><td>Yes</td><td>Yes</td><td>Doctoral candidates</td><td>Institution-dependent</td><td><span class="tag medium">Medium</span></td></tr>
+              <tr><td><span class="code">INST-UK-001</span></td><td>United Kingdom</td><td>Research university</td><td>Yes</td><td>Yes</td><td>Role-dependent</td><td>Summary statement</td><td><span class="tag medium">Medium</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-wrap">
+          <table class="filterable">
+            <caption>Table 12. Placeholder extraction audit log</caption>
+            <thead><tr><th>Audit ID</th><th>Entity</th><th>Variable</th><th>Extractor Value</th><th>Reviewer Value</th><th>Resolution</th><th>Reason</th></tr></thead>
+            <tbody>
+              <tr><td><span class="code">AUD-0001</span></td><td>Denmark</td><td><span class="code">APPEAL_MECHANISM</span></td><td>Yes</td><td>Unclear</td><td>Yes</td><td>Legal source explicitly described appeal route after expert review.</td></tr>
+              <tr><td><span class="code">AUD-0002</span></td><td>Finland</td><td><span class="code">CASE_STATS_PUBLIC</span></td><td>Aggregate</td><td>Case summaries</td><td>Aggregate</td><td>Examples were illustrative, not a systematic case archive.</td></tr>
+              <tr><td><span class="code">AUD-0003</span></td><td>United Kingdom</td><td><span class="code">LAW_RI_SPECIFIC</span></td><td>No</td><td>Unclear</td><td>No</td><td>Sector concordat identified, but no specific national RI law found in pilot sources.</td></tr>
+              <tr><td><span class="code">AUD-0004</span></td><td>Institution sample</td><td><span class="code">TRAINING_MANDATORY</span></td><td>Yes</td><td>Partial</td><td>Partial</td><td>Mandatory only for doctoral candidates, not all researchers.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="appendix">
+        <h2>Appendix: Implementation Notes</h2>
+        <p class="lead">Practical decisions to settle before formal extraction begins.</p>
+        <div class="timeline">
+          <div><strong>Phase 1: Protocol Lock</strong><span>Finalize geographic frame, variable definitions, source hierarchy, and pilot countries.</span></div>
+          <div><strong>Phase 2: Pilot Extraction</strong><span>Dual-code 5 to 8 countries, calculate agreement, revise codebook, and validate source fields.</span></div>
+          <div><strong>Phase 3: Full Extraction</strong><span>Scale country and institution extraction with staged language support and quality checks.</span></div>
+          <div><strong>Phase 4: Analysis Release</strong><span>Lock data, publish methods, generate profiles, and maintain a changelog for updates.</span></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 13. Questions to resolve in the next protocol iteration</caption>
+            <thead><tr><th>Decision</th><th>Options</th><th>Risk if Unresolved</th><th>Suggested Default</th></tr></thead>
+            <tbody>
+              <tr><td>Country frame</td><td>EU/EEA/UK/CH first; Council of Europe; all geographically European states</td><td>Inconsistent denominator and unclear generalizability</td><td>Stage the frame and report denominators explicitly.</td></tr>
+              <tr><td>Institutional sampling</td><td>All major universities; top research performers; stratified sample; funder-driven sample</td><td>Comparisons may be biased toward visible or English-language organizations</td><td>Use a transparent sampling frame with at least one major RPO, one medical faculty, and one public funder per country where feasible.</td></tr>
+              <tr><td>Translation policy</td><td>Native speaker review; professional translation; machine translation plus verification</td><td>Misclassification of legal and procedural variables</td><td>Use machine translation for screening and expert or native review for high-impact variables.</td></tr>
+              <tr><td>Composite scoring</td><td>No score; domain scores; overall maturity index</td><td>Scores may hide meaningful institutional differences</td><td>Report component variables first and treat any composite as exploratory.</td></tr>
+              <tr><td>Source archiving</td><td>URL only; PDF capture; web archive link; local evidence extracts</td><td>Link rot and inability to reproduce extraction</td><td>Record URL, access date, source title, evidence excerpt, and archive link when permitted.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer>
+        <p><strong>Draft status:</strong> This protocol document is a working scaffold. All table values are placeholders and all source links are examples. The next iteration should replace filler values with verified sources, define the final country frame, and convert the variable list into a formal data dictionary.</p>
+      </footer>
+
+      <script>
+        const filterInput = document.getElementById("table-filter");
+        if (filterInput) {
+          filterInput.addEventListener("input", () => {
+            const query = filterInput.value.trim().toLowerCase();
+            document.querySelectorAll("table.filterable tbody tr").forEach((row) => {
+              row.style.display = row.textContent.toLowerCase().includes(query) ? "" : "none";
+            });
+          });
+        }
+      </script>
+    </main>
+  </div>
+</body>
+</html>
