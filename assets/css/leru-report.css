@@ -1,0 +1,494 @@
+.leru-report-page {
+  line-height: 1.55;
+}
+
+.report-header,
+.report-section,
+.report-caveat,
+.report-footer {
+  padding: 34px 28px;
+}
+
+.report-header {
+  align-items: start;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 22px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.report-header h1 {
+  font-size: clamp(2rem, 4.8vw, 4.3rem);
+  line-height: 1.04;
+  margin: 0;
+  max-width: 1100px;
+  overflow-wrap: anywhere;
+}
+
+.report-subtitle {
+  color: var(--system-strong);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 12px 0 0;
+}
+
+.report-lead {
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 1000px;
+}
+
+.report-actions {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+  min-width: 240px;
+}
+
+.report-main {
+  margin: 0 auto;
+  max-width: 1480px;
+}
+
+.report-caveat {
+  background: #fff8ed;
+  border-bottom: 1px solid #ead5ad;
+  border-left: 6px solid var(--accent);
+}
+
+.report-caveat h2,
+.report-section h2,
+.profile-card h3 {
+  letter-spacing: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.report-caveat h2,
+.report-section h2 {
+  font-size: clamp(1.35rem, 2.4vw, 2.1rem);
+  line-height: 1.12;
+}
+
+.report-section {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
+.report-section:nth-of-type(even) {
+  background: #fbfcfc;
+}
+
+.report-section-heading {
+  margin-bottom: 18px;
+}
+
+.section-note {
+  color: var(--muted);
+  margin: 8px 0 0;
+  max-width: 900px;
+}
+
+.executive-summary {
+  border-top: 1px solid var(--line);
+  margin-top: 14px;
+  max-width: 1100px;
+  padding-top: 18px;
+}
+
+.executive-summary p {
+  font-size: 1.04rem;
+  margin: 0 0 14px;
+}
+
+.report-kpis {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin-bottom: 20px;
+}
+
+.report-kpi {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.report-kpi strong {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.report-kpi span {
+  color: var(--muted);
+  display: block;
+  margin-top: 7px;
+}
+
+.report-two-column {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.report-two-column > div,
+.profile-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.report-two-column h3,
+.profile-card h4 {
+  margin: 0 0 10px;
+}
+
+.key-findings {
+  columns: 2;
+  column-gap: 34px;
+  max-width: 1200px;
+}
+
+.key-findings li {
+  break-inside: avoid;
+}
+
+.typology-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.typology-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  break-inside: avoid;
+  padding: 16px;
+}
+
+.typology-card-header {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.typology-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.typology-count {
+  align-items: center;
+  background: #eef6f4;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--system-strong);
+  display: inline-flex;
+  font-size: 1rem;
+  justify-content: center;
+  min-width: 36px;
+  padding: 5px 10px;
+}
+
+.typology-explanation,
+.typology-institutions,
+.typology-caveat {
+  margin: 10px 0 0;
+}
+
+.typology-institutions {
+  font-weight: 700;
+}
+
+.typology-caveat {
+  color: var(--muted);
+}
+
+.interpretation-grid p {
+  margin: 0 0 12px;
+}
+
+.reading-guide-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.reading-guide-grid > div {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.reading-guide-grid strong,
+.reading-guide-grid span {
+  display: block;
+}
+
+.reading-guide-grid span {
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+.matrix-wrap {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.report-matrix {
+  border-collapse: collapse;
+  min-width: 1480px;
+  width: 100%;
+}
+
+.report-matrix th,
+.report-matrix td {
+  border-bottom: 1px solid var(--line);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.report-matrix th {
+  background: #eef3f1;
+  color: var(--ink);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+}
+
+.report-matrix td {
+  font-size: 0.94rem;
+}
+
+.profile-list {
+  display: grid;
+  gap: 18px;
+}
+
+.profile-card {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.profile-header {
+  align-items: start;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.profile-card h3 {
+  font-size: 1.35rem;
+  line-height: 1.16;
+}
+
+.profile-meta,
+.profile-note,
+.source-note-text {
+  color: var(--muted);
+}
+
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.profile-tag {
+  background: #eef6f4;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--system-strong);
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 5px 8px;
+}
+
+.profile-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 16px;
+}
+
+.profile-block {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.profile-block.full {
+  grid-column: 1 / -1;
+}
+
+.profile-block p {
+  margin: 0 0 10px;
+}
+
+.source-list,
+.report-list,
+.profile-block ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.source-list li,
+.report-list li,
+.profile-block li {
+  margin-bottom: 8px;
+}
+
+.source-list a {
+  font-weight: 700;
+}
+
+.report-footer {
+  align-items: center;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.report-footer a {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.report-footer a:hover,
+.report-footer a:focus-visible {
+  border-color: var(--system);
+  outline: none;
+}
+
+@media (max-width: 980px) {
+  .report-header,
+  .report-two-column,
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .key-findings {
+    columns: 1;
+  }
+
+  .report-kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .report-actions,
+  .profile-tags {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 680px) {
+  .report-header,
+  .report-section,
+  .report-caveat,
+  .report-footer {
+    padding: 26px 18px;
+  }
+
+  .report-kpis,
+  .profile-header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  :root {
+    --ink: #111111;
+    --muted: #444444;
+    --line: #c8c8c8;
+    --surface: #ffffff;
+    --wash: #ffffff;
+    --shadow: none;
+  }
+
+  body {
+    background: #ffffff;
+    color: #111111;
+    font-size: 11pt;
+  }
+
+  .report-actions,
+  .report-footer {
+    display: none;
+  }
+
+  .report-header,
+  .report-section,
+  .report-caveat {
+    border-bottom: 1px solid #c8c8c8;
+    padding: 18pt 0;
+  }
+
+  .report-main {
+    max-width: none;
+  }
+
+  .report-header h1 {
+    font-size: 24pt;
+  }
+
+  .report-kpis,
+  .report-two-column,
+  .profile-grid,
+  .typology-grid,
+  .reading-guide-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .report-kpi,
+  .report-two-column > div,
+  .profile-card,
+  .typology-card,
+  .matrix-wrap {
+    box-shadow: none;
+  }
+
+  .report-section,
+  .typology-card,
+  .profile-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .matrix-wrap {
+    overflow: visible;
+  }
+
+  .report-matrix {
+    min-width: 0;
+  }
+
+  .report-matrix th,
+  .report-matrix td {
+    font-size: 8.5pt;
+    padding: 5pt;
+  }
+
+  a {
+    color: #111111;
+    text-decoration: none;
+  }
+}
