@@ -1,6 +1,6 @@
 # Poland deep-dive sources
 
-Updated: 23 April 2026
+Updated: 29 April 2026
 
 ## System reading
 
@@ -111,3 +111,42 @@ This pass changed the Poland reading in five ways.
 - Better evidence on whether ministerial and university disciplinary bodies publish more current or systematic public case material
 - A cleaner clinical-trials trail beyond the current ABM and committee sources
 - More local animal-ethics committee pages and clearer evidence of how JSA results are used in disciplinary practice
+
+## Quality-consolidation pass added 29 April 2026
+
+This pass does not change the core coding. Poland remains a legally anchored matrix with a strong national PAN ethics-opinion lane, central statutory disciplinary routes, local first-line implementation, funder enforcement and separate clinical, animal and data boundaries.
+
+### Source-currency and ENRIO status
+
+- ENRIO's Poland country report, last updated May 2024, confirms the national structure around the Science Ethics Commission within PAN and the advisory/non-investigatory character of that Commission in practice. The report is useful as a cross-check, but it is now behind the current PAN code because it describes the older code history rather than the fourth edition adopted on 5 December 2024.
+- ENRIO's 2024 annual report lists the Commission for Ethics in Science, Poland as an ENRIO member. That makes PAN the correct ENRIO-aligned national contact for the Polish route.
+- The PAN ethics page is current for the 2023-2026 committee term, the 5 December 2024 updated code, statements and reports/legal-act links.
+- The Ministry disciplinary commission page is current for the 2025-2028 commission appointed on 20 December 2024 and still gives route/composition visibility rather than decision publication.
+- The NCN research-integrity page still confirms the 2016 code, the reporting address and the Research Integrity Committee order updated by Order No 1/2023.
+
+### Main code baseline
+
+- The PAN Code of Ethics for Researchers, fourth edition, is now the main national code baseline. It covers research data management, conduct of research, authorship and publishing, young-researcher education, social relations, conflicts of interest, gross misconduct, other research-ethics violations and general handling principles.
+- The 2024 code defines fabrication, falsification and plagiarism as gross violations and includes newer integrity concerns such as concealed AI or automated-tool use, unjustified non-disclosure of data or results, authorship misattribution, predatory journals, self-plagiarism and malicious or unfounded allegations.
+- NCN remains the strongest funder code/procedure baseline because it links reporting, investigation procedure, committee membership, ethics approvals and sanctions.
+
+### PAN annual-report and case-trace update
+
+- The 2024 PAN financial/activity report adds an important continuity signal. It reports that in 2024 KEwN held 10 plenary meetings and 7 adjudicating-team meetings, issued 5 opinions, and considered submissions from individuals, scientific staff, disciplinary commissions and the Minister of Science.
+- The same report lists matter types including possible ethics breaches in research conduct, research-data handling, copyright or plagiarism issues, irregularities in scientific achievement and promotion proceedings, and the 2024 code-revision process.
+- This strengthens the earlier 2023 activity-report reading: PAN is still not a searchable case archive, but it has a continuing official aggregate case-trace lane.
+
+### Route-directory seeds added
+
+- University of Gdansk widens the local university sample. Its 2024-2028 committees page lists the university disciplinary committee for academic teachers, disciplinary ombuds for academic teachers, an ethics-proceedings ombuds for academic teachers, a disciplinary ombuds for students and doctoral candidates, and a research-integrity ombuds.
+- The University of Gdansk interview with the research-integrity ombuds explains the intended gap-filling role between ordinary ethics or disciplinary routes and fully formal disciplinary proceedings. Treat this as an official institutional route explanation, not a case archive.
+- The Lukasiewicz Research Network seed confirms a 22-institute applied-research network. Its Code of Ethics and Good Practices is not a substitute for PAN/NCN, but it adds a network-wide applied-research conduct baseline with research reliability, pressure-resistance, verifiable bases, IP/plagiarism and authorship rules.
+- The University of Warsaw I Local Ethical Committee for Animal Experiments page adds a current local animal-boundary source: 2024-2028 composition, a new application form from 1 April 2026, 2026 meeting schedule, submission route and territorial jurisdiction.
+
+### Updated remaining gaps
+
+- Index PAN 2024 and any later full KEwN reports or annual PAN reports by plenary count, adjudicating-team count, opinions, submitter type and matter type.
+- Search for 2025 or 2026 KEwN plenary notes if PAN resumes regular meeting posts.
+- Broaden the local institutional route sample beyond UW, WUT, UG, JUMC, IIMCB and IP PAN, separating research-integrity ombuds, ethics-review committees, disciplinary commissions and public case notices.
+- Add more PAN-institute and Lukasiewicz institute routes, especially where they expose research-integrity, publication-ethics, whistleblowing, research-data or authorship handling.
+- Keep NKB/clinical-trial, local animal-ethics, UODO/data, POL-on/JSA and IP/commercialisation sources separate from general misconduct publication.

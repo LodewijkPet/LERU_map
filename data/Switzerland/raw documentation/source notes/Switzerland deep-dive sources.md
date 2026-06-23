@@ -193,3 +193,64 @@ Date: 24 April 2026
 - Use the Swiss Academies responsible-bodies directory as a matrix for all public ombuds and integrity-office routes.
 - Monitor SCCSI's first annual public report after the 2026 launch.
 - Keep RAPS/HumRes, Swissmedic and animal-experiment authorisation material separate from research-misconduct case files.
+
+## Quality-consolidation pass - 30 April 2026
+
+Switzerland was selected for the next quality check because the existing committee-and-case-file pass was strong but source-sensitive: the ENRIO country report was last updated before SCCSI opened, while SCCSI became operational on 1 January 2026 and ETH Zurich has live client-side case tables.
+
+### Source currency
+
+- ENRIO's Switzerland country report remains useful comparison evidence, but it is last updated May 2024 and says there was then no national research-integrity body. That wording should now be read historically: SCCSI has since opened as a national reporting, advisory and monitoring body, while still not becoming a national tribunal or appeal body.
+- SCCSI's home, mandate, legal-basis and Council pages are live current sources. The mandate page confirms annual reporting from higher-education institutions without personal details, monitoring of proceedings/sanctions/measures, procedural advice to institutions, referral of individuals to institutional contact points, annual reporting to the Higher Education Council and public information duties.
+- The SCCSI Council page confirms the governance layer: Edwin Constable was elected first president effective 1 January 2025, and the vice-president plus members were elected on 27 November 2025 for four years from 1 January 2026. No SCCSI annual public report or case-output page was located in this pass.
+- SNSF's scientific-integrity page is current through the 19 March 2025 Research Integrity Regulations and still links the 2024 Commission/Plagiarism Control Group report plus an older-report ZIP. No 2025 integrity annual report was located on 30 April 2026.
+- ETH Zurich's two table endpoints still expose four anonymised investigation reports and two aggregate reporting periods. The anonymised report table lists UV 12.05.2025-1, UV 12.05.2025-2, UV 10.12.2025-1 and UV 10.12.2025-2; the aggregate table covers 1 June 2024-31 December 2024 and 1 January 2025-31 July 2025.
+- Swiss Academies' scientific-integrity page now functions as both code source and route directory. It lists responsible ombuds and integrity-office bodies across universities, universities of applied sciences, teacher-education institutions and other higher-education institutions.
+- swissuniversities' scientific-integrity page and 2024 annual report remain useful implementation sources: the page links the code, SCCSI and 2024 survey, while the annual report says a large majority of higher-education institutions reviewed or supplemented regulations and/or adopted the Code as a reference document.
+
+### ENRIO status
+
+- ENRIO has a Switzerland country report. The report confirms the SNSF Commission route, the Swiss Academies code role and the 2021 Swiss Code baseline, but it predates SCCSI's January 2026 opening. Use it as secondary comparison evidence, not as the final current-source statement.
+- ENRIO's Switzerland member page lists two Swiss institutions: the Swiss National Science Foundation, ENRIO member since 2023, and the Swiss Academies of Arts and Sciences, ENRIO member since 2020. This strengthens the SNSF/Swiss Academies coding and avoids treating SCCSI as the only national-facing actor.
+
+### Main code baseline
+
+- Swiss national baseline: the 2021 Code of Conduct for Scientific Integrity remains the main Swiss code. It was prepared by Swiss Academies, SNSF, swissuniversities and Innosuisse, and it remains the basis named by SCCSI.
+- European baseline: the ALLEA European Code of Conduct for Research Integrity, revised 2023, is the current European reference. It should be coded as a European and EU-funded-research baseline alongside, not instead of, the 2021 Swiss code.
+- Funder baseline: SNSF now combines the 2021 Swiss code, the 2025 SNSF Research Integrity Regulations, RIPA article 12 and ALLEA 2023. Innosuisse also uses the 2021 code and lists misconduct categories including fabrication, falsification, plagiarism, authorship, publication lists, data/material handling, collaboration, expert reports and proceedings.
+
+### Repository and route-index seed
+
+| Route or source | Public fields found | Coding note |
+| --- | --- | --- |
+| SCCSI mandate and Council pages | Opening date, reporting/advisory/monitoring tasks, annual public-information duty, Council composition and four-year member term from 2026. | National monitoring and advice route; no case handling, appeal role or public annual report yet. |
+| Swiss Academies responsible-bodies directory | Ombuds and/or integrity-office links for universities, applied-science universities, teacher-education institutions and other HEIs. | Best route-directory matrix for Swiss institutional widening. |
+| SNSF scientific-integrity page | Procedure, confidentiality, employer-primary rule, anonymised annual reporting, 2024 report link, older reports ZIP, 2025 RI Regulations and ALLEA 2023 link. | Strongest national/funder case-material lane; no full decision archive. |
+| ETH Zurich anonymised report table | Four report PDFs with case numbers and misconduct categories: authorship/plagiarism, authorship, falsification and plagiarism. | True institutional case-file fragment limited to ETH Zurich. |
+| ETH Zurich procedure statistics table | Reports, decisions not to initiate, initiated procedures, concluded procedures, open competence clarifications and misconduct forms for two periods. | Aggregate companion table; index with the report list. |
+| Innosuisse scientific-integrity page | Funding-related misconduct definition, investigation route, sanctions and contact point. | Funder procedure route; no public case outputs located. |
+| RAPS/HumRes, Swissmedic and FSVO/animex-ch | Human-research registry, clinical-trial and animal-experiment authorisation/public-information routes. | Boundary transparency only; do not upgrade the general misconduct publication tier. |
+
+### Funder and route matrix seed
+
+| Route owner | Integrity relevance | Public-output status |
+| --- | --- | --- |
+| SCCSI | National reporting, advice, monitoring, training support and public information from 2026. | Prospective annual public reporting; no individual proceedings or appeal competence. |
+| Swiss Academies | Host and code owner; responsible-bodies directory and scientific-culture route. | Code and directory visibility; not an individual case contact point. |
+| SNSF | Funder-side investigation, Commission route, Academic Board sanctions and annual anonymised reports. | 2024 annual report plus older ZIP and selective public news. |
+| Innosuisse | Innovation-funder compliance, investigation and sanctions for applications/funded work. | Procedure and consequence visibility; no case archive found. |
+| ETH Zurich | Institutional Scientific Integrity Office, Integrity Commission, anonymised reports and aggregate table. | Best institutional case-file fragment located. |
+| Other Swiss HEIs | Ombuds/integrity-office routes via Swiss Academies directory. | Route visibility varies; no ETH-like case table located in this pass. |
+| FOPH/HumRes, swissethics, Swissmedic and FSVO | Human, clinical and animal boundary approval/authorisation systems. | Strong boundary registries and reports; not misconduct case files. |
+
+### Coding conclusion
+
+The 30 April 2026 quality pass confirms the Swiss dossier but sharpens the date logic. Switzerland should no longer be summarized with the ENRIO report's pre-2026 "no national body" wording unless the caveat is explicit. SCCSI is now a live national monitoring/advisory/reporting body, but the transparency tier remains fragmented funder and institutional visibility because SCCSI does not conduct proceedings or hear appeals. The strongest public misconduct material remains SNSF annual anonymised reporting and ETH Zurich's four-report institutional table.
+
+### Next extraction targets
+
+- Index SNSF reports from the older ZIP plus the 2024 report by year, report source, detailed analyses, Commission cases, sanctions and publication-news links; retest later in 2026 for a 2025 report.
+- Extract the four ETH Zurich anonymised reports by case number, category, date, publication URL, reasoning depth, measure and publication exception language; pair them with the aggregate statistics table.
+- Use the Swiss Academies responsible-bodies directory as the institutional widening matrix and test whether any listed route exposes reports, annual statistics or anonymised decisions.
+- Track SCCSI's first public annual report after the 2026 reporting cycle, but keep it coded as monitoring unless it publishes more than aggregate non-personal data.
+- Keep RAPS/HumRes, Swissmedic, FSVO/animex-ch, open science, data protection, knowledge security and animal-research authorisation material as boundary lanes unless the source explicitly records a research-misconduct finding.

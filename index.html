@@ -14,6 +14,7 @@
       </div>
       <div class="header-actions">
         <a href="#timeline">Timeline</a>
+        <a href="#nl-be-comparison">NL-BE comparison</a>
         <a href="#country-list">Country list</a>
         <a href="#country-detail">Country detail</a>
       </div>
@@ -38,6 +39,7 @@
       <nav class="view-tabs" aria-label="Map views">
         <button class="view-tab is-active" id="system-view-tab" type="button" data-view="system" aria-controls="system-view" aria-selected="true">System map</button>
         <button class="view-tab" id="timeline-view-tab" type="button" data-view="timeline" aria-controls="timeline-view" aria-selected="false">Development timeline</button>
+        <button class="view-tab" id="comparison-view-tab" type="button" data-view="comparison" aria-controls="comparison-view" aria-selected="false">NL-BE comparison</button>
       </nav>
 
       <div class="view-pane" id="system-view">
@@ -141,12 +143,217 @@
             <div class="timeline-histogram" id="timeline-histogram" aria-label="Timeline event density by year"></div>
             <div class="timeline-category-legend" id="timeline-legend" aria-label="Timeline category legend"></div>
             <p class="source-note">
-              The timeline map shows recorded dossier events by year. It does not rank country maturity.
+              Play advances by exact recorded event date and slows automatically in dense years. The map does not rank country maturity.
             </p>
           </div>
 
           <aside class="timeline-event-panel" id="timeline-event-panel" aria-live="polite"></aside>
         </section>
+      </section>
+
+      <section class="comparison-view view-pane" id="comparison-view" aria-labelledby="comparison-title" hidden>
+        <div class="comparison-shell">
+          <section class="comparison-hero">
+            <div>
+              <p class="eyebrow">Static pilot comparison</p>
+              <h2 id="comparison-title">Netherlands and Belgium for research integrity officers</h2>
+              <p>
+                Use this view as a practical routing and evidence map. It compares how an integrity concern moves through each system, where second-line advice sits, who publishes public traces, and which boundary regimes should stay outside the misconduct lane.
+              </p>
+            </div>
+            <div class="comparison-actions" aria-label="Comparison dossier links">
+              <a class="card-action primary-action" href="#dossier-netherlands">Open NL dossier</a>
+              <a class="card-action secondary-action" href="#dossier-belgium">Open BE dossier</a>
+            </div>
+          </section>
+
+          <section class="comparison-kpis" aria-label="Comparison snapshot">
+            <div>
+              <span>Netherlands</span>
+              <strong>Institution first, LOWI second line</strong>
+              <p>One national code baseline, local CWI handling, LOWI advisory review, and several publication owners.</p>
+            </div>
+            <div>
+              <span>Belgium</span>
+              <strong>Federal container, community lanes</strong>
+              <p>Belgium-wide code and federal boundaries, with Flemish VCWI and FWB CSIS routes separated.</p>
+            </div>
+            <div>
+              <span>Best use</span>
+              <strong>Route matching</strong>
+              <p>Identify the correct first handler, second-line route, publication owner and boundary lane before comparing transparency.</p>
+            </div>
+          </section>
+
+          <section class="comparison-section">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Officer routing</p>
+                <h3>Where a concern should go first</h3>
+              </div>
+            </div>
+            <div class="comparison-lanes">
+              <article class="comparison-card">
+                <h4>Netherlands</h4>
+                <ol class="officer-flow">
+                  <li><strong>Start local.</strong> Concerns normally begin with a confidential adviser, institutional CWI or board route.</li>
+                  <li><strong>Use LOWI after local handling.</strong> LOWI gives independent, non-binding second-line advice for affiliated institutions.</li>
+                  <li><strong>Track publication owner separately.</strong> LOWI, UNL, VH, NWO or a local institution may publish the visible trace.</li>
+                </ol>
+              </article>
+              <article class="comparison-card">
+                <h4>Belgium</h4>
+                <ol class="officer-flow">
+                  <li><strong>First identify the lane.</strong> Flanders, FWB and federal boundary routes should not be averaged into one national path.</li>
+                  <li><strong>Flanders.</strong> Local CWI/CRI first, VCWI second advice after completed local handling.</li>
+                  <li><strong>FWB.</strong> Local CIS/CEIS first, CSIS second advice where the institution recognizes it.</li>
+                </ol>
+              </article>
+            </div>
+          </section>
+
+          <section class="comparison-section">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">System variables</p>
+                <h3>Side-by-side operating model</h3>
+              </div>
+            </div>
+            <div class="comparison-table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Officer question</th>
+                    <th scope="col">Netherlands</th>
+                    <th scope="col">Belgium</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">What is the system shape?</th>
+                    <td>Code-driven national norm with institutional first-line handling and LOWI second-line advice.</td>
+                    <td>Federal container with a Belgium-wide code, federal funder/boundary layer and two community integrity architectures.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Who handles first?</th>
+                    <td>Institutional CWI, confidential adviser and board route at universities, UMCs, institutes and other affiliated bodies.</td>
+                    <td>Local Flemish CWI/CRI or local FWB CIS/CEIS, depending on institution and community lane.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Where is second-line advice?</th>
+                    <td>LOWI for affiliated institutions after institutional handling.</td>
+                    <td>VCWI in Flanders; CSIS in the French-speaking/FWB lane.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Who publishes case traces?</th>
+                    <td>LOWI opinions, UNL university pages, VH hbo pages, NWO annual reports, and selected institutional reports or micro-publications.</td>
+                    <td>VCWI annual reports, KU Leuven annual reports and UAntwerpen CWI reports are the strongest public lanes; CSIS/FWB remains mainly route-visible.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">How should funders be coded?</th>
+                    <td>NWO is a safety-net/annual-report route; ZonMw is grant-terms and compliance evidence.</td>
+                    <td>FWO points allegations to host institutions and VCWI context; FNRS connects integrity to CSIS, open science, DMPs and ethics/transparency; BELSPO sits in the federal programme and research-security layer.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">What is the main comparison risk?</th>
+                    <td>Over-coding the country as LOWI only, ignoring UNL/VH/NWO and local publication owners.</td>
+                    <td>Flattening Belgium into one national board and losing the Flemish/FWB split.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="comparison-section">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Public evidence</p>
+                <h3>Transparency lanes to extract next</h3>
+              </div>
+            </div>
+            <div class="evidence-rail">
+              <article>
+                <h4>Netherlands high-yield lanes</h4>
+                <ul class="structured-list">
+                  <li>LOWI 2025-2026 opinions by institution, admissibility, boundary issue, finding and follow-up visibility.</li>
+                  <li>UNL 2025-2026 rows by institution, topic, CWI advice, board decision, LOWI interaction and publication owner.</li>
+                  <li>VH 2022 and 2025 hbo files against the VH publication-format rule.</li>
+                  <li>NWO annual-report fields and local/non-UNL seeds: UvA, RIVM, Sanquin and Prinses Maxima.</li>
+                </ul>
+              </article>
+              <article>
+                <h4>Belgium high-yield lanes</h4>
+                <ul class="structured-list">
+                  <li>VCWI annual reports 2013-2025 by second-advice request, report count, theme, outcome, follow-up and publication exclusion.</li>
+                  <li>KU Leuven annual reports by notification count, admissibility, allegation category, outcome and anonymized-summary depth.</li>
+                  <li>UAntwerpen annual reports by FFP/OUP class, outcome, formal follow-up, VCWI status and narrative-summary theme.</li>
+                  <li>CSIS/FWB retesting for any public annual report, anonymized opinion, recommendation or output page.</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <section class="comparison-section">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Boundary controls</p>
+                <h3>Keep these lanes separate</h3>
+              </div>
+            </div>
+            <div class="boundary-grid comparison-boundaries">
+              <article class="boundary-card">
+                <h4>Human research and clinical trials</h4>
+                <p>Netherlands: CCMO/MREC route. Belgium: FAMHP/ethics committees and CTIS. These are approval/regulatory routes unless a source links them to a misconduct finding.</p>
+              </article>
+              <article class="boundary-card">
+                <h4>Animal research</h4>
+                <p>Netherlands: CCD/DEC/IvD/NVWA. Belgium: regional animal-experiment authorities and institutional committees. Code region and authority explicitly.</p>
+              </article>
+              <article class="boundary-card">
+                <h4>Security, data, IP and open science</h4>
+                <p>Netherlands: knowledge security, data, privacy, social safety and IP boundaries. Belgium: BELSPO research security, DPA/GDPR, dual use, IP and open-science/DMP routes.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="comparison-section">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Officer checklist</p>
+                <h3>Questions to answer before comparing cases</h3>
+              </div>
+            </div>
+            <div class="checklist-grid">
+              <ul class="structured-list">
+                <li>Is the issue core research integrity, or a boundary regime such as ethics approval, data, IP, employment or safety?</li>
+                <li>Which institution handled the first line, and which board or director made the final institutional decision?</li>
+                <li>Is the second-line body advisory, appeal-like, disciplinary, or only a general resource?</li>
+              </ul>
+              <ul class="structured-list">
+                <li>Who owns the public trace: the handling institution, a sector hub, a funder, or a second-line body?</li>
+                <li>Does the public record contain case-level facts, aggregate counts, procedure only, or no output?</li>
+                <li>Which source language, community lane, procedure version and access date need to travel with the extraction row?</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="comparison-section">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Source backbone</p>
+                <h3>Primary links for this static comparison</h3>
+              </div>
+            </div>
+            <div class="source-grid">
+              <a href="https://lowi.nl/en/opinions/" target="_blank" rel="noreferrer">LOWI opinions</a>
+              <a href="https://www.universiteitenvannederland.nl/publicaties-klachten-wetenschappelijke-integriteit" target="_blank" rel="noreferrer">UNL complaint publications</a>
+              <a href="https://www.vcwi.be/jaarverslagen" target="_blank" rel="noreferrer">VCWI annual reports</a>
+              <a href="https://research.kuleuven.be/en/integrity-ethics/integrity/annual-report" target="_blank" rel="noreferrer">KU Leuven annual reports</a>
+              <a href="https://www.uantwerpen.be/en/research/policy/ethics-integrity/ethics-committees-scientific-integrity/committee-scientific-integrity/" target="_blank" rel="noreferrer">UAntwerpen CWI</a>
+              <a href="https://www.frs-fnrs.be/en/high-council-scientific-integrity-csis" target="_blank" rel="noreferrer">FNRS CSIS page</a>
+            </div>
+          </section>
+        </div>
       </section>
     </main>
 

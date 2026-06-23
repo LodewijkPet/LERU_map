@@ -27,7 +27,7 @@
   const countryById = new Map(countries.map((country) => [country.id, country]));
   const countryByMapId = new Map(countries.map((country) => [country.mapId, country]));
   const mapFeatureById = new Map(mapData.features.map((feature) => [feature.id, feature]));
-  let activeView = initialHash === "timeline" ? "timeline" : "system";
+  let activeView = initialHash === "timeline" ? "timeline" : initialHash === "nl-be-comparison" ? "comparison" : "system";
   const monthNames = [
     "january",
     "february",
@@ -180,6 +180,7 @@
     overviewCount: document.getElementById("overview-count"),
     systemView: document.getElementById("system-view"),
     timelineView: document.getElementById("timeline-view"),
+    comparisonView: document.getElementById("comparison-view"),
     viewTabs: Array.from(document.querySelectorAll(".view-tab")),
     mapPanel: document.querySelector(".map-panel"),
     map: document.getElementById("europe-map"),
@@ -212,8 +213,12 @@
     minYear: timelineYearValues.length ? Math.min(...timelineYearValues) : 1900,
     maxYear: timelineYearValues.length ? Math.max(...timelineYearValues) : new Date().getFullYear()
   };
+  const timelineDatePositions = buildTimelineDatePositions(allTimelineEvents);
   const timelineState = {
     currentYear: timelineBounds.maxYear,
+    currentDateKey: timelineDatePositions.length
+      ? timelineDatePositions[timelineDatePositions.length - 1].dateKey
+      : makeIsoDate(timelineBounds.maxYear, 1, 1),
     selectedCountryId: "",
     searchTerm: "",
     category: "all",
@@ -273,7 +278,7 @@
     const text = String(dateText || "").trim();
     const lowerText = text.toLowerCase();
     const monthPattern = monthNames.join("|");
-    const isoMatch = text.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    const isoMatch = text.match(/\b(\d{4})-(\d{2})-(\d{2})\b/);
     if (isoMatch) {
       const year = Number(isoMatch[1]);
       const month = Number(isoMatch[2]);
@@ -291,7 +296,51 @@
       };
     }
 
-    const rangeMatch = lowerText.match(/(\d{4})\s*(?:-|\u2013|\u2014|to)\s*(\d{4})/);
+    const dayMonthRange = lowerText.match(
+      new RegExp(`\\b(\\d{1,2})\\s+(${monthPattern})\\s+(\\d{4})\\s*(?:-|\\u2013|\\u2014|to)\\s*(\\d{1,2})\\s+(${monthPattern})\\s+(\\d{4})\\b`)
+    );
+    if (dayMonthRange) {
+      const startDay = Number(dayMonthRange[1]);
+      const startMonth = monthNames.indexOf(dayMonthRange[2]) + 1;
+      const startYear = Number(dayMonthRange[3]);
+      const endDay = Number(dayMonthRange[4]);
+      const endMonth = monthNames.indexOf(dayMonthRange[5]) + 1;
+      const endYear = Number(dayMonthRange[6]);
+      return {
+        startYear,
+        startMonth,
+        startDay,
+        startDate: makeIsoDate(startYear, startMonth, startDay),
+        endYear,
+        endDate: makeIsoDate(endYear, endMonth, endDay),
+        datePrecision: "range",
+        isDateRange: true,
+        sortValue: startYear * 10000 + startMonth * 100 + startDay + index / 1000
+      };
+    }
+
+    const sameMonthDayRange = lowerText.match(
+      new RegExp(`\\b(\\d{1,2})\\s*(?:-|\\u2013|\\u2014|to)\\s*(\\d{1,2})\\s+(${monthPattern})\\s+(\\d{4})\\b`)
+    );
+    if (sameMonthDayRange) {
+      const startDay = Number(sameMonthDayRange[1]);
+      const endDay = Number(sameMonthDayRange[2]);
+      const month = monthNames.indexOf(sameMonthDayRange[3]) + 1;
+      const year = Number(sameMonthDayRange[4]);
+      return {
+        startYear: year,
+        startMonth: month,
+        startDay,
+        startDate: makeIsoDate(year, month, startDay),
+        endYear: year,
+        endDate: makeIsoDate(year, month, endDay),
+        datePrecision: "range",
+        isDateRange: true,
+        sortValue: year * 10000 + month * 100 + startDay + index / 1000
+      };
+    }
+
+    const rangeMatch = lowerText.match(/\b(\d{4})\s*(?:-|\u2013|\u2014|to)\s*(\d{4})\b/);
     if (rangeMatch) {
       const startYear = Number(rangeMatch[1]);
       const endYear = Number(rangeMatch[2]);
@@ -308,7 +357,7 @@
       };
     }
 
-    const dayMonthYear = lowerText.match(new RegExp(`^\\s*(\\d{1,2})\\s+(${monthPattern})\\s+(\\d{4})`));
+    const dayMonthYear = lowerText.match(new RegExp(`\\b(\\d{1,2})\\s+(${monthPattern})\\s+(\\d{4})\\b`));
     if (dayMonthYear) {
       const day = Number(dayMonthYear[1]);
       const month = monthNames.indexOf(dayMonthYear[2]) + 1;
@@ -356,6 +405,53 @@
       isDateRange: false,
       sortValue: year * 10000 + index / 1000
     };
+  }
+
+  function timelineDateValue(dateKey) {
+    return Number(String(dateKey || "").replace(/-/g, ""));
+  }
+
+  function timelineYearFromDateKey(dateKey) {
+    const year = Number(String(dateKey || "").slice(0, 4));
+    return Number.isFinite(year) ? year : timelineBounds.maxYear;
+  }
+
+  function formatTimelineDateLabel(dateKey) {
+    const parts = String(dateKey || "").split("-").map(Number);
+    if (parts.length !== 3 || parts.some((part) => !Number.isFinite(part))) return String(dateKey || "");
+    const month = monthNames[parts[1] - 1] || "";
+    const displayMonth = month ? `${month.charAt(0).toUpperCase()}${month.slice(1)}` : "";
+    return `${parts[2]} ${displayMonth} ${parts[0]}`.trim();
+  }
+
+  function formatTimelineCompactDate(dateKey) {
+    const parts = String(dateKey || "").split("-").map(Number);
+    if (parts.length !== 3 || parts.some((part) => !Number.isFinite(part))) return String(dateKey || "");
+    const month = monthNames[parts[1] - 1] || "";
+    const displayMonth = month ? `${month.charAt(0).toUpperCase()}${month.slice(1, 3)}` : "";
+    return `${parts[2]} ${displayMonth} ${parts[0]}`.trim();
+  }
+
+  function buildTimelineDatePositions(events) {
+    const byDate = new Map();
+    const countByYear = new Map();
+    events.forEach((eventItem) => {
+      if (!eventItem.startDate || !Number.isFinite(eventItem.startYear) || eventItem.startYear >= 9999) return;
+      countByYear.set(eventItem.startYear, (countByYear.get(eventItem.startYear) || 0) + 1);
+      if (!byDate.has(eventItem.startDate)) {
+        byDate.set(eventItem.startDate, {
+          dateKey: eventItem.startDate,
+          year: eventItem.startYear,
+          dateValue: timelineDateValue(eventItem.startDate),
+          eventCount: 0,
+          yearEventCount: 0
+        });
+      }
+      byDate.get(eventItem.startDate).eventCount += 1;
+    });
+    return Array.from(byDate.values())
+      .map((position) => Object.assign(position, { yearEventCount: countByYear.get(position.year) || position.eventCount }))
+      .sort((left, right) => left.dateValue - right.dateValue);
   }
 
   function eventText(eventItem, country) {
@@ -656,9 +752,10 @@
   }
 
   function setActiveView(view, updateHash) {
-    activeView = view === "timeline" ? "timeline" : "system";
+    activeView = view === "timeline" ? "timeline" : view === "comparison" ? "comparison" : "system";
     if (elements.systemView) elements.systemView.hidden = activeView !== "system";
     if (elements.timelineView) elements.timelineView.hidden = activeView !== "timeline";
+    if (elements.comparisonView) elements.comparisonView.hidden = activeView !== "comparison";
     elements.viewTabs.forEach((tab) => {
       const isActive = tab.dataset.view === activeView;
       tab.classList.toggle("is-active", isActive);
@@ -669,9 +766,13 @@
       closeDossier();
       renderTimelineExplorer();
       if (updateHash) window.history.replaceState(null, "", "#timeline");
+    } else if (activeView === "comparison") {
+      closeDossier();
+      setTimelinePlaying(false);
+      if (updateHash) window.history.replaceState(null, "", "#nl-be-comparison");
     } else {
       setTimelinePlaying(false);
-      if (updateHash && window.location.hash === "#timeline") {
+      if (updateHash && (window.location.hash === "#timeline" || window.location.hash === "#nl-be-comparison")) {
         window.history.replaceState(null, "", "#country-detail");
       }
       scheduleDetailHeightSync();
@@ -774,14 +875,75 @@
     });
   }
 
+  function timelineDatePositionsForEvents(events) {
+    return buildTimelineDatePositions(events);
+  }
+
+  function timelineDateKeyForYear(events, year, mode) {
+    const positions = timelineDatePositionsForEvents(events).filter((position) => position.year === year);
+    if (!positions.length) return "";
+    return mode === "latest" ? positions[positions.length - 1].dateKey : positions[0].dateKey;
+  }
+
+  function timelineNearestDateKey(events, currentDateKey, direction) {
+    const positions = timelineDatePositionsForEvents(events);
+    if (!positions.length) return "";
+    const currentValue = timelineDateValue(currentDateKey);
+    if (!currentValue) return direction >= 0 ? positions[0].dateKey : positions[positions.length - 1].dateKey;
+    const nextPosition =
+      direction >= 0
+        ? positions.find((position) => position.dateValue > currentValue)
+        : positions
+            .slice()
+            .reverse()
+            .find((position) => position.dateValue < currentValue);
+    return nextPosition ? nextPosition.dateKey : "";
+  }
+
+  function setTimelineDateKey(dateKey) {
+    timelineState.currentDateKey = dateKey || "";
+    if (dateKey) {
+      timelineState.currentYear = timelineYearFromDateKey(dateKey);
+    }
+  }
+
+  function setTimelineYear(year, events, mode) {
+    timelineState.currentYear = year;
+    timelineState.currentDateKey =
+      timelineDateKeyForYear(events, year, mode || "latest") ||
+      makeIsoDate(year, mode === "first" ? 1 : 12, mode === "first" ? 1 : 31);
+  }
+
+  function snapTimelineDateToFilteredEvents() {
+    const filteredEvents = getFilteredTimelineEvents();
+    if (!filteredEvents.length) return;
+    if (filteredEvents.some((eventItem) => eventItem.startDate === timelineState.currentDateKey)) return;
+    const sameYearDateKey = timelineDateKeyForYear(filteredEvents, timelineState.currentYear, "latest");
+    const nearestDateKey =
+      sameYearDateKey ||
+      timelineNearestDateKey(filteredEvents, timelineState.currentDateKey, 1) ||
+      timelineNearestDateKey(filteredEvents, timelineState.currentDateKey, -1);
+    if (nearestDateKey) setTimelineDateKey(nearestDateKey);
+  }
+
   function eventsForTimelineYear(events, year) {
     return events.filter((eventItem) => eventItem.startYear === year);
   }
 
-  function cumulativeTimelineCountryIds(events, year) {
+  function eventsForTimelineDate(events, dateKey) {
+    if (!dateKey) return eventsForTimelineYear(events, timelineState.currentYear);
+    return events.filter((eventItem) => eventItem.startDate === dateKey);
+  }
+
+  function cumulativeTimelineCountryIds(events, dateKey) {
+    const currentDateValue = dateKey ? timelineDateValue(dateKey) : timelineState.currentYear * 10000 + 1231;
     return new Set(
       events
-        .filter((eventItem) => Number.isFinite(eventItem.startYear) && eventItem.startYear <= year)
+        .filter((eventItem) => {
+          if (!Number.isFinite(eventItem.startYear) || eventItem.startYear >= 9999) return false;
+          if (!eventItem.startDate) return eventItem.startYear <= timelineState.currentYear;
+          return timelineDateValue(eventItem.startDate) <= currentDateValue;
+        })
         .map((eventItem) => eventItem.countryId)
     );
   }
@@ -811,6 +973,7 @@
     selectedId = countryId;
     timelineState.selectedCountryId = timelineState.selectedCountryId === countryId ? "" : countryId;
     setTimelinePlaying(false);
+    snapTimelineDateToFilteredEvents();
     renderTimelineExplorer();
   }
 
@@ -844,18 +1007,81 @@
     return index >= 0 ? index : priority.length;
   }
 
+  function truncateTimelineCalloutLine(text, maxChars) {
+    const cleanText = String(text || "").trim();
+    if (cleanText.length <= maxChars) return cleanText;
+    if (maxChars <= 3) return cleanText.slice(0, maxChars);
+    return `${cleanText.slice(0, maxChars - 3).trim()}...`;
+  }
+
+  function wrapTimelineCalloutText(value, maxChars, maxLines) {
+    const text = String(value || "").replace(/\s+/g, " ").trim();
+    if (!text) return [];
+    const words = text.split(" ");
+    const lines = [];
+    let line = "";
+    let truncated = false;
+
+    for (const word of words) {
+      const chunks = word.length > maxChars ? word.match(new RegExp(`.{1,${maxChars}}`, "g")) || [word] : [word];
+      for (const chunk of chunks) {
+        const candidate = line ? `${line} ${chunk}` : chunk;
+        if (candidate.length <= maxChars) {
+          line = candidate;
+          continue;
+        }
+        if (line) {
+          lines.push(line);
+          line = chunk;
+        } else {
+          lines.push(chunk);
+          line = "";
+        }
+        if (lines.length >= maxLines) {
+          truncated = true;
+          line = "";
+          break;
+        }
+      }
+      if (truncated) break;
+    }
+
+    if (!truncated && line) lines.push(line);
+    if (lines.length > maxLines) {
+      lines.length = maxLines;
+      truncated = true;
+    }
+    if (truncated && lines.length) {
+      lines[lines.length - 1] = truncateTimelineCalloutLine(lines[lines.length - 1], maxChars);
+    }
+    return lines.map((item) => truncateTimelineCalloutLine(item, maxChars));
+  }
+
+  function appendTimelineCalloutLines(textElement, lines, className, firstDy, nextDy) {
+    lines.forEach((line, lineIndex) => {
+      const attrs = { class: className, x: "12" };
+      if (textElement.childNodes.length) attrs.dy = lineIndex === 0 ? firstDy : nextDy;
+      const tspan = createSvg("tspan", attrs);
+      tspan.textContent = line;
+      textElement.appendChild(tspan);
+    });
+  }
+
   function appendTimelineCallout(parent, eventItem, index) {
     const country = countryById.get(eventItem.countryId);
     const position = country && timelineCountryPosition(country);
     if (!position) return;
 
-    const width = 228;
-    const height = 90;
+    const width = 248;
+    const metaLines = wrapTimelineCalloutText(`${eventItem.originalDate} | ${eventItem.countryName}`, 35, 1);
+    const titleLines = wrapTimelineCalloutText(eventItem.shortTitle, 31, 2);
+    const categoryLines = wrapTimelineCalloutText(eventItem.categoryLabel, 31, 1);
+    const height = 28 + metaLines.length * 13 + titleLines.length * 16 + categoryLines.length * 14;
     const rightSide = position.x < mapData.width * 0.52;
     const x = clamp(rightSide ? position.x + 42 : position.x - width - 42, 12, mapData.width - width - 12);
-    const y = clamp(position.y - 45 + (index % 3) * 18, 18, mapData.height - height - 18);
+    const y = clamp(position.y - height / 2 + (index % 3) * 18, 18, mapData.height - height - 18);
     const lineEndX = rightSide ? x : x + width;
-    const lineEndY = y + 34;
+    const lineEndY = y + Math.min(38, height - 18);
 
     parent.appendChild(
       createSvg("line", {
@@ -875,14 +1101,20 @@
     });
     callout.appendChild(createSvg("rect", { width, height, rx: "8", ry: "8" }));
 
-    const text = createSvg("text", { class: "timeline-callout-text", x: "12", y: "19" });
-    const meta = createSvg("tspan", { class: "timeline-callout-meta", x: "12" });
-    meta.textContent = `${eventItem.originalDate} | ${eventItem.countryName}`;
-    const title = createSvg("tspan", { class: "timeline-callout-title", x: "12", dy: "21" });
-    title.textContent = eventItem.shortTitle;
-    const category = createSvg("tspan", { class: "timeline-callout-category", x: "12", dy: "21" });
-    category.textContent = eventItem.categoryLabel;
-    text.append(meta, title, category);
+    const clipId = `timeline-callout-clip-${eventItem.id}-${index}`;
+    const clipPath = createSvg("clipPath", { id: clipId });
+    clipPath.appendChild(createSvg("rect", { x: "8", y: "8", width: width - 16, height: height - 16, rx: "6", ry: "6" }));
+    callout.appendChild(clipPath);
+
+    const text = createSvg("text", {
+      class: "timeline-callout-text",
+      x: "12",
+      y: "19",
+      "clip-path": `url(#${clipId})`
+    });
+    appendTimelineCalloutLines(text, metaLines, "timeline-callout-meta", "0", "13");
+    appendTimelineCalloutLines(text, titleLines, "timeline-callout-title", "20", "16");
+    appendTimelineCalloutLines(text, categoryLines, "timeline-callout-category", "18", "14");
     callout.appendChild(text);
     parent.appendChild(callout);
   }
@@ -894,7 +1126,7 @@
     svg.setAttribute("viewBox", `0 0 ${mapData.width} ${mapData.height}`);
     svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
 
-    const cumulativeCountryIds = cumulativeTimelineCountryIds(filteredEvents, timelineState.currentYear);
+    const cumulativeCountryIds = cumulativeTimelineCountryIds(filteredEvents, timelineState.currentDateKey);
     const activeByCountry = groupTimelineEventsByCountry(activeEvents);
     const shapeGroup = createSvg("g");
     const pulseGroup = createSvg("g", { "aria-hidden": "true" });
@@ -921,7 +1153,7 @@
 
       const title = createSvg("title");
       title.textContent = country
-        ? `${country.name}: ${countryActiveEvents.length || 0} events in ${timelineState.currentYear}`
+        ? `${country.name}: ${countryActiveEvents.length || 0} events on ${formatTimelineDateLabel(timelineState.currentDateKey) || timelineState.currentYear}`
         : feature.name;
       path.appendChild(title);
 
@@ -986,11 +1218,17 @@
   }
 
   function renderTimelineStats(filteredEvents, activeEvents) {
+    const currentDateLabel = formatTimelineDateLabel(timelineState.currentDateKey);
+    const yearEventCount = eventsForTimelineYear(filteredEvents, timelineState.currentYear).length;
     if (elements.timelineYearLabel) {
-      elements.timelineYearLabel.textContent = `Events in ${timelineState.currentYear}`;
+      elements.timelineYearLabel.textContent = currentDateLabel
+        ? `Events on ${currentDateLabel}`
+        : `Events in ${timelineState.currentYear}`;
     }
     if (elements.timelineYearOutput) {
-      elements.timelineYearOutput.textContent = String(timelineState.currentYear);
+      elements.timelineYearOutput.textContent = currentDateLabel
+        ? formatTimelineCompactDate(timelineState.currentDateKey)
+        : String(timelineState.currentYear);
     }
     if (elements.timelineYearRange) {
       elements.timelineYearRange.value = String(timelineState.currentYear);
@@ -1000,7 +1238,8 @@
     [
       `${allTimelineEvents.length} total events`,
       `${filteredEvents.length} after filters`,
-      `${activeEvents.length} in year`,
+      `${activeEvents.length} on date`,
+      `${yearEventCount} in ${timelineState.currentYear}`,
       timelineState.selectedCountryId && countryById.get(timelineState.selectedCountryId)
         ? countryById.get(timelineState.selectedCountryId).name
         : ""
@@ -1037,7 +1276,7 @@
       button.setAttribute("aria-label", `${year}: ${count} timeline events`);
       button.title = `${year}: ${count} events`;
       button.addEventListener("click", () => {
-        timelineState.currentYear = year;
+        setTimelineYear(year, filteredEvents, "latest");
         setTimelinePlaying(false);
         renderTimelineExplorer();
       });
@@ -1105,10 +1344,11 @@
     if (!panel) return;
     panel.replaceChildren();
 
+    const currentDateLabel = formatTimelineDateLabel(timelineState.currentDateKey);
     const header = createElement("div", "timeline-event-panel-header");
     header.append(
       createElement("p", "eyebrow", "Active events"),
-      createElement("h3", "", `${timelineState.currentYear}`)
+      createElement("h3", "", currentDateLabel || `${timelineState.currentYear}`)
     );
     if (timelineState.selectedCountryId) {
       const country = countryById.get(timelineState.selectedCountryId);
@@ -1123,8 +1363,8 @@
 
     const summary = createElement("p", "timeline-panel-summary");
     summary.textContent = activeEvents.length
-      ? `${activeEvents.length} matching event${activeEvents.length === 1 ? "" : "s"} recorded in this year.`
-      : "No matching events are recorded in this year.";
+      ? `${activeEvents.length} matching event${activeEvents.length === 1 ? "" : "s"} recorded on this date.`
+      : "No matching events are recorded on this date.";
     panel.appendChild(summary);
 
     if (activeEvents.length) {
@@ -1143,7 +1383,7 @@
     }
 
     const priorEvents = filteredEvents
-      .filter((eventItem) => eventItem.startYear < timelineState.currentYear)
+      .filter((eventItem) => timelineDateValue(eventItem.startDate) < timelineDateValue(timelineState.currentDateKey))
       .slice(-5)
       .reverse();
     if (priorEvents.length) {
@@ -1154,7 +1394,7 @@
 
   function renderTimelineExplorer() {
     const filteredEvents = getFilteredTimelineEvents();
-    const activeEvents = eventsForTimelineYear(filteredEvents, timelineState.currentYear);
+    const activeEvents = eventsForTimelineDate(filteredEvents, timelineState.currentDateKey);
     renderTimelineStats(filteredEvents, activeEvents);
     renderTimelineMap(filteredEvents, activeEvents);
     renderTimelineHistogram(filteredEvents);
@@ -1162,57 +1402,65 @@
     renderTimelineEventPanel(filteredEvents, activeEvents);
   }
 
-  function timelineYearsWithEvents() {
-    return Array.from(new Set(getFilteredTimelineEvents().map((eventItem) => eventItem.startYear)))
-      .filter((year) => Number.isFinite(year) && year < 9999)
-      .sort((left, right) => left - right);
+  function timelineDateKeysWithEvents() {
+    return timelineDatePositionsForEvents(getFilteredTimelineEvents()).map((position) => position.dateKey);
   }
 
-  function stepTimelineYear(direction) {
-    const years = timelineYearsWithEvents();
-    if (!years.length) return false;
-    const currentYear = timelineState.currentYear;
-    const nextYear =
-      direction > 0
-        ? years.find((year) => year > currentYear)
-        : years
-            .slice()
-            .reverse()
-            .find((year) => year < currentYear);
-    if (!nextYear) return false;
-    timelineState.currentYear = nextYear;
+  function stepTimelineDate(direction) {
+    const filteredEvents = getFilteredTimelineEvents();
+    const nextDateKey = timelineNearestDateKey(filteredEvents, timelineState.currentDateKey, direction);
+    if (!nextDateKey) return false;
+    setTimelineDateKey(nextDateKey);
     renderTimelineExplorer();
     return true;
   }
 
+  function timelinePlaybackDelay(filteredEvents) {
+    const baseDelay = Number(elements.timelineSpeed && elements.timelineSpeed.value) || 750;
+    const activeEvents = eventsForTimelineDate(filteredEvents, timelineState.currentDateKey);
+    const yearEventCount = Math.max(1, eventsForTimelineYear(filteredEvents, timelineState.currentYear).length);
+    const sameDateCount = Math.max(1, activeEvents.length);
+    const densityMultiplier = clamp(1 + Math.log2(yearEventCount) / 6 + (sameDateCount - 1) * 0.12, 1, 2.75);
+    return Math.round(baseDelay * densityMultiplier);
+  }
+
+  function queueTimelinePlaybackStep() {
+    const filteredEvents = getFilteredTimelineEvents();
+    timelineState.timerId = window.setTimeout(() => {
+      if (!stepTimelineDate(1)) {
+        setTimelinePlaying(false);
+        return;
+      }
+      if (timelineState.isPlaying) queueTimelinePlaybackStep();
+    }, timelinePlaybackDelay(filteredEvents));
+  }
+
   function setTimelinePlaying(isPlaying) {
     if (timelineState.timerId) {
-      window.clearInterval(timelineState.timerId);
+      window.clearTimeout(timelineState.timerId);
       timelineState.timerId = null;
     }
     timelineState.isPlaying = Boolean(isPlaying);
     if (elements.timelinePlay) elements.timelinePlay.textContent = timelineState.isPlaying ? "Pause" : "Play";
     if (!timelineState.isPlaying) return;
 
-    const playableYears = timelineYearsWithEvents();
-    if (!playableYears.length) {
+    const playableDateKeys = timelineDateKeysWithEvents();
+    if (!playableDateKeys.length) {
       setTimelinePlaying(false);
       return;
     }
-    if (!playableYears.some((year) => year > timelineState.currentYear)) {
-      timelineState.currentYear = playableYears[0];
+    if (!playableDateKeys.some((dateKey) => timelineDateValue(dateKey) > timelineDateValue(timelineState.currentDateKey))) {
+      setTimelineDateKey(playableDateKeys[0]);
       renderTimelineExplorer();
     }
-
-    timelineState.timerId = window.setInterval(() => {
-      if (!stepTimelineYear(1)) {
-        setTimelinePlaying(false);
-      }
-    }, Number(elements.timelineSpeed && elements.timelineSpeed.value) || 750);
+    queueTimelinePlaybackStep();
   }
 
   function resetTimelineFilters() {
     timelineState.currentYear = timelineBounds.maxYear;
+    timelineState.currentDateKey = timelineDatePositions.length
+      ? timelineDatePositions[timelineDatePositions.length - 1].dateKey
+      : makeIsoDate(timelineBounds.maxYear, 1, 1);
     timelineState.selectedCountryId = "";
     timelineState.searchTerm = "";
     timelineState.category = "all";
@@ -1254,13 +1502,13 @@
     if (elements.timelinePrev) {
       elements.timelinePrev.addEventListener("click", () => {
         setTimelinePlaying(false);
-        stepTimelineYear(-1);
+        stepTimelineDate(-1);
       });
     }
     if (elements.timelineNext) {
       elements.timelineNext.addEventListener("click", () => {
         setTimelinePlaying(false);
-        stepTimelineYear(1);
+        stepTimelineDate(1);
       });
     }
     if (elements.timelineSpeed) {
@@ -1272,6 +1520,7 @@
       elements.timelineCategory.addEventListener("change", (event) => {
         timelineState.category = event.target.value;
         setTimelinePlaying(false);
+        snapTimelineDateToFilteredEvents();
         renderTimelineExplorer();
       });
     }
@@ -1279,6 +1528,7 @@
       elements.timelineLane.addEventListener("change", (event) => {
         timelineState.lane = event.target.value;
         setTimelinePlaying(false);
+        snapTimelineDateToFilteredEvents();
         renderTimelineExplorer();
       });
     }
@@ -1286,6 +1536,7 @@
       elements.timelineSearch.addEventListener("input", (event) => {
         timelineState.searchTerm = event.target.value;
         setTimelinePlaying(false);
+        snapTimelineDateToFilteredEvents();
         renderTimelineExplorer();
       });
     }
@@ -1294,7 +1545,7 @@
     }
     if (elements.timelineYearRange) {
       elements.timelineYearRange.addEventListener("input", (event) => {
-        timelineState.currentYear = Number(event.target.value);
+        setTimelineYear(Number(event.target.value), getFilteredTimelineEvents(), "latest");
         setTimelinePlaying(false);
         renderTimelineExplorer();
       });
@@ -2058,6 +2309,10 @@
     const nextHash = window.location.hash.replace("#", "");
     if (nextHash === "timeline") {
       setActiveView("timeline", false);
+      return;
+    }
+    if (nextHash === "nl-be-comparison") {
+      setActiveView("comparison", false);
       return;
     }
     if (nextHash === "country-list" || nextHash === "country-detail") {

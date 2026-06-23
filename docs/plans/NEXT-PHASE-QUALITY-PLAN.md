@@ -1,6 +1,6 @@
 # Next Phase Quality Consolidation Plan
 
-Status date: 29 April 2026
+Status date: 30 April 2026
 
 ## Purpose
 
@@ -20,7 +20,7 @@ The next phase is not another first-pass collection sprint. It is a quality-cons
 - All 40 deep dossiers have completed the committee-and-case-file workflow.
 - 9 countries have first expanded app dossiers but still need formal overview documents: Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino.
 - Vatican City remains a data-folder-only representation question.
-- `data/source-registry.csv` currently contains 1413 entries.
+- `data/source-registry.csv` currently contains 1550 entries.
 
 ## Target Standard
 
@@ -186,7 +186,7 @@ Prioritize countries with rich or confusing public output:
 - Greece
 - Poland
 - Turkey
-- North Macedonia
+- `North Macedonia` full-field AQHE/UKIM/SEEU extraction after first structured follow-up seed
 
 For each repository or report corridor, index:
 
@@ -244,20 +244,23 @@ node --check assets/js/app.js
 
 ## Suggested Country Order
 
-The first four calibration passes have been completed for the United Kingdom, Germany, France and Portugal on 29 April 2026. Use those passes as the template: source-currency note, ENRIO status, main code baseline, route directory seed, funder matrix, boundary targets, stable app-data updates, source-registry additions and syntax checks.
+The first twelve calibration passes have been completed for the United Kingdom, Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg, North Macedonia, Austria and the Netherlands by 30 April 2026. Belgium completed the first post-calibration quality pass on 30 April 2026, confirming the ENRIO/VCWI/CSIS two-community reading and creating VCWI, KU Leuven and UAntwerpen indexing targets. Switzerland then completed the next first-pass quality check on 30 April 2026, reconciling ENRIO's May 2024 country report with SCCSI's January 2026 launch and creating SNSF/ETH indexing plus SCCSI-monitoring targets. Latvia also completed the first high-yield follow-up after calibration: LAS/LCS output retesting plus public-research-institute route widening. Ireland has now completed the next compact follow-up by indexing the published 2016-2023 NRIF annual statistics series. Czechia has now completed the next first-pass quality check from the remaining deep dossiers, confirming the ENRIO/CAS no-national-commission baseline and adding JCU as a second institutional statements/minutes corridor alongside Charles University. Slovenia has now completed the next first-pass quality check, reconciling ENRIO's older country-report wording with the current National Council member route, preserving the no-live-opinion-archive coding and adding ARIS as a funder/open-science implementation route. Use those passes as the template: source-currency note, ENRIO status, main code baseline, route directory seed, funder matrix, boundary targets, stable app-data updates, source-registry additions and syntax checks.
 
 Continue with high-yield calibration countries where a better quality pass will improve the whole method:
 
-1. Greece: institutional annual reports and boundary-lane durability
-2. Poland: PAN, ministerial, local institutional and animal/clinical routes
-3. Ireland: NRIF statistics, public-RPO examples and NCI/MTU publication tests
-4. Latvia: UL decision indexing and wider institutional route checks
-5. Luxembourg: LARI report monitoring and LIH/LIST route verification
-6. North Macedonia: AQHE report/decision indexing and UKIM/SEEU self-evaluation expansion
-7. Portugal follow-up: U.Porto public/authenticated CEUP indexing, CEIUC annual-report series, FCT transparency/funding-route monitoring and CCISP-wide polytechnic expansion
-8. France follow-up: Ofis RIS annuaire and synthesis indexing, CNRS/MIS retention/request extraction, Inadis monitoring and wider institutional annual-report search
-9. Germany follow-up: DFG press-release indexing, OWID annual-report series, FU Berlin/Gottingen annual-report fields, wider annual-report search, Max Planck/Helmholtz and university medical-center examples
-10. United Kingdom follow-up: bulk annual-statement indexing, government/NHS/charity/independent research-organisation statements and AWERB examples
+1. North Macedonia follow-up: full-field AQHE report/decision indexing, UKIM unit self-evaluation classification beyond the first 33-unit map and SEEU Google Drive-linked rule/self-evaluation extraction where stable direct access is available
+2. Latvia next extraction: field-index ISSP UL, LIOS, EDI, LVKKI and BMC/Genome institute-code or boundary sources, keep periodic LAS/LCS scientist-committee output checks, and optionally migrate the completed 78-row UL full-text classification into a structured decision dataset
+3. Luxembourg follow-up: monitor the pending LARI 2023/2024 annual report, add page-level or allegation-category detail to the seeded LARI annual-report table where useful, and verify LIH/LIST procedure evidence
+4. Ireland follow-up: NRIF statistics indexing completed on 30 April 2026; remaining work is SRII2025 result monitoring, NCI/MTU publication tests and DIAS/public-RPO route checks
+5. Austria follow-up: OeAWI annual-report field indexing, FWF 2008-2025 suspected-violation statistics extraction, archived Vienna/Medical University of Innsbruck case-summary tests, Fachhochschule/private-university route widening and direct animal-research publication/statistics verification
+6. Poland follow-up: PAN annual-report field indexing, renewed plenary-note monitoring, wider university/PAN-institute/Lukasiewicz route checks and NKB/animal boundary extraction
+7. Greece follow-up: NTUA and Harokopio annual-report output indexing, AUEB/Thessaly/HMU report tests and EOF/CTIS boundary extraction
+8. Portugal follow-up: U.Porto public/authenticated CEUP indexing, CEIUC annual-report series, FCT transparency/funding-route monitoring and CCISP-wide polytechnic expansion
+9. France follow-up: Ofis RIS annuaire and synthesis indexing, CNRS/MIS retention/request extraction, Inadis monitoring and wider institutional annual-report search
+10. Germany follow-up: DFG press-release indexing, OWID annual-report series, FU Berlin/Gottingen annual-report fields, wider annual-report search, Max Planck/Helmholtz and university medical-center examples
+11. United Kingdom follow-up: bulk annual-statement indexing, government/NHS/charity/independent research-organisation statements and AWERB examples
+12. Netherlands follow-up: LOWI 2025 opinion indexing, UNL 2025-2026 row indexing, VH 2022/2025 hbo file comparison, NWO annual-report field extraction and non-UNL LOWI-affiliate route widening
+13. Switzerland follow-up: SNSF annual-report and case-news indexing, ETH Zurich anonymised-report and procedure-statistics extraction, SCCSI first public-report monitoring and Swiss Academies responsible-bodies directory widening
 
 Then move through the remaining deep dossiers, followed by the nine expanded overview dossiers.
 

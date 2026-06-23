@@ -204,3 +204,63 @@ The institutional sweep found several route and publication-rule fragments, but 
 - Search archived University of Vienna and Medical University of Innsbruck pages for anonymized annual case descriptions.
 - Widen institutional route checks using the 2024 Austrian higher-education ombuds directory, especially Fachhochschulen and private universities.
 - Keep student/thesis plagiarism statistics, research ethics approval, animal testing and clinical-trial approvals separate from research-misconduct case files.
+
+## Quality consolidation pass added 30 April 2026
+
+### Source currency check
+
+- Check date: 30 April 2026.
+- OeAWI baseline: the live OeAWI about, members, investigation, guidelines and downloads pages still support the app's association-based reading. The about page continues to describe OeAWI as an association founded in 2008 with over 60 member institutions; the members page now lists 35 universities, 10 universities of applied sciences, 1 teacher-education college, 18 non-university research institutions, 4 funders and 6 special members. This strengthens the dossier's cross-sector coverage claim without changing the system type.
+- OeAWI procedure layer: the current investigation page still frames the Commission as independent, confidential and non-sanctioning. Requests can come from full members or affected individuals with an Austria connection; the Commission screens jurisdiction, gathers statements or expert opinions, may suspend for parallel legal proceedings, and sends its final assessment to the affected person or institution. Institutions remain responsible for measures and sanctions.
+- OeAWI reporting layer: the download area still shows Annual Report 2023 and Activity Report 2023 as the newest Commission/office reports, followed by earlier Commission annual reports back through 2011. No 2024 Commission annual report was located on the live download page in this pass.
+- FWF funder layer: the FWF integrity pages now make the annualized funder case lane much more extractable. The statistics page covers 1 January 2008 through 31 December 2025 and records 116 suspected cases linked to applicants or participants in FWF applications, 65 cases with no misconduct identified, 47 violations with sanctions, 4 in progress, and 18 cases referred to OeAWI with measures based on OeAWI recommendations. This is a real anonymized statistics corridor, not a public decision archive.
+- FWF code and ethics layer: the FWF integrity-and-ethics page confirms that the 20 October 2020 Austrian University Conference/BMFWF guide applies to FWF applicants, that applicants must comply with OeAWI guidelines, and that FWF checks applications and reviews for plagiarism and AI-tool use on a random or suspicion basis.
+- Clinical-trial boundary: BASG remains the competent authority under the Clinical Trials Regulation route. Its national requirements page names BASG, the Austrian CTR ethics-committee platform and CTIS-based authorization as the decision route. Its 22 April 2025 mononational-trials update is a clinical-trial efficiency and approval route, not a research-misconduct publication source.
+- Animal-research boundary: the direct national animal route still needs a fuller official publication target. The current source baseline is TVG 2012/TVV 2012 in RIS plus FWF's responsible-animal-testing commitment and statistics references. This should remain a boundary lane unless a source explicitly links an animal-project file to a research-misconduct finding.
+
+### ENRIO cross-check
+
+- ENRIO country report exists: yes. The Austria country report is updated to April 2024 and confirms the distributed-plus-OeAWI coding: investigation of misconduct lies in the autonomy of universities or research institutions, while OeAWI and the Commission complement those local routes.
+- ENRIO confirms the app's main distinction: OeAWI is national and operational, but it is not a state tribunal and its recommendations are non-binding. Institutions retain sanction responsibility.
+- ENRIO terminology: ENRIO uses `Commission for Research Integrity` and notes that the Commission is the only OeAWI organ authorized to investigate and issue statements/recommendations. The app can continue using OeAWI/OeAWI Commission while noting local institutional autonomy.
+- ENRIO membership check: the ENRIO Austria member page lists OeAWI as an ENRIO member since 2009 and describes the structure as voluntary and association-based. ENRIO Annual Report 2024 lists Austrian Agency for Research Integrity (OeAWI), Austria, among 2024 ENRIO member organizations.
+
+### Main codes and normative baseline
+
+- Austrian national baseline: Article 17 StGG, sectoral higher-education law, the OeAWI Guidelines for Good Scientific Practice and the 20 October 2020 `Praxisleitfaden fuer Integritaet und Ethik in der Wissenschaft`.
+- OeAWI code baseline: the OeAWI guidelines page still identifies the April 2015 revised Guidelines for Good Scientific Practice as adopted by the OeAWI General Assembly.
+- European baseline: the 2023 ALLEA European Code of Conduct remains relevant. ALLEA says the European Commission recognizes it as the primary research-integrity standard for EU-funded projects; OeAWI published a 23 June 2023 note on the revised code and makes it available in its download area. ISTA and other institutional examples already show local use of OeAWI/ALLEA standards.
+- Funder baseline: FWF explicitly ties applicants to the Hochschulkonferenz/BMFWF guide, OeAWI guidelines, its own misconduct procedure, statistics publication, responsible animal-testing commitment and safety/diversity guidance.
+
+### Route-directory seed after quality check
+
+| Route owner | Current source checked | Route type | Publication or case-file status |
+| --- | --- | --- | --- |
+| OeAWI Commission | Investigation page, downloads page and Annual Report 2023 | National association-based investigation and recommendation route | Annual-report corridor with anonymized inquiry summaries; no searchable decision database and no 2024 Commission report located. |
+| OeAWI association | About and members pages | National infrastructure, prevention, training, advice and membership network | Cross-sector route visibility; not a case-publication lane by itself. |
+| FWF | Academic Integrity, Integrity and Ethics, and statistics pages | Funder misconduct and compliance route | Anonymized statistics through 31 December 2025; sanctions and OeAWI referrals visible in aggregate table form, not individual decisions. |
+| BASG / CTR ethics committees | BASG national requirements and mononational clinical-trial pages | Clinical-trial authorization and ethics-review boundary | CTIS and national decision route; boundary transparency, not general misconduct publication. |
+| University and FH routes | 2024 Austrian higher-education ombuds directory plus Vienna, Innsbruck, Salzburg, TU Wien and FH St. Poelten seeds | Institutional ombuds, commission, bureau or statute routes | Mostly procedure, directory or internal-reporting evidence; no broad institutional case archive located. |
+
+### Boundary and repository extraction targets
+
+- OeAWI annual reports: index 2011-2023 by inquiry number, date/year, allegation category, institution type if visible, route source, whether proceedings opened, outcome, recommendation, referral/sanction follow-up and anonymization level.
+- FWF statistics: extract the 2008-2025 table by allegation type, review outcome, sanction type, FWF-detected versus external-whistleblower route, discipline and OeAWI referral count. Keep this as funder statistics rather than national all-case coverage.
+- Institutional route directory: widen from Vienna, Medical University of Innsbruck, Salzburg, TU Wien, ISTA, FH Campus Wien and FH St. Poelten to additional Fachhochschulen/private universities in the 2024 ombuds directory. Code public output separately from route existence.
+- Clinical boundary: keep BASG/CTR/ethics-committee authorization and CTIS records separate from research-misconduct case publication.
+- Animal boundary: locate the strongest current official BMBWF/BMASGPK or RIS-linked animal-project publication and statistics route; keep TVG/TVV, FWF animal-testing commitments and ALURES-style project summaries separate from misconduct findings.
+
+### Stable dossier conclusions after this pass
+
+- No change to system type: Austria remains a legally anchored, association-based and institutionally distributed system with OeAWI as the strongest national operating route.
+- Transparency coding is strengthened but not upgraded to a decision-archive tier. OeAWI annual reports provide national anonymized inquiry summaries, and FWF now provides a clearly extractable anonymized statistics corridor through 2025. Neither source is a full public decision database.
+- ENRIO confirms rather than contradicts the dossier: the local institutions hold first responsibility for handling and sanctioning, and OeAWI complements that system with independent investigation, statements, recommendations, prevention and advice.
+- The main code baseline is now explicit: OeAWI 2015 guidelines, the 2020 Hochschulkonferenz/BMFWF practical guide, FWF applicant requirements and the 2023 ALLEA European Code as a European/institutional reference.
+
+### Remaining extraction targets after the quality pass
+
+- Bulk-index OeAWI annual reports from 2011 through 2023.
+- Extract FWF 2008-2025 suspected-violation statistics by route, allegation and outcome.
+- Search archived University of Vienna and Medical University of Innsbruck sources for any public anonymized case descriptions or annual case summaries.
+- Widen Fachhochschule, private-university and non-university research-institute route checks through the OeAWI members list and the 2024 ombuds directory.
+- Add a direct current animal-research publication/statistics source if one is stable and official.

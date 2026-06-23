@@ -31,17 +31,17 @@ window.TRANSPARENCY_DATA = [
     score: 2,
     tier: "Summary-based annual-report corridor with institutional rule fragments",
     mainBody:
-      "OeAWI / OeAWI Commission, with FWF annual publication and institutional route-rule fragments",
+      "OeAWI / OeAWI Commission, with FWF anonymised statistics and institutional route-rule fragments",
     coverage: "National OeAWI and funder routes, plus selected institutional procedure and publication-rule fragments",
     publicAccess: "Yes",
     publicationModel:
-      "OeAWI annual-report archive with anonymised inquiry summaries; FWF annual publication practice; institutional routes mostly procedure-only or internal-reporting rules",
+      "OeAWI annual-report archive with anonymised inquiry summaries; FWF anonymised suspected-violation statistics; institutional routes mostly procedure-only or internal-reporting rules",
     format: "PDF annual reports + official webpages + institutional statutes",
     hasArchive: false,
     keyNote:
-      "24 April 2026 case-file pass confirms Austria as summary-based rather than a public decision-archive system. OeAWI's download area is the strongest public source, with Commission annual reports from 2011 through 2023 and numbered anonymised inquiry summaries. Institutional searches found route and publication-rule fragments at Vienna, Medical University of Innsbruck and Salzburg, but no ETH-style public institutional case-report repository.",
+      "30 April 2026 quality pass confirms Austria as summary-based rather than a public decision-archive system. OeAWI's download area is the strongest national source, with Commission annual reports from 2011 through 2023 and numbered anonymised inquiry summaries; FWF now adds an extractable anonymised statistics corridor through 31 December 2025. Institutional searches found route and publication-rule fragments at Vienna, Medical University of Innsbruck and Salzburg, but no ETH-style public institutional case-report repository.",
     sourcePath: "data/Austria/raw documentation/source notes/Austria deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-04-30",
     resources: [
       {
         label: "OeAWI download area",
@@ -62,6 +62,16 @@ window.TRANSPARENCY_DATA = [
           "Nine new reports, 15 inquiries processed in 2023, and numbered anonymised inquiry summaries",
         comment:
           "Provides the clearest current public case-summary sample."
+      },
+      {
+        label: "FWF statistics on suspected violations",
+        url: "https://www.fwf.ac.at/en/funding/steps-to-your-fwf-project/further-information/statistics-on-suspected-violations-of-the-guidelines-for-good-scientific-practice",
+        resourceClass: "Funder statistics corridor",
+        scope: "FWF applications and FWF-funded projects",
+        caseLevelInfo:
+          "Anonymised statistics for 116 suspected cases from 1 January 2008 through 31 December 2025, including outcomes, sanctions, allegations, disciplines and OeAWI referrals",
+        comment:
+          "Extractable funder transparency; not an all-Austria decision archive."
       },
       {
         label: "University of Vienna ombuds directive",
@@ -90,9 +100,9 @@ window.TRANSPARENCY_DATA = [
     format: "Web + PDF annual reports",
     hasArchive: false,
     keyNote:
-      "The 24 April 2026 pass shows Belgium is fragmented but not opaque if the fragments are separated: VCWI annual reports through 2025 and KU Leuven/UAntwerpen summaries expose real case material, while CSIS/FWB remains mainly procedural and directory-visible.",
+      "The 29 May 2026 comparison-readiness check confirms Belgium is fragmented but not opaque if the fragments are separated: VCWI annual reports through 2025 and KU Leuven/UAntwerpen summaries expose real case material, while CSIS/FWB remains mainly procedural and directory-visible.",
     sourcePath: "data/Belgium/raw documentation/source notes/Belgium deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-05-29",
     resources: [
       {
         label: "VCWI annual reports",
@@ -362,22 +372,22 @@ window.TRANSPARENCY_DATA = [
     country: "Czechia",
     sourceCountryLabel: "Czech Republic",
     score: 2,
-    tier: "Institutional statement archive plus route-visible distributed system",
+    tier: "Institutional statement archives plus route-visible distributed system",
     mainBody:
-      "No single national case-publication body; Charles University exposes the strongest public institutional statement/minutes archive, while CAS, universities, funders and specialist regulators publish different parts of the route architecture.",
+      "No single national case-publication body; Charles University exposes the strongest public institutional statement/minutes archive and JCU adds a second public statements/minutes corridor, while CAS, universities, funders and specialist regulators publish different parts of the route architecture.",
     coverage:
-      "National framework, CAS committee architecture, Charles University Ethics Commission statements and minutes, selected university committee routes, funder conditions, clinical-trial and animal-research authority routes.",
+      "National framework, CAS committee architecture, Charles University and JCU Ethics Commission statements and minutes, selected university committee routes, funder conditions, clinical-trial and animal-research authority routes.",
     publicAccess:
-      "Strong for normative documents and committee pages; real but institutional and mixed for Charles University Ethics Commission statements; weak for national or academy-level case outcomes.",
+      "Strong for normative documents and committee pages; real but institutional and mixed for Charles University and JCU Ethics Commission statements/minutes; weak for national or academy-level case outcomes.",
     publicationModel:
-      "Institutional statement/minutes archive at Charles University, plus codes, procedures, committee pages, tender conditions and regulatory traces rather than a national anonymized misconduct-case archive.",
+      "Institutional statement/minutes archives at Charles University and JCU, plus codes, procedures, committee pages, tender conditions and regulatory traces rather than a national anonymized misconduct-case archive.",
     format:
       "Official pages, linked PDF statements and minutes, laws, tenders, committee directories, guidance pages and local university documents.",
     hasArchive: false,
     keyNote:
-      "The 24 April 2026 Czechia pass found no national misconduct archive, but it did locate a durable institutional micro-publication archive at Charles University. That fragment should be indexed separately from CAS route visibility, funder consequence rules and boundary approvals.",
+      "The 30 April 2026 Czechia quality check keeps the no-national-misconduct-archive finding but widens the public-output picture: Charles University remains the deepest institutional micro-publication archive and JCU adds a second public statements/minutes corridor. Both should be indexed separately from CAS route visibility, funder consequence rules and boundary approvals.",
     sourcePath: "data/Czechia/raw documentation/source notes/Czechia deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-04-30",
     resources: [
       {
         label: "CAS Scientific Integrity Committee",
@@ -407,6 +417,26 @@ window.TRANSPARENCY_DATA = [
           "Public reasoned statement on an academic-expression ethics submission, concluding no Code of Ethics breach",
         comment:
           "Quality-control example for the archive; code as university ethics practice rather than national misconduct adjudication."
+      },
+      {
+        label: "JCU Ethics Commission statements and minutes",
+        url: "https://www.jcu.cz/cz/univerzita/organy/eticka-komise-ju",
+        resourceClass: "Institutional statement/minutes archive",
+        scope: "Code-of-ethics compliance",
+        caseLevelInfo:
+          "Public statements and minutes from 2015 through 20 August 2025, including thesis-plagiarism, workplace-communication and academic-speech matters",
+        comment:
+          "Second Czech institutional micro-publication corridor found in the quality check; mixed ethics archive, not national research-misconduct publication."
+      },
+      {
+        label: "JCU thesis-plagiarism statement, 12 April 2023",
+        url: "https://www.jcu.cz/images/UNIVERZITA/organy/eticka-komise-ju/stanovisko-eticke-komise-ju-bc_-klika_final.pdf",
+        resourceClass: "Representative institutional statement",
+        scope: "Thesis and academic-integrity route",
+        caseLevelInfo:
+          "Public reasoned statement on a bachelor-thesis plagiarism allegation, finding problematic source handling but no conclusive proof by available tools",
+        comment:
+          "Useful representative item for JCU indexing; classify separately from staff research-misconduct cases."
       },
       {
         label: "Charles University Ethics Commission Code of Procedure",
@@ -772,9 +802,9 @@ window.TRANSPARENCY_DATA = [
       "Institutional report pages, committee pages, official PDFs, EOF archive pages, clinical-trial opinion tables and CTIS notices",
     hasArchive: false,
     keyNote:
-      "Greece remains low for public general misconduct findings, but the case-file pass found meaningful official traces: NKUA reports 71 meetings and 213 decisions for 2018-23 January 2025, University of Macedonia exposes a 2019-2022 triennial report, and EOF publishes a clinical-trial ethics opinion/CTIS boundary lane that must be coded separately.",
+      "Greece remains low for public general misconduct findings. The 29 April 2026 quality pass confirmed the same reading against ENRIO and current source checks: NKUA reports 71 meetings and 213 decisions for 2018-23 January 2025, University of Macedonia exposes a 2019-2022 triennial report, NTUA and Harokopio add annual-report-duty targets, and EOF publishes a clinical-trial ethics opinion/CTIS boundary lane that must be coded separately.",
     sourcePath: "data/Greece/raw documentation/source notes/Greece deep-dive sources.md",
-    sourceDate: "2026-04-23",
+    sourceDate: "2026-04-29",
     resources: [
       {
         label: "NKUA EHDE term activity report",
@@ -795,6 +825,26 @@ window.TRANSPARENCY_DATA = [
           "Public report hub, not a named misconduct archive",
         comment:
           "Useful second official activity-report lane."
+      },
+      {
+        label: "NTUA EHDE operation page",
+        url: "https://www.elke.ntua.gr/ehde/%CE%BB%CE%B5%CE%B9%CF%84%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B1/",
+        resourceClass: "Institutional report-duty page",
+        scope: "University EHDE procedure and annual-report duty",
+        caseLevelInfo:
+          "Requires annual activity reporting to the Rector; no public report file located in this pass",
+        comment:
+          "Useful extraction target, but not yet a proven public-output lane."
+      },
+      {
+        label: "Harokopio EHDE regulation",
+        url: "https://www.hua.gr/files/2019/KANONISMOS_EHDE_XPKA.pdf",
+        resourceClass: "Institutional report-duty PDF",
+        scope: "University EHDE complaint review and annual-report-publication clause",
+        caseLevelInfo:
+          "States that annual activity reports are published online; actual public reports still to locate",
+        comment:
+          "High-yield annual-report test for the next Greek indexing pass."
       },
       {
         label: "EOF National Ethics Committee archive",
@@ -958,15 +1008,15 @@ window.TRANSPARENCY_DATA = [
     score: 2,
     tier: "Summary-based national reporting with procedure-rich institutional routes",
     mainBody: "National Research Integrity Forum annual statistics, IUA research-integrity portal, institutional RIO routes and Research Ireland grant terms",
-    coverage: "National summary reporting on concluded formal investigations plus local institutional procedure pages at universities, technological universities, public RPOs and funders.",
+    coverage: "National summary reporting on concluded formal investigations, now indexed from 2016 through 2023 by annual count, upheld field, category label and respondent-universe signal, plus local institutional procedure pages at universities, technological universities, public RPOs and funders.",
     publicAccess: "Good for policy, guidance, annual aggregate statistics and institutional route design; weak for case-level reasoning because no public decision archive or ETH-style institutional repository was located.",
     publicationModel: "Annual anonymized national statistics reports and distributed institutional procedure fragments rather than individual public case reports.",
     format: "Web + PDF annual statistics + institutional policy/procedure pages",
     hasArchive: false,
     keyNote:
-      "The 24 April 2026 case-file pass upgrades Ireland from body-only visibility to summary-based transparency: NRIF publishes an annual statistics archive for formal investigations from 2016 through 2023, but institutional searches found RIO/procedure fragments rather than public case reports or a searchable decision repository.",
+      "The 24 April 2026 case-file pass upgrades Ireland from body-only visibility to summary-based transparency, and the 30 April 2026 follow-up indexes the 2016-2023 NRIF annual statistics series. The public trail is recurring and national, but remains aggregate: no 2024 statistics report, SRII2025 results page, public case reports or searchable decision repository were located.",
     sourcePath: "data/Ireland/raw documentation/source notes/Ireland deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-04-30",
     resources: [
       {
         label: "IUA research integrity and NRIF page",
@@ -985,12 +1035,36 @@ window.TRANSPARENCY_DATA = [
         comment: "Representative report proving summary-based national publication."
       },
       {
+        label: "NRIF annual statistics series 2016-2023",
+        url: "https://www.iua.ie/for-researchers/research-integrity/",
+        resourceClass: "Annual national statistics series",
+        scope: "Formal-investigation counts, upheld fields, category labels and RPO response universes across the published reports",
+        caseLevelInfo: "Annual totals run from two to six concluded investigations; public data are aggregate and anonymized, not case files",
+        comment: "Indexed on 30 April 2026 as a national summary-reporting corridor."
+      },
+      {
+        label: "ENRIO Ireland country report",
+        url: "https://www.enrio.eu/country-reports/ireland/",
+        resourceClass: "Secondary country-system report",
+        scope: "NRIF status, RPO responsibility and annual statistics",
+        caseLevelInfo: "Confirms annual statistics as public transparency while noting NRIF is not authorised to handle misconduct cases",
+        comment: "Secondary cross-check for the Irish forum-and-RPO model."
+      },
+      {
         label: "Research Ireland grant terms and conditions",
         url: "https://media.researchireland.ie/wp-content/uploads/2026/01/Grant-Terms-and-Conditions.pdf",
         resourceClass: "Current funder terms",
         scope: "Research Ireland compliance, research-misconduct definitions and grant consequences",
         caseLevelInfo: "Funder compliance and notification route, not public case publication",
         comment: "Updates the post-merger funder lane beyond legacy SFI/IRC sources."
+      },
+      {
+        label: "Research Ireland Reporting Compliance",
+        url: "https://www.researchireland.ie/funding-policies/reporting-compliance/",
+        resourceClass: "Current funder compliance policy",
+        scope: "Annual, final, progress and research-output reporting sanctions",
+        caseLevelInfo: "Funder reporting-compliance consequences, not misconduct findings",
+        comment: "Useful current funder lane, but not a case-file publication route."
       },
       {
         label: "DCU Research Integrity",
@@ -1015,6 +1089,22 @@ window.TRANSPARENCY_DATA = [
         scope: "Two-stage inquiry/investigation/appeal route and records/publication language",
         caseLevelInfo: "Publication basis through FOI-style language, but no live repository located",
         comment: "Interesting fragment because it mentions possible final-report publication."
+      },
+      {
+        label: "NIBRT Research Integrity",
+        url: "https://www.nibrt.ie/research/research-integrity-nibrt-2/",
+        resourceClass: "Public-RPO training route",
+        scope: "Research-integrity training route in a public research organisation",
+        caseLevelInfo: "Training and contact evidence, not investigation outcomes",
+        comment: "Public-RPO seed for widening the NRIF statistics-report universe."
+      },
+      {
+        label: "Marine Institute Research Call 2025 Guidelines",
+        url: "https://www.marine.ie/sites/default/files/MIFiles/Docs/ResearchFunding/Marine%20Institute%20Research%20Call%202025%20Guidelines%20for%20Applicants_1.pdf",
+        resourceClass: "Public-RPO/funder call guidance",
+        scope: "Research-integrity, open-access, gender-balance and generative-AI requirements",
+        caseLevelInfo: "Application/compliance source, not case publication",
+        comment: "Public-RPO/funder seed alongside Teagasc and NIBRT."
       }
     ]
   },
@@ -1202,15 +1292,15 @@ window.TRANSPARENCY_DATA = [
     coverage:
       "National legal/code framework, LCS/LAS normative route, UL Academic Ethics Commission decisions, selected university research-ethics approval pages, medical ethics, animal-use and open-science/data/AI sources.",
     publicAccess:
-      "Good for UL institutional academic-ethics decisions and research-ethics approval registers; weak for national LAS/LCS outcomes and most other institutions.",
+      "Good for UL institutional academic-ethics decisions and research-ethics approval registers; weak for national LAS/LCS outcomes and most other universities or research institutes, where current sources are mostly code, procedure, route or boundary pages.",
     publicationModel:
       "Institutional decision-list publication and approval/opinion registers rather than a national misconduct database.",
     format: "Official web pages and PDFs",
     hasArchive: true,
     keyNote:
-      "Latvia is now coded as fragmented institutional case visibility: UL publishes Academic Ethics Commission decisions, but no current national LAS/LCS case archive was found and research-ethics approval registers remain a separate boundary lane.",
+      "Latvia remains coded as fragmented institutional case visibility: UL publishes 78 Academic Ethics Commission decisions from 2019 through 2 March 2026, and the 30 April 2026 full-text classification shows that most rows concern academic conduct, teaching, governance, workplace communication or student matters rather than core research misconduct. The same-day LAS/LCS and public-research-institute follow-up found refreshed code/procedure routes at LCS, ISSP UL, LIOS, EDI, LVKKI and BMC/Genome, but no national or institute-level public case archive beyond UL; research-ethics approval registers remain a separate boundary lane.",
     sourcePath: "data/Latvia/raw documentation/source notes/Latvia deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-04-30",
     resources: [
       {
         label: "Code of Ethics for Scientists",
@@ -1222,12 +1312,23 @@ window.TRANSPARENCY_DATA = [
         comment: "Main national normative source."
       },
       {
+        label: "Latvian Council of Science ethics page",
+        url: "https://www.lzp.gov.lv/lv/etika",
+        resourceClass: "National code-currency source",
+        scope: "LCS ethics code and scientist ethics code downloads",
+        caseLevelInfo:
+          "Current code source; staff-ethics route and scientist-code baseline, not a case archive",
+        comment: "Added in the 30 April 2026 LAS/LCS retest."
+      },
+      {
         label: "University of Latvia Academic Ethics Commission decisions",
         url: "https://www.lu.lv/par-mums/akademiskas-etikas-komisija/",
         resourceClass: "Institutional decision list",
         scope: "University academic ethics and integrity",
-        caseLevelInfo: "Dated public decisions from 2019 through 2026",
-        comment: "Strongest public case-like route located for Latvia."
+        caseLevelInfo:
+          "Dated public decisions from 2019 through 2 March 2026; all 78 pages classified on 30 April 2026 as 47 breach/partly-breach, 28 no-breach/no-evidence and 3 referral/no-substantive-merits rows",
+        comment:
+          "Strongest public case-like route located for Latvia, but not a dedicated research-misconduct archive."
       },
       {
         label: "University of Latvia 7 January 2025 co-authorship decision",
@@ -1237,6 +1338,43 @@ window.TRANSPARENCY_DATA = [
         caseLevelInfo:
           "Anonymized decision finding an academic-ethics breach and recommending publication and referral actions",
         comment: "Shows why the UL page is more than a committee-route page."
+      },
+      {
+        label: "University of Latvia 28 June 2024 authorship decision",
+        url: "https://www.lu.lv/par-mums/akademiskas-etikas-komisija/28062024-par-autoribu/",
+        resourceClass: "Representative institutional decision",
+        scope: "Research publication integrity and plagiarism-reference route",
+        caseLevelInfo:
+          "Anonymized decision finding a substantial academic-integrity breach in a faculty member's book because accepted reference practice was not fully observed",
+        comment:
+          "Second core research/publication-integrity example in the UL stream."
+      },
+      {
+        label: "ISSP UL Ethics Policy",
+        url: "https://www.cfi.lu.lv/fileadmin/user_upload/lu_portal/projekti/cfi/Citi_dokumenti/ISSP_UL_Ethics_policy.pdf",
+        resourceClass: "Public research institute procedure",
+        scope: "Materials science and nanotechnology research",
+        caseLevelInfo:
+          "Creates an institute Ethics Commission route; no public decisions located",
+        comment: "Institute route seed, not a transparency upgrade."
+      },
+      {
+        label: "Latvian Institute of Organic Synthesis Ethics Code",
+        url: "https://www.osi.lv/wp-content/uploads/2024/10/Code-of-ethics_25.09.2024.pdf",
+        resourceClass: "Public research institute code",
+        scope: "Organic synthesis and pharmaceutical research institute",
+        caseLevelInfo:
+          "Routes observed code violations to the LIOS Ethics Committee; no public decisions located",
+        comment: "Useful current institute-code source."
+      },
+      {
+        label: "Latvian State Institute of Wood Chemistry Ethics Code",
+        url: "https://kki.lv/sites/default/files/documents/LVKKI-%C4%93tikas%20kodekss-2024%20%281%29.pdf",
+        resourceClass: "Public research institute code",
+        scope: "Scientific staff, publications, expert review and ethics complaints",
+        caseLevelInfo:
+          "Defines Ethics Commission complaint handling, sanctions and confidentiality; no public decisions located",
+        comment: "Strong procedure-only public-research-institute example."
       },
       {
         label: "LAS Proceedings Code of Ethics page",
@@ -1263,6 +1401,15 @@ window.TRANSPARENCY_DATA = [
         caseLevelInfo: "Approvals and permits",
         comment:
           "Also maps clinical, CMEC, ZVA and genome boundaries."
+      },
+      {
+        label: "Genome Research Council",
+        url: "https://biomed.lu.lv/about-us/associated-organizations/genome-research-council/",
+        resourceClass: "Genome research boundary",
+        scope: "Genetic research approvals and BMC-hosted council route",
+        caseLevelInfo:
+          "Composition, functions, submission route and approval-list link; boundary approvals, not misconduct cases",
+        comment: "Direct source added in the public-research-institute follow-up."
       },
       {
         label: "RTU Research Ethics Committee",
@@ -1387,9 +1534,9 @@ window.TRANSPARENCY_DATA = [
     format: "Official web pages and PDFs",
     hasArchive: false,
     keyNote:
-      "Luxembourg remains summary-based: LARI reports aggregate practice and FNR has a rare public case communication, but CRI final reports are confidential and there is no searchable misconduct decision repository.",
+      "Luxembourg remains summary-based: ENRIO and current LARI sources confirm the national LARI/CRI route, but CRI final reports are confidential; LARI reports aggregate practice and FNR has a rare public case communication, not a searchable misconduct decision repository.",
     sourcePath: "data/Luxembourg/raw documentation/source notes/Luxembourg deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-04-29",
     resources: [
       {
         label: "LARI about and governance documents",
@@ -1414,6 +1561,14 @@ window.TRANSPARENCY_DATA = [
         scope: "National integrity activity",
         caseLevelInfo: "Aggregate case and request counts",
         comment: "Reports 7 opened cases, 6 closed cases, 1 continued case and 90 requests in the interim period."
+      },
+      {
+        label: "ENRIO Luxembourg country report",
+        url: "https://www.enrio.eu/country-reports/luxembourg/",
+        resourceClass: "ENRIO cross-check",
+        scope: "National research-integrity system comparison",
+        caseLevelInfo: "Confirms LARI/CRI remit and annual-report transparency model; no case archive",
+        comment: "Secondary comparison source, last updated June 2024."
       },
       {
         label: "FNR funding policies",
@@ -1472,24 +1627,68 @@ window.TRANSPARENCY_DATA = [
     id: "netherlands",
     country: "Netherlands",
     score: 4,
-    tier: "Structured archive",
-    mainBody: "LOWI",
-    coverage: "National appeal / advisory body",
-    publicAccess: "Yes",
-    publicationModel: "Structured opinions archive",
-    format: "HTML archive",
+    tier: "Structured archive plus sector publication layers",
+    mainBody: "LOWI, with UNL, VH and NWO as separate publication or reporting lanes",
+    coverage:
+      "Strong for LOWI second-line opinions and UNL university-sector case pages, including current 2026 material; visible but narrower for VH hbo case pages; moderate for NWO funder annual reporting. The 29 May 2026 quality check also adds UvA annual-report and RIVM public-institute trace seeds for local/non-UNL visibility.",
+    publicAccess:
+      "High for LOWI and UNL case material, public but page-based for VH, and annual-report based for NWO.",
+    publicationModel:
+      "Layered model: LOWI publishes anonymized second-line advisory opinions, UNL publishes anonymized university board/CWI case rows by year, VH publishes hbo cases under a standardized format, and NWO publishes annual-report traces for its safety-net complaints desk.",
+    format: "HTML archive pages, linked PDF case files and annual-report PDFs",
     hasArchive: true,
-    keyNote: "Mature public archive of opinions.",
+    keyNote:
+      "The Netherlands should not be coded as LOWI only; archive owner, handling body and final decision-maker differ across LOWI, UNL, VH and NWO.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-17",
+    sourceDate: "2026-05-29",
     resources: [
       {
         label: "LOWI opinions archive",
         url: "https://lowi.nl/en/opinions/",
         resourceClass: "Structured opinion archive",
         scope: "National",
-        caseLevelInfo: "Published opinions",
-        comment: "One of the most mature public archives identified."
+        caseLevelInfo: "Anonymized advisory opinions and inadmissibility decisions",
+        comment: "One of the most mature public archives identified; live page now shows 2026 opinions and decisions."
+      },
+      {
+        label: "UNL complaint publications",
+        url: "https://www.universiteitenvannederland.nl/publicaties-klachten-wetenschappelijke-integriteit",
+        resourceClass: "Sector case archive",
+        scope: "Research universities",
+        caseLevelInfo: "Anonymized executive-board decisions and CWI advice by year",
+        comment: "Includes year pages through 2026 in the current source check."
+      },
+      {
+        label: "Vereniging Hogescholen complaint publications 2025",
+        url: "https://www.vereniginghogescholen.nl/kennisbank/praktijk-en-onderzoek/artikelen/publicatie-klachten-wetenschappelijke-integriteit-2025",
+        resourceClass: "Sector case page",
+        scope: "Universities of applied sciences",
+        caseLevelInfo: "Final hbo board decisions and linked case PDFs",
+        comment: "Latest hbo case page located in this quality pass."
+      },
+      {
+        label: "NWO scientific integrity",
+        url: "https://www.nwo.nl/en/scientific-integrity",
+        resourceClass: "Funder complaint and annual-report route",
+        scope: "NWO-funded research safety-net complaints",
+        caseLevelInfo: "Annual reports rather than a searchable case archive",
+        comment: "Use as a funder reporting lane, not as a LOWI-style archive."
+      },
+      {
+        label: "UvA CWI annual report 2024",
+        url: "https://www.uva.nl/binaries/content/assets/uva/nl/onderzoek/wetenschappelijke-integriteit/jaarverslag-cwi-2024.pdf",
+        resourceClass: "Institutional annual report",
+        scope: "University of Amsterdam",
+        caseLevelInfo: "Annual complaint/advice counts and anonymized summaries",
+        comment: "Institutional annual-report seed for local first-line reporting."
+      },
+      {
+        label: "RIVM wind-turbine factsheet complaint trace",
+        url: "https://www.rivm.nl/windenergie/windmolens-gezondheid/factsheet-gezondheidseffecten-van-windturbinegeluid",
+        resourceClass: "Institutional public trace",
+        scope: "RIVM public research institute",
+        caseLevelInfo: "CWI/LOWI procedural sequence around a scientific-integrity complaint",
+        comment: "Representative non-UNL public trace, not a full institutional archive."
       }
     ]
   },
@@ -1559,24 +1758,79 @@ window.TRANSPARENCY_DATA = [
     id: "poland",
     country: "Poland",
     score: 2,
-    tier: "Summary-based",
-    mainBody: "Committee on Ethics in Science (PAN)",
-    coverage: "National committee / academy-led",
-    publicAccess: "Yes",
-    publicationModel: "Public opinions / activity; not structured archive",
-    format: "Web / statements",
+    tier:
+      "Aggregate and anonymized national case-trace visibility plus scattered institutional notices",
+    mainBody:
+      "PAN Committee on Ethics in Science, ministerial disciplinary route pages and scattered institutional notices.",
+    coverage:
+      "National visibility is strongest through PAN activity reporting, plenary notes and statements, with weaker ministerial route pages and isolated institutional notices outside any searchable archive.",
+    publicAccess: "Yes, but uneven",
+    publicationModel:
+      "No national searchable misconduct archive. Poland combines PAN reports and plenary posts with aggregate or anonymized case-trace material, a 2024 PAN annual-report continuity signal, statements/opinions pages and isolated university notices.",
+    format:
+      "Official web pages, annual-report PDFs, plenary news posts, statements archives, committee pages and isolated institutional communiques",
     hasArchive: false,
-    keyNote: "Public outputs exist, but not a coherent case archive.",
+    keyNote:
+      "Poland is more open than the earlier summary-based coding suggested because PAN reports 2023 and 2024 aggregate activity and publishes anonymized plenary notes. It still lacks a structured national archive, and most ministerial or local disciplinary outputs remain scattered or non-public.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-17",
+    sourceDate: "2026-04-29",
     resources: [
       {
-        label: "Ethics in Science page",
+        label: "PAN Ethics in Science page",
         url: "https://pan.pl/en/ethics-in-science/",
-        resourceClass: "Official publication hub",
-        scope: "National",
-        caseLevelInfo: "Opinions and activity materials",
-        comment: "Public outputs exist, but not as a structured case archive."
+        resourceClass: "National committee page",
+        scope: "National ethics opinions, code, reports and committee composition",
+        caseLevelInfo:
+          "Public hub for opinions, reports and plenary notes, but not a searchable case archive",
+        comment:
+          "Best public national source for the law-backed PAN ethics route."
+      },
+      {
+        label: "PAN 2023 activity report",
+        url: "https://journals.pan.pl/Content/131963/PDF/N%23224-11-G%C3%B3rski.pdf",
+        resourceClass: "Aggregate case-report PDF",
+        scope: "National PAN case volumes, allegation categories and anonymized examples",
+        caseLevelInfo:
+          "Publishes case counts, categories and generalized examples without a searchable case database",
+        comment:
+          "Direct proof that Poland's national lane is stronger than norms-only publication."
+      },
+      {
+        label: "PAN 2024 financial/activity report",
+        url: "https://dokumenty.pan.pl/api/file/GetZipxAttachment/4/6324/false/preview",
+        resourceClass: "Aggregate activity-report PDF",
+        scope: "National PAN 2024 plenary, adjudicating-team and opinion activity",
+        caseLevelInfo:
+          "Reports counts and matter types for KEwN activity without a searchable case database",
+        comment:
+          "Confirms continuity of the aggregate national case-trace lane."
+      },
+      {
+        label: "PAN plenary meeting 17 June 2024",
+        url: "https://pan.pl/en/posiedzenie-plenarne-komisji-do-spraw-etyki-w-nauce-w-dniu-17-czerwca-2024-roku/",
+        resourceClass: "Anonymized case-note page",
+        scope: "National PAN meeting note with adjudicating-panel opinions and revisited cases",
+        caseLevelInfo:
+          "Describes anonymized matters and adopted opinions, but not a searchable archive",
+        comment: "Representative national case-trace note."
+      },
+      {
+        label: "Ministerial disciplinary commission page",
+        url: "https://www.gov.pl/web/nauka/komisja-dyscyplinarna-przy-ministrze-wlasciwym-do-spraw-szkolnictwa-wyzszego-i-nauki",
+        resourceClass: "Central route page",
+        scope: "Ministerial disciplinary route for academic staff categories",
+        caseLevelInfo:
+          "Shows the 2025-2028 mandate and composition but no public decision archive",
+        comment: "Important route node even without public case outputs."
+      },
+      {
+        label: "University of Warsaw disciplinary communication",
+        url: "https://www.uw.edu.pl/komunikat-dotyczacy-orzeczenia-komisji-dyscyplinarnej/",
+        resourceClass: "Institutional micro-publication node",
+        scope: "University-level disciplinary communication",
+        caseLevelInfo:
+          "Case-specific public notice and appeal update rather than a stable archive",
+        comment: "Useful evidence that local case notices can appear in Poland."
       }
     ]
   },
@@ -2020,9 +2274,9 @@ window.TRANSPARENCY_DATA = [
     format: "PDF annual reports + web news + ETH table endpoint + procedure pages",
     hasArchive: true,
     keyNote:
-      "24 April 2026 correction confirms Switzerland as fragmented rather than LOWI-like nationally: SNSF publishes anonymised annual case statistics and occasional case news, while ETH Zurich exposes a public institutional list of anonymised investigation reports. SCCSI receives annual institutional reporting without personal details and is not an appeal or case-handling body.",
+      "30 April 2026 quality check confirms Switzerland as fragmented rather than LOWI-like nationally: SNSF publishes anonymised annual case statistics and occasional case news, ETH Zurich exposes a public institutional list of anonymised investigation reports, and SCCSI is now live as a monitoring/advisory body that receives annual institutional reporting without personal details but is not an appeal or case-handling body.",
     sourcePath: "data/Switzerland/raw documentation/source notes/Switzerland deep-dive sources.md",
-    sourceDate: "2026-04-24",
+    sourceDate: "2026-04-30",
     resources: [
       {
         label: "SNSF Commission on Research Integrity annual report 2024",

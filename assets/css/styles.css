@@ -571,6 +571,209 @@ main {
   padding: 24px 28px 40px;
 }
 
+.comparison-view {
+  padding: 24px 28px 40px;
+}
+
+.comparison-shell {
+  display: grid;
+  gap: 18px;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.comparison-hero {
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 22px;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.comparison-hero h2 {
+  font-size: 1.45rem;
+  line-height: 1.2;
+  margin: 0 0 10px;
+  overflow-wrap: anywhere;
+}
+
+.comparison-hero p {
+  line-height: 1.55;
+  margin: 0;
+  max-width: 980px;
+}
+
+.comparison-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.comparison-actions a {
+  text-decoration: none;
+}
+
+.comparison-kpis,
+.comparison-lanes,
+.evidence-rail,
+.checklist-grid,
+.source-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.comparison-kpis {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.comparison-kpis div,
+.comparison-section {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  min-width: 0;
+}
+
+.comparison-kpis div {
+  padding: 16px;
+}
+
+.comparison-kpis span {
+  color: var(--selected);
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 750;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.comparison-kpis strong {
+  display: block;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  margin-bottom: 8px;
+  overflow-wrap: anywhere;
+}
+
+.comparison-kpis p,
+.comparison-card p,
+.comparison-section p,
+.evidence-rail p,
+.boundary-card p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.comparison-section {
+  padding: 20px;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.comparison-section h3 {
+  font-size: 1.08rem;
+  margin: 0;
+}
+
+.comparison-lanes,
+.evidence-rail,
+.checklist-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.comparison-card,
+.evidence-rail article {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  min-width: 0;
+  padding: 16px;
+}
+
+.comparison-card h4,
+.evidence-rail h4 {
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+
+.officer-flow {
+  counter-reset: officer-step;
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.officer-flow li {
+  border-left: 4px solid var(--system);
+  line-height: 1.45;
+  padding-left: 12px;
+}
+
+.comparison-table-wrap {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+}
+
+.comparison-table {
+  border-collapse: collapse;
+  min-width: 850px;
+  width: 100%;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid var(--line);
+  line-height: 1.45;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table thead th {
+  background: var(--wash);
+  color: var(--ink);
+  font-size: 0.88rem;
+}
+
+.comparison-table tbody th {
+  color: var(--system-strong);
+  width: 23%;
+}
+
+.comparison-boundaries {
+  margin-top: 0;
+}
+
+.source-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.source-grid a {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: block;
+  font-weight: 650;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.source-grid a:hover,
+.source-grid a:focus-visible {
+  border-color: var(--system);
+  outline: 2px solid rgba(11, 107, 95, 0.16);
+  outline-offset: 2px;
+}
+
 .timeline-control-panel,
 .timeline-map-panel,
 .timeline-event-panel {
@@ -786,6 +989,7 @@ main {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
   letter-spacing: 0;
+  pointer-events: none;
 }
 
 .timeline-callout-meta {
@@ -821,7 +1025,7 @@ main {
 .timeline-slider-row output {
   color: var(--selected);
   font-weight: 800;
-  min-width: 4ch;
+  min-width: 11ch;
   text-align: right;
 }
 
@@ -926,6 +1130,8 @@ main {
   display: grid;
   gap: 10px;
   margin-bottom: 10px;
+  min-width: 0;
+  overflow-wrap: anywhere;
   padding: 12px;
 }
 
@@ -945,7 +1151,10 @@ main {
   color: var(--selected);
   font-size: 0.82rem;
   font-weight: 800;
+  max-width: 18ch;
+  overflow-wrap: anywhere;
   text-align: right;
+  white-space: normal;
 }
 
 .timeline-event-card p {
@@ -1308,6 +1517,19 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .comparison-hero,
+  .comparison-kpis,
+  .comparison-lanes,
+  .evidence-rail,
+  .checklist-grid,
+  .source-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-actions {
+    justify-content: flex-start;
+  }
+
   .timeline-control-panel,
   .timeline-workspace {
     grid-template-columns: 1fr;
@@ -1357,24 +1579,42 @@ main {
   }
 
   .header-actions a {
-    flex: 1 1 130px;
+    display: block;
+    flex: none;
+    min-width: 0;
+    overflow-wrap: anywhere;
     text-align: center;
+    white-space: normal;
+  }
+
+  .header-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
   }
 
   .view-tabs {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 8px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     padding-left: 14px;
     padding-right: 14px;
   }
 
   .view-tab {
-    flex: 1 1 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
+    white-space: normal;
   }
 
   .workspace,
   .list-panel,
-  .timeline-view {
+  .timeline-view,
+  .comparison-view {
     margin-left: 0;
     margin-right: 0;
     padding-left: 14px;
@@ -1394,14 +1634,16 @@ main {
   }
 
   .timeline-controls,
-  .timeline-event-actions {
+  .timeline-event-actions,
+  .comparison-actions {
     align-items: stretch;
     flex-direction: column;
   }
 
   .timeline-controls label,
   .timeline-controls .card-action,
-  .timeline-event-actions .card-action {
+  .timeline-event-actions .card-action,
+  .comparison-actions .card-action {
     width: 100%;
   }
 
@@ -1460,5 +1702,16 @@ main {
 
   .timeline-item {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .header-actions,
+  .view-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header h1 {
+    font-size: 1.45rem;
   }
 }

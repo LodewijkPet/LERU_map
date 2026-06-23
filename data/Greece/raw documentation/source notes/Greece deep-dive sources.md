@@ -1,6 +1,6 @@
 # Greece deep-dive sources
 
-Updated: 22 April 2026
+Updated: 29 April 2026
 
 ## System reading
 
@@ -227,3 +227,42 @@ Updated: 23 April 2026
 - Check whether older EOF EED archive pages remain durable after the CTIS transition.
 - Inspect whether HDPA decision search can yield current research-specific decisions under GDPR, without recoding data-protection decisions as misconduct.
 - Keep ANILAB non-technical abstracts and CTIS trial records as boundary project/register material, not general research-integrity case files.
+
+## Quality-consolidation pass added 29 April 2026
+
+This pass does not change the system classification. Greece remains a law-activated but institutionally distributed research-integrity system with no located national general misconduct board or national public archive of general misconduct findings.
+
+### Current-source and ENRIO check
+
+- ENRIO's Greece country report, last updated May 2024, supports the app coding: it says Greece does not yet have a national institutional research-integrity structure and that misconduct cases are handled locally by research-performing organisations. It also records the 2008 EARTHnet and 2014 RCR-Greece initiatives, the 2017 higher-education deontology committee route and the 2 March 2018 Law 4521/2018 REDC/EHDE framework.
+- ENRIO's 2024 annual report lists the Network of Responsible Conduct of Research in Greece (RCR), Greece, among ENRIO members. Treat this as network/membership evidence, not as a national case-handling body.
+- Direct Official Gazette URLs were added for the two core legal baselines: Law 4521/2018 (Government Gazette A 38) and Law 4957/2022 (Government Gazette A 141). Earlier app text was correct, but the legal source backbone is now cleaner.
+- GSRI's mission and NCRTI pages still support the national strategy/advisory reading: GSRI plans and coordinates RTDI policy, while NCRTI is the supreme government advisory body for national RTDI strategy.
+- The National Commission for Bioethics and Technoethics terms page is current and now also records the Rules of Procedure in Prime Minister's Decision 892/2022 and Presidential Decree 63/2025 as personnel/secretariat support context. This is a current-source signal for the advisory layer, not a misconduct-publication source.
+- HFRI's 4th Call for postdoctoral researchers, first amendment dated 20 May 2024, keeps the funder-compliance lane current: the call has an "Ensuring research integrity" section and cites Law 4957/2022. This complements the earlier 3rd Call for faculty members and researchers rather than changing the route.
+- EOF's old EED archive remained reachable in this pass and still exposed National Ethics Committee approval and notice categories, including the April-July 2024 positive-opinion table. The archive is durable enough to retain as a boundary publication hub, but the 25 November 2025 CTIS transition notice remains the current lifecycle marker.
+- ANILAB remains the most inspectable animal-research boundary portal because it exposes the legal framework, non-technical abstracts, forms and National Committee recommendation route.
+
+### Main code and procedure baseline
+
+- Greece still lacks a single national research-integrity code comparable to a national ALLEA adoption instrument in the sources checked here.
+- The practical baseline is layered: Law 4521/2018 and Law 4957/2022; the National Commission recommendation on EHDE competences; HFRI call conditions; institutional codes and regulations at AUEB, NTUA, Thessaly, Harokopio and other universities; and research-centre codes or integrity-office material such as IMBB/FORTH.
+- ALLEA remains a European reference visible through institutional and network sources, but it should not be treated as a Greek national code unless a source explicitly adopts it for a route.
+- AUEB remains the clearest code-source example for a public annual-report clause; NTUA and Harokopio add useful annual-report-duty seeds, but this pass did not locate the actual public annual reports for those routes.
+
+### Directory and repository seeds
+
+- NTUA has a durable EHDE operation page and regulation. The page states that the committee prepares a concise annual activity report for the Rector at the start of each academic year. No public report file was found in this pass.
+- Harokopio University has a public EHDE page and regulation. The regulation says the committee evaluates complaints during research and prepares an annual activity report submitted to the Research Committee and published on the Research Committee website. No actual annual report was located in this pass, so Harokopio should be a high-yield public-output test.
+- University of Thessaly now has a dedicated EHDE site, current 2024-2027 composition material and a 2025 regulation trail in addition to the broader university ethics page already used in the dossier. It remains a strong procedure route rather than a public-output lane.
+- AUEB's ethics page and code continue to expose a report/escalation clause, but the pass did not locate a recurring public case or annual-report archive.
+- NKUA and the University of Macedonia remain the strongest located institutional aggregate lanes: NKUA reports 71 meetings and 213 decisions for 2018 to 23 January 2025, while University of Macedonia exposes a 2019-2022 triennial report.
+- EOF should be indexed separately by lane: old EED positive-opinion announcements and linked tables, current EOF National Ethics Committee information, the ACT EU clinical-trials map, CTIS Part II Assessment Reports and non-public GCP inspection-report flow.
+
+### Stable conclusions
+
+- Do not recode Greece as a national misconduct-board country.
+- Do not upgrade Greece's general misconduct-transparency score because of EOF, CTIS or ANILAB boundary records.
+- Treat institutional annual-report clauses as extraction targets until actual public files are found.
+- Keep ENRIO as a secondary cross-check, especially useful for the "no national institutional RI structure" reading and for the EARTHnet/RCR-Greece network history.
+- Next pass should index NTUA and Harokopio output practice first, then test AUEB, Thessaly, HMU and additional EHDE sites for recurring public reports, minutes, statistics or only procedure pages.

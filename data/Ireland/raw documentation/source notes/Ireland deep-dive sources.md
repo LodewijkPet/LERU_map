@@ -1,6 +1,6 @@
 # Ireland deep-dive sources
 
-Updated: 24 April 2026
+Updated: 30 April 2026
 
 ## System reading
 
@@ -104,6 +104,48 @@ The most accurate transparency reading is therefore:
 - Stronger evidence on whether more institutions publish annual integrity reports or anonymized case summaries
 - A broader live boundary sweep for health, data and animal-practice implementation
 
+## Quality-consolidation pass - 29 April 2026
+
+### Source currency
+
+- The IUA/NRIF page remains the live national portal and still lists annual statistics reports only for 2016 through 2023. No 2024 national statistics report was located in this pass.
+- The 2024 National Policy Statement remains the current national code baseline. It aligns Ireland with the 2023 ALLEA European Code and preserves the institution-led allegation-handling model.
+- Research Ireland's current Grant General Terms and Conditions are now the strongest post-merger funder source. They require compliance with the European Code, the National Policy Statement and Research Ireland policy documents; require research-integrity training within six months; require publicised misconduct-identification and investigation mechanisms; and require Research Ireland notification of suspected, alleged and found research misconduct within 30-day reporting windows.
+- Research Ireland's Reporting Compliance policy applies to reporting submissions due from 1 December 2025 and adds a separate funder-compliance sanctions lane for late annual, final, progress or research-output reporting. This is compliance visibility, not misconduct case publication.
+
+### ENRIO status
+
+- ENRIO has a country report for Ireland, last updated March 2024.
+- ENRIO confirms the key app coding: NRIF is an advisory/support platform and not a misconduct adjudicator; RPOs remain responsible for handling cases; funders expect host institutions to have procedures; and public transparency is mainly through annual consolidated statistics.
+- The ENRIO 2024 annual report lists the Health Research Board as Ireland's ENRIO member. Treat this as network evidence, not as evidence of a national misconduct-board function.
+
+### Code baseline
+
+- Main national code: National Policy Statement on Ensuring Research Integrity in Ireland, revised December 2024.
+- Main procedure baseline: Guidelines for the Investigation of Misconduct in Research, plus the Research Integrity Officer role paper.
+- Main funder baseline: Research Ireland Grant General Terms and Conditions, with HRB, EPA and legacy SFI/IRC material retained as sector or transition evidence.
+- The main categories to code from these sources remain fabrication, falsification, plagiarism, data-related misconduct, research-practice misconduct, publication-related misconduct, personal misconduct in the research setting and misuse of funds.
+
+### Repository and output check
+
+- The strongest public-output corridor remains the NRIF/IUA annual formal-investigation statistics archive. It should now be indexed from 2016 through 2023 by year, concluded investigations, upheld cases, allegation category and participating RPO universe.
+- SRII2025 has a current UCD resource page and was open until the end of September 2025. No public results page or report was located on 29 April 2026.
+- NCI's final-report/publication language and MTU's RICO output channels still have not produced a live case-report repository in this pass.
+
+### Public-RPO directory seeds
+
+- Teagasc remains the best public-RPO fragment because the 2024 Food Programme peer review report names the RIO route, mandatory training and the absence of actionable integrity issues in that programme review.
+- The Marine Institute adds two useful seeds: its Code of Conduct says staff should comply with the Institute's Research Integrity Policy once finalised, and its 2025 Research Call Guidelines require applicants to follow national and European research-integrity policies and to declare generative-AI use.
+- NIBRT adds a public research-integrity training route tied to the national Epigeum pilot, with named contact evidence.
+- No DIAS-specific public research-integrity route or output page was located in this pass beyond its inclusion in NRIF/statistics-report universes.
+
+### Boundary targets
+
+- NREC annual reports now provide a current annual-report corridor for the health-research ethics system.
+- HRCDC exposes annual reports, a public application log and meeting minutes. These are data-consent boundary outputs, not general research-misconduct decisions.
+- HPRA exposes a scientific-animal-protection statistical-reporting corridor through the 2024 report, separate from research-integrity case files.
+- QQI/NAIN now has a 2025-2028 strategy and 2025-2026 terms-of-reference material. Keep this in the academic-integrity and education-quality lane.
+
 ## Committee and case-file pass - 24 April 2026
 
 ### Strongest public case-material route
@@ -161,3 +203,39 @@ Ireland should be coded as a summary-based national reporting system with proced
 - Watch for the 2024 statistics report and SRII2025 survey results.
 - Track whether NCI's FOI/publication clause or MTU's RICO output channels ever produce actual case reports rather than procedure or training material.
 - Widen the public-RPO route sample beyond Teagasc to Marine Institute, DIAS, NIBRT and other annex-listed RPOs.
+
+## NRIF annual-statistics indexing follow-up - 30 April 2026
+
+This is the next quality check chosen after the North Macedonia, Latvia and Luxembourg follow-up work already present in the local notes. Ireland was selected because the NRIF annual statistics corridor is the clearest remaining high-value target: it is the country's main public case-output layer, but it had not yet been indexed across all published annual reports.
+
+### Source-current retest
+
+- The IUA Research Integrity / NRIF page still lists annual statistics reports for 2016 through 2023 and no 2024 formal-investigation statistics report was located on the live page or in targeted web searches.
+- The IUA page states that NRIF publishes annual statistics on the number and types of research misconduct dealt with through formal mechanisms in state-funded RPOs. This confirms the reports as a national monitoring corridor, not a national adjudication archive.
+- Targeted searches for SRII2025 results again found the UCD SRII2025 resource page and launch/participation notices, but no public results report.
+
+### Structured annual-statistics index
+
+| Calendar year | Formal investigations concluded | Upheld field in report | Public category detail | RPO universe or response signal | Coding note |
+| --- | ---: | --- | --- | --- | --- |
+| 2016 | 4 | 1 upheld | Fabrication; plagiarism; publication-related misconduct, with the publication-related allegation upheld; financial and other misconduct. | Seven universities, fourteen institutes of technology, RCSI and Teagasc; Marine Institute joined after the data exercise. | First public national summary report; not a case file. |
+| 2017 | 6 | 3 fully upheld and 2 partly upheld | Falsification; plagiarism; data-related misconduct; publication-related misconduct. | Universities, institutes of technology, RCSI, TU Dublin, Teagasc, DIAS and Mary Immaculate College. | Keep fully upheld and partly upheld fields separate in any later structured dataset. |
+| 2018 | 4 | 3 fully upheld and 1 partly upheld | Plagiarism; research-practice misconduct; publication-related misconduct. | Same broad RPO universe as 2017. | All concluded rows had at least a partial-upheld outcome, but the public report does not give institution names or decisions. |
+| 2019 | 2 | 1 fully upheld | Plagiarism; other. | Universities, institutes of technology, RCSI, TU Dublin, Teagasc, Marine Institute, DIAS and Mary Immaculate College. | Low annual volume; still national summary reporting only. |
+| 2020 | 3 | 2 upheld | One research-practice investigation not upheld; two publication-related investigations both upheld. | Universities, institutes of technology, RCSI, TU Dublin, Teagasc, Marine Institute, DIAS and Mary Immaculate College. | Publication-related misconduct becomes the strongest repeated category signal. |
+| 2021 | 3 | 0 upheld | One research-practice investigation and two publication-related investigations, all not upheld. | Same broad RPO universe as 2020. | Confirms the corridor includes no-upheld years as well as upheld years. |
+| 2022 | 6 | 2 upheld | Fabrication upheld; plagiarism not upheld; data-related misconduct not upheld; research-practice misconduct upheld; publication-related misconduct not upheld; personal misconduct in the research setting not upheld. | Annexed respondents include ATU, DCU, DIAS, DkIT, Marine Institute, MIC, MTU, Maynooth, NIBRT, RCSI, SETU, Trinity, Teagasc, TUD, TUS, UCC, UCD and UL. | Most category-specific annual row before 2023; still anonymized and aggregate. |
+| 2023 | 5 | 3 upheld | Plagiarism upheld; data-related misconduct not upheld; research-practice misconduct upheld; two publication-related investigations with one upheld. | Annexed respondents include ATU, DCU, DIAS, Marine Institute, MIC, MTU, Maynooth, NIBRT, RCSI, SETU, Teagasc, TUD, TUS, Trinity, UCC, UCD, UL and University of Galway. | Latest published annual statistics report located; report states no year since 2016 exceeded six concluded investigations. |
+
+### Indexing conclusion
+
+The NRIF annual-statistics series is now indexed at a country-comparison level. Across the published 2016-2023 reports, Ireland exposes recurring national counts, outcome fields and category labels, but no institution names, reasoned decisions, anonymized case narratives or searchable case repository. The indexing strengthens Ireland's summary-based transparency classification and does not justify upgrading it to a decision-archive or fragmented case-file model.
+
+Publication-related misconduct is the clearest repeated category signal: the 2023 report says it is the most frequently observed category across the 2016-2023 series, with 10 category appearances and 6 upheld-category appearances in the report's cumulative charts. Treat those cumulative category figures as chart-level aggregates, not individual case files.
+
+### Remaining follow-up queue
+
+- Keep monitoring the IUA/NRIF page for a 2024 statistics report.
+- Keep monitoring UCD and NRIF sources for SRII2025 results.
+- Test whether NCI's possible final-report publication clause or MTU's RICO output channels ever produce actual case reports rather than procedure/training outputs.
+- Deepen DIAS and other public-RPO checks using the respondent universe exposed by the 2022 and 2023 annexes.
