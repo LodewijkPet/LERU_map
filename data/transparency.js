@@ -574,9 +574,9 @@ window.TRANSPARENCY_DATA = [
     format: "Web, PDF synthesis, selective operator reports, institutional annual reports",
     hasArchive: false,
     keyNote:
-      "France has more public case-material visibility than the original transparency overview suggested: Ofis publishes aggregate national handling evidence, CNRS/MIS publishes selected reports, and some institutions publish annual activity. These lanes remain distributed and selective, not a national archive.",
+      "France has more public case-material visibility than the original transparency overview suggested: Ofis publishes aggregate national handling evidence, CNRS/MIS publishes selected reports, and some institutions publish annual activity. The 29 April 2026 quality pass confirmed the same distributed/selective model against ENRIO and current Ofis material; it still is not a national archive.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-23",
+    sourceDate: "2026-04-29",
     resources: [
       {
         label: "Ofis surveys page",
@@ -604,12 +604,23 @@ window.TRANSPARENCY_DATA = [
         comment: "Recorded 187 RIS on 23 April 2026."
       },
       {
+        label: "Ofis 2026 bilan and perspectives",
+        url:
+          "https://www.ofis-france.fr/promouvoir-et-proteger-une-culture-partagee-de-lintegrite-scientifique-bilan-et-perspectives/",
+        resourceClass: "Current-source signal",
+        scope: "National",
+        caseLevelInfo:
+          "No case-level output; current context for Ofis review of the 2021-2026 integrity landscape",
+        comment:
+          "Useful for source currency and future regulatory watch, not for case-publication coding."
+      },
+      {
         label: "CNRS MIS reports",
         url: "https://mis.cnrs.fr/rapports/",
         resourceClass: "Selective operator case-report page",
         scope: "CNRS-scope public reports and recommendations",
         caseLevelInfo:
-          "Selected report outputs and recommendations; not a national archive",
+          "Selected report outputs and recommendations with retention/request limits; not a national archive",
         comment:
           "Strongest file-level France lane found, but only for selected CNRS outputs."
       },
@@ -630,18 +641,18 @@ window.TRANSPARENCY_DATA = [
     score: 3,
     tier: "Funder case-publication list plus ombuds and institutional annual reports",
     mainBody:
-      "DFG scientific-misconduct press-release list, DFG misconduct procedure, OWID annual reports, and selected institutional annual reports or ombuds pages.",
+      "DFG scientific-misconduct press-release list, DFG misconduct procedure, OWID annual reports, selected institutional annual reports or ombuds pages, and research-organization procedure routes.",
     coverage:
-      "DFG-funded and DFG-handled cases, national ombuds advice and mediation reporting, institutional ombuds/procedure pages, selected university annual reports, and shared institutional routes.",
+      "DFG-funded and DFG-handled cases, national ombuds advice and mediation reporting, institutional ombuds/procedure pages, selected university annual reports, shared institutional routes, and non-university research-organization ombuds routes.",
     publicAccess: "Yes",
     publicationModel:
       "Stable DFG press-release list for selected funder-jurisdiction cases, OWID aggregate annual reporting, and scattered institutional annual-report or procedure evidence rather than a consolidated national decision database.",
     format: "Web, curated press-release list, individual press releases, annual-report PDFs, procedure pages",
     hasArchive: false,
     keyNote:
-      "Germany has a public case-publication ladder rather than a national database: DFG publishes a stable list of scientific-misconduct press releases for its own jurisdiction, OWID publishes national aggregate ombuds reports, and selected universities publish local annual statistics. None covers all German institutional or research-organization decisions.",
+      "Germany has a public case-publication ladder rather than a national database: DFG publishes a stable list of scientific-misconduct press releases for its own jurisdiction, OWID publishes national aggregate ombuds reports, and selected universities publish local annual statistics. The 29 April 2026 quality pass adds Gottingen's 2025 annual-report route, Land-diverse procedure examples and deeper Fraunhofer/Max Planck research-organization routes. None covers all German institutional or research-organization decisions.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-23",
+    sourceDate: "2026-04-29",
     resources: [
       {
         label: "Ombuds Committee official site",
@@ -692,6 +703,16 @@ window.TRANSPARENCY_DATA = [
           "Best recurring public trace for the national ombuds layer."
       },
       {
+        label: "OWID annual reports download page",
+        url: "https://ombudsgremium.de/2030/owid-jahresberichte/",
+        resourceClass: "Annual report download hub",
+        scope: "National ombuds layer",
+        caseLevelInfo:
+          "Download sequence from 2000 through 2024; aggregate reporting and thematic reflection rather than individual decisions",
+        comment:
+          "Quality-pass source for future bulk indexing of the national ombuds reporting series."
+      },
+      {
         label: "Freie Universitat Berlin GWP annual report 2025",
         url: "https://refubium.fu-berlin.de/bitstream/handle/fub188/51748/Jahresbericht_GWP_2025_FUB.pdf?isAllowed=y&sequence=1",
         resourceClass: "Institutional annual report",
@@ -702,14 +723,24 @@ window.TRANSPARENCY_DATA = [
           "Strong example of local annual-report transparency within the German distributed system."
       },
       {
-        label: "Gottingen Ombudsstelle annual report 2022",
-        url: "https://www.uni-goettingen.de/de/document/download/3ba377e4018c26c9fdd656f5703f69fa.pdf/Jahresbericht%20Ombudsstelle_2022_final.pdf",
-        resourceClass: "Institutional annual report",
+        label: "Gottingen Ombudsstelle annual reports and 2025 report",
+        url: "https://www.uni-goettingen.de/de/gute-wissenschaftliche-praxis--ombudsangelegenheiten-/223832.html",
+        resourceClass: "Institutional annual report hub",
         scope: "University of Gottingen ombuds office",
         caseLevelInfo:
-          "Narrative annual report with anonymized issue categories and reflections, not full decisions",
+          "Current page links the 2025 annual report and a multi-year reporting sequence; reports cover ombuds activity, GWP conflicts and investigation-commission sections rather than full decisions",
         comment:
-          "Shows that German local ombuds offices may publish annual summaries while case files remain confidential."
+          "Shows that German local ombuds offices may publish recurring annual summaries while case files remain confidential."
+      },
+      {
+        label: "Fraunhofer IPK scientific integrity",
+        url: "https://www.ipk.fraunhofer.de/en/about-us/scientific-integrity.html",
+        resourceClass: "Research-organization institute route",
+        scope: "Fraunhofer institute-level ombuds route",
+        caseLevelInfo:
+          "Names local ombudspersons and tasks; not a public case archive",
+        comment:
+          "Quality-pass source for deepening the Fraunhofer institute-level route directory."
       },
       {
         label: "Berlin higher education shared ombuds office",
@@ -1564,9 +1595,9 @@ window.TRANSPARENCY_DATA = [
     format: "Web, institutional document folders and annual-report PDFs",
     hasArchive: false,
     keyNote:
-      "Portugal is more public than the older transparency overview suggested: U.Porto exposes opinion folders, Coimbra CEIUC publishes annual activity reporting, and CEIC publishes clinical indicators, but no national general-misconduct archive was identified.",
+      "Portugal is more public than the older transparency overview suggested: U.Porto exposes committee-route and folder visibility, Coimbra CEIUC publishes annual activity reporting, CEIC publishes clinical indicators, and FCT exposes transparency/reporting-channel routes. The 29 April 2026 quality pass confirmed that some CEUP opinions may require authentication and that no national general-misconduct archive was identified.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-23",
+    sourceDate: "2026-04-29",
     resources: [
       {
         label: "CNECV Recommendation 1/2018",
@@ -1607,6 +1638,22 @@ window.TRANSPARENCY_DATA = [
         scope: "Boundary / clinical",
         caseLevelInfo: "Aggregate submissions, opinions and evaluation-time indicators",
         comment: "Strong official visibility signal, but it belongs to the clinical boundary lane."
+      },
+      {
+        label: "FCT transparency policies",
+        url: "https://www.fct.pt/en/sobre/politicas-de-transparencia/",
+        resourceClass: "Funder transparency and compliance route",
+        scope: "Funder / administrative",
+        caseLevelInfo: "Reporting and compliance route, not a scientific-misconduct archive",
+        comment: "Clarifies FCT's public compliance surface without changing the no-national-archive coding."
+      },
+      {
+        label: "U.Porto Code of Ethics 2026",
+        url: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf",
+        resourceClass: "Institutional code",
+        scope: "Institutional",
+        caseLevelInfo: "Names improper research conduct and routes interpretive questions to CEUP; no case archive",
+        comment: "Current institutional-code baseline for Portugal's strongest public route."
       }
     ]
   },

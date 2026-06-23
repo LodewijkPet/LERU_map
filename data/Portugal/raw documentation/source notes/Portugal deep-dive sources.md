@@ -1,6 +1,6 @@
 # Portugal deep-dive sources
 
-Updated: 23 April 2026
+Updated: 29 April 2026
 
 ## System reading
 
@@ -92,6 +92,33 @@ This pilot materially upgrades Portugal from a pure route-visibility reading.
 - Coimbra's CEIUC 2024 activity report shows local aggregate reporting on meetings, requests and opinion handling.
 - CEIC publishes yearly indicators and a public `Pareceres em Avaliacao` status page, but this is a clinical or biomedical boundary lane and should not be merged into general misconduct publication.
 - Portugal should therefore be coded as having institutional opinion archives and local aggregate reporting without a national general-integrity archive.
+
+## Quality-consolidation pass added 29 April 2026
+
+This pass does not change the system classification. Portugal remains a distributed institutional system with FCT, CNECV and CEIC/RNCES as important national reference points, but no current general national research-misconduct board or public national case archive was identified.
+
+### Current-source and ENRIO check
+
+- ENRIO's Portugal country report is older than the primary-source set, with last update shown as May 2019, but it strongly supports the current app reading: ENRIO says Portugal had no national research-integrity structure, that cases were handled by ad hoc institutional committees, and that FCT and CNECV had pursued national-framework initiatives.
+- FCT's current transparency-policy pages now make the compliance surface clearer: transparency policies, reporting channels, ethics and conduct, risk prevention, anti-fraud and access-to-documents routes are public. These are useful funder and administrative-compliance sources, not evidence of a national scientific-misconduct archive.
+- The current FCT R&D projects page, updated on 7 January 2026, exposes the active regulation index for projects financed exclusively by national funds and should replace ad hoc searches for FCT project-funding terms in future passes.
+- The current U.Porto Commission of Ethics portal confirms that CEUP is a university-wide independent collegiate body, meets monthly, covers teaching, research and outreach, maintains four multidisciplinary subcommissions, and is responsible for defining and applying the U.Porto Code of Ethics.
+- U.Porto's 2026 Code of Ethics gives the current institutional code baseline. It expressly links research and academic work to the European Code of Conduct, names plagiarism, fabrication, falsification, distortion, AI misuse, false CV information and authorship-related conduct, and says doubts and omissions are handled by CEUP opinions.
+- A 2025 U.Porto CEUP code-revision file says CEUP opinions require authentication to access. Treat the SIGARRA opinion-folder structure as strong institutional route/public-directory evidence, but do not overstate it as a fully open public case archive.
+- No newer CEIUC annual report than the 2024 report was identified in this pass.
+
+### Main code and procedure baseline
+
+- Portugal still lacks a dedicated national research-integrity code in the sources checked here.
+- The practical baseline is: CNECV Recommendation 1/2018; ALLEA as the European reference cited by institutional sources; FCT ethics/conduct and project-funding terms; U.Porto's 2026 Code of Ethics; UMinho's 2025 code; UCP's academic and scientific integrity policy; and institutional committee regulations such as Coimbra CEIUC.
+
+### Directory and repository seeds
+
+- U.Porto remains the strongest general institutional visibility route, but the current access caveat means future indexing should separate public folder visibility, authenticated opinions, public recommendations and any fully public PDFs.
+- Coimbra CEIUC remains the strongest aggregate-reporting seed; index annual reports by year if older or newer files are found.
+- FCT should now be treated as a clearer funder/compliance route because its transparency policies, reporting channels and R&D project regulation index are public, but those routes are administrative/funder routes rather than scientific-misconduct adjudication.
+- Polytechnic coverage has improved from an open gap to a directory seed: P.PORTO's institutional self-assessment explicitly describes a P.PORTO Ethics Committee, scientific-integrity threats, sanctions, complaint analysis and plagiarism tools; inED at P.PORTO and IPB also expose research-ethics committee pages or reports. A later pass should index polytechnic committee routes systematically through CCISP.
+- CEIC indicators and evaluation-status pages remain a strong public boundary lane for clinical research ethics, not general misconduct publication.
 
 ## Remaining gaps for a final sweep
 

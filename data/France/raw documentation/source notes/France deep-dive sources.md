@@ -1,6 +1,6 @@
 # France deep-dive sources
 
-Updated: 23 April 2026
+Updated: 29 April 2026
 
 ## System reading
 
@@ -137,3 +137,53 @@ France has a layered public record rather than one case-file archive.
 - Check whether other operators publish selected reports, recommendations, annual statistics or only procedure pages.
 - Revisit the CNRS/MIS reports page periodically because its own wording implies limited permanence and request-based access for older material.
 - Keep health, animal, data-protection and bioethics registers separate from general research-misconduct case-file publication.
+
+## Quality-consolidation pass added 29 April 2026
+
+### Current-source check
+
+The 29 April 2026 pass did not change the France system classification. France remains a legally codified, institution-first RIS network with Hceres/Ofis as the national coordination and observatory center rather than a national misconduct tribunal.
+
+Current-source findings:
+
+- The core Code de la recherche and decree baseline remains the right legal spine: L.211-2, D.211-2, D.211-3, D.211-4, L.114-3-1, Decree 2021-1536 and Decree 2021-1572.
+- The Ofis surveys page still exposes the 2022-2023 synthesis as the main national aggregate handling source. It states that the synthesis was built from data transmitted by higher-education and research institutions in 2024.
+- The Ofis 21 July 2025 recommendations remain the main current public procedure source for treatment of signalements and for the Inadis referral context.
+- The Ofis 14 April 2026 "bilan et perspectives" item confirms that Ofis is actively reviewing the 2021-2026 integrity landscape and regulatory prospects; it is a current-source signal, not a case-output source.
+- The CNRS/MIS reports page remains the strongest file-level public lane found for France. Its retention and request wording is analytically important because selected reports are not a permanent national archive.
+- Sorbonne Universite remains the strongest located institutional annual-report corridor. Paris Cite and Toulouse add route-directory seeds, but the wider France pass should still test whether those and other institutions expose public annual reports, statistics or only procedure/contact pages.
+
+### ENRIO cross-check
+
+ENRIO has a France country report with a last-update note of May 2024. It confirms the basic reading used in the app: Ofis is a national structure, but it has no investigatory or decision-making authority; institutions remain responsible for handling cases through local RIS routes. ENRIO also confirms the 2015 national charter, the 2020 legal codification, the Ofis observatory and directory functions, and the local procedure model.
+
+Use the ENRIO report as a secondary comparison source only. Its terminology and counts should not replace current primary-source checks, especially where Ofis pages or the live app note use newer source dates. The ENRIO 2024 annual report lists the French Office for Research Integrity (OFIS), France, as an ENRIO member.
+
+### Main code and procedure baseline
+
+Use this hierarchy for future France extraction:
+
+- Code de la recherche L.211-2, D.211-2, D.211-3, D.211-4 and L.114-3-1 for the hard-law integrity, reporting, RIS and Hceres/Ofis baseline.
+- Decree 2021-1572 and the 2017 MESR circular for institutional and RIS implementation.
+- French Charter of Deontology for Research Professions, 2015, plus Ofis reference-text pages for the formative national code layer.
+- ALLEA European Code of Conduct as a European reference cited in the French ecosystem, not as a substitute for French law.
+- Ofis July 2025 recommendations and the later Ofis synthetic/new-feature sheets for treatment of signalements, dessaisissement and Inadis.
+
+### Directory and repository indexing targets
+
+The next France pass should index the following lanes separately:
+
+- Ofis RIS annuaire: institution, named RIS, institution type if available, source date and linked institutional route.
+- Ofis synthesis 2022-2023: data-collection year, years covered, respondent base, allegation categories, receipt/handling counts, outcomes and missingness notes.
+- CNRS/MIS reports page: report date, publication date, route, allegation type, outcome/recommendation type, retention/request wording and whether the public item is a full report or an extract.
+- Sorbonne Universite annual reports: year, route owner, signalement counts or activity notes, committee/ambassador-network notes, publication depth and whether case-level detail appears.
+- Paris Cite, Toulouse, Paris-Saclay, Bordeaux, Sciences Po and other institutional routes: distinguish committee/procedure/contact visibility from annual-report or case-output visibility.
+- Inadis: watch for a stand-alone official page, criteria, published procedure, annual statistics, opinions or anonymized outputs.
+
+### Stable conclusions
+
+- Do not recode France as a single national misconduct-board system.
+- Do not treat the Ofis RIS annuaire as case-publication evidence.
+- Do not treat Inadis as an operating public archive unless future sources show outputs.
+- Keep CNRS/MIS selected reports, Sorbonne annual reports and Ofis national synthesis as three separate transparency lanes.
+- Keep CPP/CNRIPH, CCNE, CNREEA/CNEA, CNIL/DPO, deontology and research-security material in boundary layers unless a source explicitly routes the matter into RIS misconduct handling.

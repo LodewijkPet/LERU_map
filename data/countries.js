@@ -8565,10 +8565,11 @@ window.COUNTRY_DATA = [
       "National directories of named institutional integrity officers are a reusable source type.",
       "France separates handler visibility from case-output visibility: the Ofis RIS directory maps the live handling network, but not the contents or outcomes of cases.",
       "The strongest public case-file evidence is selective and distributed: Ofis publishes aggregate national monitoring, CNRS/MIS publishes a small operator case-report page, and some institutions publish annual integrity reports.",
-      "Inadis should be coded as a national second-look or file-analysis route, not as a first-instance tribunal or public archive until its own output practice is visible."
+      "Inadis should be coded as a national second-look or file-analysis route, not as a first-instance tribunal or public archive until its own output practice is visible.",
+      "The 29 April 2026 quality-consolidation pass confirmed the Legifrance/Ofis baseline, reconciled ENRIO as a secondary comparison source, and turned Ofis, CNRS/MIS, Sorbonne, Paris Cite, Toulouse and Inadis into explicit indexing targets."
     ],
     nextFocus:
-      "Committee-and-case-file pilot completed. Next build a wider directory of institutional annual reports and selective case-output pages, track Inadis practice after launch, verify CNRS/MIS report retention and request rules over time, and deepen health, animal and data-boundary registers without treating them as general misconduct archives.",
+      "Committee-and-case-file pilot and first quality-consolidation pass completed. Next bulk-index the Ofis RIS annuaire and 2022-2023 synthesis, extract CNRS/MIS report retention and request wording, watch for Inadis procedure or outputs, widen institutional annual-report searches beyond Sorbonne, and keep health, animal, data and deontology boundary registers separate.",
     documents: [
       {
         label: "Overview France.docx",
@@ -8590,6 +8591,17 @@ window.COUNTRY_DATA = [
         label: "Ofis July 2025 recommendations",
         type: "Procedure and Inadis source",
         url: "https://www.ofis-france.fr/wp-content/uploads/2025/10/RecommandationsJuillet2025_Ofis.pdf"
+      },
+      {
+        label: "Ofis 2026 bilan and perspectives",
+        type: "Current-source signal",
+        url:
+          "https://www.ofis-france.fr/promouvoir-et-proteger-une-culture-partagee-de-lintegrite-scientifique-bilan-et-perspectives/"
+      },
+      {
+        label: "ENRIO France country report",
+        type: "Secondary country comparison",
+        url: "https://www.enrio.eu/country-reports/france-2/"
       },
       {
         label: "Academie des sciences integrity working group",
@@ -8620,9 +8632,9 @@ window.COUNTRY_DATA = [
       publicationModel:
         "National aggregate synthesis plus selective operator report publication and distributed local annual reports/procedure pages rather than an anonymized national decision archive.",
       format: "Official web pages, official PDFs, selective operator reports and institutional activity reports",
-      sourceDate: "2026-04-23",
+      sourceDate: "2026-04-29",
       keyNote:
-        "France is more public than a pure no-publication system because Ofis publishes national synthesis data, CNRS/MIS exposes selected public reports, and some institutions publish annual integrity activity. Even so, no searchable national archive of individual misconduct decisions was identified in this pass.",
+        "France is more public than a pure no-publication system because Ofis publishes national synthesis data, CNRS/MIS exposes selected public reports, and some institutions publish annual integrity activity. The 29 April 2026 quality pass confirmed that ENRIO supports the institution-first reading and that no searchable national archive of individual misconduct decisions was identified.",
       resources: [
         {
           label: "Ofis surveys page",
@@ -8644,6 +8656,17 @@ window.COUNTRY_DATA = [
             "Publishes aggregate data and patterns rather than anonymized file-by-file decisions",
           comment:
             "Core transparency source because it proves France has national summary visibility."
+        },
+        {
+          label: "Ofis 2026 bilan and perspectives",
+          url:
+            "https://www.ofis-france.fr/promouvoir-et-proteger-une-culture-partagee-de-lintegrite-scientifique-bilan-et-perspectives/",
+          resourceClass: "Current-source signal",
+          scope: "National retrospective and prospective Ofis agenda",
+          caseLevelInfo:
+            "No case-level output; useful for confirming active 2021-2026 system review and future regulatory questions",
+          comment:
+            "Use as source-currency evidence, not as a misconduct-publication lane."
         },
         {
           label: "Ofis RIS directory",
@@ -8699,7 +8722,7 @@ window.COUNTRY_DATA = [
         },
         {
           label: "Universite Paris Cite EDIS page",
-          url: "https://u-paris.fr/ethique-deontologie-et-integrite-scientifique/",
+          url: "https://u-pariscite.fr/ethique-deontologie-et-integrite-scientifique/",
           resourceClass: "Institutional committee page",
           scope: "Combined ethics, deontology and integrity architecture",
           caseLevelInfo:
@@ -8711,7 +8734,7 @@ window.COUNTRY_DATA = [
     },
     dossierDetails: {
       readingGuide:
-        "Read France as a legally codified, institutionally executed and nationally coordinated integrity network. The Code de la recherche creates the core duties, institutions appoint referents a l'integrite scientifique (RIS), Hceres/Ofis coordinates and observes the national system, and individual dossier handling remains primarily local unless a conflict, national analysis route or adjacent legal regime is triggered.",
+        "Read France as a legally codified, institutionally executed and nationally coordinated integrity network. The Code de la recherche creates the core duties, institutions appoint referents a l'integrite scientifique (RIS), Hceres/Ofis coordinates and observes the national system, and individual dossier handling remains primarily local unless a conflict, national analysis route or adjacent legal regime is triggered. The 29 April 2026 quality pass confirms this reading against ENRIO and current Ofis material.",
       networkExtent:
         "The French network starts with Code de la recherche L.211-2, D.211-2, D.211-3, D.211-4 and L.114-3-1, then expands through the 2015 national charter, the 2017 circular, Hceres/Ofis, the national RIS directory, Ofis recommendations, RESINT, doctoral training and oath rules, institutional committees and referents, large research-operator offices, ANR funding rules, open-science and data-retention duties, and boundary regimes for human research, bioethics, animal experimentation, data protection, deontology, whistleblowing and research security.",
       systemMap: [
@@ -8792,7 +8815,7 @@ window.COUNTRY_DATA = [
         summary:
           "France's research-integrity directory is best understood as a network of RIS routes rather than a table of one national tribunal plus local committees. The key nodes are Hceres/Ofis, 187 named RIS in the Ofis directory on 23 April 2026, institutional RIS offices and committees, research-operator missions, ANR as a funder with its own RIS, Inadis as a second-look/file-analysis route, and a separate set of ethics bodies for human research, bioethics and animal experimentation.",
         methodology:
-          "This France review-and-relabel pass starts from Overview France.docx, confirms that the local France raw-documentation folders still contain no saved France source files, and refreshes the dossier against official sources from Legifrance, MESR, Ofis/Hceres, the Academie des sciences, Sorbonne Universite, CNRS, Inserm, INRAE, Paris-Saclay, Universite de Bordeaux, Universite Paris Cite, Sciences Po, ANR, CCNE, CNRIPH and CNREEA. The committee-and-case-file pilot then separated four public-output lanes: Ofis aggregate national synthesis, the Ofis RIS directory as handler-map evidence, CNRS/MIS selective operator reports as case-file evidence, and institutional annual reports as local handling evidence. The result is stable enough for deep-dossier labelling, even though a final sweep should still widen the institutional sample and keep watching Inadis output practice.",
+          "This France review-and-relabel pass starts from Overview France.docx, confirms that the local France raw-documentation folders still contain no saved France source files, and refreshes the dossier against official sources from Legifrance, MESR, Ofis/Hceres, the Academie des sciences, Sorbonne Universite, CNRS, Inserm, INRAE, Paris-Saclay, Universite de Bordeaux, Universite Paris Cite, Sciences Po, ANR, CCNE, CNRIPH and CNREEA. The committee-and-case-file pilot separated four public-output lanes: Ofis aggregate national synthesis, the Ofis RIS directory as handler-map evidence, CNRS/MIS selective operator reports as case-file evidence, and institutional annual reports as local handling evidence. The 29 April 2026 quality pass adds ENRIO comparison, the Ofis 2026 current-source signal, Paris Cite and Toulouse route-directory seeds, and explicit indexing targets for the Ofis synthesis, CNRS/MIS retention/request wording, Sorbonne annual reports and Inadis output practice.",
         groups: [
           {
             title: "National legal and coordination layer",
@@ -9074,12 +9097,12 @@ window.COUNTRY_DATA = [
                 since: "Charter approved in 2022; current page public",
                 scope:
                   "Ethics, deontology and integrity charter; CEDIS advisory/expert body; scientific integrity committee with referents from faculties and IPGP.",
-                website: "https://u-paris.fr/ethique-deontologie-et-integrite-scientifique/",
+                website: "https://u-pariscite.fr/ethique-deontologie-et-integrite-scientifique/",
                 documents: [
                   {
                     label: "Universite Paris Cite ethics, deontology and integrity",
                     type: "Institutional committee source",
-                    url: "https://u-paris.fr/ethique-deontologie-et-integrite-scientifique/",
+                    url: "https://u-pariscite.fr/ethique-deontologie-et-integrite-scientifique/",
                     note: "Shows a combined committee ecosystem and named scientific-integrity referents."
                   },
                   {
@@ -9657,7 +9680,7 @@ window.COUNTRY_DATA = [
                 {
                   label: "Paris Cite EDIS",
                   type: "Institutional page",
-                  url: "https://u-paris.fr/ethique-deontologie-et-integrite-scientifique/"
+                  url: "https://u-pariscite.fr/ethique-deontologie-et-integrite-scientifique/"
                 }
               ],
               signals: ["Good source for committee-based implementation in a large university."]
@@ -9676,6 +9699,36 @@ window.COUNTRY_DATA = [
                 }
               ],
               signals: ["Good source for procedural steps and the new national dossier-analysis layer."]
+            },
+            {
+              name: "Institutional annual-report and route directory seed",
+              category: "Quality-consolidation extraction target",
+              scope: "Sorbonne annual reports plus Paris Cite, Toulouse, Paris-Saclay, Bordeaux and Sciences Po route pages",
+              role:
+                "Separates institutions with public annual-report material from institutions that currently expose procedure, committee, contact or boundary-route visibility only.",
+              documents: [
+                {
+                  label: "Sorbonne Universite 2025 integrity annual report",
+                  type: "Institutional annual report",
+                  url:
+                    "https://www.sorbonne-universite.fr/sites/default/files/media/2025-12/integrite_scientifique_rapport_activite_2025.pdf"
+                },
+                {
+                  label: "Universite Paris Cite EDIS",
+                  type: "Committee and annual-report-duty route",
+                  url: "https://u-pariscite.fr/ethique-deontologie-et-integrite-scientifique/"
+                },
+                {
+                  label: "Universite de Toulouse mediation, ethics and integrity",
+                  type: "Institutional route seed",
+                  url: "https://www.univ-tlse3.fr/nos-engagements/mediation-ethique-et-deontologie"
+                }
+              ],
+              signals: [
+                "Sorbonne remains the strongest annual-report corridor located in this pass.",
+                "Paris Cite and Toulouse are route-directory seeds; they should not be treated as public misconduct archives unless later annual reports or outputs are located.",
+                "Future extraction should code each institution by route type, public-output status, source date and boundary warnings."
+              ]
             }
           ]
         },
@@ -10168,6 +10221,28 @@ window.COUNTRY_DATA = [
             "https://www.ofis-france.fr/wp-content/uploads/2025/06/Ofis-Synthese-bisannuelle-2022-2023-traitement-manquements-integrite-scientifique.pdf"
         },
         {
+          label: "Ofis 2026 bilan and perspectives",
+          type: "Current-source signal",
+          url:
+            "https://www.ofis-france.fr/promouvoir-et-proteger-une-culture-partagee-de-lintegrite-scientifique-bilan-et-perspectives/",
+          note:
+            "Current Ofis signal for reviewing the 2021-2026 integrity landscape and regulatory prospects; not a case-output source."
+        },
+        {
+          label: "ENRIO France country report",
+          type: "Secondary country comparison",
+          url: "https://www.enrio.eu/country-reports/france-2/",
+          note:
+            "Secondary comparison source confirming Ofis coordination without investigatory or decision-making authority and institution-level case handling."
+        },
+        {
+          label: "ENRIO Annual Report 2024",
+          type: "ENRIO membership check",
+          url: "https://www.enrio.eu/wp-content/uploads/2025/04/ENRIO-ANNUAL-REPORT-2024.pdf",
+          note:
+            "Lists the French Office for Research Integrity as an ENRIO member."
+        },
+        {
           label: "Academie des sciences scientific integrity working group",
           type: "Inadis / national re-examination context",
           url: "https://www.academie-sciences.fr/les-groupes-de-travail-de-lacademie-des-sciences"
@@ -10227,7 +10302,12 @@ window.COUNTRY_DATA = [
         {
           label: "Universite Paris Cite EDIS",
           type: "University committee route",
-          url: "https://u-paris.fr/ethique-deontologie-et-integrite-scientifique/"
+          url: "https://u-pariscite.fr/ethique-deontologie-et-integrite-scientifique/"
+        },
+        {
+          label: "Universite de Toulouse mediation, ethics and integrity",
+          type: "University route seed",
+          url: "https://www.univ-tlse3.fr/nos-engagements/mediation-ethique-et-deontologie"
         },
         {
           label: "Sciences Po research integrity",
@@ -12250,10 +12330,11 @@ window.COUNTRY_DATA = [
       "Institutional opinion folders, recommendation repositories and annual committee reports can raise a country above a pure route-visibility model even when the national layer remains advisory only.",
       "Provedor or ombuds-like integrity roles are a role type to search for in other countries.",
       "Clinical indicators and evaluation-status pages can be strong transparency signals, but they belong to the clinical boundary lane rather than general misconduct publication.",
-      "Data stewardship and national research-data networks can function as prevention infrastructure."
+      "Data stewardship and national research-data networks can function as prevention infrastructure.",
+      "The 29 April 2026 quality pass confirmed the no-national-board reading through ENRIO, added FCT's current transparency and reporting-channel routes as funder/compliance evidence, and narrowed U.Porto CEUP transparency to public route/folder visibility plus authenticated opinion access."
     ],
     nextFocus:
-      "Committee-and-case-file pilot completed. Future Portugal work should widen the public polytechnic and university sample beyond Porto and Coimbra, test whether more institutions publish opinions, recommendations or annual activity reports, check whether FCT now exposes a clearer public scientific-integrity or compliance route, and keep CEIC/RNCES boundary outputs separate from general research-integrity publication.",
+      "Committee-and-case-file pilot and first quality-consolidation pass completed. Future Portugal work should index U.Porto CEUP outputs by public folder, authenticated opinion and recommendation route; continue CEIUC annual-report indexing; widen institutional and polytechnic coverage through CCISP seeds such as P.PORTO, inED and IPB; monitor FCT transparency and R&D funding-rule pages for clearer scientific-integrity consequences; and keep CEIC/RNCES boundary outputs separate from general research-integrity publication.",
     documents: [
       {
         label: "Overview Portugal.docx",
@@ -12289,6 +12370,41 @@ window.COUNTRY_DATA = [
         label: "CEIC opinions in evaluation page",
         type: "Clinical ethics status page",
         url: "https://www.ceic.pt/web/ceic/pareceres-em-avaliacao"
+      },
+      {
+        label: "ENRIO Portugal country report",
+        type: "Secondary country comparison",
+        url: "https://www.enrio.eu/country-reports/portugal/"
+      },
+      {
+        label: "FCT transparency policies",
+        type: "Funder transparency and compliance page",
+        url: "https://www.fct.pt/en/sobre/politicas-de-transparencia/"
+      },
+      {
+        label: "FCT complaints channel FAQ",
+        type: "Funder reporting-channel page",
+        url: "https://www.fct.pt/en/faq/canal-de-denuncias-rgpdi/denuncias/"
+      },
+      {
+        label: "FCT R&D projects regulation index",
+        type: "Funder regulation index",
+        url: "https://www.fct.pt/en/financiamento/programas-de-financiamento/projetos-id/"
+      },
+      {
+        label: "U.Porto Commission of Ethics current portal",
+        type: "Institutional committee portal",
+        url: "https://www.up.pt/portal/pt/conhecer/organizacao/comissao-de-etica/"
+      },
+      {
+        label: "U.Porto Code of Ethics 2026",
+        type: "Institutional code",
+        url: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf"
+      },
+      {
+        label: "P.PORTO institutional self-assessment",
+        type: "Polytechnic ethics and integrity source",
+        url: "https://www.ipp.pt/sobre/apresentacao/planos-relatorios/AINSTPT.pdf"
       }
     ],
     transparency: {
@@ -12305,9 +12421,9 @@ window.COUNTRY_DATA = [
         "Distributed publication of laws, advisory texts, institutional committee pages, public opinion folders, annual activity reports and clinical-ethics indicators rather than a searchable national misconduct archive.",
       format:
         "Official web pages, institutional document folders, annual-report PDFs, law pages and institutional portals",
-      sourceDate: "2026-04-23",
+      sourceDate: "2026-04-29",
       keyNote:
-        "Portugal is more open than a pure no-publication or route-only model because U.Porto CEUP publishes opinion and recommendation folders and Coimbra CEIUC publishes annual activity reporting, while CEIC exposes clinical indicators and an evaluation-status page. Even so, no national searchable archive or recurring national summary reporting for general research-integrity cases was identified in this pass.",
+        "Portugal is more open than a pure no-publication or route-only model because U.Porto CEUP exposes public route and folder structures, Coimbra CEIUC publishes annual activity reporting, and CEIC exposes clinical indicators and an evaluation-status page. The 29 April 2026 quality pass confirmed that some U.Porto CEUP opinions may require authentication and that FCT transparency/reporting channels are administrative or funder-compliance routes rather than a national general research-integrity archive.",
       resources: [
         {
           label: "CNECV Recommendation 1/2018",
@@ -12378,14 +12494,34 @@ window.COUNTRY_DATA = [
             "Shows where concerns can be raised, but not published case outcomes",
           comment:
             "Useful because Portugal's visible public routes include provedoria or ombuds functions as well as committees."
+        },
+        {
+          label: "FCT transparency policies",
+          url: "https://www.fct.pt/en/sobre/politicas-de-transparencia/",
+          resourceClass: "Funder transparency and compliance route",
+          scope: "FCT transparency, ethics, reporting-channel, anti-fraud and access-to-documents routes",
+          caseLevelInfo:
+            "Administrative and funder-compliance visibility; no general scientific-misconduct case archive",
+          comment:
+            "Clarifies FCT's public compliance surface without changing the no-national-archive coding."
+        },
+        {
+          label: "U.Porto Code of Ethics 2026",
+          url: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf",
+          resourceClass: "Institutional code",
+          scope: "Current university-wide ethics and research-conduct baseline",
+          caseLevelInfo:
+            "Defines improper research and academic conduct and routes interpretive questions to CEUP; not a case archive",
+          comment:
+            "Current code baseline for Portugal's strongest institutional route."
         }
       ]
     },
     dossierDetails: {
       readingGuide:
-        "Read Portugal as a distributed research-integrity system. The strongest national elements are FCT as funder and science-policy actor, CNECV as national ethics advisory voice, and the CEIC/RNCES clinical-research ethics route. General research-integrity handling is much more institutional: universities, polytechnics and research centres build local codes, ethics committees, integrity roles, reporting routes, public opinion folders, annual activity reports and training.",
+        "Read Portugal as a distributed research-integrity system. The strongest national elements are FCT as funder and science-policy actor, CNECV as national ethics advisory voice, and the CEIC/RNCES clinical-research ethics route. General research-integrity handling is much more institutional: universities, polytechnics and research centres build local codes, ethics committees, integrity roles, reporting routes, public opinion folders, annual activity reports and training. The 29 April 2026 quality pass confirmed this against ENRIO, clarified FCT's public compliance/reporting-channel route, updated the U.Porto code baseline, and added P.PORTO-style polytechnic seeds for the next directory pass.",
       networkExtent:
-        "The Portuguese network starts with FCT funding conditions, FCT ethics/open-science policy and CNECV's 2018 Recommendation on integrity in scientific research. It runs through local ethics and integrity committees at institutions such as Coimbra, Porto, Minho, Catolica and CES, and becomes much more legally formal in clinical and biomedical research through CEIC, RNCES and health ethics committees. Public case or output visibility is strongest locally through U.Porto's CEUP opinion folders and Coimbra's CEIUC annual reporting, while CEIC adds a stronger clinical boundary-lane indicator stream. The network ends at adjacent boundary regimes for data protection, animal research, clinical-study authorisation, open access and research-data stewardship. No general national LOWI-like research-integrity board was found in this pass; that absence is itself an important coding point.",
+        "The Portuguese network starts with FCT funding conditions, FCT ethics/open-science policy, FCT transparency/reporting-channel routes and CNECV's 2018 Recommendation on integrity in scientific research. It runs through local ethics and integrity committees at institutions such as Coimbra, Porto, Minho, Catolica, CES and the polytechnic examples now seeded through P.PORTO, and becomes much more legally formal in clinical and biomedical research through CEIC, RNCES and health ethics committees. Public case or output visibility is strongest locally through U.Porto's CEUP route and folder structure, Coimbra's CEIUC annual reporting and polytechnic self-reporting seeds, while CEIC adds a stronger clinical boundary-lane indicator stream. The network ends at adjacent boundary regimes for data protection, animal research, clinical-study authorisation, open access and research-data stewardship. No general national LOWI-like research-integrity board was found in this pass; that absence is itself an important coding point.",
       systemMap: [
         {
           label: "National funder and science-policy route",
@@ -12444,9 +12580,9 @@ window.COUNTRY_DATA = [
       ],
       integrityCommittees: {
         summary:
-          "Portugal's committee landscape is best described as a layered network. FCT and CNECV provide national funder, policy and advisory reference points; CEIC and RNCES form the formal clinical-research ethics network; universities and research centres operate the general integrity and ethics routes. The strongest public general-integrity outputs found in this pilot are institutional, especially U.Porto CEUP's opinion folders and Coimbra CEIUC's annual reporting. The resulting structure is real and extensive, but not centred on one national general research-misconduct board.",
+          "Portugal's committee landscape is best described as a layered network. FCT and CNECV provide national funder, policy and advisory reference points; CEIC and RNCES form the formal clinical-research ethics network; universities, polytechnics and research centres operate the general integrity and ethics routes. The strongest public general-integrity outputs found so far are institutional, especially U.Porto CEUP's route and folder structure, Coimbra CEIUC's annual reporting and P.PORTO-style polytechnic self-reporting. The resulting structure is real and extensive, but not centred on one national general research-misconduct board.",
         methodology:
-          "This Portugal committee-and-case-file pilot starts from Overview Portugal.docx, confirms that the local Portugal raw-documentation folders still contain no saved Portugal source files, and refreshes the dossier against official or institutional sources from FCT, CNECV, CEIC, Diario da Republica, Universidade de Coimbra, Universidade do Porto, Universidade do Minho, Universidade Catolica Portuguesa, Centro de Estudos Sociais, DGAV, CNPD, CRUP and CCISP. The key refinement from this pass is that institutional opinion folders and annual committee reports materially strengthen Portugal's transparency reading even though the national layer remains advisory and no general national archive was found.",
+          "This Portugal committee-and-case-file pilot starts from Overview Portugal.docx, confirms that the local Portugal raw-documentation folders still contain no saved Portugal source files, and refreshes the dossier against official or institutional sources from FCT, CNECV, CEIC, Diario da Republica, Universidade de Coimbra, Universidade do Porto, Universidade do Minho, Universidade Catolica Portuguesa, Centro de Estudos Sociais, DGAV, CNPD, CRUP and CCISP. The 29 April 2026 quality pass added ENRIO as a secondary check, FCT transparency and complaints-channel sources, the current FCT R&D regulation index, U.Porto's current Commission of Ethics portal and 2026 Code of Ethics, a CEUP authentication caveat for opinions, and P.PORTO/inED/IPB polytechnic seeds. The key refinement is that Portugal has stronger institutional and funder route evidence without a national general case archive.",
         groups: [
           {
             title: "National funder, advisory and sector layer",
@@ -12488,11 +12624,32 @@ window.COUNTRY_DATA = [
                     url:
                       "https://www.fct.pt/wp-content/uploads/2024/11/Regulation-for-Projects-Funded-Exclusively-by-National-Funds.pdf",
                     note: "Funding terms are a practical integrity lever because beneficiaries must carry out research ethically and responsibly."
+                  },
+                  {
+                    label: "FCT transparency policies",
+                    type: "Funder transparency and compliance page",
+                    date: "Updated 7 November 2024",
+                    url: "https://www.fct.pt/en/sobre/politicas-de-transparencia/",
+                    note: "Current public surface for transparency, ethics and conduct, reporting channels, anti-fraud, risk prevention and access-to-documents routes."
+                  },
+                  {
+                    label: "FCT complaints channel FAQ",
+                    type: "Reporting-channel guidance",
+                    date: "Updated 10 February 2025",
+                    url: "https://www.fct.pt/en/faq/canal-de-denuncias-rgpdi/denuncias/",
+                    note: "Clarifies that the FCT channel is a written whistleblowing route under the RGPDI and that complaints about higher-education institutions should go to IGEC."
+                  },
+                  {
+                    label: "FCT R&D projects regulation index",
+                    type: "Funding regulation index",
+                    date: "Updated 7 January 2026",
+                    url: "https://www.fct.pt/en/financiamento/programas-de-financiamento/projetos-id/",
+                    note: "Current FCT index for R&D project regulations, including the national-funds project regulation."
                   }
                 ],
                 signals: [
                   "FCT is the national funder and policy gateway, but the evidence does not show FCT acting as a general national misconduct tribunal.",
-                  "The funder route matters for sanctions, grant eligibility, project obligations and responsible-research language.",
+                  "The funder route matters for sanctions, grant eligibility, project obligations, responsible-research language and administrative reporting-channel triage.",
                   "FCT also anchors prevention infrastructure through open access, open science and research-data management."
                 ]
               },
@@ -12546,7 +12703,7 @@ window.COUNTRY_DATA = [
                 ],
                 signals: [
                   "For a final exhaustive sweep, CRUP and CCISP provide the institutional universe to check.",
-                  "The current Portugal dossier has strong university and research-centre examples, but the polytechnic layer still needs a systematic pass.",
+                  "The 29 April 2026 pass added P.PORTO, inED and IPB as polytechnic seeds, but the polytechnic layer still needs a systematic CCISP-wide pass.",
                   "Sector-body sources should be used as discovery tools, not as substitute evidence for local procedures."
                 ]
               },
@@ -12569,6 +12726,13 @@ window.COUNTRY_DATA = [
                     type: "Local synthesis",
                     path: "data/Portugal/Overview Portugal.docx",
                     note: "The overview similarly reports no LOWI-like or Danish-board-like national general RI body in the first sweep."
+                  },
+                  {
+                    label: "ENRIO Portugal country report",
+                    type: "Secondary comparison",
+                    date: "Last update May 2019",
+                    url: "https://www.enrio.eu/country-reports/portugal/",
+                    note: "ENRIO reports no national research-integrity structure and institutional/ad hoc case handling, supporting the current distributed-system coding."
                   }
                 ],
                 signals: [
@@ -12742,6 +12906,27 @@ window.COUNTRY_DATA = [
                     note: "Public entry point for ethics, academic and scientific integrity materials."
                   },
                   {
+                    label: "U.Porto Commission of Ethics current portal",
+                    type: "Institutional committee portal",
+                    date: "2026",
+                    url: "https://www.up.pt/portal/pt/conhecer/organizacao/comissao-de-etica/",
+                    note: "Current portal confirms CEUP's university-wide mission, monthly plenary work, subcommissions and responsibility for defining and applying the U.Porto Code of Ethics."
+                  },
+                  {
+                    label: "U.Porto Code of Ethics 2026",
+                    type: "Institutional code",
+                    date: "2026",
+                    url: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf",
+                    note: "Current code baseline for U.Porto, including research-conduct duties, conflict-of-interest rules, improper conduct, AI-use wording and CEUP interpretation route."
+                  },
+                  {
+                    label: "U.Porto CEUP code-revision working file",
+                    type: "Access caveat source",
+                    date: "2025",
+                    url: "https://sigarra.up.pt/up/pt/legislacao_geral.legislacao_ver_ficheiro?pct_codigo=1&pct_gdoc_id=3251719&pct_nr_id=49612",
+                    note: "Important caveat: this file lists CEUP opinions as requiring authentication, so CEUP should be coded as public route/folder visibility plus access-limited opinion material."
+                  },
+                  {
                     label: "FMUP report on scientific integrity",
                     type: "Faculty-level integrity report",
                     url: "https://med.up.pt/wp-content/uploads/2023/11/Relato%CC%81rio_Integridade.pdf",
@@ -12750,8 +12935,8 @@ window.COUNTRY_DATA = [
                 ],
                 signals: [
                   "Porto shows a broad institutional prevention and governance bundle rather than only one committee.",
-                  "CEUP's public opinion and recommendation folders make Porto the strongest Portuguese example of a general-integrity publication lane.",
-                  "The public archive of ethics opinions/recommendations is relevant for transparency coding.",
+                  "CEUP's route and folder visibility make Porto the strongest Portuguese example of a general-integrity publication lane, but the 2025 code-revision file says some CEUP opinions require authentication.",
+                  "For transparency coding, distinguish the public CEUP portal/folder structure, recommendations, authenticated opinions and any fully public PDFs.",
                   "Data protection and plagiarism tools sit inside the practical integrity environment."
                 ]
               },
@@ -12855,6 +13040,35 @@ window.COUNTRY_DATA = [
                   "CES is useful because it shows the research-centre layer, not only universities.",
                   "The Provedoria route is a concrete ombuds-like mechanism to track in other Portuguese institutions.",
                   "For coding, distinguish ethics review from complaint handling even when both are visible in one institution."
+                ]
+              },
+              {
+                institution: "Politecnico do Porto (P.PORTO)",
+                committee: "P.PORTO Ethics Committee and school-level research ethics routes",
+                category: "Polytechnic ethics and integrity seed",
+                scope:
+                  "Institution-wide ethics committee and school/research-centre ethics routes covering research integrity, plagiarism, sanctions, complaints and human/animal/environmental research ethics in relevant units.",
+                website: "https://www.ipp.pt/sobre/apresentacao/planos-relatorios/AINSTPT.pdf",
+                documents: [
+                  {
+                    label: "P.PORTO institutional self-assessment",
+                    type: "Polytechnic integrity and committee source",
+                    date: "2017-2022 period; crawled 2026",
+                    url: "https://www.ipp.pt/sobre/apresentacao/planos-relatorios/AINSTPT.pdf",
+                    note: "Describes the P.PORTO Ethics Committee, scientific-integrity threats, complaint analysis, plagiarism tools and sanctions, plus school-level ethics structures."
+                  },
+                  {
+                    label: "inED Ethics Committee",
+                    type: "Research-centre ethics committee",
+                    date: "Committee constituted May 2019",
+                    url: "https://ined.ese.ipp.pt/pt/comissao-de-etica",
+                    note: "Research-centre example at the Escola Superior de Educacao do Politecnico do Porto, including opinion-request process and favourable/conditioned/unfavourable opinion categories."
+                  }
+                ],
+                signals: [
+                  "This seed improves the polytechnic layer but does not complete it.",
+                  "P.PORTO is useful because it explicitly names research-integrity threats and sanctions in a polytechnic institutional self-assessment.",
+                  "The inED route shows that polytechnic research centres may have their own committee procedures and opinion categories."
                 ]
               }
             ]
@@ -12988,7 +13202,7 @@ window.COUNTRY_DATA = [
           label: "Institutional committee and code sources",
           purpose:
             "Map how general ethics and integrity are implemented inside universities and research centres.",
-          examples: "Coimbra CEIUC regulation, U.Porto ethics/integrity materials, UMinho Code, UCP policy, CES ethics committee.",
+          examples: "Coimbra CEIUC regulation, U.Porto ethics/integrity materials and 2026 Code, UMinho Code, UCP policy, CES ethics committee, P.PORTO and inED polytechnic seeds.",
           startsAt: "Institutional research governance.",
           endsAt: "Local advice, approval, procedure, training, complaint route or disciplinary referral."
         },
@@ -13048,10 +13262,23 @@ window.COUNTRY_DATA = [
                   date: "2023",
                   url:
                     "https://former.fct.pt/esp_inteligente/docs/Modelo%20de%20Governa%C3%A7%C3%A3o/5.%20Programa%20de%20Cumprimento%20Normativo/C%C3%B3digo%20de%20%C3%89tica%20e%20Conduta.pdf"
+                },
+                {
+                  label: "FCT transparency policies",
+                  type: "Transparency and compliance source",
+                  date: "Updated 7 November 2024",
+                  url: "https://www.fct.pt/en/sobre/politicas-de-transparencia/"
+                },
+                {
+                  label: "FCT complaints channel FAQ",
+                  type: "Reporting-channel source",
+                  date: "Updated 10 February 2025",
+                  url: "https://www.fct.pt/en/faq/canal-de-denuncias-rgpdi/denuncias/"
                 }
               ],
               signals: [
                 "Funder compliance route.",
+                "Public transparency and reporting-channel route, but not a scientific-misconduct archive.",
                 "Open science and data-management prevention route.",
                 "No general national misconduct-board function identified."
               ]
@@ -13067,6 +13294,12 @@ window.COUNTRY_DATA = [
                   type: "Funding regulation",
                   url:
                     "https://www.fct.pt/wp-content/uploads/2024/11/Regulation-for-Projects-Funded-Exclusively-by-National-Funds.pdf"
+                },
+                {
+                  label: "FCT R&D projects regulation index",
+                  type: "Current regulation index",
+                  date: "Updated 7 January 2026",
+                  url: "https://www.fct.pt/en/financiamento/programas-de-financiamento/projetos-id/"
                 },
                 {
                   label: "Scientific employment regulation",
@@ -13184,17 +13417,56 @@ window.COUNTRY_DATA = [
               name: "Universidade do Porto",
               category: "University integrity infrastructure",
               role:
-                "Institutional ethics and integrity materials, recommendations, data-protection support, plagiarism tools and training.",
+                "Institutional ethics committee route, current code baseline, recommendations, data-protection support, plagiarism tools and training.",
               documents: [
                 {
                   label: "U.Porto ethics and integrity page",
                   type: "Institutional portal",
                   url: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=1006588"
+                },
+                {
+                  label: "U.Porto Commission of Ethics current portal",
+                  type: "Institutional committee portal",
+                  date: "2026",
+                  url: "https://www.up.pt/portal/pt/conhecer/organizacao/comissao-de-etica/"
+                },
+                {
+                  label: "U.Porto Code of Ethics 2026",
+                  type: "Institutional code",
+                  date: "2026",
+                  url: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf"
                 }
               ],
               signals: [
                 "Broad prevention and guidance infrastructure.",
-                "Useful for transparency coding because of opinion/recommendation traces."
+                "Useful for transparency coding because of opinion/recommendation traces, but CEUP opinion access should be separated into public and authenticated material."
+              ]
+            },
+            {
+              name: "P.PORTO and polytechnic ethics seeds",
+              category: "Polytechnic integrity route",
+              role:
+                "Institutional and school-level polytechnic examples for ethics committees, research-integrity threats, complaint handling, plagiarism tools and opinion procedures.",
+              documents: [
+                {
+                  label: "P.PORTO institutional self-assessment",
+                  type: "Polytechnic integrity source",
+                  url: "https://www.ipp.pt/sobre/apresentacao/planos-relatorios/AINSTPT.pdf"
+                },
+                {
+                  label: "inED Ethics Committee",
+                  type: "Research-centre ethics committee",
+                  url: "https://ined.ese.ipp.pt/pt/comissao-de-etica"
+                },
+                {
+                  label: "IPB Ethics Committee",
+                  type: "Polytechnic committee source",
+                  url: "https://portalold.ipb.pt/index.php/pt/ipb/quem-somos/ipb/comissao-de-etica/missao"
+                }
+              ],
+              signals: [
+                "Polytechnic layer now has route seeds but still needs a systematic pass.",
+                "Useful for testing whether non-university institutions publish committee reports or only procedure pages."
               ]
             },
             {
@@ -13527,14 +13799,14 @@ window.COUNTRY_DATA = [
           sourceUrl: "https://fa.lisboa.ucp.pt/pt-pt/politica-de-integridade-academica-e-cientifica"
         },
         {
-          date: "2025",
-          title: "U.Porto revises its Code of Ethics through CEUP",
+          date: "6 October 2025",
+          title: "U.Porto issues the current Code of Ethics through CEUP work",
           type: "Institutional ethics code revision",
           actors: "Universidade do Porto; CEUP",
           importance:
-            "The CEUP page records that the committee revised U.Porto's Code of Ethics in 2025, showing that the same body producing public opinions also shapes university-wide ethics rules.",
-          source: "U.Porto CEUP page",
-          sourceUrl: "https://sigarra.up.pt/up/pt/p/como%20funciona%20a%20universidade%20do%20porto%3A%20comiss%C3%A3o%20de%20%C3%A9tica"
+            "The current code supplies a fresh institutional baseline for research and academic conduct, including plagiarism, fabrication, falsification, AI misuse, conflicts of interest and CEUP interpretation.",
+          source: "U.Porto Code of Ethics 2026",
+          sourceUrl: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf"
         },
         {
           date: "2025",
@@ -13578,6 +13850,26 @@ window.COUNTRY_DATA = [
           source: "FCT Re.Data source",
           sourceUrl:
             "https://www.fct.pt/rede-nacional-de-gestao-de-dados-de-investigacao-consolida-ecossistema-de-dados-abertos-em-portugal/"
+        },
+        {
+          date: "7 January 2026",
+          title: "FCT R&D projects page exposes current regulation index",
+          type: "Funder regulation index",
+          actors: "FCT",
+          importance:
+            "The current FCT R&D projects page provides the live index for project-funding regulations and is the best durable route for future checks of funder compliance terms.",
+          source: "FCT R&D projects regulation index",
+          sourceUrl: "https://www.fct.pt/en/financiamento/programas-de-financiamento/projetos-id/"
+        },
+        {
+          date: "29 April 2026",
+          title: "Portugal quality-consolidation pass confirms distributed coding",
+          type: "Quality-consolidation pass",
+          actors: "FCT; ENRIO; U.Porto; P.PORTO; Coimbra CEIUC; CEIC",
+          importance:
+            "The pass adds ENRIO comparison, FCT transparency and reporting-channel routes, U.Porto current-code and access caveats, and polytechnic directory seeds while preserving the no-national-archive coding.",
+          source: "Portugal deep-dive sources note",
+          sourceUrl: "https://www.enrio.eu/country-reports/portugal/"
         }
       ],
       sourceLinks: [
@@ -13600,6 +13892,24 @@ window.COUNTRY_DATA = [
             "https://former.fct.pt/esp_inteligente/docs/Modelo%20de%20Governa%C3%A7%C3%A3o/5.%20Programa%20de%20Cumprimento%20Normativo/C%C3%B3digo%20de%20%C3%89tica%20e%20Conduta.pdf"
         },
         {
+          label: "FCT transparency policies",
+          type: "Funder transparency and compliance source",
+          date: "Updated 7 November 2024",
+          url: "https://www.fct.pt/en/sobre/politicas-de-transparencia/"
+        },
+        {
+          label: "FCT complaints channel FAQ",
+          type: "Funder reporting-channel source",
+          date: "Updated 10 February 2025",
+          url: "https://www.fct.pt/en/faq/canal-de-denuncias-rgpdi/denuncias/"
+        },
+        {
+          label: "FCT R&D projects regulation index",
+          type: "Funder regulation index",
+          date: "Updated 7 January 2026",
+          url: "https://www.fct.pt/en/financiamento/programas-de-financiamento/projetos-id/"
+        },
+        {
           label: "FCT open access policy",
           type: "Open science policy",
           url:
@@ -13616,6 +13926,12 @@ window.COUNTRY_DATA = [
           type: "National integrity recommendation",
           date: "2018",
           url: "https://www.cnecv.pt/pt/deliberacoes/recomendacoes/integridade-na-investigacao"
+        },
+        {
+          label: "ENRIO Portugal country report",
+          type: "Secondary comparison source",
+          date: "Last update May 2019",
+          url: "https://www.enrio.eu/country-reports/portugal/"
         },
         {
           label: "CEIC mission page",
@@ -13659,6 +13975,24 @@ window.COUNTRY_DATA = [
           url: "https://sigarra.up.pt/up/pt/conteudos_geral.ver?pct_grupo=1200&pct_pag_id=1001669&pct_parametros=p_pagina%3D1001669"
         },
         {
+          label: "U.Porto Commission of Ethics current portal",
+          type: "Institutional committee portal",
+          date: "2026",
+          url: "https://www.up.pt/portal/pt/conhecer/organizacao/comissao-de-etica/"
+        },
+        {
+          label: "U.Porto Code of Ethics 2026",
+          type: "Institutional code",
+          date: "Version 6 October 2025",
+          url: "https://www.up.pt/portal/documents/2090/Codigo_Etica_2026.pdf"
+        },
+        {
+          label: "U.Porto CEUP code-revision working file",
+          type: "Access caveat source",
+          date: "2025",
+          url: "https://sigarra.up.pt/up/pt/legislacao_geral.legislacao_ver_ficheiro?pct_codigo=1&pct_gdoc_id=3251719&pct_nr_id=49612"
+        },
+        {
           label: "CEIUC 2024 activity report",
           type: "Institutional committee annual report",
           url: "https://www.uc.pt/site/assets/files/2074568/relatorio_ceiuc_2024.pdf"
@@ -13693,6 +14027,21 @@ window.COUNTRY_DATA = [
           label: "Centro de Estudos Sociais Provedoria",
           type: "Ombuds/provedor source",
           url: "https://ces.uc.pt/pt/ces/sobre-o-ces/provedoria"
+        },
+        {
+          label: "P.PORTO institutional self-assessment",
+          type: "Polytechnic integrity source",
+          url: "https://www.ipp.pt/sobre/apresentacao/planos-relatorios/AINSTPT.pdf"
+        },
+        {
+          label: "inED Ethics Committee",
+          type: "Polytechnic research-centre ethics source",
+          url: "https://ined.ese.ipp.pt/pt/comissao-de-etica"
+        },
+        {
+          label: "IPB Ethics Committee",
+          type: "Polytechnic committee source",
+          url: "https://portalold.ipb.pt/index.php/pt/ipb/quem-somos/ipb/comissao-de-etica/missao"
         },
         {
           label: "DGAV animals for scientific purposes",
@@ -40367,11 +40716,12 @@ window.COUNTRY_DATA = [
       "The strongest current public case-publication route is the DFG scientific-misconduct press-release list, which is a stable funder-jurisdiction case page rather than a whole-country decision database.",
       "OWID annual reports are the best national ombuds transparency source, but they remain aggregate and confidential rather than case-file publication.",
       "Institutional annual reports can expose useful local statistics: Freie Universitat Berlin's 2025 GWP report and Gottingen's Ombudsstelle report show local case categories and advice volumes without publishing full files.",
+      "The 29 April 2026 quality pass widened the annual-report and Land-implementation seed with Gottingen's 2025 annual report, Jena, TU Berlin and Mainz, and added Fraunhofer IPK/FOKUS plus Max Planck procedure sources to the research-organization directory.",
       "Shared ombuds routes are emerging inside the institutional layer, such as the 2025 Berlin higher-education shared ombuds office, but degree-withdrawal and many formal consequences remain with the individual institution.",
       "Clinical, animal, data, security-relevant and export-control rules are essential adjacent regimes and should not be collapsed into general misconduct handling."
     ],
     nextFocus:
-      "Committee-and-case-file pilot completed. Next build a wider institutional annual-report directory beyond Freie Universitat Berlin and Gottingen, add more Land-level implementation examples, deepen Fraunhofer and Max Planck institute routes, and keep the DFG press-release list separate from OWID annual reporting and confidential institutional procedures.",
+      "Committee-and-case-file pilot and first quality-consolidation pass completed. Next bulk-index the DFG press-release list, OWID annual reports, FU Berlin and Gottingen annual-report fields, then widen the annual-report search beyond those two institutions and deepen Max Planck institute, Helmholtz center and university medical-center examples.",
     documents: [
       {
         label: "Overview Germany.docx",
@@ -40452,9 +40802,9 @@ window.COUNTRY_DATA = [
         "Stable DFG press-release list for selected funder-jurisdiction cases, OWID aggregate annual reporting, and scattered institutional annual-report or procedure evidence rather than a consolidated national decision database.",
       format:
         "Official law portals, official websites, annual-report PDFs, procedure PDFs, curated press-release list, individual press releases and university regulations",
-      sourceDate: "2026-04-23",
+      sourceDate: "2026-04-29",
       keyNote:
-        "Germany's public case visibility is a ladder, not a database: the DFG press-release list is the clearest durable case-publication page, OWID annual reports give national aggregate ombuds reporting, and selected institutions publish annual statistics. None of these covers all German research-integrity handling.",
+        "Germany's public case visibility is a ladder, not a database: the DFG press-release list is the clearest durable case-publication page, OWID annual reports give national aggregate ombuds reporting, and selected institutions publish annual statistics. The 29 April 2026 quality pass added Gottingen's 2025 annual-report route, a Land-diverse procedure seed and deeper Fraunhofer/Max Planck research-organization routes. None of these covers all German research-integrity handling.",
       resources: [
         {
           label: "DFG press releases on scientific misconduct",
@@ -40517,14 +40867,14 @@ window.COUNTRY_DATA = [
             "Strong example of local annual-report transparency within the German distributed system."
         },
         {
-          label: "Gottingen Ombudsstelle annual report 2022",
-          url: "https://www.uni-goettingen.de/de/document/download/3ba377e4018c26c9fdd656f5703f69fa.pdf/Jahresbericht%20Ombudsstelle_2022_final.pdf",
-          resourceClass: "Institutional annual report",
+          label: "Gottingen Ombudsstelle annual reports and 2025 report",
+          url: "https://www.uni-goettingen.de/de/gute-wissenschaftliche-praxis--ombudsangelegenheiten-/223832.html",
+          resourceClass: "Institutional annual report hub",
           scope: "University of Gottingen ombuds office",
           caseLevelInfo:
-            "Narrative annual report with anonymized issue categories and reflections, not full decisions",
+            "Current page links the 2025 annual report and a multi-year reporting sequence; reports include ombuds advice, GWP conflict and investigation-commission sections rather than full decisions",
           comment:
-            "Shows that German local ombuds offices may publish annual summaries even when case files remain confidential."
+            "Shows that German local ombuds offices may publish recurring annual summaries even when case files remain confidential."
         },
         {
           label: "Berlin higher education shared ombuds office",
@@ -40540,7 +40890,7 @@ window.COUNTRY_DATA = [
     },
     dossierDetails: {
       readingGuide:
-        "Read Germany as a federal and strongly self-regulatory system with one clear national minimum but no single national tribunal for all cases. Article 5(3) of the Basic Law protects research freedom. DFG then turns good scientific practice into a practical national threshold because institutions must implement the 2019 code in legally binding form if they want DFG funding, and the implementation must rest on sufficient Land-law foundations. OWID offers a confidential nationwide ombuds route, while DFG operates its own inquiry and sanction procedure for DFG-related cases. Universities, university medical centers and the major non-university organizations remain decisive first-line or organization-level actors. Clinical trials, medical devices, animal research, data protection, research-data stewardship, security-relevant research and export control are visible boundary regimes and should not be merged into one misconduct chain.",
+        "Read Germany as a federal and strongly self-regulatory system with one clear national minimum but no single national tribunal for all cases. Article 5(3) of the Basic Law protects research freedom. DFG then turns good scientific practice into a practical national threshold because institutions must implement the 2019 code in legally binding form if they want DFG funding, and the implementation must rest on sufficient Land-law foundations. OWID offers a confidential nationwide ombuds route, while DFG operates its own inquiry and sanction procedure for DFG-related cases. Universities, university medical centers and the major non-university organizations remain decisive first-line or organization-level actors. The 29 April 2026 quality pass confirms this model and strengthens the directory layer rather than changing the system type. Clinical trials, medical devices, animal research, data protection, research-data stewardship, security-relevant research and export control are visible boundary regimes and should not be merged into one misconduct chain.",
       networkExtent:
         "The German network starts with the constitutional freedom of research, DFG's code and implementation rule, OWID, HRK and Wissenschaftsrat. It travels through university ombudspersons and ethics offices, the four big non-university research organizations, funder procedures and specialist federal authorities. It ends where the problem becomes employment discipline, a Land-level ethics approval question, clinical authorization, animal-testing permission, data-protection supervision, research-data stewardship, or export-control compliance rather than general research-integrity handling.",
       systemMap: [
@@ -40838,7 +41188,7 @@ window.COUNTRY_DATA = [
         {
           title: "Universities and university medicine",
           summary:
-            "Most practical German integrity handling remains local. Universities and university medical centers publish ombudspersons, offices, statutes, faculty ethics routes and advisory structures with uneven degrees of detail.",
+            "Most practical German integrity handling remains local. Universities and university medical centers publish ombudspersons, offices, statutes, faculty ethics routes, annual-report corridors and advisory structures with uneven degrees of detail.",
           actors: [
             {
               name: "Technical University of Munich",
@@ -40933,6 +41283,48 @@ window.COUNTRY_DATA = [
                 "Important reminder that research ethics review is adjacent to, but not identical with, misconduct handling.",
                 "German faculty routes often integrate European and data-protection standards directly."
               ]
+            },
+            {
+              name: "Expanded Land-diverse implementation seed",
+              category: "Institutional procedure and annual-report directory",
+              since: "Quality pass added 29 April 2026",
+              scope:
+                "Selected university routes across Lower Saxony, Berlin, Thuringia and Rhineland-Palatinate",
+              role:
+                "The quality pass adds a seed set for later structured extraction: Gottingen's 2025 ombuds annual report, Jena's ombudsperson and Commission for Good Scientific Practice route, TU Berlin's principles for safeguarding good scientific practice, and Mainz's GWP order. These examples strengthen the Land-diverse implementation sample while showing that publication depth varies from annual reports to procedure-only routes.",
+              documents: [
+                {
+                  label: "Gottingen GWP ombuds page",
+                  type: "Official university page",
+                  url: "https://www.uni-goettingen.de/de/gute-wissenschaftliche-praxis--ombudsangelegenheiten-/223832.html"
+                },
+                {
+                  label: "Gottingen annual report 2025",
+                  type: "Official university PDF",
+                  date: "2025",
+                  url: "https://www.uni-goettingen.de/de/document/download/e503a3bed84435c6ab9161a13034fc64.pdf/OGWP-Bericht_2025_Layout.pdf"
+                },
+                {
+                  label: "Jena good scientific practice",
+                  type: "Official university page",
+                  url: "https://www.uni-jena.de/1050/gute-wissenschaftliche-praxis"
+                },
+                {
+                  label: "TU Berlin principles for good scientific practice",
+                  type: "Official university page",
+                  url: "https://www.tu.berlin/ueber-die-tu-berlin/organisation/rechtliches/richtlinien-leitlinien/grundsaetze-zur-sicherung-guter-wissenschaftlicher-praxis"
+                },
+                {
+                  label: "Mainz GWP order",
+                  type: "Official university page",
+                  url: "https://gwp.uni-mainz.de/jgu-ordnung-zur-sicherung-gwp/"
+                }
+              ],
+              signals: [
+                "Gottingen now has a current 2025 annual-report source and a multi-year reporting sequence.",
+                "Jena, TU Berlin and Mainz are procedure/statute routes rather than public case-file archives.",
+                "These examples improve Land coverage but still need structured indexing by final decision-maker, confidentiality wording and public-output depth."
+              ]
             }
           ]
         },
@@ -40992,7 +41384,7 @@ window.COUNTRY_DATA = [
               scope:
                 "Institute- and society-level ombudsperson systems and organization policies",
               role:
-                "Max Planck's pages state that each institute and facility should have an ombudsperson and deputy, with additional section-level ombudspersons. Fraunhofer's policy PDF shows a society-wide implementation framework for good scientific practice. Together they show how major German organizations internalize the national code through their own governance structures.",
+                "Max Planck's pages state that each institute and facility should have an ombudsperson and deputy, with additional section-level ombudspersons and a society-level procedure for suspected misconduct. Fraunhofer's policy PDF shows a society-wide implementation framework, while IPK and FOKUS show institute-level ombudsperson routes. Together they show how major German organizations internalize the national code through their own governance structures.",
               documents: [
                 {
                   label: "Max Planck ombudspersons page",
@@ -41005,14 +41397,31 @@ window.COUNTRY_DATA = [
                   url: "https://www.mpg.de/1159742/ombubsperson-guidelines.pdf"
                 },
                 {
+                  label: "Max Planck rules and procedure",
+                  type: "Official organization PDF",
+                  date: "24 June 2021",
+                  url: "https://www.mpg.de/199493/regeln-zur-sicherung-guter-wissenschaftlicher-praxis-und-verfahrensordnung-bei-verdacht-auf-wissenschaftliches-fehlverhalten.pdf"
+                },
+                {
                   label: "Fraunhofer policy on good scientific practice",
                   type: "Official organization PDF",
                   url: "https://www.fraunhofer.de/content/dam/zv/de/ueber-fraunhofer/corporate-responsibility/fraunhofer-policy-zur-umsetzung-guter-wissenschaftlicher-praxis.pdf"
+                },
+                {
+                  label: "Fraunhofer IPK scientific integrity",
+                  type: "Official institute page",
+                  url: "https://www.ipk.fraunhofer.de/en/about-us/scientific-integrity.html"
+                },
+                {
+                  label: "Fraunhofer FOKUS ombudsperson",
+                  type: "Official institute page",
+                  url: "https://www.fokus.fraunhofer.de/en/fokus/organisation/ombudsperson-science.html"
                 }
               ],
               signals: [
                 "The German network extends deeply into non-university research organizations.",
-                "A representative Fraunhofer institute route is now visible through IZM, but a broader institute-level sweep remains a follow-up task."
+                "Fraunhofer institute-level routes are now visible through IZM, IPK and FOKUS, but a broader institute-level sweep remains a follow-up task.",
+                "Max Planck's central page links both ombudsperson appointment guidelines and the formal suspected-misconduct procedure."
               ]
             }
           ]
@@ -41121,7 +41530,7 @@ window.COUNTRY_DATA = [
         summary:
           "This directory maps the clearest public Germany routes for ombuds, inquiry and research-ethics handling. Because the system is distributed, it combines national bodies, institutional first-contact routes, organization-wide ombuds structures and specialist approval paths rather than pretending every issue goes to one committee.",
         methodology:
-          "Entries are included where an official page, statute or procedural document clearly exposes a route. Some routes are true misconduct bodies, some are ombuds or ethics-review bodies, and some are specialist boundary committees. That mix is deliberate because Germany's public architecture is functionally distributed.",
+          "Entries are included where an official page, statute, annual report or procedural document clearly exposes a route. Some routes are true misconduct bodies, some are ombuds or ethics-review bodies, some are Land-diverse implementation examples, and some are specialist boundary committees. That mix is deliberate because Germany's public architecture is functionally distributed.",
         groups: [
           {
             title: "National ombuds and DFG inquiry routes",
@@ -41349,20 +41758,61 @@ window.COUNTRY_DATA = [
                 status: "Institutional annual-report route found",
                 scope:
                   "University-wide ombuds advice and suspected misconduct/conflict handling",
-                since: "2022 annual report located",
+                since: "2025 annual report sequence located",
                 route:
-                  "The ombuds office annual report provides narrative local transparency on consultations, suspected misconduct categories and GWP issues, while preserving confidentiality around individual files.",
+                  "The ombuds office annual reports provide recurring local transparency on consultations, suspected misconduct categories, ombuds activity, investigation-commission sections and preventive work, while preserving confidentiality around individual files. The 2025 report is now the current seed source.",
                 links: [
                   {
-                    label: "Gottingen Ombudsstelle annual report 2022",
+                    label: "Gottingen GWP ombuds page",
+                    type: "Institutional hub",
+                    url: "https://www.uni-goettingen.de/de/gute-wissenschaftliche-praxis--ombudsangelegenheiten-/223832.html",
+                    note: "Current hub with annual-report and 2026 local-order signals."
+                  },
+                  {
+                    label: "Gottingen Ombudsstelle annual report 2025",
                     type: "Institutional annual report PDF",
-                    url: "https://www.uni-goettingen.de/de/document/download/3ba377e4018c26c9fdd656f5703f69fa.pdf/Jahresbericht%20Ombudsstelle_2022_final.pdf",
-                    note: "Representative local ombuds annual report."
+                    url: "https://www.uni-goettingen.de/de/document/download/e503a3bed84435c6ab9161a13034fc64.pdf/OGWP-Bericht_2025_Layout.pdf",
+                    note: "Current annual report for the ombuds office, university ombuds committee and joint investigation commission."
                   }
                 ],
                 signals: [
                   "Institutional annual-report evidence.",
                   "Narrative and category-level transparency rather than full decisions."
+                ]
+              },
+              {
+                institution: "Expanded Land-diverse procedure seed",
+                committee: "Institutional ombudspersons, GWP commissions and procedure routes",
+                status: "Quality-pass seed directory",
+                scope:
+                  "Selected universities across Thuringia, Berlin and Rhineland-Palatinate, complementing existing Bavaria, Lower Saxony, North Rhine-Westphalia and Baden-Wurttemberg examples",
+                since: "Quality pass added 29 April 2026",
+                route:
+                  "Jena exposes ombudsperson preliminary review, formal investigation by a Commission for Good Scientific Practice and presidency-level measures. TU Berlin exposes ombudsperson appointment, confidentiality and exclusions for exam/promotion matters. Mainz exposes ombudsperson closure reports and escalation to the commission or presidency. These strengthen Land-diverse implementation coverage without creating a public case archive.",
+                links: [
+                  {
+                    label: "Jena good scientific practice",
+                    type: "Institutional route page",
+                    url: "https://www.uni-jena.de/1050/gute-wissenschaftliche-praxis",
+                    note: "Shows ombudspersons and formal Commission for Good Scientific Practice."
+                  },
+                  {
+                    label: "TU Berlin principles for good scientific practice",
+                    type: "Institutional statute page",
+                    url: "https://www.tu.berlin/ueber-die-tu-berlin/organisation/rechtliches/richtlinien-leitlinien/grundsaetze-zur-sicherung-guter-wissenschaftlicher-praxis",
+                    note: "Shows ombudsperson appointment, confidentiality and route boundaries."
+                  },
+                  {
+                    label: "Mainz GWP order",
+                    type: "Institutional statute page",
+                    url: "https://gwp.uni-mainz.de/jgu-ordnung-zur-sicherung-gwp/",
+                    note: "Shows ombudsperson closure reports and commission escalation."
+                  }
+                ],
+                signals: [
+                  "Improves Land-diverse implementation coverage.",
+                  "Procedure visibility is not the same as public case publication.",
+                  "A later pass should code final decision-maker and confidentiality wording across these routes."
                 ]
               },
               {
@@ -41489,7 +41939,7 @@ window.COUNTRY_DATA = [
                 scope: "Fraunhofer society and institutes",
                 since: "Current policy route",
                 route:
-                  "Fraunhofer publishes a society-wide policy on implementing good scientific practice. Institute-level pages such as Fraunhofer IZM show local ombudspersons who advise internal and external complainants on scientific integrity and suspected misconduct under strict confidentiality.",
+                  "Fraunhofer publishes a society-wide policy on implementing good scientific practice. Institute-level pages such as Fraunhofer IZM, IPK and FOKUS show local ombudspersons who advise internal and external complainants on scientific integrity and suspected misconduct under strict confidentiality.",
                 links: [
                   {
                     label: "Fraunhofer policy on implementing good scientific practice",
@@ -41502,11 +41952,23 @@ window.COUNTRY_DATA = [
                     type: "Institute ombuds page",
                     url: "https://www.izm.fraunhofer.de/en/institut/principles-of-good-scientific-practice.html",
                     note: "Representative institute-level route."
+                  },
+                  {
+                    label: "Fraunhofer IPK scientific integrity",
+                    type: "Institute ombuds page",
+                    url: "https://www.ipk.fraunhofer.de/en/about-us/scientific-integrity.html",
+                    note: "Confirms that each Fraunhofer institute appoints two ombudspersons and lists IPK tasks/contacts."
+                  },
+                  {
+                    label: "Fraunhofer FOKUS ombudsperson",
+                    type: "Institute ombuds page",
+                    url: "https://www.fokus.fraunhofer.de/en/fokus/organisation/ombudsperson-science.html",
+                    note: "Shows confidential local advice/support and external access for questions about Fraunhofer FOKUS scientific practice."
                   }
                 ],
                 signals: [
                   "Useful umbrella source",
-                  "Representative institute route found",
+                  "Multiple representative institute routes found",
                   "No public case archive identified"
                 ]
               }
@@ -41932,6 +42394,14 @@ window.COUNTRY_DATA = [
           url: "https://www.dfg.de/en/basics-topics/basics-and-principles-of-funding/good-research-practice"
         },
         {
+          label: "ENRIO Germany country report",
+          type: "Secondary comparison page",
+          date: "April 2024",
+          scope: "Germany research-integrity landscape comparison",
+          url: "https://www.enrio.eu/country-reports/germany/",
+          note: "Confirms national ombuds route, local ombudspersons, DFG jurisdiction-specific authority and non-university research-organization ombuds routes; use as secondary comparison, not current primary law."
+        },
+        {
           label: "Notes on implementation",
           type: "Official implementation page",
           url: "https://wissenschaftliche-integritaet.de/en/comments/notes-implementation/"
@@ -41955,6 +42425,13 @@ window.COUNTRY_DATA = [
           label: "OWID annual reports page",
           type: "Official OWID page",
           url: "https://ombudsgremium.de/category/ombudsman/jahresberichte/"
+        },
+        {
+          label: "OWID annual reports download page",
+          type: "Official OWID report hub",
+          scope: "National ombuds annual-report series",
+          url: "https://ombudsgremium.de/2030/owid-jahresberichte/",
+          note: "Current download page exposing the 2024 annual report and the historical report sequence."
         },
         {
           label: "OWID annual report 2024",
@@ -42054,6 +42531,13 @@ window.COUNTRY_DATA = [
           url: "https://www.mpg.de/1159742/ombubsperson-guidelines.pdf"
         },
         {
+          label: "Max Planck rules of good scientific practice and procedure",
+          type: "Official organization PDF",
+          date: "24 June 2021",
+          scope: "Rules and procedure in suspected misconduct cases",
+          url: "https://www.mpg.de/199493/regeln-zur-sicherung-guter-wissenschaftlicher-praxis-und-verfahrensordnung-bei-verdacht-auf-wissenschaftliches-fehlverhalten.pdf"
+        },
+        {
           label: "Fraunhofer policy on good scientific practice",
           type: "Official organization PDF",
           url: "https://www.fraunhofer.de/content/dam/zv/de/ueber-fraunhofer/corporate-responsibility/fraunhofer-policy-zur-umsetzung-guter-wissenschaftlicher-praxis.pdf"
@@ -42063,6 +42547,20 @@ window.COUNTRY_DATA = [
           type: "Official institute ombuds page",
           scope: "Fraunhofer institute-level ombuds route",
           url: "https://www.izm.fraunhofer.de/en/institut/principles-of-good-scientific-practice.html"
+        },
+        {
+          label: "Fraunhofer IPK scientific integrity",
+          type: "Official institute ombuds page",
+          scope: "Fraunhofer institute-level ombuds route",
+          url: "https://www.ipk.fraunhofer.de/en/about-us/scientific-integrity.html",
+          note: "Quality-pass source confirming two institute ombudspersons and local scientific-integrity tasks."
+        },
+        {
+          label: "Fraunhofer FOKUS ombudsperson for scientific integrity",
+          type: "Official institute ombuds page",
+          scope: "Fraunhofer institute-level ombuds route",
+          url: "https://www.fokus.fraunhofer.de/en/fokus/organisation/ombudsperson-science.html",
+          note: "Quality-pass source for confidential local advice/support and external access."
         },
         {
           label: "TUM compliance office",
@@ -42112,12 +42610,40 @@ window.COUNTRY_DATA = [
           note: "Shared route can examine suspected misconduct when a participating institution cannot do so itself."
         },
         {
-          label: "Gottingen Ombudsstelle annual report 2022",
+          label: "Gottingen GWP ombuds page",
+          type: "Official institutional hub",
+          scope: "University ombuds annual reporting and local GWP route",
+          url: "https://www.uni-goettingen.de/de/gute-wissenschaftliche-praxis--ombudsangelegenheiten-/223832.html",
+          note: "Quality-pass source for current annual-report route and 2026 GWP order revision signal."
+        },
+        {
+          label: "Gottingen Ombudsstelle annual report 2025",
           type: "Official institutional annual report PDF",
-          date: "2022",
+          date: "2025",
           scope: "University ombuds annual reporting",
-          url: "https://www.uni-goettingen.de/de/document/download/3ba377e4018c26c9fdd656f5703f69fa.pdf/Jahresbericht%20Ombudsstelle_2022_final.pdf",
-          note: "Narrative and category-level local ombuds transparency."
+          url: "https://www.uni-goettingen.de/de/document/download/e503a3bed84435c6ab9161a13034fc64.pdf/OGWP-Bericht_2025_Layout.pdf",
+          note: "Current report for the ombuds office, university ombuds committee and joint investigation commission."
+        },
+        {
+          label: "Jena good scientific practice",
+          type: "Official institutional procedure page",
+          scope: "Ombudspersons and Commission for Good Scientific Practice",
+          url: "https://www.uni-jena.de/1050/gute-wissenschaftliche-praxis",
+          note: "Quality-pass Land-diverse implementation example."
+        },
+        {
+          label: "TU Berlin principles for good scientific practice",
+          type: "Official institutional statute page",
+          scope: "Ombudsperson and confidentiality route",
+          url: "https://www.tu.berlin/ueber-die-tu-berlin/organisation/rechtliches/richtlinien-leitlinien/grundsaetze-zur-sicherung-guter-wissenschaftlicher-praxis",
+          note: "Quality-pass Land-diverse implementation example."
+        },
+        {
+          label: "Mainz GWP order",
+          type: "Official institutional statute page",
+          scope: "Ombudsperson, commission and presidency route",
+          url: "https://gwp.uni-mainz.de/jgu-ordnung-zur-sicherung-gwp/",
+          note: "Quality-pass Land-diverse implementation example."
         },
         {
           label: "University of Bonn good scientific practice",

@@ -20,7 +20,7 @@ The next phase is not another first-pass collection sprint. It is a quality-cons
 - All 40 deep dossiers have completed the committee-and-case-file workflow.
 - 9 countries have first expanded app dossiers but still need formal overview documents: Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino.
 - Vatican City remains a data-folder-only representation question.
-- `data/source-registry.csv` currently contains 1385 entries.
+- `data/source-registry.csv` currently contains 1413 entries.
 
 ## Target Standard
 
@@ -244,19 +244,19 @@ node --check assets/js/app.js
 
 ## Suggested Country Order
 
-The first calibration pass has been completed for the United Kingdom on 29 April 2026. Use that pass as the template: source-currency note, ENRIO status, main code baseline, route directory seed, funder matrix, boundary targets, stable app-data updates, source-registry additions and syntax checks.
+The first four calibration passes have been completed for the United Kingdom, Germany, France and Portugal on 29 April 2026. Use those passes as the template: source-currency note, ENRIO status, main code baseline, route directory seed, funder matrix, boundary targets, stable app-data updates, source-registry additions and syntax checks.
 
 Continue with high-yield calibration countries where a better quality pass will improve the whole method:
 
-1. Germany: institutional annual-report directory, Land examples, Fraunhofer/Max Planck
-2. France: institutional annual-report directory, Ofis/Inadis/CNRS retention and access
-3. Portugal: institutional opinion/annual-report widening and FCT route
-4. Greece: institutional annual reports and boundary-lane durability
-5. Poland: PAN, ministerial, local institutional and animal/clinical routes
-6. Ireland: NRIF statistics, public-RPO examples and NCI/MTU publication tests
-7. Latvia: UL decision indexing and wider institutional route checks
-8. Luxembourg: LARI report monitoring and LIH/LIST route verification
-9. North Macedonia: AQHE report/decision indexing and UKIM/SEEU self-evaluation expansion
+1. Greece: institutional annual reports and boundary-lane durability
+2. Poland: PAN, ministerial, local institutional and animal/clinical routes
+3. Ireland: NRIF statistics, public-RPO examples and NCI/MTU publication tests
+4. Latvia: UL decision indexing and wider institutional route checks
+5. Luxembourg: LARI report monitoring and LIH/LIST route verification
+6. North Macedonia: AQHE report/decision indexing and UKIM/SEEU self-evaluation expansion
+7. Portugal follow-up: U.Porto public/authenticated CEUP indexing, CEIUC annual-report series, FCT transparency/funding-route monitoring and CCISP-wide polytechnic expansion
+8. France follow-up: Ofis RIS annuaire and synthesis indexing, CNRS/MIS retention/request extraction, Inadis monitoring and wider institutional annual-report search
+9. Germany follow-up: DFG press-release indexing, OWID annual-report series, FU Berlin/Gottingen annual-report fields, wider annual-report search, Max Planck/Helmholtz and university medical-center examples
 10. United Kingdom follow-up: bulk annual-statement indexing, government/NHS/charity/independent research-organisation statements and AWERB examples
 
 Then move through the remaining deep dossiers, followed by the nine expanded overview dossiers.
