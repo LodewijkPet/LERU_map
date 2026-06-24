@@ -13,6 +13,7 @@
     gapList: document.getElementById("gap-list"),
     matrixBody: document.getElementById("matrix-body"),
     profileList: document.getElementById("profile-list"),
+    referenceList: document.getElementById("reference-list"),
     findingsList: document.getElementById("findings-list"),
     validationAgenda: document.getElementById("validation-agenda")
   };
@@ -149,12 +150,6 @@
 
   function getPublicOutputCategory(record) {
     return record.publicOutputCategory || "unclear";
-  }
-
-  function formatPublicOutputCategory(record) {
-    const category = getPublicOutputCategory(record);
-    const label = publicOutputCategoryLabels[category] || publicOutputCategoryLabels.unclear;
-    return record.publicOutputCategoryNote ? `${label}: ${record.publicOutputCategoryNote}` : label;
   }
 
   function getSummary() {
@@ -348,6 +343,78 @@
       .sort((a, b) => b.score - a.score)[0].source;
   }
 
+  function getCommitteeCodeSource(record) {
+    if (record.committeeCodeSource) {
+      return {
+        source: record.committeeCodeSource,
+        note: record.committeeCodeSource.note || "Committee- or institution-specific code source recorded for this profile."
+      };
+    }
+
+    const localCodePatterns = [
+      { pattern: /\bcode\b/, weight: 30 },
+      { pattern: /\bconduct\b/, weight: 30 },
+      { pattern: /good research practice/, weight: 30 },
+      { pattern: /good scientific practice/, weight: 30 },
+      { pattern: /responsible research/, weight: 30 },
+      { pattern: /research integrity framework/, weight: 25 },
+      { pattern: /integrity framework/, weight: 25 },
+      { pattern: /guidelines?/, weight: 20 },
+      { pattern: /policy/, weight: 20 },
+      { pattern: /regulation/, weight: 10 },
+      { pattern: /rules?/, weight: 10 }
+    ];
+    const rejectPatterns = [
+      /annual report/,
+      /annual statement/,
+      /statistics/,
+      /table/,
+      /news item/,
+      /case pdf/,
+      /training/,
+      /e-learning/,
+      /boundary/
+    ];
+    const localCodeSource = ensureArray(record.sourceLinks)
+      .filter((source) => {
+        const title = sourceTitleHaystack(source);
+        const labelType = sourceLabelTypeHaystack(source);
+        return (
+          localCodePatterns.some(({ pattern }) => patternMatchesText(pattern, title)) &&
+          !rejectPatterns.some((pattern) => patternMatchesText(pattern, labelType))
+        );
+      })
+      .map((source) => {
+        const title = sourceTitleHaystack(source);
+        const score = localCodePatterns.reduce(
+          (total, { pattern, weight }) => total + (patternMatchesText(pattern, title) ? weight : 0),
+          source.url ? 1 : 0
+        );
+        return { source, score };
+      })
+      .sort((a, b) => b.score - a.score)[0]?.source;
+
+    if (localCodeSource) {
+      return {
+        source: localCodeSource,
+        note: "This is the most specific public source in the profile that appears to state the code, policy, framework or conduct standard used by the local route."
+      };
+    }
+
+    if (record.countryCodeSource) {
+      return {
+        source: record.countryCodeSource,
+        note:
+          "No committee-specific code reference was identified in the recorded local sources; this is the national or contextual code baseline for the country."
+      };
+    }
+
+    return {
+      source: null,
+      note: ""
+    };
+  }
+
   function appendSourceLink(item, source) {
     if (source.url) {
       item.appendChild(createLink(source.label || source.url, source.url));
@@ -422,6 +489,7 @@
       [/case repository/, /public decisions?/, /case pdf/, /case publication/, /case-publication/, /advice and final judgments/, /anonymized investigation reports/, /statement summaries/, /recommendation/, /decision archive/],
       [/repository/, /public decisions?/, /archive/, /judgments/, /table/, /summaries/]
     );
+    const committeeCode = getCommitteeCodeSource(record);
     const countryDossierSource = record.countryDossierLink
       ? {
           label: "Full country dossier in main map",
@@ -459,6 +527,13 @@
     );
     appendChecklistItem(
       checklist,
+      "Code or standard used by this route",
+      committeeCode.source,
+      "No committee-specific code, conduct standard, policy or national/contextual fallback source is recorded for this profile.",
+      committeeCode.note
+    );
+    appendChecklistItem(
+      checklist,
       "Annual-report location",
       annualSource,
       "No public annual-report or annual-statistics location was identified in the recorded sources."
@@ -474,12 +549,12 @@
       createElement(
         "p",
         "source-intro",
-        "The same source checklist is used for every institution so member reviewers can see whether a route page, country dossier, rule basis, annual-report location and case-publication location have been found."
+        "The same source checklist is used for every institution so member reviewers can see whether a route page, country dossier, rule basis, the code or standard used by the local route, annual-report location and case-publication location have been found."
       )
     );
     container.appendChild(checklist);
 
-    const used = new Set([mainRouteSource, regulationSource, ruleBasisSource, annualSource, caseSource].filter(Boolean).map(sourceKey));
+    const used = new Set([mainRouteSource, regulationSource, ruleBasisSource, committeeCode.source, annualSource, caseSource].filter(Boolean).map(sourceKey));
     const otherSources = sources.filter((source) => !used.has(sourceKey(source)) && !suppressAnnualDocument(source, annualSource));
     if (otherSources.length) {
       container.appendChild(createElement("h5", "", "Other useful public sources"));
@@ -566,19 +641,6 @@
     return `Adjacent governance routes can produce public records that look relevant but answer a different question from research-misconduct handling. For this profile, the routes to keep separate are ${joinReadableList(regimes)}. They should be treated as context unless a public source explicitly connects them to the research-integrity complaint or misconduct route.`;
   }
 
-  function isGenericCaveat(value) {
-    const normalized = String(value || "").toLowerCase();
-    return (
-      normalized.includes("public-source draft") ||
-      normalized.includes("not an official leru") ||
-      normalized.includes("do not infer absence of cases from absence of public case-output evidence")
-    );
-  }
-
-  function getSpecificCaveats(record) {
-    return ensureArray(record.caveats).filter((item) => hasText(item) && !isGenericCaveat(item));
-  }
-
   function isGenericValidationQuestion(value) {
     const normalized = String(value || "").toLowerCase();
     return (
@@ -633,14 +695,6 @@
     sourceBlock.appendChild(renderSourceList(record));
     grid.appendChild(sourceBlock);
 
-    const specificCaveats = getSpecificCaveats(record);
-    if (specificCaveats.length) {
-      const caveatBlock = createElement("div", "profile-block full");
-      caveatBlock.appendChild(createElement("h4", "", "Profile-specific cautions"));
-      appendList(caveatBlock, specificCaveats, "No profile-specific caution recorded.");
-      grid.appendChild(caveatBlock);
-    }
-
     const specificQuestions = getSpecificValidationQuestions(record);
     if (specificQuestions.length) {
       const questionBlock = createElement("div", "profile-block full");
@@ -659,6 +713,63 @@
     if (!elements.profileList) return;
     elements.profileList.replaceChildren();
     records.forEach((record) => elements.profileList.appendChild(renderProfile(record)));
+  }
+
+  function addReference(referenceMap, source, usedBy, category) {
+    if (!source || !source.url) return;
+    const key = source.url;
+    const existing =
+      referenceMap.get(key) ||
+      {
+        label: source.label || source.url,
+        url: source.url,
+        type: source.type || category || "",
+        supports: source.supports || "",
+        note: source.note || "",
+        usedBy: new Set(),
+        categories: new Set()
+      };
+    if (hasText(usedBy)) existing.usedBy.add(usedBy);
+    if (hasText(category)) existing.categories.add(category);
+    if (!hasText(existing.type) && hasText(source.type)) existing.type = source.type;
+    if (!hasText(existing.supports) && hasText(source.supports)) existing.supports = source.supports;
+    if (!hasText(existing.note) && hasText(source.note)) existing.note = source.note;
+    referenceMap.set(key, existing);
+  }
+
+  function renderReferenceList() {
+    if (!elements.referenceList) return;
+    const referenceMap = new Map();
+    const leruSource = metadata.leruSource || {};
+    addReference(referenceMap, leruSource, "LERU membership baseline", "Membership baseline");
+
+    records.forEach((record) => {
+      addReference(referenceMap, getCommitteeCodeSource(record).source, `${record.institution}`, "Code/standard used by route");
+      ensureArray(record.sourceLinks).forEach((source) => {
+        addReference(referenceMap, source, record.institution, source.type || "Profile source");
+      });
+    });
+
+    const references = Array.from(referenceMap.values()).sort((a, b) => a.label.localeCompare(b.label));
+    elements.referenceList.replaceChildren();
+    if (!references.length) {
+      elements.referenceList.appendChild(createElement("p", "", "No public source links recorded."));
+      return;
+    }
+
+    const list = createElement("ol", "reference-items");
+    references.forEach((reference) => {
+      const item = document.createElement("li");
+      item.appendChild(createLink(reference.label, reference.url));
+      const details = [reference.type, reference.supports, reference.note].filter(hasText).join(" | ");
+      if (details) item.appendChild(createElement("span", "source-note-text", ` ${details}`));
+      const usedBy = Array.from(reference.usedBy).sort();
+      if (usedBy.length) {
+        item.appendChild(createElement("span", "reference-used-by", ` Used in: ${usedBy.join("; ")}.`));
+      }
+      list.appendChild(item);
+    });
+    elements.referenceList.appendChild(list);
   }
 
   function renderList(element, items, emptyText) {
@@ -689,6 +800,7 @@
     renderTypology();
     renderMatrix();
     renderProfiles();
+    renderReferenceList();
     renderList(elements.findingsList, metadata.crossCuttingFindings, "No cross-cutting findings recorded.");
     renderList(elements.validationAgenda, metadata.validationAgenda, "No validation agenda recorded.");
     bindPrint();

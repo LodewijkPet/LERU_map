@@ -275,6 +275,20 @@
   gap: 18px;
 }
 
+.profile-cautions {
+  background: #fff8ed;
+  border: 1px solid #ead5ad;
+  border-left: 6px solid var(--accent);
+  border-radius: 8px;
+  margin: 0 0 20px;
+  padding: 16px 18px;
+}
+
+.profile-cautions h3 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
 .profile-card {
   break-inside: avoid;
   page-break-inside: avoid;
@@ -366,6 +380,21 @@
 
 .source-checklist strong {
   color: var(--ink);
+}
+
+.reference-items {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.reference-items li {
+  margin-bottom: 10px;
+}
+
+.reference-used-by {
+  color: var(--muted);
+  display: block;
+  margin-top: 3px;
 }
 
 .report-footer {

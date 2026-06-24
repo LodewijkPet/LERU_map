@@ -40,6 +40,93 @@
       "The UK route is employer-led under the Concordat to Support Research Integrity, with annual statements as a recurring public-reporting corridor and health/animal/data regimes kept separate."
   };
 
+  const countryCodeSources = {
+    belgium: {
+      label: "Code of Ethics for Scientific Research in Belgium",
+      url: "https://www.belspo.be/belspo/organisation/publ/pub_ostc/Eth_code/ethcode_en.pdf",
+      type: "Belgium-wide code",
+      supports: "Belgian code baseline for scientific research ethics and integrity.",
+      note: "Use alongside community-level and institutional procedures."
+    },
+    denmark: {
+      label: "Danish Code of Conduct for Research Integrity 2026",
+      url: "https://ufsn.dk/english/publications/2026/januar/danish-code-of-conduct-for-research-integrity/",
+      type: "National code",
+      supports: "Updated Danish national code for research integrity.",
+      note: "Replaces the 2014 edition and sits beside the statutory NVU route."
+    },
+    finland: {
+      label: "RI 2023 guideline: Finnish Code of Conduct for Research Integrity",
+      url: "https://tenk.fi/en/news/ri-2023-guideline-published-three-languages",
+      type: "National guideline",
+      supports: "Finnish RI 2023 guideline and handling procedure baseline.",
+      note: "TENK code/guideline framework for committed organisations."
+    },
+    france: {
+      label: "OFIS: French national charter for research integrity",
+      url: "https://www.ofis-france.fr/la-charte-francaise-de-deontologie-des-metiers-de-la-recherche/",
+      type: "National charter",
+      supports: "French charter baseline for research professions and scientific integrity.",
+      note: "Official OFIS page; checked as a missing code/conduct link for this report pass."
+    },
+    germany: {
+      label: "DFG Code of Conduct: Guidelines for Safeguarding Good Research Practice",
+      url: "https://www.dfg.de/en/basics-topics/basics-and-principles-of-funding/good-research-practice/code-of-conduct",
+      type: "National/funder code",
+      supports: "German good-research-practice code baseline used across the institutional system.",
+      note: "DFG code is the main national standard for the LERU German profiles."
+    },
+    ireland: {
+      label: "National Policy Statement on Ensuring Research Integrity in Ireland 2024",
+      url: "https://www.iua.ie/wp-content/uploads/2024/12/National-Policy-Statement-on-Ensuring-Research-Integrity-in-Ireland-Dec-2024.pdf",
+      type: "National policy statement",
+      supports: "Irish national research-integrity policy baseline.",
+      note: "NRIF/IUA source; use with national investigation guidance and institutional policies."
+    },
+    italy: {
+      label: "CNR Guidelines for Research Integrity 2019",
+      url: "https://www.cnr.it/sites/default/files/public/media/doc_istituzionali/ethics/guidelines-for-research-integrity-2019.pdf",
+      type: "National research-organisation guideline",
+      supports: "Comparable national research-organisation integrity guideline for Italy.",
+      note: "No single national university code is recorded in this LERU profile; institutional codes remain important."
+    },
+    netherlands: {
+      label: "Netherlands Code of Conduct for Research Integrity",
+      url: "https://www.nwo-i.nl/en/nwo-i-themes/research-integrity/netherlands-code-of-conduct-for-research-integrity/",
+      type: "National code",
+      supports: "Dutch national code baseline for institution-first complaint handling.",
+      note: "Current project baseline remains the 2018 NGWI while update monitoring continues."
+    },
+    spain: {
+      label: "National Declaration on Scientific Integrity",
+      url: "https://www.crue.org/wp-content/uploads/2020/02/Declaraci%C3%B3n-Nacional-Integridad-Cient%C3%ADfica_.pdf",
+      type: "National declaration",
+      supports: "Spanish national scientific-integrity declaration baseline.",
+      note: "Use with institutional codes and regional integrity routes such as CIR-CAT."
+    },
+    sweden: {
+      label: "Swedish Research Council: Good Research Practice",
+      url: "https://www.vr.se/english/mandates/ethics/good-research-practice---new-edition.html",
+      type: "National soft-law guidance",
+      supports: "Swedish good-research-practice guidance baseline.",
+      note: "Use with the statutory national Npof route and institutional other-deviation procedures."
+    },
+    switzerland: {
+      label: "Code of Conduct for Scientific Integrity",
+      url: "https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Forschung/Kodex_Layout_en_Web.pdf",
+      type: "National code",
+      supports: "Swiss national scientific-integrity code baseline.",
+      note: "Issued by Swiss Academies, swissuniversities, SNSF and Innosuisse."
+    },
+    "united-kingdom": {
+      label: "The Concordat to Support Research Integrity",
+      url: "https://ukcori.org/research-integrity-concordat/",
+      type: "National concordat",
+      supports: "UK research-integrity concordat baseline for employer-led handling and annual statements.",
+      note: "Use with institutional procedures, annual statements and funder duties."
+    }
+  };
+
   const countryBoundaryRegimes = {
     belgium: ["biomedical ethics", "clinical trials", "animal research", "data protection", "IP", "open science"],
     denmark: ["medical research ethics", "clinical trials", "animal research", "data protection", "open science"],
@@ -120,6 +207,8 @@
   function member(record) {
     const countryContext = countryContexts[record.countryId] || "";
     const boundaryRegimes = record.boundaryRegimes || countryBoundaryRegimes[record.countryId] || [];
+    const countryCodeSource = record.countryCodeSource || countryCodeSources[record.countryId] || null;
+    const committeeCodeSource = record.committeeCodeSource || null;
     const sourceCoverage = Object.assign({}, defaultCoverage, record.sourceCoverage || {});
     const publicOutputCategory = record.publicOutputCategory || publicOutputCategoryById[record.id] || "unclear";
     const publicOutputCategoryNote =
@@ -157,6 +246,8 @@
         sourceCoverage,
         sourceLinks: [],
         countryDossierLink: record.countryId ? `../index.html#dossier-${record.countryId}` : "",
+        countryCodeSource,
+        committeeCodeSource,
         relatedCountryProfileId: record.countryId || "",
         tags: Array.from(
           new Set([
@@ -191,6 +282,8 @@
         boundaryRegimes,
         sourceCoverage,
         countryDossierLink: record.countryDossierLink || (record.countryId ? `../index.html#dossier-${record.countryId}` : ""),
+        countryCodeSource,
+        committeeCodeSource,
         relatedCountryProfileId: record.relatedCountryProfileId || record.countryId || "",
         tags: Array.from(new Set([...(record.tags || []), institutionalEvidenceAvailable ? "institutional route" : "needs extraction", hasPublicOutput ? "public output" : "no public output located", "member validation"])),
         caveats: [
@@ -283,6 +376,13 @@
           type: "official",
           supports: "institutional route",
           note: "Lists advisers, reporting desk, CRI, training and annual reports."
+        },
+        {
+          label: "KU Leuven CRI regulation",
+          url: "https://research.kuleuven.be/en/integrity-ethics/integrity/procedures",
+          type: "institutional procedure",
+          supports: "Commission on Research Integrity regulation and procedure",
+          note: "Added from the Belgian country dossier as the current local procedure/rule-basis link."
         },
         {
           label: "KU Leuven annual reports",
@@ -536,6 +636,13 @@
           type: "annual report",
           supports: "publication hub",
           note: "Official publication page with annual reports and meeting minutes."
+        },
+        {
+          label: "UCPH Code of Conduct for Responsible Research",
+          url: "https://research.ku.dk/integrity/code-of-conduct/",
+          type: "institutional code",
+          supports: "responsible-research code, Named Persons and Practice Committee route",
+          note: "Added from the Denmark country dossier as the institutional code/conduct link."
         },
         {
           label: "UCPH Practice Committee Annual Report 2024",
@@ -1565,6 +1672,27 @@
       },
       sourceLinks: [
         {
+          label: "Oxford research integrity",
+          url: "https://www.ox.ac.uk/research/support/research-culture/research-practice/research-integrity",
+          type: "official route page",
+          supports: "research-integrity route, Registrar route, training and annual statement hub",
+          note: "Official route page found in the missing-link check."
+        },
+        {
+          label: "Oxford procedure for addressing potential breaches of research integrity",
+          url: "https://www.ox.ac.uk/research/support/governance-and-committees/research-policies/procedure-for-addressing-potential",
+          type: "institutional procedure",
+          supports: "procedure for receiving, assessing and investigating potential breaches",
+          note: "Current procedure page found in the missing-link check."
+        },
+        {
+          label: "Oxford Academic Integrity in Research: Code of Practice and Procedure",
+          url: "https://hr.admin.ox.ac.uk/academic-integrity-in-research",
+          type: "institutional code and procedure",
+          supports: "Oxford code of practice and misconduct procedure basis",
+          note: "Official HR Support page for the code/procedure."
+        },
+        {
           label: "Oxford Research Integrity Statement 2024",
           url: "https://assets-oxweb.admin.ox.ac.uk/2026-02/research-integrity-2024-statement_0.pdf",
           type: "annual report",
@@ -1919,6 +2047,20 @@
           type: "committee page",
           supports: "institutional investigation commission",
           note: "Supports the institutional investigation commission route."
+        },
+        {
+          label: "ETH Zurich good scientific practice",
+          url: "https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity/gute-wissenschaftliche-praxis.html",
+          type: "institutional good-practice page",
+          supports: "good scientific practice, support bodies and prevention route",
+          note: "Added from the Switzerland country dossier as the local good-practice source."
+        },
+        {
+          label: "ETH Zurich new misconduct procedure",
+          url: "https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2024/02/new-rules-of-procedure-to-address-scientific-misconduct-are-adopted.html",
+          type: "institutional procedure update",
+          supports: "new rules of procedure for addressing scientific misconduct",
+          note: "Added from the Switzerland country dossier as a procedure-currentness source."
         },
         {
           label: "ETH Zurich anonymized investigation reports table",
