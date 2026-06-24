@@ -29,10 +29,27 @@
     return hasText(value) ? String(value) : fallback || "Not yet extracted.";
   }
 
+  function friendlyText(value) {
+    return String(value)
+      .replace(/public-output/gi, "public reporting")
+      .replace(/case-output/gi, "case reporting")
+      .replace(/annual-statement/gi, "annual statement")
+      .replace(/case-file/gi, "case file")
+      .replace(/no-local-output/gi, "no local public reporting")
+      .replace(/output-negative/gi, "no public reporting found")
+      .replace(/\blocal output\b/gi, "local public reporting")
+      .replace(/\bproject seed\b/gi, "project profile")
+      .replace(/\bseed profile\b/gi, "profile")
+      .replace(/\baudit seed\b/gi, "review profile")
+      .replace(/\bDetailed seed\b/g, "Detailed profile")
+      .replace(/\bmember validation\b/gi, "member review")
+      .replace(/\bvalidation product\b/gi, "member-review product");
+  }
+
   function createElement(tagName, className, value) {
     const element = document.createElement(tagName);
     if (className) element.className = className;
-    if (value !== undefined && value !== null) element.textContent = value;
+    if (value !== undefined && value !== null) element.textContent = friendlyText(value);
     return element;
   }
 
@@ -66,57 +83,57 @@
   }
 
   const publicOutputCategoryLabels = {
-    "local-output": "Local output",
-    "national-or-sector-output": "National/sector output",
-    "procedure-only": "Procedure only",
-    "restricted-or-internal-output": "Restricted/internal output",
-    "historical-or-case-specific": "Historical/case-specific",
-    "boundary-only": "Boundary only",
-    unclear: "Unclear"
+    "local-output": "Institution publishes its own public reporting",
+    "national-or-sector-output": "Reporting is mainly national, regional or sector-level",
+    "procedure-only": "Procedure is public, but no public reporting channel was found",
+    "restricted-or-internal-output": "Reporting appears internal or access-restricted",
+    "historical-or-case-specific": "Only historical or single-case public material was found",
+    "boundary-only": "Only adjacent governance material was found",
+    unclear: "Public reporting route still needs checking"
   };
 
   const publicOutputCategoryDefinitions = {
     "local-output": {
       explanation:
-        "Institution-owned annual reports, aggregate statistics, anonymized summaries, report tables or decision/public-case corridors are visible.",
+        "The institution itself publishes a visible annual statement, aggregate table, anonymized summary, decision page or other recurring public record about research-integrity handling.",
       caveat:
-        "Local output is still usually summarized or anonymized; it should not be treated as a full case-file archive unless the source clearly functions that way."
+        "This is usually summarized or anonymized. It should not be read as a full case-file archive unless the source clearly functions that way."
     },
     "national-or-sector-output": {
       explanation:
-        "Public output is visible through a national, regional or sector-level body rather than a clearly institution-owned output channel.",
+        "The visible public record sits mainly with a national, regional or sector body, rather than with the institution's own website.",
       caveat:
-        "National or sector output should not be read as local institutional reporting unless it gives institution-specific counts, summaries or decisions."
+        "This can be useful context, but it should not be treated as local institutional reporting unless it gives institution-specific counts, summaries or decisions."
     },
     "procedure-only": {
       explanation:
-        "The institution has public route or procedure evidence, but no local public annual-report, aggregate-statistics or anonymized-output channel was identified in this pass.",
+        "The public sources show where a concern would go and what procedure applies, but no public annual report, aggregate statistics, anonymized summary or decision page was found.",
       caveat:
-        "Procedure-only visibility should not be interpreted as absence of cases, concerns, investigations or internal reporting."
+        "This should not be interpreted as absence of cases, concerns, investigations or internal reporting."
     },
     "restricted-or-internal-output": {
       explanation:
-        "The located output appears restricted or internal, while public material mainly establishes the route, code, committee or governance context.",
+        "The public sources show the route, code or committee, but the reporting itself appears to be internal or available only through restricted access.",
       caveat:
-        "Restricted/internal output may be important operationally but should not be presented as public transparency."
+        "Internal reporting may be important operationally, but it should not be presented as public transparency."
     },
     "historical-or-case-specific": {
       explanation:
-        "Public material exists for a historical or case-complex-specific matter, but no current standing public-output channel was identified.",
+        "A historical case page or a specific case complex is public, but no current recurring public reporting route was found.",
       caveat:
-        "Historical case-complex pages should not be generalized into a current recurring archive."
+        "Historical case material should not be generalized into a current recurring archive."
     },
     "boundary-only": {
       explanation:
-        "Only adjacent governance evidence is visible, such as ethics approval, clinical, animal, data, quality, IP/open-science or research-security routes.",
+        "The visible public material concerns adjacent governance, such as ethics approval, clinical trials, animal research, data protection, quality assurance, IP/open science or research security.",
       caveat:
-        "Boundary material should remain separate unless a source explicitly connects it to research-misconduct handling."
+        "These routes should remain separate unless a source explicitly connects them to research-misconduct handling."
     },
     unclear: {
       explanation:
-        "The public-output model is not yet classified.",
+        "The public reporting route has not yet been interpreted from the available public sources.",
       caveat:
-        "This should be resolved before using the profile as a validation product."
+        "This should be checked before the profile is used for member review."
     }
   };
 
@@ -143,10 +160,6 @@
   function getSummary() {
     return {
       officialMembers: countBy((record) => record.officialLeruMember),
-      detailedProfiles: countBy((record) => record.reportStatus === "Detailed seed"),
-      partialProfiles: countBy((record) => record.reportStatus === "Partial seed"),
-      seededProfiles: countBy((record) => ["Detailed seed", "Partial seed"].includes(record.reportStatus)),
-      placeholders: countBy((record) => record.reportStatus === "Coverage placeholder"),
       procedureEvidence: countBy((record) => record.sourceCoverage && record.sourceCoverage.institutionalProcedure === "available"),
       publicOutputEvidence: countBy((record) => record.sourceCoverage && record.sourceCoverage.annualReportOrCaseOutput === "available"),
       localOutput: countBy((record) => getPublicOutputCategory(record) === "local-output"),
@@ -181,16 +194,13 @@
     const summary = getSummary();
     const kpis = [
       ["Official LERU members", summary.officialMembers],
-      ["Detailed profiles", summary.detailedProfiles],
-      ["Partial profiles", summary.partialProfiles],
-      ["Coverage placeholders", summary.placeholders],
-      ["Institutional procedure evidence", summary.procedureEvidence],
-      ["Public output evidence", summary.publicOutputEvidence],
-      ["Local public output", summary.localOutput],
-      ["National/sector output", summary.nationalOrSectorOutput],
-      ["Procedure-only audits", summary.procedureOnlyOutput],
-      ["Restricted/internal", summary.restrictedOrInternalOutput],
-      ["Historical/case-specific", summary.historicalOrCaseSpecificOutput]
+      ["Institutions with a public procedure or route", summary.procedureEvidence],
+      ["Institutions with public reporting found", summary.publicOutputEvidence],
+      ["Institution-owned public reporting", summary.localOutput],
+      ["National or sector-level reporting", summary.nationalOrSectorOutput],
+      ["Procedure visible, no public reporting found", summary.procedureOnlyOutput],
+      ["Internal or restricted reporting", summary.restrictedOrInternalOutput],
+      ["Historical or single-case material", summary.historicalOrCaseSpecificOutput]
     ];
 
     elements.kpis.replaceChildren();
@@ -211,9 +221,9 @@
     if (!elements.executiveSummary) return;
     const summary = getSummary();
     const paragraphs = [
-      `This public-source pilot represents ${summary.officialMembers} official LERU member universities and maps the visible research-integrity routes, offices, committees, procedure documents and public-output signals identified in this pass. All ${summary.officialMembers} member profiles are now detailed public-source seeds, and all ${summary.procedureEvidence} have identifiable public institutional procedure or route evidence. That makes the current report useful as a validation tool: it gives LERU / INTE members a structured route map to confirm, correct or add to, while staying outside private member communications and unpublished case material.`,
-      `The main finding is that procedure visibility is stronger and more consistent than public output visibility. Strict public-output evidence is currently recorded for ${summary.publicOutputEvidence} member profiles. The typology gives a more precise reading: ${summary.localOutput} profiles show institution-owned local output, ${summary.nationalOrSectorOutput} rely on national, regional or sector-level output, ${summary.procedureOnlyOutput} are procedure-visible but output-light, ${summary.restrictedOrInternalOutput} has restricted or internal output signals, and ${summary.historicalOrCaseSpecificOutput} is historical or case-specific rather than a standing output channel. These categories describe public-source visibility, not case incidence. Absence of public output should not be interpreted as absence of cases, concerns, investigations or internal reporting.`,
-      "The report therefore treats annual statements, aggregate statistics, anonymized summaries, public case PDFs, national statements, restricted committee material and historical case-complex pages as different transparency signals. It also keeps boundary regimes separate: research ethics review, clinical governance, animal research, data protection, quality assurance, student discipline, IP/open science and research security are included only when useful for context and should not be collapsed into research-misconduct handling unless the source explicitly does so."
+      `This report represents ${summary.officialMembers} official LERU member universities and maps the visible research-integrity routes, offices, committees, procedure documents and public reporting found in the public-source review. All ${summary.procedureEvidence} profiles have identifiable public institutional procedure or route evidence. That makes the report useful as a structured route map for LERU / INTE member review, while staying outside private member communications, personal contact lists and unpublished case material.`,
+      `The main finding is that procedure visibility is stronger and more consistent than public reporting visibility. Public annual reports, case summaries, aggregate statistics or similar reporting were found for ${summary.publicOutputEvidence} member profiles. ${summary.localOutput} profiles show institution-owned public reporting, ${summary.nationalOrSectorOutput} rely mainly on national, regional or sector-level reporting, ${summary.procedureOnlyOutput} show a public procedure but no public reporting channel, ${summary.restrictedOrInternalOutput} appears to have internal or restricted reporting, and ${summary.historicalOrCaseSpecificOutput} is historical or single-case material rather than a standing reporting route. These groups describe public-source visibility, not how many cases or concerns an institution handles.`,
+      "The report therefore treats annual statements, aggregate statistics, anonymized summaries, public case PDFs, national statements, restricted committee material and historical case pages as different transparency signals. It also keeps adjacent governance regimes separate: research ethics review, clinical governance, animal research, data protection, quality assurance, student discipline, IP/open science and research security are included for context and should not be folded into research-misconduct handling unless the source explicitly does so."
     ];
     elements.executiveSummary.replaceChildren();
     paragraphs.forEach((paragraph) => elements.executiveSummary.appendChild(createElement("p", "", paragraph)));
@@ -236,7 +246,7 @@
       card.appendChild(createElement("p", "typology-explanation", definition.explanation));
       const institutionText = categoryRecords.length
         ? categoryRecords.map((record) => record.institution || "Unnamed institution").join("; ")
-        : "No institutions currently classified in this category.";
+        : "No institutions currently in this group.";
       card.appendChild(createElement("p", "typology-institutions", institutionText));
       card.appendChild(createElement("p", "typology-caveat", definition.caveat));
       elements.typologyList.appendChild(card);
@@ -252,18 +262,14 @@
     }
 
     if (elements.gapList) {
-      const placeholders = records
-        .filter((record) => record.reportStatus === "Coverage placeholder")
-        .map((record) => `${record.institution}: institutional extraction still needed.`);
       const noOutputCount = countBy(
         (record) => record.sourceCoverage && record.sourceCoverage.annualReportOrCaseOutput !== "available"
       );
       const gaps = [
         `${noOutputCount} members do not yet have public annual-report or case-output evidence in the LERU model.`,
-        `${getSummary().nonLocalOrNoStandingOutput} members are coded as national/sector, restricted/internal, historical/case-specific or procedure-only rather than local standing output.`,
-        "LERU INTE participation/status is not validated in this public-source dataset.",
+        `${getSummary().nonLocalOrNoStandingOutput} members rely on national, sector, restricted, historical or procedure-only visibility rather than institution-owned standing public reporting.`,
+        "LERU INTE participation still needs member confirmation.",
         "Several records have route evidence but still need field-level annual-report or procedure extraction.",
-        ...placeholders
       ];
       elements.gapList.replaceChildren();
       gaps.forEach((gap) => elements.gapList.appendChild(createElement("li", "", gap)));
@@ -288,47 +294,201 @@
         createCell(record.committeeOrOffice),
         createCell(record.procedureSummary || (record.sourceCoverage && record.sourceCoverage.institutionalProcedure)),
         createCell(record.publicOutputSummary || record.transparencySummary),
-        createCell(formatPublicOutputCategory(record)),
-        createCell(record.evidenceLevel),
-        createCell(record.validationStatus),
         createCell(record.nextFollowUp)
       );
       elements.matrixBody.appendChild(row);
     });
   }
 
-  function renderSourceList(record) {
-    const list = createElement("ul", "source-list");
-    const leruSource = record.leruSource || metadata.leruSource;
-    if (leruSource && leruSource.url) {
-      const item = document.createElement("li");
-      item.appendChild(createLink(leruSource.label || "LERU member page", leruSource.url));
-      item.appendChild(createElement("span", "source-note-text", ` Membership baseline, accessed ${leruSource.accessed || "not recorded"}.`));
-      list.appendChild(item);
-    }
-    if (record.countryDossierLink) {
-      const item = document.createElement("li");
-      item.appendChild(createLink("Country dossier in main map", record.countryDossierLink));
-      item.appendChild(createElement("span", "source-note-text", " Country-system context."));
-      list.appendChild(item);
-    }
+  function sourceHaystack(source) {
+    return [source.label, source.type, source.supports, source.note, source.url].filter(hasText).join(" ").toLowerCase();
+  }
 
-    ensureArray(record.sourceLinks).forEach((source) => {
-      const item = document.createElement("li");
-      if (source.url) {
-        item.appendChild(createLink(source.label || source.url, source.url));
-      } else {
-        item.appendChild(createElement("strong", "", source.label || "Source"));
-      }
-      const detail = [source.type, source.supports, source.note].filter(hasText).join(" | ");
+  function sourceTitleHaystack(source) {
+    return [source.label, source.type, source.supports].filter(hasText).join(" ").toLowerCase();
+  }
+
+  function sourceLabelTypeHaystack(source) {
+    return [source.label, source.type].filter(hasText).join(" ").toLowerCase();
+  }
+
+  function sourceKey(source) {
+    return source ? `${source.url || ""}::${source.label || ""}` : "";
+  }
+
+  function sourceMatches(source, patterns) {
+    const haystack = sourceHaystack(source);
+    return patterns.some((pattern) => (pattern instanceof RegExp ? pattern.test(haystack) : haystack.includes(pattern)));
+  }
+
+  function sourceLabelTypeMatches(source, patterns) {
+    const haystack = sourceLabelTypeHaystack(source);
+    return patterns.some((pattern) => patternMatchesText(pattern, haystack));
+  }
+
+  function patternMatchesText(pattern, value) {
+    return pattern instanceof RegExp ? pattern.test(value) : value.includes(pattern);
+  }
+
+  function findSource(record, patterns, preferredPatterns, rejectPatterns) {
+    const matches = ensureArray(record.sourceLinks).filter(
+      (source) => sourceMatches(source, patterns) && !sourceLabelTypeMatches(source, ensureArray(rejectPatterns))
+    );
+    if (!matches.length) return null;
+    return matches
+      .map((source) => {
+        const haystack = sourceHaystack(source);
+        const titleHaystack = sourceTitleHaystack(source);
+        const score = ensureArray(preferredPatterns).reduce(
+          (total, pattern) => total + (patternMatchesText(pattern, haystack) ? 10 : 0) + (patternMatchesText(pattern, titleHaystack) ? 20 : 0),
+          source.url ? 1 : 0
+        );
+        return { source, score };
+      })
+      .sort((a, b) => b.score - a.score)[0].source;
+  }
+
+  function appendSourceLink(item, source) {
+    if (source.url) {
+      item.appendChild(createLink(source.label || source.url, source.url));
+    } else {
+      item.appendChild(createElement("strong", "", source.label || "Source"));
+    }
+  }
+
+  function sourceDetail(source, noteOverride) {
+    if (noteOverride) return noteOverride;
+    return [source.supports, source.note].filter(hasText).join(" ");
+  }
+
+  function appendChecklistItem(list, title, source, missingText, noteOverride) {
+    const item = document.createElement("li");
+    item.appendChild(createElement("strong", "", `${title}: `));
+    if (source) {
+      appendSourceLink(item, source);
+      const detail = sourceDetail(source, noteOverride);
       if (detail) item.appendChild(createElement("span", "source-note-text", ` ${detail}`));
-      list.appendChild(item);
-    });
-
-    if (!list.children.length) {
-      list.appendChild(createElement("li", "", "No source link recorded."));
+    } else {
+      item.appendChild(createElement("span", "source-note-text", missingText));
     }
-    return list;
+    list.appendChild(item);
+  }
+
+  function appendOtherSource(list, source) {
+    const item = document.createElement("li");
+    appendSourceLink(item, source);
+    const detail = [source.type, source.supports, source.note].filter(hasText).join(" | ");
+    if (detail) item.appendChild(createElement("span", "source-note-text", ` ${detail}`));
+    list.appendChild(item);
+  }
+
+  function suppressAnnualDocument(source, annualSource) {
+    if (!annualSource || sourceKey(source) === sourceKey(annualSource)) return false;
+    const annualIsHub = sourceMatches(annualSource, [/hub/, /archive/, /reports\b/, /statements\b/, /page/, /directory/]);
+    return annualIsHub && sourceMatches(source, [/annual report/, /annual statement/, /annual statistics/, /annual\/research report/]);
+  }
+
+  function renderSourceList(record) {
+    const container = createElement("div", "source-list-wrap");
+    const checklist = createElement("ul", "source-list source-checklist");
+    const sources = ensureArray(record.sourceLinks);
+
+    const mainRouteSource = findSource(
+      record,
+      [/committee page/, /procedure page/, /procedure/, /research integrity/, /scientific-integrity/, /scientific integrity/, /good research practice/, /integrity/, /official/, /route/, /misconduct/],
+      [/committee page/, /procedure page/, /research integrity/, /scientific-integrity/, /scientific integrity/, /procedure/, /ombuds/, /referent/, /official/],
+      [/annual report/, /annual statement/, /annual-stat/, /statistics table/, /report table/, /research integrity reports/]
+    );
+    const regulationSource = findSource(
+      record,
+      [/regulation/, /rules?/, /procedure/, /policy/, /guidelines?/, /complaints?/, /misconduct/],
+      [/regulation/, /rules?/, /procedure/, /guidelines?/],
+      [/annual report/, /annual statement/, /statistics/, /table/, /news item/]
+    );
+    const ruleBasisSource =
+      findSource(
+        record,
+        [/code/, /framework/, /concordat/, /guidelines?/, /good research practice/, /good scientific practice/, /tenk/, /dfg/, /policy/],
+        [/code/, /framework/, /concordat/, /guidelines?/, /good research practice/, /good scientific practice/],
+        [/annual report/, /annual statement/, /statistics/, /table/, /news item/]
+      ) || regulationSource;
+    const annualSource = findSource(
+      record,
+      [/annual report/, /annual reports/, /annual statement/, /annual-statement/, /annual statements/, /annual reviews/, /annual statistics/, /research integrity reports/],
+      [/hub/, /archive/, /reports\b/, /statements\b/, /annual reviews/, /page/, /directory/]
+    );
+    const caseSource = findSource(
+      record,
+      [/case repository/, /public decisions?/, /case pdf/, /case publication/, /case-publication/, /advice and final judgments/, /anonymized investigation reports/, /statement summaries/, /recommendation/, /decision archive/],
+      [/repository/, /public decisions?/, /archive/, /judgments/, /table/, /summaries/]
+    );
+    const countryDossierSource = record.countryDossierLink
+      ? {
+          label: "Full country dossier in main map",
+          url: record.countryDossierLink,
+          supports: "Country-system context for interpreting the institutional route."
+        }
+      : null;
+
+    appendChecklistItem(
+      checklist,
+      "Main research-integrity committee or route page",
+      mainRouteSource,
+      "No dedicated public committee or route page was identified in the recorded sources."
+    );
+    appendChecklistItem(
+      checklist,
+      "Full dossier in the map",
+      countryDossierSource,
+      "No country dossier link is recorded for this profile."
+    );
+    appendChecklistItem(
+      checklist,
+      "Regulation or procedure",
+      regulationSource,
+      "No public regulation or procedure source is recorded for this profile."
+    );
+    appendChecklistItem(
+      checklist,
+      "Rule basis",
+      ruleBasisSource,
+      "No separate code, framework or rule-basis source is recorded for this profile.",
+      ruleBasisSource && regulationSource && sourceKey(ruleBasisSource) === sourceKey(regulationSource)
+        ? "The same public source currently functions as both the procedure and the rule basis in this profile."
+        : ""
+    );
+    appendChecklistItem(
+      checklist,
+      "Annual-report location",
+      annualSource,
+      "No public annual-report or annual-statistics location was identified in the recorded sources."
+    );
+    appendChecklistItem(
+      checklist,
+      "Case repository or public decisions",
+      caseSource,
+      "No standing public case repository, public-decision page or anonymized case-publication location was identified in the recorded sources."
+    );
+
+    container.appendChild(
+      createElement(
+        "p",
+        "source-intro",
+        "The same source checklist is used for every institution so member reviewers can see whether a route page, country dossier, rule basis, annual-report location and case-publication location have been found."
+      )
+    );
+    container.appendChild(checklist);
+
+    const used = new Set([mainRouteSource, regulationSource, ruleBasisSource, annualSource, caseSource].filter(Boolean).map(sourceKey));
+    const otherSources = sources.filter((source) => !used.has(sourceKey(source)) && !suppressAnnualDocument(source, annualSource));
+    if (otherSources.length) {
+      container.appendChild(createElement("h5", "", "Other useful public sources"));
+      const otherList = createElement("ul", "source-list");
+      otherSources.forEach((source) => appendOtherSource(otherList, source));
+      container.appendChild(otherList);
+    }
+
+    return container;
   }
 
   function createProfileBlock(title, value, fallback, full) {
@@ -336,6 +496,102 @@
     block.appendChild(createElement("h4", "", title));
     appendParagraph(block, value, fallback);
     return block;
+  }
+
+  function joinReadableList(items) {
+    const normalized = ensureArray(items).filter(hasText);
+    if (!normalized.length) return "";
+    if (normalized.length === 1) return normalized[0];
+    if (normalized.length === 2) return `${normalized[0]} and ${normalized[1]}`;
+    return `${normalized.slice(0, -1).join(", ")} and ${normalized[normalized.length - 1]}`;
+  }
+
+  function getPublicReportingInterpretation(record) {
+    const category = getPublicOutputCategory(record);
+    const definition = publicOutputCategoryDefinitions[category] || publicOutputCategoryDefinitions.unclear;
+    const note = hasText(record.publicOutputCategoryNote) ? ` For this institution, the current public-source note is: ${record.publicOutputCategoryNote}` : "";
+    return `${definition.explanation} ${definition.caveat}${note}`;
+  }
+
+  function getYearReferences(record) {
+    const allText = [
+      record.procedureSummary,
+      record.publicOutputSummary,
+      record.transparencySummary,
+      ...ensureArray(record.sourceLinks).flatMap((source) => [source.label, source.supports, source.note])
+    ]
+      .filter(hasText)
+      .join(" ");
+    const matches = allText.match(/\b(?:19|20)\d{2}(?:[-/](?:\d{2}|(?:19|20)\d{2}))?\b/g) || [];
+    return Array.from(new Set(matches)).slice(0, 8);
+  }
+
+  function getCommitteeHistory(record) {
+    const route = text(record.committeeOrOffice || record.institutionalRoute, "the local research-integrity route");
+    const years = getYearReferences(record);
+    const yearSentence = years.length
+      ? `Dated public material in this profile includes ${joinReadableList(years)}.`
+      : "No founding date, long-run activity series or cumulative case total is visible in the recorded public sources.";
+    const activity = text(
+      record.publicOutputSummary || record.transparencySummary,
+      "The recorded public sources do not yet describe public activity, case counts or case types for this route."
+    );
+    return `The public source set currently identifies ${route}. ${yearSentence} The activity picture visible from public sources is: ${activity} Where founding dates, cumulative case totals, allegation types or outcomes are not stated in public sources, those points remain for member review.`;
+  }
+
+  function getComparativeInterest(record) {
+    switch (getPublicOutputCategory(record)) {
+      case "local-output":
+        return "This profile is comparatively useful because the institution itself publishes some public reporting. That makes it easier to compare route design, annual accountability and anonymization practice with members where only procedure pages are public.";
+      case "national-or-sector-output":
+        return "This profile is interesting because public accountability is visible mainly through a national, regional or sector route. It helps show where institution-level comparison needs country-system context before drawing conclusions about local transparency.";
+      case "procedure-only":
+        return "This profile is mainly useful as a route-visibility example. It shows how a committee, office or procedure can be public even when annual case reporting, anonymized summaries or public decisions are not visible.";
+      case "restricted-or-internal-output":
+        return "This profile is useful for comparing public and internal accountability boundaries. The route is visible, but the public sources suggest that some committee material or reporting is not openly accessible.";
+      case "historical-or-case-specific":
+        return "This profile is useful as a reminder that a visible historical case does not necessarily mean there is a standing public reporting route today. It should be read differently from annual-report or decision-archive examples.";
+      case "boundary-only":
+        return "This profile is mainly useful for showing how adjacent governance can be much more visible than research-misconduct handling. Those records may matter for context, but they should not be counted as general misconduct reporting.";
+      default:
+        return "This profile still needs interpretation before it can support comparison. The main review question is which public reporting route, if any, should be used for this institution.";
+    }
+  }
+
+  function getBoundaryExplanation(record) {
+    const regimes = ensureArray(record.boundaryRegimes).filter(hasText);
+    if (!regimes.length) {
+      return "No adjacent governance routes were recorded for this institution profile. That does not mean such routes are absent; it only means they were not part of the current public-source profile.";
+    }
+    return `Adjacent governance routes can produce public records that look relevant but answer a different question from research-misconduct handling. For this profile, the routes to keep separate are ${joinReadableList(regimes)}. They should be treated as context unless a public source explicitly connects them to the research-integrity complaint or misconduct route.`;
+  }
+
+  function isGenericCaveat(value) {
+    const normalized = String(value || "").toLowerCase();
+    return (
+      normalized.includes("public-source draft") ||
+      normalized.includes("not an official leru") ||
+      normalized.includes("do not infer absence of cases from absence of public case-output evidence")
+    );
+  }
+
+  function getSpecificCaveats(record) {
+    return ensureArray(record.caveats).filter((item) => hasText(item) && !isGenericCaveat(item));
+  }
+
+  function isGenericValidationQuestion(value) {
+    const normalized = String(value || "").toLowerCase();
+    return (
+      normalized.includes("correct public office, committee or procedure route") ||
+      normalized.includes("public annual report, case-output channel or aggregate reporting route") ||
+      normalized.includes("internal routes that should be acknowledged") ||
+      normalized.includes("which boundary regimes should be shown separately") ||
+      normalized.includes("preferred non-personal validation pathway")
+    );
+  }
+
+  function getSpecificValidationQuestions(record) {
+    return ensureArray(record.memberValidationQuestions).filter((item) => hasText(item) && !isGenericValidationQuestion(item));
   }
 
   function renderProfile(record) {
@@ -347,56 +603,53 @@
       createElement(
         "p",
         "profile-meta",
-        [record.city, record.country, record.reportStatus, record.evidenceLevel].filter(hasText).join(" | ")
+        [record.city, record.country].filter(hasText).join(", ")
       )
     );
 
-    const tagGroup = createElement("div", "profile-tags");
-    [record.validationStatus, publicOutputCategoryLabels[getPublicOutputCategory(record)], record.transparencyCategory, record.profileStatus]
-      .filter(hasText)
-      .forEach((tag) => tagGroup.appendChild(createElement("span", "profile-tag", tag)));
-
-    header.append(titleGroup, tagGroup);
+    header.appendChild(titleGroup);
     card.appendChild(header);
 
     const grid = createElement("div", "profile-grid");
     grid.append(
-      createProfileBlock("Country-system context", record.countrySystemSummary),
-      createProfileBlock("National route", record.nationalRoute),
-      createProfileBlock("Institutional route", record.institutionalRoute),
-      createProfileBlock("Committee / office", record.committeeOrOffice),
-      createProfileBlock("Procedure summary", record.procedureSummary),
-      createProfileBlock("Public output / transparency", record.publicOutputSummary || record.transparencySummary),
-      createProfileBlock("Public-output category", formatPublicOutputCategory(record)),
-      createProfileBlock("Next follow-up", record.nextFollowUp, "No follow-up recorded.", true)
+      createProfileBlock("Why the national context matters", record.countrySystemSummary),
+      createProfileBlock("National or sector route", record.nationalRoute),
+      createProfileBlock("Where a concern appears to start locally", record.institutionalRoute),
+      createProfileBlock("Committee, office or named route", record.committeeOrOffice),
+      createProfileBlock("What the public procedure says", record.procedureSummary),
+      createProfileBlock("What is publicly reported", record.publicOutputSummary || record.transparencySummary),
+      createProfileBlock("How to interpret the public reporting", getPublicReportingInterpretation(record), "", true),
+      createProfileBlock("Committee history and public activity", getCommitteeHistory(record), "", true),
+      createProfileBlock("Why this route is useful for comparison", getComparativeInterest(record), "", true)
     );
 
     const boundaryBlock = createElement("div", "profile-block full");
-    boundaryBlock.appendChild(createElement("h4", "", "Boundary-regime notes"));
-    appendList(boundaryBlock, ensureArray(record.boundaryRegimes), "No boundary regimes recorded.");
+    boundaryBlock.appendChild(createElement("h4", "", "Adjacent governance to keep separate"));
+    appendParagraph(boundaryBlock, getBoundaryExplanation(record));
     grid.appendChild(boundaryBlock);
 
     const sourceBlock = createElement("div", "profile-block full");
-    sourceBlock.appendChild(createElement("h4", "", "Source links"));
+    sourceBlock.appendChild(createElement("h4", "", "Source checklist and other public links"));
     sourceBlock.appendChild(renderSourceList(record));
     grid.appendChild(sourceBlock);
 
-    const caveatBlock = createElement("div", "profile-block full");
-    caveatBlock.appendChild(createElement("h4", "", "Caveats"));
-    appendList(caveatBlock, ensureArray(record.caveats), "No record-specific caveat recorded.");
-    grid.appendChild(caveatBlock);
-
-    const questionBlock = createElement("div", "profile-block full");
-    questionBlock.appendChild(createElement("h4", "", "Member-validation questions"));
-    appendList(questionBlock, ensureArray(record.memberValidationQuestions), "No member-validation questions recorded.");
-    grid.appendChild(questionBlock);
-
-    if (ensureArray(record.reportNotes).length) {
-      const notesBlock = createElement("div", "profile-block full");
-      notesBlock.appendChild(createElement("h4", "", "Report notes"));
-      appendList(notesBlock, ensureArray(record.reportNotes), "No report notes recorded.");
-      grid.appendChild(notesBlock);
+    const specificCaveats = getSpecificCaveats(record);
+    if (specificCaveats.length) {
+      const caveatBlock = createElement("div", "profile-block full");
+      caveatBlock.appendChild(createElement("h4", "", "Profile-specific cautions"));
+      appendList(caveatBlock, specificCaveats, "No profile-specific caution recorded.");
+      grid.appendChild(caveatBlock);
     }
+
+    const specificQuestions = getSpecificValidationQuestions(record);
+    if (specificQuestions.length) {
+      const questionBlock = createElement("div", "profile-block full");
+      questionBlock.appendChild(createElement("h4", "", "Committee-specific review checks"));
+      appendList(questionBlock, specificQuestions, "No committee-specific review checks recorded.");
+      grid.appendChild(questionBlock);
+    }
+
+    grid.appendChild(createProfileBlock("Highest-value follow-up", record.nextFollowUp, "No follow-up recorded.", true));
 
     card.appendChild(grid);
     return card;

@@ -247,7 +247,7 @@
 
 .report-matrix {
   border-collapse: collapse;
-  min-width: 1480px;
+  min-width: 1180px;
   width: 100%;
 }
 
@@ -352,6 +352,20 @@
 
 .source-list a {
   font-weight: 700;
+}
+
+.source-list-wrap .source-intro {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.source-list-wrap h5 {
+  font-size: 0.98rem;
+  margin: 16px 0 8px;
+}
+
+.source-checklist strong {
+  color: var(--ink);
 }
 
 .report-footer {

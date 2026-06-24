@@ -205,14 +205,14 @@
   }
 
   window.LERU_MEMBER_METADATA = {
-    title: "LERU research integrity pilot view",
+    title: "LERU research integrity member view",
     reportTitle: "Research integrity routes and transparency at LERU member universities",
-    status: "Public-source draft for validation",
+    status: "Public-source report for member review",
     lastUpdated: "2026-06-23",
     sourceBasis:
       "Official LERU members page plus existing country dossiers, transparency records, source registry entries and country source notes in this repository.",
     caveat:
-      "Draft based on public sources and existing project data; not an official LERU statement. Institution-level details require member validation before they should be treated as finalized or authoritative.",
+      "Report based on public sources and existing project data; not an official LERU statement. Institution-level details require member review before they should be treated as finalized or authoritative.",
     officialMemberCount: 24,
     leruSource,
     validationNeeds: [
@@ -226,16 +226,16 @@
       "The LERU membership spans strongly centralized, hybrid and distributed national systems; institution-level comparison only works when country route and local route are kept separate.",
       "Several members have visible institutional committees, offices or ombuds routes, but the terms used locally differ substantially.",
       "Public procedure evidence is more common than public case-output evidence.",
-      "The strongest public-output examples in this seed are annual reports, anonymized summaries or institutional report tables rather than full case files.",
+      "The strongest public-reporting examples in this report are annual reports, anonymized summaries or institutional report tables rather than full case files.",
       "Boundary regimes such as biomedical ethics, animal research, data protection, IP, open science and funder compliance often create important public records but should not be recoded as misconduct handling."
     ],
     validationAgenda: [
-      "Is the displayed office, committee, ombuds or procedure the correct first institutional route?",
+      "Is the displayed office, committee, ombuds route or procedure the correct first institutional route?",
       "Is there a public annual report, aggregate statistics page or anonymized case-output channel that should be added?",
-      "Are there internal routes that matter operationally but should not be published in a public page?",
+      "Are there internal routes that matter operationally but should not be published on a public page?",
       "Which public sources are stable enough to cite as the member-facing evidence backbone?",
-      "Which boundary regimes should be shown only as adjacent governance, not as research-misconduct adjudication?",
-      "What non-personal validation pathway should be used for future updates?"
+      "Which adjacent governance routes should be shown only as context, not as research-misconduct adjudication?",
+      "What non-personal member-review pathway should be used for future updates?"
     ],
     deliberatelyExcluded: [
       {
