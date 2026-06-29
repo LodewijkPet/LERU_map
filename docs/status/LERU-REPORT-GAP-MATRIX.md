@@ -1,10 +1,10 @@
 # LERU Report Gap Matrix
 
-Status date: 2026-06-23
+Status date: 2026-06-29
 
 This matrix summarizes the current public-source report state for all 24 LERU member profiles in `data/leru-members.js`. It is a prioritization aid, not an institutional validation.
 
-Current counts after Batch 5: 24 Detailed seed, 0 Partial seed, 0 coverage placeholders; all 24 profiles have at least one source link and institution-level procedure evidence; 14 profiles have verified public-output evidence. Category counts are 13 `local-output`, 4 `national-or-sector-output`, 5 `procedure-only`, 1 `restricted-or-internal-output`, 1 `historical-or-case-specific`, 0 `boundary-only` and 0 `unclear`.
+Current counts after the 29 June 2026 Sorbonne member-validation update: 24 Detailed seed, 0 Partial seed, 0 coverage placeholders; all 24 profiles have at least one source link and institution-level procedure evidence; 14 profiles have verified public-output evidence. Category counts are 12 `local-output`, 4 `national-or-sector-output`, 5 `procedure-only`, 2 `restricted-or-internal-output`, 1 `historical-or-case-specific`, 0 `boundary-only` and 0 `unclear`.
 
 | Institution | Country | Current report status | Evidence level | Institutional route evidence | Public-output evidence | Source-link strength | Main gap | Recommended next action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27,8 +27,8 @@ Current counts after Batch 5: 24 Detailed seed, 0 Partial seed, 0 coverage place
 | Ludwig-Maximilians-Universitat Munchen / LMU Munich | Germany | Detailed seed | Moderate | Available | Procedure-only: none located; publication appears discretionary rather than standing output | Strong | Non-personal office/committee page and annual output not located; publication appears discretionary rather than a standing output channel. | Validate current public office/committee page availability and retest annual reports or rectorate summaries for statistics or anonymized outputs. |
 | University of Oxford | United Kingdom | Detailed seed | Strong | Available | Available | Moderate | Annual statements not indexed by category/outcome. | Index annual statements by year, allegation category, outcome and anonymization depth. |
 | Universite Paris-Saclay | France | Detailed seed | Moderate | Available | Procedure-only: none located; CER-PS ethics publication basis is boundary material | Strong | Public RIS signalement/activity output not located; CER-PS is ethics-review boundary material. | Validate annual RIS activity reports, POLETHIS output practice and non-personal signalement statistics. |
-| Sorbonne University | France | Detailed seed | Strong | Available | Available | Moderate | Annual-report fields not extracted. | Extract RIS, committee, ambassador and signalement activity fields. |
-| University of Strasbourg | France | Detailed seed | Moderate | Available | National OFIS context only; no local output located | Strong | No Strasbourg-owned RIS annual activity report, local signalement statistics or anonymized case summaries located. | Validate whether Strasbourg publishes local RIS statistics, procedure documents or case-learning material beyond the referent page. |
+| Sorbonne University | France | Detailed seed | Strong | Available | Visible annual statement/reporting source; case-level reporting appears internal or restricted-access | Strong | Sorbonne should not be treated as a public case-output archive; French RIS/Ofis/Hceres terminology and CER boundary now need to remain explicit. | Keep Sorbonne in the restricted/internal group unless a public case-level decision, case-summary channel or explicitly public aggregate case table is identified. |
+| University of Strasbourg | France | Detailed seed | Moderate | Available | National Ofis context only; no local output located | Strong | No Strasbourg-owned RIS annual activity report, local signalement statistics or anonymized case summaries located. | Validate whether Strasbourg publishes local RIS statistics, procedure documents or case-learning material beyond the referent page. |
 | Utrecht University | Netherlands | Detailed seed | Strong | Available | Available | Strong | Annual-report and UNL case PDFs not field-indexed. | Index by year, allegation type, CWI advice, LOWI step and board judgment. |
 | ETH Zurich | Switzerland | Detailed seed | Strong | Available | Available | Moderate | Anonymized report/statistics tables not field-indexed. | Index report and procedure-statistics tables; validate office/commission wording. |
 | University of Zurich | Switzerland | Detailed seed | Moderate | Available | Procedure-only: none located; official news is contextual only | Strong | Procedure clear, but no standing public output identified; ETH Zurich output must not be generalized to UZH. | Retest UZH annual reports, official news and integrity pages for aggregate statistics or anonymized summaries. |
@@ -39,7 +39,7 @@ Recommended next step after the executive-summary synthesis pass:
 
 1. Frits/Claire preview: use the report page and `docs/status/LERU-EXECUTIVE-SUMMARY-DRAFT.md` as the public-source draft package for initial discussion.
 2. Member-validation questionnaire: Geneva, Milan, Strasbourg, Freiburg, Trinity, Paris-Saclay, LMU, Heidelberg, Helsinki and UZH need confirmation that no local public output channel was missed and that boundary routes are framed correctly.
-3. Field-index verified outputs: Universitat de Barcelona/CIR-CAT, Leiden University, Utrecht University, Lund University, UK annual-statement profiles, KU Leuven, University of Copenhagen, Sorbonne and ETH Zurich.
+3. Field-index verified outputs: Universitat de Barcelona/CIR-CAT, Leiden University, Utrecht University, Lund University, UK annual-statement profiles, KU Leuven, University of Copenhagen and ETH Zurich. Treat Sorbonne separately as a visible annual-statement route with internal or restricted case-level reporting.
 4. Editorial/export pass: prepare a PDF or Word version after preview feedback, keeping the strict 14 `annualReportOrCaseOutput === "available"` evidence count separate from the broader public-output typology.
 
 ## Batch 2 Notes
@@ -72,6 +72,10 @@ Recommended next step after the executive-summary synthesis pass:
 - Paris-Saclay, LMU, Heidelberg and UZH are coded `procedure-only`. Helsinki is coded `national-or-sector-output` because TENK statement summaries are a real national route, but no Helsinki-owned output channel was identified.
 - All 24 records now have a standardized `publicOutputCategory` and `publicOutputCategoryNote` in the exported data object.
 - The next practical work is report synthesis, member validation and row-level indexing of the already verified output corridors.
+
+## Member Validation Notes
+
+- Sorbonne member validation on 29 June 2026 moved Sorbonne University from `local-output` to `restricted-or-internal-output`: a visible annual statement/reporting source remains, but case-level reporting for the studied files should be treated as internal or restricted-access.
 
 ## Report Synthesis Notes
 

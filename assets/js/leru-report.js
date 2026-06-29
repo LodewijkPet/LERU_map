@@ -114,9 +114,9 @@
     },
     "restricted-or-internal-output": {
       explanation:
-        "The public sources show the route, code or committee, but the reporting itself appears to be internal or available only through restricted access.",
+        "The public sources show the route, code, committee or a high-level annual statement, but case-level reporting or committee material appears to be internal or available only through restricted access.",
       caveat:
-        "Internal reporting may be important operationally, but it should not be presented as public transparency."
+        "Internal reporting may be important operationally, but it should not be presented as public case transparency."
     },
     "historical-or-case-specific": {
       explanation:

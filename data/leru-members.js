@@ -21,7 +21,7 @@
     finland:
       "Finland has a national TENK procedure and institutional first-instance responsibilities; local routes should be separated from national statement summaries.",
     france:
-      "France is a legally codified, institutionally executed and nationally coordinated network: institutions appoint RIS, while Ofis/Hceres coordinates and observes the national system.",
+      "France is a legally codified, institutionally executed and nationally coordinated network: the Research Code includes scientific-integrity duties in Articles D211-2, D211-3 and D211-4; institutions appoint RIS (referents a l'integrite scientifique, equivalent to research integrity officers/RIOs), while Ofis (Office francais de l'integrite scientifique), a department of Hceres (Haut conseil a l'evaluation de la recherche et de l'enseignement superieur), coordinates and observes the national system.",
     germany:
       "Germany has a public case-publication ladder through DFG and OWID plus institution-specific ombuds, procedure and commission routes; local visibility varies substantially.",
     ireland:
@@ -63,11 +63,11 @@
       note: "TENK code/guideline framework for committed organisations."
     },
     france: {
-      label: "OFIS: French national charter for research integrity",
+      label: "Ofis: French national charter for research integrity",
       url: "https://www.ofis-france.fr/la-charte-francaise-de-deontologie-des-metiers-de-la-recherche/",
       type: "National charter",
       supports: "French charter baseline for research professions and scientific integrity.",
-      note: "Official OFIS page; checked as a missing code/conduct link for this report pass."
+      note: "Use alongside Research Code Articles D211-2 to D211-4, Ofis/Hceres guidance and institutional procedures."
     },
     germany: {
       label: "DFG Code of Conduct: Guidelines for Safeguarding Good Research Practice",
@@ -131,7 +131,14 @@
     belgium: ["biomedical ethics", "clinical trials", "animal research", "data protection", "IP", "open science"],
     denmark: ["medical research ethics", "clinical trials", "animal research", "data protection", "open science"],
     finland: ["TENK statement route", "human research ethics", "biobanks", "clinical trials", "data protection"],
-    france: ["CPP/CNRIPH human research ethics", "clinical trials", "CNREEA animal ethics", "data protection", "deontology"],
+    france: [
+      "CPP/CNRIPH interventional human-subject research ethics",
+      "CER non-interventional human-subject research ethics",
+      "clinical trials",
+      "CEEA animal-experimentation ethics",
+      "data protection",
+      "deontology"
+    ],
     germany: ["DFG/OWID publication lanes", "medical ethics", "animal research", "data protection", "research security"],
     ireland: ["NREC/HRA health research", "animal research", "data protection", "funder compliance", "quality assurance"],
     italy: ["clinical trials", "territorial/national ethics committees", "animal research", "data protection", "CNR/CNB ethics"],
@@ -162,7 +169,7 @@
     "lmu-munich": "procedure-only",
     "university-of-oxford": "local-output",
     "universite-paris-saclay": "procedure-only",
-    "sorbonne-university": "local-output",
+    "sorbonne-university": "restricted-or-internal-output",
     "university-of-strasbourg": "national-or-sector-output",
     "utrecht-university": "local-output",
     "eth-zurich": "local-output",
@@ -189,8 +196,8 @@
     "lmu-munich": "Procedure evidence is public and publication is discretionary after final decisions, but no standing output channel was identified.",
     "university-of-oxford": "Institution-owned annual statements provide anonymized allegations and outcomes.",
     "universite-paris-saclay": "POLETHIS/RIS procedure evidence is public; no Paris-Saclay-owned signalement statistics or case-output channel was identified.",
-    "sorbonne-university": "Institution-owned scientific-integrity annual reports provide annual activity and signalement evidence.",
-    "university-of-strasbourg": "Public output located is OFIS national context; no Strasbourg-owned output channel was identified.",
+    "sorbonne-university": "Sorbonne has a visible institutional annual statement/reporting source, but member validation indicates case-level reporting for the studied files appears internal or available only through restricted access.",
+    "university-of-strasbourg": "Public output located is Ofis national context; no Strasbourg-owned output channel was identified.",
     "utrecht-university": "Utrecht annual-report evidence and UNL sector case PDFs provide institution-linked public output.",
     "eth-zurich": "Institution-owned anonymized investigation report and procedure-statistics tables provide public output.",
     "university-of-zurich": "Procedure and contextual news evidence are public, but no UZH-owned standing output channel was identified."
@@ -301,7 +308,7 @@
     title: "LERU research integrity member view",
     reportTitle: "Research integrity routes and transparency at LERU member universities",
     status: "Public-source report for member review",
-    lastUpdated: "2026-06-23",
+    lastUpdated: "2026-06-29",
     sourceBasis:
       "Official LERU members page plus existing country dossiers, transparency records, source registry entries and country source notes in this repository.",
     caveat:
@@ -1725,14 +1732,14 @@
       evidenceLevel: "Moderate",
       transparencyCategory: "POLETHIS/RIS route without public case output",
       countrySystemSummary:
-        "France is represented as a distributed integrity system with the national scientific-integrity framework, OFIS/RIS directory, institutional referents, annual-report examples at some institutions and separate biomedical ethics, data, IP, security and open-science boundaries.",
+        "France is represented as a distributed integrity system with a Research Code baseline, the Ofis/RIS directory, institutional referents and separate biomedical ethics, data, IP, security and open-science boundaries. RIS means referent a l'integrite scientifique, equivalent to a research integrity officer/RIO; Ofis is the French Office for Research Integrity inside Hceres.",
       nationalRoute:
-        "Paris-Saclay appears in the French RIS model: the OFIS directory and national charter framework identify referents, but case handling remains institution-level and no Paris-Saclay public signalement archive was located.",
+        "Paris-Saclay appears in the French RIS model: Research Code Articles D211-2, D211-3 and D211-4 create the national statutory route, the Ofis directory and national charter framework identify referents, and case handling remains institution-level unless a separate national or boundary route is triggered. No Paris-Saclay public signalement archive was located.",
       institutionalRoute:
         "Paris-Saclay is represented through POLETHIS and the network of scientific-integrity referents, which exchange practice, advise on breaches and confidentially instruct reported scientific-integrity matters. The CER-PS ethics committee is retained as a research-ethics boundary route.",
       committeeOrOffice: "POLETHIS; network of scientific-integrity referents; CER-PS as ethics-review boundary",
       procedureSummary:
-        "The POLETHIS scientific-integrity network page states that referents advise on and instruct matters concerning breaches of scientific integrity in confidence; the doctoral problems page points suspected ethics/integrity breaches to those referents. OFIS lists Paris-Saclay in the national RIS directory. The CER-PS functioning document supports research-ethics review activity and confidentiality, not misconduct publication.",
+        "The POLETHIS scientific-integrity network page states that referents advise on and instruct matters concerning breaches of scientific integrity in confidence; the doctoral problems page points suspected ethics/integrity breaches to those referents. Ofis lists Paris-Saclay in the national RIS directory. The CER-PS functioning document supports research-ethics review activity and confidentiality, not misconduct publication.",
       publicOutputSummary:
         "No Paris-Saclay public institutional misconduct case-output archive, annual RIS activity report, signalement statistics page or anonymized decision channel was identified in this pass. The CER-PS document mentions public activity reporting for ethics review, but that is boundary evidence rather than misconduct-output evidence.",
       transparencySummary:
@@ -1759,7 +1766,14 @@
           note: "Points suspected ethics or scientific-integrity breaches to the scientific-integrity referents."
         },
         {
-          label: "OFIS RIS directory",
+          label: "French Research Code scientific-integrity articles D211-2 to D211-4",
+          url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071190/LEGISCTA000048770016/",
+          type: "Research Code",
+          supports: "national statutory route for scientific-integrity duties",
+          note: "National or sector route source added from member validation."
+        },
+        {
+          label: "Ofis RIS directory",
           url: "https://www.ofis-france.fr/annuaire/",
           type: "national directory",
           supports: "French RIS directory and Paris-Saclay referent listing",
@@ -1773,7 +1787,7 @@
           note: "Ethics-review route with confidentiality and public activity-report provisions; not misconduct adjudication."
         }
       ],
-      tags: ["RIS network", "ethics-integrity", "POLETHIS", "OFIS", "procedure only"],
+      tags: ["RIS network", "ethics-integrity", "POLETHIS", "Ofis", "procedure only"],
       caveats: [
         "No Paris-Saclay public misconduct output channel was identified in this pass.",
         "CER-PS ethics review and doctoral-conflict routes are boundary/support routes unless a source explicitly connects them to misconduct handling.",
@@ -1804,16 +1818,19 @@
       reportStatus: "Detailed seed",
       profileStatus: "Transparency seed from existing project data",
       evidenceLevel: "Strong",
-      transparencyCategory: "Institutional annual report corridor",
+      validationStatus: "Updated with Sorbonne member validation on restricted case reporting",
+      transparencyCategory: "Visible annual statement; case-level reporting restricted/internal",
+      nationalRoute:
+        "Sorbonne sits in the French RIS model: Research Code Articles D211-2, D211-3 and D211-4 create the national statutory route, institutions appoint RIS (referents a l'integrite scientifique/RIOs), and Ofis inside Hceres coordinates the national system without becoming the local first-instance case board.",
       institutionalRoute:
-        "Sorbonne University is represented through a RIS-led scientific-integrity delegation, integrity committee and ambassador network.",
-      committeeOrOffice: "Scientific-integrity delegation, RIS, integrity committee and ambassador network",
+        "Sorbonne University is represented through a RIS-led scientific-integrity delegation, integrity committee and ambassador network. RIS means referent a l'integrite scientifique, equivalent to a research integrity officer/RIO.",
+      committeeOrOffice: "Scientific-integrity delegation, RIS/RIO, integrity committee and ambassador network",
       procedureSummary:
-        "RIS delegation and signalement procedure examples are present.",
+        "RIS delegation and signalement procedure examples are present. Ofis means Office francais de l'integrite scientifique and is a department of Hceres, the Haut conseil a l'evaluation de la recherche et de l'enseignement superieur.",
       publicOutputSummary:
-        "The 2025 integrity annual report is a representative institutional annual-report source with RIS, committee, ambassador-network and signalement activity evidence.",
+        "A visible Sorbonne annual statement/reporting source is present, but member validation indicates that reporting for the studied cases appears internal or available only through restricted access, including where release depends on university presidency acceptance.",
       transparencySummary:
-        "Annual activity and signalement reporting are present, but this is not a searchable decision archive.",
+        "Read Sorbonne as a visible annual-statement route plus restricted/internal case-level reporting, not as a public case-output archive.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
@@ -1829,16 +1846,59 @@
           note: "Shows RIS, committee, ambassadors and annual reports."
         },
         {
+          label: "French Research Code scientific-integrity articles D211-2 to D211-4",
+          url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071190/LEGISCTA000048770016/",
+          type: "Research Code",
+          supports: "national statutory route for scientific-integrity duties",
+          note: "National or sector route source added from member validation."
+        },
+        {
+          label: "Ofis: French Office for Research Integrity",
+          url: "https://www.ofis-france.fr/en",
+          type: "national office",
+          supports: "Ofis terminology and national coordination context",
+          note: "Ofis is the French Office for Research Integrity; use as national coordination context, not as a local case board."
+        },
+        {
+          label: "Hceres about us",
+          url: "https://www.hceres.fr/en/about-us",
+          type: "national authority context",
+          supports: "Hceres institutional context for Ofis",
+          note: "Hceres is the national evaluation council that hosts Ofis as a department."
+        },
+        {
           label: "Sorbonne University 2025 integrity annual report",
           url: "https://www.sorbonne-universite.fr/sites/default/files/media/2025-12/integrite_scientifique_rapport_activite_2025.pdf",
           type: "annual report",
           supports: "annual activity and signalement evidence",
-          note: "Supports annual activity and signalement evidence."
+          note: "Supports visible annual-statement/reporting evidence, but not public release of the studied case files."
+        },
+        {
+          label: "RESINT/Ofis manual for handling scientific-integrity signalements",
+          url: "https://www.ofis-france.fr/traitement-des-signalements-relatifs-a-lintegrite-scientifique-manuel-de-procedure",
+          type: "procedure manual",
+          supports: "procedure guidance for handling scientific-integrity signalements",
+          note: "Manual edited by RESINT and published by Ofis; added from member validation."
+        },
+        {
+          label: "Sorbonne University CER",
+          url: "https://cer.sorbonne-universite.fr",
+          type: "boundary route",
+          supports: "non-interventional human-subject research ethics review",
+          note: "Research ethics boundary route for non-interventional human-subject protocols; keep separate from RIS misconduct handling."
         }
       ],
-      tags: ["RIS", "annual report", "signalement"],
+      tags: ["RIS", "RIO", "annual statement", "restricted reporting", "signalement", "Ofis", "RESINT", "CER boundary"],
+      caveats: [
+        "The visible annual statement/reporting source should not be treated as a public case-file archive.",
+        "Member validation indicates case-level reporting for the studied files appears internal or restricted-access.",
+        "CPP/CNRIPH, CER and CEEA routes are adjacent ethics routes unless a public source explicitly connects them to RIS misconduct handling."
+      ],
+      reportNotes: [
+        "Updated on 29 June 2026 from Sorbonne member validation: Sorbonne remains visible through an annual statement/reporting route, but case-level reporting is coded as internal or restricted-access."
+      ],
       nextFollowUp:
-        "Extract Sorbonne annual-report fields and validate the concise member-facing description of the RIS network."
+        "Keep Sorbonne in the restricted/internal reporting group unless a public case-level decision, case-summary channel or explicitly public aggregate case table is identified."
     }),
     member({
       id: "university-of-strasbourg",
@@ -1853,22 +1913,22 @@
       evidenceLevel: "Moderate",
       transparencyCategory: "Scientific-integrity referent route",
       countrySystemSummary:
-        "France is a legally codified, institutionally executed and nationally coordinated network: institutions appoint scientific-integrity referents, while Ofis/Hceres coordinates and observes the national system and boundary regimes remain separate.",
+        "France is a legally codified, institutionally executed and nationally coordinated network: Research Code Articles D211-2, D211-3 and D211-4 form the statutory scientific-integrity route; institutions appoint RIS (referents a l'integrite scientifique/RIOs), while Ofis inside Hceres coordinates and observes the national system and boundary regimes remain separate.",
       nationalRoute:
-        "Strasbourg sits in the French RIS model. Ofis records the institution and the national 2022-2023 synthesis includes Strasbourg among responding establishments, but those national outputs should not be treated as a Strasbourg local case-output archive.",
+        "Strasbourg sits in the French RIS model. Ofis records the institution and the national 2022-2023 synthesis includes Strasbourg among responding establishments, but those national outputs should not be treated as a Strasbourg local case-output archive. Ofis means Office francais de l'integrite scientifique and is a department of Hceres.",
       institutionalRoute:
         "Strasbourg identifies a scientific-integrity referent who promotes and applies the university research deontology charter, receives and processes reports of non-compliance with scientific-integrity rules, and represents the university to Ofis and LERU on scientific integrity.",
       committeeOrOffice: "Referent for scientific integrity",
       procedureSummary:
-        "The referent page describes examples such as plagiarism, inappropriate manipulation or fabrication of data, authorship conflicts and undeclared conflicts of interest. The route verifies reports, opens an inquiry where needed, may seek expert advice, conducts adversarial instruction and submits recommendations to the university president for decision. OFIS confirms Strasbourg as a charter-signatory RIS institution; the university's ethics/deontology hub, HRS4R and doctoral pages are prevention or boundary context.",
+        "The referent page describes examples such as plagiarism, inappropriate manipulation or fabrication of data, authorship conflicts and undeclared conflicts of interest. The route verifies reports, opens an inquiry where needed, may seek expert advice, conducts adversarial instruction and submits recommendations to the university president for decision. Ofis confirms Strasbourg as a charter-signatory RIS institution; the university's ethics/deontology hub, HRS4R and doctoral pages are prevention or boundary context.",
       publicOutputSummary:
-        "No Strasbourg-owned public RIS annual activity report, local signalement statistics page, anonymized case-summary channel or public decision archive was identified in this pass. The OFIS 2022-2023 national synthesis is national/sector-level context and notes establishment reporting, but it is not a Strasbourg local output channel.",
+        "No Strasbourg-owned public RIS annual activity report, local signalement statistics page, anonymized case-summary channel or public decision archive was identified in this pass. The Ofis 2022-2023 national synthesis is national/sector-level context and notes establishment reporting, but it is not a Strasbourg local output channel.",
       transparencySummary:
-        "Detailed RIS route/no-local-output audit seed: the scientific-integrity referent route is visible and procedurally described, but public evidence remains route/procedure evidence plus national OFIS context rather than local public-output evidence.",
+        "Detailed RIS route/no-local-output audit seed: the scientific-integrity referent route is visible and procedurally described, but public evidence remains route/procedure evidence plus national Ofis context rather than local public-output evidence.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
-        annualReportOrCaseOutput: "none located locally; national OFIS synthesis context only",
+        annualReportOrCaseOutput: "none located locally; national Ofis synthesis context only",
         sourceRegistryLinks: 0
       },
       sourceLinks: [
@@ -1901,14 +1961,21 @@
           note: "Training/doctoral source; not misconduct adjudication."
         },
         {
-          label: "OFIS RIS directory entry for University of Strasbourg",
+          label: "French Research Code scientific-integrity articles D211-2 to D211-4",
+          url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071190/LEGISCTA000048770016/",
+          type: "Research Code",
+          supports: "national statutory route for scientific-integrity duties",
+          note: "National or sector route source added from member validation."
+        },
+        {
+          label: "Ofis RIS directory entry for University of Strasbourg",
           url: "https://www.ofis-france.fr/ris/universite-de-strasbourg/",
           type: "national directory",
           supports: "French RIS status and charter-signatory context",
           note: "Use only for institutional RIS/directory context; do not reproduce personal contact details."
         },
         {
-          label: "OFIS 2022-2023 synthesis on treatment of scientific-integrity breaches",
+          label: "Ofis 2022-2023 synthesis on treatment of scientific-integrity breaches",
           url: "https://www.ofis-france.fr/wp-content/uploads/2025/06/Ofis-Synthese-bisannuelle-2022-2023-traitement-manquements-integrite-scientifique.pdf",
           type: "national synthesis",
           supports: "national sector-level reporting context",
@@ -1919,15 +1986,15 @@
       caveats: [
         "Do not generalize Sorbonne or Paris-Saclay route evidence to Strasbourg.",
         "Research ethics, animal-research, HRS4R and doctoral-training sources are adjacent governance or prevention routes, not public misconduct-output evidence.",
-        "OFIS national synthesis material should not be coded as Strasbourg local output unless it gives Strasbourg-specific counts, cases or activity details.",
-        "Do not reproduce personal contact details from the referent or OFIS pages.",
+        "Ofis national synthesis material should not be coded as Strasbourg local output unless it gives Strasbourg-specific counts, cases or activity details.",
+        "Do not reproduce personal contact details from the referent or Ofis pages.",
         "Do not infer absence of Strasbourg cases from the absence of a public output channel."
       ],
       reportNotes: [
-        "Batch 4 upgraded Strasbourg to Detailed seed as a RIS route/no-local-output audit profile; the OFIS synthesis remains national context only."
+        "Batch 4 upgraded Strasbourg to Detailed seed as a RIS route/no-local-output audit profile; the Ofis synthesis remains national context only."
       ],
       nextFollowUp:
-        "Validate whether Strasbourg publishes annual RIS activity statistics, anonymized case summaries or a non-personal procedure document beyond the referent page and national OFIS context.",
+        "Validate whether Strasbourg publishes annual RIS activity statistics, anonymized case summaries or a non-personal procedure document beyond the referent page and national Ofis context.",
       memberValidationQuestions: [
         "Is the scientific-integrity referent the correct public first route for Strasbourg?",
         "Is there a non-personal procedure document or annual activity report that should be added?",
