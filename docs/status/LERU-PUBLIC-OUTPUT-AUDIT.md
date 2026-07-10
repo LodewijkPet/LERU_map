@@ -1,6 +1,6 @@
 # LERU Public Output Audit
 
-Status date: 2026-06-23
+Status date: 2026-06-29
 
 This audit records the completed Batch 1-5 public-output classification for all 24 official LERU member profiles in `data/leru-members.js`. It separates institution-owned local public output from national, regional, restricted, historical, boundary and procedure-only evidence.
 
@@ -8,10 +8,10 @@ This audit records the completed Batch 1-5 public-output classification for all 
 
 | Category | Count | Meaning |
 | --- | ---: | --- |
-| `local-output` | 13 | Institution-owned annual reports, anonymized summaries, report tables or decision/public-case corridors are visible. |
+| `local-output` | 12 | Institution-owned annual reports, anonymized summaries, report tables or decision/public-case corridors are visible. |
 | `national-or-sector-output` | 4 | Public output is national, regional or sector-level context rather than an institution-owned output channel. |
 | `procedure-only` | 5 | Public route/procedure evidence is visible, but no local public output channel was identified in this pass. |
-| `restricted-or-internal-output` | 1 | Output appears restricted or internal; public material is route/governance evidence. |
+| `restricted-or-internal-output` | 2 | Output appears restricted or internal; public material is route/governance evidence or only a high-level annual statement. |
 | `historical-or-case-specific` | 1 | Public material is historical or case-complex specific, not a current standing output channel. |
 | `boundary-only` | 0 | No member is currently coded as boundary-only. |
 | `unclear` | 0 | All 24 records now have a standardized category and note. |
@@ -48,9 +48,9 @@ Report-status counts after Batch 5: 24 Detailed seed, 0 Partial seed, 0 coverage
 | University of Milan | Italy | `restricted-or-internal-output` | Ethics Committee opinions/minutes appear restricted; public material is governance/procedure context rather than case output. | Ethics Committee page/regulation, Code of Ethics and Research Integrity, research report and document-access mapping. | Does the committee president's annual Senate report or any Code-violation opinion appear publicly in non-personal form? |
 | Ludwig-Maximilians-Universitat Munchen / LMU Munich | Germany | `procedure-only` | The 2023 GWP regulation is public and publication is discretionary after final decisions, but no standing output channel was identified. | LMU GWP regulation, Medical Faculty GWP resources and Graduate Center research-integrity training. | Is there a current non-personal ombudsperson or investigation-committee page with aggregate output? |
 | University of Oxford | United Kingdom | `local-output` | Local annual statements provide anonymized allegations and outcomes. | Oxford annual research-integrity reports and 2024 statement. | Which allegation category, outcome and student research-work fields should be extracted? |
-| Universite Paris-Saclay | France | `procedure-only` | POLETHIS/RIS procedure evidence is public; no Paris-Saclay-owned signalement statistics or case-output channel was identified. | POLETHIS RIS network, doctoral problems route, OFIS RIS directory and CER-PS ethics boundary rules. | Does Paris-Saclay publish annual RIS activity reports, non-personal signalement statistics or case-learning outputs? |
-| Sorbonne University | France | `local-output` | Local scientific-integrity annual reports provide annual activity and signalement evidence. | Sorbonne RIS/delegation page and 2025 integrity annual report. | Which RIS, committee, ambassador and signalement fields should be extracted? |
-| University of Strasbourg | France | `national-or-sector-output` | OFIS national synthesis is public context; no Strasbourg-owned RIS output channel was identified. | Strasbourg RIS referent page, ethics/deontology hub, OFIS RIS entry and OFIS 2022-2023 synthesis. | Does Strasbourg publish local RIS activity statistics, a procedure document or anonymized case summaries? |
+| Universite Paris-Saclay | France | `procedure-only` | POLETHIS/RIS procedure evidence is public; no Paris-Saclay-owned signalement statistics or case-output channel was identified. | POLETHIS RIS network, doctoral problems route, Ofis RIS directory and CER-PS ethics boundary rules. | Does Paris-Saclay publish annual RIS activity reports, non-personal signalement statistics or case-learning outputs? |
+| Sorbonne University | France | `restricted-or-internal-output` | A visible annual statement/reporting source is present, but member validation indicates case-level reporting for the studied files appears internal or restricted-access. | Sorbonne RIS/delegation page, 2025 integrity annual report, Research Code Articles D211-2 to D211-4, Ofis/Hceres context, RESINT/Ofis manual and Sorbonne CER boundary route. | Does Sorbonne publish any case-level decision, case-summary channel or explicitly public aggregate case table beyond the visible annual statement/reporting source? |
+| University of Strasbourg | France | `national-or-sector-output` | Ofis national synthesis is public context; no Strasbourg-owned RIS output channel was identified. | Strasbourg RIS referent page, ethics/deontology hub, Ofis RIS entry and Ofis 2022-2023 synthesis. | Does Strasbourg publish local RIS activity statistics, a procedure document or anonymized case summaries? |
 | Utrecht University | Netherlands | `local-output` | Utrecht annual-report evidence and UNL sector case PDFs provide institution-linked public output. | Utrecht complaints regulation, 2024 annual report and UNL Utrecht case PDFs. | How should university-hosted reporting and UNL sector publication be separated in row extraction? |
 | ETH Zurich | Switzerland | `local-output` | ETH has institution-owned anonymized investigation report and procedure-statistics tables. | ETH Integrity Commission page, anonymized report table and procedure-statistics table. | Which table fields should be normalized across report and procedure-statistics outputs? |
 | University of Zurich | Switzerland | `procedure-only` | UZH procedure and contextual news evidence are public, but no UZH-owned standing output channel was identified. | UZH research-integrity route, ethics/integrity overview, persons page, annual-report hub and official news context. | Does UZH publish aggregate statistics, annual integrity reporting or anonymized case summaries outside contextual news? |
@@ -62,3 +62,7 @@ Report-status counts after Batch 5: 24 Detailed seed, 0 Partial seed, 0 coverage
 - Heidelberg is coded `procedure-only` even though the rules require general anonymized reporting to the Rector, because that located reporting is internal rather than public.
 - Helsinki is coded `national-or-sector-output` because TENK statement summaries are a real national output channel, but the Helsinki member profile still has no local public output channel.
 - UZH remains separate from ETH Zurich: ETH tables must not be generalized to UZH.
+
+## Member Validation Updates
+
+- 29 June 2026 Sorbonne validation moved Sorbonne University from `local-output` to `restricted-or-internal-output`: the annual statement/reporting source remains visible, but case-level reporting for the studied files should be treated as internal or restricted-access.
