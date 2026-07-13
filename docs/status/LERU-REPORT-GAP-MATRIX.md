@@ -31,14 +31,14 @@ Current counts after the 29 June 2026 Sorbonne member-validation update: 24 Deta
 | University of Strasbourg | France | Detailed seed | Moderate | Available | National Ofis context only; no local output located | Strong | No Strasbourg-owned RIS annual activity report, local signalement statistics or anonymized case summaries located. | Validate whether Strasbourg publishes local RIS statistics, procedure documents or case-learning material beyond the referent page. |
 | Utrecht University | Netherlands | Detailed seed | Strong | Available | Available | Strong | Annual-report and UNL case PDFs not field-indexed. | Index by year, allegation type, CWI advice, LOWI step and board judgment. |
 | ETH Zurich | Switzerland | Detailed seed | Strong | Available | Available | Moderate | Anonymized report/statistics tables not field-indexed. | Index report and procedure-statistics tables; validate office/commission wording. |
-| University of Zurich | Switzerland | Detailed seed | Moderate | Available | Procedure-only: none located; official news is contextual only | Strong | Procedure clear, but no standing public output identified; ETH Zurich output must not be generalized to UZH. | Retest UZH annual reports, official news and integrity pages for aggregate statistics or anonymized summaries. |
+| University of Zurich | Switzerland | Detailed seed | Strong | Available | Procedure-only: none currently available; official news is contextual only | Strong | Member-validated three-instance route and cantonal rule basis; the Coordination Office is support, not a fourth procedural body; ETH Zurich output must not be generalized to UZH. | Recheck the ordinance, bodies, responsibilities and URLs when the substantially revised UZH framework is planned to enter force in early 2027. |
 
 ## Priority Reading
 
 Recommended next step after the executive-summary synthesis pass:
 
 1. Frits/Claire preview: use the report page and `docs/status/LERU-EXECUTIVE-SUMMARY-DRAFT.md` as the public-source draft package for initial discussion.
-2. Member-validation questionnaire: Geneva, Milan, Strasbourg, Freiburg, Trinity, Paris-Saclay, LMU, Heidelberg, Helsinki and UZH need confirmation that no local public output channel was missed and that boundary routes are framed correctly.
+2. Member-validation questionnaire: Geneva, Milan, Strasbourg, Freiburg, Trinity, Paris-Saclay, LMU, Heidelberg and Helsinki need confirmation that no local public output channel was missed and that boundary routes are framed correctly. UZH completed this validation on 13 July 2026.
 3. Field-index verified outputs: Universitat de Barcelona/CIR-CAT, Leiden University, Utrecht University, Lund University, UK annual-statement profiles, KU Leuven, University of Copenhagen and ETH Zurich. Treat Sorbonne separately as a visible annual-statement route with internal or restricted case-level reporting.
 4. Editorial/export pass: prepare a PDF or Word version after preview feedback, keeping the strict 14 `annualReportOrCaseOutput === "available"` evidence count separate from the broader public-output typology.
 
@@ -55,7 +55,7 @@ Recommended next step after the executive-summary synthesis pass:
 - Universite Paris-Saclay remained Partial seed: POLETHIS/RIS route evidence is strong, but no public RIS annual report, signalement statistics page or anonymized decision channel was located; CER-PS remains an ethics-review boundary.
 - LMU Munich remained Partial seed: the 17 November 2023 GWP regulation is strong procedure evidence, but no public case-output or annual-statistics corridor was found.
 - Heidelberg University remained Partial seed: the ombuds-to-commission route is clear, while fair-conduct, responsibility-in-science and ethics-review sources are boundaries and no public output was located.
-- University of Zurich remained Partial seed: the three-instance ombudsperson/delegate/Executive Board route is clear; the annual-report hub and official news are retest/context sources, not standing output channels.
+- University of Zurich remained Partial seed: the three-instance ombudsperson/delegate/Executive Board route is clear; the annual-report hub and official news are contextual sources for future checks, not standing output channels.
 
 ## Batch 4 Notes
 
@@ -76,6 +76,7 @@ Recommended next step after the executive-summary synthesis pass:
 ## Member Validation Notes
 
 - Sorbonne member validation on 29 June 2026 moved Sorbonne University from `local-output` to `restricted-or-internal-output`: a visible annual statement/reporting source remains, but case-level reporting for the studied files should be treated as internal or restricted-access.
+- UZH member validation on 13 July 2026 retained University of Zurich as `procedure-only`, confirmed that no standing public output is currently available, clarified the cantonal Integrity Ordinance and three-instance procedure, separated the supporting Coordination Office from the procedural bodies, and added a full route/URL review for the planned early-2027 revision.
 
 ## Report Synthesis Notes
 

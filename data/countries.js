@@ -51287,7 +51287,7 @@ window.COUNTRY_DATA = [
     region: "Western Europe",
     stage: "Deep dossier drafted",
     folder: "data/Switzerland",
-    systemType: "Federal, multi-layered model with a national code, SCCSI coordination and monitoring, funder procedures, institutional autonomy, and strong cantonal human- and animal-research regimes.",
+    systemType: "Federal, multi-layered model with a national code, SCCSI reporting, advice and monitoring, funder procedures, institutional autonomy, and strong cantonal human- and animal-research regimes.",
     summary:
       "Switzerland combines federal legal anchors, the 2021 Code of Conduct for Scientific Integrity, swissuniversities implementation, the new Swiss Competence Center for Scientific Integrity from 2026, SNSF and Innosuisse funder procedures, ETH-domain and university-level roles, and strong separate systems for human research, clinical trials, animal experiments, open data, international collaboration, and AI or dual-use issues. The case-file pass and 30 April 2026 quality check confirm selective public case visibility: SNSF publishes anonymised annual reporting and occasional case news, ETH Zurich exposes a public institutional list of anonymised investigation reports plus aggregate procedure counts, and SCCSI is now live as a national monitoring and advisory body rather than a case tribunal.",
     keyActors: [
@@ -51311,10 +51311,11 @@ window.COUNTRY_DATA = [
       "SNSF annual reports provide anonymised case counts and short summaries, while occasional SNSF news can expose a specific funder sanction; neither is a comprehensive national case archive.",
       "ETH Zurich's 2024 reform is now backed by a live institutional list with four anonymised report PDFs and a separate aggregate procedure table; this is an institutional fragment, not a Swiss national archive.",
       "The 30 April 2026 ENRIO check confirms a Switzerland country report exists but is dated May 2024, before SCCSI opened; ENRIO also lists SNSF and Swiss Academies as Swiss member institutions.",
+      "University of Zurich member validation on 13 July 2026 confirmed the cantonal Integrity Ordinance and three-instance route, clarified that the Research Integrity Coordination Office is a supporting office rather than a separate procedural body, and confirmed that UZH currently has no standing public misconduct-output channel.",
       "Human-research and animal-research ethics are strongly cantonal or supra-cantonal and should be modeled as separate but linked governance layers."
     ],
     nextFocus:
-      "Committee-and-case-file pilot and first quality-consolidation pass completed. Future Swiss work should index SNSF annual reports and case news by year, extract the four ETH Zurich anonymised reports plus aggregate procedure counts from the table endpoints, track SCCSI's first public annual report after the 2026 reporting cycle, widen institutional output checks through the Swiss Academies responsible-bodies directory, and keep RAPS/HumRes, Swissmedic and animal-experiment authorisations separate from misconduct case publication.",
+      "Committee-and-case-file pilot and first quality-consolidation pass completed. Future Swiss work should index SNSF annual reports and case news by year, extract the four ETH Zurich anonymised reports plus aggregate procedure counts from the table endpoints, track SCCSI's first public annual report after the 2026 reporting cycle, recheck the UZH ordinance, procedural bodies and URLs when its substantially revised framework is planned to enter force in early 2027, widen institutional output checks through the Swiss Academies responsible-bodies directory, and keep human-research ethics, Swissmedic, FOEN/BAFU, animal-research authorisations, third-party funding compliance and data protection separate from misconduct case publication.",
     documents: [
       {
         label: "Overview Switzerland.docx",
@@ -51863,18 +51864,32 @@ window.COUNTRY_DATA = [
                 category: "Institutional procedure",
                 scope: "All persons working scientifically at UZH at the time of misconduct, including doctoral students",
                 role:
-                  "UZH's integrity ordinance defines scientific misconduct and three procedural instances. Ombudspersons are the first central contact and conduct preliminary inquiries; the Research Integrity Delegate investigates; the Executive Board decides on closure and measures.",
+                  "UZH's cantonal Integrity Ordinance defines scientific misconduct, possible measures and three procedural instances. Ombudspersons receive reports and conduct preliminary inquiries; where allegations may be substantiated, they inform the Executive Board. The Research Integrity Delegate investigates on behalf of the Executive Board, which decides how to close the proceeding and which measures to take. The Research Integrity Coordination Office supports investigations and handles general inquiries but is not a separate procedural body under the ordinance.",
                 links: [
                   {
                     label: "UZH research integrity",
                     type: "Official page",
                     url: "https://www.research.uzh.ch/en/procedures/integrity.html"
+                  },
+                  {
+                    label: "UZH Integrity Ordinance",
+                    type: "Official cantonal regulation",
+                    url: "https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27"
+                  },
+                  {
+                    label: "UZH confidential ombudsperson contact form",
+                    type: "Official reporting route",
+                    url: "https://www.research.uzh.ch/en/procedures/integrity/kontakt_vertrauensperson.html"
                   }
                 ],
                 signals: [
                   "Clear three-instance structure.",
-                  "Ombudsperson and deputies combine advisory, supportive, mediatory and preliminary inquiry roles.",
-                  "Executive Board is the final institutional decision-maker."
+                  "The confidential online form routes case-specific consultation and suspected-misconduct reports to the ombudspersons and deputies.",
+                  "The Coordination Office is a support and general-inquiry route, not a fourth procedural instance.",
+                  "UZH authorship guidance primarily supports good research practice and can also provide a rule base in authorship-misconduct investigations.",
+                  "Executive Board is the final institutional decision-maker.",
+                  "Member validation confirms that UZH currently publishes no standing aggregate statistics, annual integrity report, anonymised case-summary series or public decision archive.",
+                  "The ordinance, responsible bodies, responsibilities and website URLs are planned for substantial revision in early 2027 and require a full recheck then."
                 ]
               },
               {
@@ -52395,17 +52410,25 @@ window.COUNTRY_DATA = [
               category: "Institutional three-instance procedure",
               scope: "University of Zurich",
               role:
-                "Ombudsperson/deputies, Research Integrity Delegate and Executive Board structure.",
+                "Cantonal Integrity Ordinance with an ombudsperson/deputies, Research Integrity Delegate and Executive Board procedure; the Research Integrity Coordination Office supports investigations and general inquiries without being a separate procedural instance.",
               documents: [
                 {
                   label: "UZH research integrity",
                   type: "Official page",
                   url: "https://www.research.uzh.ch/en/procedures/integrity.html"
+                },
+                {
+                  label: "UZH Integrity Ordinance",
+                  type: "Official cantonal regulation",
+                  url: "https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27"
                 }
               ],
               signals: [
                 "Explicit three-instance model.",
-                "Applies to doctoral students and all scientific workers."
+                "Applies to doctoral students and all scientific workers.",
+                "Confidential case-specific requests and reports go to the ombudspersons through the online form.",
+                "No standing UZH public misconduct-output channel is currently available.",
+                "Full route and URL recheck needed when the planned revised ordinance enters force in early 2027."
               ]
             },
             {
@@ -52913,6 +52936,22 @@ window.COUNTRY_DATA = [
           type: "Official page",
           scope: "Institutional ombudsperson/delegate/executive board procedure",
           url: "https://www.research.uzh.ch/en/procedures/integrity.html"
+        },
+        {
+          label: "UZH Integrity Ordinance",
+          type: "Official cantonal regulation",
+          date: "Current version accessed 13 July 2026",
+          scope: "Scientific-misconduct definition, procedure and possible measures",
+          url: "https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27",
+          note: "Official Canton of Zurich legislation page in German; UZH reports that a substantially revised ordinance is planned for early 2027."
+        },
+        {
+          label: "UZH confidential ombudsperson contact form",
+          type: "Official reporting route",
+          date: "Accessed 13 July 2026",
+          scope: "Case-specific consultation and suspected-misconduct reports",
+          url: "https://www.research.uzh.ch/en/procedures/integrity/kontakt_vertrauensperson.html",
+          note: "The online form is directed to the ombudspersons and deputies; the profile does not reproduce personal contact details."
         },
         {
           label: "University of Basel scientific integrity",

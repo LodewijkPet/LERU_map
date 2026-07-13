@@ -35,7 +35,7 @@
     sweden:
       "Sweden separates national Npof handling of research misconduct from local institutional handling of other deviations from good research practice.",
     switzerland:
-      "Switzerland is coded as fragmented funder and institutional visibility rather than one national misconduct board, with SNSF/ETH outputs and SCCSI monitoring/advice kept distinct.",
+      "Switzerland is represented as a fragmented cantonal, institutional and funder-linked integrity system rather than one national misconduct board, with SNSF/ETH outputs and SCCSI reporting, advice and monitoring kept distinct.",
     "united-kingdom":
       "The UK route is employer-led under the Concordat to Support Research Integrity, with annual statements as a recurring public-reporting corridor and health/animal/data regimes kept separate."
   };
@@ -145,7 +145,14 @@
     netherlands: ["research ethics review", "medical research ethics", "animal research", "data protection", "funder reporting"],
     spain: ["biomedical ethics", "animal research", "data protection", "IP", "open science"],
     sweden: ["ethical review", "animal testing ethics", "clinical trials", "data protection", "biobanks"],
-    switzerland: ["swissethics/RAPS/HumRes", "Swissmedic", "animal authorisations", "SNSF funding compliance", "data protection"],
+    switzerland: [
+      "institutional and cantonal research-ethics review",
+      "Swissmedic",
+      "FOEN/BAFU",
+      "animal-research authorisations",
+      "third-party funding compliance",
+      "data protection"
+    ],
     "united-kingdom": ["HRA/NHS ethics", "AWERB", "UKRI/funder compliance", "data protection", "charity and public-body routes"]
   };
 
@@ -200,7 +207,7 @@
     "university-of-strasbourg": "Public output located is Ofis national context; no Strasbourg-owned output channel was identified.",
     "utrecht-university": "Utrecht annual-report evidence and UNL sector case PDFs provide institution-linked public output.",
     "eth-zurich": "Institution-owned anonymized investigation report and procedure-statistics tables provide public output.",
-    "university-of-zurich": "Procedure and contextual news evidence are public, but no UZH-owned standing output channel was identified."
+    "university-of-zurich": "The legal framework, procedure and contextual news evidence are public, but July 2026 UZH member validation confirms that no UZH-owned standing output channel is currently available."
   };
 
   const defaultCoverage = {
@@ -308,7 +315,7 @@
     title: "LERU research integrity member view",
     reportTitle: "Research integrity routes and transparency at LERU member universities",
     status: "Public-source report for member review",
-    lastUpdated: "2026-06-29",
+    lastUpdated: "2026-07-13",
     sourceBasis:
       "Official LERU members page plus existing country dossiers, transparency records, source registry entries and country source notes in this repository.",
     caveat:
@@ -2158,28 +2165,38 @@
       city: "Zurich",
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
-      profileStatus: "Detailed procedure-only/no-output audit seed",
-      validationStatus: "Needs member validation of UZH output-negative finding",
-      evidenceLevel: "Moderate",
+      profileStatus: "Member-validated procedure-only/no-output profile",
+      validationStatus: "Updated with UZH member validation on route, office role and public reporting",
+      evidenceLevel: "Strong",
       transparencyCategory: "Three-instance procedure route",
       countrySystemSummary:
-        "Switzerland is represented as a fragmented institutional and funder-linked integrity system, now with SCCSI as a national coordination layer but without a national public misconduct case tribunal. ETH Zurich has institution-specific public output; UZH must be treated separately.",
+        "Switzerland is represented as a fragmented cantonal, institutional and funder-linked integrity system, now with SCCSI as a national reporting, advisory and monitoring layer but without a national public misconduct case tribunal. ETH Zurich has institution-specific public output; UZH must be treated separately.",
       nationalRoute:
-        "UZH sits inside the Swiss institution-first model: the UZH ordinance and procedure define local handling, while SCCSI and Swiss Academies material are national framework context rather than a UZH case-output route.",
+        "UZH sits inside the Swiss institution-first model. Its Integrity Ordinance is cantonal legislation that defines the local procedure, scientific misconduct and possible measures. SCCSI provides national reporting, advice and monitoring, while the Swiss Academies' code supplies national framework context; neither is a UZH case-reporting route.",
       institutionalRoute:
-        "UZH's integrity ordinance defines scientific misconduct and three procedural instances: ombudspersons receive reports and conduct preliminary inquiries, the Research Integrity Delegate investigates on behalf of the Executive Board, and the Executive Board decides on closure and measures.",
-      committeeOrOffice: "Ombudspersons and deputies; Research Integrity Delegate and deputy; Research Integrity Coordination Office; Executive Board",
+        "UZH's Integrity Ordinance defines three procedural instances. Ombudspersons receive reports and conduct preliminary inquiries; where the allegations may be substantiated, they inform the Executive Board. The Research Integrity Delegate then investigates on behalf of the Executive Board, which decides how to close the proceeding and which measures to take.",
+      committeeOrOffice:
+        "Procedural bodies: Ombudspersons and deputies; Research Integrity Delegate and deputy; Executive Board. Supporting office: Research Integrity Coordination Office, which supports investigations and handles general inquiries but is not a separate procedural body under the Integrity Ordinance.",
       procedureSummary:
-        "The current UZH research-integrity page gives a complete three-instance route, links the integrity ordinance and routes confidential reports through the ombudspersons. The broader UZH ethics page repeats the consultation-investigation-decision structure.",
+        "The current UZH research-integrity page gives the complete three-instance route and links the Integrity Ordinance. A confidential online form sends case-specific consultation requests and reports of suspected misconduct to the ombudspersons; the Coordination Office is a general-inquiry and investigation-support route, not a case-reporting body. UZH authorship guidance primarily supports good research practice and can also provide a rule base in authorship-misconduct investigations.",
+      publicOutputCategoryNote:
+        "The legal framework, procedure and contextual news evidence are public, but UZH member validation received on 13 July 2026 confirms that no aggregate statistics, annual integrity report, anonymized case-summary series or public decision archive is currently available.",
       publicOutputSummary:
-        "No UZH public misconduct case-output channel, anonymized decision archive or annual integrity-statistics page was identified in this pass. The annual-report hub is a retest point and official UZH news gives limited contextual references to case volume, but neither source is a standing misconduct-output channel.",
+        "UZH member validation received on 13 July 2026 confirms that no public misconduct case-reporting channel, anonymized decision archive, annual integrity report or aggregate integrity-statistics page is currently available. The UZH annual-report hub and official news are contextual sources, not standing misconduct-output channels.",
       transparencySummary:
-        "Procedure visibility is strong and current, but public output remains unlocated. UZH should not be confused with ETH Zurich, whose separate institutional report tables are stronger public-output evidence.",
+        "The legal framework and procedure are public, but UZH does not currently publish standing public case output. This does not imply absence of cases or internal reporting. UZH should not be confused with ETH Zurich, whose separate institutional report tables are stronger public-output evidence.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located; official news contextual only",
-        sourceRegistryLinks: 1
+        sourceRegistryLinks: 3
+      },
+      committeeCodeSource: {
+        label: "UZH Integrity Ordinance",
+        url: "https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27",
+        type: "cantonal regulation",
+        supports: "local procedure, definition of scientific misconduct and possible measures",
+        note: "Official Canton of Zurich legislation page, available in German. This is the institution-specific legal and procedural baseline; the Swiss Code of Conduct remains national context."
       },
       sourceLinks: [
         {
@@ -2187,7 +2204,14 @@
           url: "https://www.research.uzh.ch/en/procedures/integrity.html",
           type: "official",
           supports: "institutional three-instance route",
-          note: "Institutional three-instance route: ombudsperson, Research Integrity Delegate and Executive Board."
+          note: "Shows the ombudspersons, Research Integrity Delegate and Executive Board route, the confidential reporting form and the supporting role of the Coordination Office."
+        },
+        {
+          label: "UZH Integrity Ordinance",
+          url: "https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27",
+          type: "regulation",
+          supports: "cantonal legal basis for the UZH integrity procedure",
+          note: "Official Canton of Zurich legislation page in German; defines scientific misconduct, the procedure and possible measures."
         },
         {
           label: "UZH ethics and integrity overview",
@@ -2200,15 +2224,22 @@
           label: "UZH research integrity persons page",
           url: "https://www.research.uzh.ch/en/procedures/integrity/persons.html",
           type: "office page",
-          supports: "coordination office and non-personal route directory",
-          note: "Use office/role structure only; do not reproduce personal contact details."
+          supports: "ombudsperson, delegate and supporting-office directory",
+          note: "Lists the ombudspersons, Research Integrity Delegates and Coordination Office staff. The Coordination Office handles general inquiries and supports investigations; it is not a separate procedural body."
+        },
+        {
+          label: "UZH confidential ombudsperson contact form",
+          url: "https://www.research.uzh.ch/en/procedures/integrity/kontakt_vertrauensperson.html",
+          type: "confidential reporting route",
+          supports: "case-specific consultation and suspected-misconduct reports",
+          note: "Online form directed to the ombudspersons and deputies; personal contact details are not reproduced in the profile."
         },
         {
           label: "UZH annual report hub",
           url: "https://www.uzh.ch/en/explore/portrait/annualreport.html",
           type: "annual report hub",
-          supports: "annual-report retest point",
-          note: "Annual-report hub includes the 2025 report link, but no standing research-misconduct output was identified in this pass."
+          supports: "institutional annual-report location",
+          note: "The hub includes the 2025 report, but UZH member validation confirms that it is not currently a standing research-misconduct output channel."
         },
         {
           label: "UZH news: Researchers Who Cheat",
@@ -2218,26 +2249,21 @@
           note: "Use only as contextual evidence for the procedure and limited aggregate references; it is not a recurring output channel."
         }
       ],
-      tags: ["official-source seed", "ombudsperson", "Research Integrity Delegate", "procedure only", "Swiss institutional route", "annual-report retest"],
+      tags: ["member validated", "ombudsperson", "Research Integrity Delegate", "procedure only", "cantonal ordinance", "Swiss institutional route", "2027 revision watch"],
       caveats: [
-        "No UZH public case-output channel was identified in this pass.",
+        "UZH member validation confirms that no public aggregate statistics, annual integrity reporting, anonymized case summaries or decision archive is currently available.",
         "Do not generalize ETH Zurich's anonymized report tables to UZH.",
         "Do not reproduce personal contact details from UZH role/person pages.",
         "Treat UZH news references as contextual only, not as a standing annual-statistics or case-publication corridor.",
-        "Do not infer absence of UZH cases from the absence of a public output channel."
+        "Do not infer absence of UZH cases from the absence of a public output channel.",
+        "UZH reports that its Integrity Ordinance is under substantial revision, with changed procedures, responsible bodies, responsibilities and website URLs planned for early 2027; the current profile and links must be rechecked when the revised ordinance enters force."
       ],
       reportNotes: [
-        "Batch 5 upgraded UZH to Detailed seed as a procedure-only/no-output audit profile because the three-instance route is clear and public-output evidence remains unlocated."
+        "Updated on 13 July 2026 from UZH member validation: clarified the cantonal legal basis, the three-instance sequence, the Coordination Office's supporting role, the confidential ombudsperson form, the no-public-output finding and the planned early-2027 revision."
       ],
       nextFollowUp:
-        "Retest UZH annual reports, official news and the research-integrity pages for aggregate statistics, anonymized summaries or policy updates after the 2025 authorship-guideline changes.",
-      memberValidationQuestions: [
-        "Is the ombudspersons -> Research Integrity Delegate -> Executive Board route the correct public framing for UZH?",
-        "Should the Research Integrity Coordination Office be shown as an office route without personal details?",
-        "Does UZH publish aggregate statistics, annual integrity reporting or anonymized case summaries?",
-        "How should authorship-guideline, ethics, human-research and animal-research routes remain separate from misconduct handling?",
-        "Is there a member-preferred public URL for the integrity ordinance and current procedure?"
-      ]
+        "Recheck the Integrity Ordinance, procedural bodies, responsibilities and all UZH integrity URLs when the planned revised ordinance is expected to enter force in early 2027; also check whether the replacement site introduces public aggregate reporting.",
+      memberValidationQuestions: []
     })
   ];
 })();

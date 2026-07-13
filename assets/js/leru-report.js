@@ -611,7 +611,7 @@
       record.publicOutputSummary || record.transparencySummary,
       "The recorded public sources do not yet describe public activity, case counts or case types for this route."
     );
-    return `The public source set currently identifies ${route}. ${yearSentence} The activity picture visible from public sources is: ${activity} Where founding dates, cumulative case totals, allegation types or outcomes are not stated in public sources, those points remain for member review.`;
+    return `The public source set currently identifies ${route}. ${yearSentence} The activity picture visible from public sources is: ${activity} The reviewed public sources provide no additional detail where founding dates, cumulative case totals, allegation types or outcomes are not stated.`;
   }
 
   function getComparativeInterest(record) {

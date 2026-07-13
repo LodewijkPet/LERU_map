@@ -254,3 +254,22 @@ The 30 April 2026 quality pass confirms the Swiss dossier but sharpens the date 
 - Use the Swiss Academies responsible-bodies directory as the institutional widening matrix and test whether any listed route exposes reports, annual statistics or anonymised decisions.
 - Track SCCSI's first public annual report after the 2026 reporting cycle, but keep it coded as monitoring unless it publishes more than aggregate non-personal data.
 - Keep RAPS/HumRes, Swissmedic, FSVO/animex-ch, open science, data protection, knowledge security and animal-research authorisation material as boundary lanes unless the source explicitly records a research-misconduct finding.
+
+## University of Zurich member validation - 13 July 2026
+
+UZH member feedback and a same-day check of the official public pages sharpen the institutional route without changing Switzerland's fragmented-transparency classification.
+
+- The UZH Integrity Ordinance is cantonal legislation. It defines scientific misconduct, the local procedure and possible measures.
+- The procedure has three instances: ombudspersons and deputies receive reports and conduct preliminary inquiries; where allegations may be substantiated, they inform the Executive Board; the Research Integrity Delegate investigates on behalf of the Executive Board; and the Executive Board decides how to close the proceeding and which measures to take.
+- The Research Integrity Coordination Office is not a separate procedural body under the ordinance. It supports investigations and handles general research-integrity inquiries.
+- The confidential online form is directed to the ombudspersons and deputies for case-specific consultation and reports of suspected misconduct.
+- UZH confirmed that it currently publishes no aggregate integrity statistics, annual integrity report, anonymised case-summary series or public decision archive. The annual-report hub and official news remain contextual sources only.
+- Authorship guidance can support good practice and may also be used as a rule base in authorship-misconduct investigations. Research ethics, human-research ethics, Swissmedic, FOEN/BAFU, animal-research authorisation, third-party funding compliance and data protection remain separate routes.
+- UZH reports that the Integrity Ordinance is under substantial revision. Changes to procedures, responsible bodies, responsibilities, website content and URLs are planned for early 2027, so the profile needs a full source and route recheck when the revised ordinance enters force.
+
+Current official sources checked on 13 July 2026:
+
+- UZH research integrity: https://www.research.uzh.ch/en/procedures/integrity.html
+- UZH Integrity Ordinance: https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27
+- UZH persons and office directory: https://www.research.uzh.ch/en/procedures/integrity/persons.html
+- UZH confidential ombudsperson contact form: https://www.research.uzh.ch/en/procedures/integrity/kontakt_vertrauensperson.html
