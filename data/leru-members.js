@@ -2,7 +2,7 @@
   const leruSource = {
     label: "LERU member page",
     url: "https://www.leru.org/members",
-    accessed: "2026-06-23"
+    accessed: "2026-07-15"
   };
 
   const defaultValidationQuestions = [
