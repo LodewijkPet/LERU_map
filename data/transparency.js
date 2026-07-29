@@ -1114,7 +1114,7 @@ window.TRANSPARENCY_DATA = [
     score: 3,
     tier: "Micro-publication nodes without a national misconduct archive",
     mainBody:
-      "CNR Research Ethics and Integrity Committee / RI Unit, university committees, Sapienza governance minutes, AIFA and local clinical-study pages, CNB opinions and Garante decisions.",
+      "CNR Research Ethics and Integrity Committee / RI Unit, university committees, Sapienza governance minutes, University of Milan restricted case records and internal statistics, AIFA and local clinical-study pages, CNB opinions and Garante decisions.",
     coverage:
       "Distributed institutional and boundary-regime visibility: CNR documents and responses, university committee pages or annual reports, clinical-trial open data, bioethics opinions and data-protection decisions.",
     publicAccess:
@@ -1124,9 +1124,9 @@ window.TRANSPARENCY_DATA = [
     format: "Official webpages, PDFs, CSV/open-data, annual report, restricted-record notice",
     hasArchive: false,
     keyNote:
-      "Italy confirms the micro-publication-node problem: many small official data, opinion, study-level or governance-minutes sources exist, but most are approval, advisory, regulatory or institutional traces rather than misconduct case files. Code public fields and non-public/restricted fields separately.",
+      "Italy confirms the micro-publication-node problem: many small official data, opinion, study-level or governance-minutes sources exist, but most are approval, advisory, regulatory or institutional traces rather than misconduct case files. University of Milan member validation confirms a restricted/internal case record with minutes, concluding opinions and statistics; code this as records that exist but are not publicly accessible.",
     sourcePath: "data/transparency_research_integrity_europe_overview.docx",
-    sourceDate: "2026-04-23",
+    sourceDate: "2026-07-16",
     resources: [
       {
         label: "CNR ethics documents archive",
@@ -1182,11 +1182,11 @@ window.TRANSPARENCY_DATA = [
         label: "University of Milan Ethics Committee",
         url: "https://www.unimi.it/it/ateneo/governance-e-linee-strategiche/organi-di-governo/comitato-etico",
         resourceClass: "Institutional committee page",
-        scope: "Research-project ethics and non-disciplinary ethics/integrity opinions",
+        scope: "Project ethics since 2007 and non-disciplinary research-integrity inquiries since July 2015; disciplinary cases follow the separate Disciplinary Board route",
         caseLevelInfo:
-          "Public page states that committee minutes are available only with restricted access through Unimibox",
+          "Member validation confirms that violation cases are recorded in minutes and conclude with opinions; minutes and opinions are restricted official records, and internal statistics may be requested by governance",
         comment:
-          "Useful negative evidence because it explains where the record exists and why the public trail stops."
+          "Positive evidence of an internal case-record system; classify as restricted/internal output rather than absence of records or public case publication."
       },
       {
         label: "Garante Privacy Doc-Web 10057629",

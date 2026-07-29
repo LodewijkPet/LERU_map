@@ -1,0 +1,510 @@
+# AGENTS.md
+
+This file is the standing handoff for continuing the LERU map data collection.
+
+Use it when adding a new country, deepening an overview into a full dossier, or doing a final sweep on an already-expanded country.
+
+## Project Goal
+
+Build and maintain a source-linked overview of research integrity systems across Europe.
+
+The app compares countries by:
+
+- national research integrity bodies
+- institutional procedures and committees
+- funder requirements
+- public case publication and transparency
+- boundary regimes such as biomedical ethics, animal research, data protection, IP, open science, and quality assurance
+
+The output is a static web app plus a project overview page.
+
+## Current State
+
+Status as of 30 April 2026:
+
+- 49 country records are represented in `data/countries.js`.
+- 40 readable `Overview <Country>.docx` files are already represented in the app.
+- 40 country records are explicitly labelled `Deep dossier drafted`.
+- 35 country entries are represented in `data/transparency.js`.
+- `data/source-registry.csv` currently holds 1550 entries.
+- `North Macedonia`, `San Marino`, `Monaco`, `Malta`, `Liechtenstein`, `Georgia`, `Azerbaijan`, `Armenia`, `Andorra`, `Albania`, `Kosovo`, `Bosnia and Herzegovina`, `Iceland`, `Belarus`, `Bulgaria`, `Serbia`, `Cyprus`, `Luxembourg`, `Latvia`, `Ireland`, `Austria`, `Switzerland`, `Spain`, `Slovenia`, `Czechia`, `Belgium`, `Croatia`, `Hungary`, `Russia`, `Ukraine`, `Turkey`, `Estonia`, `Greece`, `Portugal`, `Poland`, `Montenegro`, `Moldova`, `Slovakia`, `Sweden`, the `United Kingdom`, `Germany`, and `France` all have recent committee-and-case-file, reconciliation, or first-dossier work; the current practical work is final sweeps, missing-overview drafting, and the committee-and-case-file pilot workflow, now tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia.
+
+Current special cases:
+
+- `Albania`, `Andorra`, `Armenia`, `Azerbaijan`, `Georgia`, `Liechtenstein`, `Malta`, `Monaco`, and `San Marino` have first expanded app dossiers but no overview documents yet.
+- `United Kingdom` now has a synthesized `Overview United Kingdom.docx`, a reconciled app dossier, and the first quality-consolidation pilot; the remaining UK work is bulk annual-statement indexing plus broader government, NHS, charity, independent research-organisation, AWERB and university research-ethics harvesting.
+- `Vatican City` has a data folder but is not yet represented as an app country profile.
+
+## Where Things Live
+
+- `index.html`: main app page
+- `reports/project-overview.html`: project briefing and progress tracker
+- `assets/js/app.js`: rendering logic
+- `assets/css/styles.css`: styling
+- `assets/images/`: shared visual assets
+- `protocol/index.html`: protocol page
+- `docs/workflows/CASE-FILE-WORKFLOW.md`: dedicated instructions for the committee-and-case-file discovery pass
+- `docs/plans/NEXT-PHASE-QUALITY-PLAN.md`: quality-consolidation plan for current-source checks, ENRIO cross-checks, codes of conduct, committee directories, repository indexing, and missing overview completion
+- `data/countries.js`: main app dataset
+- `data/transparency.js`: extracted transparency layer
+- `data/source-registry.csv`: registry of collected web/PDF sources
+- `data/extraction-status.md`: overview extraction status
+- `data/overview-extraction-log.csv`: overview extraction log
+- `data/transparency-extraction-log.csv`: transparency extraction log
+
+Each country has a folder in `data/<Country>/` with:
+
+- `Overview <Country>.docx` when available
+- `raw documentation/` subfolders for laws, procedures, codes, ethics bodies, monitoring, source notes, etc.
+
+## What To Do Next
+
+### Immediate next method pass
+
+1. Quality-consolidation pass
+
+Start with:
+
+- `docs/plans/NEXT-PHASE-QUALITY-PLAN.md`
+- `docs/workflows/CASE-FILE-WORKFLOW.md`
+- existing deep dossiers in `data/countries.js`
+- current country source notes in `data/<Country>/raw documentation/source notes/`
+- the country `transparency` blocks and `integrityCommittees` directories already in the app
+
+The project has now completed committee-and-case-file passes for all 40 deep dossiers. The next phase is to raise every represented country toward top-tier quality: verify current source versions, cross-check ENRIO country reports where available, identify the main codes of conduct, normalize committee and institution directories, index the strongest public-output repositories, and keep boundary regimes separate.
+
+### Suggested next quality pilots for calibrating the method
+
+The United Kingdom, Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg, North Macedonia, Austria and the Netherlands completed the first twelve quality-consolidation pilots by 30 April 2026. Belgium has now completed the first post-calibration quality pass using the same working-note pattern: source-currency note, ENRIO status, main code baseline, annual-report or repository directory seed, funder matrix, boundary targets, stable app-data updates, source-registry entries and syntax checks. Switzerland has now completed the next first-pass quality check, reconciling ENRIO's May 2024 report with SCCSI's 2026 launch and preserving the SNSF/ETH fragmented transparency model. Czechia has now completed the next first-pass quality check from the remaining deep dossiers, confirming the ENRIO/CAS no-national-commission baseline and adding JCU as a second institutional statements/minutes corridor alongside Charles University. Slovenia has now completed the next first-pass quality check, reconciling ENRIO's older country-report wording with the current National Council member route, preserving the no-live-opinion-archive coding and adding ARIS as a funder/open-science implementation route. Latvia now has a full-text UL decision classification plus a completed LAS/LCS output retest and public-research-institute route-widening seed; its next work is institute-code field indexing and optional UL structured-decision migration. Ireland now has a structured NRIF annual-statistics index for 2016-2023. North Macedonia has a first AQHE/UKIM/SEEU follow-up extraction seed and still needs full-field indexing; Luxembourg has a first LARI annual-report extraction seed and should now be monitored for the pending 2023/2024 report plus LIH/LIST route verification; Austria now has an OeAWI/FWF extraction seed and still needs OeAWI annual-report plus FWF statistics field indexing; the Netherlands now has a LOWI/UNL/VH/NWO field-indexing target after its ENRIO/code/source-current pass.
+
+### Countries already signalling high-yield quality work
+
+- `North Macedonia` full-field AQHE/UKIM/SEEU extraction after first structured follow-up seed
+- `Luxembourg` LARI annual-report extraction seed completed; continue 2023/2024 report monitoring, LIH suspected-misconduct procedure verification and LIST updated-code or terms-of-reference follow-up
+- `Latvia` institute-code and boundary-source field indexing for ISSP UL, LIOS, EDI, LVKKI and BMC/Genome, periodic LAS/LCS output retesting and optional migration of the completed 78-row UL full-text classification into a structured decision dataset
+- `Poland` PAN annual-report field indexing, renewed plenary-note monitoring, broader university/PAN-institute/Lukasiewicz route checks and NKB/animal boundary extraction follow-up
+- `Greece` NTUA/Harokopio/AUEB/Thessaly/HMU and EOF/CTIS indexing follow-up
+- `Portugal` U.Porto/CEIUC/FCT/polytechnic indexing follow-up
+- `France` repository-indexing follow-up
+- `United Kingdom` bulk extraction follow-up
+- `Germany` bulk extraction follow-up
+- `Netherlands` LOWI 2025 opinion indexing, UNL 2025-2026 row indexing, VH 2022/2025 hbo file comparison, NWO annual-report field extraction and non-UNL LOWI-affiliate route widening
+- `Belgium` VCWI 2013-2025 annual-report field indexing, KU Leuven/UAntwerpen row extraction, wider Flemish and FWB institutional output retesting and CSIS output monitoring
+
+### Missing overview drafting and representation gaps
+
+- `Albania`, `Andorra`, `Armenia`, `Azerbaijan`, `Georgia`, `Liechtenstein`, `Malta`, `Monaco`, and `San Marino` need formal overview documents based on their first expanded app dossiers.
+- `Vatican City` has a data folder but is not yet represented as an app country profile.
+
+## Standard Workflow For One Country
+
+### 1. Start with the local overview
+
+Always begin with:
+
+- `data/<Country>/Overview <Country>.docx`
+
+Use it to identify:
+
+- the likely national integrity model
+- core actors
+- candidate source types
+- likely boundaries
+- likely institutional examples
+
+### 2. Check the local country folder
+
+Inspect:
+
+- `data/<Country>/raw documentation/`
+
+Use any existing files or source notes before going online.
+
+### 3. Expand with official online documentation
+
+Prefer official sources in this order:
+
+1. national legislation databases
+2. ministries of education / research / science
+3. national research integrity, ethics, or quality assurance bodies
+4. national academies
+5. funders
+6. universities and public research institutes
+7. biomedical ethics bodies
+8. data protection authorities
+9. IP authorities
+10. animal research or clinical trial authorities
+
+Use non-official sources only if absolutely necessary, and label the limitation clearly.
+
+### 4. Map the country as a system
+
+Do not just collect documents. Identify:
+
+- where the network starts
+- where the strongest national route sits
+- what is handled institutionally
+- what is only a boundary regime
+- where public accountability exists
+- where the evidence is missing or inaccessible
+
+Important rule:
+
+- Do not invent a single national misconduct board if the country actually has a distributed system.
+
+### 5. Update `data/countries.js`
+
+Every country entry must have the core overview fields:
+
+- `id`
+- `mapId`
+- `name`
+- `shortName`
+- `region`
+- `stage`
+- `folder`
+- `systemType`
+- `summary`
+- `keyActors`
+- `documentLabels`
+- `dataSignals`
+- `nextFocus`
+- `documents`
+
+For a full deep dossier, also add:
+
+- `transparency`
+- `dossierDetails`
+
+### 6. Update the tracker
+
+After finishing a country, update `reports/project-overview.html`:
+
+- change the country status row
+- update the current focus callout
+- move the current focus or next-country marker if it changed
+- update any summary counts if they changed
+
+### 7. Verify the app still works
+
+At minimum run:
+
+```powershell
+node --check data/countries.js
+node --check assets/js/app.js
+```
+
+Do not add browser or visual-inspection work to the default checklist unless the user explicitly asks for it.
+
+## Deep Dossier Structure
+
+When a country is ready to move from overview to full dossier, the structure in `data/countries.js` should follow the current renderer.
+
+### `transparency`
+
+Use this for country-specific case-publication notes, especially when:
+
+- the country is outside the scope of `data/transparency.js`
+- the default transparency layer is too generic
+- the country has an unusual publication model
+
+Current fields:
+
+- `tier`
+- `mainBody`
+- `coverage`
+- `publicAccess`
+- `hasArchive`
+- `publicationModel`
+- `format`
+- `sourceDate`
+- `keyNote`
+- `resources`
+
+Each `resources` item can include:
+
+- `label`
+- `url`
+- `resourceClass`
+- `scope`
+- `caseLevelInfo`
+- `comment`
+
+### `dossierDetails`
+
+Current top-level fields:
+
+- `readingGuide`
+- `networkExtent`
+- `systemMap`
+- `networkLayers`
+- `integrityCommittees`
+- `evidenceCategories`
+- `boundaries`
+- `timeline`
+- `sourceLinks`
+
+#### `systemMap`
+
+Each item uses:
+
+- `label`
+- `startsAt`
+- `travelsThrough`
+- `endsAt`
+
+#### `networkLayers`
+
+Each layer uses:
+
+- `title`
+- `summary`
+- `actors`
+
+Each actor typically uses:
+
+- `name`
+- `category`
+- `since`
+- `scope`
+- `role`
+- `documents`
+- `signals`
+
+#### `integrityCommittees`
+
+Use this as a route directory, not just a list of formal committees.
+
+Fields:
+
+- `summary`
+- `methodology`
+- `groups`
+
+Each group uses:
+
+- `title`
+- `description`
+- `committees`
+
+Each committee route typically uses:
+
+- `institution`
+- `committee`
+- `status`
+- `scope`
+- `since`
+- `route`
+- `links`
+- `signals`
+
+#### `evidenceCategories`
+
+Each item uses:
+
+- `label`
+- `purpose`
+- `examples`
+- `startsAt`
+- `endsAt`
+
+#### `boundaries`
+
+Each item uses:
+
+- `label`
+- `handledBy`
+- `examples`
+- `watchPoint`
+
+#### `timeline`
+
+Each item uses:
+
+- `date`
+- `title`
+- `type`
+- `actors`
+- `importance`
+- `source`
+- `sourceUrl`
+
+Use absolute dates where possible, for example `25 April 2025`, not relative wording.
+
+#### `sourceLinks`
+
+Use this as the public source backbone for the dossier.
+
+Each item can include:
+
+- `label`
+- `type`
+- `date`
+- `path`
+- `url`
+- `note`
+
+## What Counts As A Good Country Deep Dive
+
+A good country deep dive does all of the following:
+
+- clearly states whether the country has one national integrity body or a distributed system
+- separates research integrity from adjacent regimes
+- identifies the strongest national route
+- shows how the institutional layer works
+- includes funders where relevant
+- includes biomedical ethics, animal research, data protection, IP, open science, or other boundaries when relevant
+- includes a timeline of major legal and institutional developments
+- includes a source backbone built mostly from official sources
+- marks gaps honestly
+
+## Boundary Rules
+
+Keep these distinctions clear:
+
+- research misconduct vs research ethics approval
+- misconduct handling vs quality assurance
+- funder monitoring vs misconduct adjudication
+- academic integrity in teaching vs research integrity in research
+- data protection vs research misconduct
+- IP disputes vs authorship / integrity disputes
+- anti-corruption, whistleblowing, and employment discipline vs research integrity
+
+Do not collapse these into one system unless the source material clearly does so.
+
+## Source Rules
+
+### Preferred sources
+
+- law portals
+- ministry pages
+- official committee pages
+- official PDF regulations
+- funder rules
+- university regulations and committee pages
+- academy pages
+- national authority pages
+
+### Avoid unless necessary
+
+- news summaries
+- consultancy pages
+- blog posts
+- student summaries
+- secondary commentary without primary source links
+
+### If sources are weak or inaccessible
+
+State it directly in the country text.
+
+Examples:
+
+- no public case archive identified
+- official source inaccessible in this pass
+- committee mentioned in law but no current committee page found
+- current composition still to verify
+
+## Source Registry Practice
+
+`data/source-registry.csv` is the structured source log.
+
+Use it when adding or formalizing web sources. Follow the existing pattern:
+
+- country code + source number, for example `AL-S001`
+- `source_type`
+- `raw_documentation_category`
+- access date
+- what the source was used for
+- where it is stored locally
+
+If you only update `data/countries.js` in a focused deep-dive pass, the source registry does not always need a full rebuild. But when new source collection becomes substantial, update the registry as well.
+
+## Stage Labels
+
+Use these labels consistently:
+
+- `Initial source notes`
+- `Data folder only`
+- `Overview drafted`
+- `Expanded overview dossier`
+- `Deep dossier drafted`
+
+Use `Deep dossier drafted` only when the country has:
+
+- a real dossier structure
+- a source backbone
+- a system map
+- network layers
+- committee directory
+- boundaries
+- timeline
+
+## After Finishing A Country
+
+Complete this checklist:
+
+1. Update the country entry in `data/countries.js`.
+2. Update `reports/project-overview.html`.
+3. If relevant, update `data/source-registry.csv`.
+4. If a new overview was created or extracted, update:
+   - `data/extraction-status.md`
+   - `data/overview-extraction-log.csv`
+5. Run syntax checks.
+6. Re-read the edited committee and transparency text for consistency.
+7. Move the current focus or next-country marker if it changed.
+
+## Current Priority Notes
+
+- `Andorra` has been expanded from starter source notes into a first app dossier. Future Andorran work should draft `Overview Andorra.docx`, inspect AQUA register and appeal outputs, widen University of Andorra and private-HEI integrity checks, search AR+I for internal research-integrity, data, authorship or conflict-of-interest procedures, verify whether the Ministry of Health CEI publishes approval lists, minutes or statistics, and keep AQUA quality-assurance outputs, CEI biomedical ethics approvals, APDA data-protection decisions and OMPA/IP routes separate from general research-misconduct publication.
+- `Albania` has been expanded from starter source notes into a first app dossier. Future Albanian work should draft `Overview Albania.docx`, inspect the linked University of Tirana regulation PDFs, widen institutional output checks beyond UT, UMT, UAMD and Elbasan, search NASRI/AKKSHI for annual reports or sanction and monitoring outputs, and keep ASCAL quality-assurance decisions, AKBPM clinical routes, IDP data-protection decisions and DPPI/IP routes separate from general research-misconduct publication.
+- `Armenia` has been expanded from starter source notes into a first app dossier. Future Armenian work should draft `Overview Armenia.docx`, locate full ARLIS or HESC legal texts for scientific activity and degree-award rules, test whether HESC refusal, revocation or appeal orders can be separated from ordinary degree/title orders, locate any current National Centre for Infectious Diseases REC page, widen institutional misconduct, authorship and research-data checks beyond YSMU, AUA, IMB and YSU, locate a direct animal-experiment authority page or public permit register, and keep ANQA quality-assurance files, clinical-trial approvals, animal permits, PDPA data-protection decisions and AIPO/IP routes separate from general research-misconduct publication.
+- `Azerbaijan` has been expanded from a data-folder-only record into a first app dossier. Future Azerbaijani work should draft `Overview Azerbaijan.docx`, index AAK news, dissertation, commission-decision and bulletin pages for refusal, deprivation, restoration, appeal and court-reversal cases, test whether AAK's selective plagiarism notices point to a fuller decision archive, widen university procedure checks beyond UNEC, ADA, Baku State University, Azerbaijan University and ASCCA, locate current biomedical REC/IRB approval-list routes, locate animal-research and data-protection authority outputs, and keep TKTA QA reports, clinical/medical ethics, COPAT/IP and open-science routes separate from general research-misconduct publication.
+- `Georgia` has been expanded from a data-folder-only record into a first app dossier. Future Georgian work should draft `Overview Georgia.docx`, extract ETHICS project outputs for published national research-integrity policies, officer and board templates, MOOC or service material, index NCEQE decisions and register files for doctoral and research standards without treating QA as misconduct, widen Georgian-language institutional ethics and plagiarism checks beyond TSU, TSMU, Ilia, EEU and CIU, locate direct clinical-trial agency pages and biomedical approval lists, locate animal-research authority outputs, and keep NCEQE QA, PDPS/data, Sakpatenti/IP and biomedical routes separate from general misconduct publication.
+- `Liechtenstein` has been expanded from a data-folder-only record into a first app dossier. Future Liechtenstein work should draft `Overview Liechtenstein.docx`, inspect the University of Liechtenstein Better Science Policy file for procedure, publication or retention rules, search University and UFL annual reports for ombudsperson, misconduct, plagiarism or disciplinary statistics, inspect UFL disciplinary and appeals regulations for publication and confidentiality duties, widen Liechtenstein Institute governance checks, and keep Zurich clinical-ethics approval, animal-experiment authorisation, Data Protection Authority annual reports and IP registers separate from general research-misconduct publication.
+- `Malta` has been expanded from a data-folder-only record into a first app dossier. Future Maltese work should draft `Overview Malta.docx`, search University of Malta annual reports, Senate reports and UREC/FREC pages for public statistics, audit summaries or disciplinary-case references, search MCAST annual reports, Corporate Research Committee outputs and disciplinary board regulations for public ethics or misconduct statistics, check whether Xjenza Malta or predecessor MCST publishes funded-project default, termination, audit or sanction summaries, index MFHEA external quality assurance reports for research-governance, doctoral-supervision, plagiarism or academic-integrity references without treating QA as misconduct adjudication, and keep Health Ethics Committee, Medicines Authority, animal-welfare, IDPC, IP, open-access and research-data routes separate from general misconduct files.
+- `Monaco` has been expanded from a data-folder-only record into a first app dossier. Future Monegasque work should draft `Overview Monaco.docx`, search CSM annual reports, minutes, statutes or internal regulations for research-integrity, authorship, conflicts, data, ethics or complaint wording, inspect IUM student, faculty, DBA and research handbooks for academic-integrity and research-misconduct procedure or publication rules, verify whether the Comite consultatif d'ethique en matiere de recherche biomedicale has a current public page, membership list, opinion list or annual statistics, search APDP/CCIN deliberations for biomedical research entries by sponsor, institution, study and outcome while keeping them as data-protection boundary files, check whether CSM, MonacoTech, the Monaco Innovation Fund or Horizon Europe co-funding pages publish audit, default, grant-termination or sanction outputs, and keep CSM scientific outputs, IUM academic conduct, biomedical ethics, APDP data protection, MCIPO/IP, innovation funding and animal/veterinary rules separate.
+- `San Marino` has been expanded from a data-folder-only record into a first app dossier. Future San Marino work should draft `Overview San Marino.docx`, inspect UniRSM statute/regulation hubs, Senate/Council minutes and annual reports for ethics or misconduct outputs, test whether CERS publishes approval lists or statistics, index CSB documents and opinions by type, check USBM/EUREKA or innovation-funding sanction outputs, verify animal-experimentation enforcement or exception files, and keep UniRSM discipline, CSB/CERS biomedical ethics, Data Protection Authority, USBM/IP, innovation funding and animal-experimentation routes separate.
+- `Slovakia` has now completed the committee-and-case-file pilot. Future Slovak work should monitor NKVIE publication practice for closed submissions, widen the institutional minutes/opinions sample beyond UPJS and STU, and deepen VEGA/KEGA plus clinical and animal boundary routes.
+- `France` has completed the committee-and-case-file pilot and first quality-consolidation pass. Future French work should bulk-index the Ofis RIS annuaire and 2022-2023 synthesis, extract CNRS/MIS report fields plus retention/request wording, extract Sorbonne annual-report fields, track Inadis procedure or output practice, widen institutional annual-report searches beyond Sorbonne, Paris Cite and Toulouse, and keep boundary registers separate from general misconduct publication.
+- `Germany` has completed the committee-and-case-file pilot and first quality-consolidation pass. Future German work should bulk-index the DFG scientific-misconduct press-release list from 2017 through 2026, index OWID annual reports from 2000 through 2024, extract FU Berlin and Gottingen annual-report fields into a reusable German template, widen the annual-report search beyond those two institutions, deepen Max Planck institute-level and Helmholtz center-level examples, add more university medical-center examples beyond Charite, and keep DFG case notices separate from OWID reporting, procedure-only university routes and boundary regimes.
+- `United Kingdom` has completed the committee-and-case-file pilot, overview reconciliation and first quality-consolidation pilot. Future UK work should bulk-index the annual-statement directory by year, institution, nation and depth category; extract misconduct tables from Cambridge, UCL, Manchester, Nottingham, Warwick, Sheffield, Glasgow, Edinburgh, Cardiff and Queen's Belfast; widen government, NHS, charity, independent research-organisation and cultural-institution statements; and deepen AWERB plus university research-ethics examples.
+- `Moldova` has now completed the committee-and-case-file pilot. Future Moldovan work should classify ANACEC Governing Board publication coverage by route and year, look for public Ethics and Management Council outputs beyond aggregate reporting, widen institutional committee coverage beyond USM, UTM and USMF, and complete the animal-research route.
+- `Montenegro` has now completed the committee-and-case-file pilot. Future Montenegrin work should index more archived national decisions, check whether `etickikomitet.edu.me` or a successor archive is live, widen institutional output checks beyond UCG, Mediterranean University and UDG, and deepen the animal-research plus copyright or IP boundary routes.
+- `Poland` has completed the committee-and-case-file pilot and first quality-consolidation pass. The 29 April 2026 pass confirmed the law/PAN/local matrix against ENRIO, added ENRIO membership evidence, PAN 2024 KEwN activity reporting, University of Gdansk research-integrity ombuds routes, Lukasiewicz network code and directory seeds, and a current University of Warsaw local animal-ethics route. Future Polish work should index PAN 2024 and later KEwN/PAN annual-report fields by count, route and matter type, watch for renewed plenary-note publication, widen local checks beyond UW, WUT, UG, JUMC, IIMCB, IP PAN and Lukasiewicz, confirm whether ministerial disciplinary commissions or ombuds publish case outputs, and keep NKB/clinical, animal, UODO/data, POL-on/JSA and IP/commercialisation routes separate.
+- `Portugal` has now completed the committee-and-case-file pilot and first quality-consolidation pass. Future Portuguese work should index U.Porto CEUP materials by public folder, authenticated opinion and recommendation route; continue CEIUC annual-report indexing; monitor FCT transparency, complaints-channel and R&D funding-rule pages for clearer scientific-integrity consequences; widen polytechnic coverage from the P.PORTO, inED and IPB seeds through CCISP; and keep CEIC indicator pages and evaluation-status visibility separate from general misconduct publication.
+- `Greece` has completed the committee-and-case-file pilot and first quality-consolidation pass. The 29 April 2026 pass confirmed the distributed/no-national-board reading against ENRIO, direct Official Gazette links for Laws 4521/2018 and 4957/2022, current GSRI/NCRTI and National Commission pages, a newer HFRI call, NTUA and Harokopio annual-report-duty seeds, and EOF old-archive durability. Future Greek work should index NTUA and Harokopio annual-report outputs, retest AUEB, Thessaly, HMU and other EHDE routes for public reports or only procedure pages, bulk-index EOF old EED opinion tables and CTIS lifecycle records as clinical boundary material, and keep ANILAB plus HDPA records separate from general misconduct publication.
+- `Estonia` has now completed the committee-and-case-file pilot. Future Estonian work should monitor ETAG's first generalized misconduct outputs and institutional annual statistics, test ETIS public approval visibility after 2026 approvals start to accumulate, widen approval-list checks beyond UT and TAI, and keep EBIN/biobank, CTIS, AKI and animal-project records separate from general misconduct publication.
+- `Turkey` has now completed the committee-and-case-file pilot. Future Turkish work should monitor YOK, UAK, TUBITAK and TUSEB for aggregate statistics, anonymized summaries or decision examples; widen university legal-office and local-board examples beyond Necmettin Erbakan, GIBTU, Ege, KTU and Saglik Bilimleri; test the spread of the 28 August 2025 YOK non-human and non-animal approval duty; and keep TITCK, HADMEK/HADYEK, KVKK, thesis and open-science routes separate from general misconduct publication.
+- `Ukraine` has now completed the committee-and-case-file pilot. Future Ukrainian work should index the NAQA complaint/decision page by year, complaint stage and outcome; monitor post-2026 implementation of institutional public-decision duties under the Law On Academic Integrity; widen NASU, academy-institute and university micro-publication examples beyond NASU and KPI; and keep clinical-trial, animal-research, data-protection and IP boundary routes separate from general misconduct publication.
+- `Russia` has now completed the committee-and-case-file pilot. Future Russian work should extract and classify VAK/GIS Nauka attestation orders by decision type and year, test page stability from multiple networks, widen autonomous-degree organization and university examples, monitor RAS ethics-council outputs, deepen the animal/preclinical boundary trail, and keep ANRI retractions, GRLS clinical-trial records and watchdog sources separate from official attestation publication.
+- `Hungary` has now completed the committee-and-case-file pilot. Future Hungarian work should verify whether TeB definitive decisions are directly reachable through the Academy Gazette or another MTA publication route, index TUKEB annual permit pages, widen Corvinus-style institutional research-ethics approval checks, broaden HUN-REN institute output checks beyond CSFK and the Centre for Ecological Research, and keep NNGYK/CTIS, ETT, NEBIH and NAIH boundary records separate from general misconduct publication.
+- `Croatia` has now completed the committee-and-case-file pilot. Future Croatian work should index the legacy Odbor report and opinion corpus by year and case type, monitor whether the National Council publishes finalized minimum ethical principles, widen institutional annual-report checks beyond Zagreb, Rijeka, Split and IRB, test whether HRZZ publishes Committee for Scientific Integrity outputs or remains procedure-only, and keep HALMED, animal-research, AZOP and IP records separate from general misconduct publication.
+- `Belgium` has now completed the committee-and-case-file pilot and first quality-consolidation pass. The 30 April 2026 pass confirmed the federal-container and two-community coding against ENRIO, added VCWI plus CSIS membership evidence, kept the ENRIO Belgium/Flanders report scoped to VCWI, made the Belgian 2009 code / ALLEA 2023 / FWO-BELSPO-FNRS funder baseline explicit, and preserved the finding that VCWI, KU Leuven and UAntwerpen expose real annual-report case material while CSIS/FWB remains route-visible but output-light. Future Belgian work should index VCWI annual reports from 2013 through 2025 by theme, outcome, follow-up and publication exclusion, extract KU Leuven and UAntwerpen annual-report rows, retest wider Flemish and FWB institutions for comparable summaries, monitor CSIS output practice, and keep FAMHP/CTIS, biomedical ethics, animal research, data-protection, research-security, dual-use, IP and open-science routes separate from general misconduct publication.
+- `Czechia` has now completed the committee-and-case-file pilot and first quality-consolidation pass. The 30 April 2026 pass confirmed ENRIO's no-national-commission reading, confirmed the CAS Commission for Scientific Integrity as the Czech ENRIO member, kept CAS coded as a CAS-limited route without a located public case-output archive, and corrected the public-output map by adding JCU's Ethics Commission statements/minutes corridor through 20 August 2025 alongside the deeper Charles University archive. Future Czech work should index the Charles University and JCU statements/minutes by year, topic, privacy or restricted elements and outcome; search local-language pages for comparable university or CAS institute archives; test CAS annual-report and Academy Assembly output practice; extract GA CR, TA CR and AZV enforcement wording; and keep research ethics review, clinical-trial, animal, data-protection and research-security routes separate from general misconduct publication.
+- `Slovenia` has now completed the committee-and-case-file pilot and first quality-consolidation pass. The 30 April 2026 pass reconciled ENRIO's older no-national-structure country-report opening with current evidence that the National Council is Slovenia's ENRIO member since 2024, preserved the publication-rule/no-live-opinion-archive transparency coding, kept ALLEA 2023 as the European baseline and treated ARIS as a funder/open-science implementation route rather than a misconduct publisher. Future Slovenian work should monitor whether the National Council publishes its first anonymized opinions under the 3 July 2025 procedure, extract ARIS call-level integrity consequences, search additional university and institute pages for public opinions, minutes, annual reports or approval lists, preserve or resolve the 2023-2026 versus 2023-2027 mandate label, and keep research-ethics approvals, medical ethics, animal-procedure approvals, data protection and IP boundaries separate from research-integrity findings.
+- `Spain` has now completed the committee-and-case-file pilot. Future Spanish work should index CEEI reports, recommendations and admissibility outputs by route and topic; monitor whether CEEI publishes individual opinions after the RD 1045/2025 amendment; index CIR-CAT recommendations by topic, request source and outcome; widen autonomous-community and university/OPI output checks; strengthen AEI funder and call-level integrity evidence; and keep CEIm, biomedical, animal-project, data-protection and other ethics approvals separate from research-integrity case publication.
+- `Switzerland` has now completed the committee-and-case-file pilot, ETH Zurich correction and first quality-consolidation pass. The 30 April 2026 pass reconciled ENRIO's May 2024 no-national-body wording with SCCSI's January 2026 launch, confirmed SNSF and Swiss Academies as Swiss ENRIO members, verified the Swiss 2021 code, SNSF 2025 regulation, SCCSI mandate/Council pages and ETH table endpoints, and kept Switzerland coded as fragmented funder/institutional visibility. Future Swiss work should index SNSF reports and case news by year and outcome, extract the four ETH Zurich anonymized reports plus procedure statistics from the table endpoints, track SCCSI's first public annual report after the 2026 reporting cycle, widen institutional output checks through the Swiss Academies responsible-bodies directory, and keep RAPS/HumRes, Swissmedic and animal-experiment authorizations separate from research-misconduct case files.
+- `Austria` has now completed the committee-and-case-file pilot and first quality-consolidation pass. The 30 April 2026 pass confirmed the ENRIO/OeAWI/local-autonomy baseline, found no 2024 OeAWI Commission report on the live download page, added FWF's 2008-2025 suspected-violation statistics as a funder extraction target, made the OeAWI 2015 / Hochschulkonferenz-BMFWF 2020 / ALLEA 2023 code baseline explicit, and strengthened BASG/CTIS as a clinical boundary lane. Future Austrian work should index OeAWI annual reports from 2011 through 2023 by inquiry number, allegation type, route, outcome and recommendation; extract FWF statistics by allegation, outcome, sanction, discipline and OeAWI referral; search archived University of Vienna and Medical University of Innsbruck pages for anonymized case descriptions; widen Fachhochschule and private-university route checks through the 2024 ombuds directory; add a direct current animal-research publication/statistics source; and keep student/thesis plagiarism, research ethics, animal testing and clinical-trial approvals separate from research-misconduct case files.
+- `Ireland` has completed the committee-and-case-file pilot, first quality-consolidation pass and NRIF annual-statistics indexing follow-up. The 30 April 2026 follow-up indexes the published 2016-2023 NRIF statistics reports by year, concluded investigation count, upheld field, category labels and respondent-universe signal; it confirms the summary-based transparency model and does not locate a 2024 statistics report or SRII2025 results. Future Irish work should watch for those outputs, test whether NCI's FOI/publication clause or MTU's RICO output channels ever produce actual case reports, deepen DIAS and other public-RPO route checks beyond the Teagasc, Marine Institute and NIBRT seeds, and keep NREC, HPRA, HRCDC and QQI/NAIN boundary lanes separate from research-misconduct publication.
+- `Latvia` has completed the committee-and-case-file pilot, first quality-consolidation pass, UL full-text decision classification and LAS/LCS plus public-research-institute follow-up. The 29 April 2026 pass confirmed that Latvia is not listed in the ENRIO country-report archive or 2024 member list, quantified the UL Academic Ethics Commission stream at 78 decisions from 2019 through 2 March 2026, added LCS expert/funder route seeds, and widened institutional checks through RSU, RISEBA, Daugavpils and Vidzeme. The first 30 April 2026 follow-up classified all 78 public UL decision pages: 47 breach or partly-breach rows, 28 no-breach/no-evidence rows and 3 referral or no-substantive-merits rows; only a small subset is core research/publication integrity or research-project governance, so the fragmented institutional case-visibility coding remains. The later 30 April 2026 follow-up found current LCS ethics/code downloads and ISSP UL, LIOS, EDI, LVKKI and BMC/Genome institute route seeds, but no national or institute-level public case archive beyond UL. Future Latvian work should field-index those institute code and boundary sources, keep testing current LAS/LCS pages for scientist-committee outputs, optionally migrate the UL classification into a structured decision dataset, and keep research-ethics opinion registers, CMEC, clinical trials, genome, animal, data, open-science and AI routes separate from misconduct findings.
+- `Luxembourg` has now completed the committee-and-case-file pilot, first quality-consolidation pass and a first LARI annual-report extraction seed. The 29 April 2026 pass confirmed the LARI/CRI model against ENRIO, confirmed LARI as Luxembourg's ENRIO member, verified that the 2023/2024 LARI annual report is still pending, extracted the 2018 first ongoing-case signal, the 2019 anonymized seven-row case table and the 2020-2022 aggregate 7 opened / 6 closed / 1 continued / 90-request report, kept the 2020 FNR statement as a rare case-level funder communication rather than an archive, and confirmed LIH/LIST route evidence without finding a public misconduct repository. Future Luxembourg work should monitor the LARI 2023/2024 annual report, add page-level or allegation-category detail to the annual-report table only where useful, verify whether LIH's suspected-scientific-misconduct procedure is public, search for an updated LIST code or Ethics Committee terms of reference, and keep CNER favourable-opinion lists plus ALVA animal-use reports separate from misconduct transparency.
+- `Cyprus` has now completed the committee-and-case-file pilot. Future Cyprus work should index CNBC research-proposal decision/register PDFs from 2020 through 2023 by project and outcome, check whether 2024 or 2025 CNBC decision files have appeared, sample CYQAA rejected-programme and final-report tables for academic-integrity, doctoral-supervision or plagiarism material, search Greek institutional pages for public Senate or ethics decisions, and keep CNBC bioethics plus CYQAA quality-assurance outputs separate from general research-misconduct transparency.
+- `Serbia` has now completed the committee-and-case-file pilot. Future Serbian work should monitor whether the Committee for Ethics in Science is publicly appointed and begins publishing warnings, title-revocation referrals, statistics or decisions; locate the standalone Science Fund Ethics Act if it remains public outside programme manuals; widen Belgrade, Novi Sad, Nis and Kragujevac local-output checks; and keep Science Fund ethics audits, biomedical ethics, animal approvals, data protection, open science and journal categorization separate from general misconduct publication.
+- `Bulgaria` has now completed the committee-and-case-file pilot. Future Bulgarian work should test the MON Academic Ethics Committee page from a browser or non-blocked network, index any accessible national reports or decisions, extract UNWE and Institute of Mechanics BAS annual-report/report rows, widen institutional checks beyond Sofia, UNWE, SWU, Trakia, Ruse, Svishtov and medical universities, and keep scientific/medical ethics approvals, clinical trials, BPOS open-science deposit and accreditation/register routes separate from general misconduct publication.
+- `Belarus` has now completed the committee-and-case-file pilot. Future Belarus work should test `vak.gov.by` from a browser or non-blocked network, check whether VAK publishes any Presidium, appeal, deprivation or restoration outputs beyond the author-abstract library, widen dissertation-council and anti-plagiarism checks across BSU, BNTU, BSEU, BSMU, regional universities and NASB institutes, locate a direct current laboratory-animal authority page, and keep RCETH clinical-trial registers plus journal publication-ethics pages separate from general misconduct publication.
+- `Iceland` has now completed the committee-and-case-file pilot. Future Iceland work should locate any public Committee on Good Scientific Practice website, procedure rules, annual reports or opinions; test the Icelandic version of the National Bioethics Committee issued-licences list; widen university committee-output checks beyond UI, RU, UNAK, AUI and Bifrost; sample Landspitali, HH and other health-provider committee outputs; and keep bioethics licences, hospital approvals, Data Protection Authority, IMA and IRF funding routes separate from general misconduct publication.
+- `Bosnia and Herzegovina` has now completed the committee-and-case-file pilot. Future Bosnia and Herzegovina work should index UNSA Faculty of Electrical Engineering opinion PDFs by year, topic and outcome; locate any standalone UNSA Ethics Council annual reports; widen public-opinion and approval-list checks across UNSA members, UNIBL, Tuzla, Mostar, Zenica, East Sarajevo, Bihac, Dzemal Bijedic and private universities; harvest HEA institution-documentation links systematically; test stable records in ALMBIH's dynamic clinical-trial register; and keep accreditation, clinical, animal, child-research, data-protection and journal-publication routes separate from general misconduct publication.
+- `Kosovo` has now completed the committee-and-case-file pilot. Future Kosovo work should index KAA decision, monitoring and post-accreditation pages by institution and year; extract KAA 2025 annual-report Appeals Committee statistics; search SCQ minutes and KAA decision pages for public KAA Code of Ethics resolutions; track whether UP publishes annual Ethics Council summaries or underlying decisions; widen public and private HEI checks beyond UP, Mitrovica, Ferizaj and Rezonanca; and keep accreditation, data protection and research-ethics approvals separate from general misconduct publication.
+- `North Macedonia` has now completed the committee-and-case-file pilot, first quality-consolidation pass and first AQHE/UKIM/SEEU follow-up extraction seed. The 29 April 2026 follow-up confirmed the statutory Ethics Board still has no located public appointment/code/recommendation/report archive, separated AQHE's five Evaluation Board report PDFs from the two-page December 2021-March 2026 accreditation/doctoral-mentor decision corridor, mapped UKIM's 33-unit self-evaluation directory, extracted the UKIM Economic Institute doctoral/originality/plagiarism-check micro-publication, and added SEEU Important Documents, academic-staff conduct, corruption, student-ombudsperson and internal-evaluation route evidence. Future North Macedonia work should full-field extract AQHE reports and decisions by institution, route, year and integrity-relevant fields; continue UKIM unit classification beyond Medicine, TMF, Law and Economic Institute; extract SEEU Google Drive-linked research-ethics, scientific-research, student-conduct, promotion, discipline and 2025 self-evaluation files where stable direct access is available; continue government/ministry/Official Gazette checks for the statutory Ethics Board; and keep QA reports, student-discipline snippets, biomedical approvals, data-protection notices, open-science and AI evidence separate from general research-misconduct case publication.
+
+## Working Style
+
+When continuing the project, prefer conservative additions:
+
+- follow the existing data shape
+- reuse established phrasing patterns from strong dossiers such as Netherlands, Denmark, Latvia, Luxembourg, and Moldova
+- keep the writing analytic, not promotional
+- use precise dates
+- be explicit about what is verified and what still needs a final sweep
+
+If in doubt, choose clarity over completeness and mark the gap for the next pass.

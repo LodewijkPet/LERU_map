@@ -508,3 +508,24 @@ When continuing the project, prefer conservative additions:
 - be explicit about what is verified and what still needs a final sweep
 
 If in doubt, choose clarity over completeness and mark the gap for the next pass.
+
+<!-- overview-project-link:start -->
+## Overview synchronization
+
+This section is managed by the Overview repository. Preserve it when editing other instructions in this file.
+
+- Overview repository: `C:\Users\lapet\Github\Overview`
+- Central instructions: `C:\Users\lapet\Github\Overview\AGENTS.md`
+- Linked outcomes:
+  - `leru-research-integrity-infrastructure-article` — LERU research integrity infrastructure article afgerond — `C:\Users\lapet\Github\Overview\data\outcomes\leru-research-integrity-infrastructure-article.json`
+
+### Required synchronization behavior
+
+- Before changing Overview data, read the central Overview `AGENTS.md` and the linked outcome JSON.
+- After material work in this folder, reconcile the affected outcome: completed work, new work, `next_action`, planned dates, waiting dependencies, durable notes, and material `context_events`.
+- Preserve stable outcome, project, action-step, and context-event IDs; keep status-specific GTD rules intact.
+- A routine synchronization must not change outcome-level `last_full_reviewed_at`.
+- When the user requests a full project review, use `$review-overview-project`. If several outcomes are linked and none is named, review outcomes that are active or contain a `waiting_for` project by default.
+- After changing Overview data, run `python C:\Users\lapet\Github\Overview\scripts\validate_data.py`.
+- Do not guess mappings for other folders or copy confidential source material into Overview.
+<!-- overview-project-link:end -->

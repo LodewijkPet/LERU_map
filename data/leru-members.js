@@ -17,7 +17,7 @@
     belgium:
       "Belgium is best read as a federal container with community lanes: Flemish first-line institutional handling plus VCWI second advice, French-speaking/FWB institutional routes plus CSIS, and federal boundary regimes kept separate.",
     denmark:
-      "Denmark separates national NVU handling of scientific dishonesty from local institutional handling of questionable research practice and returned cases.",
+      "Denmark separates national Danish Board on Research Misconduct (NVU) handling of research misconduct from local institutional handling of questionable research practice and returned cases.",
     finland:
       "Finland has a national TENK procedure and institutional first-instance responsibilities; local routes should be separated from national statement summaries.",
     france:
@@ -53,7 +53,7 @@
       url: "https://ufsn.dk/english/publications/2026/januar/danish-code-of-conduct-for-research-integrity/",
       type: "National code",
       supports: "Updated Danish national code for research integrity.",
-      note: "Replaces the 2014 edition and sits beside the statutory NVU route."
+      note: "Replaces the 2014 edition and sits beside the statutory Danish Board on Research Misconduct (NVU) route."
     },
     finland: {
       label: "RI 2023 guideline: Finnish Code of Conduct for Research Integrity",
@@ -186,7 +186,7 @@
   const publicOutputCategoryNotesById = {
     "ku-leuven": "Institution-owned annual reports publish counts, admissibility outcomes and anonymized advice summaries.",
     "university-of-amsterdam": "Institution-owned CWI annual report evidence is present; field-level extraction remains pending.",
-    "universitat-de-barcelona": "Public output is a Catalan CIR-CAT regional recommendation linked to UB/CERCA affiliation guidance, not a UB-owned archive.",
+    "universitat-de-barcelona": "UB member validation confirms that public output is a Catalan CIR-CAT regional institution-linked recommendation, not UB-owned reporting; UB does not yet publish annual research-integrity statistics, anonymized summaries or committee activity reports beyond the located pages.",
     "university-of-cambridge": "Institution-owned annual research-integrity reports provide anonymized allegation and investigation information.",
     "university-of-copenhagen": "Institution-owned Practice Committee annual reports and minutes form a local public-output lane.",
     "trinity-college-dublin": "Public output located is NRIF national aggregate reporting; no Trinity-owned output channel was identified.",
@@ -199,7 +199,7 @@
     "imperial-college-london": "Institution-owned annual research-integrity statements provide recurring public reporting.",
     "university-college-london": "Institution-owned annual research-integrity statements provide recurring public reporting and committee-analysis fields.",
     "lund-university": "Institution-owned Review Board annual report evidence is present for the local other-deviations route.",
-    "university-of-milan": "Committee opinions and minutes appear restricted; public material is governance/procedure context rather than output.",
+    "university-of-milan": "Member validation confirms that violation cases, reasoned opinions and internal statistics exist, but the minutes and opinions are restricted official records rather than public case output.",
     "lmu-munich": "Procedure evidence is public and publication is discretionary after final decisions, but no standing output channel was identified.",
     "university-of-oxford": "Institution-owned annual statements provide anonymized allegations and outcomes.",
     "universite-paris-saclay": "POLETHIS/RIS procedure evidence is public; no Paris-Saclay-owned signalement statistics or case-output channel was identified.",
@@ -315,7 +315,7 @@
     title: "LERU research integrity member view",
     reportTitle: "Research integrity routes and transparency at LERU member universities",
     status: "Public-source report for member review",
-    lastUpdated: "2026-07-13",
+    lastUpdated: "2026-07-29",
     sourceBasis:
       "Official LERU members page plus existing country dossiers, transparency records, source registry entries and country source notes in this repository.",
     caveat:
@@ -483,28 +483,28 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Detailed regional-output seed",
-      validationStatus: "Needs member validation of UB route and CIR-CAT output context",
+      validationStatus: "Updated with UB member validation on route, CIR-CAT status and no-local-output finding",
       evidenceLevel: "Strong",
-      transparencyCategory: "UB code plus CIR-CAT institution-linked recommendation",
+      transparencyCategory: "UB code plus external CIR-CAT regional recommendation; no UB-owned reporting yet",
       countrySystemSummary:
-        "Spain is represented as a distributed integrity system with national soft-law and committee networks, Catalan CIR-CAT/CERCA routes, institutional codes and separate ethics, quality-assurance and biomedical/animal/data boundaries.",
+        "Spain is represented as a distributed integrity system with national soft-law and committee networks, Catalan CIR-CAT routes, separate CERCA centre responsibilities, institutional codes and separate ethics, quality-assurance and biomedical/animal/data boundaries.",
       nationalRoute:
-        "UB sits inside the Spanish distributed model and Catalan regional layer: CIR-CAT can issue scientific-integrity recommendations for Catalan research-system matters, while UB maintains its own ethics/integrity portal and research-integrity code.",
+        "UB sits inside the Spanish distributed model and Catalan regional layer. CIR-CAT is an external Generalitat de Catalunya body attached to the department responsible for research and universities, with power to issue recommendations to Catalan universities and CERCA centres. UB and CERCA centres remain separate institutions with their own powers under their regulations.",
       institutionalRoute:
-        "UB is represented through its ethics and integrity portal, Code of Conduct for Research Integrity, institutional ethics committee infrastructure and Catalan CIR-CAT regional integrity route for the public UB/CERCA affiliation recommendation.",
+        "UB member validation confirms that the UB ethics/integrity portal plus Code of Conduct for Research Integrity is the correct member-facing institutional route. UB has recently modified its statutes and, once they are approved and in force, will begin the process of establishing a research-integrity committee.",
       committeeOrOffice:
-        "UB research-integrity code and ethics/integrity portal; UB ethics committees as boundary infrastructure; CIR-CAT regional integrity committee for the institution-linked recommendation",
+        "UB ethics/integrity portal and Code of Conduct; UB ethics committees as boundary review infrastructure; planned UB research-integrity committee after statutes enter force; CIR-CAT external regional committee for recommendations",
       procedureSummary:
-        "UB's official page states that research is conducted under the UB Code of Conduct for Research Integrity and identifies four committees that review ethical implications of projects. The UB code was approved by the Governing Council on 15 May 2020 and includes protocols for fraud, unacceptable practices and wrongful conduct. CIR-CAT's admission procedure provides the regional route for communications and recommendations.",
+        "UB's official page states that research is conducted under the UB Code of Conduct for Research Integrity and identifies four committees that review ethical implications of projects. The UB code was approved by the Governing Council on 15 May 2020 and includes protocols for fraud, unacceptable practices and wrongful conduct. Member validation confirms that the existing UB committees should be framed as boundary ethics review rather than misconduct handling unless the new research-integrity committee is established. CIR-CAT's admission procedure provides the external regional route for communications and recommendations.",
       publicOutputSummary:
-        "No UB institutional annual integrity report or general case archive was identified. Public-output evidence is nevertheless present through CIR-CAT Recommendation 1/2025, a public regional integrity recommendation directly concerning UB doctoral-affiliation guidance and CERCA institutions.",
+        "UB member validation confirms that UB does not yet publish annual research-integrity statistics, anonymized summaries or committee activity reports beyond the located pages. Public-output evidence is limited to CIR-CAT Recommendation 1/2025, a public external regional integrity recommendation directly concerning UB doctoral-affiliation guidance and CERCA institutions.",
       transparencySummary:
-        "Detailed seed because UB has an official institution-level code/route and a public institution-linked regional output. This is not a UB misconduct archive and should not be treated as general case-file publication.",
+        "Detailed seed because UB has a member-confirmed institution-level code/route and a public external CIR-CAT regional output connected to UB/CERCA affiliation guidance. This is not UB-owned reporting, not a UB misconduct archive and not general case-file publication.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "available",
-        sourceRegistryLinks: 1
+        sourceRegistryLinks: 2
       },
       sourceLinks: [
         {
@@ -512,14 +512,14 @@
           url: "https://web.ub.edu/en/ethics-integrity",
           type: "official",
           supports: "institutional route",
-          note: "Supports integrity code, mailbox and committee infrastructure."
+          note: "Member validation confirms this portal, together with the Code of Conduct, as the correct UB member-facing route."
         },
         {
           label: "UB Code of Conduct for Research Integrity",
           url: "https://www.ub.edu/comissiobioetica/sites/default/files/documents/normativa/codi_dintegritat_en_la_recerca_de_la_universitat_de_barcelona.pdf",
           type: "procedure",
           supports: "institutional code",
-          note: "Supports the institutional research-integrity code."
+          note: "Member validation confirms this as part of the correct UB member-facing route."
         },
         {
           label: "UB Code of Conduct for Research Integrity news item",
@@ -533,33 +533,42 @@
           url: "https://recercaiuniversitats.gencat.cat/ca/01_departament_recerca_i_universitats/el_departament/organismes/circat/procediment-solicituds/index.html",
           type: "regional procedure",
           supports: "Catalan integrity-committee route and publication basis",
-          note: "Official Catalan route for communications, requests and publication of CIR-CAT opinions under transparency rules."
+          note: "Official external Generalitat de Catalunya route for communications, requests and publication of CIR-CAT opinions under transparency rules."
         },
         {
           label: "CIR-CAT Recommendation 1/2025",
           url: "https://web.gencat.cat/content/dam/webgencat/documents/la-generalitat/com-ens-organitzem/departaments/recerca-universitats/cir-cat/recomanacio_1_2025.pdf",
           type: "regional public output",
           supports: "institution-linked integrity recommendation",
-          note: "Public recommendation on UB doctoral-affiliation guidance and CERCA-linked research outputs."
+          note: "Public external regional recommendation on UB doctoral-affiliation guidance and CERCA-linked research outputs; not UB-owned reporting."
+        },
+        {
+          label: "CERCA Ombudsperson operating regulations",
+          url: "https://cerca.cat/wp-content/uploads/2023/07/Ombudsperson_regulation_June2023.pdf",
+          type: "regional boundary/route context",
+          supports: "CERCA centre responsibility separation",
+          note: "Use only to keep CERCA centre responsibilities separate from UB and CIR-CAT in the validated profile."
         }
       ],
-      tags: ["integrity code", "committee infrastructure", "ethics boundary", "CIR-CAT", "regional public output"],
+      tags: ["integrity code", "member validated", "ethics boundary", "CIR-CAT", "external regional output", "pending research-integrity committee"],
       caveats: [
-        "Do not treat CIR-CAT Recommendation 1/2025 as a UB institutional case archive.",
+        "Do not treat CIR-CAT Recommendation 1/2025 as UB-owned reporting or as a UB institutional case archive.",
+        "Keep UB, CERCA centres and CIR-CAT responsibilities separate: CERCA centres and UB are different institutions, while CIR-CAT is an external Generalitat de Catalunya body.",
         "UB ethics committees, animal experimentation, biomedical ethics, data protection, quality assurance and open-science routes remain boundary material unless a source explicitly routes them into research-misconduct handling.",
-        "No UB institutional annual integrity report or general public misconduct case-output channel was identified in this pass."
+        "UB member validation confirms that no UB institutional annual integrity statistics, anonymized summaries, committee activity reports or general public misconduct case-output channel are available yet beyond the located pages."
       ],
       reportNotes: [
-        "Batch 3 moved UB to Detailed seed because CIR-CAT Recommendation 1/2025 gives public institution-linked integrity output, while preserving the negative finding for a UB-owned archive."
+        "Batch 3 moved UB to Detailed seed because CIR-CAT Recommendation 1/2025 gives public institution-linked integrity output, while preserving the negative finding for a UB-owned archive.",
+        "29 July 2026 UB member validation confirmed the UB portal and Code as the correct institutional route, confirmed CIR-CAT output as external regional context rather than UB-owned reporting, confirmed that UB has no annual statistics, anonymized summaries or committee activity reports yet, and added a watchpoint for the future UB research-integrity committee after statutes enter force."
       ],
       nextFollowUp:
-        "Validate whether UB publishes any institutional annual integrity report or case summary, and index CIR-CAT Recommendation 1/2025 by topic, route, recommendation and follow-up status.",
+        "Monitor approval and entry into force of the modified UB statutes and the subsequent creation of a UB research-integrity committee; add UB-owned statistics or activity reports only if they become public; index CIR-CAT Recommendation 1/2025 as external regional output.",
       memberValidationQuestions: [
-        "Is the UB ethics/integrity portal plus Code of Conduct the correct member-facing institutional route?",
-        "Should CIR-CAT Recommendation 1/2025 be shown as regional institution-linked output rather than UB-owned reporting?",
-        "Does UB publish annual research-integrity statistics, anonymized summaries or committee activity reports beyond the pages located here?",
-        "Which UB committees should be listed as boundary ethics review rather than misconduct handling?",
-        "How should CERCA, CIR-CAT and UB responsibilities be separated in a validated LERU profile?"
+        "Confirmed: the UB ethics/integrity portal plus Code of Conduct is the correct member-facing institutional route.",
+        "Confirmed: CIR-CAT Recommendation 1/2025 should be shown as external regional institution-linked output rather than UB-owned reporting.",
+        "Confirmed: UB does not yet publish annual research-integrity statistics, anonymized summaries or committee activity reports beyond the located pages.",
+        "Track: UB has recently modified its statutes and should be rechecked once those statutes are approved and in force and the research-integrity committee establishment process begins.",
+        "Confirmed: CERCA centres and UB are separate institutions with their own powers, while CIR-CAT is an external Generalitat de Catalunya body with recommendation power toward Catalan universities and CERCA centres."
       ]
     }),
     member({
@@ -619,17 +628,18 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Transparency seed from existing project data",
+      validationStatus: "Updated with Danish member validation on Danish Board on Research Misconduct (NVU) terminology and UCPH route correctness",
       evidenceLevel: "Strong",
       transparencyCategory: "Practice Committee annual reports and minutes",
       institutionalRoute:
-        "The Practice Committee assesses responsible-conduct issues, receives complaints, publishes rules, annual reports and meeting minutes, handles cases returned from NVU and can refer suspected misconduct to the national Board.",
+        "Danish member validation confirms that the UCPH route and links are correct. The Practice Committee assesses responsible-conduct issues, receives complaints, publishes rules, annual reports and meeting minutes, handles cases returned from the Danish Board on Research Misconduct (NVU) and can refer suspected research misconduct to the national Board.",
       committeeOrOffice: "Practice Committee and Named Persons",
       procedureSummary:
         "Committee page, publication hub and institutional code route are represented in the Denmark dossier.",
       publicOutputSummary:
         "The 2024 Practice Committee annual report is coded as the strongest local institutional publication example found in the Denmark pass.",
       transparencySummary:
-        "Annual reports and minutes create a local public-output lane, distinct from the NVU national misconduct route.",
+        "Annual reports and minutes create a local public-output lane, distinct from the Danish Board on Research Misconduct (NVU) national research-misconduct route.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
@@ -663,12 +673,23 @@
           url: "https://praksisudvalget.ku.dk/publikationer/_rsberetning_2024_Praksisudvalget_K_benhavns_Universitet.pdf",
           type: "annual report",
           supports: "local QRP and returned-case summaries",
-          note: "Contains case summaries, rejections and matters returned from NVU to local handling."
+          note: "Contains case summaries, rejections and matters returned from the Danish Board on Research Misconduct (NVU) to local handling."
         }
       ],
-      tags: ["Practice Committee", "annual report", "minutes", "returned cases"],
-      caveats: ["Do not merge UCPH local QRP publication with NVU national misconduct publication."],
-      nextFollowUp: "Index UCPH annual reports and minutes by case type, returned-case status and local outcome category."
+      tags: ["Practice Committee", "annual report", "minutes", "returned cases", "member validated", "Danish Board on Research Misconduct"],
+      caveats: [
+        "Do not merge UCPH local QRP publication with Danish Board on Research Misconduct (NVU) national research-misconduct publication."
+      ],
+      reportNotes: [
+        "29 July 2026 Danish member validation confirmed that the Danish system and UCPH profile are correct, while clarifying that the Danish Board on Research Misconduct (NVU) should be named at first mention and described as handling research misconduct."
+      ],
+      nextFollowUp: "Index UCPH annual reports and minutes by case type, returned-case status and local outcome category.",
+      memberValidationQuestions: [
+        "Confirmed: the Danish system and UCPH route and links are correct.",
+        "Use Danish Board on Research Misconduct (NVU) at first mention.",
+        "Describe the Danish Board on Research Misconduct (NVU) as handling research misconduct, while the UCPH Practice Committee route covers local questionable research practice and returned matters.",
+        "Index UCPH annual reports and minutes by case type, returned-case status and local outcome category."
+      ]
     }),
     member({
       id: "trinity-college-dublin",
@@ -1102,7 +1123,7 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Detailed national-output/no-local-output audit seed",
-      validationStatus: "Needs member validation of Helsinki output-negative finding",
+      validationStatus: "Updated with University of Helsinki member validation on local route and no-local-output finding",
       evidenceLevel: "Moderate",
       transparencyCategory: "Chancellor and adviser route with TENK national-output context",
       institutionalRoute:
@@ -1159,20 +1180,20 @@
       ],
       tags: ["official-source seed", "procedure only", "adviser network", "TENK", "national summaries"],
       caveats: [
-        "No Helsinki local public case-output channel was identified in this pass.",
+        "University of Helsinki member validation confirms that no Helsinki local public case-output channel was identified beyond the located public pages.",
         "TENK statement summaries are national second-line output and should not be recoded as Helsinki local publication unless a specific summary identifies Helsinki.",
         "Research ethics committees, medical ethics, data management and permit routes remain boundary regimes."
       ],
       reportNotes: [
-        "Batch 5 upgraded Helsinki to Detailed seed as a national-output/no-local-output audit profile: local first-instance handling is clear, while public output remains TENK national-summary based rather than Helsinki-owned."
+        "Batch 5 upgraded Helsinki to Detailed seed as a national-output/no-local-output audit profile: local first-instance handling is clear, while public output remains TENK national-summary based rather than Helsinki-owned.",
+        "29 July 2026 University of Helsinki member validation confirmed the local-route and no-local-output framing; the profile remains national-output because TENK statement summaries are the public Finnish output route."
       ],
-      nextFollowUp: "Validate whether Helsinki publishes annual statistics, local RI decisions or links to Helsinki-specific TENK summaries beyond procedure guidance and general annual reviews.",
+      nextFollowUp: "Monitor whether Helsinki later publishes annual statistics, local RI decisions or links to Helsinki-specific TENK summaries beyond procedure guidance and general annual reviews.",
       memberValidationQuestions: [
-        "Is the chancellor notification route the correct public first-instance framing for Helsinki?",
-        "Which Helsinki research-integrity adviser information should be shown without personal contact details?",
-        "Does Helsinki publish local annual statistics or anonymized local decisions?",
-        "Are there Helsinki-specific TENK summaries that should be linked as national second-line output?",
-        "Which ethics, data, animal, clinical and open-science routes should remain boundary material?"
+        "Confirmed: the chancellor notification route is the correct public first-instance framing for Helsinki.",
+        "Confirmed: no Helsinki local annual statistics or anonymized local decisions were identified beyond the located pages.",
+        "Keep TENK statement summaries as national second-line output unless a summary explicitly identifies Helsinki.",
+        "Keep ethics, data, animal, clinical and open-science routes as boundary material unless a source routes them into research-misconduct handling."
       ]
     }),
     member({
@@ -1503,50 +1524,67 @@
       city: "Milan",
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
-      profileStatus: "Detailed restricted-output/boundary-aware audit seed",
-      validationStatus: "Needs member validation of Milan route and restricted-output finding",
-      evidenceLevel: "Moderate",
-      transparencyCategory: "Ethics committee route with restricted minutes",
+      profileStatus: "Member-validated restricted/internal-output profile",
+      validationStatus: "Updated with University of Milan member validation on mandate, disciplinary split and restricted records",
+      evidenceLevel: "Strong",
+      transparencyCategory: "Restricted internal case records, opinions and statistics",
       countrySystemSummary:
         "Italy is coded as a distributed system with local university ethics and integrity committees, national and research-organisation infrastructure, and separate clinical, territorial ethics, animal, data, IP and quality-assurance boundaries.",
       nationalRoute:
-        "The Milan route is institution-level and committee-led; Italian national or territorial clinical-ethics routes and CNR/CNB-style ethics infrastructure should not be treated as University of Milan misconduct output unless a source explicitly links them to the university case.",
+        "The Milan route is institution-level and split by legal character. The Ethics Committee handles project ethics and inquiries into research-integrity misconduct that does not constitute a disciplinary offence; disciplinary-offence inquiries fall to the University Disciplinary Board. National or territorial clinical-ethics routes and CNR/CNB infrastructure remain separate.",
       institutionalRoute:
-        "The University of Milan Ethics Committee expresses opinions on research projects and can provide opinions on violations of the Code of Ethics and Research Integrity that are not also disciplinary offences.",
-      committeeOrOffice: "University Ethics Committee; Research Ethics Office support route",
+        "The University of Milan Ethics Committee was established in 2007 for ethical assessment of research projects, initially primarily for funding purposes and without research-integrity jurisdiction. Since July 2015 it has also promoted research integrity and conducted inquiries into misconduct only where the matter is not a disciplinary offence; disciplinary cases are handled by the Disciplinary Board.",
+      committeeOrOffice:
+        "Ethics Committee for project ethics and non-disciplinary research-integrity inquiries; Research Ethics and Ethics Committee Support Office; Disciplinary Board for disciplinary offences",
       procedureSummary:
-        "The committee page, ethics-committee regulation and Code of Ethics show a mixed project-ethics and non-disciplinary ethics/integrity-opinion route. The committee regulation says the committee gives ethical-legal analysis on research proposals and opinions on Code of Ethics violations that are not disciplinary offences; the president reports annually to the Academic Senate. The Code includes research-specific sections on planning, roles, data, authorship, plagiarism, publication duties, open science and proceedings.",
+        "The Committee page links the 20 July 2015 competence decree and separates project-ethics opinions from non-disciplinary Code and research-integrity violations. The 2022 regulation requires a reasoned opinion to be attached to the meeting minutes and requires the Committee president to report annually to the Academic Senate. The 2024 Code supplies the research-integrity rules and proceedings baseline; disciplinary offences follow the separate Disciplinary Board route.",
+      publicOutputCategoryNote:
+        "Member validation received on 16 July 2026 confirms that violation cases are recorded in Committee minutes and conclude with an opinion. Minutes and opinions are restricted official records, while internal statistics exist and may be requested periodically by university governance; none is a standing public case-output channel.",
       publicOutputSummary:
-        "No University of Milan public misconduct case-output channel, anonymized decision archive or public aggregate integrity-statistics channel was identified in this pass. The key publication evidence is negative: committee minutes/opinions are restricted through Unimibox, while the public research report and Open Science material provide governance, training and policy context rather than case-output reporting.",
+        "University of Milan member validation confirms a real internal case record: violation cases handled by the Ethics Committee are recorded in minutes and receive a concluding opinion. The minutes and opinions are subject to restricted consultation and stored in the University's official records system. Internal statistics can be requested periodically by governance, but no standing public case archive, opinion series or aggregate integrity-statistics channel is currently available.",
       transparencySummary:
-        "Detailed restricted-output audit seed: the public route, code and restriction status are clear, but public transparency remains procedure/governance visibility rather than case-output visibility. Project ethics, clinical ethics, OPBA animal-welfare opinions and open-science reports are boundary or prevention material unless explicitly tied to misconduct handling.",
+        "The correct classification is restricted/internal output, not absence of records. The public sources show the mandate, procedure and access restriction; the case minutes, opinions and statistics remain internal. Project ethics, clinical ethics, OPBA animal-welfare opinions and open-science reports remain separate unless explicitly tied to a research-integrity inquiry.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
-        annualReportOrCaseOutput: "none located; committee opinions/minutes restricted",
-        sourceRegistryLinks: 3
+        annualReportOrCaseOutput: "restricted/internal only; minutes, opinions and statistics",
+        sourceRegistryLinks: 5
       },
       sourceLinks: [
         {
           label: "University of Milan Ethics Committee",
           url: "https://www.unimi.it/it/ateneo/governance-e-linee-strategiche/organi-di-governo/comitato-etico",
           type: "committee page",
-          supports: "committee route and restricted-minutes boundary",
-          note: "Supports project ethics and non-disciplinary ethics/integrity opinion route."
+          supports: "project-ethics route, July 2015 integrity mandate and restricted-minutes boundary",
+          note: "Links the 20 July 2015 competence decree, limits Code-violation opinions to non-disciplinary matters and states that minutes are restricted through Unimibox."
         },
         {
           label: "Ethics Committee functioning regulation",
           url: "https://www.unimi.it/it/ateneo/normative/regolamenti/regolamento-comitato-etico",
           type: "procedure",
           supports: "institutional committee procedure",
-          note: "Official regulation page; the regulation was last modified on 24 October 2022."
+          note: "The 2022 regulation requires reasoned opinions attached to minutes and annual reporting by the Committee president to the Academic Senate."
         },
         {
           label: "University of Milan Code of Ethics",
           url: "https://www.unimi.it/it/ateneo/normative/codice-etico",
           type: "code",
           supports: "research-integrity code and non-disciplinary proceedings",
-          note: "Includes research-specific rules and title on sanctions/proceedings."
+          note: "The current 2024 Code includes research-specific rules and Title V on sanctions and proceedings."
+        },
+        {
+          label: "University of Milan Statute",
+          url: "https://www.unimi.it/it/ateneo/normative/statuto-dateneo",
+          type: "statute",
+          supports: "separate institutional basis for the Ethics Committee and Disciplinary Board",
+          note: "The current Statute lists the Ethics Committee and Disciplinary Board as distinct university bodies. Member validation reports that a Statute review is underway."
+        },
+        {
+          label: "University of Milan Disciplinary Board route",
+          url: "https://www.unimi.it/it/ateneo/governance-e-linee-strategiche/elezioni-e-nomine/votazioni-corso",
+          type: "disciplinary route",
+          supports: "inquiry and concluding-opinion route for disciplinary proceedings involving professors and researchers",
+          note: "Official current page describing the Disciplinary Board's role; keep this route separate from non-disciplinary Ethics Committee inquiries."
         },
         {
           label: "University of Milan research report 2025",
@@ -1563,25 +1601,20 @@
           note: "Shows research reports as public and Ethics Committee opinions as restricted through Unimibox."
         }
       ],
-      tags: ["ethics committee", "restricted records", "boundary regime", "research-integrity code", "no public output identified"],
+      tags: ["member validated", "ethics committee", "2007 project-ethics origin", "July 2015 integrity mandate", "disciplinary board", "restricted official records", "internal statistics", "statute review watch"],
       caveats: [
-        "Do not treat ethics review or restricted minutes as public misconduct case publication.",
-        "No public case-output channel or anonymized decision archive was identified in this pass.",
+        "The Committee's 2007 establishment for project-ethics assessment must not be backdated as research-integrity jurisdiction; that mandate began in July 2015.",
+        "Do not merge non-disciplinary Ethics Committee inquiries with disciplinary-offence cases handled by the Disciplinary Board.",
+        "Restricted minutes, concluding opinions and internal statistics demonstrate that records exist, but they are not public misconduct case publication.",
         "Clinical trials, OPBA animal-welfare opinions, Open Science annual reports and quality-assurance documents are boundary or governance routes unless tied to a Code of Ethics violation.",
-        "Do not infer absence of University of Milan cases from the absence of public case-output evidence."
+        "The University reports that a Statute review is underway and could remove research-integrity investigation authority from the Ethics Committee in the short term; the profile must be rechecked when changes are adopted."
       ],
       reportNotes: [
-        "Batch 4 upgraded Milan to Detailed seed as a restricted-output/boundary-aware audit profile: the public route and restricted-output finding are clear, but no public case-output channel was found."
+        "Updated on 16 July 2026 from University of Milan member validation: added the 2007/July 2015 mandate history, separated non-disciplinary and disciplinary inquiries, reclassified the transparency evidence as restricted internal records rather than absent records, noted internal statistics and added the pending Statute-review watch."
       ],
       nextFollowUp:
-        "Validate whether the Ethics Committee president's annual Senate report, opinions on Code violations, or aggregate statistics are published anywhere outside restricted Unimibox and governance reports.",
-      memberValidationQuestions: [
-        "Is the Ethics Committee the correct public University of Milan route for non-disciplinary research-integrity code violations?",
-        "Should the Code of Ethics and Research Integrity be treated as the main procedure source or as a normative baseline?",
-        "Are any Ethics Committee opinions, Senate reports, statistics or case summaries public outside restricted Unimibox material?",
-        "How should project-ethics opinions be separated from research-misconduct handling?",
-        "Which clinical-trial, data, IP and publication-ethics routes should remain boundary material?"
-      ]
+        "Monitor the Statute review and revise the responsible-body map immediately if research-integrity investigation authority moves away from the Ethics Committee; if governance approves public release, add non-personal aggregate statistics without exposing restricted minutes or opinions.",
+      memberValidationQuestions: []
     }),
     member({
       id: "lmu-munich",
