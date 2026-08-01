@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "publication_data_cutoff": null,
+  "resolved_in_batch": [
+    {
+      "id": "heidelberg-historical-interim-output",
+      "resolution": "Reclassified from procedure-only to historical-or-case-specific after locating the official 2019 Senate Commission interim summary.",
+      "guardrail": "The final October 2019 Commission report remained internal and no standing output channel was inferred."
+    },
+    {
+      "id": "trinity-policy-url",
+      "resolution": "Retained the current hub-linked Research assets URL and preserved the former Media URL in the audit trail after byte-identical PDF comparison.",
+      "guardrail": "A redirect alone was not treated as proof of document equivalence."
+    },
+    {
+      "id": "trinity-student-report-false-positive",
+      "resolution": "Excluded the Senior Lecturer report Research Misconduct row from RI committee output.",
+      "guardrail": "The row is in the student examination-infringement and plagiarism appendix and uses Office of the Junior Dean data."
+    }
+  ],
+  "technical_exceptions": [
+    {
+      "id": "legifrance-client-403",
+      "source_id": "LRS-7FA3EAE55B5F67",
+      "status": "HTTP 403 in scripted audit",
+      "treatment": "Retained as an official source because it remained accessible in a browser check; no absence inference."
+    },
+    {
+      "id": "heidelberg-commission-membership-login",
+      "status": "Current membership download required login during substantive review",
+      "treatment": "Used the public university hub and rules for standing-commission evidence; did not infer current named composition."
+    }
+  ],
+  "human_or_member_review": [
+    {
+      "institution_id": "university-of-geneva",
+      "question": "Does UNIGE publish non-personal Rectorate summaries, aggregate statistics or exceptional case-learning outputs outside the located pages?"
+    },
+    {
+      "institution_id": "university-of-strasbourg",
+      "question": "Is there a non-personal procedure document or local RIS activity report outside the current referent and Ofis pages?"
+    },
+    {
+      "institution_id": "university-of-freiburg",
+      "question": "Do newer Rector reports or commission summaries continue the historical aggregate-reporting practice?"
+    },
+    {
+      "institution_id": "trinity-college-dublin",
+      "question": "Does Trinity publish local RI statistics, annual statements or lessons-learned notes outside the Senior Dean, Research and NRIF pages?"
+    },
+    {
+      "institution_id": "universite-paris-saclay",
+      "question": "Does POLETHIS or another governance report publish non-personal RIS activity or case-learning output?"
+    },
+    {
+      "institution_id": "lmu-munich",
+      "question": "Is there a non-personal ombudsperson or investigation-committee directory, annual statistic or Rectorate summary beyond the central hub and regulation?"
+    },
+    {
+      "institution_id": "heidelberg-university",
+      "question": "Is the historical-case-specific framing correct, and is any later public outcome or current aggregate reporting available?"
+    }
+  ],
+  "report_level_review": [
+    {
+      "id": "publication-cutoff",
+      "question": "The technical access date is 2026-07-30; the report publication data cut-off still requires author approval."
+    },
+    {
+      "id": "outline-builder-hardcoded-typology",
+      "question": "The Word-outline build script still contains the pre-batch 5 procedure-only / 1 historical typology sentence. Do not regenerate or cite that sentence until the builder is wired to the current generated counts of 4 and 2 rather than repaired by hand."
+    }
+  ]
+}

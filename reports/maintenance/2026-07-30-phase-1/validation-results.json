@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "deterministic_manifest": true,
+  "deterministic_counts": true,
+  "canonical_inputs_unchanged": true,
+  "canonical_input_changes": [],
+  "unique_manifest_ids": true,
+  "derived_count_validations": {
+    "member_metadata_matches_data": true,
+    "public_output_categories_sum_to_member_denominator": true,
+    "source_registry_ids_unique": true
+  },
+  "pilot_expectations": {
+    "total_with_expectations": 6,
+    "met": 6
+  },
+  "commands": [
+    {
+      "name": "Node syntax: scripts/leru_maintenance_lib.mjs",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check scripts/leru_maintenance_lib.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Node syntax: scripts/build_leru_source_manifest.mjs",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check scripts/build_leru_source_manifest.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Node syntax: scripts/generate_leru_report_counts.mjs",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check scripts/generate_leru_report_counts.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Node syntax: scripts/audit_leru_sources.mjs",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check scripts/audit_leru_sources.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Node syntax: scripts/run_leru_maintenance_batch.mjs",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check scripts/run_leru_maintenance_batch.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Node syntax: scripts/tests/leru_maintenance.test.mjs",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check scripts/tests/leru_maintenance.test.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Country data syntax",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check data/countries.js",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Transparency data syntax",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check data/transparency.js",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "LERU member data syntax",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check data/leru-members.js",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "App renderer syntax",
+      "command": "C:\\Program Files\\nodejs\\node.exe --check assets/js/app.js",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Maintenance tests",
+      "command": "C:\\Program Files\\nodejs\\node.exe --test scripts/tests/leru_maintenance.test.mjs",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "TAP version 13\n# Subtest: CSV parser preserves quoted commas, quotes and line breaks\nok 1 - CSV parser preserves quoted commas, quotes and line breaks\n  ---\n  duration_ms: 1.0556\n  type: 'test'\n  ...\n# Subtest: URL canonicalization is stable without merging HTTP and HTTPS\nok 2 - URL canonicalization is stable without merging HTTP and HTTPS\n  ---\n  duration_ms: 0.6953\n  type: 'test'\n  ...\n# Subtest: derived counts reproduce the current live denominators\nok 3 - derived counts reproduce the current live denominators\n  ---\n  duration_ms: 281.5393\n  type: 'test'\n  ...\n# Subtest: source manifest has unique IDs and covers every live data-layer URL\nok 4 - source manifest has unique IDs and covers every live data-layer URL\n  ---\n  duration_ms: 342.1608\n  type: 'test'\n  ...\n# Subtest: technical audit records accessibility, redirects and HTTP failures without interpreting meaning\nok 5 - technical audit records accessibility, redirects and HTTP failures without interpreting meaning\n  ---\n  duration_ms: 43.127\n  type: 'test'\n  ...\n1..5\n# tests 5\n# suites 0\n# pass 5\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 829.1106",
+      "stderr": ""
+    },
+    {
+      "name": "Report builder Python syntax",
+      "command": "python -c import ast, pathlib; ast.parse(pathlib.Path('docs/article/build_leru_report_outline.py').read_text(encoding='utf-8'))",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "Whitespace and patch check",
+      "command": "git diff --check",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it"
+    }
+  ]
+}

@@ -187,3 +187,23 @@ The next France pass should index the following lanes separately:
 - Do not treat Inadis as an operating public archive unless future sources show outputs.
 - Keep CNRS/MIS selected reports, Sorbonne annual reports and Ofis national synthesis as three separate transparency lanes.
 - Keep CPP/CNRIPH, CCNE, CNREEA/CNEA, CNIL/DPO, deontology and research-security material in boundary layers unless a source explicitly routes the matter into RIS misconduct handling.
+
+## LERU priority-member source-current check - 30 July 2026
+
+### University of Strasbourg
+
+- The live scientific-integrity referent page still describes receipt, verification, confidential adversarial instruction and recommendations to the university president.
+- The former HRS4R URL now resolves to the renamed HREIR label page. This remains prevention and strategy context, not misconduct case-output evidence.
+- Targeted French-language searches did not locate a Strasbourg-owned annual RIS activity report, signalement statistics, anonymised case summaries or public decisions. The Ofis 2022-2023 synthesis remains national context.
+
+### Universite Paris-Saclay
+
+- The POLETHIS scientific-integrity referent network page remains current and still describes confidential instruction of reported breaches.
+- Targeted French-language searches did not locate a Paris-Saclay RIS annual activity report, signalement statistics, anonymised case summary or decision channel.
+- CER-PS activity reporting remains research-ethics boundary evidence and is not recoded as misconduct committee output.
+
+Current official sources:
+
+- Strasbourg RIS referent: https://www.unistra.fr/fr/universite/engagements/referents/referent-lintegrite-scientifique
+- Strasbourg HREIR label: https://www.unistra.fr/fr/universite/labels/label-hr-excellence-research-hreir
+- Paris-Saclay POLETHIS RIS network: https://www.universite-paris-saclay.fr/recherche/polethis-ethique-et-integrite/polethis-axe-du-reseau-integrite-scientifique

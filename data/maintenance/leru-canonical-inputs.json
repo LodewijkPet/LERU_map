@@ -1,0 +1,970 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-31",
+  "git": {
+    "commit": "65401f61648319f762b56e99544ebecd7498f822",
+    "dirty": true,
+    "changed_paths": [
+      {
+        "path": "AGENTS.md",
+        "status": " M"
+      },
+      {
+        "path": "data/countries.js",
+        "status": " M"
+      },
+      {
+        "path": "data/France/raw documentation/source notes/France deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/Germany/raw documentation/source notes/Germany deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/Ireland/raw documentation/source notes/Ireland deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/leru-extraction-log.csv",
+        "status": " M"
+      },
+      {
+        "path": "data/leru-members.js",
+        "status": " M"
+      },
+      {
+        "path": "data/maintenance/leru-canonical-inputs.csv",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/leru-canonical-inputs.json",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/leru-source-manifest.csv",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/leru-source-manifest.json",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/pilot-sources.json",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/README.md",
+        "status": "??"
+      },
+      {
+        "path": "data/source-registry.csv",
+        "status": " M"
+      },
+      {
+        "path": "data/Switzerland/raw documentation/source notes/Switzerland deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/transparency-extraction-log.csv",
+        "status": " M"
+      },
+      {
+        "path": "data/transparency.js",
+        "status": " M"
+      },
+      {
+        "path": "docs/article/LERU-REPORT-PRODUCTION-GUIDE.md",
+        "status": "??"
+      },
+      {
+        "path": "docs/status/LERU-PUBLIC-OUTPUT-AUDIT.md",
+        "status": " M"
+      },
+      {
+        "path": "docs/status/LERU-REPORT-GAP-MATRIX.md",
+        "status": " M"
+      },
+      {
+        "path": "docs/workflows/LERU-AI-MAINTENANCE-RUNBOOK.md",
+        "status": "??"
+      },
+      {
+        "path": "PLANS.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/batch-summary.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/derived-counts.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/derived-counts.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/validation-results.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/completion-memo.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/derived-counts.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/derived-counts.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/exceptions-and-review.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/member-control.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-current-results.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/validation-results.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-31-unige-feedback/derived-counts.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-31-unige-feedback/derived-counts.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/project-overview.html",
+        "status": " M"
+      },
+      {
+        "path": "scripts/audit_leru_sources.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/build_leru_source_manifest.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/generate_leru_report_counts.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/leru_maintenance_lib.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/run_leru_maintenance_batch.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/tests/leru_maintenance.test.mjs",
+        "status": "??"
+      }
+    ]
+  },
+  "input_count": 54,
+  "missing_input_count": 0,
+  "inputs": [
+    {
+      "input_id": "LCI-A54FF182C7E8AC",
+      "role": "standing repository instructions",
+      "path": "AGENTS.md",
+      "exists": true,
+      "bytes": 51729,
+      "sha256": "cc048e4413626c4cfc661fa701f517af6c58535f3d955a1b7881ac511a7d7f0d",
+      "modified_at": "2026-07-30T17:42:45.217Z",
+      "git_status": " M",
+      "governs": [
+        "report:boundaries",
+        "report:maintenance-contract"
+      ]
+    },
+    {
+      "input_id": "LCI-D306FBEBE06AC3",
+      "role": "country overview document",
+      "path": "data/Austria/Overview Austria.docx",
+      "exists": true,
+      "bytes": 28890,
+      "sha256": "5ca13fa396f989158292282b03c4ba81a74f7ab7e5c99319c2f8fcc335f125d7",
+      "modified_at": "2026-04-16T07:15:07.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-CA9B292D855CBF",
+      "role": "country overview document",
+      "path": "data/Belarus/Overview Belarus.docx",
+      "exists": true,
+      "bytes": 24188,
+      "sha256": "941e62b6945cbbbc6c8d327297a6cad69cbbaf4af8963099a49ff71a50924928",
+      "modified_at": "2026-04-16T07:12:53.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-020E19C15CE570",
+      "role": "country overview document",
+      "path": "data/Belgium/Overview Belgium.docx",
+      "exists": true,
+      "bytes": 23208,
+      "sha256": "8bc8007c3ccd55a11c18a4cb9e8db7263e2094316979f8cfcaabb3c332e8539e",
+      "modified_at": "2026-04-15T13:45:34.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-A965A0710F8622",
+      "role": "country overview document",
+      "path": "data/Bosnia and Herzegovina/Overview Bosnia and Herzegovina.docx",
+      "exists": true,
+      "bytes": 22783,
+      "sha256": "ccfef4930100724a92cbb6128998f013fd3aa8320e10f9151f7d014efed807c9",
+      "modified_at": "2026-04-17T13:21:29.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-9FEC3763144790",
+      "role": "country overview document",
+      "path": "data/Bulgaria/Overview Bulgaria.docx",
+      "exists": true,
+      "bytes": 22720,
+      "sha256": "18448fee3efa3c6615ce0be0c2c429acec861197f746ef1c424fc800dae66ad6",
+      "modified_at": "2026-04-17T13:20:06.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-FDBF38FD964621",
+      "role": "live country records",
+      "path": "data/countries.js",
+      "exists": true,
+      "bytes": 4295802,
+      "sha256": "19e146c39549c10c12cb13b065410b87bc3dded2964e332d8615ff2f83f0c999",
+      "modified_at": "2026-07-31T10:06:26.151Z",
+      "git_status": " M",
+      "governs": [
+        "report:country-denominator",
+        "report:system-typology"
+      ]
+    },
+    {
+      "input_id": "LCI-0A2217E15B0734",
+      "role": "country overview document",
+      "path": "data/Croatia/Overview Croatia.docx",
+      "exists": true,
+      "bytes": 26593,
+      "sha256": "647cb7fe8bd6606e0b101c3bbf2fc85e1093e5b8d4f88c09d8a01e319cfcb1ad",
+      "modified_at": "2026-04-16T07:06:58.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-03EBE9D32E22BE",
+      "role": "country overview document",
+      "path": "data/Cyprus/Overview Cyprus.docx",
+      "exists": true,
+      "bytes": 25355,
+      "sha256": "9323e636fcea6e03aa9001032cc53c6191bebccbc7d1bd0fa51c451c85fd48b6",
+      "modified_at": "2026-04-17T13:19:03.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-1E8B99F3555E35",
+      "role": "country overview document",
+      "path": "data/Czechia/Overview Czechia.docx",
+      "exists": true,
+      "bytes": 24464,
+      "sha256": "186131cc7b5e849d7fe79d46e2f3c1d4cadeb56e4f42b722e3796ce021cc5b09",
+      "modified_at": "2026-04-17T05:53:16.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-18A5DD8CA6F260",
+      "role": "country overview document",
+      "path": "data/Denmark/Overview Denmark.docx",
+      "exists": true,
+      "bytes": 25560,
+      "sha256": "880c1dfd4d83f79fbf1e6215a5761454ffb6bcdd9902fb3bc17a233a5f3154b1",
+      "modified_at": "2026-04-09T14:46:02.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-25C512606491D8",
+      "role": "country overview document",
+      "path": "data/Estonia/Overview Estonia.docx",
+      "exists": true,
+      "bytes": 24633,
+      "sha256": "a023e42d39c74123b8bade3341aa849a150665753cf54f446fdb38f7fdc52b9f",
+      "modified_at": "2026-04-16T07:14:25.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-888FE56BE9404F",
+      "role": "overview extraction status",
+      "path": "data/extraction-status.md",
+      "exists": true,
+      "bytes": 5835,
+      "sha256": "dec833f22a0ea92d12ab38b3e72822ab821a9e8488467a988cce340bf16d1b3a",
+      "modified_at": "2026-04-30T14:23:16.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:overview-status"
+      ]
+    },
+    {
+      "input_id": "LCI-6D8B854F375DEF",
+      "role": "country overview document",
+      "path": "data/Finland/Overview Finland.docx",
+      "exists": true,
+      "bytes": 25774,
+      "sha256": "919ee1700d81b177718ee2e52bb405fd742dfde67b99b432ca93977a40b0eede",
+      "modified_at": "2026-04-09T15:28:07.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-C613902A8401EB",
+      "role": "country overview document",
+      "path": "data/France/Overview France.docx",
+      "exists": true,
+      "bytes": 24733,
+      "sha256": "fd3194d086f954155dc1106b6efdc9192e042f2ade8e39f2395d2a226b407280",
+      "modified_at": "2026-04-15T13:42:21.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-95A9AE5C818E86",
+      "role": "country overview document",
+      "path": "data/Germany/Overview Germany.docx",
+      "exists": true,
+      "bytes": 25406,
+      "sha256": "4f36f0ca8c8903c4e526c671b4dad5f2ddf36361c49a5762813dd56a8365ff79",
+      "modified_at": "2026-04-16T07:08:11.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-8CD9087C9E9C27",
+      "role": "country overview document",
+      "path": "data/Greece/Overview Greece.docx",
+      "exists": true,
+      "bytes": 27166,
+      "sha256": "4a7235884ca81bc7ff28771d13b2b7372b4ce2e466a16b00c5b055f83abafe93",
+      "modified_at": "2026-04-16T07:13:27.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-56D73F285C69F9",
+      "role": "country overview document",
+      "path": "data/Hungary/Overview Hungary.docx",
+      "exists": true,
+      "bytes": 24136,
+      "sha256": "e9e0f4306242bb9108202aac7038b9cb4c45ebe97b0142b574b0772aa9734728",
+      "modified_at": "2026-04-16T07:09:13.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-B54CEEC71266DE",
+      "role": "country overview document",
+      "path": "data/Iceland/Overview Iceland.docx",
+      "exists": true,
+      "bytes": 25403,
+      "sha256": "83c99ad765bc6d15064e579eb6759e73368530343f7f6ccebde432188e56aec6",
+      "modified_at": "2026-04-17T13:20:51.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-542AAC6AA533D3",
+      "role": "country overview document",
+      "path": "data/Ireland/Overview Ireland.docx",
+      "exists": true,
+      "bytes": 24729,
+      "sha256": "9576404784ce99b34721c7711e4afd6be5dde876938b3d071e139b2d817ce40e",
+      "modified_at": "2026-04-15T13:43:27.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-0264D10947F9B4",
+      "role": "country overview document",
+      "path": "data/Italy/Overview Italy.docx",
+      "exists": true,
+      "bytes": 24593,
+      "sha256": "5519e8beaf4afe7da0086e622626d79b0e563f46c302e61f3b3e17da651fd898",
+      "modified_at": "2026-04-16T08:12:36.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-6BD08FF5046661",
+      "role": "country overview document",
+      "path": "data/Kosovo/Overview Kosovo.docx",
+      "exists": true,
+      "bytes": 21652,
+      "sha256": "ac4d8af4ec17723f2a729e2d2030fdbca2e984cf3ce10960772a8240d5afd1ff",
+      "modified_at": "2026-04-17T13:16:24.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-29263A4CA024C2",
+      "role": "country overview document",
+      "path": "data/Latvia/Overview Latvia.docx",
+      "exists": true,
+      "bytes": 22487,
+      "sha256": "37292eb6e26464965ac63693a4bce1435099e155c664bad3ad725e0ef3c588d5",
+      "modified_at": "2026-04-17T05:52:36.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-D7F1B8F274982F",
+      "role": "member extraction and validation history",
+      "path": "data/leru-extraction-log.csv",
+      "exists": true,
+      "bytes": 50294,
+      "sha256": "8f9d03a1a6c72c2728e9aa16a5d85e892bc34e2cca486e2285656811ad2b088d",
+      "modified_at": "2026-07-31T11:30:00.837Z",
+      "git_status": " M",
+      "governs": [
+        "report:member-validation"
+      ]
+    },
+    {
+      "input_id": "LCI-7F4B5DB92E74A4",
+      "role": "live 24-member profiles",
+      "path": "data/leru-members.js",
+      "exists": true,
+      "bytes": 175870,
+      "sha256": "799fee8ff113fedf145d28c857b06b8e61044d9a83c91fd96e9e6b5e400a6fdd",
+      "modified_at": "2026-07-31T11:29:05.261Z",
+      "git_status": " M",
+      "governs": [
+        "report:member-denominator",
+        "report:member-comparison"
+      ]
+    },
+    {
+      "input_id": "LCI-682DBD4B19A82B",
+      "role": "country overview document",
+      "path": "data/Lithuania/Overview Lithuania.docx",
+      "exists": true,
+      "bytes": 23437,
+      "sha256": "390962f3a151fea782705096335d2c81ae84b1b12c42d7f34bf59c69c50f41a9",
+      "modified_at": "2026-04-17T05:54:14.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-3601A55F9A9E22",
+      "role": "country overview document",
+      "path": "data/Luxembourg/Overview Luxembourg.docx",
+      "exists": true,
+      "bytes": 23519,
+      "sha256": "79a24a48b0b13712367f4ca326eaa383b7e013eaf6257ca7c72eb13424e486b4",
+      "modified_at": "2026-04-17T05:57:12.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-A0B66B1DECDE50",
+      "role": "country overview document",
+      "path": "data/Moldova/Overview Moldova.docx",
+      "exists": true,
+      "bytes": 21494,
+      "sha256": "10f0e71da47287b3fe7e7764564d1b168ef457e010a77fdf4d96996c791eed91",
+      "modified_at": "2026-04-17T05:56:32.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-D60E49825D47B2",
+      "role": "country overview document",
+      "path": "data/Montenegro/Overview Montenegro.docx",
+      "exists": true,
+      "bytes": 29825,
+      "sha256": "370f5ce20d24ebd7412ab9231e3498da0f4fc1aa123a7783e7bec07aa8d1ea28",
+      "modified_at": "2026-04-17T13:25:43.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-6ACE68860FA03D",
+      "role": "country overview document",
+      "path": "data/Netherlands/Overview Netherlands.docx",
+      "exists": true,
+      "bytes": 36891,
+      "sha256": "c61b38db3c99a7d795517955c5f99e7572abf74b5ff0f7fe0504e1f0231a772b",
+      "modified_at": "2026-04-09T12:59:44.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-33160F8D1793F4",
+      "role": "country overview document",
+      "path": "data/North Macedonia/Overview North Macedonia.docx",
+      "exists": true,
+      "bytes": 23658,
+      "sha256": "fe6ea6efaf23db57d2c0e7381211c3d5e7a43d6fa121359ef6f0c315425491b2",
+      "modified_at": "2026-04-17T13:22:15.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-506A9697BC0CF8",
+      "role": "country overview document",
+      "path": "data/Norway/Overview Norway.docx",
+      "exists": true,
+      "bytes": 21419,
+      "sha256": "9e05a318e4e72987bfd091fa98a9cc16fb9303e9160f59186f7ae6b1f4dbddaf",
+      "modified_at": "2026-04-09T14:45:32.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-23580764BF65D0",
+      "role": "overview extraction history",
+      "path": "data/overview-extraction-log.csv",
+      "exists": true,
+      "bytes": 7693,
+      "sha256": "462c040c548877e1374a6f86e22cc064f9202b27f58bbbeebf1e35a6353f99e6",
+      "modified_at": "2026-04-23T13:15:50.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:overview-denominator"
+      ]
+    },
+    {
+      "input_id": "LCI-0E0780AFBF510D",
+      "role": "country overview document",
+      "path": "data/Poland/Overview Poland.docx",
+      "exists": true,
+      "bytes": 26596,
+      "sha256": "6679c12ba97074f5504ea4fe4e13b8064661935b209b743f837811f77ceee59a",
+      "modified_at": "2026-04-16T07:11:23.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-4F66CE37479C93",
+      "role": "country overview document",
+      "path": "data/Portugal/Overview Portugal.docx",
+      "exists": true,
+      "bytes": 22629,
+      "sha256": "fc33e79e6633c92a85108d5751b5fa3760a26280c084426addcf45bb7ac76906",
+      "modified_at": "2026-04-15T13:44:23.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-FAF75DDF1FAE31",
+      "role": "country overview document",
+      "path": "data/Romania/Overview Romania.docx",
+      "exists": true,
+      "bytes": 20194,
+      "sha256": "467e97d2e13d9c5bdb4882da9dd603c0c45f16ba3ea68fa79bdd9f235b260b30",
+      "modified_at": "2026-04-17T14:02:53.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-699A21B29220E2",
+      "role": "country overview document",
+      "path": "data/Russia/Overview Russia.docx",
+      "exists": true,
+      "bytes": 22827,
+      "sha256": "fb4c042b9c0a13d53d4eb2ce6ca4fa44b6b51eb96afe5fb643bb0e27668a9d56",
+      "modified_at": "2026-04-17T13:24:04.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-CDE5C2D0F29AA6",
+      "role": "country overview document",
+      "path": "data/Serbia/Overview Serbia.docx",
+      "exists": true,
+      "bytes": 24709,
+      "sha256": "ec57b0e46cf5932267d44b3459221d3bed82316238fc91055501e54f481a8eb3",
+      "modified_at": "2026-04-17T13:22:49.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-25726A67C18EF1",
+      "role": "country overview document",
+      "path": "data/Slovakia/Overview Slovakia.docx",
+      "exists": true,
+      "bytes": 26174,
+      "sha256": "6ada47e8ed9ee2c69d26184b5eed639df87bb16b5f29cad2cb1c7264846b4f35",
+      "modified_at": "2026-04-17T05:55:37.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-3A1F40A669A422",
+      "role": "country overview document",
+      "path": "data/Slovenia/Overview Slovenia.docx",
+      "exists": true,
+      "bytes": 23514,
+      "sha256": "ace167bb2133d01e31cdc4e092fc1694671bcc355343e983438815e6ae28108c",
+      "modified_at": "2026-04-17T05:55:01.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-9F929A9D4AB9ED",
+      "role": "official source audit trail",
+      "path": "data/source-registry.csv",
+      "exists": true,
+      "bytes": 631049,
+      "sha256": "716c77bbc6b9aeb69e8f2fba84b102a4d16babc6c514b7a1d31fe452814f2261",
+      "modified_at": "2026-07-31T11:29:23.505Z",
+      "git_status": " M",
+      "governs": [
+        "report:source-denominator",
+        "report:provenance"
+      ]
+    },
+    {
+      "input_id": "LCI-292A9712E044B2",
+      "role": "country overview document",
+      "path": "data/Spain/Overview Spain.docx",
+      "exists": true,
+      "bytes": 23643,
+      "sha256": "c1bf9d67b91eddc446b5fd6812058b03c8e5ebd39c2926cc92bf3dd625e5f307",
+      "modified_at": "2026-04-15T13:46:12.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-04031B311184BF",
+      "role": "country overview document",
+      "path": "data/Sweden/Overview Sweden.docx",
+      "exists": true,
+      "bytes": 26890,
+      "sha256": "001d53bbc5ecd78797459a79174ea13c16950c6b3d8bb2c1b6fb5b62285cdd5f",
+      "modified_at": "2026-04-10T07:15:10.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-748AB88B6780DE",
+      "role": "country overview document",
+      "path": "data/Switzerland/Overview Switzerland.docx",
+      "exists": true,
+      "bytes": 22636,
+      "sha256": "6eb7c332ce9eac3c44da9f9f6c233042fa314c11ee71f5f4128d808c0a5bd443",
+      "modified_at": "2026-04-16T07:10:11.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-DABE888ED2C142",
+      "role": "transparency extraction history",
+      "path": "data/transparency-extraction-log.csv",
+      "exists": true,
+      "bytes": 31532,
+      "sha256": "73044b5e53363d87e8a48db9e49f304fb5a8cd345d360dbe52d13785c3fe62e4",
+      "modified_at": "2026-07-31T09:59:16.844Z",
+      "git_status": " M",
+      "governs": [
+        "report:transparency-provenance"
+      ]
+    },
+    {
+      "input_id": "LCI-D4263D975B2016",
+      "role": "live transparency layer",
+      "path": "data/transparency.js",
+      "exists": true,
+      "bytes": 157222,
+      "sha256": "970b008a29c00d9aa0b0cf71e9c27a46b07775f07ef8e30d1e0f16761a8200e8",
+      "modified_at": "2026-07-31T09:58:03.734Z",
+      "git_status": " M",
+      "governs": [
+        "report:transparency-denominator",
+        "report:publication-models"
+      ]
+    },
+    {
+      "input_id": "LCI-C9562146725B2F",
+      "role": "country overview document",
+      "path": "data/Turkey/Overview Turkey.docx",
+      "exists": true,
+      "bytes": 26670,
+      "sha256": "65141616d9e50688ff18163790a6080a2f5d68d20c135a1666f43c5a3b029df1",
+      "modified_at": "2026-04-17T13:23:25.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-72D178EBC0BA4B",
+      "role": "country overview document",
+      "path": "data/Ukraine/Overview Ukraine.docx",
+      "exists": true,
+      "bytes": 24849,
+      "sha256": "8d6efa433c418a8349c2d84d5b58522e39459df1c9f0dfe8b1e0dee5a7253598",
+      "modified_at": "2026-04-17T05:51:40.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-787ED80E78895E",
+      "role": "country overview document",
+      "path": "data/United Kingdom/Overview United Kingdom.docx",
+      "exists": true,
+      "bytes": 23317,
+      "sha256": "88644df6f3c30f5a137e69c850ee81d1e124b6aa62266de601aa809582b1fea4",
+      "modified_at": "2026-04-23T12:58:44.000Z",
+      "git_status": "clean",
+      "governs": [
+        "report:country-evidence"
+      ]
+    },
+    {
+      "input_id": "LCI-3C94E79280C846",
+      "role": "reproducible Word builder",
+      "path": "docs/article/build_leru_report_outline.py",
+      "exists": true,
+      "bytes": 71641,
+      "sha256": "3c1bc4497052aeb1ba2d970a04ea74e73a90742d27547300e4276c43072cf0a6",
+      "modified_at": "2026-07-15T10:17:38.066Z",
+      "git_status": "clean",
+      "governs": [
+        "report:word-output"
+      ]
+    },
+    {
+      "input_id": "LCI-96EBC469F3AC0C",
+      "role": "production specification",
+      "path": "docs/article/LERU-REPORT-PRODUCTION-GUIDE.md",
+      "exists": true,
+      "bytes": 22288,
+      "sha256": "01e034118eca80e46bc2f891f6ecbdfd278c4e9d47856d188afb5ff3ed1dd92a",
+      "modified_at": "2026-07-31T11:32:07.863Z",
+      "git_status": "??",
+      "governs": [
+        "report:architecture",
+        "report:evidence-rules"
+      ]
+    },
+    {
+      "input_id": "LCI-B862A0B935800D",
+      "role": "public-output definitions and audit",
+      "path": "docs/status/LERU-PUBLIC-OUTPUT-AUDIT.md",
+      "exists": true,
+      "bytes": 18607,
+      "sha256": "31db7cd34602c4486d4c4c259c94d83bf6511c8cb82b27afdaa1deb4c0bc2fa8",
+      "modified_at": "2026-07-31T11:31:12.105Z",
+      "git_status": " M",
+      "governs": [
+        "report:public-output-typology"
+      ]
+    },
+    {
+      "input_id": "LCI-8599AFD74BD732",
+      "role": "member evidence-gap control",
+      "path": "docs/status/LERU-REPORT-GAP-MATRIX.md",
+      "exists": true,
+      "bytes": 21441,
+      "sha256": "efbfddb63bf8e7636a2a98b692a2f6d3547b915d24b64f4da0c92d928940da75",
+      "modified_at": "2026-07-31T11:33:37.247Z",
+      "git_status": " M",
+      "governs": [
+        "report:member-gaps"
+      ]
+    },
+    {
+      "input_id": "LCI-CDE136363D3664",
+      "role": "current substantive outline",
+      "path": "reports/LERU-research-integrity-report-article-outline-review.docx",
+      "exists": true,
+      "bytes": 59420,
+      "sha256": "01a91e9def28fbe71d8817b4c3145c995d1372a86e2cf267cfdf05c8d6c431a6",
+      "modified_at": "2026-07-15T10:17:55.114Z",
+      "git_status": "clean",
+      "governs": [
+        "report:draft-baseline"
+      ]
+    }
+  ]
+}

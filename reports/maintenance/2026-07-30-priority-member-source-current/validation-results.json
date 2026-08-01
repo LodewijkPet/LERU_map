@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "status": "pass_with_documented_source_exception",
+  "checks": [
+    {
+      "name": "data/leru-members.js syntax",
+      "status": "pass",
+      "command": "node --check data/leru-members.js"
+    },
+    {
+      "name": "data/countries.js syntax",
+      "status": "pass",
+      "command": "node --check data/countries.js"
+    },
+    {
+      "name": "data/transparency.js syntax",
+      "status": "pass",
+      "command": "node --check data/transparency.js"
+    },
+    {
+      "name": "assets/js/app.js syntax",
+      "status": "pass",
+      "command": "node --check assets/js/app.js"
+    },
+    {
+      "name": "maintenance tests",
+      "status": "pass",
+      "command": "node --test scripts/tests/leru_maintenance.test.mjs",
+      "result": "5 tests passed; the count test now compares generated values with live canonical inputs instead of a fixed registry total"
+    },
+    {
+      "name": "batch invariants",
+      "status": "pass",
+      "result": "24 member profiles; 14 strict standing-output profiles; categories 12/4/4/2/2; seven dated target profiles; 44-source audit with 31 accessible, 12 redirected-accessible and one HTTP error"
+    },
+    {
+      "name": "source registry",
+      "status": "pass",
+      "result": "1585 rows and 1585 unique source IDs"
+    },
+    {
+      "name": "source manifest",
+      "status": "pass",
+      "result": "2216 unique URLs, 2053 report-critical, 54 canonical inputs and no missing canonical inputs"
+    },
+    {
+      "name": "derived counts",
+      "status": "pass",
+      "result": "49 countries, 40 deep dossiers, 40 overview documents, 35 transparency entries, 24 LERU profiles, 6 validations processed, 18 open and 14 strict standing-output profiles"
+    },
+    {
+      "name": "Overview validation",
+      "status": "pass",
+      "command": "python scripts/validate_data.py",
+      "result": "All GTD data files passed validation"
+    },
+    {
+      "name": "diff whitespace",
+      "status": "pass",
+      "command": "git diff --check",
+      "result": "No whitespace errors; Git reported line-ending normalization warnings only"
+    }
+  ],
+  "documented_exception": {
+    "source_id": "LRS-7FA3EAE55B5F67",
+    "title": "French Research Code scientific-integrity articles D211-2 to D211-4",
+    "technical_result": "HTTP 403 to scripted client",
+    "treatment": "Retained after official browser-access check; not interpreted as absent or withdrawn"
+  }
+}

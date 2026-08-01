@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "applied": false,
+  "caution": "These are technical observations only. Review redirects, changed fingerprints, MIME changes, and failures before applying any source or claim update.",
+  "updates": [
+    {
+      "source_id": "PILOT-LIVE-HTML",
+      "last_technical_check": "2026-07-30",
+      "proposed_technical_status": "accessible",
+      "proposed_final_url": "https://www.leru.org/members",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "etag": "",
+      "last_modified": "",
+      "fingerprint_sha256": "589de07eb47251ba50c4c97a9fa47808d36d0cef722530a71f432d068fb44289",
+      "fingerprint_scope": "complete received body",
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-PDF-CODE",
+      "last_technical_check": "2026-07-30",
+      "proposed_technical_status": "accessible",
+      "proposed_final_url": "https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "etag": "\"72108-5ff06c0b5b05b\"",
+      "last_modified": "Mon, 26 Jun 2023 11:35:51 GMT",
+      "fingerprint_sha256": "06767d3bd7653c0fc8616c81da8ce29dad1e3a55c5af88052ad704c925fa8757",
+      "fingerprint_scope": "complete received body",
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-ANNUAL-REPORT-SERIES",
+      "last_technical_check": "2026-07-30",
+      "proposed_technical_status": "accessible",
+      "proposed_final_url": "https://research.kuleuven.be/en/integrity-ethics/integrity/annual-report",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "etag": "",
+      "last_modified": "Fri, 04 Jul 2025 18:03:17 GMT",
+      "fingerprint_sha256": "5e9d79537c3cc53c93cf97b3f054773249ee4a7ef238a35bb573a5d5fe84d335",
+      "fingerprint_scope": "complete received body",
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-DECISION-ARCHIVE",
+      "last_technical_check": "2026-07-30",
+      "proposed_technical_status": "accessible",
+      "proposed_final_url": "https://lowi.nl/en/opinions/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "etag": "",
+      "last_modified": "",
+      "fingerprint_sha256": "6fc3937f7aa7f1d63bfa085cf95a511fa9ff14d43f4175fa7280edf98c03de0f",
+      "fingerprint_scope": "complete received body",
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-REDIRECT",
+      "last_technical_check": "2026-07-30",
+      "proposed_technical_status": "redirected-accessible",
+      "proposed_final_url": "https://lowi.nl/en/opinions/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "etag": "",
+      "last_modified": "",
+      "fingerprint_sha256": "6fc3937f7aa7f1d63bfa085cf95a511fa9ff14d43f4175fa7280edf98c03de0f",
+      "fingerprint_scope": "complete received body",
+      "review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "PILOT-INACCESSIBLE",
+      "last_technical_check": "2026-07-30",
+      "proposed_technical_status": "network-error",
+      "proposed_final_url": "https://example.invalid/leru-maintenance-pilot",
+      "http_status": null,
+      "content_type": "",
+      "etag": "",
+      "last_modified": "",
+      "fingerprint_sha256": "",
+      "fingerprint_scope": "none",
+      "review_required": true,
+      "review_reasons": [
+        "network access failed"
+      ]
+    }
+  ]
+}

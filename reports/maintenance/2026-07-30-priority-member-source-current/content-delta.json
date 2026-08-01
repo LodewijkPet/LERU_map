@@ -1,0 +1,452 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "comparison_basis": null,
+  "interpretation_boundary": "Fingerprint and response changes are technical change signals. They are not a substantive content comparison until the relevant official text is reviewed.",
+  "deltas": [
+    {
+      "source_id": "LRS-069F4E1305D017",
+      "title": "Trinity research integrity support page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.tcd.ie/research/support/integrity.php",
+      "current_fingerprint_sha256": "8724094d9450417c1ec0f06439f5f1315c351365fd4dedb68d8acdbaaa611fa4",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-21357CA2E3B833",
+      "title": "University of Strasbourg ethics, scientific integrity and deontology page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.unistra.fr/fr/universite/engagements/ethique-la-recherche-integrite-scientifique-et-deontologie",
+      "current_fingerprint_sha256": "33e8a15504c760e71b18b9234f05e3ea15fb08eaad2b81c7d982bc3a22958195",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-23D5035F5F92A3",
+      "title": "LMU Graduate Center e-learning on research integrity",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.graduatecenter.uni-muenchen.de/veranstaltungen/e-learning/index.html",
+      "current_fingerprint_sha256": "01b6be3a1cfe272b4541c5657f11a7b6c2a1426c856a7fe7c70e1ed0c70aede0",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-274DD7517420C8",
+      "title": "University of Freiburg research commissions",
+      "comparison_status": "initial baseline",
+      "final_url": "https://uni-freiburg.de/forschung/qualitaetssicherung/forschungskommissionen/",
+      "current_fingerprint_sha256": "213a94479c9f3ac95dc0e22e4a338ff2d2305552e7d18ae45e155da91c6f4904",
+      "fingerprint_scope": "first 1000000 bytes",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-30B81EE655B3ED",
+      "title": "Paris-Saclay problems and signalment route",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.universite-paris-saclay.fr/que-faire-en-cas-de-problemes",
+      "current_fingerprint_sha256": "8ddc334aba6e10a29e0121f4e152030392c5c03ed3a1d2db75315380fe6415c8",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-3295CE20FD60F2",
+      "title": "University of Strasbourg HRS4R label page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.unistra.fr/fr/universite/labels/label-hr-excellence-research-hreir",
+      "current_fingerprint_sha256": "5b47ec32667ab06dbeaa011d9d2dc5fc8e904bc616ae37f4f2fca0a4cfd5cf0c",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-3F60E73C2ABBA5",
+      "title": "LERU member page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.leru.org/members",
+      "current_fingerprint_sha256": "589de07eb47251ba50c4c97a9fa47808d36d0cef722530a71f432d068fb44289",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-41914B8AA60FA9",
+      "title": "CER-PS functioning rules",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.universite-paris-saclay.fr/sites/default/files/2020-01/fonctionnement-cer-2018-10-17_0.pdf",
+      "current_fingerprint_sha256": "88553739d8410e1f57de5549cfe6d292621be1fa9654b2caad046bec2ae88a23",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-45C3424EFA774D",
+      "title": "UNIGE research ethics",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.unige.ch/recherche/en/resources/research-ethics",
+      "current_fingerprint_sha256": "415a618d12a4afacc9c5a485092d2fdbc6ca1c396ed6849ef2ed6163c1760397",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-58511063318F3C",
+      "title": "LMU regulation on safeguarding good scientific practice",
+      "comparison_status": "initial baseline",
+      "final_url": "https://cms-cdn.lmu.de/media/contenthub/amtliche-veroeffentlichungen/gwp-ordnung.pdf",
+      "current_fingerprint_sha256": "18748817c22aaf81a2777627fca374eb0a9cdf757b04c9b6116b9f4de4b1340d",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-5B1D5F16E333F7",
+      "title": "Trinity Anti-Fraud and Anti-Corruption Policy",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.tcd.ie/media/tcd/about/policies/pdfs/Fraud-Policy.pdf",
+      "current_fingerprint_sha256": "1bf7c93aa70a242de1df39dbe9af067b60fe94c1ead5d61a1b105c8d48cc7cb7",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-5DEBFF21ECD4F1",
+      "title": "First National Policy Statement published",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.iua.ie/for-researchers/research-integrity/",
+      "current_fingerprint_sha256": "84dff733f10d8bfa2f0a2afe83f17bfedbd76c61aa3f4c4500d5896602c2f621",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-60133F2EC4618E",
+      "title": "Ofis 2022-2023 synthesis on treatment of scientific-integrity breaches",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.ofis-france.fr/wp-content/uploads/2025/06/Ofis-Synthese-bisannuelle-2022-2023-traitement-manquements-integrite-scientifique.pdf",
+      "current_fingerprint_sha256": "da8a57e91578b424d08f925fc814f6c190d3684d16432d835591fe286262e085",
+      "fingerprint_scope": "first 1000000 bytes",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-618F57410D7674",
+      "title": "Universite Paris-Saclay POLETHIS scientific-integrity network",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.universite-paris-saclay.fr/recherche/polethis-ethique-et-integrite/polethis-axe-du-reseau-integrite-scientifique",
+      "current_fingerprint_sha256": "473866275dc31e0d7fbec2a2b56cbe0de0a29ca23927192457001cd4a838899f",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-6B122697079CB2",
+      "title": "LMU Medical Faculty good scientific practice resources",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.med.lmu.de/de/promotion/gwp/",
+      "current_fingerprint_sha256": "47f7ddeeaf68b53e6f9bdc5afdae7c470c1c6d5798845e2d6a6e2ebfbb550417",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-6F7E82D9175193",
+      "title": "Code of Conduct for Scientific Integrity",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Forschung/Kodex_Layout_en_Web.pdf",
+      "current_fingerprint_sha256": "698e3895ff695b4d4747306ec3543ea038d0fc37d928b30de14c0ed27d2fb0d8",
+      "fingerprint_scope": "first 1000000 bytes",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-7AAF2D759BEC37",
+      "title": "University of Freiburg sports medicine and misconduct public page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://uni-freiburg.de/themen-im-fokus/aufklaerungsarbeit-zu-doping-sportmedizin-und-wissenschaftlichem-fehlverhalten/",
+      "current_fingerprint_sha256": "4b36a6fee28686bc76809629fa147c502da2fc95a2ffb35db06dd325054d72c4",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-7AC6DA683AEABA",
+      "title": "Ofis: French national charter for research integrity",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.ofis-france.fr/la-charte-francaise-de-deontologie-des-metiers-de-la-recherche/",
+      "current_fingerprint_sha256": "79c86b49af9a2d5d7d44cdcbae7e6b95f4f018f28f08a61ba0ac81d7e763c67f",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-7F6DEB7E83CBD4",
+      "title": "National Policy Statement 2024",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.iua.ie/wp-content/uploads/2024/12/National-Policy-Statement-on-Ensuring-Research-Integrity-in-Ireland-Dec-2024.pdf",
+      "current_fingerprint_sha256": "743bde500a4470ade49b0137ffb571630d3cf27422a1ee8023b8a39dcded4bea",
+      "fingerprint_scope": "first 1000000 bytes",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-7FA3EAE55B5F67",
+      "title": "French Research Code scientific-integrity articles D211-2 to D211-4",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071190/LEGISCTA000048770016",
+      "current_fingerprint_sha256": "54c19bc614e9dbef2c6c527d40a7ce0efe03a983dcdd09edcce51eb8dd064fc4",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "HTTP 403"
+      ]
+    },
+    {
+      "source_id": "LRS-8879C1C0BBA345",
+      "title": "Heidelberg rules and guidelines on good academic practice",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.uni-heidelberg.de/en/university/about-the-university/good-academic-practice",
+      "current_fingerprint_sha256": "5d8cc2790bc7804eb90f39624f3a5d27bb5f4a211f111ae406b4a1fbc7e28b2e",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-8AA4396F48CF9B",
+      "title": "UNIGE directive on integrity in scientific research",
+      "comparison_status": "initial baseline",
+      "final_url": "https://memento.unige.ch/doc/0003",
+      "current_fingerprint_sha256": "bf014c83cbe3082244cc4797e860c067ed5c193abb9c0077ee37c16e71d6da10",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-8D6B98B5C4AB09",
+      "title": "University of Strasbourg doctoral preparation page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.unistra.fr/fr/recherche/doctorat/se-preparer-aux-etudes-doctorales",
+      "current_fingerprint_sha256": "36adb5ee4162e058a61f94e64158f8bb01deb8403ffc5c954e340a03179e1a3e",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-8F567F9A73CE0D",
+      "title": "Heidelberg ombudsmen for academic practice",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.uni-heidelberg.de/en/university/about-the-university/good-academic-practice/ombudsmen",
+      "current_fingerprint_sha256": "d6c639bba235e7515701d58d5f3ffc823ab5479fe96bcb39c1ea77aac72a1dde",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-8FB0944928A3A1",
+      "title": "Statute on Safeguarding Fair Conduct",
+      "comparison_status": "initial baseline",
+      "final_url": "https://backend.uni-heidelberg.de/en/documents/statute-on-safeguarding-fair-conduct/download",
+      "current_fingerprint_sha256": "a09124c1ac68382d5e298d363a5ba6c36ad8035d97acaf73c48d5337323bdad3",
+      "fingerprint_scope": "first 1000000 bytes",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-906C24AE02866B",
+      "title": "Ofis RIS directory entry for University of Strasbourg",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.ofis-france.fr/ris/universite-de-strasbourg/",
+      "current_fingerprint_sha256": "fa1101ce0a0f55e1214c8c3c7150624b6c38fc0cdf9a8c78470c66ac78d9831b",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-9260252352C80D",
+      "title": "University of Freiburg regulation on safeguarding academic integrity",
+      "comparison_status": "initial baseline",
+      "final_url": "https://uni-freiburg.de/wp-content/uploads/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft-en.pdf",
+      "current_fingerprint_sha256": "2edf773963ed955e34f89766d45ab4727d26b0f154048902ba7d0c4ece2ef13f",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-A9CF1094D90E81",
+      "title": "UNIGE code of ethics and professional conduct",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.unige.ch/ethique/charter",
+      "current_fingerprint_sha256": "063bf9a84910523d74c1acacb1174a4bf1a719751bafc028d3fcee70c1ce9fc5",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-B68F85C755BAB2",
+      "title": "CUREG how-we-work page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://cureg.unige.ch/en/how-we-work/",
+      "current_fingerprint_sha256": "8b389c95bc8b5874f3377e6db2651ed9cab3902db2a928d69f1b18edc6fe8cc0",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-BE2E584533BAD8",
+      "title": "Trinity Policy on Good Research Practice",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.tcd.ie/media/tcd/about/policies/pdfs/Policy-on-Good-Research-Practice_1.1.pdf",
+      "current_fingerprint_sha256": "b191435e6a53736b29a3ec1ca62449e74e6f54bc74da0b4977bdf3bc2b2aa0f3",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-D9637F6BD92F40",
+      "title": "Rules for safeguarding good academic practice and handling academic misconduct",
+      "comparison_status": "initial baseline",
+      "final_url": "https://backend.uni-heidelberg.de/en/documents/rules-for-safeguarding-good-academic-practice-and-handling-academic-misconduct/download",
+      "current_fingerprint_sha256": "7ad13755654dddf78d87b26deaf3e5d4db9fd33b756581098fdd680c74d1d7fa",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-E4CD2BFB3902D1",
+      "title": "Ofis directory records 187 RIS",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.ofis-france.fr/annuaire/",
+      "current_fingerprint_sha256": "41e93ced015ff23452c55fd7f2d0f56de38b59076e3b4e488d8ffbd07c0b39af",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-EC2160DB0276B8",
+      "title": "University of Freiburg Redlichkeit in der Wissenschaft",
+      "comparison_status": "initial baseline",
+      "final_url": "https://uni-freiburg.de/forschung/qualitaetssicherung/gute-wissenschaftliche-praxis/redlichkeit-in-der-wissenschaft/",
+      "current_fingerprint_sha256": "dd457c41944eaa611ac4447ccfc862455b8d1e23e95c7b6ed4421dd2c46eab15",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-EC6ED345D22CCF",
+      "title": "University of Strasbourg scientific-integrity referent",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.unistra.fr/fr/universite/engagements/referents/referent-lintegrite-scientifique",
+      "current_fingerprint_sha256": "931a77d179ef2f82ba67c0d8cd53f2e10d8e36ff2cbcfe785bcf36c7785318af",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-EDCC9260C5BD39",
+      "title": "Graduate Academy ombudsperson",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.graduateacademy.uni-heidelberg.de/en/support/ombuds-program",
+      "current_fingerprint_sha256": "7e5792b7f9deeffbd7f42c3f8f0e5daa33abf0879da10cc1f0322ce023861de1",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-F7C763726EFAC8",
+      "title": "DFG Code of Conduct enters into force",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.dfg.de/en/basics-topics/basics-and-principles-of-funding/good-research-practice/code-of-conduct",
+      "current_fingerprint_sha256": "7e26ffde305bc725d29966a67ed6b5c12ef41bd5a4ec4b5a689e8d3f133d4891",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "LRS-F807A3AA6F82B4",
+      "title": "Senior Dean research integrity page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.tcd.ie/seniordean/research-integrity/",
+      "current_fingerprint_sha256": "44c23fe08aa1f792428ba04af7f7e12fc689157e9a1ea8ad81d065254e1d563b",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "LRS-F8F069A3DA3809",
+      "title": "2023 formal-investigation statistics published",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.iua.ie/wp-content/uploads/2025/07/National-Stats-on-Formal-Investigations-of-Research-Misconduct-2023.pdf",
+      "current_fingerprint_sha256": "751d244af13120e6e35fcd61fe25b3e66bdb527198c3d7f58d4b8309acfd170d",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    }
+  ]
+}

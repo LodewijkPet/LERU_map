@@ -273,3 +273,48 @@ Current official sources checked on 13 July 2026:
 - UZH Integrity Ordinance: https://www.zhlex.zh.ch/Erlass.html?Open=&Ordnr=415.27
 - UZH persons and office directory: https://www.research.uzh.ch/en/procedures/integrity/persons.html
 - UZH confidential ombudsperson contact form: https://www.research.uzh.ch/en/procedures/integrity/kontakt_vertrauensperson.html
+
+## LERU priority-member source-current check - 30 July 2026
+
+### University of Geneva
+
+- Memento 0003 remains the official scientific-integrity procedure. The live page identifies Version 3 and a 5 September 2025 maintenance entry that changes only the footnote reference to the Swiss integrity code; the substantive procedure remains the 2012 revision.
+- The directive still routes matters through faculty integrity delegates, an optional ad hoc fact-finding commission and the Rectorate. Procedures are confidential and any publication remains a Rectorate decision on timing, form and content.
+- Targeted French-language searches did not locate a standing UNIGE annual integrity report, aggregate misconduct-statistics page, anonymised decision series or case archive.
+- A 2025 UNIGE communication concerning plagiarism in a scientific-committee report was not verified as output of the Memento 0003 procedure and is therefore excluded from the LERU committee-output classification.
+
+Current official source:
+
+- UNIGE Memento 0003: https://memento.unige.ch/doc/0003
+
+## University of Geneva member validation - 31 July 2026
+
+UNIGE member feedback confirmed the core public-source profile and supplied a simpler functional allocation. The response is retained as private validation evidence rather than treated as a public source; the related official pages were rechecked on 31 July 2026.
+
+### Scientific-integrity route
+
+- The Ethics and Professional Conduct Committee is an external reference body for ethics and professional conduct. It is not the lead investigator for scientific-integrity breach proceedings.
+- Under Memento 0003, faculty integrity delegates lead the faculty-level route. An ad hoc fact-finding commission is established when a fuller investigation is necessary.
+- The investigation is reported through the dean or relevant director to the Rectorate. The Rectorate takes the final decision and determines sanctions or corrective measures.
+- UNIGE confirmed that final Rectorate decisions and sanctions are not publicly disclosed. The profile therefore remains `procedure-only`; discretionary authority to publish does not establish a standing public-output channel.
+- UNIGE is considering updating the directive to align it with the 2023 ALLEA European Code of Conduct and the Swiss scientific-integrity code. This is a prospective review only: no revised directive was public on 31 July 2026.
+
+### National and boundary routes
+
+- There is no Swiss national body that takes over and decides concrete UNIGE cases. SCCSI provides advice and national monitoring/statistics based on anonymous institutional reports; it is not a national tribunal or appeal route.
+- The RGO research-ethics page and mandatory Statement of ethical risk are prospective project-governance tools. From 2026 the self-check is required before new projects and directs researchers to relevant services.
+- Human research within the Human Research Act follows the cantonal CCER route. Other human-participant, environmental, dual-use/security and personal-data questions can engage CUREG and the institutional Data Protection Officer.
+- Animal experimentation follows the UNIGE/cantonal authorisation system and the institutional CARE/animal-research governance route.
+- These ethics, animal, data, dual-use and security routes remain separate from the Memento 0003 scientific-integrity investigation and Rectorate decision route.
+
+### Current official sources checked
+
+- UNIGE Memento 0003 scientific-integrity directive: https://memento.unige.ch/doc/0003
+- UNIGE RGO research ethics and mandatory risk statement route: https://www.unige.ch/recherche/en/resources/research-ethics
+- UNIGE Code of Ethics and Professional Conduct: https://www.unige.ch/ethique/charter
+- UNIGE Statement of ethical risk announcement: https://www.unige.ch/recherche/en/news/whats-new/A-new-tool-to-support-research-ethics/topic/1890/news
+- CUREG certification procedure: https://cureg.unige.ch/en/certification-procedure/
+- UNIGE Commission for Animals in Experimental Research (CARE): https://www.unige.ch/recherche/expanim/informations-pour-les-chercheurs/reglementation/commission-interfacultaire-dethique-de-lexperimentation-animale
+- UNIGE data-protection roles and Data Protection Officer: https://www.unige.ch/donnees-personnelles/a-savoir/roles-et-responsabilites
+
+The same response also contained UNIGE's view on the separate 2026 ALLEA Code consultation. That consultation opinion is not used as evidence about UNIGE case handling or public output and should remain in the report-workplace task record rather than the public map classification.

@@ -51350,10 +51350,11 @@ window.COUNTRY_DATA = [
       "ETH Zurich's 2024 reform is now backed by a live institutional list with four anonymised report PDFs and a separate aggregate procedure table; this is an institutional fragment, not a Swiss national archive.",
       "The 30 April 2026 ENRIO check confirms a Switzerland country report exists but is dated May 2024, before SCCSI opened; ENRIO also lists SNSF and Swiss Academies as Swiss member institutions.",
       "University of Zurich member validation on 13 July 2026 confirmed the cantonal Integrity Ordinance and three-instance route, clarified that the Research Integrity Coordination Office is a supporting office rather than a separate procedural body, and confirmed that UZH currently has no standing public misconduct-output channel.",
+      "University of Geneva member validation on 31 July 2026 confirmed that faculty integrity delegates and an optional ad hoc fact-finding commission lead the scientific-integrity inquiry, the Rectorate takes final decisions and sanctions that are not publicly disclosed, and the external Ethics and Professional Conduct Committee plus project-ethics routes remain separate.",
       "Human-research and animal-research ethics are strongly cantonal or supra-cantonal and should be modeled as separate but linked governance layers."
     ],
     nextFocus:
-      "Committee-and-case-file pilot and first quality-consolidation pass completed. Future Swiss work should index SNSF annual reports and case news by year, extract the four ETH Zurich anonymised reports plus aggregate procedure counts from the table endpoints, track SCCSI's first public annual report after the 2026 reporting cycle, recheck the UZH ordinance, procedural bodies and URLs when its substantially revised framework is planned to enter force in early 2027, widen institutional output checks through the Swiss Academies responsible-bodies directory, and keep human-research ethics, Swissmedic, FOEN/BAFU, animal-research authorisations, third-party funding compliance and data protection separate from misconduct case publication.",
+      "Committee-and-case-file pilot and first quality-consolidation pass completed. Future Swiss work should index SNSF annual reports and case news by year, extract the four ETH Zurich anonymised reports plus aggregate procedure counts from the table endpoints, track SCCSI's first public annual report after the 2026 reporting cycle, monitor the reported UNIGE directive update for alignment with the 2023 ALLEA and Swiss codes, recheck the UZH ordinance, procedural bodies and URLs when its substantially revised framework is planned to enter force in early 2027, widen institutional output checks through the Swiss Academies responsible-bodies directory, and keep human-research ethics, Swissmedic, FOEN/BAFU, animal-research authorisations, third-party funding compliance and data protection separate from misconduct case publication.",
     documents: [
       {
         label: "Overview Switzerland.docx",
@@ -51952,11 +51953,11 @@ window.COUNTRY_DATA = [
               },
               {
                 institution: "University of Geneva",
-                committee: "Research ethics, scientific integrity directive and ethics/professional conduct route",
-                category: "Institutional ethics and integrity route",
+                committee: "Faculty integrity delegates, ad hoc fact-finding commission and Rectorate; separate external Ethics and Professional Conduct Committee",
+                category: "Institutional research-integrity procedure and separate ethics-reference route",
                 scope: "UNIGE research projects and scientific work",
                 role:
-                  "UNIGE requires an online ethical-risk statement before new projects and points researchers to a dedicated directive for scientific integrity, procedures to identify, assess and sanction breaches, and the Ethics and Professional Conduct Committee as a reference body.",
+                  "Under Memento 0003, suspected scientific-integrity breaches are reported to the Rectorate and routed through the relevant faculty integrity delegate. An ad hoc fact-finding commission may investigate and report through the dean or director; the Rectorate closes the matter and decides sanctions or corrective measures. UNIGE member validation identifies the all-external Ethics and Professional Conduct Committee as a separate reference body, not the lead integrity investigator.",
                 links: [
                   {
                     label: "UNIGE research ethics",
@@ -51967,12 +51968,33 @@ window.COUNTRY_DATA = [
                     label: "UNIGE code of ethics and professional conduct",
                     type: "Official page",
                     url: "https://www.unige.ch/ethique/charter"
+                  },
+                  {
+                    label: "UNIGE scientific-integrity directive",
+                    type: "Official procedure",
+                    url: "https://memento.unige.ch/doc/0003"
+                  },
+                  {
+                    label: "CUREG certification procedure",
+                    type: "Research-ethics boundary",
+                    url: "https://cureg.unige.ch/en/certification-procedure/"
+                  },
+                  {
+                    label: "UNIGE CARE animal-research committee",
+                    type: "Animal-research boundary",
+                    url: "https://www.unige.ch/recherche/expanim/informations-pour-les-chercheurs/reglementation/commission-interfacultaire-dethique-de-lexperimentation-animale"
+                  },
+                  {
+                    label: "UNIGE Data Protection Officer role",
+                    type: "Data-protection boundary",
+                    url: "https://www.unige.ch/donnees-personnelles/a-savoir/roles-et-responsabilites"
                   }
                 ],
                 signals: [
-                  "Online ethical-risk statement is a project-entry trace.",
-                  "UNIGE links integrity to independence from outside influence, conflicts and publication transparency.",
-                  "Faculty-specific integrity roles should be expanded in the next sweep."
+                  "Member-validated route: faculty integrity delegate, optional ad hoc commission, dean/director report and final Rectorate decision or sanction.",
+                  "Rectorate decisions and sanctions are not publicly disclosed; discretionary publication authority is not a standing output channel.",
+                  "The mandatory online ethical-risk statement, CCER, CUREG, CARE/animal experimentation and the institutional Data Protection Officer are project-ethics or specialist boundaries.",
+                  "UNIGE reports that it is considering an update of the integrity directive to align with the 2023 ALLEA and Swiss codes; no revised directive was public on 31 July 2026."
                 ]
               },
               {
@@ -52791,6 +52813,16 @@ window.COUNTRY_DATA = [
           source: "Switzerland quality-consolidation source note",
           sourceUrl:
             "data/Switzerland/raw documentation/source notes/Switzerland deep-dive sources.md"
+        },
+        {
+          date: "31 July 2026",
+          title: "University of Geneva member validation incorporated",
+          type: "LERU member validation",
+          actors: "University of Geneva",
+          importance:
+            "Confirms the faculty-delegate/ad hoc commission/Rectorate integrity route, the non-public status of final decisions and sanctions, the separate external Ethics and Professional Conduct Committee, the project-ethics boundaries and a prospective directive-alignment review.",
+          source: "University of Geneva member response and current official pages",
+          sourceUrl: "https://memento.unige.ch/doc/0003"
         }
       ],
       sourceLinks: [
@@ -53007,8 +53039,50 @@ window.COUNTRY_DATA = [
         {
           label: "UNIGE research ethics",
           type: "Official page",
-          scope: "Scientific integrity directive and ethical-risk route",
-          url: "https://www.unige.ch/recherche/en/resources/research-ethics"
+          date: "Member-validated and accessed 31 July 2026",
+          scope: "Scientific-integrity directive plus project-ethics and specialist boundary routes",
+          url: "https://www.unige.ch/recherche/en/resources/research-ethics",
+          note: "Use the linked Memento directive for the investigation route; keep the mandatory risk statement, CCER, CUREG, animal and data routes separate."
+        },
+        {
+          label: "UNIGE scientific-integrity directive",
+          type: "Official procedure",
+          date: "Version 3 accessed 31 July 2026",
+          scope: "Faculty delegate, ad hoc commission, dean/director and Rectorate procedure",
+          url: "https://memento.unige.ch/doc/0003",
+          note: "UNIGE reports that an update is under consideration; no revised directive was public on the access date."
+        },
+        {
+          label: "UNIGE code of ethics and professional conduct",
+          type: "Official ethics code",
+          date: "Accessed 31 July 2026",
+          scope: "External independent ethics/professional-conduct reference body",
+          url: "https://www.unige.ch/ethique/charter",
+          note: "Member validation identifies the Committee as all-external and separate from the lead scientific-integrity investigation route."
+        },
+        {
+          label: "UNIGE Statement of ethical risk announcement",
+          type: "Official project-ethics boundary",
+          date: "28 November 2025; accessed 31 July 2026",
+          scope: "Mandatory self-check for new projects from 2026",
+          url: "https://www.unige.ch/recherche/en/news/whats-new/A-new-tool-to-support-research-ethics/topic/1890/news",
+          note: "Covers environmental, dual-use, human-participant, integrity and animal risks as project screening; not misconduct adjudication."
+        },
+        {
+          label: "UNIGE CARE animal-research committee",
+          type: "Official animal-research boundary",
+          date: "Accessed 31 July 2026",
+          scope: "Institutional animal-research advice and governance",
+          url: "https://www.unige.ch/recherche/expanim/informations-pour-les-chercheurs/reglementation/commission-interfacultaire-dethique-de-lexperimentation-animale",
+          note: "Separate from scientific-integrity investigation and Rectorate sanctions."
+        },
+        {
+          label: "UNIGE data-protection roles and responsibilities",
+          type: "Official data-protection boundary",
+          date: "Accessed 31 July 2026",
+          scope: "Institutional Data Protection Officer advice, support and compliance monitoring",
+          url: "https://www.unige.ch/donnees-personnelles/a-savoir/roles-et-responsabilites",
+          note: "Separate from scientific-integrity investigation and Rectorate sanctions."
         },
         {
           label: "University of Fribourg scientific integrity and documentary skills",

@@ -265,3 +265,49 @@ Directory reading:
 - Widen the annual-report search beyond FU Berlin and Gottingen.
 - Add more university medical center examples beyond Charite.
 - Deepen Max Planck institute-level and Helmholtz center-level examples.
+
+## LERU priority-member source-current check - 30 July 2026
+
+### University of Freiburg
+
+- The current Redlichkeit hub, 2022 regulation and Investigation Commission page remain live. The English convenience translation and authoritative German text both reflect the regulation adopted on 25 May 2022.
+- Historical Rector reporting is stronger than the earlier member profile recorded. The 2014-2015 report records 19 completed procedures and three new cases. The 2016-2017 report records 51 centrally pending matters over the preceding three-year term, including 39 matters involving the Investigation Commission and 28 examined by the self-control officer.
+- These older reports and the sports-medicine case complex support historical-or-case-specific, not a current standing annual-output classification. No current recurring commission or ombudsperson output was located.
+
+### LMU Munich
+
+- A current central Ethics in Research hub now provides the university-wide entry point and separates the GWP procedure from open-science/data, animal, Nagoya and export-control routes.
+- Two current official LMU download URLs returned byte-identical copies of the 17 November 2023 GWP regulation. The regulation remains the procedural backbone and publication remains discretionary.
+- No separate non-personal ombudsperson or investigation-committee directory, annual statistics or anonymised output channel was located.
+
+### Heidelberg University
+
+- The current good-academic-practice hub and the rules in the version of 28 September 2021 remain the procedural backbone. The rules require annual general anonymised reporting to the Rector but state that the Commission report is not published.
+- Heidelberg did publish a case-specific 2019 interim summary from the Senate Commission concerning the breast-cancer blood-test matter. The official overview says the final Commission report was delivered in October 2019 but remained internal while disciplinary proceedings continued.
+- Heidelberg is therefore corrected from procedure-only to historical-or-case-specific. The strict current-output count does not change because no standing output channel was found.
+- The former Graduate Academy ombudsperson URL now resolves to the current Ombuds Program page; this remains a doctoral support route rather than the general misconduct commission.
+
+Current official sources:
+
+- Freiburg 2014-2015 Rector report: https://uni-freiburg.de/en/wp-content/uploads/sites/61/Uni-Freiburg-Jahresbericht-des-Rektors-2014-15.pdf
+- Freiburg 2016-2017 Rector report: https://uni-freiburg.de/en/wp-content/uploads/sites/61/Uni-Freiburg-Jahresbericht-des-Rektors-2016-17.pdf
+- LMU Ethics in Research: https://www.lmu.de/de/forschung/ethik-in-der-forschung/
+- Heidelberg 2019 interim summary: https://www.uni-heidelberg.de/de/newsroom/bluttest-zur-brustkrebsdiagnostik/zusammenfassung-des-zwischenberichts
+- Heidelberg case overview: https://www.uni-heidelberg.de/de/newsroom/bluttest-zur-brustkrebsdiagnostik
+
+## University of Freiburg member validation - 31 July 2026
+
+- Freiburg requested that its current public-output category be `procedure-only`: the Academic Integrity procedure is public, but the university confirms that it does not publish annual integrity statistics, summaries or similar current reporting.
+- The older Rector-report counts and sports-medicine/doping misconduct page remain part of the historical evidence trail. They are retained as context, but they no longer determine the current member-profile category and must not be generalized into a recurring public-output route.
+- Use the English labels and pages where available. The two lead suspected-misconduct bodies are the Representative for Academic Self-Regulation and the Investigative Commission on Academic Integrity. The former handles confidential advice, own-initiative inquiries and plausibility assessment; the latter advises the Rector and investigates allegations.
+- The Research Boards page also exposes the Commission on Responsibility in Research and the Ethics Committee. Member validation keeps these as separate research-ethics or advisory boundaries rather than lead misconduct bodies.
+- The central Ombuds Process for Doctoral Candidates and Supervisors is a confidential supervision-conflict route with an anonymized ten-year activity report. Its page explicitly redirects suspected academic misconduct to the academic self-regulation route, so the activity report is not coded as misconduct output.
+- The 2024 doctoral candidate survey and published results concern working, supervision and institutional quality conditions. They are useful research-culture context but not a misconduct procedure or case-publication lane.
+
+Current official sources supplied or confirmed in the member-validation pass:
+
+- Academic Integrity: https://uni-freiburg.de/en/research/quality-assurance/good-research-practice/academic-integrity/
+- Research Boards: https://uni-freiburg.de/en/research/quality-assurance/research-boards/
+- Good Research Practice hub: https://uni-freiburg.de/en/research/quality-assurance/good-research-practice/
+- Ombuds Process for Doctoral Candidates and Supervisors: https://uni-freiburg.de/frs-en/grace/ombuds-process/
+- Doctoral candidate survey: https://uni-freiburg.de/frs-en/grace/doctoral-studies-ufr/doc-survey/

@@ -239,3 +239,17 @@ Publication-related misconduct is the clearest repeated category signal: the 202
 - Keep monitoring UCD and NRIF sources for SRII2025 results.
 - Test whether NCI's possible final-report publication clause or MTU's RICO output channels ever produce actual case reports rather than procedure/training outputs.
 - Deepen DIAS and other public-RPO checks using the respondent universe exposed by the 2022 and 2023 annexes.
+
+## Trinity College Dublin LERU source-current check - 30 July 2026
+
+- The Senior Dean research-integrity page was updated 22 July 2025 and still identifies the Senior Dean as College RIO, with management of allegations delegated to the Dean of Research.
+- The Research Integrity support page was updated 16 January 2026 and links the current Version 1.1 Policy on Good Research Practice issued 15 February 2024. The current Research assets URL and former Media URL returned byte-identical PDFs.
+- No Trinity-owned research-integrity annual statement, local aggregate misconduct-statistics page, anonymised case summary or public decision channel was located. NRIF remains national aggregate context.
+- The Senior Lecturer Annual Report 2023-2024 contains a table row labelled Research Misconduct with zero values, but the table sits in Appendix VIII, Examination Infringement and Plagiarism, and is sourced from the Office of the Junior Dean. It is student discipline evidence and is excluded from the research-integrity committee overview.
+
+Current official sources:
+
+- Senior Dean research integrity: https://www.tcd.ie/seniordean/research-integrity/
+- Research Integrity support: https://www.tcd.ie/research/support/integrity.php
+- Policy on Good Research Practice Version 1.1: https://www.tcd.ie/research/assets/pdf/Policy%20on%20Good%20Research%20Practice_1.1.pdf
+- Senior Lecturer Annual Report 2023-2024, excluded student-discipline boundary: https://www.tcd.ie/teaching-learning/reports/assets/slar/slar-2324.pdf

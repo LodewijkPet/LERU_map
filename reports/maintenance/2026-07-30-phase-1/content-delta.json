@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "comparison_basis": null,
+  "interpretation_boundary": "Fingerprint and response changes are technical change signals. They are not a substantive content comparison until the relevant official text is reviewed.",
+  "deltas": [
+    {
+      "source_id": "PILOT-LIVE-HTML",
+      "title": "LERU official members page",
+      "comparison_status": "initial baseline",
+      "final_url": "https://www.leru.org/members",
+      "current_fingerprint_sha256": "589de07eb47251ba50c4c97a9fa47808d36d0cef722530a71f432d068fb44289",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-PDF-CODE",
+      "title": "ALLEA European Code of Conduct for Research Integrity 2023",
+      "comparison_status": "initial baseline",
+      "final_url": "https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf",
+      "current_fingerprint_sha256": "06767d3bd7653c0fc8616c81da8ce29dad1e3a55c5af88052ad704c925fa8757",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-ANNUAL-REPORT-SERIES",
+      "title": "KU Leuven research-integrity annual-report corridor",
+      "comparison_status": "initial baseline",
+      "final_url": "https://research.kuleuven.be/en/integrity-ethics/integrity/annual-report",
+      "current_fingerprint_sha256": "5e9d79537c3cc53c93cf97b3f054773249ee4a7ef238a35bb573a5d5fe84d335",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-DECISION-ARCHIVE",
+      "title": "LOWI advisory-opinions archive",
+      "comparison_status": "initial baseline",
+      "final_url": "https://lowi.nl/en/opinions/",
+      "current_fingerprint_sha256": "6fc3937f7aa7f1d63bfa085cf95a511fa9ff14d43f4175fa7280edf98c03de0f",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": false,
+      "review_reasons": []
+    },
+    {
+      "source_id": "PILOT-REDIRECT",
+      "title": "LOWI HTTP-to-HTTPS redirect test",
+      "comparison_status": "initial baseline",
+      "final_url": "https://lowi.nl/en/opinions/",
+      "current_fingerprint_sha256": "6fc3937f7aa7f1d63bfa085cf95a511fa9ff14d43f4175fa7280edf98c03de0f",
+      "fingerprint_scope": "complete received body",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "redirect requires equivalence review"
+      ]
+    },
+    {
+      "source_id": "PILOT-INACCESSIBLE",
+      "title": "Deliberately inaccessible reserved-domain test",
+      "comparison_status": "initial unavailable baseline",
+      "final_url": "https://example.invalid/leru-maintenance-pilot",
+      "current_fingerprint_sha256": "",
+      "fingerprint_scope": "none",
+      "potential_content_change": false,
+      "substantive_review_required": true,
+      "review_reasons": [
+        "network access failed"
+      ]
+    }
+  ]
+}

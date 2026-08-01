@@ -164,9 +164,9 @@
     "university-of-copenhagen": "local-output",
     "trinity-college-dublin": "national-or-sector-output",
     "university-of-edinburgh": "local-output",
-    "university-of-freiburg": "historical-or-case-specific",
+    "university-of-freiburg": "procedure-only",
     "university-of-geneva": "procedure-only",
-    "heidelberg-university": "procedure-only",
+    "heidelberg-university": "historical-or-case-specific",
     "university-of-helsinki": "national-or-sector-output",
     "leiden-university": "local-output",
     "imperial-college-london": "local-output",
@@ -191,9 +191,9 @@
     "university-of-copenhagen": "Institution-owned Practice Committee annual reports and minutes form a local public-output lane.",
     "trinity-college-dublin": "Public output located is NRIF national aggregate reporting; no Trinity-owned output channel was identified.",
     "university-of-edinburgh": "Institution-owned annual research-integrity statements provide recurring public reporting.",
-    "university-of-freiburg": "Public material is a historical sports-medicine/misconduct case complex; no current standing output channel was identified.",
-    "university-of-geneva": "Procedure and discretionary publication authority are public, but no UNIGE-owned standing output channel was identified.",
-    "heidelberg-university": "Procedure evidence is public and rules require anonymized annual reporting to the Rector, but no public output channel was identified.",
+    "university-of-freiburg": "31 July 2026 Freiburg member validation confirms that the current procedure is public but no annual integrity statistics, summaries or comparable public reporting channel are published. Older Rector statistics and the sports-medicine case page remain historical context rather than the basis for the current category.",
+    "university-of-geneva": "The current Version 3 procedure and discretionary publication authority are public; 31 July 2026 UNIGE member validation confirms that Rectorate decisions and sanctions are not publicly disclosed and that no UNIGE-owned standing output channel is currently available.",
+    "heidelberg-university": "A 2019 case-specific interim summary is public and the rules require anonymized annual reporting to the Rector, but no current standing output channel was identified; the case's final commission report remained internal.",
     "university-of-helsinki": "Public output located is TENK national statement-summary reporting after local processes; no Helsinki-owned output channel was identified.",
     "leiden-university": "Institution-owned CWI annual reports and advice/final-judgment pages provide local public output.",
     "imperial-college-london": "Institution-owned annual research-integrity statements provide recurring public reporting.",
@@ -315,7 +315,7 @@
     title: "LERU research integrity member view",
     reportTitle: "Research integrity routes and transparency at LERU member universities",
     status: "Public-source report for member review",
-    lastUpdated: "2026-07-29",
+    lastUpdated: "2026-07-31",
     sourceBasis:
       "Official LERU members page plus existing country dossiers, transparency records, source registry entries and country source notes in this repository.",
     caveat:
@@ -700,7 +700,7 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Detailed national-output/no-local-output audit seed",
-      validationStatus: "Needs member validation of local output-negative finding",
+      validationStatus: "Source-current checked 30 July 2026; needs member validation of local output-negative finding",
       evidenceLevel: "Moderate",
       transparencyCategory: "Senior Dean RIO route with NRIF national-statistics context",
       countrySystemSummary:
@@ -711,16 +711,16 @@
         "Trinity is represented through the Senior Dean as College RIO, the Dean of Research route for managing allegations, Associate Dean advice points and a confidential reporting route through the research-integrity process.",
       committeeOrOffice: "Senior Dean as College RIO; Dean of Research and Associate Dean research-integrity route",
       procedureSummary:
-        "The Senior Dean page and 15 February 2024 Good Research Practice policy identify the Senior Dean as College Research Integrity Officer, delegate allegation management to the Dean of Research, and route upheld matters to the relevant staff or student disciplinary process. The policy also separates research misconduct from academic-integrity, dignity/respect, protected-disclosure and fraud routes, while the 2026 fraud policy confirms that research fraud can involve consultation with the College RIO or Dean of Research.",
+        "The Senior Dean page, last updated 22 July 2025, and the Version 1.1 Good Research Practice policy issued 15 February 2024 identify the Senior Dean as College Research Integrity Officer, delegate allegation management to the Dean of Research, and route upheld matters to the relevant staff or student disciplinary process. The Research Integrity support page was current on 16 January 2026. The policy separates research misconduct from academic-integrity, dignity/respect, protected-disclosure and fraud routes, while the 2026 fraud policy confirms that research fraud can involve consultation with the College RIO or Dean of Research.",
       publicOutputSummary:
-        "No Trinity-owned public case-output channel, annual research-integrity statement, anonymized institutional case-summary page or local aggregate misconduct-statistics channel was identified in this pass. Ireland's NRIF/IUA corridor publishes national aggregate formal-investigation statistics, and the 2023 report includes Trinity in the responding RPO universe, but those reports do not provide Trinity-specific counts or case narratives.",
+        "No Trinity-owned public case-output channel, annual research-integrity statement, anonymized institutional case-summary page or local aggregate misconduct-statistics channel was identified in the 30 July 2026 retest. Ireland's NRIF/IUA corridor publishes national aggregate formal-investigation statistics, and the 2023 report includes Trinity in the responding RPO universe, but those reports do not provide Trinity-specific counts or case narratives. A Senior Lecturer annual-report table labelled Research Misconduct was excluded because it sits in the student examination-infringement and plagiarism appendix and is sourced from the Office of the Junior Dean.",
       transparencySummary:
         "Detailed no-local-output audit seed: the local route is well documented, national aggregate output exists, and the local output gap is now explicitly audited. Public evidence remains procedure-route evidence plus national aggregate context rather than Trinity-specific transparency output.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located locally; national aggregate available; fraud boundary reporting separate",
-        sourceRegistryLinks: 3
+        sourceRegistryLinks: 4
       },
       sourceLinks: [
         {
@@ -732,10 +732,10 @@
         },
         {
           label: "Trinity Policy on Good Research Practice",
-          url: "https://www.tcd.ie/media/tcd/about/policies/pdfs/Policy-on-Good-Research-Practice_1.1.pdf",
+          url: "https://www.tcd.ie/research/assets/pdf/Policy%20on%20Good%20Research%20Practice_1.1.pdf",
           type: "procedure",
           supports: "good-practice policy",
-          note: "Version 1.1, issued 15 February 2024, supports good-practice policy and misconduct process source."
+          note: "Version 1.1, issued 15 February 2024. The current Research assets URL and former Media URL returned byte-identical PDFs on 30 July 2026; the current hub-linked URL is retained here."
         },
         {
           label: "Trinity Research Integrity support page",
@@ -769,11 +769,13 @@
       tags: ["RIO", "policy", "procedure only", "NRIF national aggregate statistics", "no local output identified"],
       caveats: [
         "Do not treat NRIF national aggregate statistics as Trinity-specific case publication.",
+        "Do not count the Senior Lecturer annual-report Research Misconduct row as research-integrity committee output: it is part of a student examination-infringement and plagiarism appendix and reports Office of the Junior Dean data.",
         "Research ethics approvals, data protection, student academic-integrity, dignity/respect, protected-disclosure and anti-fraud routes should remain separate from research-misconduct handling unless the Good Research Practice policy explicitly connects the matter.",
         "Do not infer absence of Trinity cases from the absence of a Trinity-specific public output channel."
       ],
       reportNotes: [
-        "Batch 4 upgraded Trinity to Detailed seed as a no-local-output audit profile: local procedure and national aggregate context are clear, but Trinity-specific public output remains unlocated."
+        "Batch 4 upgraded Trinity to Detailed seed as a no-local-output audit profile: local procedure and national aggregate context are clear, but Trinity-specific public output remains unlocated.",
+        "Source-current verification on 30 July 2026 retained the national-or-sector-output category, moved the policy citation to the current hub-linked URL after byte-level comparison, confirmed the 2025/2026 route-page dates and excluded a student-discipline table that could otherwise create a false local-output signal."
       ],
       nextFollowUp:
         "Validate with Trinity whether any non-personal annual research-integrity statistics, lessons-learned notes or governance-report entries exist outside the public Senior Dean, Research and NRIF pages.",
@@ -870,51 +872,79 @@
       city: "Freiburg",
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
-      profileStatus: "Detailed historical-output/no-current-output audit seed",
-      validationStatus: "Needs member validation of current output-negative finding",
-      evidenceLevel: "Moderate",
-      transparencyCategory: "Ombudsperson and investigation commission route",
+      profileStatus: "Member-validated procedure-only/no-output profile",
+      validationStatus: "Updated with University of Freiburg member validation on route names, current no-public-output status and adjacent support routes",
+      evidenceLevel: "Strong",
+      transparencyCategory: "Member-validated Academic Integrity procedure with no current public reporting channel",
       countrySystemSummary:
         "Germany has a distributed integrity system with the DFG Code, institution-level ombudsperson and investigation routes, the German Research Ombudsman, DFG sanctions/output, OWID reporting and separate ethics, animal, data, medical and research-security boundaries.",
       nationalRoute:
-        "Freiburg belongs to the German institution-first route: the local ombudsperson/self-control route and investigation commission are the Freiburg handling route, while DFG/OWID publication lanes and the German Research Ombudsman are national or system-level context rather than Freiburg's own standing output channel.",
+        "Freiburg belongs to the German institution-first route: the Representative for Academic Self-Regulation and the Investigative Commission on Academic Integrity form the local handling route, while DFG/OWID publication lanes and the German Research Ombudsman are national or system-level context rather than Freiburg's own standing output channel.",
       institutionalRoute:
-        "Freiburg presents its research-integrity route through its Redlichkeit in der Wissenschaft page, the university regulation on safeguarding academic integrity, ombudsperson/self-control structures and the Investigation Commission for safeguarding honesty in science.",
+        "Freiburg presents its research-integrity route through its English Academic Integrity page, the Regulations of the University of Freiburg on Safeguarding Academic Integrity, the Representative for Academic Self-Regulation and the Investigative Commission on Academic Integrity.",
       committeeOrOffice:
-        "Ombudsperson/self-control route; Investigation Commission for safeguarding honesty in science; coordination office for Redlichkeit in der Wissenschaft",
+        "Representative for Academic Self-Regulation; Investigative Commission on Academic Integrity. The Ethics Committee and Commission on Responsibility in Research are separate advisory or research-ethics boundaries.",
       procedureSummary:
-        "The university page states that Freiburg has legally implemented the DFG good-scientific-practice guidelines through its Redlichkeit regulation. The regulation and commission page identify an ombudsperson/self-control route for suspected misconduct and an Investigation Commission that advises the Rector and investigates suspected scientific misconduct. The same commission page also exposes responsibility-in-research and ethics commission routes that should remain boundary material.",
+        "The Academic Integrity page links Freiburg's implementation of the DFG good-research-practice guidelines to the 2022 Regulations on Safeguarding Academic Integrity. The Representative for Academic Self-Regulation advises reporters and accused persons, may investigate suspected misconduct and makes a plausibility assessment; the Investigative Commission on Academic Integrity advises the Rector and investigates allegations. The Research Boards page also lists the Commission on Responsibility in Research and the Ethics Committee, but member validation keeps both outside the lead misconduct route.",
       publicOutputSummary:
-        "No current standing Freiburg public case-output channel, annual ombudsperson/commission statistics page or recurring anonymized decision archive was identified in this pass. Freiburg does maintain a historical public page on the sports-medicine/doping misconduct complex, including reports, press material and a 2021/2024 status-report route; this is case-specific historical transparency, not a general current misconduct-output archive.",
+        "University of Freiburg member validation on 31 July 2026 confirms that no current annual integrity statistics, summaries or comparable public reporting channel are published. The 2014-2015 and 2016-2017 Rector reports and the sports-medicine/doping misconduct page remain recorded as historical evidence, but they are not treated as a current Freiburg reporting route or recurring misconduct-output archive.",
       transparencySummary:
-        "Detailed historical-output audit seed: the route is clear and a historical case complex is public, but no current recurring output mechanism was located. Public evidence should be described as procedure visibility plus limited historical case-complex material.",
+        "Member-validated procedure-only profile: the Academic Integrity procedure and its two lead bodies are public, but Freiburg confirms that it does not publish annual integrity statistics, summaries or similar current output. Historical Rector counts and the sports-medicine case complex remain contextual evidence and should not be generalized into a current reporting category.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
-        annualReportOrCaseOutput: "limited historical case material; no current standing output",
-        sourceRegistryLinks: 0
+        annualReportOrCaseOutput: "none currently published; historical rector reporting and case-specific material retained as context",
+        sourceRegistryLinks: 9
       },
       sourceLinks: [
         {
-          label: "University of Freiburg Redlichkeit in der Wissenschaft",
-          url: "https://uni-freiburg.de/forschung/qualitaetssicherung/gute-wissenschaftliche-praxis/redlichkeit-in-der-wissenschaft/",
+          label: "University of Freiburg Academic Integrity",
+          url: "https://uni-freiburg.de/en/research/quality-assurance/good-research-practice/academic-integrity/",
           type: "procedure hub",
-          supports: "DFG implementation and Freiburg integrity regulation route",
-          note: "Official university page for good scientific practice and Redlichkeit in der Wissenschaft."
+          supports: "DFG implementation, Freiburg integrity regulation and Representative for Academic Self-Regulation route",
+          note: "Member-preferred English Academic Integrity page; links the regulation and identifies the confidential preliminary-advice and plausibility route."
         },
         {
           label: "University of Freiburg regulation on safeguarding academic integrity",
           url: "https://uni-freiburg.de/wp-content/uploads/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft-en.pdf",
           type: "procedure",
           supports: "ombudsperson and suspected-misconduct procedure",
-          note: "English convenience translation; German original remains authoritative."
+          note: "English convenience translation of the regulation adopted 25 May 2022; the German original remains authoritative."
         },
         {
-          label: "University of Freiburg research commissions",
-          url: "https://uni-freiburg.de/forschung/qualitaetssicherung/forschungskommissionen/",
+          label: "University of Freiburg authoritative German integrity regulation",
+          url: "https://uni-freiburg.de/en/wp-content/uploads/sites/61/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+          type: "procedure",
+          supports: "authoritative 2022 ombudsperson and suspected-misconduct procedure",
+          note: "German official text published 1 June 2022; checked against the English convenience translation on 30 July 2026."
+        },
+        {
+          label: "University of Freiburg Research Boards",
+          url: "https://uni-freiburg.de/en/research/quality-assurance/research-boards/",
           type: "committee page",
-          supports: "Investigation Commission remit and committee visibility",
-          note: "Identifies the commission that advises the Rector and investigates suspected scientific misconduct."
+          supports: "Investigative Commission remit and separate responsibility-in-research and ethics boundaries",
+          note: "Member-preferred English page. Identifies the Investigative Commission on Academic Integrity and separately describes the Commission on Responsibility in Research and Ethics Committee."
+        },
+        {
+          label: "University of Freiburg Good Research Practice",
+          url: "https://uni-freiburg.de/en/research/quality-assurance/good-research-practice/",
+          type: "policy and guidance hub",
+          supports: "institutional good-research-practice policies and guidance",
+          note: "Member-supplied English hub for Freiburg guidelines and policies."
+        },
+        {
+          label: "University of Freiburg ombuds process for doctoral candidates and supervisors",
+          url: "https://uni-freiburg.de/frs-en/grace/ombuds-process/",
+          type: "doctoral supervision and conflict-support boundary",
+          supports: "central confidential doctoral ombuds process and anonymized ten-year activity report",
+          note: "Separate from suspected academic-misconduct handling; the page directs misconduct concerns to the academic self-regulation route."
+        },
+        {
+          label: "University of Freiburg doctoral candidate survey",
+          url: "https://uni-freiburg.de/frs-en/grace/doctoral-studies-ufr/doc-survey/",
+          type: "early-career researcher and doctoral-quality context",
+          supports: "2024 survey results and institutional follow-up on doctoral working and supervision conditions",
+          note: "Member-supplied contextual source; not a misconduct procedure or public case-output channel."
         },
         {
           label: "University of Freiburg sports medicine and misconduct public page",
@@ -922,26 +952,38 @@
           type: "historical public case material",
           supports: "case-specific historical transparency",
           note: "Use only as historical case-complex evidence, not as proof of a standing public misconduct archive."
+        },
+        {
+          label: "University of Freiburg Rector annual report 2014-2015",
+          url: "https://uni-freiburg.de/en/wp-content/uploads/sites/61/Uni-Freiburg-Jahresbericht-des-Rektors-2014-15.pdf",
+          type: "historical annual report",
+          supports: "historical aggregate investigation-procedure counts",
+          note: "Pages 26-27 record 19 completed procedures and three newly received cases in the reporting period."
+        },
+        {
+          label: "University of Freiburg Rector annual report 2016-2017",
+          url: "https://uni-freiburg.de/en/wp-content/uploads/sites/61/Uni-Freiburg-Jahresbericht-des-Rektors-2016-17.pdf",
+          type: "historical annual report",
+          supports: "historical three-year integrity-matter counts",
+          note: "Pages 42-45 record 51 centrally pending matters over the three-year term, including 39 involving the Investigation Commission and 28 examined by the self-control officer."
         }
       ],
-      tags: ["official-source seed", "Germany", "ombudsperson", "investigation commission", "historical case material", "no current standing output"],
+      tags: ["member validated", "procedure only", "Germany", "academic self-regulation", "investigative commission", "academic integrity", "doctoral ombuds boundary", "early-career survey", "historical context", "no public output confirmed"],
       caveats: [
-        "The sports-medicine material is a historical case complex, not a general current public case-output route.",
-        "Do not treat research ethics, responsibility-in-research, dual-use, medical ethics or medical faculty awareness pages as misconduct adjudication.",
-        "Do not infer absence of current Freiburg cases from the absence of a standing public output channel."
+        "The procedure-only category is the member-validated current framing. The sports-medicine material and older Rector-report counts remain historical context, not evidence of a current reporting corridor.",
+        "The doctoral ombuds process concerns supervision conflicts and has its own anonymized activity report; it is not the general suspected-misconduct route.",
+        "The doctoral candidate survey concerns working and supervision conditions and is quality/culture context, not case reporting.",
+        "The Commission on Responsibility in Research addresses ethical and legal aspects of security-related research, while the Ethics Committee advises researchers; both remain separate from the lead misconduct route.",
+        "Do not infer absence of current Freiburg cases, concerns, investigations or internal reporting from the absence of a public output channel."
       ],
       reportNotes: [
-        "Batch 4 upgraded Freiburg to Detailed seed as a historical-output/no-current-output audit profile; the sports-medicine page remains case-specific, not a standing archive."
+        "Batch 4 upgraded Freiburg to Detailed seed as a historical-output/no-current-output audit profile; the sports-medicine page remains case-specific, not a standing archive.",
+        "Source-current verification on 30 July 2026 added verified historical Rector-report counts while finding no current recurring public output.",
+        "31 July 2026 Freiburg member validation reclassified the current profile from historical-or-case-specific to procedure-only, confirmed that no annual statistics or summaries are published, supplied the preferred English Academic Integrity and Research Boards pages, and added the doctoral ombuds process and doctoral survey as separate support and quality routes."
       ],
       nextFollowUp:
-        "Validate whether Freiburg publishes current annual statistics, newer non-personal summaries or institutional report references beyond the historical sports-medicine complex.",
-      memberValidationQuestions: [
-        "Is the Redlichkeit in der Wissenschaft route the preferred public framing for Freiburg?",
-        "Should the ombudsperson/self-control route and Investigation Commission be shown separately in the member view?",
-        "Is there a current annual report, aggregate statistic or public-output page that should be added?",
-        "How should the historical sports-medicine material be referenced without implying a general case archive?",
-        "Which boundary routes, including research ethics, dual-use and medical faculty awareness material, should remain separate?"
-      ]
+        "Monitor the Academic Integrity and Research Boards pages for procedural changes and recheck only if Freiburg later introduces non-personal public reporting.",
+      memberValidationQuestions: []
     }),
     member({
       id: "university-of-geneva",
@@ -952,28 +994,28 @@
       city: "Geneva",
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
-      profileStatus: "Detailed procedure-only/no-output audit seed",
-      validationStatus: "Needs member validation of UNIGE output-negative finding",
-      evidenceLevel: "Moderate",
-      transparencyCategory: "Scientific-integrity directive and ethics-reference route",
+      profileStatus: "Member-validated procedure-only/no-output profile",
+      validationStatus: "Updated with University of Geneva member validation on the integrity route, no-public-output finding and ethics boundaries",
+      evidenceLevel: "Strong",
+      transparencyCategory: "Member-validated integrity procedure with non-public Rectorate decisions",
       countrySystemSummary:
         "Switzerland is coded as fragmented funder and institutional visibility rather than one national misconduct board, with SCCSI, SNSF and ETH-style outputs kept distinct from individual university routes.",
       nationalRoute:
-        "UNIGE sits inside the Swiss institution-first model: the UNIGE directive defines local handling, while SCCSI and Swiss Academies material are framework context rather than a UNIGE case-output route.",
+        "UNIGE sits inside the Swiss institution-first model. Member validation confirms that no national body receives and decides concrete UNIGE cases: SCCSI supplies advice and compiles national statistics from anonymous institutional reports, while the UNIGE directive governs local handling.",
       institutionalRoute:
-        "UNIGE presents scientific integrity through its Research Ethics/RGO page, a dedicated Memento directive on integrity in scientific research and breach procedure, faculty integrity delegates, possible ad hoc fact-finding commissions, the Rectorate decision route and the Ethics and Professional Conduct Committee as a wider ethics/professional-conduct reference.",
-      committeeOrOffice: "Faculty integrity delegates; ad hoc fact-finding commission; Rectorate decision route; Ethics and Professional Conduct Committee; RGO/CUREG boundary routes",
+        "Scientific-integrity concerns follow the UNIGE Memento directive: faculty integrity delegates lead the preliminary route, an ad hoc fact-finding commission may investigate, and the Rectorate takes final decisions and sanctions. The all-external Ethics and Professional Conduct Committee is a separate ethics/professional-conduct reference body rather than the lead misconduct investigator.",
+      committeeOrOffice: "Faculty integrity delegates; ad hoc fact-finding commission when required; dean/director reporting route; Rectorate final decision and sanctions; external Ethics and Professional Conduct Committee as separate reference body",
       procedureSummary:
-        "The RGO research-ethics page states that UNIGE has a dedicated directive to prevent breaches of integrity and protect scientific-work quality, and that specific procedures identify, assess and sanction breaches. The Memento directive applies to research and teaching, routes suspected integrity breaches to the Rectorate and faculty delegate, allows an ad hoc fact-finding commission, and gives the Rectorate closure, sanction and possible corrective-publication decisions. CUREG links the same directive while remaining an ethical-review route.",
+        "The RGO research-ethics page states that UNIGE has a dedicated directive to prevent breaches of integrity and protect scientific-work quality. Memento 0003 is current as Version 3: suspected breaches are reported to the Rectorate, routed through a faculty integrity delegate, may require an ad hoc fact-finding commission, and end with a Rectorate decision on closure, sanctions and corrective measures. UNIGE member validation confirms this allocation and reports that an update is being considered to align the directive with the 2023 ALLEA Code and the Swiss scientific-integrity code; no revised directive was public on 31 July 2026.",
       publicOutputSummary:
-        "No UNIGE-owned public case-output channel, annual integrity-statistics page, ombudsperson report or anonymized decision archive was identified in this pass. The directive says procedures are generally confidential and that the Rectorate decides the timing, form and content of any publication; that is discretionary publication authority, not a standing public-output channel.",
+        "UNIGE member validation on 31 July 2026 confirms that Rectorate decisions and sanctions in scientific-integrity cases are not publicly disclosed. No UNIGE-owned standing case-output channel, annual integrity-statistics page, ombudsperson report or anonymized decision archive was identified in the preceding public-source retest. The directive gives the Rectorate discretionary authority over any publication, which is not a standing public-output channel.",
       transparencySummary:
-        "Detailed procedure-only audit seed: UNIGE's breach procedure is clear, current and publicly linked, but public evidence is procedure-route evidence rather than case-output evidence. CUREG outputs and ethical-risk statements are research-ethics governance, not misconduct case publication.",
+        "Member-validated procedure-only profile: the breach route is clear and public, but the final decisions and sanctions are not publicly disclosed. The mandatory project-risk statement, CCER, CUREG, CARE/animal experimentation and the institutional Data Protection Officer route are prospective ethics or specialist governance and must remain separate from misconduct case publication.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located; discretionary publication only",
-        sourceRegistryLinks: 0
+        sourceRegistryLinks: 7
       },
       sourceLinks: [
         {
@@ -988,14 +1030,14 @@
           url: "https://www.unige.ch/ethique/charter",
           type: "official",
           supports: "ethics/professional-conduct reference route",
-          note: "Includes research-integrity principles, falsification, plagiarism, authorship and conflicts."
+          note: "Describes an external, independent common ethics/professional-conduct body; member validation identifies it as all-external and separate from the lead scientific-integrity investigation route."
         },
         {
           label: "UNIGE directive on integrity in scientific research",
           url: "https://memento.unige.ch/doc/0003",
           type: "procedure",
           supports: "scientific-integrity procedure and breach-handling reference",
-          note: "Official Memento directive linked from UNIGE research-ethics/CUREG resources."
+          note: "Current Version 3 official Memento directive. The 5 September 2025 maintenance entry updates only the Swiss-code footnote reference; the substantive procedure remains unchanged."
         },
         {
           label: "CUREG how-we-work page",
@@ -1003,27 +1045,46 @@
           type: "boundary route",
           supports: "ethical-review boundary and directive cross-reference",
           note: "Useful boundary source; CUREG is not the general misconduct adjudication route."
+        },
+        {
+          label: "UNIGE Statement of ethical risk announcement",
+          url: "https://www.unige.ch/recherche/en/news/whats-new/A-new-tool-to-support-research-ethics/topic/1890/news",
+          type: "boundary route",
+          supports: "mandatory project-level ethics self-check from 2026",
+          note: "Prospective project-risk screening for environmental, dual-use, human-participant, integrity and animal issues; not a misconduct investigation or output route."
+        },
+        {
+          label: "UNIGE Commission for Animals in Experimental Research (CARE)",
+          url: "https://www.unige.ch/recherche/expanim/informations-pour-les-chercheurs/reglementation/commission-interfacultaire-dethique-de-lexperimentation-animale",
+          type: "boundary route",
+          supports: "institutional animal-research advisory committee",
+          note: "Animal-experimentation governance and advice; keep separate from scientific-integrity case handling."
+        },
+        {
+          label: "UNIGE data-protection roles and responsibilities",
+          url: "https://www.unige.ch/donnees-personnelles/a-savoir/roles-et-responsabilites",
+          type: "boundary route",
+          supports: "institutional Data Protection Officer role",
+          note: "The DPO advises, supports and monitors personal-data compliance; this is a data-protection boundary, not scientific-integrity adjudication."
         }
       ],
-      tags: ["official-source seed", "procedure only", "ethics boundary", "Swiss institutional route", "no public output identified"],
+      tags: ["member validated", "procedure only", "faculty integrity delegates", "fact-finding commission", "Rectorate decision", "external ethics committee", "ethics boundary", "Swiss institutional route", "no public output confirmed", "directive revision watch"],
       caveats: [
-        "No public UNIGE misconduct case-output channel was identified in this pass.",
+        "UNIGE member validation confirms that Rectorate decisions and sanctions are not publicly disclosed; this does not imply absence of cases.",
         "Do not treat discretionary Rectorate publication authority as a recurring public output channel.",
-        "CUREG, ethical-risk statements, faculty medicine ombuds support, human-research ethics and data-management routes are boundary governance, not misconduct case publication.",
-        "Do not infer absence of UNIGE cases from the absence of a public output channel."
+        "A 2025 UNIGE communication about plagiarism in a scientific-committee report was not verified as an output of the Memento 0003 breach procedure and is therefore not counted as committee case output.",
+        "The Ethics and Professional Conduct Committee is an external reference body; faculty delegates, an optional ad hoc commission and the Rectorate form the scientific-integrity investigation and decision route.",
+        "CUREG, CCER, CARE/animal experimentation, ethical-risk statements, human-research ethics, data protection and dual-use/security review are boundary governance, not misconduct case publication.",
+        "The reported directive update is under consideration and must not be described as adopted until a revised official text is published."
       ],
       reportNotes: [
-        "Batch 4 upgraded UNIGE to Detailed seed as a procedure-only/no-output audit profile; use the UNIGE directive as the scientific-integrity backbone and the RGO/CUREG pages as route and boundary context."
+        "Batch 4 upgraded UNIGE to Detailed seed as a procedure-only/no-output audit profile; use the UNIGE directive as the scientific-integrity backbone and the RGO/CUREG pages as route and boundary context.",
+        "Source-current verification on 30 July 2026 retained the procedure-only category, confirmed Memento 0003 as Version 3 and distinguished its 2025 footnote-only maintenance update from a substantive procedural revision.",
+        "31 July 2026 UNIGE member validation confirmed the faculty-delegate/ad hoc commission/Rectorate route, the non-public status of final decisions and sanctions, the external Ethics and Professional Conduct Committee's separate role, the specialist ethics boundaries and a prospective directive-alignment review."
       ],
       nextFollowUp:
-        "Validate whether UNIGE publishes any non-personal annual integrity statistics, Rectorate summaries or anonymized case-learning material, or whether publication remains discretionary and exceptional.",
-      memberValidationQuestions: [
-        "Is the UNIGE Memento directive the preferred public source for the institution's scientific-integrity procedure?",
-        "Should faculty integrity delegates and the Rectorate be shown as the main breach-handling route, with the Ethics and Professional Conduct Committee as broader ethics context?",
-        "Does UNIGE publish aggregate integrity statistics, annual reporting or anonymized case summaries?",
-        "Which CUREG, animal, human-research, data and open-science routes should remain boundary material?",
-        "What non-personal validation path should be used for future updates?"
-      ]
+        "Monitor publication of a revised UNIGE scientific-integrity directive aligned with the 2023 ALLEA and Swiss codes, and recheck whether any non-personal aggregate reporting is introduced.",
+      memberValidationQuestions: []
     }),
     member({
       id: "heidelberg-university",
@@ -1034,10 +1095,10 @@
       city: "Heidelberg",
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
-      profileStatus: "Detailed procedure-only/no-output audit seed",
-      validationStatus: "Needs member validation of Heidelberg output-negative finding",
+      profileStatus: "Detailed historical-case-output/no-current-output audit seed",
+      validationStatus: "Source-current checked 30 July 2026; needs member validation of historical case-output framing",
       evidenceLevel: "Moderate",
-      transparencyCategory: "Ombuds and commission procedure route",
+      transparencyCategory: "Ombuds and commission route with historical case-specific public summary",
       countrySystemSummary:
         "Germany is represented as a distributed integrity system built from the DFG Code, institutional ombudsperson and investigation routes, the national German Research Ombudsman, DFG sanctions/output, OWID reporting and separate ethics, clinical, animal, data and IP boundaries.",
       nationalRoute:
@@ -1046,16 +1107,16 @@
         "Heidelberg publishes a good-academic-practice framework with Senate-appointed ombudsmen as first contacts for suspected academic misconduct and a rectorate standing commission that investigates allegations, evaluates cases and recommends or takes measures. Responsibility in science, fair-conduct, ethics and doctoral support routes are adjacent but separate.",
       committeeOrOffice: "Ombudsmen for good academic practice; Commission for the Safeguarding of Good Academic Practice; separate responsibility-in-science and doctoral/fair-conduct routes",
       procedureSummary:
-        "The university-wide good-academic-practice page states that the rectorate has a standing commission to investigate academic-misconduct allegations and that ombudsmen or the commission chair serve as initial contacts. The rules PDF defines academic misconduct, ombudsperson duties and annual general anonymized reporting to the rector, but no public annual output was located.",
+        "The university-wide good-academic-practice page states that the Rectorate has a standing commission to investigate academic-misconduct allegations and that ombudsmen or the commission chair serve as initial contacts. The rules in the version of 28 September 2021 define academic misconduct, ombudsperson duties and annual general anonymized reporting to the Rector; they also state that the Commission report itself is not published, although the University may inform affected third parties or the public where required.",
       publicOutputSummary:
-        "No Heidelberg public misconduct case-output channel, annual ombuds/commission statistics page or anonymized decision archive was identified in this pass. The rules require the ombudspersons to report annually to the Rector in general, anonymized form, but no public version of that internal reporting was located.",
+        "Heidelberg published a case-specific interim summary from the Senate Commission in 2019 concerning the breast-cancer blood-test matter. The official case overview says the final Commission report was delivered in October 2019 but remained internal while disciplinary proceedings continued. No current standing case-output channel, public annual ombuds/commission statistics page or anonymized decision archive was identified in the 30 July 2026 retest. The rules require annual general anonymized reporting to the Rector, but no public version of that internal reporting was located.",
       transparencySummary:
-        "Procedure visibility is strong, but public-output visibility remains negative in this pass. Doctoral ombuds, fair-conduct/workplace, ethics review, responsibility-in-science and plagiarism-support material should remain separate from research-misconduct handling unless the academic-misconduct procedure is explicitly invoked.",
+        "Procedure visibility is strong and one historical case-specific interim summary is public, but no current recurring output mechanism was located. Doctoral ombuds, fair-conduct/workplace, ethics review, responsibility-in-science and plagiarism-support material should remain separate from research-misconduct handling unless the academic-misconduct procedure is explicitly invoked.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
-        annualReportOrCaseOutput: "none located publicly; internal anonymized report to Rector only",
-        sourceRegistryLinks: 2
+        annualReportOrCaseOutput: "historical case-specific interim summary; no current standing output; final report internal",
+        sourceRegistryLinks: 4
       },
       sourceLinks: [
         {
@@ -1067,10 +1128,10 @@
         },
         {
           label: "Graduate Academy ombudsperson",
-          url: "https://www.graduateacademy.uni-heidelberg.de/beratung/ombudsperson_en.html",
+          url: "https://www.graduateacademy.uni-heidelberg.de/en/support/ombuds-program",
           type: "official",
           supports: "doctoral ombuds route",
-          note: "Shows mediation-oriented doctoral route."
+          note: "Current destination of the former ombudsperson URL; shows a mediation-oriented doctoral support route and is not the general misconduct commission route."
         },
         {
           label: "Heidelberg rules and guidelines on good academic practice",
@@ -1092,20 +1153,36 @@
           type: "boundary procedure",
           supports: "fair-conduct boundary route",
           note: "Boundary source for workplace and fair-conduct matters; keep separate from academic-misconduct output."
+        },
+        {
+          label: "Heidelberg 2019 Senate Commission interim summary",
+          url: "https://www.uni-heidelberg.de/de/newsroom/bluttest-zur-brustkrebsdiagnostik/zusammenfassung-des-zwischenberichts",
+          type: "historical case-specific output",
+          supports: "public interim findings from the Senate Commission",
+          note: "Public case-specific interim summary; it does not establish a standing decision or report archive."
+        },
+        {
+          label: "Heidelberg breast-cancer blood-test case overview",
+          url: "https://www.uni-heidelberg.de/de/newsroom/bluttest-zur-brustkrebsdiagnostik",
+          type: "historical case overview",
+          supports: "case chronology and final-report publication status",
+          note: "Official overview states that the final Commission report was delivered in October 2019 but remained internal while disciplinary proceedings continued."
         }
       ],
-      tags: ["official-source seed", "ombuds", "commission route", "procedure only", "Germany distributed model"],
+      tags: ["official-source seed", "ombuds", "commission route", "historical case output", "no current standing output", "Germany distributed model"],
       caveats: [
-        "No Heidelberg public case-output channel or annual statistics page was identified in this pass.",
+        "The 2019 interim summary is a historical case-specific output, not a current public case-output channel or annual statistics route.",
+        "The October 2019 final Commission report remained internal; do not describe the interim summary as the final report.",
         "The rules' annual anonymized report to the Rector is internal reporting evidence, not a public output channel.",
         "Graduate Academy, plagiarism-detection, responsibility-in-science, ethics-review and fair-conduct/workplace sources are support or boundary routes unless the academic-misconduct procedure is invoked.",
         "Do not infer absence of Heidelberg cases from the absence of a public output channel."
       ],
       reportNotes: [
-        "Batch 5 upgraded Heidelberg to Detailed seed as a procedure-only/no-output audit profile: official route evidence is strong, internal anonymized reporting is noted, and no public output lane was located."
+        "Batch 5 upgraded Heidelberg to Detailed seed as a procedure-only/no-output audit profile: official route evidence is strong and internal anonymized reporting is noted.",
+        "Source-current verification on 30 July 2026 corrected the category to historical-or-case-specific after locating the public 2019 Senate Commission interim summary. The strict current-output count remains unchanged because no standing output channel was found and the final Commission report remained internal."
       ],
       nextFollowUp:
-        "Check whether the Commission for the Safeguarding of Good Academic Practice or Rectorate publishes any non-personal annual activity, general anonymized reporting or outcome summaries.",
+        "Check whether the Commission for the Safeguarding of Good Academic Practice or Rectorate publishes any current non-personal annual activity, general anonymized reporting or later outcome summary; keep the 2019 interim summary separate from the internal final report.",
       memberValidationQuestions: [
         "Is the ombudsmen-plus-commission framing the correct public Heidelberg route?",
         "Should the Graduate Academy ombudsperson, responsibility-in-science commission and fair-conduct statute be included only as boundary/support routes?",
@@ -1626,7 +1703,7 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Detailed procedure-only/no-output audit seed",
-      validationStatus: "Needs member validation of LMU output-negative finding",
+      validationStatus: "Source-current checked 30 July 2026; needs member validation of LMU output-negative finding",
       evidenceLevel: "Moderate",
       transparencyCategory: "Ombudspersons and investigation committee route",
       countrySystemSummary:
@@ -1634,27 +1711,34 @@
       nationalRoute:
         "LMU belongs to the German institution-first model: its university-wide GWP regulation is the local route, while the German Research Ombudsman is an alternative supraregional route and DFG output remains funder-level context.",
       institutionalRoute:
-        "LMU's university-wide route is anchored in the 17 November 2023 regulation on safeguarding good scientific practice, with ombudspersons for good scientific practice and a formal investigation committee for suspected scientific misconduct.",
+        "LMU's current central Ethics in Research hub anchors the university-wide route and links the 17 November 2023 regulation on safeguarding good scientific practice, with ombudspersons for good scientific practice and a formal investigation committee for suspected scientific misconduct.",
       committeeOrOffice: "Ombudspersons for good scientific practice; investigation committee under the LMU GWP regulation",
       procedureSummary:
         "The LMU regulation implements the DFG code, applies to scientific and science-supporting activity at LMU, assigns organizational responsibility to university leadership, sets out independent confidential ombudsperson activity, identifies the German Research Ombudsman as an alternative route and defines the procedure from preliminary handling through formal investigation and possible measures.",
       publicOutputSummary:
-        "No LMU public misconduct case-output channel, annual ombudsperson statistics page or anonymized decision archive was identified in this pass. The regulation states that university leadership decides whether and how the public is informed after a final decision, which is a discretionary publication rule rather than a standing output channel.",
+        "No LMU public misconduct case-output channel, annual ombudsperson statistics page or anonymized decision archive was identified in the 30 July 2026 retest. The regulation states that university leadership decides whether and how the public is informed after a final decision, which is a discretionary publication rule rather than a standing output channel.",
       transparencySummary:
         "The official regulation gives a usable procedure seed, and medical/graduate-center pages add support and training routes. No LMU annual statistics, anonymized case summaries or standing public-output channel were located in this pass.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located; publication discretionary only",
-        sourceRegistryLinks: 0
+        sourceRegistryLinks: 2
       },
       sourceLinks: [
+        {
+          label: "LMU Ethics in Research hub",
+          url: "https://www.lmu.de/de/forschung/ethik-in-der-forschung/",
+          type: "procedure and boundary hub",
+          supports: "central university-wide good-scientific-practice route and boundary separation",
+          note: "Current central hub linking the GWP regulation and separately signposting open science/data, animal research, Nagoya and export-control routes."
+        },
         {
           label: "LMU regulation on safeguarding good scientific practice",
           url: "https://cms-cdn.lmu.de/media/contenthub/amtliche-veroeffentlichungen/gwp-ordnung.pdf",
           type: "procedure",
           supports: "university-wide GWP rules, ombudspersons and investigation committee",
-          note: "Official LMU regulation dated 17 November 2023."
+          note: "Official LMU regulation dated 17 November 2023 and effective for new reports from 1 August 2023. Two current official LMU download URLs returned byte-identical PDFs on 30 July 2026."
         },
         {
           label: "LMU Medical Faculty good scientific practice resources",
@@ -1675,11 +1759,12 @@
       caveats: [
         "The Germany dossier has Munich material for Technical University of Munich, but that is not LMU Munich.",
         "Training and medical-faculty signposting pages are support and boundary routes, not public case-output evidence.",
-        "No central non-personal LMU ombudsperson or investigation-committee page was located beyond the regulation in this pass.",
+        "A central Ethics in Research hub is public, but no separate non-personal LMU ombudsperson or investigation-committee directory was located beyond the regulation in the 30 July 2026 retest.",
         "Do not infer absence of LMU cases from the absence of a public output channel."
       ],
       reportNotes: [
-        "Batch 5 upgraded LMU to Detailed seed as a procedure-only/no-output audit profile: the 2023 GWP regulation is strong procedure evidence, but no standing public-output channel was found."
+        "Batch 5 upgraded LMU to Detailed seed as a procedure-only/no-output audit profile: the 2023 GWP regulation is strong procedure evidence, but no standing public-output channel was found.",
+        "Source-current verification on 30 July 2026 retained the procedure-only category, added the current central Ethics in Research hub and confirmed that two current official regulation URLs resolve to byte-identical 17 November 2023 PDFs."
       ],
       nextFollowUp:
         "Locate any current non-personal LMU page for ombudsperson offices or investigation-committee composition, and check whether annual statistics, rectorate summaries or anonymized public outputs exist.",
@@ -1768,7 +1853,7 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Detailed procedure-only/no-output audit seed",
-      validationStatus: "Needs member validation of Paris-Saclay output-negative finding",
+      validationStatus: "Source-current checked 30 July 2026; needs member validation of Paris-Saclay output-negative finding",
       evidenceLevel: "Moderate",
       transparencyCategory: "POLETHIS/RIS route without public case output",
       countrySystemSummary:
@@ -1781,14 +1866,14 @@
       procedureSummary:
         "The POLETHIS scientific-integrity network page states that referents advise on and instruct matters concerning breaches of scientific integrity in confidence; the doctoral problems page points suspected ethics/integrity breaches to those referents. Ofis lists Paris-Saclay in the national RIS directory. The CER-PS functioning document supports research-ethics review activity and confidentiality, not misconduct publication.",
       publicOutputSummary:
-        "No Paris-Saclay public institutional misconduct case-output archive, annual RIS activity report, signalement statistics page or anonymized decision channel was identified in this pass. The CER-PS document mentions public activity reporting for ethics review, but that is boundary evidence rather than misconduct-output evidence.",
+        "No Paris-Saclay public institutional misconduct case-output archive, annual RIS activity report, signalement statistics page or anonymized decision channel was identified in the 30 July 2026 retest. The CER-PS document mentions public activity reporting for ethics review, but that is boundary evidence rather than misconduct-output evidence.",
       transparencySummary:
         "Route and network evidence are present, but this should not be scored as case-output transparency. CER-PS visibility should be kept as ethics-review transparency unless a source connects it to scientific-misconduct handling.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located; CER-PS ethics output is boundary material",
-        sourceRegistryLinks: 1
+        sourceRegistryLinks: 2
       },
       sourceLinks: [
         {
@@ -1835,7 +1920,8 @@
         "Do not infer absence of Paris-Saclay cases from the absence of a public output channel."
       ],
       reportNotes: [
-        "Batch 5 upgraded Paris-Saclay to Detailed seed as a procedure-only/no-output audit profile: POLETHIS/RIS route evidence is strong enough for a complete route profile, but public-output evidence remains unlocated."
+        "Batch 5 upgraded Paris-Saclay to Detailed seed as a procedure-only/no-output audit profile: POLETHIS/RIS route evidence is strong enough for a complete route profile, but public-output evidence remains unlocated.",
+        "Source-current verification on 30 July 2026 retained the procedure-only category: the POLETHIS/RIS route remains current, targeted French-language output searches found no local RIS activity or case-output channel, and CER-PS activity reporting remains an ethics-review boundary."
       ],
       nextFollowUp:
         "Validate whether Paris-Saclay publishes annual RIS activity reports, non-personal signalement statistics or public case-learning outputs beyond the POLETHIS route pages.",
@@ -1949,7 +2035,7 @@
       leruStatus: "Official LERU member; LERU INTE participation still needs validation.",
       reportStatus: "Detailed seed",
       profileStatus: "Detailed RIS route/no-local-output audit seed",
-      validationStatus: "Needs member validation of Strasbourg output-negative finding",
+      validationStatus: "Source-current checked 30 July 2026; needs member validation of Strasbourg output-negative finding",
       evidenceLevel: "Moderate",
       transparencyCategory: "Scientific-integrity referent route",
       countrySystemSummary:
@@ -1962,14 +2048,14 @@
       procedureSummary:
         "The referent page describes examples such as plagiarism, inappropriate manipulation or fabrication of data, authorship conflicts and undeclared conflicts of interest. The route verifies reports, opens an inquiry where needed, may seek expert advice, conducts adversarial instruction and submits recommendations to the university president for decision. Ofis confirms Strasbourg as a charter-signatory RIS institution; the university's ethics/deontology hub, HRS4R and doctoral pages are prevention or boundary context.",
       publicOutputSummary:
-        "No Strasbourg-owned public RIS annual activity report, local signalement statistics page, anonymized case-summary channel or public decision archive was identified in this pass. The Ofis 2022-2023 national synthesis is national/sector-level context and notes establishment reporting, but it is not a Strasbourg local output channel.",
+        "No Strasbourg-owned public RIS annual activity report, local signalement statistics page, anonymized case-summary channel or public decision archive was identified in the 30 July 2026 retest. The Ofis 2022-2023 national synthesis is national/sector-level context and notes establishment reporting, but it is not a Strasbourg local output channel.",
       transparencySummary:
         "Detailed RIS route/no-local-output audit seed: the scientific-integrity referent route is visible and procedurally described, but public evidence remains route/procedure evidence plus national Ofis context rather than local public-output evidence.",
       sourceCoverage: {
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located locally; national Ofis synthesis context only",
-        sourceRegistryLinks: 0
+        sourceRegistryLinks: 2
       },
       sourceLinks: [
         {
@@ -1987,11 +2073,11 @@
           note: "Boundary governance source; keep separate from misconduct adjudication."
         },
         {
-          label: "University of Strasbourg HRS4R label page",
-          url: "https://www.unistra.fr/fr/universite/labels/label-hr-excellence-research-hrs4r",
+          label: "University of Strasbourg HREIR label page",
+          url: "https://www.unistra.fr/fr/universite/labels/label-hr-excellence-research-hreir",
           type: "strategy context",
           supports: "scientific-integrity referent as an institutional action",
-          note: "Use as context, not as a case-handling source."
+          note: "Current destination of the former HRS4R URL; use as prevention/strategy context, not as a case-handling source."
         },
         {
           label: "University of Strasbourg doctoral preparation page",
@@ -2031,7 +2117,8 @@
         "Do not infer absence of Strasbourg cases from the absence of a public output channel."
       ],
       reportNotes: [
-        "Batch 4 upgraded Strasbourg to Detailed seed as a RIS route/no-local-output audit profile; the Ofis synthesis remains national context only."
+        "Batch 4 upgraded Strasbourg to Detailed seed as a RIS route/no-local-output audit profile; the Ofis synthesis remains national context only.",
+        "Source-current verification on 30 July 2026 retained the national-or-sector-output category, confirmed the referent route and moved the renamed HRS4R strategy citation to its current HREIR destination; no Strasbourg-owned output was located."
       ],
       nextFollowUp:
         "Validate whether Strasbourg publishes annual RIS activity statistics, anonymized case summaries or a non-personal procedure document beyond the referent page and national Ofis context.",
@@ -2222,7 +2309,7 @@
         institutionalProcedure: "available",
         committeePage: "available",
         annualReportOrCaseOutput: "none located; official news contextual only",
-        sourceRegistryLinks: 3
+        sourceRegistryLinks: 4
       },
       committeeCodeSource: {
         label: "UZH Integrity Ordinance",

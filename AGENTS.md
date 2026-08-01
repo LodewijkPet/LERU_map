@@ -45,6 +45,7 @@ Current special cases:
 - `protocol/index.html`: protocol page
 - `docs/workflows/CASE-FILE-WORKFLOW.md`: dedicated instructions for the committee-and-case-file discovery pass
 - `docs/plans/NEXT-PHASE-QUALITY-PLAN.md`: quality-consolidation plan for current-source checks, ENRIO cross-checks, codes of conduct, committee directories, repository indexing, and missing overview completion
+- `docs/article/LERU-REPORT-PRODUCTION-GUIDE.md`: internal production specification for turning the map into a LERU-style report, based on the 2020, 2023 and 2024 public Research Integrity Group advice papers
 - `data/countries.js`: main app dataset
 - `data/transparency.js`: extracted transparency layer
 - `data/source-registry.csv`: registry of collected web/PDF sources
@@ -56,6 +57,62 @@ Each country has a folder in `data/<Country>/` with:
 
 - `Overview <Country>.docx` when available
 - `raw documentation/` subfolders for laws, procedures, codes, ethics bodies, monitoring, source notes, etc.
+
+### LERU report production
+
+When work concerns the final LERU report rather than a country dossier, start with `docs/article/LERU-REPORT-PRODUCTION-GUIDE.md`, then use:
+
+- `reports/LERU-research-integrity-report-article-outline-review.docx` for the current substantive outline
+- `docs/article/build_leru_report_outline.py` for the reproducible Word build
+- `docs/status/LERU-REPORT-GAP-MATRIX.md` for the current 24-member evidence gaps
+- `docs/status/LERU-PUBLIC-OUTPUT-AUDIT.md` for the public-output typology and validation history
+- `data/leru-members.js` and `data/leru-extraction-log.csv` as the source of truth for current member-validation status
+
+Do not carry old member-feedback counts from the Word outline or a dated status note into a new draft. Recalculate them from the live member dataset and extraction log, declare a data cut-off, and confirm the intended publication type, current LERU group name, authorship and approval route with Claire before treating the report as an official LERU paper.
+
+### AI execution and maintenance model
+
+The linked Overview outcome now has an article workplace named `leru-report-production`. It is the authoritative execution roadmap for report work and divides the remaining work into:
+
+1. human governance and member-feedback decisions;
+2. AI maintenance infrastructure;
+3. AI source-current and evidence-gap batches;
+4. AI repository extraction and reproducible analysis;
+5. AI claim, reference, table, figure and annex preparation;
+6. human-led, AI-assisted report writing;
+7. independent review, accessibility checks and publication packaging.
+
+When an agent is asked to “continue the LERU report” without a narrower target, inspect the linked Overview workplace and choose the first executable `work_mode: "ai"` project whose dependencies are satisfied. Work on one bounded batch at a time and state its target set, evidence question, data cut-off, canonical inputs, expected outputs and stop conditions before collecting sources.
+
+Use this preferred order unless the user explicitly selects another task:
+
+1. `p-leru-ai-maintenance-pipeline`
+2. `p-leru-source-current-verification`
+3. `p-leru-evidence-gap-closure`
+4. `p-leru-missing-overview-completion`
+5. `p-leru-law-practice-linkage`
+6. `p-leru-data-analysis`
+7. `p-leru-claim-evidence-ledger`
+8. `p-leru-report-visuals`
+9. `p-leru-technical-annex`
+10. `p-leru-article-writing`
+11. `p-leru-report-standalone-review`
+12. `p-leru-final-publication-package`
+
+`p-leru-ai-feedback-integration` runs whenever a new member response arrives. The human feedback and governance task remains the immediate external dependency, but AI evidence-maintenance work may proceed in parallel when it does not presume the unresolved publication decisions.
+
+For every AI batch:
+
+- use `docs/article/LERU-REPORT-PRODUCTION-GUIDE.md` as the content and evidence specification;
+- prefer current primary official sources and retain URL, owner, title, version or date, access date, purpose and local or registry location;
+- keep procedure visibility, aggregate activity reporting and case-level public output distinct;
+- keep biomedical ethics, clinical trials, animal research, data protection, IP, quality assurance, student discipline and employment routes outside general misconduct coding unless an official source explicitly connects them;
+- preserve human changes and historical evidence, use visible diffs, and leave ambiguous classifications as review items;
+- regenerate derived counts from canonical data and never repair a report number by hand;
+- update the source registry, affected data records, extraction logs, gap matrix and Overview task state when the evidence supports those changes;
+- finish with validation results, changed or unsupported claims, unresolved decisions and the next bounded batch.
+
+AI may recheck public sources, find and register documents, extract structured data, update established data fields, create analyses, tables, figures, reference lists, section briefs and draft prose, and run quality checks. Lodewijk retains decisions about scope, interpretation, recommendations, data cut-off, authorial voice and final wording. Claire or the competent LERU process confirms the publication type, current group name, template, authorship/governance route and formal approval. Do not send external messages, circulate review files or publish without an explicit human instruction.
 
 ## What To Do Next
 

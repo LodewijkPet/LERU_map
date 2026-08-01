@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-31",
+  "publication_data_cutoff": null,
+  "publication_cutoff_note": "Not set by this technical maintenance batch; requires author approval.",
+  "git": {
+    "commit": "65401f61648319f762b56e99544ebecd7498f822",
+    "dirty": true,
+    "changed_paths": [
+      {
+        "path": "AGENTS.md",
+        "status": " M"
+      },
+      {
+        "path": "data/countries.js",
+        "status": " M"
+      },
+      {
+        "path": "data/France/raw documentation/source notes/France deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/Germany/raw documentation/source notes/Germany deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/Ireland/raw documentation/source notes/Ireland deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/leru-extraction-log.csv",
+        "status": " M"
+      },
+      {
+        "path": "data/leru-members.js",
+        "status": " M"
+      },
+      {
+        "path": "data/maintenance/leru-canonical-inputs.csv",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/leru-canonical-inputs.json",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/leru-source-manifest.csv",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/leru-source-manifest.json",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/pilot-sources.json",
+        "status": "??"
+      },
+      {
+        "path": "data/maintenance/README.md",
+        "status": "??"
+      },
+      {
+        "path": "data/source-registry.csv",
+        "status": " M"
+      },
+      {
+        "path": "data/Switzerland/raw documentation/source notes/Switzerland deep-dive sources.md",
+        "status": " M"
+      },
+      {
+        "path": "data/transparency-extraction-log.csv",
+        "status": " M"
+      },
+      {
+        "path": "data/transparency.js",
+        "status": " M"
+      },
+      {
+        "path": "docs/article/LERU-REPORT-PRODUCTION-GUIDE.md",
+        "status": "??"
+      },
+      {
+        "path": "docs/status/LERU-PUBLIC-OUTPUT-AUDIT.md",
+        "status": " M"
+      },
+      {
+        "path": "docs/status/LERU-REPORT-GAP-MATRIX.md",
+        "status": " M"
+      },
+      {
+        "path": "docs/workflows/LERU-AI-MAINTENANCE-RUNBOOK.md",
+        "status": "??"
+      },
+      {
+        "path": "PLANS.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/batch-summary.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/derived-counts.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/derived-counts.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-phase-1/validation-results.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/completion-memo.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/derived-counts.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/derived-counts.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/exceptions-and-review.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/final-audit/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/member-control.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/source-current-results.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-priority-member-source-current/validation-results.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/content-delta.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/source-audit.csv",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/source-audit.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/source-audit.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-30-source-audit/suggested-manifest-updates.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-31-unige-feedback/derived-counts.json",
+        "status": "??"
+      },
+      {
+        "path": "reports/maintenance/2026-07-31-unige-feedback/derived-counts.md",
+        "status": "??"
+      },
+      {
+        "path": "reports/project-overview.html",
+        "status": " M"
+      },
+      {
+        "path": "scripts/audit_leru_sources.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/build_leru_source_manifest.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/generate_leru_report_counts.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/leru_maintenance_lib.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/run_leru_maintenance_batch.mjs",
+        "status": "??"
+      },
+      {
+        "path": "scripts/tests/leru_maintenance.test.mjs",
+        "status": "??"
+      }
+    ]
+  },
+  "countries": {
+    "denominator": 49,
+    "stage_counts": {
+      "Deep dossier drafted": 40,
+      "Expanded overview dossier": 9
+    },
+    "deep_dossiers": 40
+  },
+  "overview_documents": {
+    "country_denominator": 49,
+    "present": 40,
+    "missing": 9,
+    "missing_countries": [
+      "Albania",
+      "Andorra",
+      "Armenia",
+      "Azerbaijan",
+      "Georgia",
+      "Liechtenstein",
+      "Malta",
+      "Monaco",
+      "San Marino"
+    ]
+  },
+  "transparency": {
+    "denominator": 35,
+    "prepared": "2026-04-17",
+    "tier_counts": {
+      "Aggregate and anonymized national case-trace visibility plus scattered institutional notices": 1,
+      "Attestation-order and retraction databases without a general misconduct archive": 1,
+      "Flemish annual-report fragments plus FWB procedure visibility": 1,
+      "Fragmented institutional decision stream plus boundary visibility": 1,
+      "Fragmented legacy and institutional case traces": 1,
+      "Funder annual reporting plus institutional case-file fragments": 1,
+      "Funder case-publication list plus ombuds and institutional annual reports": 1,
+      "Institutional annual-statement corridor and boundary registers without a national misconduct archive": 1,
+      "Institutional opinions and local aggregate reporting, no national archive": 1,
+      "Institutional statement archives plus route-visible distributed system": 1,
+      "Low general misconduct publication with biomedical permit and institutional approval archives": 1,
+      "Low general misconduct publication with institutional aggregate lanes and boundary archives": 1,
+      "Low general misconduct publication with QA report and institutional micro-publication lanes": 1,
+      "Low general research-misconduct publication with bioethics and QA report lanes": 1,
+      "Low misconduct-case publication with ethics-approval and boundary traces": 1,
+      "Micro-publication nodes without a national misconduct archive": 1,
+      "National aggregate monitoring plus fragmented institutional minutes and opinions": 1,
+      "National aggregate monitoring plus selective operator case reports": 1,
+      "National publication rule but no live opinion archive": 1,
+      "National route documents plus subnational recommendation fragment": 1,
+      "No national publication": 1,
+      "Parallel structured archives and register visibility": 1,
+      "Procedural and registry-based transparency without a national misconduct archive": 1,
+      "Statutory national body without located public archive": 1,
+      "Structured archive": 4,
+      "Structured archive plus sector publication layers": 1,
+      "Structured national decision archive with retention limits": 1,
+      "Structured national second-line case page with distributed first-line handling": 1,
+      "Summary-based annual-report corridor with institutional rule fragments": 1,
+      "Summary-based institutional fragments with access-limited national route": 1,
+      "Summary-based national reporting with procedure-rich institutional routes": 1,
+      "Summary-based national reporting with rare funder case signal": 1
+    }
+  },
+  "source_registry": {
+    "row_denominator": 1591,
+    "unique_source_ids": 1591,
+    "unique_urls": 1525,
+    "duplicate_source_ids": []
+  },
+  "leru_members": {
+    "denominator": 24,
+    "metadata_denominator": 24,
+    "official_members": 24,
+    "report_status_counts": {
+      "Detailed seed": 24
+    },
+    "evidence_level_counts": {
+      "Moderate": 7,
+      "Strong": 17
+    },
+    "member_validation": {
+      "processed": 7,
+      "open": 17,
+      "processed_ids": [
+        "sorbonne-university",
+        "universitat-de-barcelona",
+        "university-of-copenhagen",
+        "university-of-geneva",
+        "university-of-helsinki",
+        "university-of-milan",
+        "university-of-zurich"
+      ]
+    },
+    "strict_public_output": {
+      "definition": "sourceCoverage.annualReportOrCaseOutput === \"available\"",
+      "numerator": 14,
+      "denominator": 24
+    },
+    "public_output_category_counts": {
+      "historical-or-case-specific": 2,
+      "local-output": 12,
+      "national-or-sector-output": 4,
+      "procedure-only": 4,
+      "restricted-or-internal-output": 2
+    },
+    "public_output_category_denominator": 24
+  },
+  "validation": {
+    "member_metadata_matches_data": true,
+    "public_output_categories_sum_to_member_denominator": true,
+    "source_registry_ids_unique": true
+  }
+}

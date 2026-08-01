@@ -2274,9 +2274,9 @@ window.TRANSPARENCY_DATA = [
     format: "PDF annual reports + web news + ETH table endpoint + procedure pages",
     hasArchive: true,
     keyNote:
-      "30 April 2026 quality check confirms Switzerland as fragmented rather than LOWI-like nationally: SNSF publishes anonymised annual case statistics and occasional case news, ETH Zurich exposes a public institutional list of anonymised investigation reports, and SCCSI is now live as a monitoring/advisory body that receives annual institutional reporting without personal details but is not an appeal or case-handling body.",
+      "31 July 2026 update retains Switzerland's fragmented classification: SNSF publishes anonymised annual case statistics and occasional case news, ETH Zurich exposes a public institutional list of anonymised investigation reports, SCCSI is monitoring/advice rather than a case tribunal, and UNIGE member validation confirms a clear local procedure but non-public Rectorate decisions and sanctions.",
     sourcePath: "data/Switzerland/raw documentation/source notes/Switzerland deep-dive sources.md",
-    sourceDate: "2026-04-30",
+    sourceDate: "2026-07-31",
     resources: [
       {
         label: "SNSF Commission on Research Integrity annual report 2024",
@@ -2329,6 +2329,16 @@ window.TRANSPARENCY_DATA = [
           "Receives annual reports without personal details; does not conduct proceedings or act as appeal body",
         comment:
           "Negative source for not coding SCCSI as a Swiss national misconduct tribunal."
+      },
+      {
+        label: "University of Geneva scientific-integrity directive",
+        url: "https://memento.unige.ch/doc/0003",
+        resourceClass: "Member-validated institutional procedure without standing public output",
+        scope: "UNIGE faculty integrity delegates, ad hoc fact-finding commission and Rectorate",
+        caseLevelInfo:
+          "UNIGE member validation on 31 July 2026 confirms that final Rectorate decisions and sanctions are not publicly disclosed",
+        comment:
+          "Procedure visibility only; keep the external Ethics and Professional Conduct Committee, CCER, CUREG, project-risk self-check, animal and data routes as separate ethics or specialist boundaries."
       }
     ]
   },

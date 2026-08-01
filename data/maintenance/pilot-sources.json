@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "technical_access_date": "2026-07-30",
+  "purpose": "Six-source acceptance pilot for technical reachability, redirect, metadata, bounded fingerprint and failure handling.",
+  "interpretation_boundary": "Pilot labels describe source format or route only. They do not establish substantive equivalence, current claim support or publication ownership.",
+  "sources": [
+    {
+      "source_id": "PILOT-LIVE-HTML",
+      "title": "LERU official members page",
+      "url": "https://www.leru.org/members",
+      "pilot_type": "live official HTML page",
+      "expected_result": "accessible"
+    },
+    {
+      "source_id": "PILOT-PDF-CODE",
+      "title": "ALLEA European Code of Conduct for Research Integrity 2023",
+      "url": "https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf",
+      "pilot_type": "official PDF code",
+      "expected_result": "accessible"
+    },
+    {
+      "source_id": "PILOT-ANNUAL-REPORT-SERIES",
+      "title": "KU Leuven research-integrity annual-report corridor",
+      "url": "https://research.kuleuven.be/en/integrity-ethics/integrity/annual-report",
+      "pilot_type": "annual-report series",
+      "expected_result": "accessible"
+    },
+    {
+      "source_id": "PILOT-DECISION-ARCHIVE",
+      "title": "LOWI advisory-opinions archive",
+      "url": "https://lowi.nl/en/opinions/",
+      "pilot_type": "decision and public-output archive",
+      "expected_result": "accessible"
+    },
+    {
+      "source_id": "PILOT-REDIRECT",
+      "title": "LOWI HTTP-to-HTTPS redirect test",
+      "url": "http://lowi.nl/en/opinions/",
+      "pilot_type": "redirect",
+      "expected_result": "redirect"
+    },
+    {
+      "source_id": "PILOT-INACCESSIBLE",
+      "title": "Deliberately inaccessible reserved-domain test",
+      "url": "https://example.invalid/leru-maintenance-pilot",
+      "pilot_type": "deliberately inaccessible source",
+      "expected_result": "failure"
+    }
+  ]
+}
