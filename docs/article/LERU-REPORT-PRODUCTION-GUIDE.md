@@ -1,7 +1,9 @@
 # LERU Report Production Guide
 
-Status: 31 July 2026  
+Status: 1 August 2026
 Purpose: working specification for turning the LERU Integrity Map into a LERU-style public report. This is an internal project guide, not an official LERU template or publication.
+
+For the active deadline, milestones, work allocation, fallbacks and stop rules, use [`docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md`](../plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md). The author-controlled endpoint is a complete review package by 31 August 2026; formal LERU review, approval and publication remain external follow-up.
 
 ## Recommended endpoint
 

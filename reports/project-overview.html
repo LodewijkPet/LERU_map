@@ -187,7 +187,7 @@
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 12px;
       max-width: 1180px;
       margin-top: 26px;
@@ -475,6 +475,7 @@
         <a href="#product">What It Is</a>
         <a href="#workflow">How It Works</a>
         <a href="#progress">Progress</a>
+        <a href="#report">LERU Report</a>
         <a href="#tracker">Country Tracker</a>
         <a href="#next">Next Work</a>
         <a href="#briefing">Short Briefing</a>
@@ -489,6 +490,7 @@
         <div class="actions" aria-label="Project links">
           <a class="button" href="../index.html">Open the map app</a>
           <a class="button secondary" href="../protocol/index.html">Open the protocol</a>
+          <a class="button secondary" href="../docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md">Open the August report plan</a>
           <a class="button secondary" href="../data/extraction-status.md">Read extraction status</a>
         </div>
       </header>
@@ -502,6 +504,9 @@
           <div class="stat"><strong>215</strong><span>source and document links from country records</span></div>
           <div class="stat"><strong>1596</strong><span>source-registry entries recorded</span></div>
           <div class="stat"><strong>35</strong><span>transparency-layer country entries</span></div>
+          <div class="stat"><strong>24</strong><span>detailed LERU member profiles</span></div>
+          <div class="stat"><strong>8/24</strong><span>member profiles validated</span></div>
+          <div class="stat"><strong>14/24</strong><span>profiles with strict standing public-output evidence</span></div>
         </div>
         <div class="callout">
           <strong>Core idea.</strong> The map is not only a visual country list. It is a working evidence system: each country profile records governance actors, document categories, extraction signals, next corpus steps, and public transparency information where available.
@@ -527,6 +532,10 @@
           <article class="panel">
             <h3>The Transparency Layer</h3>
             <p>The transparency dataset asks a narrower question: how national or quasi-national research integrity bodies publish case material, and in what format. It measures public visibility of case handling, not the overall quality of a national misconduct system.</p>
+          </article>
+          <article class="panel">
+            <h3>The LERU Report Layer</h3>
+            <p>The <a href="../data/leru-members.js">24-member dataset</a>, <a href="../docs/status/LERU-REPORT-GAP-MATRIX.md">gap matrix</a>, <a href="../docs/status/LERU-PUBLIC-OUTPUT-AUDIT.md">public-output audit</a>, production guide and reproducible maintenance files turn the map into a report evidence base. The member comparison is descriptive and non-ranking.</p>
           </article>
         </div>
         <figure>
@@ -590,6 +599,16 @@
                 <td><a href="../data/overview-extraction-log.csv">data/overview-extraction-log.csv</a></td>
                 <td>Audit trail for country overview extraction into the app dataset.</td>
                 <td><span class="tag green">40 extracted overviews</span></td>
+              </tr>
+              <tr>
+                <td><a href="../data/leru-members.js">data/leru-members.js</a>, <a href="../data/leru-extraction-log.csv">data/leru-extraction-log.csv</a></td>
+                <td>Canonical 24-member comparison and its public-source/member-validation history.</td>
+                <td><span class="tag gold">8 validated · 16 open</span></td>
+              </tr>
+              <tr>
+                <td><a href="../docs/article/LERU-REPORT-PRODUCTION-GUIDE.md">LERU-REPORT-PRODUCTION-GUIDE.md</a>, <a href="../docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md">August delivery plan</a></td>
+                <td>Publication specification and dated path to a complete review package.</td>
+                <td><span class="tag coral">Review package due 31 August</span></td>
               </tr>
               <tr>
                 <td><a href="../protocol/index.html">protocol/index.html</a></td>
@@ -659,11 +678,60 @@
         </div>
       </section>
 
+      <section id="report">
+        <h2>LERU Report: Review Package by 31 August 2026</h2>
+        <p class="lead">The report is now the primary delivery lane. The achievable month-end endpoint is a complete package for review by Claire and the <a href="https://www.leru.org/leru-groups">LERU Research Integrity Policy Group</a>; formal approval, design and publication remain subsequent LERU-controlled steps.</p>
+        <div class="callout">
+          <strong>Audit conclusion.</strong> The evidence architecture is strong enough to write from, but the current Word file is still an outline and the June executive-summary draft is stale. Production now needs governance decisions, a claim-led evidence close, one frozen snapshot, continuous prose, formal references, final tables and figures, an annex and independent quality assurance.
+        </div>
+        <div class="grid">
+          <article class="panel">
+            <h3>Current report evidence</h3>
+            <p>All 24 member profiles are detailed public-source seeds and all have route or procedure evidence. Eight have confirmed member validation and 16 remain open. Fourteen have strict standing public-output evidence; the broader typology is 12 local-output, 4 national/sector-output, 5 procedure-only, 2 restricted/internal and 1 historical/case-specific.</p>
+          </article>
+          <article class="panel">
+            <h3>Immediate human gate</h3>
+            <p>By 3 August, confirm with Claire the product type, current group credit, title, authorship, LERU template, audience, approval route, member-reminder route, response deadline, data cut-off and whether the two-page executive summary and practical checklist are separate deliverables.</p>
+          </article>
+          <article class="panel">
+            <h3>Scope protection</h3>
+            <p>August work is claim-led. The nine missing country overview documents and Vatican City question remain visible in the country lane, but they are not report-critical unless a retained claim needs them. Member non-response is reported as a limitation and does not block the public-source analysis.</p>
+          </article>
+          <article class="panel">
+            <h3>Package at the finish line</h3>
+            <p>The 31 August package comprises a main review DOCX/PDF, a standalone two-page executive summary, a technical annex or evidence pack, final tables and figures, a reference list, a review log and a versioned submission note.</p>
+          </article>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>August 2026 critical path</caption>
+            <thead>
+              <tr><th>Date</th><th>Gate</th><th>Required result</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1-3 August</td><td>Governance</td><td>Decision brief to Claire; use a clearly labelled independent review copy if no route is confirmed by 4 August.</td></tr>
+              <tr><td>2-14 August</td><td>Evidence close</td><td>Second source-current batch, five high-priority gap memos, claim-bearing repository rows and received member feedback integrated.</td></tr>
+              <tr><td>14 August, 17:00 CEST</td><td>Evidence freeze</td><td>Approved publication data cut-off, archived canonical snapshot and regenerated counts.</td></tr>
+              <tr><td>15-20 August</td><td>Analysis and assets</td><td>Claim-evidence ledger, final analysis, references, tables, figures and annex components.</td></tr>
+              <tr><td>18-24 August</td><td>Writing</td><td>Continuous main report by 23 August; standalone executive summary and front/back matter on 24 August.</td></tr>
+              <tr><td>25-28 August</td><td>Independent and author review</td><td>Numerical, source, boundary, readability, accessibility and rendered-document checks; Lodewijk signs off on content.</td></tr>
+              <tr><td>29-31 August</td><td>Packaging and handoff</td><td>Versioned review package ready by 30 August and human submission through the agreed route on 31 August.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="actions" aria-label="LERU report production links">
+          <a class="button" href="../docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md">Read the full delivery plan</a>
+          <a class="button secondary" href="../docs/article/LERU-REPORT-PRODUCTION-GUIDE.md">Read the production guide</a>
+          <a class="button secondary" href="../docs/status/LERU-REPORT-GAP-MATRIX.md">Open the 24-member gap matrix</a>
+          <a class="button secondary" href="../reports/LERU-research-integrity-report-article-outline-review.docx">Open the current outline</a>
+        </div>
+      </section>
+
       <section id="tracker">
         <h2>Country Tracker</h2>
         <p class="lead">This working list tracks how far the data collection has progressed for each country or country folder in the local corpus. The next action column is deliberately practical: it tells us what kind of work is still needed before the country can be considered stable.</p>
         <div class="callout">
-          <strong>Current focus.</strong> All 40 deep dossiers now have committee-and-case-file repository overviews, and the United Kingdom, Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg, North Macedonia, Austria and the Netherlands have completed the first twelve quality-consolidation pilots. Belgium has completed the first post-calibration quality pass and a 29 May 2026 comparison-readiness check, while Switzerland, Czechia and Slovenia have now completed the next first-pass quality checks. The Slovenian pass reconciles ENRIO's older no-national-structure wording with the current National Council member route, preserves the no-live-opinion-archive transparency coding, and adds ARIS as a funder/open-science implementation route rather than a misconduct publisher. Latvia now has a full-text UL decision classification plus a completed LAS/LCS output retest and public-research-institute route-widening seed; Ireland now has a structured 2016-2023 NRIF annual-statistics index; Luxembourg has a first LARI annual-report extraction seed, North Macedonia has a first AQHE/UKIM/SEEU follow-up extraction seed, Austria now has an OeAWI/FWF statistics extraction target, the Netherlands now has current LOWI 2026 opinions, ZonMw 2026 grant terms and UvA/RIVM/Sanquin/Prinses Maxima route seeds, and Belgium now has current VCWI/KU Leuven/UAntwerpen/FNRS/FWO source checks for the static NL-BE comparison page. The next phase is to keep applying that method country by country and to move into follow-up extraction where the pilots created clear targets: Slovenian council-opinion monitoring plus ARIS/university route extraction, Belgian VCWI/KU Leuven/UAntwerpen field indexing, Swiss SNSF/ETH field indexing plus SCCSI monitoring, Polish PAN activity fields, full-field AQHE/UKIM/SEEU extraction for North Macedonia, LARI 2023/2024 monitoring plus LIH/LIST verification for Luxembourg, Austrian OeAWI/FWF field indexing, Dutch LOWI/UNL/VH/NWO and non-UNL route field indexing, Latvian institute-code and boundary-source field indexing, SRII2025 and Irish public-RPO monitoring, the nine missing formal overview documents, and the Vatican City representation question.
+          <strong>Current focus.</strong> The country tracker remains the long-term corpus-maintenance lane, while the 1-31 August critical path is the full LERU report. Country work should enter the August queue only when it refreshes a report-bearing claim, repository example or boundary distinction. All 40 deep dossiers retain completed committee-and-case-file overviews; the nine expanded dossiers and Vatican City remain visible follow-up rather than hidden debt.
         </div>
         <div class="table-wrap">
           <table>
@@ -733,31 +801,35 @@
 
       <section id="next">
         <h2>What Is Happening Now</h2>
-        <p class="lead">The project has moved from coverage-building into quality consolidation: the app is functional, the country coverage is broad, all deep dossiers have case-file passes, and the next work is source currency, code and committee completeness, ENRIO cross-checking, repository indexing, and missing overview completion.</p>
+        <p class="lead">The project has moved from corpus construction into a deadline-driven report-production month. Country quality work continues, but only report-bearing evidence work is on the August critical path.</p>
         <div class="status-list">
           <div class="status-row">
-            <strong>Latest focused pass</strong>
-            <p>The United Kingdom, Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg, North Macedonia, Austria and the Netherlands have completed the first twelve quality-consolidation pilots after the forty committee-and-case-file pilots; Belgium has completed the first post-calibration quality pass; and Switzerland, Czechia and Slovenia have completed the next first-pass quality checks. The passes add a reusable working-note pattern for current-source checks, ENRIO comparison, code baselines, annual-statement or repository directory seeds, funder and route matrices, stable app-data updates and boundary-repository targets.</p>
+            <strong>Report production</strong>
+            <p>Use the <a href="../docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md">dated August plan</a> as the execution path: governance by 3 August, claim-led evidence closure and feedback through 14 August, one frozen snapshot, analysis and assets, continuous prose by 23 August, independent review, and a packaged handoff by 31 August.</p>
           </div>
           <div class="status-row">
-            <strong>Quality consolidation</strong>
-            <p>Use <a href="../docs/plans/NEXT-PHASE-QUALITY-PLAN.md">NEXT-PHASE-QUALITY-PLAN.md</a> to verify current legal and procedure versions, identify each country's main codes of conduct, cross-check ENRIO country reports, normalize committee and institution directories, and index repository corridors.</p>
+            <strong>Evidence and member validation</strong>
+            <p>Complete the second source-current batch for the eleven regular open profiles and the five high-priority gap memos. Keep all 16 open profiles visibly unvalidated until a response is incorporated; do not let non-response block a report that is accurately labelled as public-source evidence.</p>
           </div>
           <div class="status-row">
             <strong>Country completion</strong>
             <p>Use the country tracker to separate two jobs: turn the first app dossiers for Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino into formal overview documents, and decide whether Vatican City should become an app profile.</p>
           </div>
           <div class="status-row">
-            <strong>Dossier hardening</strong>
-            <p>Use the United Kingdom, Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg, North Macedonia and Switzerland pilots as calibration examples, then prioritize the follow-up extraction targets they exposed: annual-report tables, decision streams, funder matrices, route directories and boundary-repository indexes.</p>
+            <strong>Claim-led repository indexing</strong>
+            <p>Index UK annual statements, DFG/OWID, Ofis/CNRS, VCWI, LOWI, PAN and selected institutional reports only where a row supports a retained report claim or example. Every row keeps the publication owner, route, date, outcome level and boundary classification explicit.</p>
           </div>
           <div class="status-row">
             <strong>Method tightening</strong>
             <p>Keep <a href="../docs/workflows/CASE-FILE-WORKFLOW.md">CASE-FILE-WORKFLOW.md</a> as the repository-coding method, but use it inside the quality phase: handling body, final decision-maker, publication owner, archive scope, public data fields, accessibility, retention and missingness still need consistent labels across countries.</p>
           </div>
           <div class="status-row">
-            <strong>Presentation and review</strong>
-            <p>Use the app and this briefing page to explain the project to collaborators, identify confusing concepts, and decide which outputs should become formal deliverables.</p>
+            <strong>Writing and review</strong>
+            <p>Regenerate the outline after the evidence freeze, write from approved section briefs and a claim-evidence ledger, produce the standalone executive summary last, and run numerical, citation, boundary, accessibility and rendered-document checks before Lodewijk approves the exact review files.</p>
+          </div>
+          <div class="status-row">
+            <strong>Separate human follow-up</strong>
+            <p>The 31 July ALLEA/ECoC consultation is overdue: decide promptly whether Claire can still use the UNIGE input or a combined response. The Maastricht CWI contact, autumn-meeting date and 2027 hosting question remain outside the report critical path unless they become directly relevant.</p>
           </div>
         </div>
       </section>
@@ -768,12 +840,12 @@
         <div class="brief-box">
           <p><strong>The LERU map pilot is building a source-linked overview of research integrity systems across Europe.</strong> It collects country-level evidence on national bodies, institutional procedures, codes, funders, case-publication routes, and public reporting, then turns that material into a searchable web app with a map, country profiles, and deeper dossiers.</p>
           <p>The project matters because research integrity governance is visible in uneven ways across countries. Some systems have national decision archives, some publish annual summaries, some rely on institutional processes, and some have limited public case information. The map makes these differences easier to compare without losing the source trail behind each judgement.</p>
-          <p>The current version already contains 49 country records, 40 extracted country overview documents, a 1596-entry source registry, a transparency layer covering 35 jurisdictions, and a committee-and-case-file workflow now completed for all 40 deep dossiers. Albania, Andorra, Armenia, Azerbaijan, Georgia, Liechtenstein, Malta, Monaco and San Marino have been expanded from starter notes or data-folder-only status into first app dossiers, while Vatican City remains the only data-folder-only representation gap. The United Kingdom, Germany, France, Portugal, Greece, Poland, Ireland, Latvia, Luxembourg, North Macedonia, Austria and the Netherlands have completed the first twelve quality-consolidation pilots, Belgium has completed the first post-calibration quality pass plus a comparison-readiness check, Switzerland, Czechia and Slovenia have completed the next first-pass quality checks from the remaining deep dossiers, Switzerland includes member-validated UZH and UNIGE profiles, and Germany now includes the member-validated University of Freiburg profile. The next phase is to apply that method across the remaining high-yield dossiers, finish missing formal overviews, and keep boundary regimes separate.</p>
+          <p>The verified 1 August baseline contains 49 country records, 40 extracted overview documents, 40 deep dossiers, 1,596 source-registry entries and 35 transparency entries. The report layer contains all 24 LERU member universities as detailed public-source profiles: 8 are member-validated, 16 remain open and 14 have strict standing public-output evidence. The evidence architecture and outline are substantial, but the full report still needs governance decisions, a 14 August evidence freeze, continuous referenced prose, final tables and figures, an annex, a new executive summary and independent quality assurance. The working deadline is a complete review package by 31 August 2026; formal LERU approval and publication follow the route confirmed by Claire.</p>
         </div>
       </section>
 
       <footer class="footer">
-        <p>Updated from the local project files on 31 July 2026. This page summarizes the current working state of the pilot and should be updated when new extraction passes, source reviews, or protocol decisions are made.</p>
+        <p>Fully audited against the local project data, logs, report inputs and linked planning records on 1 August 2026. Recalculate displayed counts from canonical data and update this page after each report batch and at the 7, 14, 21, 28 and 31 August checkpoints.</p>
       </footer>
     </main>
   </div>

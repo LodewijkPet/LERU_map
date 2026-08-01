@@ -20,14 +20,17 @@ The output is a static web app plus a project overview page.
 
 ## Current State
 
-Status as of 30 April 2026:
+Status as of 1 August 2026:
 
 - 49 country records are represented in `data/countries.js`.
 - 40 readable `Overview <Country>.docx` files are already represented in the app.
 - 40 country records are explicitly labelled `Deep dossier drafted`.
 - 35 country entries are represented in `data/transparency.js`.
-- `data/source-registry.csv` currently holds 1550 entries.
-- `North Macedonia`, `San Marino`, `Monaco`, `Malta`, `Liechtenstein`, `Georgia`, `Azerbaijan`, `Armenia`, `Andorra`, `Albania`, `Kosovo`, `Bosnia and Herzegovina`, `Iceland`, `Belarus`, `Bulgaria`, `Serbia`, `Cyprus`, `Luxembourg`, `Latvia`, `Ireland`, `Austria`, `Switzerland`, `Spain`, `Slovenia`, `Czechia`, `Belgium`, `Croatia`, `Hungary`, `Russia`, `Ukraine`, `Turkey`, `Estonia`, `Greece`, `Portugal`, `Poland`, `Montenegro`, `Moldova`, `Slovakia`, `Sweden`, the `United Kingdom`, `Germany`, and `France` all have recent committee-and-case-file, reconciliation, or first-dossier work; the current practical work is final sweeps, missing-overview drafting, and the committee-and-case-file pilot workflow, now tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia.
+- `data/source-registry.csv` currently holds 1596 entries.
+- The report layer contains 24 detailed LERU member profiles: 8 have confirmed member validation, 16 remain open, and 14 have strict standing public-output evidence.
+- The reproducible maintenance manifest contains 2208 unique sources, 2047 of which are referenced by live report data; this manifest denominator is distinct from the source registry.
+- `North Macedonia`, `San Marino`, `Monaco`, `Malta`, `Liechtenstein`, `Georgia`, `Azerbaijan`, `Armenia`, `Andorra`, `Albania`, `Kosovo`, `Bosnia and Herzegovina`, `Iceland`, `Belarus`, `Bulgaria`, `Serbia`, `Cyprus`, `Luxembourg`, `Latvia`, `Ireland`, `Austria`, `Switzerland`, `Spain`, `Slovenia`, `Czechia`, `Belgium`, `Croatia`, `Hungary`, `Russia`, `Ukraine`, `Turkey`, `Estonia`, `Greece`, `Portugal`, `Poland`, `Montenegro`, `Moldova`, `Slovakia`, `Sweden`, the `United Kingdom`, `Germany`, and `France` all have recent committee-and-case-file, reconciliation, or first-dossier work; the committee-and-case-file workflow has now been tested on the Netherlands, Romania, Sweden, Denmark, Finland, Lithuania, Norway, Italy, the United Kingdom, Germany, France, Slovakia, Moldova, Montenegro, Poland, Portugal, Greece, Estonia, Turkey, Ukraine, Russia, Hungary, Croatia, Belgium, Czechia, Slovenia, Spain, Switzerland, Austria, Ireland, Latvia, Luxembourg, Cyprus, Serbia, Bulgaria, Belarus, Iceland, Bosnia and Herzegovina, Kosovo, and North Macedonia.
+- The current practical priority is the 1-31 August report-delivery plan; country-level final sweeps and missing-overview drafting remain visible maintenance work but stay off the critical path unless a retained report claim requires them.
 
 Current special cases:
 

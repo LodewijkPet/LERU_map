@@ -1,3 +1,54 @@
+# LERU report August 2026 review-ready delivery
+
+Status: active
+Status date: 2026-08-01
+Deadline: 2026-08-31
+Owner or audience: Lodewijk, Claire, the LERU Research Integrity Policy Group and report-production agents
+Governed by: `AGENTS.md`, `docs/article/LERU-REPORT-PRODUCTION-GUIDE.md` and `docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md`
+
+## Goal
+
+Turn the current map, 24-member validation product, analytical outline and reproducible maintenance layer into a complete, internally reviewable LERU report package by 31 August 2026. The endpoint is a package that Lodewijk can submit to Claire and the competent LERU review route; formal LERU approval and publication remain external follow-up rather than promises within this deadline.
+
+## Files to add or update
+
+- `docs/plans/LERU-REPORT-AUGUST-2026-DELIVERY-PLAN.md`: audited baseline, critical path, responsibilities, milestones, stop rules and acceptance checks.
+- `docs/article/LERU-REPORT-PRODUCTION-GUIDE.md`: link the standing specification to the active deadline plan and clarify the review-package endpoint.
+- `reports/project-overview.html`: live project and report-production briefing, including 24-member counts, validation status, readiness gaps and the August schedule.
+- `AGENTS.md`: current-state date and source/member snapshot.
+- Linked Overview outcome and `leru-report-production` workplace: the same deadline, governance gate, milestone sequence and reviewed mailbox state.
+- Report artifacts named in the delivery plan only when their production phase begins; this planning pass does not silently rewrite the report outline.
+
+## Data and schema impact
+
+No app-data schema change is planned. Live counts remain generated from `data/countries.js`, `data/transparency.js`, `data/leru-members.js`, `data/source-registry.csv` and the extraction logs. The linked Overview records may receive deadline and delivery-plan metadata using existing fields plus one additive workplace delivery object; stable project and checklist IDs are preserved.
+
+## Critical-path rule
+
+August work is claim-led. Source-current checks, member-profile gaps, selected repository rows, the analysis snapshot, claim ledger, tables, figures, prose, annex and review package are on the critical path. The nine missing formal country overviews and Vatican City representation remain valuable corpus work but are deferred unless a report claim specifically requires them.
+
+## UI impact
+
+The overview page gains a dedicated LERU report section and makes the difference between the public-source validation report, the current Word outline and the intended full review package explicit. The country tracker remains intact as the corpus-maintenance lane.
+
+## Validation
+
+- Recalculate all displayed denominators from canonical data.
+- Parse all changed JSON and run the Overview validator plus project-link synchronization check.
+- Run JavaScript syntax checks and the LERU maintenance tests.
+- Audit local overview-page links, fragment targets, duplicate IDs, captions and image alternative text.
+- Run `git diff --check` in both repositories and inspect only the scoped diffs.
+- Render and visually inspect final DOCX/PDF deliverables before submission; the current workstation needs a working LibreOffice or Word-based render route for this final gate.
+
+## Definition of done for this planning and review pass
+
+- The page reports the verified 1 August baseline without carrying stale counts from the outline or June executive-summary draft.
+- A dated 1-31 August critical path identifies every human decision, AI-executable batch, dependency, deliverable, fallback and stop condition.
+- The linked Overview outcome exposes the same deadline and next action, and its full-review timestamp advances only after folder, Git, mailbox and validation checks pass.
+- Existing report artifacts that are not current are labelled as inputs requiring regeneration, not presented as finished LERU publications.
+
+---
+
 # LERU AI maintenance foundation
 
 Status: complete
