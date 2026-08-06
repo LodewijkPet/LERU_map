@@ -2,6 +2,8 @@
 
 Status: active  
 Plan date: 1 August 2026  
+Schedule rebaselined: 4 August 2026; intensive execution starts 17 August 2026
+
 Evidence cut used for this plan: project data and mailbox state checked through 1 August 2026  
 Delivery deadline: 31 August 2026  
 Primary endpoint: complete review package for the LERU Research Integrity Policy Group  
@@ -12,7 +14,7 @@ By Monday 31 August 2026, prepare a complete report package that Lodewijk can se
 
 The current public [LERU groups page](https://www.leru.org/leru-groups) calls the body the **Research Integrity Policy Group**. LERU's [publications page](https://www.leru.org/publications) describes papers as expert-authored products supported by a LERU Policy Officer and reviewed and approved with the member institutions. Claire should still confirm the exact group credit, publication type, template, policy-officer support, authorship and approval route before the files are presented as an official LERU product.
 
-If those decisions are not confirmed by 4 August, production continues as a clearly labelled **independent review copy prepared for discussion with the LERU Research Integrity Policy Group**. Official branding, publication metadata and claims of LERU endorsement remain excluded until approved.
+If those decisions are not confirmed by 19 August, after the 17 August decision brief, production continues as a clearly labelled **independent review copy prepared for discussion with the LERU Research Integrity Policy Group**. Official branding, publication metadata and claims of LERU endorsement remain excluded until approved.
 
 ## 2. Audited baseline on 1 August 2026
 
@@ -77,23 +79,21 @@ The main text should remain a focused 30-40 page advice paper or public report. 
 | Core visuals | Route-system map, European allocation comparison and LERU public-output model; corpus, typology and member tables. | Every item has a denominator, cut-off, source note, legend and alt text; no ranking implication. |
 | Review and submission note | Version, data cut-off, authorship status, consultation status, unresolved items and requested review decisions. | Clearly distinguishes author review, member validation and formal LERU approval. |
 
-## 6. Critical path: 1-31 August 2026
+## 6. Critical path: 17-31 August 2026
 
 | Date | Work and owner | Output / gate |
 | --- | --- | --- |
-| 1-3 August | **Lodewijk / Claire:** send one decision brief covering publication type, current group name, title, authors, contribution statement, LERU template, primary audience, approval stages, member-reminder route, response deadline, data cut-off and executive-summary/checklist requirement. | Governance decision recorded, or the independent-review-copy fallback activates on 4 August. |
-| 2-7 August | **AI:** run the second source-current batch for the eleven regular open profiles. **Lodewijk:** review changed or ambiguous classifications. | Current-source table, evidence-backed profile patches, dated negative findings and exceptions list. |
-| 3-10 August | **AI:** close only claim-changing gaps for Strasbourg, Trinity, Paris-Saclay, LMU and Heidelberg. **Human:** send the agreed member reminder. | Five evidence-gap memos; reminder route and 12 August response date recorded. |
-| 5-13 August | **AI:** field-index only report-bearing repositories: UK annual statements, DFG/OWID, Ofis/CNRS, VCWI, LOWI, PAN and selected institutional annual reports. | Structured rows for the claims and examples actually retained in the report. |
-| 12-14 August | **AI + Lodewijk:** integrate received feedback; log non-response explicitly; resolve material review items. | Twenty-four-profile validation table with 8+ confirmed profiles and all remaining profiles visibly labelled open. Non-response does not block the report. |
-| 14 August, 17:00 CEST | **Lodewijk:** approve the publication evidence cut-off. **AI:** freeze and archive canonical inputs. | Immutable dated analysis snapshot and regenerated count report. |
-| 15-17 August | **AI:** run descriptive analysis and build the claim-evidence ledger. **Lodewijk:** choose central findings and examples. | Approved claim set, denominators, caveats, counterevidence and reference anchors. |
-| 17-20 August | **AI:** generate final tables, figure data/specifications, references and annex components. **Lodewijk:** approve analytical purpose and non-ranking language. | Table/figure pack, alt text, reference list and annex draft. |
-| 18-23 August | **AI drafts from approved briefs; Lodewijk authors/revises:** introduction and methods, results, discussion, recommendations, limitations and conclusion. | Complete continuous main-report draft by Sunday 23 August. |
-| 24 August | **AI + Lodewijk:** write the standalone executive summary from the stable manuscript and complete front/back matter. | Full review package version 1. |
-| 25-27 August | **Independent review:** numerical reconciliation, claim/source audit, boundary and confidentiality check, language/readability review, link and accessibility check, DOCX/PDF rendering. | Review log with all blocking defects closed. |
-| 28 August | **Lodewijk:** final substantive revision and sign-off on interpretation, recommendations, limitations and wording. | Author-approved version 2. |
-| 29-30 August | **AI:** package exact review files, version note, source snapshot, change log and submission checklist. **Human:** verify addressees and approved branding. | Submission-ready package with no unresolved blocking defect. |
+| 17 August | **Lodewijk / Claire:** send one decision brief covering publication type, current group name, title, authors, contribution statement, LERU template, primary audience, approval stages, member-reminder route, response deadline, data cut-off and executive-summary/checklist requirement. | Governance request recorded; use the independent-review-copy fallback from 19 August if no decision arrives. |
+| 17-19 August | **AI:** close only claim-changing gaps for Strasbourg, Trinity, Paris-Saclay, LMU and Heidelberg. **Human:** send the agreed member reminder and ask whether late ALLEA/ECoC input remains useful. | Five evidence-gap memos; reminder route, late-consultation status and open member non-response are recorded. |
+| 17-21 August | **AI:** run the second source-current batch for the eleven regular open profiles. **Lodewijk:** review changed or ambiguous classifications. | Current-source table, evidence-backed profile patches, dated negative findings and exceptions list. |
+| 20 August | **AI:** field-index only report-bearing repositories: UK annual statements, DFG/OWID, Ofis/CNRS, VCWI, LOWI, PAN and selected institutional annual reports. | Structured rows for the claims and examples actually retained in the report. |
+| 21 August, 17:00 CEST | **Lodewijk:** approve the publication evidence cut-off. **AI:** freeze and archive canonical inputs, including received feedback and explicit non-response. | Immutable dated analysis snapshot and regenerated count report. |
+| 22-23 August | **AI:** run descriptive analysis and build the claim-evidence ledger. **Lodewijk:** choose central findings and examples. | Approved claim set, denominators, caveats, counterevidence and reference anchors. |
+| 24 August | **AI:** generate final tables, figure data/specifications, references and annex components. **Lodewijk:** approve analytical purpose and non-ranking language. | Table/figure pack, alt text, reference list and annex draft. |
+| 25-27 August | **AI drafts from approved briefs; Lodewijk authors/revises:** introduction and methods, results, discussion, recommendations, limitations and conclusion. | Complete continuous main-report draft and technical annex by 27 August. |
+| 28 August | **AI + Lodewijk:** write the standalone executive summary from the stable manuscript and complete front/back matter. | Full review package version 1. |
+| 29 August | **Independent review and author sign-off:** numerical reconciliation, claim/source audit, boundary and confidentiality check, language/readability review, link and accessibility check, DOCX/PDF rendering, final substantive revision. | Review log with blocking defects closed and author-approved version 2. |
+| 30 August | **AI:** package exact review files, version note, source snapshot, change log and submission checklist. **Human:** verify addressees and approved branding. | Submission-ready package with no unresolved blocking defect. |
 | 31 August | **Lodewijk:** send the package through the route agreed with Claire. | Review handoff completed; later LERU approval and publication tracked separately. |
 
 ## 7. Work allocation and readiness
@@ -109,7 +109,7 @@ The main text should remain a focused 30-40 page advice paper or public report. 
 | Main writing | Partly ready | Section briefs and referenced first drafts. | Authorship, voice, recommendations and final wording. |
 | Independent review and final package | Dependency-bound | Automated consistency/accessibility checks and packaging. | Independent substantive review, branding approval and external submission. |
 
-## 8. Human decisions due by 3 August
+## 8. Human decisions from 17 August
 
 Claire or the competent LERU process should confirm:
 
@@ -122,7 +122,7 @@ Claire or the competent LERU process should confirm:
 - intended data cut-off and acceptable treatment of non-response;
 - whether the two-page executive summary and practical minimum-dataset/checklist are separate deliverables.
 
-Lodewijk should decide:
+Lodewijk should decide during the 17-19 August governance and evidence window:
 
 - the five to seven headline findings and examples;
 - recommendation ambition, audience, owner and review mechanism;
@@ -151,7 +151,7 @@ The overview page is a controlled output, not an independent source of truth.
 
 - Recalculate country, dossier, overview, document-link, transparency, source, member, validation and public-output counts after every canonical data change.
 - Update the page and linked Overview outcome at the close of each bounded batch, not only at month end.
-- Record weekly checkpoints on 7, 14, 21 and 28 August and a final submission state on 31 August.
+- Record checkpoints on 17, 21, 24, 28 and 31 August.
 - Keep the public-source 24-member validation report, the Word outline and the full report package labelled as separate artifacts.
 - Preserve access dates and the publication evidence cut-off as separate dates.
 - Move a milestone to complete only when its files exist and its validation gate has passed.
