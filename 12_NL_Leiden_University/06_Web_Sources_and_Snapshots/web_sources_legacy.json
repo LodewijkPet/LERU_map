@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://www.organisatiegids.universiteitleiden.nl/en/university-committees/academic-integrity-committee",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.organisatiegids.universiteitleiden.nl/universitaire-commissies/commissie-wetenschappelijke-integriteit",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.staff.universiteitleiden.nl/binaries/content/assets/ul2staff/reglementen/po/klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.staff.universiteitleiden.nl/binaries/content/assets/ul2staff/reglementen/po/klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://www.universiteitleiden.nl/en/news/2019/11/191129-integriteitsmelding-en",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

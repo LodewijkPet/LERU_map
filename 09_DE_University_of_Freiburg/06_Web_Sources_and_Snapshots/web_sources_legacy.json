@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://kommunikation.uni-freiburg.de/pm/online-magazin/vernetzen-und-gestalten/verlaessliche-strukturen-schaffen",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://kommunikation.uni-freiburg.de/pm/online-magazin/vernetzen-und-gestalten/verlaessliche-strukturen-schaffen?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://uni-freiburg.de/wp-content/uploads/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:02+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://uni-freiburg.de/wp-content/uploads/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+    "http_status": 200
+  }
+]

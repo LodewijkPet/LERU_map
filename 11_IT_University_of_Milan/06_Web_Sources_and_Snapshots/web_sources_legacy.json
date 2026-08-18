@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://www.unimi.it/it/ateneo/governance-e-linee-strategiche/organi-di-governo/comitato-etico",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.unimi.it/it/ugov/ou-structure/ufficio-procedimenti-disciplinari",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.unimi.it/it/ugov/ou-structure/unita-di-coordinamento-strategico-della-salute-e-sicurezza-sul-lavoro-tutela-dei-dati-personali-e",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.unimi.it/it/ugov/ou-structure/unita-di-staff-di-i-livello-privacy-ed-etica-della-ricerca",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.unimi.it/sites/default/files/2021-03/Statuto%20dell%27Universit%C3%A0%20degli%20Studi%20di%20MIlano_in%20vigore%20dal%2031.05.2020.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://www.unimi.it/sites/default/files/2021-09/Codice%20etico%202019.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://www.unimi.it/sites/default/files/2023-12/Nuovo%20Decreto%20UPD%20-%20anno%202023_signed.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://www.unimi.it/sites/default/files/regolamenti/REGOLAMENTO%20DI%20FUNZIONAMENTO%20COMITATO%20ETICO.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://www.unimi.it/sites/default/files/regolamenti/Regolamento%20generale%20d%27Ateneo_in%20vigore%20dal%202%20giugno%202020.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 403 (Forbidden)."
+  }
+]

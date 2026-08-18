@@ -1,0 +1,50 @@
+I’ll quickly locate the University of Freiburg’s official pages/regulations on “good scientific practice” and misconduct handling, then extract the exact unit name, where it sits in the organisation, its stated tasks, and cite the official sources.
+
+
+1. **Official name of the unit**
+   Koordinierungsstelle „Redlichkeit in der Wissenschaft“ ([kommunikation.uni-freiburg.de][1])
+
+2. **Institutional location**
+   Not specified in official sources. (Official university reporting states that the **Rectorate (Rektorat)** established this coordination office in 2019, and that it is staffed by the personal adviser to the Prorector responsible for “Redlichkeit in der Wissenschaft, Gleichstellung und Vielfalt”.) ([kommunikation.uni-freiburg.de][1])
+
+3. **Core responsibilities** (explicitly mentioned)
+
+* **Handling academic misconduct cases:** Yes — keeps central case files/statistics on scientific misconduct, supports the Investigation Commission, prepares the Rector’s decisions on misconduct cases, and informs the Rector/Rectorate about ongoing procedures and case numbers. ([kommunikation.uni-freiburg.de][1])
+* **Promoting academic integrity:** Yes — develops information and prevention measures to promote good scientific practice (e.g., brochures and events) and handles external enquiries on the topic (in coordination with communications). ([kommunikation.uni-freiburg.de][1])
+* **Overseeing integrity regulations / ordinance:** Yes — supports development of leaflets/guidelines and the further development of the university’s “Ordnung zur Sicherung der Redlichkeit in der Wissenschaft”. ([kommunikation.uni-freiburg.de][1])
+
+4. **Source references**
+
+* University of Freiburg (Hochschul- und Wissenschaftskommunikation), “Verlässliche Strukturen schaffen – Die Universität Freiburg hat die Koordinierungsstelle ‚Redlichkeit in der Wissenschaft‘ eingerichtet” (14.11.2019). ([kommunikation.uni-freiburg.de][1])
+* University of Freiburg, “Jahresbericht des Rektors 2018–19” (PDF; section describing establishment and tasks of the Koordinierungsstelle). 
+
+[1]: https://kommunikation.uni-freiburg.de/pm/online-magazin/vernetzen-und-gestalten/verlaessliche-strukturen-schaffen?utm_source=chatgpt.com "Verlässliche Strukturen schaffen - Uni Freiburg, Kommunikation"
+I’ll pull the University of Freiburg’s official ordinance/regulation on scientific integrity and misconduct procedures, then extract the explicit reporting line, who decides, and what (if any) appeal/second-opinion routes are formally described.
+
+
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Koordinierungsstelle „Redlichkeit in der Wissenschaft“:** Not specified as a formal reporting line in official sources. Official university communication states that the coordination office *prepares the Rector’s decisions* in misconduct cases and *informs the Rector and the Rectorate* about ongoing procedures and case numbers. ([kommunikation.uni-freiburg.de][1])
+* **Untersuchungskommission zur Sicherung der Redlichkeit in der Wissenschaft:** Advises the Rector and submits a status report on investigations to the Rector; if the Commission finds indications of disciplinary/contractually relevant behaviour, it must notify the Rector. ([University of Freiburg][2])
+* **Ombudsperson für die Selbstkontrolle in der Wissenschaft:** Appointed by the Senate on proposal of the Rector; if suspicion is considered sufficiently substantiated after plausibility review, the Ombudsperson informs the “zuständigen Gremien” (competent bodies—no further specification given). ([University of Freiburg][2])
+
+b. **Decision-making authority**
+
+* **Untersuchungskommission:** Investigatory/advisory role only. It is explicitly stated that it is **not authorised to propose sanctions or make recommendations**, and the Rector is **not legally bound** by the status report. ([University of Freiburg][2])
+* **Rector (Rektorin/Rektor):** Explicitly stated as the decision-maker on whether (and to whom) the Commission’s status report is disclosed; the coordination office prepares the Rector’s decisions in misconduct cases. ([University of Freiburg][2])
+* **Ombudsperson:** Provides independent advice and conducts plausibility review; no sanctioning or final decision authority is stated for the Ombudsperson. ([University of Freiburg][2])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Second-opinion / external route explicitly mentioned:** Members/affiliates and other informants may contact the university’s Ombudsperson, and persons with a connection to the German research system may alternatively contact the national body **“Ombudsman für die Wissenschaft.”** ([University of Freiburg][2])
+* **Internal appeal mechanism:** Not specified in official sources. ([University of Freiburg][2])
+
+d. **Source references**
+
+* Ordnung der Albert-Ludwigs-Universität zur Sicherung der Redlichkeit in der Wissenschaft (01.06.2022) (PDF). ([University of Freiburg][2])
+* Universität Freiburg – Hochschul- und Wissenschaftskommunikation: “Verlässliche Strukturen schaffen” (14.11.2019) (webpage describing the Koordinierungsstelle’s role incl. preparation of Rector decisions and informing Rector/Rectorate). ([kommunikation.uni-freiburg.de][1])
+
+[1]: https://kommunikation.uni-freiburg.de/pm/online-magazin/vernetzen-und-gestalten/verlaessliche-strukturen-schaffen "Verlässliche Strukturen schaffen — Archiv der Hochschul- und Wissenschaftskommunikation (bis 08/2024)"
+[2]: https://uni-freiburg.de/wp-content/uploads/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf "Jahrgang 32"

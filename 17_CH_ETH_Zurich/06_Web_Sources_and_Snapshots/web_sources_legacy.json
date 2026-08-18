@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://ethz.ch/content/dam/ethz/associates/students/studium/Rechtsweg/information-on-legal-action.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:04+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_information-on-legal-action.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://ethz.ch/content/dam/ethz/associates/students/studium/Rechtsweg/information-on-legal-action.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity/wissenschaftliches-fehlverhalten.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://ethz.ch/en/the-eth-zurich/organisation/boards-university-groups-commissions/integritaetskommission.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://ethz.ch/en/the-eth-zurich/organisation/departments/scientific-integrity-research-ethics.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://ethz.ch/en/the-eth-zurich/portrait/annual-report-2024/governance.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

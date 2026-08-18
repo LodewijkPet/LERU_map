@@ -1,0 +1,211 @@
+{
+  "generated": "2026-08-18T07:56:09+02:00",
+  "note": "Automated first-pass archive of direct public PDF/Word links from legacy profiles plus selected official LERU documents. A successful entry passed a file-signature check but still requires substantive/version verification.",
+  "results": [
+    {
+      "dossier": "02_DK_University_of_Copenhagen",
+      "url": "https://praksisudvalget.ku.dk/english/rules_guide/University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\02_DK_University_of_Copenhagen\\03_Procedures_and_Policies\\Downloaded_University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf",
+      "size_bytes": 108218,
+      "sha256": "51129bee2a48a2c45da1dc8df6f85721897ccda51c33d06924a91e4d8dd5abf5"
+    },
+    {
+      "dossier": "08_DE_LMU_Munich",
+      "url": "https://www.stuve.uni-muenchen.de/service/rechtsgrundlagen/downloads/grundordnung-lmu.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\03_Procedures_and_Policies\\Downloaded_grundordnung-lmu.pdf",
+      "size_bytes": 481134,
+      "sha256": "1d1537cce5634a1f273058a9b0d35ed128a23b9a824e74ab38b12840daead747"
+    },
+    {
+      "dossier": "09_DE_University_of_Freiburg",
+      "url": "https://uni-freiburg.de/wp-content/uploads/Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\09_DE_University_of_Freiburg\\03_Procedures_and_Policies\\Downloaded_Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+      "size_bytes": 353632,
+      "sha256": "265bc935803015941ce0c6ebf42417115b987fa0319de7c5544b66e85c1d852b"
+    },
+    {
+      "dossier": "11_IT_University_of_Milan",
+      "url": "https://www.unimi.it/sites/default/files/2021-03/Statuto%20dell%27Universit%C3%A0%20degli%20Studi%20di%20MIlano_in%20vigore%20dal%2031.05.2020.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    },
+    {
+      "dossier": "11_IT_University_of_Milan",
+      "url": "https://www.unimi.it/sites/default/files/2021-09/Codice%20etico%202019.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    },
+    {
+      "dossier": "11_IT_University_of_Milan",
+      "url": "https://www.unimi.it/sites/default/files/2023-12/Nuovo%20Decreto%20UPD%20-%20anno%202023_signed.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    },
+    {
+      "dossier": "11_IT_University_of_Milan",
+      "url": "https://www.unimi.it/sites/default/files/regolamenti/REGOLAMENTO%20DI%20FUNZIONAMENTO%20COMITATO%20ETICO.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    },
+    {
+      "dossier": "11_IT_University_of_Milan",
+      "url": "https://www.unimi.it/sites/default/files/regolamenti/Regolamento%20generale%20d%27Ateneo_in%20vigore%20dal%202%20giugno%202020.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    },
+    {
+      "dossier": "12_NL_Leiden_University",
+      "url": "https://www.staff.universiteitleiden.nl/binaries/content/assets/ul2staff/reglementen/po/klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\12_NL_Leiden_University\\03_Procedures_and_Policies\\Downloaded_klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf",
+      "size_bytes": 68503,
+      "sha256": "84bc80a7a2baa45f693ee266c7057fde13a4ea190ac749c5fa7ff07d1149c295"
+    },
+    {
+      "dossier": "14_NL_Utrecht_University",
+      "url": "https://www.uu.nl/sites/default/files/Klachtenregeling-Wetenschappelijke-Integriteit-Universiteit-Utrecht.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\14_NL_Utrecht_University\\03_Procedures_and_Policies\\Downloaded_Klachtenregeling-Wetenschappelijke-Integriteit-Universiteit-Utrecht.pdf",
+      "size_bytes": 113420,
+      "sha256": "ac6da414a914d6d12dbe25fc9ae0bab0bd700b2210549f6a74c2976f16808e00"
+    },
+    {
+      "dossier": "17_CH_ETH_Zurich",
+      "url": "https://ethz.ch/content/dam/ethz/associates/students/studium/Rechtsweg/information-on-legal-action.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\17_CH_ETH_Zurich\\03_Procedures_and_Policies\\Downloaded_information-on-legal-action.pdf",
+      "size_bytes": 563907,
+      "sha256": "b034dec0aec9006f6eeb4f7a80bffbf74a12768d3bca2fffccca01b584daeada"
+    },
+    {
+      "dossier": "18_CH_University_of_Geneva",
+      "url": "https://www.unige.ch/rectorat/static/RIO-UNIGE.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\18_CH_University_of_Geneva\\03_Procedures_and_Policies\\Downloaded_RIO-UNIGE.pdf",
+      "size_bytes": 421287,
+      "sha256": "230a88bd37201401f37af629099aac6e894cce61fb0b4713c0882c8f8819a2a7"
+    },
+    {
+      "dossier": "19_CH_University_of_Zurich",
+      "url": "https://www.news.uzh.ch/dam/jcr%3Ac9d300db-f3bc-41fe-abb6-75ef67ffd1fc/Integritaetsverordnung.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\03_Procedures_and_Policies\\Downloaded_Integritaetsverordnung.pdf",
+      "size_bytes": 65590,
+      "sha256": "ee7ecf212a8fad14508b9d425a07f67c91279db7c593d52d67efb08c6310cc67"
+    },
+    {
+      "dossier": "19_CH_University_of_Zurich",
+      "url": "https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/76458EEB55B44B7CC12585C7003B9AC7/%24File/415.27_25.5.20_110.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\03_Procedures_and_Policies\\Downloaded_415.27_25.5.20_110.pdf",
+      "size_bytes": 99332,
+      "sha256": "cdf09882ee035c6979b05631346f9828458d68c0332014dfcc3f055a8c72ba0d"
+    },
+    {
+      "dossier": "20_UK_Imperial_College_London",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/secretariat/new-library-may-24/Annexes-to-Appendix-to-Ordinances-%28Staff%29%2813-December-2023%29.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 404 (Not Found)."
+    },
+    {
+      "dossier": "20_UK_Imperial_College_London",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\20_UK_Imperial_College_London\\03_Procedures_and_Policies\\Downloaded_Research-Integrity-Annual-Report-2020.pdf",
+      "size_bytes": 219033,
+      "sha256": "b367d7101ce2c04fd44b1bb782246bacbc9bf86e1c2956ad7a7662ac1a5161d5"
+    },
+    {
+      "dossier": "20_UK_Imperial_College_London",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\20_UK_Imperial_College_London\\03_Procedures_and_Policies\\Downloaded_Research-Integrity-Annual-Report-2020.pdf",
+      "size_bytes": 219033,
+      "sha256": "b367d7101ce2c04fd44b1bb782246bacbc9bf86e1c2956ad7a7662ac1a5161d5"
+    },
+    {
+      "dossier": "20_UK_Imperial_College_London",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Report-2021.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\20_UK_Imperial_College_London\\03_Procedures_and_Policies\\Downloaded_Research-Integrity-Report-2021.pdf",
+      "size_bytes": 228616,
+      "sha256": "3b4d322b81121bcbcca6ac0aca734ca19a031de761089dc1cdd3d0c031181f9f"
+    },
+    {
+      "dossier": "21_UK_University_College_London",
+      "url": "https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-aug-2021.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 404 (Not Found)."
+    },
+    {
+      "dossier": "21_UK_University_College_London",
+      "url": "https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-nov-2022.pdf",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 404 (Not Found)."
+    },
+    {
+      "dossier": "22_UK_University_of_Cambridge",
+      "url": "https://www.cam.ac.uk/sites/default/files/research_misconduct_procedure_-_lt2024_0.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\22_UK_University_of_Cambridge\\03_Procedures_and_Policies\\Downloaded_research_misconduct_procedure_-_lt2024_0.pdf",
+      "size_bytes": 366409,
+      "sha256": "c157917e8af7702416a7dbbbf3a850a3bb932dab1c7de914cee32ea5a9e3c436"
+    },
+    {
+      "dossier": "23_UK_University_of_Edinburgh",
+      "url": "https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/research_misconductfor_staff.pdf",
+      "status": "downloaded",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\23_UK_University_of_Edinburgh\\03_Procedures_and_Policies\\Downloaded_research_misconductfor_staff.pdf",
+      "size_bytes": 259216,
+      "sha256": "ece5b80af1e10019ac8f9446ac72b89e48b63be099186b6c7463134a3efe44ed"
+    },
+    {
+      "dossier": "00_Shared_LERU_and_Methods",
+      "url": "https://www.leru.org/files/LERU10LOWRES_final.pdf",
+      "status": "downloaded",
+      "role": "history",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\LERU_The_First_Decade_2002-2012.pdf",
+      "size_bytes": 1433074,
+      "sha256": "2d9236708d9302714cd0e432b09d5db3e397ea51caaf1fb36f10a5f32fc2bf85"
+    },
+    {
+      "dossier": "00_Shared_LERU_and_Methods",
+      "url": "https://www.leru.org/files/Towards-a-Research-Integrity-Culture-at-Universities-full-paper.pdf",
+      "status": "downloaded",
+      "role": "research_integrity_policy",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\LERU_Towards_a_Research_Integrity_Culture_2020.pdf",
+      "size_bytes": 678642,
+      "sha256": "d2d9d647eb3bf18363edf028bb0045dd4eb1a7b60ca7825908a574856d32a713"
+    },
+    {
+      "dossier": "00_Shared_LERU_and_Methods",
+      "url": "https://www.leru.org/files/Publications/Communicating-with-intergrity_LERU-paper.pdf",
+      "status": "downloaded",
+      "role": "research_integrity_policy",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\LERU_Communicating_with_Integrity_2024.pdf",
+      "size_bytes": 1586627,
+      "sha256": "231ff173814da0bb30a0a723a66cd27483b77e69c524cd3428e28ffaadebfd35"
+    },
+    {
+      "dossier": "00_Shared_LERU_and_Methods",
+      "url": "https://www.leru.org/files/Publications/LERU_PositionPaper_Framework-for-the-Assessment-of-Researchers.pdf",
+      "status": "downloaded",
+      "role": "related_policy",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\LERU_Pathway_Towards_a_Multidimensional_Academic_Career_Framework_2022.pdf",
+      "size_bytes": 531134,
+      "sha256": "d7009aeec07c733140dc6d63bdec989a4b58567677df898b8ec363348a71aa05"
+    },
+    {
+      "dossier": "00_Shared_LERU_and_Methods",
+      "url": "https://www.leru.org/files/Implementing-open-science.pdf",
+      "status": "downloaded",
+      "role": "related_policy",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\LERU_Implementing_Open_Science_2018.pdf",
+      "size_bytes": 234684,
+      "sha256": "395fca7405a1f3135e6ff4056c19818f333ce8c8e41e987c2d35ff8aa33a52bb"
+    }
+  ]
+}

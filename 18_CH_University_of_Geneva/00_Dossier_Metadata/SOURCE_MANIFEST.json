@@ -1,0 +1,92 @@
+{
+  "institution": "University of Geneva",
+  "country": "Switzerland",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1734,
+      "sha256": "1ad6b9c69a0b4e41b7c86dc5bb2f0217ed7c55610ee3901f732826c81bae0c93",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6818,
+      "sha256": "935d5eecd0764856ca9c20f62090dfeee502c9e0529d0eb03dd724ab90863936",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3407,
+      "sha256": "e1df8146a890347a7410c248a3db3877b3b777c28797ea26018684ac1b8e8739",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 936,
+      "sha256": "8cf6edbd5f271d7c6a44e5651285b799ffb7985e851d73c5b8ee127559cf854d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 596,
+      "sha256": "68d324a2798c73c54a1800608aa0a07a3b5c8495514eda70927a678226403171",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40828,
+      "sha256": "e6c58dc458fc3acb47b2e053e8557ccde95fd86293af4f8f6cf9cdec4339022e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 59033,
+      "sha256": "61dc4ea1dd21c0a960be2bd9140cfdb64c69ca4fc7eda81ae7865dc81e5c56ae",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34072,
+      "sha256": "e976467318ee71cf1ac738c58babbce013b41dd78946213f1357b8ae554c6b93",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 7913,
+      "sha256": "3333614ddf81f96db6cd2798ce8dca85ede16fd36de4412587c7b77d610fe94a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_Geneva_integrity_directive_FR.pdf",
+      "size_bytes": 328876,
+      "sha256": "4d7f18838104358ddff67f59952b3545fe126d23a1248e5add9426e6e799e71d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_RIO-UNIGE.pdf",
+      "size_bytes": 421287,
+      "sha256": "230a88bd37201401f37af629099aac6e894cce61fb0b4713c0882c8f8819a2a7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1735,
+      "sha256": "146ffb10d94dfa48545a728c36880746e534fe1036c06c13e5ca3118aa14baa5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

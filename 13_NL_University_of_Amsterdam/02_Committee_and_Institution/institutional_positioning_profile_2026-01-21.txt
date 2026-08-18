@@ -1,0 +1,55 @@
+I’ll look up the University of Amsterdam’s official research integrity/misconduct structures on UvA’s own sites and governance documents, then extract only what’s explicitly stated and present it in your requested 4-part format with sources.
+
+
+1. **Official name of the unit**
+   **Commissie wetenschappelijke integriteit (UvA)** ([Universiteit van Amsterdam][1])
+
+2. **Institutional location**
+   **University-wide committee appointed by the Executive Board (College van Bestuur, CvB)**, and it **issues advice to the CvB** as part of the formal complaints procedure. 
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases** — **Explicitly mentioned**
+
+  * Receives formal complaints about suspected breaches of scientific/academic integrity. ([Universiteit van Amsterdam][1])
+  * Assesses admissibility (“ontvankelijkheid”) and conducts an investigation (collects information, can hear witnesses/experts, speaks with those involved). ([Universiteit van Amsterdam][1])
+  * Submits its advice to the Executive Board (CvB), after which the CvB gives its judgment. ([Universiteit van Amsterdam][1])
+
+* **Promoting academic integrity** — **Explicitly mentioned (as prevention-policy advice)**
+
+  * Provides the Executive Board with **solicited and unsolicited advice on the university’s prevention policy** regarding violations of academic integrity. 
+
+* **Overseeing integrity regulations / ordinance** — **Not specified in official sources.**
+
+4. **Source references**
+
+* UvA webpage: **“Klacht indienen over een schending van de wetenschappelijke integriteit”** (procedure + role of the Commissie wetenschappelijke integriteit). ([Universiteit van Amsterdam][1])
+* UvA governance document (PDF): **“Academic Integrity Complaints Regulations”** (committee appointment, duties incl. investigation + prevention-policy advice). 
+* UvA overview page: **“Academic integrity at the UvA”** (context + pathway via confidential advisers and formal complaint to the committee). ([Universiteit van Amsterdam][2])
+
+[1]: https://www.uva.nl/onderzoek/onderzoeksomgeving/wetenschappelijke-integriteit/klacht-indienen-over-een-schending-van-de-wetenschappelijke-integriteit/klacht-indienen-over-een-schending-van-de-wetenschappelijke-integriteit.html "Klacht indienen over een schending van de wetenschappelijke integriteit - Universiteit van Amsterdam"
+[2]: https://www.uva.nl/en/research/research-environment/academic-integrity/academic-integrity.html "Academic integrity at the UvA - University of Amsterdam"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Executive Board (College van Bestuur / Executive Board)** — the Academic Integrity Committee “subsequently submits its advice to the Executive Board” and provides annual accountability reporting to the Executive Board. 
+* **Supervisory Board (Raad van Toezicht / Supervisory Board)** — **only if** the complaint concerns a member of the Executive Board; in that case the Committee submits its advice to the Supervisory Board. 
+
+b. **Decision-making authority**
+
+* **Academic Integrity Committee:** **Advisory** (investigates and issues advice/recommendation). 
+* **Executive Board:** **Final decision authority** (renders an **initial judgement** and—depending on whether LOWI advice is requested—makes the **final judgement**). 
+* **Supervisory Board:** **Final decision authority in the specific case** where the complaint concerns a member of the Executive Board (it “will exercise the authorities pursuant to Article 11”). 
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Second opinion via LOWI (National Board for Research Integrity):** the complainant and the accused **may ask LOWI for advice on the Executive Board’s initial judgement** within six weeks; the Executive Board then takes LOWI’s advice into consideration in its final judgement. 
+* **Internal appeal:** **Not specified in official sources.**
+
+d. **Source references**
+
+* UvA (official PDF): **University of Amsterdam – Academic Integrity Complaints Regulations** (decision no. 2013cb0471, dated 10 December 2013; English translation). 
+* UvA (official webpage): **Submitting a complaint about a breach of academic integrity** (procedure summary including committee recommendation → Executive Board decision). ([Universiteit van Amsterdam][1])
+
+[1]: https://www.uva.nl/en/research/research-environment/academic-integrity/submitting-a-complaint-about-a-breach-of-academic-integrity/submitting-a-complaint-about-a-breach-of-academic-integrity.html "Submitting a complaint about a breach of academic integrity - University of Amsterdam"

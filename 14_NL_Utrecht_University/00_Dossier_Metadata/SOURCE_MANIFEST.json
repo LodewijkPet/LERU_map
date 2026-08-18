@@ -1,0 +1,92 @@
+{
+  "institution": "Utrecht University",
+  "country": "Netherlands",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1732,
+      "sha256": "bc5e0f6ab9df9efd67a62697ac19038ee72ab58e7ea6b5e2f4f2e9deecbf898a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6869,
+      "sha256": "c5cbc3256a92a4bc36d47672c52da5ba4f56aa40d99a96789e631dc74cbd1a77",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3401,
+      "sha256": "eb31f20e3252294f12419b7967c48c91a2d7daaee5580a09960949f1479d8ee4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 932,
+      "sha256": "0c9a089718a05e3082fa697777e0798d58b19f72ec9643523c4689e817b07b90",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 595,
+      "sha256": "e285e2ec715e899c29cdeae1abb840101c63d35b6f93ef7a2598e96dbeea0653",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 41036,
+      "sha256": "a8a8e20df1c59eab45fe28c115b68bcda37bbced4ba0b0f7aba7c899ec6e54c8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 55337,
+      "sha256": "50e06ef711d64cee33bd30c1016c845a2284ea50ecf71aebaf7e0176bddf28c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34679,
+      "sha256": "4f10a0efab1e591b5dc17b636f04e0ba7a0d3da52e4f38bef3af72a931a8e943",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/committee_record_legacy.json",
+      "size_bytes": 2758,
+      "sha256": "7469c532b4f6be945cc05e746a326fd52914adb51588ef9608782082d98ef891",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 4695,
+      "sha256": "b67db81fa27421b31472bfd0083f41382ba4334f27eb31bc7bc92ab6297613d0",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_Klachtenregeling-Wetenschappelijke-Integriteit-Universiteit-Utrecht.pdf",
+      "size_bytes": 113420,
+      "sha256": "ac6da414a914d6d12dbe25fc9ae0bab0bd700b2210549f6a74c2976f16808e00",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1319,
+      "sha256": "493d4c1063d8b7150db68034b2c8d3869c7a72313b3c562e49241d298eb9099d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "institution": {
+    "institution_id": "24_UK_University_of_Oxford",
+    "official_name": "University of Oxford",
+    "country": "United Kingdom",
+    "official_leru_member": true,
+    "leru_inte_participation": "unconfirmed"
+  },
+  "country_system": {
+    "system_type": null,
+    "centralisation": null,
+    "legal_basis": [],
+    "national_codes": [],
+    "national_bodies": [],
+    "institutional_autonomy": null,
+    "transparency_regime": null
+  },
+  "handling_routes": [],
+  "procedure_versions": [],
+  "annual_activity": [],
+  "relationships": [],
+  "timeline": [],
+  "email_validation": [],
+  "field_validation": [],
+  "record_status": {
+    "created_at": "2026-08-18T08:04:49.2679790+02:00",
+    "comparative_extraction": "not_started",
+    "member_validation": "not_started",
+    "note": "Populate according to MASTER_DATA_DICTIONARY_v0.1.json. Preserve nulls and explicit missingness."
+  }
+}

@@ -1,0 +1,74 @@
+I’ll quickly browse the University of Geneva’s official governance/regulation pages to identify the unit(s) responsible for research integrity/academic misconduct, then I’ll report only what’s explicitly stated with direct source references.
+
+
+1. Official name of the unit
+   **Service des affaires juridiques** (also referenced as **“Juridique”** as the responsible entity for the relevant directives). ([Université de Genève][1])
+
+2. Institutional location
+   **Attached to the Rectorat (Rectorate)** (“Secteurs rattachés” under the Rectorat). ([Université de Genève][1])
+   For handling alleged breaches of research/scientific integrity, the official procedure is **Rectorat-centered** (denunciations are filed with the Rectorat), with **a “Délégué à l’intégrité” in each faculty** playing a formal role in the process. ([memento.unige.ch][2])
+   A dedicated “Research Integrity Office” (as a standalone unit with that name) is **not specified in official sources**. ([memento.unige.ch][2])
+
+3. Core responsibilities
+
+* **Handling academic misconduct cases — explicitly mentioned**
+
+  * *Research/scientific integrity*: denunciations must be submitted to the **Rectorat**; each faculty has a **Délégué à l’intégrité**; the Rectorat can decide to close the case or take measures/sanctions (after the faculty/delegate/commission steps described). ([memento.unige.ch][2])
+  * *Student plagiarism*: the directive sets a procedure involving the course responsible, the **Décanat**, and potentially the **Conseil de discipline** for disciplinary sanctions. ([memento.unige.ch][3])
+  * The **Service des affaires juridiques** states it provides **“supervision des procédures disciplinaires et gracieuses.”** ([Université de Genève][1])
+
+* **Promoting academic integrity — explicitly mentioned**
+
+  * The scientific integrity directive states objectives including **guaranteeing integrity**, **promoting quality**, and **making researchers/teachers aware of risks**, alongside setting a dedicated procedure. ([memento.unige.ch][2])
+  * The student plagiarism directive states that university instances regularly **inform** students, and faculties (supported by libraries) undertake actions to **sensitize** students and teachers. ([memento.unige.ch][3])
+
+* **Overseeing integrity regulations / ordinance — explicitly mentioned**
+
+  * The integrity directives list **“Entité(s) responsable(s): Juridique”** (i.e., Legal) for both the scientific integrity directive and the student plagiarism directive. ([memento.unige.ch][2])
+  * The Service des affaires juridiques explicitly includes **drafting/participating in regulations and directives** among its core activities. ([Université de Genève][1])
+
+4. Source references
+
+* **“Intégrité dans la recherche scientifique” (Memento – UNIGE, Réf. 0003)** ([memento.unige.ch][2])
+* **“Plagiats des étudiant-es” (Memento – UNIGE, Réf. 0008)** ([memento.unige.ch][3])
+* **“Service des affaires juridiques” (Rectorat – UNIGE)** ([Université de Genève][1])
+* **“Gouvernance” (UNIGE) — describes services attached to the Rectorat (incl. Service juridique)** ([Université de Genève][4])
+
+[1]: https://www.unige.ch/rectorat/secteurs/introjuridique "Service des affaires juridiques"
+[2]: https://memento.unige.ch/doc/0003 "Intégrité dans la recherche scientifique - Memento - UNIGE"
+[3]: https://memento.unige.ch/doc/0008/ "Plagiats des étudiant-es - Memento - UNIGE"
+[4]: https://www.unige.ch/gouvernance/ "Gouvernance - Université de Genève"
+5. Reporting & authority structure
+
+a. Reports to
+
+* **Research integrity (scientific integrity) procedure:** Denunciations are addressed to the **Rectorat**, and (after the faculty-level steps) the **Doyen/Directeur transmits the full dossier and their report to the Rectorat**. ([memento.unige.ch][1])
+* **Service des affaires juridiques:** Presented as a **service “rattaché” to the Rectorat** (and its main activity is advising members of the Rectorat). A formal “reports to” statement is **not explicitly stated**. ([Université de Genève][2])
+* **Conseil de discipline:** A formal “reports to” statement is **not explicitly stated**. The official materials do state that (i) its members are designated by the Rectorat, (ii) its regulation was approved by the Rectorat, and (iii) its final decisions are communicated to the Rectorat. ([Université de Genève][3])
+
+b. Decision-making authority
+
+* **Rectorat (scientific integrity cases):** After receiving the Doyen/Directeur report, the Rectorat **may close the case (“classer la dénonciation”) or take measures**, including **disciplinary sanctions** and other corrective/research-funding measures listed in the directive. ([memento.unige.ch][1])
+* **Conseil de discipline (student/auditor misconduct):** The council’s mandate is to **sanction students/auditors** who violate university rules/usages; its regulation states that the council **pronounces a disciplinary sanction** (or clears the person) as the final decision of the council. ([Université de Genève][3])
+* **Faculty-level academic sanctions:** The Conseil de discipline page states that faculties may also take sanctions under their own regulations (separately from the Conseil de discipline). ([Université de Genève][3])
+
+c. Appeal or second-opinion mechanisms
+
+* **Scientific integrity procedure (research integrity cases):** Where the procedure results in an administrative “decision,” the directive states that an **opposition can be filed with the Rectorat**, and that **RIO-UNIGE applies**. ([memento.unige.ch][1])
+* **RIO-UNIGE (general framework referenced by the directive):** Establishes an **internal opposition procedure** before any **appeal (“recours”) to the Chambre administrative de la Cour de justice**. ([Université de Genève][4])
+* **Conseil de discipline decisions:** The council regulation explicitly provides: (i) the sanctioned person may file an **opposition within 30 days**; (ii) the opposition is governed by **RIO-UNIGE**; and (iii) after the opposition decision, the person may appeal to the **Chambre administrative de la Cour de justice**. 
+
+d. Source references
+
+* UNIGE Memento – *Intégrité dans la recherche scientifique* (directive/procedure, Rectorat decision powers, “contentieux” + opposition to Rectorat, RIO-UNIGE applicability). ([memento.unige.ch][1])
+* UNIGE PDF – *Règlement relatif à la procédure d’opposition au sein de l’Université de Genève (RIO-UNIGE)* (internal opposition; appeal to Chambre administrative de la Cour de justice). ([Université de Genève][4])
+* UNIGE Rectorat page – *Conseil de discipline* (mandate, designation by Rectorat; general note on opposition/recourse). ([Université de Genève][3])
+* UNIGE PDF – *Règlement du conseil de discipline de l’université de Genève* (approval by Rectorat; who can seize the council; final decision; opposition and appeal routes). 
+* UNIGE *Gouvernance* page (Rectorat role; “Divisions et Services rattachés au Rectorat,” incl. Service juridique). ([Université de Genève][2])
+* UNIGE Rectorat page – *Service des affaires juridiques* (advises Rectorat; supervises disciplinary procedures; representation in judicial procedures). ([Université de Genève][5])
+
+[1]: https://memento.unige.ch/doc/0003 "Intégrité dans la recherche scientifique - Memento - UNIGE"
+[2]: https://www.unige.ch/gouvernance/ "Gouvernance - Université de Genève"
+[3]: https://www.unige.ch/rectorat/conseildiscipline "Conseil de discipline - Rectorat - UNIGE"
+[4]: https://www.unige.ch/rectorat/static/RIO-UNIGE.pdf "REGLEMENT INTERNE RELATIF AUX PROCEDURES D'OPPOSITION ET DE RECOURS (RIOR)"
+[5]: https://www.unige.ch/rectorat/secteurs/introjuridique "Service des affaires juridiques"

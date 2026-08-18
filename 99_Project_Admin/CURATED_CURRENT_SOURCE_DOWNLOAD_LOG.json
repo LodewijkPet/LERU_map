@@ -1,0 +1,230 @@
+{
+  "generated": "2026-08-18T08:02:19.0943093+02:00",
+  "scope_note": "Curated official-source retrieval after manual verification on 18 August 2026. Signature checks confirm file type, not substantive completeness. HTML snapshots can contain navigation and should be interpreted with their URLs and retrieval date.",
+  "results": [
+    {
+      "dossier": "01_BE_KU_Leuven",
+      "role": "institutional procedure",
+      "url": "https://research.kuleuven.be/en/integrity-ethics/integrity/procedures/procedures.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\01_BE_KU_Leuven\\03_Procedures_and_Policies\\CURRENT_KU_Leuven_CRI_procedure.pdf",
+      "size_bytes": 29175,
+      "sha256": "bb9a4d8278ab3678b10764adbaf3b281ab3b5994df00faa5906e1e445c481dff"
+    },
+    {
+      "dossier": "01_BE_KU_Leuven",
+      "role": "annual report page",
+      "url": "https://research.kuleuven.be/en/integrity-ethics/integrity/annual-report/jaarverslag_2024",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\01_BE_KU_Leuven\\04_Reports_Statistics_and_Timeline\\SNAPSHOT_KU_Leuven_CRI_annual_report_2024.html",
+      "size_bytes": 64595,
+      "sha256": "b10b5d179b26e52c01980f3745741bc2db797083ef1fc48d754574c6ffb4c0f5"
+    },
+    {
+      "dossier": "03_FI_University_of_Helsinki",
+      "role": "national code and procedure",
+      "url": "https://tenk.fi/sites/default/files/2023-11/RI_Guidelines_2023.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\03_FI_University_of_Helsinki\\01_Country_System\\CURRENT_Finland_TENK_RI_Guidelines_2023_EN.pdf",
+      "size_bytes": 566748,
+      "sha256": "2f90e814907397697d33036acdd6ab8ddef23c17f562d15cfff6e11c4f03c9d6"
+    },
+    {
+      "dossier": "03_FI_University_of_Helsinki",
+      "role": "institutional official page",
+      "url": "https://www.helsinki.fi/en/research/research-integrity/research-ethics/responsible-conduct-research",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\03_FI_University_of_Helsinki\\06_Web_Sources_and_Snapshots\\SNAPSHOT_Helsinki_responsible_conduct_of_research.html",
+      "size_bytes": 300461,
+      "sha256": "01212b506e00c0324d4653051edfe1a5e37d3a2cc8674823bf08510572893457"
+    },
+    {
+      "dossier": "04_FR_Paris_Saclay_University",
+      "role": "institutional official page",
+      "url": "https://www.universite-paris-saclay.fr/en/node/44986",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\04_FR_Paris_Saclay_University\\06_Web_Sources_and_Snapshots\\SNAPSHOT_Paris_Saclay_Polethis_scientific_integrity.html",
+      "size_bytes": 55975,
+      "sha256": "779e9944b4b59d9fbc1c050340836d334b0a8f0b30eb987675a5724b8a31e5f5"
+    },
+    {
+      "dossier": "05_FR_Sorbonne_University",
+      "role": "institutional official page",
+      "url": "https://www.sorbonne-universite.fr/en/about-sorbonne-university/confident-responsible-and-open-science/scientific-integrity-delegation",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\05_FR_Sorbonne_University\\06_Web_Sources_and_Snapshots\\SNAPSHOT_Sorbonne_scientific_integrity_delegation.html",
+      "size_bytes": 159206,
+      "sha256": "931e5baa65612e3639a1a7509f5ae9bac10c3134d9eb7a718b4bb8a66490f0bf"
+    },
+    {
+      "dossier": "05_FR_Sorbonne_University",
+      "role": "institutional procedure page",
+      "url": "https://sante.sorbonne-universite.fr/en/handling-reports-concerning-scientific-integrity",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\05_FR_Sorbonne_University\\06_Web_Sources_and_Snapshots\\SNAPSHOT_Sorbonne_handling_reports.html",
+      "size_bytes": 123469,
+      "sha256": "92b8a67814615a0f61079a84f6ad10b805f712bea137f1eabe352f399976ca73"
+    },
+    {
+      "dossier": "06_FR_University_of_Strasbourg",
+      "role": "institutional procedure page",
+      "url": "https://www.unistra.fr/fr/universite/engagements/referents/referent-lintegrite-scientifique",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\06_FR_University_of_Strasbourg\\06_Web_Sources_and_Snapshots\\SNAPSHOT_Strasbourg_scientific_integrity_referent.html",
+      "size_bytes": 363427,
+      "sha256": "d2c98693fbec9ad654b515241c69220e45048ae73a4bb3159940f264ebfbd032"
+    },
+    {
+      "dossier": "07_DE_Heidelberg_University",
+      "role": "institutional procedure",
+      "url": "https://backend.uni-heidelberg.de/en/documents/rules-for-safeguarding-good-academic-practice-and-handling-academic-misconduct/download",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\07_DE_Heidelberg_University\\03_Procedures_and_Policies\\CURRENT_Heidelberg_rules_good_academic_practice_EN.pdf",
+      "size_bytes": 136578,
+      "sha256": "7ad13755654dddf78d87b26deaf3e5d4db9fd33b756581098fdd680c74d1d7fa"
+    },
+    {
+      "dossier": "08_DE_LMU_Munich",
+      "role": "institutional procedure",
+      "url": "https://cms-cdn.lmu.de/media/lmu/downloads/die-lmu/beauftragte/richtlinien-der-lmu-muenchen-zur-selbstkontrolle-in-der-wissenschaft.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\03_Procedures_and_Policies\\CURRENT_LMU_order_good_scientific_practice_DE.pdf",
+      "size_bytes": 192560,
+      "sha256": "18748817c22aaf81a2777627fca374eb0a9cdf757b04c9b6116b9f4de4b1340d"
+    },
+    {
+      "dossier": "10_IE_Trinity_College_Dublin",
+      "role": "institutional policy and procedure",
+      "url": "https://www.tcd.ie/media/tcd/swsp/pdfs/Policy-on-Good-Research-Practice_1.1-2024.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\10_IE_Trinity_College_Dublin\\03_Procedures_and_Policies\\CURRENT_Trinity_Good_Research_Practice_1.1_2024.pdf",
+      "size_bytes": 355595,
+      "sha256": "c3753e7bb60b62ae9acafb78cdfb96d875b61679baa62ff742d69a09570d7cbd"
+    },
+    {
+      "dossier": "13_NL_University_of_Amsterdam",
+      "role": "institutional procedure",
+      "url": "https://www.uva.nl/binaries/content/assets/uva/en/about-the-uva/uva-profile/rules-and-regulations/research/klachtenregeling-wi-engels-2014-2.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\13_NL_University_of_Amsterdam\\03_Procedures_and_Policies\\CURRENT_UvA_Academic_Integrity_Complaints_Regulations_EN.pdf",
+      "size_bytes": 65663,
+      "sha256": "4f47f95d3e8264b080c4ccc58dca834f6285c04a12433ef10a5fce10f0f631c6"
+    },
+    {
+      "dossier": "13_NL_University_of_Amsterdam",
+      "role": "annual report and caseload",
+      "url": "https://www.uva.nl/binaries/content/assets/uva/nl/onderzoek/wetenschappelijke-integriteit/jaarverslag-cwi-2024.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\13_NL_University_of_Amsterdam\\04_Reports_Statistics_and_Timeline\\CURRENT_UvA_CWI_annual_report_2024_NL.pdf",
+      "size_bytes": 265341,
+      "sha256": "54f2e78bd8583b6971dbbde8f6f4c6ce5b21c02ec651b1e86a0f7967f253fbca"
+    },
+    {
+      "dossier": "15_ES_University_of_Barcelona",
+      "role": "institutional code",
+      "url": "https://www.ub.edu/comissiobioetica/sites/default/files/documents/normativa/codi_dintegritat_en_la_recerca_de_la_universitat_de_barcelona.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\15_ES_University_of_Barcelona\\03_Procedures_and_Policies\\CURRENT_UB_research_integrity_code_multilingual.pdf",
+      "size_bytes": 3013769,
+      "sha256": "0d352f44dd1650eb2f2ffffe9ecfff9e20e8693d52cc5a53c99261cd64116e45"
+    },
+    {
+      "dossier": "15_ES_University_of_Barcelona",
+      "role": "institutional code",
+      "url": "https://www.ub.edu/comissiobioetica/sites/default/files/documents/normativa/codibonespractiques_spa.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\15_ES_University_of_Barcelona\\03_Procedures_and_Policies\\CURRENT_UB_good_research_practice_code_ES.pdf",
+      "size_bytes": 441296,
+      "sha256": "db1ddbd22179c655b8d17ee643646d137a6ae58cddb6be6b0f386cf1deb9b043"
+    },
+    {
+      "dossier": "16_SE_Lund_University",
+      "role": "institutional procedure",
+      "url": "https://www.staff.lu.se/sites/staff.lu.se/files/2026-05/guidelines-for-the-processing-of-matters-relating-to-suspected-deviation-from-good-research-practice.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\16_SE_Lund_University\\03_Procedures_and_Policies\\CURRENT_Lund_guidelines_suspected_deviation_2026.pdf",
+      "size_bytes": 293142,
+      "sha256": "914c90d4bef35ae0a911f2f3e6c322e8f1870f6a71cd73e24a16afc3c72bedd8"
+    },
+    {
+      "dossier": "16_SE_Lund_University",
+      "role": "annual report and caseload",
+      "url": "https://www.staff.lu.se/sites/staff.lu.se/files/2026-03/Annual%20Report%202025%20%E2%80%93%20Deviations%20from%20Good%20Research%20Practice%20Review%20Board.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\16_SE_Lund_University\\04_Reports_Statistics_and_Timeline\\CURRENT_Lund_board_annual_report_2025.pdf",
+      "size_bytes": 1024066,
+      "sha256": "794f726f547c8281619b4813e8f1a34ec1e4418a50c7990007512d90f0106b40"
+    },
+    {
+      "dossier": "18_CH_University_of_Geneva",
+      "role": "institutional directive",
+      "url": "https://responsable.unige.ch/assets/files/DirectivesIntegrite.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\18_CH_University_of_Geneva\\03_Procedures_and_Policies\\CURRENT_Geneva_integrity_directive_FR.pdf",
+      "size_bytes": 328876,
+      "sha256": "4d7f18838104358ddff67f59952b3545fe126d23a1248e5add9426e6e799e71d"
+    },
+    {
+      "dossier": "20_UK_Imperial_College_London",
+      "role": "institutional procedure",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/secretariat/new-library-may-24/Regulation-21---Research-Misconduct-Policy-and-Procedures.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\20_UK_Imperial_College_London\\03_Procedures_and_Policies\\CURRENT_Imperial_Regulation_21_Research_Misconduct_2026.pdf",
+      "size_bytes": 509232,
+      "sha256": "153ec986247c0b1093e616a08456e03a3e70de8b29afea9d4a5c9834de53301d"
+    },
+    {
+      "dossier": "21_UK_University_College_London",
+      "role": "official index; linked files require SharePoint authentication",
+      "url": "https://www.ucl.ac.uk/about/leadership/governance-and-compliance/research-governance",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "downloaded_and_signature_checked",
+      "destination": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\21_UK_University_College_London\\06_Web_Sources_and_Snapshots\\SNAPSHOT_UCL_research_governance.html",
+      "size_bytes": 77568,
+      "sha256": "1d19bcc5a83368c130013bc177d36045123633adb369eea60b501510ea143b77"
+    },
+    {
+      "dossier": "21_UK_University_College_London",
+      "role": "procedure guidance",
+      "url": "https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/respondent-guidance-note.pdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 404 (Not Found)."
+    },
+    {
+      "dossier": "24_UK_University_of_Oxford",
+      "role": "current institutional procedure page",
+      "url": "https://www.ox.ac.uk/research/support/governance-and-committees/research-policies/procedure-for-addressing-potential",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    },
+    {
+      "dossier": "24_UK_University_of_Oxford",
+      "role": "procedure guidance",
+      "url": "https://hr.web.ox.ac.uk/files/guidanceonairinvestigationprocessfinalpdf",
+      "retrieved_at": "2026-08-18T08:02:19.0943093+02:00",
+      "status": "failed",
+      "error": "Response status code does not indicate success: 403 (Forbidden)."
+    }
+  ]
+}

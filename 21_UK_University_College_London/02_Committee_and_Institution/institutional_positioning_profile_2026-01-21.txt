@@ -1,0 +1,120 @@
+I’ll look up UCL’s official pages/regulations to identify the named unit(s) that handle research integrity and academic misconduct, then extract what they explicitly state about reporting lines, responsibilities, and cite the exact sources.
+
+
+1. **Official name of the unit**
+
+* **Compliance and Assurance team** (Research and Innovation Services) ([University College London][1])
+* **Governance Team** (UCL Office for General Counsel) ([University College London][2])
+* **Casework & Regulations Team** (also referred to as the **Casework Team**) ([University College London][3])
+
+2. **Institutional location**
+
+* **Compliance and Assurance team** → **Research and Innovation Services** → **Compliance and Assurance** ([University College London][1])
+* **Governance Team** → **UCL Office for General Counsel** ([University College London][2])
+* **Casework & Regulations Team / Casework Team** → **Student and Registry Services** ([University College London][4])
+
+3. **Core responsibilities** *(only what is explicitly stated in official sources)*
+
+**A) Research integrity (training / guidance / culture) — Compliance and Assurance team (RIS)**
+
+* **Promoting academic integrity / research integrity:** **Explicitly mentioned** (research integrity training; supporting a culture of good practice; statement on research integrity). ([University College London][5])
+* **Handling academic misconduct cases:** **Not specified in official sources** (on the research integrity page / C&A team page). ([University College London][5])
+* **Overseeing integrity regulations / ordinance:** **Not specified in official sources** (the Code of Conduct is described, but “oversight” responsibility is not stated on these pages). ([University College London][5])
+
+**B) Research misconduct (allegations in academic research) — Governance Team (Office for General Counsel) + named senior roles/committees**
+
+* **Handling academic misconduct cases (research misconduct): Explicitly mentioned**
+
+  * The **Governance Team** is stated to be responsible for delivery of the **procedure for handling allegations of misconduct in academic research**. ([University College London][6])
+  * The **Procedure** states the **Governance Team (UCL Office for General Counsel) provides support** for screening panels / investigation panels. ([University College London][2])
+  * The **Registrar** is identified as the **“Named Person”** with responsibility for receiving allegations, initiating/supervising the procedure, and key-stage decisions (noting an interim arrangement is described in the procedure). ([University College London][2])
+  * The **Research Misconduct Committee (RMC)**: keeps oversight of stages of the procedure and conducts allegations screening panels (Terms of Reference on UCL site). ([University College London][7])
+* **Overseeing integrity regulations / ordinance: Explicitly mentioned**
+
+  * **RIGEC** is stated to be responsible for **overseeing the operation and review** of the research misconduct procedure. ([University College London][2])
+  * The **Governance Team** “oversees UCL’s key governance documents” (Charter/Statutes/Regulations for Management). ([University College London][6])
+* **Promoting academic integrity:** **Not specified in official sources** (for the Governance Team/RMC pages and the procedure text cited above). ([University College London][6])
+
+**C) Student academic misconduct (assessment offences) — Casework & Regulations Team (Student & Registry Services)**
+
+* **Handling academic misconduct cases: Explicitly mentioned**
+
+  * The **Casework & Regulations Team** is responsible for the **administration and investigation** of **Academic Misconduct and Academic Misconduct Appeals** (plus related casework types). ([University College London][3])
+  * The **Student Academic Misconduct Procedure** directs staff enquiries/forms to **[casework@ucl.ac.uk](mailto:casework@ucl.ac.uk)**, and states the **Secretary** to the Academic Misconduct Panel is **appointed by the Registrar, Student & Registry Services** and is responsible for communications/organisation of panels. ([University College London][8])
+  * The **Academic Misconduct Panel** is described as independently investigating allegations, deciding whether misconduct occurred, and determining penalties. ([University College London][9])
+* **Promoting academic integrity:** **Not specified in official sources** (for the Casework Team remit page cited). ([University College London][3])
+* **Overseeing integrity regulations / ordinance:** **Not specified in official sources** (the procedure exists, but “oversight” responsibility is not assigned to the Casework Team on the cited pages). ([University College London][3])
+
+4. **Source references** *(official UCL webpages/documents used)*
+
+* UCL — **Research Integrity** (Research and Innovation Services) ([University College London][5])
+* UCL — **Compliance and Assurance team** (Research and Innovation Services) ([University College London][1])
+* UCL — **Procedure for the investigation of misconduct in research** (effective for allegations received from 1 Nov 2022) ([University College London][2])
+* UCL — **Governance and compliance: About us (Governance Team)** ([University College London][6])
+* UCL — **Research Misconduct Committee** (Governance and compliance) ([University College London][7])
+* UCL Academic Manual — **Section 9: Student Academic Misconduct Procedure** ([University College London][8])
+* UCL Students — **About the Casework Team** ([University College London][3])
+* UCL Students — **Academic Misconduct Panel** ([University College London][9])
+* UCL Academic Manual — **Section 8: UCL Student Complaints Procedure** (location statement for Casework Team in Student & Registry Services) ([University College London][4])
+* UCL Report + Support — **Students: Casework Team** (location statement for Student & Registry Services) ([University College London][4])
+
+[1]: https://www.ucl.ac.uk/research-innovation-services/compliance-and-assurance/compliance-and-assurance-team "Compliance and Assurance team | Research and Innovation Services - UCL – University College London"
+[2]: https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-nov-2022.pdf "Procedure for the investigation of misconduct in research"
+[3]: https://www.ucl.ac.uk/students/appeals-and-complaints/about-casework-team "About the Casework Team | Students - UCL – University College London"
+[4]: https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-aug-2021.pdf "Procedure for the investigation of misconduct in research"
+[5]: https://www.ucl.ac.uk/research-innovation-services/compliance-and-assurance/research-integrity "Research Integrity | Research and Innovation Services - UCL – University College London"
+[6]: https://www.ucl.ac.uk/governance-compliance/about-us "About us | Governance and compliance - UCL – University College London"
+[7]: https://www.ucl.ac.uk/governance-compliance/research-governance/research-misconduct-committee "Research Misconduct Committee | Governance and compliance - UCL – University College London"
+[8]: https://www.ucl.ac.uk/academic-manual/chapters/chapter-6-student-casework-framework/section-9-student-academic-misconduct-procedure "Section 9: Student Academic Misconduct Procedure | Academic Manual - UCL – University College London"
+[9]: https://www.ucl.ac.uk/students/exams-and-assessments/academic-integrity/academic-misconduct-panel "Academic Misconduct Panel | Students - UCL – University College London"
+5. Reporting & authority structure (UCL)
+
+a. Reports to
+**Research misconduct (staff / research students, “misconduct in academic research”)**
+
+* **Research Misconduct Committee (RMC):** submits minutes to **UCL’s Research, Innovation and Global Engagement Committee (RIGEC)** and produces an annual report for onward reporting to **RIGEC** and **UCL’s Audit Committee**. ([University College London][1])
+* **Named Person (UCL Registrar / interim Named Person):** the Procedure’s **annual review** mechanism states the Registrar will submit annually to **Audit Committee** and **RIGEC** a copy of the Procedure and a report on significant issues arising in its operation. ([University College London][2])
+* **Where RIGEC sits in UCL governance:** UCL’s committees chart places **RIGEC** within the **UCL University Management Committee (UMC)** committee structure. 
+
+**Student academic misconduct (summative assessment misconduct)**
+
+* **Academic Misconduct Appeals Panel:** the Academic Manual states the Appeals Panel decision is included in an **annual report on its proceedings submitted to the UCL Education Committee**. ([University College London][3])
+* **Academic Misconduct Panel (first-instance):** reporting line **not specified in official sources** (the documents describe panel composition and decision process, but do not state a formal reporting line). ([University College London][3])
+
+b. Decision-making authority
+**Research misconduct**
+
+* **Named Person (Registrar / interim Named Person):** explicitly responsible for “**taking decisions at key stages of the Procedure**” (and for initiating/supervising the Procedure). ([University College London][2])
+* **RMC / Screening Panels:** screening stage determines whether there is **prima facie evidence** of misconduct in research (i.e., whether the matter proceeds). ([University College London][2])
+* **Investigation Panel:** explicitly empowered to **reach conclusions** on allegations (upheld / partly upheld / not upheld) on the **balance of probabilities**, and submit a final report to the Registrar. ([University College London][2])
+* **Disciplinary sanctions:** the Procedure states that disciplinary sanctions can **only** be applied through UCL’s **disciplinary processes** (i.e., the research misconduct procedure produces a report that may lead to disciplinary action). ([University College London][2])
+
+**Student academic misconduct**
+
+* **Academic Misconduct Panel:** explicitly “decide[s]… whether Academic Misconduct has occurred and, if so, determine[s] which penalty to impose.” ([University College London][4])
+* **Appeals authority:** the Academic Manual states the **Chair of the Academic Misconduct Appeals Panel** may uphold, overturn, or modify the penalty; and an **Appeals Panel has the power to reverse or modify** the decision appealed. ([University College London][3])
+
+c. Appeal or second-opinion mechanisms
+**Research misconduct**
+
+* The Procedure explicitly states that if disciplinary processes are invoked, those processes “**provide the Respondent with the right of appeal**.” The appeal body/mechanism is **not specified in official sources** within the Procedure itself. ([University College London][2])
+
+**Student academic misconduct**
+
+* **Internal appeal:** students may appeal Academic Misconduct Panel decisions on defined grounds (procedure not followed, fresh evidence, or unreasonable decision) and submit an appeal within the stated timeframe; appeals are handled via the Academic Misconduct Appeals process. ([University College London][5])
+* **Final internal stage + external review:** the Academic Manual states an Appeals Panel decision is **final internally**, and then (after a Completion of Procedures letter) students may complain to the **Office of the Independent Adjudicator for Higher Education (OIA)**. ([University College London][3])
+
+d. Source references
+
+* **UCL – Research Misconduct Committee (Governance & Compliance page)** ([University College London][1])
+* **UCL – Procedure for investigating and resolving allegations of misconduct in academic research (effective 1 Nov 2022) (PDF)** ([University College London][2])
+* **UCL – UCL Committees chart (updated 25 Nov 2025) (PDF)** 
+* **UCL Academic Manual – Section 9: Student Academic Misconduct Procedure (Published for 2025–26)** ([University College London][3])
+* **UCL Students – Academic Misconduct Panel** ([University College London][4])
+* **UCL Students – Academic Misconduct Allegations and Appeals** ([University College London][5])
+
+[1]: https://www.ucl.ac.uk/governance-compliance/research-governance/research-misconduct-committee?utm_source=chatgpt.com "Research Misconduct Committee"
+[2]: https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-nov-2022.pdf "Procedure for the investigation of misconduct in research"
+[3]: https://www.ucl.ac.uk/academic-manual/chapters/chapter-6-student-casework-framework/section-9-student-academic-misconduct-procedure "Section 9: Student Academic Misconduct Procedure | Academic Manual - UCL – University College London"
+[4]: https://www.ucl.ac.uk/students/exams-and-assessments/academic-integrity/academic-misconduct-panel "Academic Misconduct Panel | Students - UCL – University College London"
+[5]: https://www.ucl.ac.uk/students/appeals-and-complaints/academic-misconduct-allegations-and-appeals "Academic Misconduct Allegations and Appeals | Students - UCL – University College London"

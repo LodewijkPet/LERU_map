@@ -1,0 +1,62 @@
+I’ll look up Lund University’s official pages/regulations to identify the exact unit(s) handling research integrity/academic misconduct, confirm where they sit organizationally, and extract explicitly stated responsibilities with citations.
+
+
+1. **Official name of the unit**
+   **Deviations from Good Research Practice Review Board** (Swedish: **nämnden för utredning av avvikelse från god forskningssed**) 
+
+2. **Institutional location**
+
+* **Under the Vice-Chancellor (Rectorate / University management):** suspected deviations must be reported to the **Vice-Chancellor** or to the **Deviations from Good Research Practice Review Board**, and the Vice-Chancellor is the decision-maker in the process. ([staff.lu.se][1])
+* **Administrative placement noted in governance document:** the university’s official guidelines list **“Organizational unit responsible: Office of the Vice-Chancellor”** (Swedish version: **“Ansvarig organisatorisk enhet: Universitetsledningens stab”**). 
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases (explicitly mentioned):**
+
+  * The Board **examines suspected deviations from good research practice** at Lund University and **initiates cases when a report is received**. 
+  * The Board’s assignment is to **investigate and prepare the Vice-Chancellor’s decisions** regarding reported suspicions of *other* deviation from good research practice. 
+  * If suspicions arise of **research misconduct (FFP)**, the Board must **transfer relevant documents to the National Board for Assessment of Research Misconduct (Npof)** (with authority delegated from the Vice-Chancellor). 
+
+* **Promoting academic integrity (explicitly mentioned?):**
+  **Not specified in official sources** as a responsibility of the *Deviations from Good Research Practice Review Board*. 
+
+* **Overseeing integrity regulations / ordinance (explicitly mentioned):**
+  The Board must examine deviations **in accordance with Chapter 1, Section 17 of the Higher Education Ordinance** and within the framework of the Swedish Act on Responsibility for Good Research Practice and the Examination of Research Misconduct (2019:504). 
+
+4. **Source references (official)**
+
+* Lund University Staff Pages: **Reporting suspected deviations from good research practice** ([staff.lu.se][1])
+* Lund University (regulatory document, PDF): **Guidelines for the Processing/Review of Matters Relating to Suspected Deviation from Good Research Practice (STYR 2025/1270, 23 Oct 2025)** 
+* Lund University Medarbetarwebben: **Avvikelser från god forskningssed** ([medarbetarwebben.lu.se][2])
+* Lund University (styrdokument, PDF): **Riktlinjer för prövning av avvikelse från god forskningssed vid Lunds universitet (STYR 2025/1270, 23 Oct 2025)** 
+
+[1]: https://www.staff.lu.se/research-and-education/research-support/research-ethics-and-animal-testing-ethics/deviations-good-research-practice/reporting-suspected-deviations-good-research-practice "Reporting suspected deviations from good research practice | Staff Pages"
+[2]: https://www.medarbetarwebben.lu.se/forska-och-utbilda/stod-till-forskning/forskningsetik-och-djurforsoksetik/avvikelser-fran-god-forskningssed "Avvikelser från god forskningssed | Medarbetarwebben"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Vice-Chancellor (Rector):** the Board’s assignment is to **“investigate and prepare Vice-Chancellor’s decisions”** in cases of suspected *other* deviation from good research practice, and **all members are appointed by the Vice-Chancellor**. 
+* **External reporting obligation to the national body (Npof):** the Board is responsible for **annual reporting** of the university’s reviews of deviations from good research practice to the **National Board for Assessment of Research Misconduct (Npof)**. 
+
+b. **Decision-making authority**
+
+* **Other deviation from good research practice (local cases):** the Board investigates and proposes; **“The Vice-Chancellor makes the decision on the case.”** ([staff.lu.se][1])
+* **Suspected research misconduct (FFP):** if suspicions of research misconduct arise, the Board must **decide to transfer the documents** to Npof (authority **delegated from the Vice-Chancellor**). 
+* **Research misconduct decisions (national level):** under Swedish law, Npof’s examination is **reported in a decision** (“ska redovisas i ett beslut”). ([Riksdagen][2])
+* **Conflict-of-interest safeguard (processing authority):** if a **member of University Management or the Board** is reported, the **University Board must decide how the case will be processed**. 
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Second-opinion / external pathway (explicit):** suspected **research misconduct (FFP)** may be **reported directly to Npof**, and if misconduct suspicions arise during a Lund University investigation, the case materials are transferred to Npof. ([staff.lu.se][1])
+* **Appeal of Npof decisions (explicit in law):** **decisions under Section 9** (and certain decisions under Section 12) **may be appealed to the general administrative courts** (“får överklagas till allmän förvaltningsdomstol”). ([Riksdagen][2])
+* **Appeal of the Vice-Chancellor’s decision at Lund University:** **Not specified in official sources.** 
+
+d. **Source references**
+
+* Lund University (regulatory document, PDF): *Guidelines for the Review of Suspected Deviation from Good Research Practice at Lund University* (Reg. no STYR 2025/1270; decision date 23 Oct 2025). 
+* Lund University Staff Pages: *Reporting suspected deviations from good research practice*. ([staff.lu.se][1])
+* Sveriges riksdag (SFS): *Lag (2019:504) om ansvar för god forskningssed och prövning av oredlighet i forskning* (incl. appeal provision). ([Riksdagen][2])
+
+[1]: https://www.staff.lu.se/research-and-education/research-support/research-ethics-and-animal-testing-ethics/deviations-good-research-practice/reporting-suspected-deviations-good-research-practice "Reporting suspected deviations from good research practice | Staff Pages"
+[2]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2019504-om-ansvar-for-god-forskningssed-och_sfs-2019-504/ "Lag (2019:504) om ansvar för god forskningssed och prövning av oredlighet i forskning | Sveriges riksdag"

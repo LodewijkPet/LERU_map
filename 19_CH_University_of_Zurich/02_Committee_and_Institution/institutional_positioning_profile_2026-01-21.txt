@@ -1,0 +1,102 @@
+I’ll look up the University of Zurich’s official research integrity structures (policies + responsible offices), then extract only what’s explicitly stated about the unit name, where it sits in the organization, and what it does—citing the exact official sources.
+
+
+1. **Official name of the unit**
+   Research Integrity Coordination Office *(Geschäftsstelle Wissenschaftliche Integrität)*. ([research.uzh.ch][1])
+
+2. **Institutional location**
+   Located within the **Office of the Vice President Research** *(Prorektorat Forschung)*, shown as part of the **Research & Grants Office**. ([research.uzh.ch][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases** *(explicitly mentioned)*
+
+  * The **Office of the Vice President Research** is responsible for “reports and investigations” in academic integrity under the Integrity Ordinance framework. ([rud.uzh.ch][2])
+  * The **ombudspersons** are the “first and central point of contact” and **receive reports** of suspected scientific misconduct. ([research.uzh.ch][3])
+  * The **Research Integrity Delegates** conduct procedures to investigate suspected misconduct on behalf of the Executive Board. ([research.uzh.ch][3])
+  * The process is **initiated by the Research Integrity Delegate (or deputy) and the Research Integrity Coordination Office**. ([rud.uzh.ch][2])
+
+* **Promoting academic integrity** *(explicitly mentioned)*
+
+  * The **Research Integrity Coordination Office** provides **information and training** to promote academic integrity and prevent misconduct. ([openscience.uzh.ch][4])
+
+* **Overseeing integrity regulations / ordinance**
+
+  * **Not specified in official sources.** (The Integrity Ordinance is referenced, but an explicit “oversight” mandate for this unit is not stated.) ([rud.uzh.ch][2])
+
+4. **Source references**
+
+* UZH (Open Science): “Research Integrity” page describing what the Research Integrity Coordination Office provides. ([openscience.uzh.ch][4])
+* UZH Legal Services & Data Protection: “Research Integrity” page describing responsibility of the Office of the Vice President Research and initiation of the process by the Research Integrity Delegate + the Research Integrity Coordination Office. ([rud.uzh.ch][2])
+* UZH “UZH for Researchers”: “Research Integrity” page describing roles of ombudspersons and Research Integrity Delegates. ([research.uzh.ch][3])
+* UZH “UZH for Researchers”: “Research Integrity Coordination Office” page showing the unit under Office of the Vice President Research → Research & Grants Office. ([research.uzh.ch][1])
+* UZH “Research & Grants Office” page describing the office as a central contact point including for scientific integrity. ([research.uzh.ch][5])
+* UZH (main site, German): “Integrität in der Wissenschaft” page linking to the Integrity Ordinance and summarizing the three-instance model (advice–investigation–decision). ([uzh.ch][6])
+
+[1]: https://www.research.uzh.ch/en/vp/Research-And-Grants-Office/Research-Integrity-Coordination-Office.html "Research Integrity Coordination Office | UZH for Researchers | UZH"
+[2]: https://www.rud.uzh.ch/en/angebot/weitere-rechtsgebiete/integrit%C3%A4t-in-der-wissenschaft.html "Research Integrity | Legal Services and Data Protection | UZH"
+[3]: https://www.research.uzh.ch/en/vp/Gremien-und-Dossiers/Wissenschaftliche-Integrit%C3%A4t-.html "Research Integrity | UZH for Researchers | UZH"
+[4]: https://www.openscience.uzh.ch/en/research-integrity.html "Research Integrity | Open Science | UZH"
+[5]: https://www.research.uzh.ch/en/vp/Research-And-Grants-Office.html "Research & Grants Office | UZH for Researchers | UZH"
+[6]: https://www.uzh.ch/de/researchinnovation/ethics/integrity.html "Integrität in der Wissenschaft | Universität Zürich | UZH"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Research Integrity Coordination Office (Geschäftsstelle Wissenschaftliche Integrität):** *Not specified in official sources* (no explicit “reports to …” line found for this office). Its institutional placement is shown under the **Office of the Vice President Research / Prorektorat Forschung → Research & Grants Office**, but a formal reporting statement is not spelled out. ([research.uzh.ch][1])
+* **Within the misconduct procedure (explicit reporting / information flow):**
+
+  * The **ombudsperson** informs the **University’s Executive Board (Universitätsleitung)** if they consider a formal procedure necessary. ([research.uzh.ch][2])
+  * The **Research Integrity Delegate / Integritätsbeauftragte*r** conducts the investigation **on behalf of** the University’s Executive Board, and closes the procedure with a **written report addressed to the Universitätsleitung**. ([research.uzh.ch][2])
+
+b. **Decision-making authority**
+
+* **Final decision authority (explicit):** The **University’s Executive Board (Universitätsleitung)** is explicitly named as the **decision-making body** and **decides** on (i) whether misconduct occurred and (ii) measures to be taken (or recommended). ([research.uzh.ch][2])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Internal legal appeal (explicit):** The accused person can file an appeal (**Rekurs**) against decisions (**Verfügungen**) under the Integrity Ordinance **within 30 days** to the **Rekurskommission der Zürcher Hochschulen**, under the **Verwaltungsrechtspflegegesetz**. ([Notes][3])
+
+d. **Source references**
+
+* UZH for Researchers – “Research integrity at the University of Zurich” (describes ombudsperson → executive board, investigative body on behalf of executive board, and executive board as decision-making body). ([research.uzh.ch][2])
+* **Integritätsverordnung** (Ordinance on dealing with scientific misconduct at UZH) – especially §§ 11, 14, 24 (decision authority; report to Universitätsleitung; appeal to Rekurskommission der Zürcher Hochschulen). ([Notes][3])
+* UZH Legal Services & Data Protection – “Integrität in der Wissenschaft” (states Prorektorat Forschung responsible for reports/investigations; procedure led by Integritätsbeauftragte*r + Research Integrity Coordination Office; Legal Services supports). ([rud.uzh.ch][4])
+* UZH pages showing the **Research Integrity Coordination Office** within Office of the Vice President Research / Prorektorat Forschung → Research & Grants Office (organizational placement, not reporting line). ([research.uzh.ch][1])
+
+[1]: https://www.research.uzh.ch/en/vp/Research-And-Grants-Office/Research-Integrity-Coordination-Office.html "Research Integrity Coordination Office | UZH for Researchers | UZH"
+[2]: https://www.research.uzh.ch/en/procedures/integrity.html "Research integrity | UZH for Researchers | UZH"
+[3]: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/76458EEB55B44B7CC12585C7003B9AC7/%24File/415.27_25.5.20_110.pdf "415.27_25.5.20_110.fm"
+[4]: https://www.rud.uzh.ch/de/angebot/weitere-rechtsgebiete/integrit%C3%A4t-in-der-wissenschaft.html "Integrität in der Wissenschaft | Recht und Datenschutz | UZH"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Integrity officer / investigation body → University Executive Board**: The *Integritätsbeauftragte/r* (or an *Untersuchungskommission*) closes the investigation with a **written report addressed to the Universitätsleitung** (“Bericht zuhanden der Universitätsleitung”). ([UZH News][1])
+* **Trusted person → University Executive Board (and Legal Service)**: If the *Vertrauensperson* considers that a formal procedure should be opened, they **inform the Universitätsleitung**, the **Rechtsdienst**, and the accused person. ([UZH News][1])
+* **Research Integrity Coordination Office (Geschäftsstelle Wissenschaftliche Integrität)**: **Not specified in official sources** as a formal “reports to” line (i.e., no explicit statement of reporting/line management). The office is shown organisationally under *Prorektorat Forschung* on UZH pages. ([research.uzh.ch][2])
+
+b. **Decision-making authority**
+
+* **Final decision authority (explicit): Universitätsleitung**
+
+  * The Universitätsleitung is explicitly described as the **decision-making instance** and **decides on the existence of scientific misconduct** and **orders or recommends measures**. ([uzh.ch][3])
+* **Advisory / investigative roles (explicit):**
+
+  * *Vertrauensperson* = advisory/support/mediation + preliminary assessment/pre-checks. ([UZH News][1])
+  * *Integritätsbeauftragte/r* (or *Untersuchungskommission*) = conducts the procedure/investigation and submits findings/recommendations to the Universitätsleitung. ([UZH News][1])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Appeal (explicit):** The accused person may file a **Rekurs** against decisions (“Verfügungen”) based on the Integrity Ordinance to the **Rekurskommission der Zürcher Hochschulen** within **30 days** of receipt (per the administrative procedure law of the Canton of Zurich). ([UZH News][1])
+* **Internal hearing request (explicit):** The accused person may request an **oral hearing by the Universitätsleitung**. ([UZH News][1])
+
+d. **Source references**
+
+* UZH **Integrity Ordinance** (*Verordnung über den Umgang mit wissenschaftlichem Fehlverhalten an der Universität Zürich / Integritätsverordnung*, PDF). ([UZH News][1])
+* UZH page: **“Integrität in der Wissenschaft”** (three-instance model; Universitätsleitung as decision instance). ([uzh.ch][3])
+* UZH *Prorektorat Forschung* pages + organigram image (organisational placement within Prorektorat Forschung). ([research.uzh.ch][2])
+
+[1]: https://www.news.uzh.ch/dam/jcr%3Ac9d300db-f3bc-41fe-abb6-75ef67ffd1fc/Integritaetsverordnung.pdf "IntegritaetsV_25.5.20.fm"
+[2]: https://www.research.uzh.ch/de/vp/Research-And-Grants-Office/Gesch%C3%A4ftsstelle-Wissenschaftliche-Integrit%C3%A4t.html "Geschäftsstelle Wissenschaftliche Integrität | UZH für Forschende | UZH"
+[3]: https://www.uzh.ch/de/researchinnovation/ethics/integrity.html "Integrität in der Wissenschaft | Universität Zürich | UZH"

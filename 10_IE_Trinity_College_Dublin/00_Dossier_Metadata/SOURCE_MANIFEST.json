@@ -1,0 +1,85 @@
+{
+  "institution": "Trinity College Dublin",
+  "country": "Ireland",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1732,
+      "sha256": "1010256c33f0edfa98927996e4da5b34b84fe2f69bedacf1058d638476a9e3b5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6609,
+      "sha256": "2a8aab93b6e30eace4632df1ac78ed782e78b2d1cd3892535eb2880bec026d26",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3405,
+      "sha256": "ac2e88557c78f4e29f4e823773784f594c40f20c53bf699a1345dde91044fbe9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 936,
+      "sha256": "7a70bfba9f86359f2c4ae60cc16345dd8f8d2d9e77b348c73f2266f9a115ca3b",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 588,
+      "sha256": "e7973e6faf83a1723eb9edec63d6a8efddd7449ddb14f2cc7ddf1d54602e49cb",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 43742,
+      "sha256": "657e35df64ec0258fcd64ad79590be6275efd9da97961074bd463355a2d3bdbb",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 42050,
+      "sha256": "e202f77e184f432ea7fed89c424213135f6c37325df40417badf1e087e887b9c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34268,
+      "sha256": "4ea3d2fcfe090e69645943c48cea249c4aac87ded7e1bbed859b4855e7917fe0",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 8248,
+      "sha256": "5d8d7ada1bd32fcaa90b3c6d8c8237be88447d29024bf5d59e1f2036af54ff39",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_Trinity_Good_Research_Practice_1.1_2024.pdf",
+      "size_bytes": 355595,
+      "sha256": "c3753e7bb60b62ae9acafb78cdfb96d875b61679baa62ff742d69a09570d7cbd",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1353,
+      "sha256": "6c4a1556c0885237cd438a2d6d895f9fc61e9e3aa6246c9da63e24dda50a8cfd",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

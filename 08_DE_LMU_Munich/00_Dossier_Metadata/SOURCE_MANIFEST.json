@@ -1,0 +1,92 @@
+{
+  "institution": "LMU Munich",
+  "country": "Germany",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1720,
+      "sha256": "8adfe1ea9f4a1654ef7259aae81b5762c33b2eb99aa820f3b7f6da3098e99420",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 5695,
+      "sha256": "b12e46b12419c9bb1a4934ff58aafc68e96e5f88ecf19ea3a0d48a2d88c123d2",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3412,
+      "sha256": "b90eaeb755f216e7176550bab31da5c7c12b98a46bf9758bacd0e13a35f40f5b",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 912,
+      "sha256": "cc065a0eb84d37d78b41ac2ab4b830263ac3806b96fda4541f5df731e58c0f4c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 587,
+      "sha256": "5bf9a7fc5198b5f114278290c44b645f7551801d19131b4d431b5f609319a81e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40691,
+      "sha256": "ea97b3378f4bae2e85aa51f1725381d7137c935e7959ec1f6c97fde8dd179b08",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47914,
+      "sha256": "ee87521d43eebba3efaee5ce356aa85ce3b9943284e89fe0d708833c907ef232",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 33447,
+      "sha256": "0a548b3e6ea0dcab8c27230f6d3651c6437e5fcf03416174ca6e036d1f2901fe",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 8798,
+      "sha256": "dd1d0bf124d663c403b20d8301eccd27e61d7cade40e6e01ca4059ab162d7d9b",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_LMU_order_good_scientific_practice_DE.pdf",
+      "size_bytes": 192560,
+      "sha256": "18748817c22aaf81a2777627fca374eb0a9cdf757b04c9b6116b9f4de4b1340d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_grundordnung-lmu.pdf",
+      "size_bytes": 481134,
+      "sha256": "1d1537cce5634a1f273058a9b0d35ed128a23b9a824e74ab38b12840daead747",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 841,
+      "sha256": "34e83e456012c2543cc3a5c1f1c5a2e3c442ecb111ead0d6e16e01ac3dc0335f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+I’ll look up Heidelberg University’s official pages and governance documents on research integrity/misconduct, then extract the exact unit name, where it sits organizationally, what it’s explicitly tasked with, and cite the official sources.
+
+
+1. **Official name of the unit**
+   **Commission for the Safeguarding of Good Academic Practice and the Handling of Violations of Academic Ethics** (described in the Rules as the university’s standing **“Senate Commission”** for academic misconduct). ([Heidelberg University][1])
+
+2. **Institutional location**
+
+* **University governance (Senate Commission / Rectorate):** Heidelberg University’s Rules establish a **standing Senate Commission**; its members are **suggested by the Rectorate and elected by the Senate**, and the Commission **advises the Rectorate**. The chair is a **vice-rector** (on the website: Vice Rector for Research and Structure). 
+* **Administrative/legal hosting contact point:** The Commission page lists **Department of Legal and Committee Affairs**, and the official Rules are published by **“The Rector – Law and Committees Division.”** ([Heidelberg University][1])
+
+3. **Core responsibilities** (explicitly mentioned vs not specified)
+
+* **Handling academic misconduct cases — Explicitly mentioned**
+
+  * The Rules state the university’s standing **Senate Commission investigates allegations / suspected cases of academic misconduct** (among members and staff; also possibly former members where relevant). 
+  * Ombudsmen (Senate-appointed) or the Commission chair are described as **initial points of contact**; the Commission clarifies facts, evaluates, and may recommend legal measures to the Rectorate. ([Heidelberg University][2])
+  * The Rules also specify that the Senate Commission is **not responsible** for misconduct in **education/examinations** or in direct connection with awarding degrees (handled by examination/PhD/habilitation boards). 
+
+* **Promoting academic integrity — Explicitly mentioned (in an advisory/consultative sense); broader promotion not specified for this unit**
+
+  * The Senate Commission **“advises the Rectorate in matters regarding the safeguarding of good academic practice.”** 
+  * The Rules define ombudspersons as confidential mediators who **offer advice in matters of good academic practice** and in suspected misconduct cases. 
+  * **Not specified in official sources** (for this unit): any dedicated training/programmatic “promotion” activities (e.g., courses, awareness campaigns) as a formal Commission task.
+
+* **Overseeing integrity regulations / ordinance — Not specified in official sources**
+  (The Commission operates under the university’s Rules and is referenced in them, but an explicit “oversight/ownership of regulations” responsibility is not stated.) 
+
+4. **Source references** (official webpages/documents used)
+
+* Heidelberg University — **Commission for the Safeguarding of Good Academic Practice and the Handling of Violations of Academic Ethics** ([Heidelberg University][1])
+* Heidelberg University — **Good Academic Practice** (overview page) ([Heidelberg University][3])
+* Heidelberg University — **Ombudsmen** (Academic Practice) ([Heidelberg University][2])
+* Heidelberg University (official PDF) — **Rules for Safeguarding Good Academic Practice and Handling Academic Misconduct** (version 28 Sept 2021) 
+* Heidelberg University — **Safeguarding of good academic practice** (page noting Rector’s office standing commission) ([Heidelberg University][4])
+* Universität Heidelberg — **Gute wissenschaftliche Praxis** (German page describing a standing commission appointed by the Rectorate) ([Heidelberg University][5])
+
+[1]: https://www.uni-heidelberg.de/university/commission_academic_practice.html "Commission for the Safeguarding of Good Academic Practice and the Handling of Violations of Academic Ethics  - Heidelberg University"
+[2]: https://www.uni-heidelberg.de/en/university/about-the-university/good-academic-practice/ombudsmen "Ombudsmen - Heidelberg University"
+[3]: https://www.uni-heidelberg.de/en/university/about-the-university/good-academic-practice "Good Academic Practice - Heidelberg University"
+[4]: https://www.uni-heidelberg.de/university/academic_practice.html "Safeguarding of good academic practice  - Heidelberg University"
+[5]: https://www.uni-heidelberg.de/de/universitaet/das-profil-der-universitaet-heidelberg/gute-wissenschaftliche-praxis "Gute wissenschaftliche Praxis - Universität Heidelberg"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Rector / Rectorate:** The Senate Commission **submits a report (including its decision and suggested measures) to the Rector** and **advises the Rectorate** on safeguarding good academic practice. 
+* **Senate link (election/mandate):** Commission members are **suggested by the Rectorate and elected by the Senate** (this indicates how the body is constituted; a formal “reporting to the Senate” line is **not explicitly stated**). 
+
+b. **Decision-making authority**
+
+* **Mixed (investigative/advisory with recommendations; sanctions decided elsewhere):**
+
+  * The Commission **investigates** and issues a **decision in its report** and **suggested measures** to the Rector. 
+  * **Sanctions are determined by the responsible bodies of the university**, and there is **no obligation to follow** the Commission’s decision/recommendations; the **Rector decides** whether and to whom the report is made available and informs the Commission of further steps. 
+  * (Also described on the university page: where “relevant legal measures” are deemed necessary, the Commission **submits a recommendation to the Rectorate**.) ([Heidelberg University][1])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Appeal:** The Rules explicitly state: **“The commission’s decision may not be appealed.”** 
+* **Second-opinion / early-stage confidential channel:** The Rules state Heidelberg University appoints **ombudspersons** who are **confidential mediators** offering **advice** in matters of good academic practice and in suspected misconduct cases (and they can be involved before escalation to the Commission). 
+* **Other appeal routes (e.g., against sanctions, external bodies):** **Not specified in official sources.** 
+
+d. **Source references**
+
+* Heidelberg University (official PDF): **Rules for Safeguarding Good Academic Practice and Handling Academic Misconduct** (adopted 28 September 2021) 
+* Heidelberg University page: **Safeguarding of good academic practice** (mentions recommendations to the Rectorate for legal measures) ([Heidelberg University][1])
+
+[1]: https://www.uni-heidelberg.de/university/academic_practice.html?utm_source=chatgpt.com "Safeguarding of good academic practice"

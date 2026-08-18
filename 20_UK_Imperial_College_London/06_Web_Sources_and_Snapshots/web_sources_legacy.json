@@ -1,0 +1,105 @@
+[
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/secretariat/new-library-may-24/Annexes-to-Appendix-to-Ordinances-%28Staff%29%2813-December-2023%29.pdf?utm_source=chatgpt.com",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:05+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:05+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_Research-Integrity-Annual-Report-2020.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf?utm_source=chatgpt.com",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:06+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_Research-Integrity-Annual-Report-2020.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Report-2021.pdf?utm_source=chatgpt.com",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:06+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_Research-Integrity-Report-2021.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Report-2021.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/annual-statement-on-research-integrity-2024/?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/research-integrity-framework/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/research-integrity-framework/?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/research-integrity/what-is-research-integrity/what-is-research-misconduct/?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/rgit-events/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/rgit-events/?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

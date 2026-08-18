@@ -1,0 +1,121 @@
+I’ll look up the University of Edinburgh’s official pages/policies to identify the exact unit(s) handling research integrity and academic misconduct, then extract only what’s explicitly stated and report it in your required 4-part structure with citations.
+
+
+## University of Edinburgh (UK) — Research integrity / research misconduct (research activities)
+
+1. **Official name of the unit**
+   **Research Governance, Compliance & Risk team** (within the **Edinburgh Research Office (ERO)**). ([Edinburgh Research Office][1])
+
+2. **Institutional location**
+   Located in the **Edinburgh Research Office (ERO)** (described under the ERO “About us” structure and explicitly referenced as “within the Edinburgh Research Office”). ([Edinburgh Research Office][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases:**
+
+  * **Explicitly mentioned (for research misconduct allegations):** “Named Persons within each college handle allegations of research misconduct, overseeing and managing investigations at the college level.” 
+  * The **Vice-Principal Research and Enterprise** is stated as the “main responsible contact for Research Misconduct” (with responsibility delegated in each College). ([Edinburgh Research Office][2])
+* **Promoting academic integrity:**
+
+  * **Explicitly mentioned:** ERO’s Research Governance, Compliance & Risk team states it collaborates to “promote and embed a culture of good practice in research” and enables researchers to meet responsibilities relating to “research integrity and ethics.” ([Edinburgh Research Office][1])
+  * A Research Integrity and Ethics Officer role description explicitly includes supporting “the promotion of research culture, research integrity and good research practice.” ([EdWeb Profiles][3])
+* **Overseeing integrity regulations / ordinance:**
+
+  * **Explicitly mentioned:** The **Edinburgh Research Office** “oversees key policies, including the Ethics Policy and the Research Misconduct Policy,” and the **Research Governance, Compliance & Risk team** ensures these policies are revised to align with the Concordat and UKRIO guidance. 
+
+4. **Source references**
+
+* Edinburgh Research Office — “Research misconduct” page. ([Edinburgh Research Office][2])
+* Edinburgh Research Office — “About us” (describes Research Governance, Compliance & Risk and its remit). ([Edinburgh Research Office][1])
+* **UoE Annual Research Integrity Statement 2023–2024** (PDF, hosted by Edinburgh Research Office). 
+* University profile page for “Research Integrity and Ethics Officer” (shows ERO + Research Governance, Compliance & Risk team placement and remit). ([EdWeb Profiles][3])
+
+---
+
+## University of Edinburgh (UK) — Student academic misconduct (assessed work)
+
+1. **Official name of the unit**
+   **School and College Academic Misconduct Officers (SAMOS/CAMOS)** (University-wide network named in the academic misconduct guidance). ([University of Edinburgh][4])
+
+2. **Institutional location**
+   **Not specified in official sources** as a single central “office.”
+   What *is* explicit: the University’s academic misconduct guidance is published under **Registry Services → Academic Services → Student Conduct**. ([University of Edinburgh][4])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases:**
+
+  * **Explicitly mentioned:** SAMOS/CAMOS are “responsible for investigating suspected cases at School or College level, and for determining appropriate penalties.” ([University of Edinburgh][4])
+* **Promoting academic integrity:**
+
+  * **Not specified in official sources** (on the cited academic misconduct guidance page). ([University of Edinburgh][4])
+* **Overseeing integrity regulations / ordinance:**
+
+  * **Not specified in official sources** as an “oversight” function; the page states cases are handled under the **Code of Student Conduct** and provides procedures/forms. ([University of Edinburgh][4])
+
+4. **Source references**
+
+* Academic Services (Registry Services) — “Academic misconduct” (staff guidance) page. ([University of Edinburgh][4])
+* University “Policy Directory” listing (shows **Academic Misconduct Investigation Procedure** exists; operational area listed as **Academic Services**). ([policies.ed.ac.uk][5])
+
+[1]: https://research-office.ed.ac.uk/about "About Us | Edinburgh Research Office | Edinburgh Research Office"
+[2]: https://research-office.ed.ac.uk/research-integrity/research-misconduct "Research misconduct | Edinburgh Research Office | Edinburgh Research Office"
+[3]: https://edwebprofiles.ed.ac.uk/profile/chantelle-simpson "Chantelle Simpson | The University of Edinburgh"
+[4]: https://www.ed.ac.uk/academic-services/staff/discipline/academic-misconduct "Academic misconduct | Student Administration"
+[5]: https://policies.ed.ac.uk/ "Policy Directory | The University of Edinburgh"
+5. Reporting & authority structure (University of Edinburgh – VK)
+
+## Research misconduct (research integrity: staff/researchers; incl. research students depending on case)
+
+**a. Reports to**
+Not specified in official sources.
+(However, the University states that the *main responsible contact* is the Vice-Principal Research and Enterprise, who delegates responsibility for research misconduct in each College.) ([Edinburgh Research Office][1])
+
+**b. Decision-making authority**
+
+* The **Responsible Person** (defined as the relevant Head of School/Head of College or their nominee) receives the investigation report and **“will determine what action to take”** (e.g., dismiss, resolve informally, or take forward under the Disciplinary Procedure). ([edwebcontent.ed.ac.uk][2])
+* The Responsible Person may **recommend** to the University that a qualification is revoked where obtained through proven misconduct. ([edwebcontent.ed.ac.uk][2])
+* The University’s Edinburgh Research Office also states the Vice-Principal Research and Enterprise is the main responsible contact and delegates responsibility in each College. ([Edinburgh Research Office][1])
+
+**c. Appeal or second-opinion mechanisms**
+Not specified in official sources. (The Research Misconduct Policy document accessed does not set out an appeal route.) ([edwebcontent.ed.ac.uk][2])
+
+**d. Source references**
+
+* Edinburgh Research Office (Research misconduct page) ([Edinburgh Research Office][1])
+* Research Misconduct Policy (PDF: “research_misconductfor_staff.pdf”) ([edwebcontent.ed.ac.uk][2])
+* Research Ethics and Integrity Review Group remit (governance context: established by Research Policy Group; reporting/approval links mentioned for annual report) ([committees.ed.ac.uk][3])
+
+---
+
+## Student academic misconduct (assessed work) and escalation into student discipline
+
+**a. Reports to**
+Not specified in official sources (for Academic Misconduct Officers/panels). ([cahss.ed.ac.uk][4])
+
+For **student discipline under the Code of Student Conduct**:
+
+* The Code states students are subject to the **jurisdiction of the Senate**, and that **“The Senate has primary responsibility for student discipline and recommends to the University Court the University’s disciplinary procedure.”** 
+* The Code also states the lead Secretary **“informs the relevant Senate committee annually”** of all cases considered by Student Discipline Officers / the Student Discipline Committee. 
+
+**b. Decision-making authority**
+
+* **College Academic Misconduct Officer (CAMO):** explicitly stated to **investigate**, **determine whether there has been an offence**, and determine whether a **penalty should be applied** or whether the offence is serious enough to proceed to a **disciplinary hearing**. ([cahss.ed.ac.uk][4])
+* **Under the Code of Student Conduct:** the processes “task various members of the University community” with **investigating, determining and imposing penalties**; decisions are made by roles including Conduct Investigators, Student Discipline Officers, and (where applicable) the Student Discipline Committee. 
+* The Code states that the **University Appeal Committee’s decision is final within the University** (after an appeal). 
+
+**c. Appeal or second-opinion mechanisms**
+
+* **Internal appeal (discipline):** If an allegation is upheld, the respondent may appeal within **10 working days** to the **Secretary of the University’s Appeal Committee**; **grounds for appeal are specified in the Student Appeal Regulations**; the appeal is handled under University appeal procedures; **the Appeal Committee decision is final within the University**. 
+* **External review (after appeal):** After the appeal is completed, the respondent may ask the **Scottish Public Services Ombudsman (SPSO)** to look at their appeal. 
+* For **academic misconduct cases that CAMO refers to a disciplinary hearing**, the above Code-of-Student-Conduct appeal route is the explicitly documented appeal route available for the discipline decision-makers. ([cahss.ed.ac.uk][4])
+
+**d. Source references**
+
+* CAHSS page: “Academic misconduct” (roles, CAMO authority, panel composition) ([cahss.ed.ac.uk][4])
+* University Court papers (includes the Code of Student Conduct text with authority + appeals + reporting/recording) 
+
+[1]: https://research-office.ed.ac.uk/research-integrity/research-misconduct "Research misconduct | Edinburgh Research Office | Edinburgh Research Office"
+[2]: https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/research_misconductfor_staff.pdf " "
+[3]: https://www.committees.ed.ac.uk/research-ethics-and-integrity-review-group "Research Ethics and Integrity Review Group Remit | www.committees.ed.ac.uk"
+[4]: https://cahss.ed.ac.uk/taught-students/student-conduct/academic-misconduct "Academic misconduct | College of Arts, Humanities and Social Sciences | College of Arts, Humanities and Social Sciences"

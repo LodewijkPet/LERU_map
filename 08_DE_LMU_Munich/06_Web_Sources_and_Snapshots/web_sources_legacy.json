@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.lmu.de/de/die-lmu/struktur/organisation/vertretungen-und-beauftragte/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.stuve.uni-muenchen.de/service/rechtsgrundlagen/downloads/grundordnung-lmu.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:01+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_grundordnung-lmu.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.stuve.uni-muenchen.de/service/rechtsgrundlagen/downloads/grundordnung-lmu.pdf",
+    "http_status": 200
+  }
+]

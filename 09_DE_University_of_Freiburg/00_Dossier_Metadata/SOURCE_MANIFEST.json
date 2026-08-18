@@ -1,0 +1,85 @@
+{
+  "institution": "University of Freiburg",
+  "country": "Germany",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1732,
+      "sha256": "cd315b5db21ec46be42317afb495d0aaa8e15b293e066d9bf8099d86fafadaa4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6212,
+      "sha256": "3843072c07387d6e798a1e78771b0cb38a1fad1d395fd6fa8a00bae76579a46a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3405,
+      "sha256": "d4b3442eed1c2278467a4a38dacf864b78469ad99df7bce424a5ea2139c26b4d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 936,
+      "sha256": "a0db35540fd2c269bbaba616c6e8e5c1eedc24bc5991eebd0ec08a91896f26c3",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 587,
+      "sha256": "5bf9a7fc5198b5f114278290c44b645f7551801d19131b4d431b5f609319a81e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40691,
+      "sha256": "ea97b3378f4bae2e85aa51f1725381d7137c935e7959ec1f6c97fde8dd179b08",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47914,
+      "sha256": "ee87521d43eebba3efaee5ce356aa85ce3b9943284e89fe0d708833c907ef232",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 33447,
+      "sha256": "0a548b3e6ea0dcab8c27230f6d3651c6437e5fcf03416174ca6e036d1f2901fe",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 5698,
+      "sha256": "3fa487ecd3e1d31fe057016b229beb3f4c5cbe986c34399f5a70c257ed96a1ca",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_Uni-Freiburg-Ordnung-Redlichkeit-in-der-Wissenschaft.pdf",
+      "size_bytes": 353632,
+      "sha256": "265bc935803015941ce0c6ebf42417115b987fa0319de7c5544b66e85c1d852b",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1280,
+      "sha256": "7156e4feb2acbfda99e26f7d348577bd9901910841929401d766609764bde4e1",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

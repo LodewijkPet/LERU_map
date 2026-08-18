@@ -1,0 +1,49 @@
+{
+  "id": "committee:utrecht_university_research_integrity_committee",
+  "name": "Utrecht University Research Integrity Committee",
+  "short_name": "Utrecht University",
+  "jurisdiction": "Netherlands",
+  "institution_type": "university",
+  "scope": "institutional",
+  "established": null,
+  "mandate": "Utrecht University Research Integrity Committee investigates suspected breaches of the Netherlands Code of Conduct for Research Integrity (2018) committed under the responsibility of Utrecht University. The committee operates under the Utrecht University Research Integrity Regulation and Code of Conduct and advises the board on findings and systemic improvements.",
+  "reporting_channels": [
+    {
+      "type": "web",
+      "value": "https://www.uu.nl/en/research/research-at-utrecht-university/quality-and-integrity/research-integrity",
+      "description": "Quality & integrity portal with roles of confidants and committee procedures."
+    }
+  ],
+  "composition": {
+    "chair": "Independent full professor appointed by Utrecht University's Executive Board for a renewable four-year term.",
+    "members": [
+      "Three to five senior academics from different faculties with no conflict of interest.",
+      "A legal/ethics secretary from the integrity or governance office."
+    ],
+    "external_members": [
+      "At least one professor from another Dutch knowledge institution.",
+      "External legal or ethics expert assigned per case."
+    ]
+  },
+  "process": {
+    "intake": "Confidential advisers and integrity coordinators at Utrecht University support staff or students when drafting a signed complaint; the Executive Board forwards admissible cases to the committee.",
+    "investigation": "Utrecht University Research Integrity Committee screens admissibility, appoints rapporteurs, collects documentation, and interviews the complainant, respondent, and witnesses with written minutes.",
+    "outcome": "A reasoned opinion states whether norms were violated and includes recommendations for remediation, training, or policy adjustments before it goes to the Executive Board.",
+    "appeal": "Parties can request advice from LOWI within six weeks if they disagree with the institutional decision."
+  },
+  "linked_organizations": [
+    "Utrecht University"
+  ],
+  "linked_reports": [],
+  "data_status": {
+    "completeness": "partial",
+    "last_verified": "2025-11-18T11:12:18.710769+00:00",
+    "notes": "Desk research update on institutional integrity pages (Nov 2025)."
+  },
+  "sources": [
+    {
+      "title": "Research integrity - Utrecht University",
+      "url": "https://www.uu.nl/en/research/research-at-utrecht-university/quality-and-integrity/research-integrity"
+    }
+  ]
+}

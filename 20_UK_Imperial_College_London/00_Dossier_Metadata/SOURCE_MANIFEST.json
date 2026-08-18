@@ -1,0 +1,99 @@
+{
+  "institution": "Imperial College London",
+  "country": "United Kingdom",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 13,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1740,
+      "sha256": "5b546376ee02b0bb531f647ffab5613892b2bb0728288c867d3d2cc403224f31",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 9879,
+      "sha256": "4922aa679277ea47c9718e12d1db4b24c68d023a58521e31eca03d4d9301c863",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3422,
+      "sha256": "da7d821393b405957ccc62b0819220933dd7285b5c47ecbd643b02c6e083375a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 945,
+      "sha256": "e784eeb1f416654839e80c03379b2dbc1a0d2e8c7591da0cf9409cd167d8190f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 603,
+      "sha256": "ef183219fbc7ad898b4cb7883fa184717416950d0a8102cc2a38f26c9dfacc64",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 28706,
+      "sha256": "6f20376d30f392300538577661af4badea95ce1f60b869c4e264a4e97c641a32",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47853,
+      "sha256": "cd8dec049a7e0146a5d539aa7c60dbc8d549a62ea317c40ec8e5cee6cc9b4a50",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 29196,
+      "sha256": "4e880a7d958b07e421840cd1f87715df86d120e2ea534e060e8b69cc9e5eb9e7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 7849,
+      "sha256": "8a88df2706442410c56f1fc66af809b2a646e766d9aa445da92c4f5dd03c550d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_Imperial_Regulation_21_Research_Misconduct_2026.pdf",
+      "size_bytes": 509232,
+      "sha256": "153ec986247c0b1093e616a08456e03a3e70de8b29afea9d4a5c9834de53301d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_Research-Integrity-Annual-Report-2020.pdf",
+      "size_bytes": 219033,
+      "sha256": "b367d7101ce2c04fd44b1bb782246bacbc9bf86e1c2956ad7a7662ac1a5161d5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_Research-Integrity-Report-2021.pdf",
+      "size_bytes": 228616,
+      "sha256": "3b4d322b81121bcbcca6ac0aca734ca19a031de761089dc1cdd3d0c031181f9f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 5535,
+      "sha256": "33f458b9e798ed3056b87b29a5b017d757b1f92f14ae25c27e4145d2aad89534",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

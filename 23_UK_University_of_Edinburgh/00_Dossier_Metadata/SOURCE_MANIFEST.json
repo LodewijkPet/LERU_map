@@ -1,0 +1,85 @@
+{
+  "institution": "University of Edinburgh",
+  "country": "United Kingdom",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1740,
+      "sha256": "72abc6e67c9a533bc61a0fa6fe335f14f5d65ebd395f2d6dd3b38ab37a06d585",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 7541,
+      "sha256": "f9c5f86c0ba1a754bd2201867525de24f591ff0b0245f073d1b7b7786d92836e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3422,
+      "sha256": "a30f6c50609209cb422ec860614861194cee5fde9ad520439656d42f1af69f77",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 945,
+      "sha256": "d576f590d8f29931f1cdc0e10fd87870955949eb5c002b7944b39efb4d2d1def",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 603,
+      "sha256": "ef183219fbc7ad898b4cb7883fa184717416950d0a8102cc2a38f26c9dfacc64",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 28706,
+      "sha256": "6f20376d30f392300538577661af4badea95ce1f60b869c4e264a4e97c641a32",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47853,
+      "sha256": "cd8dec049a7e0146a5d539aa7c60dbc8d549a62ea317c40ec8e5cee6cc9b4a50",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 29196,
+      "sha256": "4e880a7d958b07e421840cd1f87715df86d120e2ea534e060e8b69cc9e5eb9e7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 9961,
+      "sha256": "e55f1c2a610baee025d17c721f04434122c51215a435561427fd6b422a5e55a8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_research_misconductfor_staff.pdf",
+      "size_bytes": 259216,
+      "sha256": "ece5b80af1e10019ac8f9446ac72b89e48b63be099186b6c7463134a3efe44ed",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 2486,
+      "sha256": "24db29465b7560bebda3e76cc39a3bd3f3c4855664da43a2d87489a9b18bc19f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

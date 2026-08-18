@@ -1,0 +1,25 @@
+{
+  "id": "country:united_kingdom",
+  "name": "United Kingdom",
+  "iso_alpha2": "GB",
+  "iso_alpha3": "GBR",
+  "region": "Northern Europe",
+  "eu_member_state": false,
+  "integrity_system": {
+    "governance_model": "",
+    "primary_legislation": [],
+    "key_institutions": [],
+    "funding_arrangements": "",
+    "case_handling_process": "",
+    "prevention_and_training": ""
+  },
+  "contacts": [],
+  "related_committees": [],
+  "data_status": {
+    "completeness": "not_started",
+    "last_verified": null,
+    "notes": ""
+  },
+  "timeline_highlights": [],
+  "sources": []
+}

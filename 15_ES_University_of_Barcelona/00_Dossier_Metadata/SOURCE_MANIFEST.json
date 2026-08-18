@@ -1,0 +1,92 @@
+{
+  "institution": "University of Barcelona",
+  "country": "Spain",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1731,
+      "sha256": "f275d08c055d299a2cefe6d39416871e9d365e4c6ef9f41aabac19fecb377510",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 5515,
+      "sha256": "490c37beb55b2e747e969b36e9b78d1bafba01af18a32b262aa87839574b8989",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3404,
+      "sha256": "829d99677950cb81c03adcfd998d1dfb95d224ff7800189cfff0349438b47fc4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 936,
+      "sha256": "195cc760231a1db3b5fbe687770bf44f265dd75eed8e7959d5b3121c2311377a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 584,
+      "sha256": "213b8e37f94095f94958902d623a7aaa5696d05d34223c4dbfae25b0f9fafcf0",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 37613,
+      "sha256": "3f322d280c67b200fd927d9ec1fbb32128349f170cae432ac5d5e5e96f535e88",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 48697,
+      "sha256": "f109b9f9f9637043f8a12bb909c666cfeb492bf506bd41c36b486cfd510199fa",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 35257,
+      "sha256": "f8e3ee6910a042dd81d2721213afe82caa10e72099f767cb91ffa687565055ba",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 4549,
+      "sha256": "5176dbd67943be1418845c69ea4db382194a8c81d93e5fd26eaa4751c4d29081",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_UB_good_research_practice_code_ES.pdf",
+      "size_bytes": 441296,
+      "sha256": "db1ddbd22179c655b8d17ee643646d137a6ae58cddb6be6b0f386cf1deb9b043",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_UB_research_integrity_code_multilingual.pdf",
+      "size_bytes": 3013769,
+      "sha256": "0d352f44dd1650eb2f2ffffe9ecfff9e20e8693d52cc5a53c99261cd64116e45",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 314,
+      "sha256": "5c700e6631c3287237948d3f9b38f9eab61348924f7be6bc0d0cdee08d59e120",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

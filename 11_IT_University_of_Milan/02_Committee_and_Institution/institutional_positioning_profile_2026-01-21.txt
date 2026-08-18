@@ -1,0 +1,211 @@
+I’ll look up the University of Milan’s official integrity/misconduct structures on their own pages/regulations, then extract only what’s explicitly stated and present it in your 4-part structure with source references.
+
+
+## Unit 1 — Research integrity / ethics support
+
+1. **Official name of the unit**
+   **Ufficio Etica della Ricerca e Supporto al Comitato Etico** ([Università degli Studi di Milano][1])
+
+2. **Institutional location**
+   Listed as an office within **Unità di Staff di I Livello Privacy ed Etica della Ricerca**, which **“fa parte di”** (is part of) **Unità di Coordinamento Strategico della salute e sicurezza sul lavoro, tutela dei dati personali e qualità dei processi**. ([Università degli Studi di Milano][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases:** Not specified in official sources (the office is named as “Supporto al Comitato Etico,” but no explicit case-handling mandate is described on the organisational page). ([Università degli Studi di Milano][1])
+* **Promoting academic integrity:** Not specified in official sources for this office. ([Università degli Studi di Milano][1])
+* **Overseeing integrity regulations / ordinance:** Not specified in official sources for this office. ([Università degli Studi di Milano][1])
+
+4. **Source references**
+
+* Organisational structure page: *Unità di Staff di I Livello Privacy ed Etica della Ricerca* (shows hierarchy and lists the office). ([Università degli Studi di Milano][1])
+
+---
+
+## Unit 2 — Research integrity / ethics body (the body the office supports)
+
+1. **Official name of the unit**
+   **Comitato Etico dell’Università degli Studi di Milano** ([Università degli Studi di Milano][2])
+
+2. **Institutional location**
+   **Not specified in official sources** as being located within a specific administrative department (it is established by/within the university’s governance-regulatory framework). ([Università degli Studi di Milano][2])
+
+3. **Core responsibilities** (explicitly stated)
+
+* **Handling academic misconduct cases:**
+
+  * Provides opinions on **violations of the Codice Etico** that **are not also disciplinary offences**. ([Università degli Studi di Milano][2])
+* **Promoting academic integrity:**
+
+  * Promotes ethical awareness/education (seminars/courses/initiatives) and “favorisce lo sviluppo della consapevolezza etica.” ([Università degli Studi di Milano][2])
+* **Overseeing integrity regulations / ordinance:**
+
+  * Gives interpretations/opinions on the **Codice Etico** (pareri and application; formal procedure for non-disciplinary violations is described). ([Università degli Studi di Milano][3])
+
+4. **Source references**
+
+* *Regolamento di funzionamento del Comitato Etico* (functions, scope incl. integrity of research; violations of Codice Etico). ([Università degli Studi di Milano][2])
+* *Codice etico e per l’integrità nella ricerca (2019)* (education/promotion; procedure and role of Comitato etico for non-disciplinary violations). ([Università degli Studi di Milano][3])
+* Governance page: *Comitato etico* (description and remit overview). ([Università degli Studi di Milano][4])
+* *Statuto* (Art. 32 on Comitato etico: opinions on research with ethical implications + promoting awareness). ([Università degli Studi di Milano][5])
+
+---
+
+## Unit 3 — Academic misconduct (disciplinary) for professors/researchers
+
+1. **Official name of the unit**
+   **Collegio di disciplina** ([Università degli Studi di Milano][5])
+
+2. **Institutional location**
+   **Not specified in official sources** as belonging to a specific administrative department (it is constituted under the university Statute; governance-level body). ([Università degli Studi di Milano][5])
+
+3. **Core responsibilities** (explicitly stated)
+
+* **Handling academic misconduct cases:**
+
+  * Competent to conduct the **investigatory phase** and issue a **concluding opinion** in disciplinary proceedings for **professors and researchers** (acts/behaviours unlawful or contrary to academic duties and university rules). ([Università degli Studi di Milano][5])
+* **Promoting academic integrity:** Not specified in official sources. ([Università degli Studi di Milano][5])
+* **Overseeing integrity regulations / ordinance:** Not specified in official sources (role is disciplinary procedure). ([Università degli Studi di Milano][5])
+
+4. **Source references**
+
+* *Statuto* (Art. 33: competence and disciplinary procedure flow involving Rettore/CdA). ([Università degli Studi di Milano][5])
+
+---
+
+## Unit 4 — Academic misconduct (disciplinary) for TAB staff
+
+1. **Official name of the unit**
+   **Ufficio per i Procedimenti Disciplinari (UPD)** ([Università degli Studi di Milano][6])
+
+2. **Institutional location**
+   Explicitly stated as **“fa parte di Avvocatura”** (Legal Affairs). ([Università degli Studi di Milano][6])
+
+3. **Core responsibilities** (explicitly stated)
+
+* **Handling academic misconduct cases:**
+
+  * Initiates, investigates, and concludes disciplinary proceedings for **personale TAB** and disciplinarily-equated staff for sanctions beyond verbal reprimand. ([Università degli Studi di Milano][6])
+* **Promoting academic integrity:** Not specified in official sources. ([Università degli Studi di Milano][6])
+* **Overseeing integrity regulations / ordinance:** Not specified in official sources (the page frames its remit as disciplinary procedure under D.Lgs. 165/2001). ([Università degli Studi di Milano][6])
+
+4. **Source references**
+
+* Unit page: *Ufficio Procedimenti Disciplinari* (position within Avvocatura; “Di cosa si occupa”; activities; contacts). ([Università degli Studi di Milano][6])
+
+*Note:* I attempted to render screenshots of the official PDFs (for verification), but the web tool returned a validation error; all PDF-based statements above come from the text extracted directly from the official University of Milan PDF documents.
+
+[1]: https://www.unimi.it/it/ugov/ou-structure/unita-di-staff-di-i-livello-privacy-ed-etica-della-ricerca "Unità di Staff di I Livello Privacy ed Etica della Ricerca | Università degli Studi di Milano Statale"
+[2]: https://www.unimi.it/sites/default/files/regolamenti/REGOLAMENTO%20DI%20FUNZIONAMENTO%20COMITATO%20ETICO.pdf "REGOLAMENTO DI FUNZIONAMENTO DEL COMITATO ETICO"
+[3]: https://www.unimi.it/sites/default/files/2021-09/Codice%20etico%202019.pdf "CODICE ETICO E PER L’INTEGRITÀ NELLA RICERCA"
+[4]: https://www.unimi.it/it/ateneo/governance-e-linee-strategiche/organi-di-governo/comitato-etico "Comitato etico | Università degli Studi di Milano Statale"
+[5]: https://www.unimi.it/sites/default/files/2021-03/Statuto%20dell%27Universit%C3%A0%20degli%20Studi%20di%20MIlano_in%20vigore%20dal%2031.05.2020.pdf "Statuto dell'Università degli studi di Milano_GU 125 del 16 maggio 2020"
+[6]: https://www.unimi.it/it/ugov/ou-structure/ufficio-procedimenti-disciplinari "Ufficio Procedimenti Disciplinari | Università degli Studi di Milano Statale"
+5. Reporting & authority structure
+   *(University of Milan / Università degli Studi di Milano – “La Statale”; multiple bodies are involved depending on whether the matter is research-ethics/ethical-code, faculty/researcher discipline, or staff discipline.)*
+
+---
+
+## A) **Ufficio Etica della Ricerca e Supporto al Comitato Etico** *(office supporting research ethics / integrity processes)*
+
+a. **Reports to**
+
+* **Unità di Staff di I Livello Privacy ed Etica della Ricerca** (the office is listed as an “Ufficio” within this Staff Unit). ([Università degli Studi di Milano Statale][1])
+* That Staff Unit is part of the **Unità di Coordinamento Strategico della salute e sicurezza sul lavoro, tutela dei dati personali e qualità dei processi**, which in turn is part of the **Direzione Generale**. ([Università degli Studi di Milano Statale][1])
+
+b. **Decision-making authority**
+
+* **Not specified in official sources.**
+  (Official sources available show placement in the organisation, but do not explicitly grant decision authority to this office.) ([Università degli Studi di Milano Statale][1])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Not specified in official sources.**
+
+d. **Source references**
+
+* UniMI organisational page: *Unità di Staff di I Livello Privacy ed Etica della Ricerca* (lists the office and “fa parte di …”). ([Università degli Studi di Milano Statale][1])
+* UniMI organisational page: *Unità di Coordinamento Strategico…* (shows it “fa parte di Direzione Generale” and lists the Staff Unit). ([Università degli Studi di Milano Statale][2])
+
+---
+
+## B) **Comitato etico** *(research ethics + ethical code violations that are not disciplinary)*
+
+a. **Reports to**
+
+* **Not specified in official sources** (as a formal reporting line).
+* In the **Ethics Code procedure**, the Committee **transmits its (non-binding) opinion to the Rector (Rettore)**. ([Università degli Studi di Milano Statale][3])
+
+b. **Decision-making authority**
+
+* **Advisory (explicit):** the Committee issues a **“parere … non vincolante”** in the procedure for “comportamenti eticamente scorretti”. ([Università degli Studi di Milano Statale][3])
+* **Final decision for non-disciplinary Ethics Code violations (explicit):** the **Senato accademico** decides on Ethics Code violations **not under the Collegio di disciplina**, **on proposal of the Rector**. ([Università degli Studi di Milano Statale][4])
+
+c. **Appeal or second-opinion mechanisms**
+
+* In the Ethics Code procedure, after the Committee’s opinion, **interested persons have 60 days to submit observations to the Rector**. ([Università degli Studi di Milano Statale][3])
+* No further appeal mechanism is explicitly described in the cited official sources. **Not specified in official sources.**
+
+d. **Source references**
+
+* *Codice etico e per l’integrità nella ricerca* (esp. Art. 44–46: transmission to Committee; “parere … non vincolante”; 60-day observations to Rector). ([Università degli Studi di Milano Statale][3])
+* *Statuto d’Ateneo* (Ethics Code violations decided by Senato accademico on Rector’s proposal when not under Collegio di disciplina). ([Università degli Studi di Milano Statale][4])
+* *Regolamento di funzionamento del Comitato Etico* (Committee “esprime pareri…”, including on violations of the Code that are not disciplinary; appointment details). ([Università degli Studi di Milano Statale][5])
+
+---
+
+## C) **Collegio di disciplina** *(disciplinary proceedings for professors and researchers)*
+
+a. **Reports to**
+
+* **Not specified in official sources** (as a formal reporting line).
+* Procedurally, the Collegio **transmits its “parere … vincolante” to the Consiglio di amministrazione**. ([Università degli Studi di Milano Statale][4])
+
+b. **Decision-making authority**
+
+* **Mixed (explicit):**
+
+  * The **Rector** sends a motivated sanction proposal to the Collegio. ([Università degli Studi di Milano Statale][4])
+  * The **Collegio** issues a **binding** reasoned opinion (“parere motivato e vincolante”) on both facts and sanction, and transmits it to the **Consiglio di amministrazione**. ([Università degli Studi di Milano Statale][4])
+  * The **Consiglio di amministrazione** **imposes the sanction or orders archiving**, and the Rector must execute it. ([Università degli Studi di Milano Statale][4])
+
+c. **Appeal or second-opinion mechanisms**
+
+* The General Regulation describes an internal **recusal (ricusazione) request** mechanism: a request is decided **definitively** by the President of the Collegio (or by the Collegio if the President is challenged), and that decision is stated as **not challengeable** (“non è impugnabile”). ([Università degli Studi di Milano Statale][6])
+* Broader appeal routes against the final disciplinary sanction: **Not specified in official sources** (in the cited materials).
+
+d. **Source references**
+
+* *Statuto d’Ateneo* (Art. 33: binding opinion; sanction imposed by Consiglio di amministrazione; execution by Rector). ([Università degli Studi di Milano Statale][4])
+* *Regolamento generale d’Ateneo* (recusal/ricusazione mechanism and “non è impugnabile”). ([Università degli Studi di Milano Statale][6])
+
+---
+
+## D) **Ufficio Procedimenti Disciplinari (UPD)** *(disciplinary proceedings for TAB staff / equivalent)*
+
+a. **Reports to**
+
+* The UPD **“fa parte di” Avvocatura** (organisational placement). ([Università degli Studi di Milano Statale][7])
+* The UPD is chaired by the **Direttore Generale pro tempore** “con funzioni di Presidente” (composition as published). ([Università degli Studi di Milano Statale][7])
+
+b. **Decision-making authority**
+
+* The UPD is explicitly described as responsible to **start, investigate, and conclude disciplinary proceedings** for sanctions above verbal reprimand, and to conclude with **issuance of the (possible) disciplinary measure** (“emissione dell’eventuale provvedimento disciplinare”). ([Università degli Studi di Milano Statale][7])
+* Whether any other UniMI body must formally approve/ratify the UPD’s disciplinary measure: **Not specified in official sources** (in the cited UPD page/decree).
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Not specified in official sources.**
+
+d. **Source references**
+
+* UniMI organisational page: *Ufficio Procedimenti Disciplinari* (parent unit “Avvocatura”, mandate, activities, composition). ([Università degli Studi di Milano Statale][7])
+* UniMI decree PDF on UPD composition (mentions Direzione Generale role and organisational reconfiguration including Avvocatura). ([Università degli Studi di Milano Statale][8])
+
+[1]: https://www.unimi.it/it/ugov/ou-structure/unita-di-staff-di-i-livello-privacy-ed-etica-della-ricerca "Unità di Staff di I Livello Privacy ed Etica della Ricerca | Università degli Studi di Milano Statale"
+[2]: https://www.unimi.it/it/ugov/ou-structure/unita-di-coordinamento-strategico-della-salute-e-sicurezza-sul-lavoro-tutela-dei-dati-personali-e "Unità di Coordinamento Strategico della salute e sicurezza sul lavoro, tutela dei dati personali e qualità dei processi | Università degli Studi di Milano Statale"
+[3]: https://www.unimi.it/sites/default/files/2021-09/Codice%20etico%202019.pdf "CODICE ETICO E PER L’INTEGRITÀ NELLA RICERCA"
+[4]: https://www.unimi.it/sites/default/files/2021-03/Statuto%20dell%27Universit%C3%A0%20degli%20Studi%20di%20MIlano_in%20vigore%20dal%2031.05.2020.pdf "Statuto dell'Università degli studi di Milano_GU 125 del 16 maggio 2020"
+[5]: https://www.unimi.it/sites/default/files/regolamenti/REGOLAMENTO%20DI%20FUNZIONAMENTO%20COMITATO%20ETICO.pdf "REGOLAMENTO DI FUNZIONAMENTO DEL COMITATO ETICO"
+[6]: https://www.unimi.it/sites/default/files/regolamenti/Regolamento%20generale%20d%27Ateneo_in%20vigore%20dal%202%20giugno%202020.pdf "Regolamento generale dell'Università degli studi di Milano_modifiche DR 1991/2020"
+[7]: https://www.unimi.it/it/ugov/ou-structure/ufficio-procedimenti-disciplinari "Ufficio Procedimenti Disciplinari | Università degli Studi di Milano Statale"
+[8]: https://www.unimi.it/sites/default/files/2023-12/Nuovo%20Decreto%20UPD%20-%20anno%202023_signed.pdf " "

@@ -1,0 +1,92 @@
+{
+  "institution": "University of Zurich",
+  "country": "Switzerland",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1734,
+      "sha256": "2e901de1161ce1ed8317e1562d2e0618e8a985b790392697eeee63f4de09694d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 8679,
+      "sha256": "571faea840ac1c9e21cfe898f3a21a31a48be74a04505143ae63bb50df5eb39d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3407,
+      "sha256": "0bd25361b2019df1c3160209538b21f17a968ee45d2ebb618bd3573c1755c7c9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 936,
+      "sha256": "37384f5a81144a6ea6585c56c4b597263fbf9adc60d7c0cf4688fd8d28184f23",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 596,
+      "sha256": "68d324a2798c73c54a1800608aa0a07a3b5c8495514eda70927a678226403171",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40828,
+      "sha256": "e6c58dc458fc3acb47b2e053e8557ccde95fd86293af4f8f6cf9cdec4339022e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 59033,
+      "sha256": "61dc4ea1dd21c0a960be2bd9140cfdb64c69ca4fc7eda81ae7865dc81e5c56ae",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34072,
+      "sha256": "e976467318ee71cf1ac738c58babbce013b41dd78946213f1357b8ae554c6b93",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 10165,
+      "sha256": "e8e969d253018dfd7d0cd40d94f6f714760c798dbe4e32858253fbf986095665",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_415.27_25.5.20_110.pdf",
+      "size_bytes": 99332,
+      "sha256": "cdf09882ee035c6979b05631346f9828458d68c0332014dfcc3f055a8c72ba0d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_Integritaetsverordnung.pdf",
+      "size_bytes": 65590,
+      "sha256": "ee7ecf212a8fad14508b9d425a07f67c91279db7c593d52d67efb08c6310cc67",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 3840,
+      "sha256": "42b0e07a6a68ab5761eb9866c70ce812f899519d1a9754e4068222cb45b7631c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

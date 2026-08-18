@@ -1,0 +1,25 @@
+{
+  "id": "country:sweden",
+  "name": "Sweden",
+  "iso_alpha2": "SE",
+  "iso_alpha3": "SWE",
+  "region": "Northern Europe",
+  "eu_member_state": true,
+  "integrity_system": {
+    "governance_model": "",
+    "primary_legislation": [],
+    "key_institutions": [],
+    "funding_arrangements": "",
+    "case_handling_process": "",
+    "prevention_and_training": ""
+  },
+  "contacts": [],
+  "related_committees": [],
+  "data_status": {
+    "completeness": "not_started",
+    "last_verified": null,
+    "notes": ""
+  },
+  "timeline_highlights": [],
+  "sources": []
+}

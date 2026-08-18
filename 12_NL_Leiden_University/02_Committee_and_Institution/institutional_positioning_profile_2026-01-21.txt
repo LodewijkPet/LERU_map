@@ -1,0 +1,61 @@
+1. **Official name of the unit**
+   **Commissie Wetenschappelijke Integriteit** ([organisatiegids.universiteitleiden.nl][1])
+   (English version on the official site: **Academic Integrity Committee**) ([organisatiegids.universiteitleiden.nl][2])
+
+2. **Institutional location**
+
+* The Commissie Wetenschappelijke Integriteit is presented in Leiden University’s official **Organisatiegids** under **Universitaire commissies / University committees**. ([organisatiegids.universiteitleiden.nl][1])
+* The **Secretariat of the Academic Integrity Committee** is explicitly listed as: **Legal Affairs**. ([organisatiegids.universiteitleiden.nl][2])
+* The committee’s advice is sent to the **College van Bestuur (Executive Board)**, which issues the (final) decision. ([organisatiegids.universiteitleiden.nl][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases — Explicitly mentioned**
+
+  * “Onderzoekt klachten betreffende een vermoeden van een schending van de wetenschappelijke integriteit door een medewerker …” (investigates complaints about suspected breaches by employees). ([organisatiegids.universiteitleiden.nl][1])
+  * Described as investigating suspected violations of academic integrity by employees; complaints can be filed and are handled via the committee procedure. ([organisatiegids.universiteitleiden.nl][2])
+  * Issues an advice/recommendation to the Executive Board; the Executive Board decides on measures and final ruling (with possible LOWI second opinion). ([organisatiegids.universiteitleiden.nl][1])
+
+* **Promoting academic integrity — Not specified in official sources.** ([organisatiegids.universiteitleiden.nl][1])
+
+* **Overseeing integrity regulations / ordinance — Not specified in official sources.**
+  (The committee is stated to investigate complaints in accordance with the complaints regulation and the Netherlands Code of Conduct, but an “oversight” role is not explicitly described.) ([organisatiegids.universiteitleiden.nl][2])
+
+4. **Source references**
+
+* Organisatiegids (NL): **Commissie Wetenschappelijke Integriteit** ([organisatiegids.universiteitleiden.nl][1])
+* Organisatiegids (EN): **Academic Integrity Committee** (includes: “Secretariat … Legal Affairs”) ([organisatiegids.universiteitleiden.nl][2])
+
+[1]: https://www.organisatiegids.universiteitleiden.nl/universitaire-commissies/commissie-wetenschappelijke-integriteit "Commissie Wetenschappelijke Integriteit - Universiteit Leiden"
+[2]: https://www.organisatiegids.universiteitleiden.nl/en/university-committees/academic-integrity-committee "Academic Integrity Committee - Leiden University"
+I’ll use Leiden’s official complaints procedure pages/regulations to extract explicit statements about who receives the committee’s advice, who decides, and what (second-opinion/appeal) routes exist, then present them exactly in your requested structure.
+
+
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Executive Board (College van Bestuur)** — the committee “submits [its] advice … to the Executive Board.” ([organisatiegids.universiteitleiden.nl][1])
+* The complaints regulation also states that the committee “will report on its activities to the Executive Board by means of an annual report.” ([staff.universiteitleiden.nl][2])
+
+b. **Decision-making authority**
+
+* **Advisory (committee):** the committee “formulates its advice … and submits it to the Executive Board.” ([organisatiegids.universiteitleiden.nl][1])
+* **Final decision authority (Executive Board):** the “Executive Board then decides whether to adopt the advice and, if the complaint is upheld, which measures will be taken,” and after the LOWI procedure the Executive Board “takes a final decision on the complaint.” ([organisatiegids.universiteitleiden.nl][1])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Second opinion:** a decision “can be submitted for a second opinion to the Netherlands Board on Research Integrity (LOWI), which then reviews the complaint and the procedure followed.” After that, the Executive Board takes the final decision. ([organisatiegids.universiteitleiden.nl][1])
+* The university also describes decisions as “provisional” because parties have **six weeks** to request a second opinion from LOWI. ([Universiteit Leiden][3])
+
+d. **Source references**
+
+* Organisatiegids (EN): **Academic Integrity Committee** (complaint handling, advice to Executive Board, LOWI second opinion, final decision) ([organisatiegids.universiteitleiden.nl][1])
+* Organisatiegids (NL): **Commissie Wetenschappelijke Integriteit** (advies aan College van Bestuur, LOWI second opinion, definitief besluit) ([organisatiegids.universiteitleiden.nl][4])
+* Leiden University regulation (PDF): **Regulations on Complaints Regarding Academic Integrity** (annual reporting to Executive Board; initial/final judgment; LOWI request within six weeks) ([staff.universiteitleiden.nl][2])
+* Leiden University news item (EN): **Breach of academic integrity by former employee…** (provisional decision; six weeks for LOWI second opinion) ([Universiteit Leiden][3])
+
+[1]: https://www.organisatiegids.universiteitleiden.nl/en/university-committees/academic-integrity-committee "Academic Integrity Committee - Leiden University"
+[2]: https://www.staff.universiteitleiden.nl/binaries/content/assets/ul2staff/reglementen/po/klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf "Microsoft Word - VE 1372 Klachtregeling wetenschappelijk integriteit ENG EDIT-gezegeld.doc"
+[3]: https://www.universiteitleiden.nl/en/news/2019/11/191129-integriteitsmelding-en "Breach of academic integrity by former employee of Leiden University - Leiden University"
+[4]: https://www.organisatiegids.universiteitleiden.nl/universitaire-commissies/commissie-wetenschappelijke-integriteit "Commissie Wetenschappelijke Integriteit - Universiteit Leiden"

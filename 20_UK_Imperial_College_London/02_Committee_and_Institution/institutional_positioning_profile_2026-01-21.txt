@@ -1,0 +1,86 @@
+I’ll look up Imperial College London’s official research integrity / misconduct structures, extract the exact unit name and where it sits institutionally, then summarize responsibilities with only what’s explicitly stated and cite the official pages.
+
+
+1. Official name of the unit
+   Research Misconduct Review Group (RMRG) ([Imperial College London][1])
+
+2. Institutional location
+   Allegations of research misconduct are made (in confidence) to the **College Secretary and General Counsel**, who is stated to be the **Chair of the RMRG**. Further organisational placement of the RMRG is **Not specified in official sources.** ([Imperial College London][1])
+
+3. Core responsibilities
+
+* Handling academic misconduct cases: **Handling allegations of research misconduct** (explicitly stated via the formal reporting route to the Chair of the RMRG). ([Imperial College London][1])
+* Promoting academic integrity: **Not specified in official sources.** ([Imperial College London][1])
+* Overseeing integrity regulations / ordinance: **Not specified in official sources.** ([Imperial College London][1])
+
+4. Source references
+
+* Imperial College London — “Research integrity framework” (Research Integrity Investigations → Misconduct): [https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/research-integrity-framework/](https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/research-integrity-framework/) ([Imperial College London][1])
+
+---
+
+1. Official name of the unit
+   Research Governance and Integrity Team (RGIT) ([Imperial College London][2])
+
+2. Institutional location
+   Stated to be **part of the Research Office**. ([Imperial College London][3])
+
+3. Core responsibilities
+
+* Handling academic misconduct cases: **Not specified in official sources.** ([Imperial College London][2])
+* Promoting academic integrity: The RGIT is stated to **run training** for staff and students (this is explicitly stated as training activity; the sources do not explicitly label this as “promoting academic integrity”). ([Imperial College London][4])
+* Overseeing integrity regulations / ordinance: The RGIT is stated to **support the College and its researchers to meet the requirements of research regulatory governance** (explicit). Oversight of integrity regulations/ordinances is **Not specified in official sources.** ([Imperial College London][2])
+
+4. Source references
+
+* Imperial College London — “Research governance and integrity”: [https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/](https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/) ([Imperial College London][2])
+* Imperial College London — “RGIT events”: [https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/rgit-events/](https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/rgit-events/) ([Imperial College London][4])
+* Imperial College London — “Research Integrity Annual Report 2019–20” (snippet indicating RGIT is part of the Research Office): [https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf](https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf) ([Imperial College London][3])
+
+[1]: https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/research-integrity-framework/?utm_source=chatgpt.com "Research integrity framework"
+[2]: https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/?utm_source=chatgpt.com "Research governance and integrity"
+[3]: https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Annual-Report-2020.pdf?utm_source=chatgpt.com "RESEARCH INTEGRITY ANNUAL REPORT 2019-20"
+[4]: https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/rgit-events/?utm_source=chatgpt.com "RGIT events | Research"
+I’ll re-check Imperial College London’s official misconduct/research integrity framework and related governance pages to extract any explicit reporting lines, who makes decisions, and whether any appeal/second-opinion routes are formally described.
+
+
+5. Reporting & authority structure (Research Misconduct Review Group, RMRG)
+
+a. Reports to
+Not specified in official sources. ([Imperial College London][1])
+
+b. Decision-making authority
+Not specified in official sources. ([Imperial College London][1])
+
+c. Appeal or second-opinion mechanisms
+Not specified in official sources. ([Imperial College London][1])
+
+d. Source references
+
+* Imperial College London — Research integrity framework (states allegations are made to the **College Secretary and General Counsel**, as **Chair of the RMRG**) ([Imperial College London][1])
+* Imperial College London — “What is research misconduct?” (states research-misconduct matters should be addressed to the **College Secretary and General Counsel**) ([Imperial College London][2])
+* Imperial College London — Research Integrity Annual Report 2020–21 (search snippet states the **College Secretary and General Counsel** is Chair of the RMRG) ([Imperial College London][3])
+* Imperial College London — Annexes to Appendix to Ordinances (Staff) (search snippet refers to formal notification of allegations to the Chair of the RMRG) ([Imperial College London][4])
+* Imperial College London — Annual statement on research integrity 2024 (for the named senior oversight role referenced below) ([Imperial College London][5])
+
+---
+
+5. Reporting & authority structure (Research integrity oversight role named by the university)
+
+a. Reports to
+Not specified in official sources.
+
+b. Decision-making authority
+Not specified in official sources.
+
+c. Appeal or second-opinion mechanisms
+Not specified in official sources.
+
+d. Source references
+Imperial’s **Annual statement on research integrity 2024** explicitly names the **“Named senior member of staff to oversee research integrity”** as **Professor Mary Ryan, Vice Provost (Research and Enterprise)**. ([Imperial College London][5])
+
+[1]: https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/research-integrity-framework/?utm_source=chatgpt.com "Research integrity framework"
+[2]: https://www.imperial.ac.uk/research-and-innovation/support-for-staff/research-office/research-governance-and-integrity/research-integrity/what-is-research-integrity/what-is-research-misconduct/?utm_source=chatgpt.com "What is research misconduct?"
+[3]: https://www.imperial.ac.uk/media/imperial-college/research-and-innovation/research-office/public/Research-Integrity-Report-2021.pdf?utm_source=chatgpt.com "RESEARCH INTEGRITY ANNUAL REPORT 2020-21 ..."
+[4]: https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/secretariat/new-library-may-24/Annexes-to-Appendix-to-Ordinances-%28Staff%29%2813-December-2023%29.pdf?utm_source=chatgpt.com "Annexes to the Appendix to the Ordinances"
+[5]: https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/research-integrity-investigations/misconduct/annual-statement-on-research-integrity-2024/?utm_source=chatgpt.com "Annual statement on research integrity 2024"

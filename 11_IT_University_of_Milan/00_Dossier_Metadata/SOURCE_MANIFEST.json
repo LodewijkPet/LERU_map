@@ -1,0 +1,78 @@
+{
+  "institution": "University of Milan",
+  "country": "Italy",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 10,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1727,
+      "sha256": "019d0558ddc0b77194b145d6dac5af97cedf91ec52130189a4ef83041df92fb6",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 8157,
+      "sha256": "99dcdcd82513d83e58e60bc208ee76dc15fb7985085e21f112729ed316dee78a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3392,
+      "sha256": "f615ddb345c6160cbc0361db77e98c833c2261a5f733c2fddd0160826481fa64",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 928,
+      "sha256": "a8c9e6fad04ff4d5290a52f57eaab8a7881f1694b82a98ea9a60aa8bacb68737",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 584,
+      "sha256": "0b7b3e88dc6067fa5c7bdda9efda79031dbb542bfe30f7d213070e90a58411ee",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 37613,
+      "sha256": "3f322d280c67b200fd927d9ec1fbb32128349f170cae432ac5d5e5e96f535e88",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 48697,
+      "sha256": "f109b9f9f9637043f8a12bb909c666cfeb492bf506bd41c36b486cfd510199fa",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 35257,
+      "sha256": "f8e3ee6910a042dd81d2721213afe82caa10e72099f767cb91ffa687565055ba",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 15456,
+      "sha256": "cd4f90490249131ec91262f87f4e9f22659e02ed1a301e7ff90d0d10e2bf2c18",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 3465,
+      "sha256": "e8f5ef57c0052f50dd962613eb107ed0f79323ff013fc8980a8b9280293852c3",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

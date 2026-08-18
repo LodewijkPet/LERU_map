@@ -1,0 +1,106 @@
+{
+  "institution": "ETH Zurich",
+  "country": "Switzerland",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 14,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1724,
+      "sha256": "72ee682eabaf4a861200d8477e3aa169323f43dbb4c14c2f11f24d622eee6297",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 8791,
+      "sha256": "4d79ab97738c084c0e8137757ce1f13ca3f2b81d7a3bc44ab4031fbd3440ed72",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3385,
+      "sha256": "a91f1fd232e88bb588674ad7efb2a1085d9374668a60802b2322094114c4879c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 916,
+      "sha256": "8d322723ea6a87c17a395a41740111ef447e9a5d537f21472e827736441a68d8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 596,
+      "sha256": "68d324a2798c73c54a1800608aa0a07a3b5c8495514eda70927a678226403171",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40828,
+      "sha256": "e6c58dc458fc3acb47b2e053e8557ccde95fd86293af4f8f6cf9cdec4339022e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 59033,
+      "sha256": "61dc4ea1dd21c0a960be2bd9140cfdb64c69ca4fc7eda81ae7865dc81e5c56ae",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34072,
+      "sha256": "e976467318ee71cf1ac738c58babbce013b41dd78946213f1357b8ae554c6b93",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 7876,
+      "sha256": "cd9388ff3427524e7a4bdcb4ab0194440b4f142ab0b5b8f2ad75bdc96e152571",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_information-on-legal-action.pdf",
+      "size_bytes": 563907,
+      "sha256": "b034dec0aec9006f6eeb4f7a80bffbf74a12768d3bca2fffccca01b584daeada",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Received_from_institution_415en.pdf",
+      "size_bytes": 243955,
+      "sha256": "d19eacc7a2c985177ee1c37516c9c95d23111db6eb9f6d54f5e6073d8efa8d9d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Received_from_institution_Keypoints.pdf",
+      "size_bytes": 99383,
+      "sha256": "48a70d1f64ad9540f13cc7a17f20ca495f771502271cfe9fc1403bd5577e68e9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "05_Correspondence_RESTRICTED/Received_from_institution_Notes Geral Achermann.docx",
+      "size_bytes": 15353,
+      "sha256": "9e3c156df1f87733749a793a1728f81764555301ecad1a277f88180bb14c8406",
+      "confidentiality": "restricted-project-team",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1840,
+      "sha256": "ddb575dd5f27086428a12bdd6f049b31d01ca9fc277dd7e1773ec6284833b26b",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

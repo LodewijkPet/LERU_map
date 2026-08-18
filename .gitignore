@@ -1,5 +1,6 @@
 # Keep non-public correspondence and meeting context out of the public repository.
 **/03_Email_and_Meeting_Context_RESTRICTED/
+**/*RESTRICTED*/
 
 # Local scratch and dependency folders are reproducible and not project sources.
 tmp/

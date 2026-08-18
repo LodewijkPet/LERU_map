@@ -1,0 +1,119 @@
+I’ll quickly look up Cambridge’s official research integrity/misconduct structures (policies + governance pages), then extract only what’s explicitly stated and present it in your 4-part structure with direct source references.
+
+
+## University of Cambridge (UK)
+
+### A) Research integrity / research misconduct
+
+1. **Official name of the unit**
+   Research Governance and Integrity Team ([University of Cambridge][1])
+
+2. **Institutional location**
+
+* “A team within the **University Research Office**…” ([University of Cambridge][1])
+* Also described as being **based in the Cambridge Research Office**. ([University of Cambridge][2])
+* Research-integrity queries are routed to the Pro-Vice-Chancellor for Research via the **Research Strategy Office** (contact routing; institutional “home” not further specified on that page). ([University of Cambridge][3])
+
+3. **Core responsibilities** (only what is explicitly stated)
+
+* **Handling academic misconduct cases (research misconduct): Explicitly mentioned**
+
+  * Supports the administration/running of the University’s procedure for investigating allegations of research misconduct. ([University of Cambridge][1])
+  * Designated to support the Responsible Person in handling investigations under the procedure. ([University of Cambridge][1])
+* **Promoting academic integrity: Explicitly mentioned (via advice/training support functions)**
+
+  * Provides administrative support and triage for the Research Integrity Advisory Panel; answers straightforward queries or routes them to a panel member. ([University of Cambridge][2])
+  * Uses aggregated query information to help improve/develop training courses, resources and guidance. ([University of Cambridge][4])
+* **Overseeing integrity regulations / ordinance: Explicitly mentioned (procedural oversight of the misconduct procedure)**
+
+  * May propose procedural variations to the Secretary of the Process; keeps formal records of variations/decisions; advises on reporting requirements. ([University of Cambridge][1])
+
+4. **Source references**
+
+* “Research integrity” (contact points; PVCR routed via research governance & integrity team). ([University of Cambridge][5])
+* “Research Integrity Advisory Panel” (team based in Cambridge Research Office; admin support/triage). ([University of Cambridge][2])
+* “Research Integrity Advisory Panel procedures” (team part of Cambridge Research Office; query-handling; training/resources improvement). ([University of Cambridge][4])
+* “Research integrity statement” (PVCR contacted through Research Strategy Office). ([University of Cambridge][3])
+* “Procedure for the Investigation of an Allegation of Research Misconduct” (definitions + role of Research Governance and Integrity Team). ([University of Cambridge][1])
+
+---
+
+### B) Student academic misconduct (assessment/exams)
+
+1. **Official name of the unit**
+   Office of Student Conduct, Complaints and Appeals (OSCCA) ([studentcomplaints.admin.cam.ac.uk][6])
+
+2. **Institutional location**
+   A “central University office within **Student Operations**, a part of the University’s **Education Services**.” ([studentcomplaints.admin.cam.ac.uk][6])
+
+3. **Core responsibilities** (only what is explicitly stated)
+
+* **Handling academic misconduct cases: Explicitly mentioned (case handling/oversight of procedures)**
+
+  * Provides “procedural advice, **case handling and oversight** of a number of student procedures.” ([studentcomplaints.admin.cam.ac.uk][6])
+  * Academic misconduct breaches “will be taken forward under the **Student Discipline Procedure**,” with full information available from OSCCA. ([educationalpolicy.admin.cam.ac.uk][7])
+* **Promoting academic integrity: Not specified in official sources (for OSCCA)**
+
+  * Separate university pages (Education Quality and Policy Office) provide guidance on good academic practice/plagiarism, but OSCCA’s own “promotion” remit is not stated on the OSCCA page. ([educationalpolicy.admin.cam.ac.uk][8])
+* **Overseeing integrity regulations / ordinance: Explicitly mentioned (oversight of student procedures)**
+
+  * “Oversight of a number of student procedures” is explicitly stated. ([studentcomplaints.admin.cam.ac.uk][6])
+
+4. **Source references**
+
+* Student Complaints – “About” (OSCCA location + responsibilities). ([studentcomplaints.admin.cam.ac.uk][6])
+* Education Quality and Policy Office – “Plagiarism and Academic Misconduct” (guidance + procedures context). ([educationalpolicy.admin.cam.ac.uk][8])
+* “Definition of academic misconduct” (academic misconduct routed into Student Discipline Procedure; OSCCA referenced). ([educationalpolicy.admin.cam.ac.uk][7])
+
+[1]: https://www.cam.ac.uk/sites/default/files/research_misconduct_procedure_-_lt2024_0.pdf "Procedure for the Investigation of an Allegation of Research Misconduct, with effect from 23 February 2024"
+[2]: https://www.cam.ac.uk/research/integrity/advisory-panel "Research integrity advisory panel | University of Cambridge"
+[3]: https://www.cam.ac.uk/research/integrity/statement "Research integrity Statement | University of Cambridge"
+[4]: https://www.cam.ac.uk/research/integrity/advisory-panel/procedures "Research Integrity Advisory Panel procedures | University of Cambridge"
+[5]: https://www.cam.ac.uk/research/integrity "Research integrity | University of Cambridge"
+[6]: https://www.studentcomplaints.admin.cam.ac.uk/home/about "About | Student Complaints"
+[7]: https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/definition-academic-misconduct "Definition of Academic Misconduct | Education Quality and Policy Office"
+[8]: https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct "Plagiarism and Academic Misconduct | Education Quality and Policy Office"
+5. Reporting & authority structure (University of Cambridge – UK)
+
+a. Reports to
+**Research misconduct (research integrity procedure)**
+
+* **Not specified in official sources** (no explicit “reports to” line for the *Research Governance and Integrity Team*).
+* The Procedure states that the **Secretary of the Process** (defined as the **Academic Secretary or the Registrary**) oversees application of the procedure, and that the **Responsible Person** (the **Head of the relevant University Institution** or the **Pro-Vice-Chancellor with responsibility for Research**) considers the Stage 3 report “taking the advice of the Secretary of the Process and the Research Governance and Integrity Team.” ([University of Cambridge][1])
+* Where serious systemic issues about research integrity are identified, the Procedure states the **Research Governance and Integrity Team will inform the Pro-Vice-Chancellor with responsibility for Research.** ([University of Cambridge][1])
+
+**Student academic misconduct (student disciplinary procedure / OSCCA)**
+
+* The Student Disciplinary Procedure states that **OSCCA produces an annual report** which “shall be submitted to the **General Board** (through its **Education Committee**) and to the **Council**.” 
+
+b. Decision-making authority
+**Research misconduct (research integrity procedure)**
+
+* The Procedure states the **Responsible Person** considers the Stage 3 report and takes actions “as they deem appropriate,” including determinations that (i) misconduct did not occur (dismiss), (ii) misconduct occurred and is referred to disciplinary procedures, or other specified outcomes. ([University of Cambridge][1])
+* The **Appeal Manager** (appointed by the Academic Secretary) decides the appeal outcome (uphold/dismiss) and may, where appropriate, refer the case back for reconsideration. ([University of Cambridge][1])
+
+**Student academic misconduct (student disciplinary procedure / OSCCA)**
+
+* The glossary states the **Student Discipline Officer (SDO)** is “appointed by Grace” and has authority to impose sanctions. 
+* The glossary states the **Discipline Committee** (appointed by the General Board) determines whether Rules were breached and “has the authority to impose sanctions or measures.” 
+* The glossary states the **Appeal Committee** determines appeals and has authority “to amend, quash or impose sanctions or measures.” 
+
+c. Appeal or second-opinion mechanisms
+**Research misconduct (research integrity procedure)**
+
+* The Procedure provides an internal **appeal** stage decided by an **Appeal Manager** appointed by the Academic Secretary. ([University of Cambridge][1])
+* It states that after the Appeal Manager’s decision there is **“no further right to appeal.”** ([University of Cambridge][1])
+
+**Student academic misconduct (student disciplinary procedure / OSCCA)**
+
+* The Procedure provides an internal **appeal to an Appeal Committee**, with appeal grounds and process described in the “Appeal Committee” section. 
+* The glossary defines a **“Completion of Procedures letter”** and states that, after completion of internal procedures, a student “may be able to raise a complaint with the **Office of the Independent Adjudicator**.” 
+
+d. Source references
+
+* University of Cambridge: **Procedure for the Investigation of an Allegation of Research Misconduct** (effective 23 Feb 2024) (PDF). ([University of Cambridge][1])
+* University of Cambridge: **Research misconduct** page (links to the Procedure and named integrity contact points). ([University of Cambridge][2])
+* University of Cambridge (Student Complaints): **Student Disciplinary Framework & Student Disciplinary Procedure** (revised 01 Oct 2023) (PDF). 
+
+[1]: https://www.cam.ac.uk/sites/default/files/research_misconduct_procedure_-_lt2024_0.pdf "Procedure for the Investigation of an Allegation of Research Misconduct, with effect from 23 February 2024"
+[2]: https://www.cam.ac.uk/research/integrity/research-misconduct "Research misconduct | University of Cambridge"

@@ -1,0 +1,94 @@
+[
+  {
+    "url": "https://www.news.uzh.ch/dam/jcr%3Ac9d300db-f3bc-41fe-abb6-75ef67ffd1fc/Integritaetsverordnung.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:04+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_Integritaetsverordnung.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.news.uzh.ch/dam/jcr%3Ac9d300db-f3bc-41fe-abb6-75ef67ffd1fc/Integritaetsverordnung.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/76458EEB55B44B7CC12585C7003B9AC7/%24File/415.27_25.5.20_110.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:05+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_415.27_25.5.20_110.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/76458EEB55B44B7CC12585C7003B9AC7/%24File/415.27_25.5.20_110.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://www.openscience.uzh.ch/en/research-integrity.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.research.uzh.ch/de/vp/Research-And-Grants-Office/Gesch%C3%A4ftsstelle-Wissenschaftliche-Integrit%C3%A4t.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.research.uzh.ch/en/procedures/integrity.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.research.uzh.ch/en/vp/Gremien-und-Dossiers/Wissenschaftliche-Integrit%C3%A4t-.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.research.uzh.ch/en/vp/Research-And-Grants-Office.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.research.uzh.ch/en/vp/Research-And-Grants-Office/Research-Integrity-Coordination-Office.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.rud.uzh.ch/de/angebot/weitere-rechtsgebiete/integrit%C3%A4t-in-der-wissenschaft.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.rud.uzh.ch/en/angebot/weitere-rechtsgebiete/integrit%C3%A4t-in-der-wissenschaft.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.uzh.ch/de/researchinnovation/ethics/integrity.html",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

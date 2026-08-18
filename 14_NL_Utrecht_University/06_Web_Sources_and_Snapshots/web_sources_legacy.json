@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://www.uu.nl/en/organisation/talk-in-confidence-report-or-file-a-complaint/talking-to-someone-about-research-integrity",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.uu.nl/organisatie/in-vertrouwen-praten-melden-of-een-klacht-indienen/iemand-spreken-over-wetenschappelijke-integriteit",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.uu.nl/sites/default/files/Klachtenregeling-Wetenschappelijke-Integriteit-Universiteit-Utrecht.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:03+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_Klachtenregeling-Wetenschappelijke-Integriteit-Universiteit-Utrecht.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://www.uu.nl/sites/default/files/Klachtenregeling-Wetenschappelijke-Integriteit-Universiteit-Utrecht.pdf",
+    "http_status": 200
+  }
+]

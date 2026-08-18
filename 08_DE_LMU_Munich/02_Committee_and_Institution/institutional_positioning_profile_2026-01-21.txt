@@ -1,0 +1,116 @@
+I’ll look up LMU Munich’s official research integrity / academic misconduct structures, then extract only what their official pages/regulations explicitly state and present it in your requested 4-part format with source references.
+
+
+1. Official name of the unit
+
+* **Ombudspersonen für gute wissenschaftliche Praxis** 
+* **Untersuchungsausschuss** (als *ständiger Untersuchungsausschuss*) 
+* **Beauftragter oder Beauftragte für die Selbstkontrolle in der Wissenschaft** ([LMU München][1])
+
+2. Institutional location
+
+* **University-level / central governance (not placed in a specific administrative department in the official sources).**
+
+  * **Ombudspersonen**: appointed by the **Senate**; perform their role **independently**; receive support from the **university leadership (Leitung der LMU)**. No placement under a specific administrative office (e.g., Legal Affairs / Research Office) is stated. 
+  * **Beauftragter/Beauftragte für die Selbstkontrolle in der Wissenschaft**: appointed by the **Senate** and listed by LMU under **“Organisation → Vertretungen und Beauftragte”**. No further departmental embedding is specified. ([LMU München][1])
+  * **Untersuchungsausschuss**: established in the **Grundordnung** as a **standing committee (Ständiger Ausschuss)**; responsible for formal investigations and for preparing a recommendation to the **Hochschulleitung**. The procedure details are regulated in **guidelines issued by the Senate**. 
+
+3. Core responsibilities
+
+* **Handling academic misconduct cases — explicitly mentioned (research/scientific misconduct):**
+
+  * **Ombudspersonen**: neutral contact point for suspected scientific misconduct; suspected cases should be reported to them; they can conduct **preliminary inquiries** and **preliminary review**, and may either **close** the matter or **transfer** it to a formal investigation. 
+  * **Untersuchungsausschuss**: conducts the **formal investigation**; determines (by its own assessment) whether scientific misconduct is established; submits a **final report and recommendation** to the **Hochschulleitung**. 
+  * **Hochschulleitung** (decision stage): if misconduct is established, the university leadership decides on **sanctions/measures** based on the committee’s report and recommendation. 
+  * **Exam-/study-related misconduct**: LMU’s GWP regulation notes that *prüfungsrechtliches Fehlverhalten* is investigated by the **responsible bodies of the affected faculty** under examination regulations. 
+
+* **Promoting academic integrity — partially / limited explicit mention:**
+
+  * **Explicit:** Ombudspersonen provide **advice on questions of good scientific practice** (and support conflict mediation where possible). 
+  * **Not specified in official sources:** a dedicated mandate for training/programmatic promotion beyond advisory support.
+
+* **Overseeing integrity regulations / ordinance — not specified as a unit responsibility:**
+
+  * **Explicit (governance of the procedure):** procedure details are set in **Senate-issued guidelines** (per Grundordnung); the Ombud and committee operate under the GWP regulation framework. 
+  * **Not specified in official sources:** that the Ombud unit or Investigation Committee “oversees” the ordinance as an administrative owner.
+
+4. Source references
+
+* LMU page **“Vertretungen und Beauftragte”** (section “Selbstkontrolle in der Wissenschaft”, links to the GWP regulation). ([LMU München][1])
+* **Grundordnung der Ludwig-Maximilians-Universität München** (incl. §30 “Untersuchungsausschuss” and §49 “Selbstkontrolle in der Wissenschaft”). 
+* **Ordnung der LMU München zur Sicherung guter wissenschaftlicher Praxis (GWP-Ordnung)** (Ombudspersonen; procedure; investigation committee; reporting to Hochschulleitung). 
+
+[1]: https://www.lmu.de/de/die-lmu/struktur/organisation/vertretungen-und-beauftragte/ "Vertretungen und Beauftragte - LMU München"
+Below I use **only official LMU sources** (the 2023 “Gute wissenschaftliche Praxis” order and the LMU “Grundordnung”). Where the reporting line/authority is **not explicitly stated**, I write: **“Not specified in official sources.”**
+
+---
+
+## 1. Official name of the unit
+
+* **Ombudsperson(en) für gute wissenschaftliche Praxis** (incl. **Stellvertretung(en)**) 
+* **Untersuchungsausschuss** (ständiger Untersuchungsausschuss) 
+
+---
+
+## 2. Institutional location
+
+* **Ombudsperson(en) für gute wissenschaftliche Praxis**: appointed by the **Senate** (“Der Senat bestellt … als Ombudsperson …”). **No administrative embedding (e.g., Legal Affairs / Research Office) is specified** in the order. 
+* **Untersuchungsausschuss**: established as a **standing committee** (“Ständiger Ausschuss”) in the LMU **Grundordnung**; the detailed procedure is regulated in **guidelines issued by the Senate**. **No placement in an administrative unit is specified.** ([stuve.uni-muenchen.de][1])
+
+---
+
+## 3. Core responsibilities
+
+### Handling academic misconduct / research misconduct cases (explicitly mentioned?)
+
+* **Yes (explicit):**
+
+  * The **Untersuchungsausschuss** conducts the **formal investigation** of allegations of *wissenschaftliches Fehlverhalten* and prepares a recommendation for the university leadership. ([stuve.uni-muenchen.de][1])
+  * The **Ombudsperson(en)** advise in **suspected cases** of scientific misconduct and can be contacted by anyone at LMU. 
+
+### Promoting academic integrity / good scientific practice (explicitly mentioned?)
+
+* **Yes (explicit, via advisory role):**
+
+  * The **Ombudsperson(en)** are “neutral and qualified contact persons” for questions of **good scientific practice** and contribute to conflict mediation. 
+* **Not specified in official sources** (as a separate “promotion/training” mandate for the **Untersuchungsausschuss**). ([stuve.uni-muenchen.de][1])
+
+### Overseeing integrity regulations / ordinance (explicitly mentioned?)
+
+* **Not specified in official sources.** (The documents describe investigation/advice roles and procedural governance; they do not explicitly assign a general “oversight of the ordinance” function to these bodies.) 
+
+---
+
+## 4. Source references
+
+* **Ordnung der Ludwig-Maximilians-Universität München zur Sicherung guter wissenschaftlicher Praxis** (in force from **1 Aug 2023**, promulgated **17 Nov 2023**) 
+* **Grundordnung der Ludwig-Maximilians-Universität München**, esp. **§ 30 Untersuchungsausschuss** ([stuve.uni-muenchen.de][1])
+
+---
+
+## 5. Reporting & authority structure
+
+### a. Reports to
+
+* **Untersuchungsausschuss → Hochschulleitung (University leadership):** submits an **“Abschlussbericht”** and **recommendation** for further action to the **Hochschulleitung**. 
+* **Ombudsperson(en):** **Not specified in official sources** as a formal reporting line. (They are appointed by the Senate and act independently; the order does not describe a formal “reports to X” structure.) 
+
+### b. Decision-making authority
+
+* **Untersuchungsausschuss (explicit):** determines in the formal investigation whether *wissenschaftliches Fehlverhalten* is established (majority decision). 
+* **Hochschulleitung (explicit):** decides **which sanctions/measures** are taken, based on the committee’s report and recommendation. 
+* **Faculty (explicit, specific case):** if withdrawal of an academic degree is considered, the **responsible faculty** decides on degree withdrawal. 
+* **Ombudsperson(en):** described as **advisory/mediation** (neutral contact persons; conflict mediation). **No final decision authority is specified** for them. 
+
+### c. Appeal or second-opinion mechanisms
+
+* **Internal appeal/complaint against the Untersuchungsausschuss decision:** explicitly **not available** (“Ein internes Beschwerdeverfahren … findet nicht statt.”). 
+* **If the procedure is discontinued:** the complainant has **no remonstration** (“keine Remonstration”). 
+* **External/alternative route (explicit):** instead of the LMU Ombudsperson, it is explicitly possible to contact the **“überregional tätige Ombudsgremium für die wissenschaftliche Integrität in Deutschland.”** 
+
+### d. Source references
+
+* **LMU Ordnung zur Sicherung guter wissenschaftlicher Praxis** (sections on Ombudsperson independence/contact options; Abschlussbericht/Empfehlung; no internal complaint; Hochschulleitung sanctions) 
+* **LMU Grundordnung**, **§ 30 Untersuchungsausschuss** (standing committee; recommendation to Hochschulleitung; Senate guidelines) ([stuve.uni-muenchen.de][1])
+
+[1]: https://www.stuve.uni-muenchen.de/service/rechtsgrundlagen/downloads/grundordnung-lmu.pdf "Vorlage Geschäftsbrief mit Siegel"

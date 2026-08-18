@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.ucl.ac.uk/academic-manual/chapters/chapter-6-student-casework-framework/section-9-student-academic-misconduct-procedure",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/governance-compliance/about-us",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/governance-compliance/research-governance/research-misconduct-committee",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/governance-compliance/research-governance/research-misconduct-committee?utm_source=chatgpt.com",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-aug-2021.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:06+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "url": "https://www.ucl.ac.uk/governance-compliance/sites/governance_compliance/files/research-misconduct-procedure-nov-2022.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:07+02:00",
+    "local_copy": null,
+    "verification_status": "download_failed",
+    "download_error": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "url": "https://www.ucl.ac.uk/research-innovation-services/compliance-and-assurance/compliance-and-assurance-team",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/research-innovation-services/compliance-and-assurance/research-integrity",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/students/appeals-and-complaints/about-casework-team",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/students/appeals-and-complaints/academic-misconduct-allegations-and-appeals",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/students/exams-and-assessments/academic-integrity/academic-misconduct-panel",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

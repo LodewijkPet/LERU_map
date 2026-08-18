@@ -1,0 +1,85 @@
+{
+  "institution": "University College London",
+  "country": "United Kingdom",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1742,
+      "sha256": "2a13e4208149d91f56b6e9b71363fa8f1e0ee37e769f795e3955a5bd6d6e0901",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 8839,
+      "sha256": "03766ce80dbc09be1cd5869c1d2f9fb772e3a6f6e0bb61c747b028a326534f87",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3412,
+      "sha256": "7cfcc56a107182094aa90a3ace190f4c140658d0179cac7ce2b5a85df785c2e9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 949,
+      "sha256": "dea6fbb3323173b3039ed9b2f56d9e5b4937acb4b900964eded1d3ebb8ed16c3",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 603,
+      "sha256": "ef183219fbc7ad898b4cb7883fa184717416950d0a8102cc2a38f26c9dfacc64",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 28706,
+      "sha256": "6f20376d30f392300538577661af4badea95ce1f60b869c4e264a4e97c641a32",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47853,
+      "sha256": "cd8dec049a7e0146a5d539aa7c60dbc8d549a62ea317c40ec8e5cee6cc9b4a50",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 29196,
+      "sha256": "4e880a7d958b07e421840cd1f87715df86d120e2ea534e060e8b69cc9e5eb9e7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 13308,
+      "sha256": "c7a300aa171e714d8d7791a7aeff7502fedd3cb1c3341e09e9210d4acc837be4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/SNAPSHOT_UCL_research_governance.html",
+      "size_bytes": 77568,
+      "sha256": "1d19bcc5a83368c130013bc177d36045123633adb369eea60b501510ea143b77",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 3692,
+      "sha256": "3f3811317998c0c89413491d958bad92410a8df09d71867d7564607b4efcf5fc",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

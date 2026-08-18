@@ -1,0 +1,85 @@
+I’ll look up Oxford’s official pages (policies/regulations and any “research integrity” or “academic misconduct” offices), then extract only what’s explicitly stated about where the function sits and what it does, with precise source references.
+
+
+1. **Official name of the unit**
+   **Research Strategy and Policy Unit (Research Services)** 
+   *(Related, for formal allegations of research misconduct: **the Registrar** is the “senior named officer” responsible for responding to allegations.)* 
+
+2. **Institutional location**
+   **Located within Research Services** (as the “Research Strategy and Policy Unit (Research Services)”). 
+   **Formal allegations of misconduct in research** are made in writing to **the Registrar**. ([University of Oxford][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases (explicitly mentioned for research misconduct):**
+
+  * The **Registrar** has “designated responsibility for responding to allegations of misconduct in research” and determines next steps (e.g., whether to proceed to investigation / set up a panel). 
+  * The **Director of the Research Strategy and Policy Unit (Research Services)** is named as a confidential contact “before any formal allegation is made.” 
+
+* **Promoting academic integrity (explicitly mentioned for research integrity):**
+
+  * Research integrity training is stated as **compulsory** for University research staff and research students, with training described and signposted via University research-support pages. ([University of Oxford][1])
+  * The **Research and Innovation Committee** has “central responsibility for advising on policies which promote research integrity.” 
+
+* **Overseeing integrity regulations / ordinance (explicitly mentioned):**
+
+  * The **Academic Integrity in Research: Code of Practice and Procedure** is identified as the University’s code setting expectations/standards and the **formal procedure** for suspected misconduct in research. 
+  * The **Research and Innovation Committee** approves (on behalf of Council) the University’s annual statement of compliance with the UK Concordat to Support Research Integrity. 
+
+*(Student academic misconduct note, explicitly distinguished in Oxford’s research-misconduct code: concerns about students’ examined work fall under the Proctors’ jurisdiction, not the research-misconduct procedure.)* ([hr.admin.ox.ac.uk][2])
+
+4. **Source references (official)**
+
+* University of Oxford — **Research integrity and misconduct**: contact routes (Research Strategy and Policy Unit in Research Services) and statement that formal allegations go to the Registrar. ([University of Oxford][1])
+* University of Oxford — **University of Oxford annual statement on research integrity (2024)** (PDF): key contacts; governance; explicit placement of Research Strategy and Policy Unit within Research Services; Registrar responsibility. 
+* University of Oxford HR Support — **Academic integrity in research** (Code of Practice and Procedure): definition/scope and procedure; explicit distinction from student examined work (Proctors’ jurisdiction). ([hr.admin.ox.ac.uk][2])
+* The Proctors’ Office — **What We Do**: Proctors’ Office oversight of student disciplinary matters. ([proctors.ox.ac.uk][3])
+* University of Oxford Students — **Student conduct**: academic misconduct procedure and referrals to the Proctors (including plagiarism referrals). ([University of Oxford][4])
+
+[1]: https://www.ox.ac.uk/research/support-researchers/research-culture-oxford/research-integrity-and-misconduct "Research integrity and misconduct | University of Oxford"
+[2]: https://hr.admin.ox.ac.uk/academic-integrity-in-research "Academic integrity in research | HR Support"
+[3]: https://www.proctors.ox.ac.uk/what-we-do-0 "What We Do | The Proctors' Office"
+[4]: https://www.ox.ac.uk/students/academic/conduct "Student conduct | University of Oxford"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Research and Innovation Committee**: A committee **reporting directly to University Council (or one of its main committees)**, and it explicitly **advises Council** and can **approve on behalf of Council** (e.g., the annual Concordat statement). ([governance.admin.ox.ac.uk][1])
+* **Registrar (misconduct-in-research case handling)**: **Not specified in official sources** (the procedure names the Registrar as the responsible officer, but does not state their formal reporting line). 
+
+b. **Decision-making authority**
+
+* **Registrar**:
+
+  * Determines outcomes of the **preliminary review** (e.g., proceed to investigation / refer / dismiss) and issues a written determination. 
+  * Decides whether to **set up an investigative Panel** and informs the Subject of that decision. 
+  * After the Panel’s report, the Registrar **determines what further steps will be taken**, and **may dismiss the allegation or take further action** on receipt of the Panel’s recommendations. 
+  * Takes **all decisions about disclosure** (what/when to disclose during the process). 
+
+* **Panel (investigation stage)**:
+
+  * Examines evidence and determines (on the balance of probabilities) whether misconduct occurred **in order to report to the Registrar**, and makes recommendations to the Registrar. 
+
+* **Research and Innovation Committee**:
+
+  * Has responsibility for policies promoting responsible conduct of research and **approves (on behalf of Council) the annual statement** of compliance with the Concordat to Support Research Integrity; it also **advises Council** on external influences. ([governance.admin.ox.ac.uk][1])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Students (as “Subject” in misconduct-in-research cases)**:
+
+  * Right of appeal to a **Pro-Vice-Chancellor (PVC)** within **10 working days** of receiving the **Registrar’s decision** following a Panel investigation; appeals are **sent to the Registrar**, who identifies a PVC to consider the appeal. 
+  * After completion of University procedures (Completion of Procedures letter), students may submit a complaint to the **Office of the Independent Adjudicator for Higher Education (OIA)** within **12 months**. 
+
+* **Staff (as “Subject” in misconduct-in-research cases)**:
+
+  * Right of appeal **under Statute XII** (for those subject to it) or **under the University formal disciplinary procedure for support staff** (if further action is taken under that procedure). 
+
+d. **Source references (official)**
+
+* **Academic Integrity in Research: Code of Practice and Procedure (June 2025 “clean” PDF)** (procedure, Registrar authority, Panel role, appeals, OIA). 
+* **Council Regulations 15 of 2002, Part 6: Research and Innovation Committee** (committee reporting to/operating on behalf of Council; advising Council; approving annual statement on behalf of Council). ([governance.admin.ox.ac.uk][1])
+* **Annual research integrity reports** page (RIC approval of annual statement as delegated by Council). ([University of Oxford][2])
+
+[1]: https://governance.admin.ox.ac.uk/legislation/part-6-research-and-innovation-committee "Part 6: Research and Innovation Committee | Governance and Planning"
+[2]: https://www.ox.ac.uk/research/support-researchers/research-practice/annual-research-integrity-reports "Annual research integrity reports | University of Oxford"

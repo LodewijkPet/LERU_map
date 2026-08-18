@@ -1,0 +1,91 @@
+I’ll look up ETH Zürich’s official pages and regulations to identify the exact unit(s) handling research integrity / misconduct, then extract only what’s explicitly stated and cite the official sources.
+
+
+1. **Official name of the unit**
+   **Scientific Integrity Office (SIO)** (also referred to as **Integrity Office** on ETH’s “Scientific misconduct” page). 
+
+2. **Institutional location**
+   Assigned **to the Executive Board domain of Research** (“for the purpose of administration”). 
+   (ETH’s Annual Report also describes the “Executive Board domain of Research” as the domain in which scientific integrity structures are situated.) ([ETH Zürich][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases — explicitly mentioned**
+
+  * Receives and processes **reports of suspected scientific misconduct**. 
+  * Provides **technical and administrative support** to the Integrity Commission during investigation procedures (e.g., minutes, filing, support for hearings, drafting resolutions/reports). 
+  * ETH states that **proceedings/investigations are conducted by the Integrity Commission**, which is supported by the SIO. ([ETH Zürich][2])
+
+* **Promoting academic integrity — explicitly mentioned (as advice); broader “culture” work is described elsewhere**
+
+  * Provides **advice on issues of scientific integrity**. 
+  * **Not specified in official sources** that the SIO itself runs training/promotion programmes; however ETH’s **Scientific Integrity and Research Ethics** department states that its **Scientific Integrity Unit** supports the **Commission for Good Scientific Practice** in “establishing a culture of scientific integrity and good scientific practice.” ([ETH Zürich][3])
+
+* **Overseeing integrity regulations / ordinance — partially explicitly mentioned**
+
+  * The SIO’s duties include **monitoring international developments** in scientific integrity and **organising procedures** in cases of suspected misconduct. 
+  * ETH’s **Scientific Integrity and Research Ethics** department states that it **ensures the development of guidelines** and the establishment/further development of suitable structures and processes (this is stated at department level, not specifically as an SIO duty). ([ETH Zürich][3])
+
+4. **Source references (official)**
+
+* ETH Zurich (Ordinance): **“Ordinance of ETH Zurich governing the procedure to address allegations of scientific misconduct (RSETHZ 415), dated 1 June 2024”**. 
+* ETH Zurich: **Scientific misconduct** page (mentions Integrity Commission proceedings + Integrity Office contact). ([ETH Zürich][2])
+* ETH Zurich: **Integrity Commission** page (role + contact point is the Scientific Integrity Office). ([ETH Zürich][4])
+* ETH Zurich: **Scientific Integrity and Research Ethics** (administrative department; Scientific Integrity Unit supports GSP culture and misconduct procedures). ([ETH Zürich][3])
+* ETH Zurich Annual Report 2024: **Governance** (Executive Board domain of Research structure; Integrity Commission supported by SIO). ([ETH Zürich][1])
+
+[1]: https://ethz.ch/en/the-eth-zurich/portrait/annual-report-2024/governance.html "Governance | ETH Zurich"
+[2]: https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity/wissenschaftliches-fehlverhalten.html "Scientific misconduct | ETH Zurich"
+[3]: https://ethz.ch/en/the-eth-zurich/organisation/departments/scientific-integrity-research-ethics.html "Scientific Integrity and Research Ethics | ETH Zurich"
+[4]: https://ethz.ch/en/the-eth-zurich/organisation/boards-university-groups-commissions/integritaetskommission.html "Integrity Commission | ETH Zurich"
+Here is the **reporting & authority structure** for ETH Zurich’s scientific misconduct (research integrity) procedure, based **only on official ETH/Swiss sources**.
+
+---
+
+## 5. Reporting & authority structure
+
+### a. Reports to
+
+* **Integrity Commission (Integritätskommission / Integrity Commission):**
+  **Not specified in official sources** as a formal “reporting line,” but it is explicitly stated that the Commission **provides recommendations for measures to the ETH Executive Board** (after investigating suspicions of misconduct). ([ETH Zürich][1])
+  The Ordinance also specifies that the Commission transmits its **investigation report** to the **Executive Board committee**. 
+
+* **Scientific Integrity Office (SIO):**
+  The SIO is explicitly **assigned to the Executive Board domain of Research**. 
+  Additionally, the **Vice President for Research** can **delegate other tasks** in scientific integrity / good scientific practice to the SIO. 
+  Any further “reports to” relationship is **not specified in official sources**.
+
+* **Executive Board committee (Executive Board committee):**
+  This is an Executive Board-level body (Rector + relevant Vice Presidents; President involved in specific cases) and is not described as “reporting to” another ETH internal body in the Ordinance. 
+
+### b. Decision-making authority
+
+* **Integrity Commission:**
+  The Ordinance explicitly assigns the Commission authority to **issue procedural rulings** and manage core procedural outputs (e.g., investigation report publication decisions), and to **recommend measures**. 
+  It also states the Commission (Chair) represents the Commission in **appeal proceedings against independently contestable interim rulings**. 
+
+* **Executive Board committee:**
+  The Executive Board committee explicitly **hears the accused** regarding recommended measures and **describes the measures it considers necessary**, asking responsible ETH offices to implement them. 
+
+**Overall (explicitly described in the Ordinance):**
+A **mixed structure**: the **Commission investigates + issues procedural rulings + recommends measures**, while the **Executive Board committee determines/sets the measures to be implemented**. 
+
+### c. Appeal or second-opinion mechanisms
+
+* **Appeals (formal):**
+  The Ordinance contains a dedicated **“Rights of appeal”** provision stating that **independently contestable interim rulings by the Commission** and **rulings of other ETH bodies** are governed by the **rights-of-appeal rules under Art. 37(3) of the ETH Act**. 
+  An official ETH Zurich legal guidance document (“Information on Legal Action”) states (under Art. 37(3) ETH Act) that **appeals against ETH Zurich decrees may be lodged with the ETH Appeals Commission**, and that **appeals against decisions of the ETH Appeals Commission can be lodged with the Federal Administrative Court**. ([ETH Zürich][2])
+
+* **Recusal as an internal procedural safeguard (second-opinion-type mechanism, explicitly stated):**
+  If the **entire Commission** is requested to be recused, the **Executive Board decides** and may appoint a replacement commission. 
+
+No ETH-internal “ombudsperson appeal route” for misconduct decisions is explicitly described on the ETH scientific misconduct page or in the cited Ordinance sections; therefore: **Not specified in official sources.**
+
+### d. Source references
+
+* ETH Zurich – *Integrity Commission* (assignment and relationship to Executive Board): ([ETH Zürich][1])
+* ETH Zurich – *Procedure in the event of scientific misconduct (RSETHZ 415, June 2024)* (SIO allocation; Executive Board committee; Commission duties; appeals): 
+* ETH Zurich – *Information on Legal Action (legal appeals guidance referencing ETH Act Art. 37(3))*: ([ETH Zürich][2])
+
+[1]: https://ethz.ch/en/the-eth-zurich/organisation/boards-university-groups-commissions/integritaetskommission.html "Integrity Commission | ETH Zurich"
+[2]: https://ethz.ch/content/dam/ethz/associates/students/studium/Rechtsweg/information-on-legal-action.pdf "Microsoft Word - 240924_Information on Legal Action_EN.docx"

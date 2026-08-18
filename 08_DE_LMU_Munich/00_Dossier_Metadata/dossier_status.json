@@ -1,0 +1,84 @@
+{
+  "institution": "LMU Munich",
+  "country": "Germany",
+  "country_iso": "DE",
+  "leru_population_status": "Included in the 24-member LERU population as of 2026-08-18; verify against the official LERU members page before publication.",
+  "dossier_created": "2026-08-18T07:54:28+02:00",
+  "evidence_status": "legacy institutional profile present; structured institution record largely unpopulated",
+  "confidentiality": "Files under 05_Correspondence_RESTRICTED may contain personal data or non-public correspondence and must not be published without review.",
+  "copied_source_files": [
+    {
+      "role": "institution_record",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\02_Data\\Raw\\institutions\\lmu_munich.json",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\00_Dossier_Metadata\\institution_record_legacy.json",
+      "copied": true,
+      "size_bytes": 3412,
+      "sha256": "b90eaeb755f216e7176550bab31da5c7c12b98a46bf9758bacd0e13a35f40f5b"
+    },
+    {
+      "role": "country_record",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\02_Data\\Raw\\countries\\germany.json",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\01_Country_System\\country_record_legacy.json",
+      "copied": true,
+      "size_bytes": 587,
+      "sha256": "5bf9a7fc5198b5f114278290c44b645f7551801d19131b4d431b5f609319a81e"
+    },
+    {
+      "role": "institutional_profile",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\small report\\LMU Munich.txt",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\02_Committee_and_Institution\\institutional_positioning_profile_2026-01-21.txt",
+      "copied": true,
+      "size_bytes": 8798,
+      "sha256": "dd1d0bf124d663c403b20d8301eccd27e61d7cade40e6e01ca4059ab162d7d9b"
+    },
+    {
+      "role": "country_research_initial",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\1. Deep research\\2. Germany vs Denmark.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\01_Country_System\\country_system_deep_research_initial.docx",
+      "copied": true,
+      "size_bytes": 47914,
+      "sha256": "ee87521d43eebba3efaee5ce356aa85ce3b9943284e89fe0d708833c907ef232"
+    },
+    {
+      "role": "country_research_structured",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\2. Structured Deep Research\\2. Germany vs Denmark.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\01_Country_System\\country_system_structured_research.docx",
+      "copied": true,
+      "size_bytes": 33447,
+      "sha256": "0a548b3e6ea0dcab8c27230f6d3651c6437e5fcf03416174ca6e036d1f2901fe"
+    },
+    {
+      "role": "country_research_data_capture",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\3. Data capture from Strucutred Deep Research\\2. Germany vs Denmark.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\08_DE_LMU_Munich\\01_Country_System\\country_system_data_capture.docx",
+      "copied": true,
+      "size_bytes": 40691,
+      "sha256": "ea97b3378f4bae2e85aa51f1725381d7137c935e7959ec1f6c97fde8dd179b08"
+    }
+  ],
+  "legacy_web_sources": [
+    {
+      "url": "https://www.lmu.de/de/die-lmu/struktur/organisation/vertretungen-und-beauftragte/",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.stuve.uni-muenchen.de/service/rechtsgrundlagen/downloads/grundordnung-lmu.pdf",
+      "inferred_type": "pdf",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    }
+  ],
+  "next_actions": [
+    "Verify the responsible research integrity committee/function and its exact institutional position.",
+    "Locate and archive the current governing regulation, complaints procedure, composition/appointment rules, annual reports and case statistics.",
+    "Complete the country-system fields and distinguish national, sectoral, institutional and appellate bodies.",
+    "Record source-specific evidence, publication/version dates, access dates and confidence.",
+    "Use targeted email verification for fields that remain unknown or ambiguous."
+  ]
+}

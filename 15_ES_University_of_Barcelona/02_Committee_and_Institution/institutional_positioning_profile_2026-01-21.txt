@@ -1,0 +1,56 @@
+I’ll quickly web-browse official University of Barcelona governance/regulations pages to identify the exact unit(s) handling research integrity/academic misconduct, confirm reporting/organizational placement, then summarize only what’s explicitly stated with official source references.
+
+
+1. **Official name of the unit**
+   **Comitè d’Integritat en la Recerca de la UB** (also referred to in the same Code as **“Comité de Integridad en la Investigación de la UB”** / **“UB Research Integrity Committee”**). 
+
+2. **Institutional location**
+   **Not specified in official sources** as belonging to a single administrative department (e.g., Legal Affairs / Research Office).
+   What *is* explicitly stated is that:
+
+* **Complaints have a single entry channel: the email address of the competent vice-rector’s office for research matters** (“vicerectorat competent en matèria de recerca”). 
+* The **Vice-Rector for Research** examines the complaint and decides whether the **Comitè d’Integritat en la Recerca** should study the case. 
+* The Committee **elevates its report to the Rector**, and the Rector initiates any further procedures “if applicable.” 
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases**
+
+  * **Explicitly mentioned (research misconduct):** The Code states it sets **protocols to manage cases of fraud, unacceptable practices, or misconduct in research**, and the Committee **analyses complaints, evidence and allegations, undertakes actions to clarify facts, and issues a report to the Rector**. ([Universitat de Barcelona][1])
+  * **Explicit limitation:** It **excludes plagiarism in doctoral theses or other assessment tests**, which are handled under the relevant doctoral/academic regulations. 
+
+* **Promoting academic integrity**
+
+  * **Not specified in official sources** as a responsibility of this Committee.
+  * (Related but broader context: the *Code* states objectives such as fostering a culture of integrity in research, but this is not described as a Committee task.) ([Universitat de Barcelona][1])
+
+* **Overseeing integrity regulations / ordinance**
+
+  * **Not specified in official sources** as a Committee responsibility (beyond acting according to the Code’s complaint-handling protocol). 
+
+4. **Source references**
+
+* **Codi d’integritat en la Recerca de la Universitat de Barcelona** (approved by the UB Governing Council on 15 May 2020; includes the protocol and the section “16.2 El Comitè d’Integritat en la Recerca de la UB”). 
+* UB news page: **“Ya es posible consultar el Código de integridad en la investigación de la UB”** (describes the Code’s misconduct protocols and that it foresees creation of the Committee; notes it was driven by the Vice-Rectorate for Research). ([Universitat de Barcelona][1])
+
+[1]: https://web.ub.edu/es/web/actualitat/w/ya-es-posible-consultar-el-codigo-de-integridad-en-la-investigacion-de-la-ub- "Ya es posible consultar el Código de integridad en la investigación de la UB - Actualidad - Universidad de Barcelona"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Rector / Rectora (Rectorate):** The Committee “issues a report … and **elevates it to the rector/rectora**.” 
+
+b. **Decision-making authority**
+
+* **Vice-Rector for Research (Vicerector/a de Recerca):** After examining the complaint and evidence, the Vice-Rector **decides (with reasons) whether the Committee should study the case**. 
+* **Comitè d’Integritat en la Recerca:** **Analyses** the complaint/evidence/allegations and **proposes measures** in its report to the rector/rectora. 
+* **Rector / Rectora:** Based on the Committee’s report, the rector/rectora **initiates the procedures** considered necessary (“si escau”), and where disciplinary responsibility is involved, it is **for the rector/rectora to adopt** it after the relevant contradictory procedure. 
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Second-opinion (external advisory):** When the Committee considers it relevant—and **only for conflicts exclusively about good scientific practices**—it **may request advice** from the **Comitè per a la Integritat de la Recerca a Catalunya**. 
+* **Internal appeal mechanism:** **Not specified in official sources.** 
+
+d. **Source references**
+
+* **Codi d’integritat en la recerca de la Universitat de Barcelona** (sections 16.1–16.3 on complaint handling, Committee role, and Rector’s role/disciplinary responsibility). 

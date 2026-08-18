@@ -1,0 +1,99 @@
+{
+  "institution": "University of Amsterdam",
+  "country": "Netherlands",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 13,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1737,
+      "sha256": "a23bb61cc9de332f3cfc04a9e8e164ba334405e127fb0f86d62940a8c4468389",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 7081,
+      "sha256": "cb7ffb66f53e34f0de117a805d61eff44c64ac831025669e20d783a1ea9f86df",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3416,
+      "sha256": "9a96aa8efeb4f107a1e5afb155991cf6d31277eb2e8cc1b5092c17a2736917e4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 942,
+      "sha256": "0dba2226d8b2a91b7385423d7ebf372ad70949933f96484ed796a12857f94839",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 595,
+      "sha256": "e285e2ec715e899c29cdeae1abb840101c63d35b6f93ef7a2598e96dbeea0653",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 41036,
+      "sha256": "a8a8e20df1c59eab45fe28c115b68bcda37bbced4ba0b0f7aba7c899ec6e54c8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 55337,
+      "sha256": "50e06ef711d64cee33bd30c1016c845a2284ea50ecf71aebaf7e0176bddf28c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34679,
+      "sha256": "4f10a0efab1e591b5dc17b636f04e0ba7a0d3da52e4f38bef3af72a931a8e943",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/committee_record_legacy.json",
+      "size_bytes": 2735,
+      "sha256": "66e19dc64387f42c5be7f6680b571e118b93c5edc26e0b16845ee96ea2d27d76",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 4692,
+      "sha256": "b1023a4e952810af968515fe5c3f1aef7f8023d4ceefd1b905f512fc52ce30be",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_UvA_Academic_Integrity_Complaints_Regulations_EN.pdf",
+      "size_bytes": 65663,
+      "sha256": "4f47f95d3e8264b080c4ccc58dca834f6285c04a12433ef10a5fce10f0f631c6",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "04_Reports_Statistics_and_Timeline/CURRENT_UvA_CWI_annual_report_2024_NL.pdf",
+      "size_bytes": 265341,
+      "sha256": "54f2e78bd8583b6971dbbde8f6f4c6ce5b21c02ec651b1e86a0f7967f253fbca",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1165,
+      "sha256": "63f9fcaa7e9e6ae7bba12c220b14885372e38198815819b1e38785fc541cc099",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

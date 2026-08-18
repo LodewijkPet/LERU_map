@@ -1,0 +1,92 @@
+{
+  "institution": "Lund University",
+  "country": "Sweden",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1724,
+      "sha256": "223007844522da25b5de20fef67dce2e85fa6e588c7c5415372cee14ec59a2d2",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6279,
+      "sha256": "07ea7f20307892a1716c31fc951d612bf88e05f37f658b8553ad3ff6534c364c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3382,
+      "sha256": "9f1c7f7d852a38e1433036202a6424228a49f8f0b86950d6fe43ee7d6ec9bfb1",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 921,
+      "sha256": "4467410f7dd02775cf3430edcaafe2020ba0978752c520059e3098c9b4dcb5a7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 586,
+      "sha256": "d41c7ffedd08c7901c3ebd7c44bf7a209bbb9c1a70014509f275f2e7f14e29e6",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 39763,
+      "sha256": "25decc0cb8512a6595383f49d5aed22e11ccb990e5441fa34b3a6948ce682aff",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 68978,
+      "sha256": "d555ff8b7abed6fe57c1077a51dd9d337be4158e9911e508a0d27d9a3983d09f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 35070,
+      "sha256": "a5c4aefe04d6a15106a43f9242e7221291090d0e7396f3b5e7cd006d4c906c17",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 6385,
+      "sha256": "7306c304633c6f611c384f5d0ee85d4caa12427e7c195ccabf42ef1290cc1ebd",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_Lund_guidelines_suspected_deviation_2026.pdf",
+      "size_bytes": 293142,
+      "sha256": "914c90d4bef35ae0a911f2f3e6c322e8f1870f6a71cd73e24a16afc3c72bedd8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "04_Reports_Statistics_and_Timeline/CURRENT_Lund_board_annual_report_2025.pdf",
+      "size_bytes": 1024066,
+      "sha256": "794f726f547c8281619b4813e8f1a34ec1e4418a50c7990007512d90f0106b40",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1129,
+      "sha256": "ba86abe226696b77d88792680cac32cd1b3a83ca985b2481fe1f477c0c27bcf9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

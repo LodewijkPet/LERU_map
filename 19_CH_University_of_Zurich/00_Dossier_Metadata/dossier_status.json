@@ -1,0 +1,156 @@
+{
+  "institution": "University of Zurich",
+  "country": "Switzerland",
+  "country_iso": "CH",
+  "leru_population_status": "Included in the 24-member LERU population as of 2026-08-18; verify against the official LERU members page before publication.",
+  "dossier_created": "2026-08-18T07:54:30+02:00",
+  "evidence_status": "legacy institutional profile present; structured institution record largely unpopulated",
+  "confidentiality": "Files under 05_Correspondence_RESTRICTED may contain personal data or non-public correspondence and must not be published without review.",
+  "copied_source_files": [
+    {
+      "role": "institution_record",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\02_Data\\Raw\\institutions\\university_of_zurich.json",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\00_Dossier_Metadata\\institution_record_legacy.json",
+      "copied": true,
+      "size_bytes": 3407,
+      "sha256": "0bd25361b2019df1c3160209538b21f17a968ee45d2ebb618bd3573c1755c7c9"
+    },
+    {
+      "role": "country_record",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\02_Data\\Raw\\countries\\switzerland.json",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\01_Country_System\\country_record_legacy.json",
+      "copied": true,
+      "size_bytes": 596,
+      "sha256": "68d324a2798c73c54a1800608aa0a07a3b5c8495514eda70927a678226403171"
+    },
+    {
+      "role": "institutional_profile",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\small report\\University of Zurich.txt",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\02_Committee_and_Institution\\institutional_positioning_profile_2026-01-21.txt",
+      "copied": true,
+      "size_bytes": 10165,
+      "sha256": "e8e969d253018dfd7d0cd40d94f6f714760c798dbe4e32858253fbf986095665"
+    },
+    {
+      "role": "country_research_initial",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\1. Deep research\\4. Switzerland vs Luxembourg.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\01_Country_System\\country_system_deep_research_initial.docx",
+      "copied": true,
+      "size_bytes": 59033,
+      "sha256": "61dc4ea1dd21c0a960be2bd9140cfdb64c69ca4fc7eda81ae7865dc81e5c56ae"
+    },
+    {
+      "role": "country_research_structured",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\2. Structured Deep Research\\4. Switzerland vs Luxembourg.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\01_Country_System\\country_system_structured_research.docx",
+      "copied": true,
+      "size_bytes": 34072,
+      "sha256": "e976467318ee71cf1ac738c58babbce013b41dd78946213f1357b8ae554c6b93"
+    },
+    {
+      "role": "country_research_data_capture",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\3. Data capture from Strucutred Deep Research\\4. Switzerland vs Luxembourg.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\19_CH_University_of_Zurich\\01_Country_System\\country_system_data_capture.docx",
+      "copied": true,
+      "size_bytes": 40828,
+      "sha256": "e6c58dc458fc3acb47b2e053e8557ccde95fd86293af4f8f6cf9cdec4339022e"
+    }
+  ],
+  "legacy_web_sources": [
+    {
+      "url": "https://www.news.uzh.ch/dam/jcr%3Ac9d300db-f3bc-41fe-abb6-75ef67ffd1fc/Integritaetsverordnung.pdf",
+      "inferred_type": "pdf",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/76458EEB55B44B7CC12585C7003B9AC7/%24File/415.27_25.5.20_110.pdf",
+      "inferred_type": "pdf",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.openscience.uzh.ch/en/research-integrity.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.research.uzh.ch/de/vp/Research-And-Grants-Office/Gesch%C3%A4ftsstelle-Wissenschaftliche-Integrit%C3%A4t.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.research.uzh.ch/en/procedures/integrity.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.research.uzh.ch/en/vp/Gremien-und-Dossiers/Wissenschaftliche-Integrit%C3%A4t-.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.research.uzh.ch/en/vp/Research-And-Grants-Office.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.research.uzh.ch/en/vp/Research-And-Grants-Office/Research-Integrity-Coordination-Office.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.rud.uzh.ch/de/angebot/weitere-rechtsgebiete/integrit%C3%A4t-in-der-wissenschaft.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.rud.uzh.ch/en/angebot/weitere-rechtsgebiete/integrit%C3%A4t-in-der-wissenschaft.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    },
+    {
+      "url": "https://www.uzh.ch/de/researchinnovation/ethics/integrity.html",
+      "inferred_type": "webpage",
+      "source": "legacy institutional positioning profile",
+      "last_checked": null,
+      "local_copy": null,
+      "verification_status": "not_rechecked"
+    }
+  ],
+  "next_actions": [
+    "Verify the responsible research integrity committee/function and its exact institutional position.",
+    "Locate and archive the current governing regulation, complaints procedure, composition/appointment rules, annual reports and case statistics.",
+    "Complete the country-system fields and distinguish national, sectoral, institutional and appellate bodies.",
+    "Record source-specific evidence, publication/version dates, access dates and confidence.",
+    "Use targeted email verification for fields that remain unknown or ambiguous."
+  ]
+}

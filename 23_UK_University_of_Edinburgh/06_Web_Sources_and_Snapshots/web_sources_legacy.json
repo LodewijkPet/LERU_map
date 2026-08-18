@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://cahss.ed.ac.uk/taught-students/student-conduct/academic-misconduct",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/research_misconductfor_staff.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:56:08+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_research_misconductfor_staff.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/research_misconductfor_staff.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://edwebprofiles.ed.ac.uk/profile/chantelle-simpson",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://policies.ed.ac.uk/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://research-office.ed.ac.uk/about",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://research-office.ed.ac.uk/research-integrity/research-misconduct",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.committees.ed.ac.uk/research-ethics-and-integrity-review-group",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://www.ed.ac.uk/academic-services/staff/discipline/academic-misconduct",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

@@ -1,0 +1,94 @@
+I’ll pull Trinity College Dublin’s official policies and governance pages (including any regulations on research integrity/misconduct) and extract exactly where the responsible unit sits, then present it in your required 4-part structure with citations.
+
+
+1. Official name of the unit
+   **Office of the Dean of Research** (incl. the **Research Ethics and Integrity Administrator**). 
+   (With the **Senior Dean** serving as the **College Research Integrity Officer (RIO)**.) 
+
+2. Institutional location
+
+* **Research integrity / research misconduct coordination:** located in the **Office of the Dean of Research** (the policy states this office coordinates preliminary enquiries and has the designated Research Ethics and Integrity Administrator for ethics & integrity matters). 
+* **Institutional oversight role:** the **Senior Dean** is explicitly identified as the **College Research Integrity Officer (RIO)**. 
+* **Where cases go (disciplinary route, if upheld):**
+
+  * staff: **office of the Senior Dean** 
+  * undergraduates: **office of the Junior Dean** 
+  * postgraduates: **office of the Dean of Graduate Studies** 
+* **Public concerns:** Trinity notes that “general concerns from the public” are referred to the **College Secretary’s office**. ([Trinity College Dublin][1])
+
+3. Core responsibilities
+
+* **Handling academic misconduct cases — explicitly mentioned**
+
+  * The **RIO (Senior Dean)** is named, and the RIO **delegates the Dean of Research to manage allegations of Research Misconduct** and implement an investigation process. 
+  * The **Office of the Dean of Research** coordinates **informal preliminary enquiries**; the RIO can instigate a **formal investigation** via the Dean of Research. 
+  * The **Research Ethics and Integrity Administrator** (within the Office of the Dean of Research) is designated to manage/document allegations and support investigations. 
+  * If allegations are deemed legitimate, **disciplinary proceedings** are addressed by: Senior Dean (staff) / Junior Dean (undergraduate) / Dean of Graduate Studies (postgraduate). 
+
+* **Promoting academic integrity — explicitly mentioned**
+
+  * Trinity’s policy states that **“Education and promotion of good research practice”** are foundations of research integrity (commitment to maintaining a culture of integrity and promoting good practice). 
+  * Trinity provides access to **research integrity training (Epigeum)** and directs users to contact a person **in the Office of the Dean of Research** for access. ([Trinity College Dublin][2])
+  * Trinity’s Academic Integrity page explicitly links **Research Integrity** support/guidance to **the office of the Dean of Research**. ([Trinity College Dublin][3])
+
+* **Overseeing integrity regulations / ordinance — Not specified in official sources.**
+  (The sources above specify case-handling roles/processes and training/support, but do not explicitly state that the Office of the Dean of Research “oversees” the integrity regulations/ordinance as an owner/authority.) 
+
+4. Source references
+
+* Trinity Research: **“Research Integrity”** (how to raise concerns; where public concerns are referred). ([Trinity College Dublin][1])
+* Trinity College Dublin: **“Policy Guidance on Research Misconduct and Research Integrity Processes”** (key roles; Office of the Dean of Research coordination; disciplinary routing). 
+* Senior Dean’s Office: **“Research Integrity”** (disciplinary proceedings routing for staff/students). ([Trinity College Dublin][4])
+* Trinity College Dublin: **“Policy on Good Research Practice”** (education/promotion commitment; research integrity process context). 
+* Trinity Research: **“Epigeum Research Integrity Training”** (training access via Office of the Dean of Research). ([Trinity College Dublin][2])
+* Trinity Teaching & Learning: **“Academic Integrity”** (explicitly references research integrity support via the Dean of Research). ([Trinity College Dublin][3])
+
+[1]: https://www.tcd.ie/research/support/integrity.php "Research Integrity - Trinity Research - Trinity College Dublin"
+[2]: https://www.tcd.ie/research/support/epigeum.php "Epigeum Research Integrity Training - Trinity Research - Trinity College Dublin"
+[3]: https://www.tcd.ie/teaching-learning/academic-integrity/ "Academic Integrity - Trinity Teaching and Learning - Trinity College Dublin"
+[4]: https://www.tcd.ie/seniordean/research-integrity/ "Research Integrity - Senior Dean's Office | Trinity College Dublin"
+5. Reporting & authority structure
+
+a. Reports to
+
+* **Research misconduct / research integrity process:** The **Dean of Research** reports the **outcome of any investigation** to the **College Research Integrity Officer (RIO)** (the **Senior Dean**). 
+* **Academic misconduct (student cases):** Not specified in official sources as a “formal reporting line,” but the **Academic Integrity Meeting** outcome is **submitted for approval** to the **Senior Lecturer/Dean of Undergraduate Studies** or the **Dean of Graduate Studies** (depending on the student type/case). 
+
+b. Decision-making authority
+
+* **Research misconduct / research integrity:**
+
+  * The **RIO (Senior Dean)** is identified as the College Research Integrity Officer and **delegates the Dean of Research** to manage allegations and implement the investigation process; the **Dean of Research reports the investigation outcome** to the RIO. 
+  * Where allegations are “deemed legitimate,” the **Senior Dean** addresses **disciplinary proceedings for staff**, and the **Junior Dean** (undergraduate) / **Dean of Graduate Studies** (postgraduate) addresses **student disciplinary proceedings**. 
+  * Trinity’s Statutes also assign the **RIO decision authority** on specific matters (e.g., determining whether and how far disclosure to third parties is necessary where misconduct is upheld). 
+
+* **Academic misconduct / student discipline:**
+
+  * The **Senior Lecturer/Dean of Undergraduate Studies** or **Dean of Graduate Studies** may **approve, reject, or vary** the recommended consequence from the Academic Integrity Meeting (or seek further information). 
+  * For student disciplinary offences handled “summarily,” the **Junior Dean** is explicitly the **final decision maker**, **unless appealed** to the **Student Conduct Committee**. 
+
+c. Appeal or second-opinion mechanisms
+
+* **Student disciplinary matters:**
+
+  * **Appeal route:** Decisions of the **Junior Dean** can be **appealed to the Student Conduct Committee** (with a specified timeframe and notification route). 
+  * A **decision of the Board** to approve a decision of the **Student Conduct Committee** may be **appealed to the Visitors**. 
+
+* **Staff disciplinary matters (relevant where research misconduct proceeds under disciplinary procedures):**
+
+  * The staff member is informed of the **right of appeal**; an **appeal must be lodged with the appropriate department head** within a specified timeframe, and **disciplinary action is not implemented pending appeal**. 
+
+* **Research misconduct-specific second-opinion / external expertise mechanism:**
+
+  * Trinity’s Statutes state the **RIO may seek assistance** from a **standing national panel of international experts** established by the **Royal Irish Academy** (or similar bodies). 
+  * If an allegation is made **against the Senior Dean acting as RIO**, a **Pro-Senior Dean** is appointed to act as RIO for that allegation (a formal independence safeguard). 
+
+d. Source references
+
+* **Policy on Good Research Practice (v1.1, 15 Feb 2024)** – Trinity College Dublin (PDF). 
+* **2010 Consolidated Statutes (incorporating changes up to 30 Nov 2025)** – Trinity College Dublin (PDF). 
+* **Code of Practice for Student Disciplinary Investigations** – Junior Dean / Trinity College Dublin (PDF). 
+* **Procedure in cases of suspected academic misconduct** (2 Sept 2024) – Trinity College Dublin (PDF). 
+* **Research Integrity** – Senior Dean’s Office page (webpage). ([Trinity College Dublin][1])
+
+[1]: https://www.tcd.ie/seniordean/research-integrity/?utm_source=chatgpt.com "Research Integrity - Senior Dean's Office"

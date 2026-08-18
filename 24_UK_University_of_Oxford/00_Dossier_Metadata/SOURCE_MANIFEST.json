@@ -1,0 +1,78 @@
+{
+  "institution": "University of Oxford",
+  "country": "United Kingdom",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 10,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1737,
+      "sha256": "0da695e555be6c2f7a409cac7edfb011d245825d73fa0eaec88f26ed31848b0a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6986,
+      "sha256": "51a6508e8e319c6357122630312bc5a79cd19e662ff0afa4952a96194e795798",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3413,
+      "sha256": "c38b760a69a5850562afc382394ff2841cc942d94df08d9c8d4a09ce1b61c0cf",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 939,
+      "sha256": "304557742f7926b307bcbdaaa33465283a93a36efdee017a2b725bb44ef4340a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 603,
+      "sha256": "ef183219fbc7ad898b4cb7883fa184717416950d0a8102cc2a38f26c9dfacc64",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 28706,
+      "sha256": "6f20376d30f392300538577661af4badea95ce1f60b869c4e264a4e97c641a32",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47853,
+      "sha256": "cd8dec049a7e0146a5d539aa7c60dbc8d549a62ea317c40ec8e5cee6cc9b4a50",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 29196,
+      "sha256": "4e880a7d958b07e421840cd1f87715df86d120e2ea534e060e8b69cc9e5eb9e7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 7441,
+      "sha256": "315849026137910111c476341fecd360cabe055d342e793460186aba9caf9ebc",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1733,
+      "sha256": "d0c4e38cdacf3dbb8ab664d0cf297a1ab2ed6dbb999d17a3aff1c0c7cfbf3df7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

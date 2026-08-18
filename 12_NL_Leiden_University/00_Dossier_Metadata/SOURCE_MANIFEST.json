@@ -1,0 +1,113 @@
+{
+  "institution": "Leiden University",
+  "country": "Netherlands",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 15,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1731,
+      "sha256": "c7356313afbf3bbd82871ce31f5141d2ade11020cb17ce7a6ad9dba81318515f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 9293,
+      "sha256": "29943b49906a124f708cdca57946462d55b57ab57f1dbc82d30d1f8d343bcc78",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 14873,
+      "sha256": "c80bcbb166e0c203ecf39b2f8b70950680a6c6842a7f2c0e12570f0c2392fde3",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 930,
+      "sha256": "bfac120b8f3f331c71683cb851ad3f811cdf93db47b58174b71428bfc8907f71",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 595,
+      "sha256": "e285e2ec715e899c29cdeae1abb840101c63d35b6f93ef7a2598e96dbeea0653",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 41036,
+      "sha256": "a8a8e20df1c59eab45fe28c115b68bcda37bbced4ba0b0f7aba7c899ec6e54c8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 55337,
+      "sha256": "50e06ef711d64cee33bd30c1016c845a2284ea50ecf71aebaf7e0176bddf28c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34679,
+      "sha256": "4f10a0efab1e591b5dc17b636f04e0ba7a0d3da52e4f38bef3af72a931a8e943",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/committee_record_legacy.json",
+      "size_bytes": 2774,
+      "sha256": "41d0e9193f280c2a567cc296cdef35e2d14ba2ff622ee2c4b02ed768f2fa745c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 5958,
+      "sha256": "91351dd610c59bb99f9b4452f74549c7b9e671af41ee4c0a32ed766da35787bd",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_klachtregeling-wetenschappelijk-integriteit-eng-edit-gezegeld.pdf",
+      "size_bytes": 68503,
+      "sha256": "84bc80a7a2baa45f693ee266c7057fde13a4ea190ac749c5fa7ff07d1149c295",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/klachtregeling-wetenschappelijke-integriteit-2018-eng.pdf",
+      "size_bytes": 92204,
+      "sha256": "6a478d0ce03fc9ae46ef7be89a115a78156f528dd5d26253db9c99d0d3779989",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Leiden University – Research Integrity Governance.pdf",
+      "size_bytes": 36560,
+      "sha256": "329cf93f882fbfc63ca9cbac5b822aab4442f15d7d924078656ae692d92a9c48",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/nederlandse-gedragscode-wetenschappelijke-integriteit-2018-nl.pdf",
+      "size_bytes": 1538270,
+      "sha256": "6a9eae4cb93afb1bbe2988ecd4e648054ee736836f07e198aba54375750a9b19",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1659,
+      "sha256": "e5c39d88c82e49ecddce176bae393f378f414eb271093f59d0604c0589924f06",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

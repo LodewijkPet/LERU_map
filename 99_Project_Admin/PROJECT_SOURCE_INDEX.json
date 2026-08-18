@@ -1,0 +1,384 @@
+{
+  "generated": "2026-08-18T07:54:31+02:00",
+  "legacy_source_root": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map",
+  "workspace_root": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map",
+  "population_size": 24,
+  "countries": [
+    "Belgium",
+    "Denmark",
+    "Finland",
+    "France",
+    "Germany",
+    "Ireland",
+    "Italy",
+    "Netherlands",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "United Kingdom"
+  ],
+  "shared_sources": [
+    {
+      "role": "study_protocol",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Preparation\\European committees draft protocol.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\01_Study_Protocol_and_Codebook\\European_committees_draft_protocol_2024-11.docx",
+      "copied": true,
+      "size_bytes": 29792,
+      "sha256": "7340e13908ae1cdc74d1cbfa15841ed37787e4408ecf69dac76aba60b175f2bc"
+    },
+    {
+      "role": "data_dictionary",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\90_Archive\\Original\\research_integrity_systems_codebook.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\01_Study_Protocol_and_Codebook\\research_integrity_systems_codebook_2025-08-11.docx",
+      "copied": true,
+      "size_bytes": 58427,
+      "sha256": "fbaaaa8a529b716797254515660dbcf63088a92d5418c0df3972f2c3d5291c7e"
+    },
+    {
+      "role": "data_schema",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\90_Archive\\Original\\research_integrity_complaints_schema.json",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\01_Study_Protocol_and_Codebook\\research_integrity_complaints_schema_2025-08-11.json",
+      "copied": true,
+      "size_bytes": 17426,
+      "sha256": "b0d265320f1fa2557154d7512e1dc6664a9d8fd86d842f0453ba7bd9bffe1c6f"
+    },
+    {
+      "role": "data_collection_overview",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\90_Archive\\Original\\2025_04_14_data_collection_overview_v1.0.0.xlsx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\01_Study_Protocol_and_Codebook\\data_collection_overview_2025-04-14.xlsx",
+      "copied": true,
+      "size_bytes": 14754,
+      "sha256": "1e5df293fb1b4c31bb833f56db9de5ff35ddd5ba7732c11c97a1427743540ae4"
+    },
+    {
+      "role": "data_collection_form",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\Documents\\Data\\Data collection form.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\01_Study_Protocol_and_Codebook\\data_collection_form_legacy.docx",
+      "copied": true,
+      "size_bytes": 12177,
+      "sha256": "1fee7de2fb084889652db788588c6e3db25783b31d78eb282aa03a27c94cfc0f"
+    },
+    {
+      "role": "original_request",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\small report\\request.txt",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\03_Email_and_Meeting_Context_RESTRICTED\\original_LERU_request.txt",
+      "copied": true,
+      "size_bytes": 1946,
+      "sha256": "6fe09816c02eb215c28516b8455d5de6ad1cca896bb98b85911eef368eff3351"
+    },
+    {
+      "role": "meeting_notes",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\2024_11_21_bijeenkomst_notes_v1.0.0.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\03_Email_and_Meeting_Context_RESTRICTED\\meeting_notes_2024-11-21.docx",
+      "copied": true,
+      "size_bytes": 17287,
+      "sha256": "d668a2cfe0aa47a218718b5bf7b37c593f33ac576621131c57851fbb779f12a4"
+    },
+    {
+      "role": "meeting_notes",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\2025_01_23_meeting_notes_v1.0.0.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\03_Email_and_Meeting_Context_RESTRICTED\\meeting_notes_2025-01-23.docx",
+      "copied": true,
+      "size_bytes": 12973,
+      "sha256": "f42b5cb959c1903db5d3d6f63fe3deb4e22d47056a282da3c474f263895a18f8"
+    },
+    {
+      "role": "meeting_notes",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\01_Admin\\2025_01_24_meeting_notes_v1.0.0.docx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\03_Email_and_Meeting_Context_RESTRICTED\\meeting_notes_2025-01-24.docx",
+      "copied": true,
+      "size_bytes": 16842,
+      "sha256": "8d93e950f9420734cb8dcc34fe2fe946c2597ea4a3fe586f3cc43c24c52b4987"
+    },
+    {
+      "role": "cross_case_summary",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\small report\\institutional_positioning_report.txt",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\04_Cross_Committee_Data\\institutional_positioning_report_2026-01-21.txt",
+      "copied": true,
+      "size_bytes": 8620,
+      "sha256": "e041ae6757b89b4ee393f5f1c0566407b89d02b75770d8bb06cfa6232495be8c"
+    },
+    {
+      "role": "open_questions",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\small report\\next_steps.txt",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\04_Cross_Committee_Data\\legacy_next_steps_2026-01-21.txt",
+      "copied": true,
+      "size_bytes": 1886,
+      "sha256": "5d7625852481e4798e21b0d964c05c3e2ff135dd49e4feb4ed324274716ca026"
+    },
+    {
+      "role": "legacy_aggregate",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\04_Outputs\\LERU_report\\data\\institutions.json",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\04_Cross_Committee_Data\\legacy_aggregate_institutions.json",
+      "copied": true,
+      "size_bytes": 104076,
+      "sha256": "444d60d0dd365cdab5274c8d813c984c4b0601d20a53cd2bcf9878ec8677a354"
+    },
+    {
+      "role": "legacy_overview",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\PROJECT_OVERVIEW.md",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\04_Cross_Committee_Data\\legacy_project_overview.md",
+      "copied": true,
+      "size_bytes": 1681,
+      "sha256": "03fbc63e447109f895c804969117f53d5da2d40ff2e633c48e505f978f0dbb35"
+    },
+    {
+      "role": "presentation",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\90_Archive\\Original\\LERU 2025.pptx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\LERU_2025_legacy_presentation.pptx",
+      "copied": true,
+      "size_bytes": 274047,
+      "sha256": "d00aa27a9450c2a6e71b7cb8c3ace56d0b9da2e1f33bd39849b9b2f48fb07d8d"
+    },
+    {
+      "role": "presentation",
+      "source_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\90_Legacy_Project_Versions\\LERU_Integrity_Map\\07_LERU_Integrity_Map\\90_Archive\\Original\\Kopenhagen 2024.pptx",
+      "destination_path": "C:\\Users\\lapet\\OneDrive - LUMC\\02_Research_Projects\\PhD_Thesis_Projects\\Part_II\\04_LERU_Integrity_Map\\00_Shared_LERU_and_Methods\\02_LERU_Documents\\Copenhagen_2024_legacy_presentation.pptx",
+      "copied": true,
+      "size_bytes": 275138,
+      "sha256": "29561a0a4b411b9c27077ecde01272b7f4b47b32376da6473145f8619acccc00"
+    }
+  ],
+  "commission_dossiers": [
+    {
+      "order": 1,
+      "folder": "01_BE_KU_Leuven",
+      "institution": "KU Leuven",
+      "country": "Belgium",
+      "country_iso": "BE",
+      "source_file_count": 6,
+      "legacy_url_count": 5,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 2,
+      "folder": "02_DK_University_of_Copenhagen",
+      "institution": "University of Copenhagen",
+      "country": "Denmark",
+      "country_iso": "DK",
+      "source_file_count": 6,
+      "legacy_url_count": 7,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 3,
+      "folder": "03_FI_University_of_Helsinki",
+      "institution": "University of Helsinki",
+      "country": "Finland",
+      "country_iso": "FI",
+      "source_file_count": 6,
+      "legacy_url_count": 4,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 4,
+      "folder": "04_FR_Paris_Saclay_University",
+      "institution": "Paris-Saclay University",
+      "country": "France",
+      "country_iso": "FR",
+      "source_file_count": 6,
+      "legacy_url_count": 7,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 5,
+      "folder": "05_FR_Sorbonne_University",
+      "institution": "Sorbonne University",
+      "country": "France",
+      "country_iso": "FR",
+      "source_file_count": 6,
+      "legacy_url_count": 1,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 6,
+      "folder": "06_FR_University_of_Strasbourg",
+      "institution": "University of Strasbourg",
+      "country": "France",
+      "country_iso": "FR",
+      "source_file_count": 6,
+      "legacy_url_count": 4,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 7,
+      "folder": "07_DE_Heidelberg_University",
+      "institution": "Heidelberg University",
+      "country": "Germany",
+      "country_iso": "DE",
+      "source_file_count": 8,
+      "legacy_url_count": 6,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 8,
+      "folder": "08_DE_LMU_Munich",
+      "institution": "LMU Munich",
+      "country": "Germany",
+      "country_iso": "DE",
+      "source_file_count": 6,
+      "legacy_url_count": 2,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 9,
+      "folder": "09_DE_University_of_Freiburg",
+      "institution": "University of Freiburg",
+      "country": "Germany",
+      "country_iso": "DE",
+      "source_file_count": 6,
+      "legacy_url_count": 3,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 10,
+      "folder": "10_IE_Trinity_College_Dublin",
+      "institution": "Trinity College Dublin",
+      "country": "Ireland",
+      "country_iso": "IE",
+      "source_file_count": 6,
+      "legacy_url_count": 5,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 11,
+      "folder": "11_IT_University_of_Milan",
+      "institution": "University of Milan",
+      "country": "Italy",
+      "country_iso": "IT",
+      "source_file_count": 6,
+      "legacy_url_count": 9,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 12,
+      "folder": "12_NL_Leiden_University",
+      "institution": "Leiden University",
+      "country": "Netherlands",
+      "country_iso": "NL",
+      "source_file_count": 10,
+      "legacy_url_count": 4,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 13,
+      "folder": "13_NL_University_of_Amsterdam",
+      "institution": "University of Amsterdam",
+      "country": "Netherlands",
+      "country_iso": "NL",
+      "source_file_count": 7,
+      "legacy_url_count": 3,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 14,
+      "folder": "14_NL_Utrecht_University",
+      "institution": "Utrecht University",
+      "country": "Netherlands",
+      "country_iso": "NL",
+      "source_file_count": 7,
+      "legacy_url_count": 3,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 15,
+      "folder": "15_ES_University_of_Barcelona",
+      "institution": "University of Barcelona",
+      "country": "Spain",
+      "country_iso": "ES",
+      "source_file_count": 6,
+      "legacy_url_count": 1,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 16,
+      "folder": "16_SE_Lund_University",
+      "institution": "Lund University",
+      "country": "Sweden",
+      "country_iso": "SE",
+      "source_file_count": 6,
+      "legacy_url_count": 3,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 17,
+      "folder": "17_CH_ETH_Zurich",
+      "institution": "ETH Zurich",
+      "country": "Switzerland",
+      "country_iso": "CH",
+      "source_file_count": 9,
+      "legacy_url_count": 5,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 18,
+      "folder": "18_CH_University_of_Geneva",
+      "institution": "University of Geneva",
+      "country": "Switzerland",
+      "country_iso": "CH",
+      "source_file_count": 6,
+      "legacy_url_count": 6,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 19,
+      "folder": "19_CH_University_of_Zurich",
+      "institution": "University of Zurich",
+      "country": "Switzerland",
+      "country_iso": "CH",
+      "source_file_count": 6,
+      "legacy_url_count": 11,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 20,
+      "folder": "20_UK_Imperial_College_London",
+      "institution": "Imperial College London",
+      "country": "United Kingdom",
+      "country_iso": "GB",
+      "source_file_count": 6,
+      "legacy_url_count": 12,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 21,
+      "folder": "21_UK_University_College_London",
+      "institution": "University College London",
+      "country": "United Kingdom",
+      "country_iso": "GB",
+      "source_file_count": 6,
+      "legacy_url_count": 11,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 22,
+      "folder": "22_UK_University_of_Cambridge",
+      "institution": "University of Cambridge",
+      "country": "United Kingdom",
+      "country_iso": "GB",
+      "source_file_count": 6,
+      "legacy_url_count": 9,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 23,
+      "folder": "23_UK_University_of_Edinburgh",
+      "institution": "University of Edinburgh",
+      "country": "United Kingdom",
+      "country_iso": "GB",
+      "source_file_count": 6,
+      "legacy_url_count": 8,
+      "missing_expected_sources": []
+    },
+    {
+      "order": 24,
+      "folder": "24_UK_University_of_Oxford",
+      "institution": "University of Oxford",
+      "country": "United Kingdom",
+      "country_iso": "GB",
+      "source_file_count": 6,
+      "legacy_url_count": 6,
+      "missing_expected_sources": []
+    }
+  ]
+}
