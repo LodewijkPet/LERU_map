@@ -1,0 +1,92 @@
+{
+  "institution": "Sorbonne University",
+  "country": "France",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1728,
+      "sha256": "1a49a7ab22178636e7131891f05509e75c7cbc0303b00e4ce713f60f30054793",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 5512,
+      "sha256": "cf9ce14cc921815becf8845b2b94e3de9a0e632a860b6b17358b9748a77c0cad",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3394,
+      "sha256": "ef1e3c8f17e70c23ddb4fa76df2b4963c29b593c4339c23a4477ce5a30a53be7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 929,
+      "sha256": "00700d27ea99f6167267ae3b1219bfb77e3534271f2425e79934453c960a27c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 585,
+      "sha256": "443ec929c91b68b5d4461ffb795c8c1bb38877171e3f8e4b193402de46d0e4f9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 41036,
+      "sha256": "a8a8e20df1c59eab45fe28c115b68bcda37bbced4ba0b0f7aba7c899ec6e54c8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 55337,
+      "sha256": "50e06ef711d64cee33bd30c1016c845a2284ea50ecf71aebaf7e0176bddf28c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34679,
+      "sha256": "4f10a0efab1e591b5dc17b636f04e0ba7a0d3da52e4f38bef3af72a931a8e943",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 3603,
+      "sha256": "ef91b42d26ea6f1cb739dffd948a2a9d7f18efbc6958676fe7aee482c3cc32e8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/SNAPSHOT_Sorbonne_handling_reports.html",
+      "size_bytes": 123469,
+      "sha256": "92b8a67814615a0f61079a84f6ad10b805f712bea137f1eabe352f399976ca73",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/SNAPSHOT_Sorbonne_scientific_integrity_delegation.html",
+      "size_bytes": 159206,
+      "sha256": "931e5baa65612e3639a1a7509f5ae9bac10c3134d9eb7a718b4bb8a66490f0bf",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 324,
+      "sha256": "3239c0ed7623046485e941b94938b05d0b74356dc7110ba7f490f4783eda91df",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

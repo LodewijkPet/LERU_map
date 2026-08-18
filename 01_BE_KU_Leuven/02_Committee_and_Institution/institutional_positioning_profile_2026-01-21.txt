@@ -1,0 +1,63 @@
+1. **Official name of the unit**
+   **Wetenschappelijke Integriteit en Ethiek** (also referred to in English as the **Research Integrity & Ethics unit**). ([KU Leuven][1])
+
+2. **Institutional location**
+   Located within **Dienst Onderzoekscoördinatie (DOC) / Research Coordination Office**, under **Onderzoeksbeleid** (Research Policy) in the KU Leuven organisational chart. ([KU Leuven][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases (explicitly mentioned):**
+
+  * **Formal allegations of research misconduct** are submitted to the **Research Integrity Reporting Desk** “at the Research Coordination Office.” ([Research / Onderzoek][2])
+  * **Formal complaints** about behaviour potentially violating research integrity are handled independently by the **Commission on Research Integrity (CRI)**, and the Reporting Desk consults the CRI Bureau on whether a procedure should start. ([Research / Onderzoek][3])
+
+* **Promoting academic integrity (explicitly mentioned):**
+
+  * The **Research Integrity & Ethics unit (DOC)** is available for questions on **guidelines, good practices, and research integrity training**. ([Research / Onderzoek][4])
+  * KU Leuven/CRI emphasises **prevention and awareness-raising** and publishes anonymised reporting for learning. ([Research / Onderzoek][3])
+
+* **Overseeing integrity regulations / ordinance (explicitly mentioned):**
+
+  * The **CRI** is tasked with **advising on research integrity** and **preparing/contributing to policy development** in this area (i.e., integrity governance/regulatory framework). ([Research / Onderzoek][3])
+
+4. **Source references**
+
+* KU Leuven Research Integrity page (contacts, training, reporting routes): ([Research / Onderzoek][4])
+* KU Leuven “Research Integrity Reporting Desk” page (where to submit allegations; role of CRI Bureau): ([Research / Onderzoek][2])
+* “Regulation Commission on Research Integrity” page (CRI mandate; Reporting Desk embedded in Research Integrity & Ethics Unit of DOC): ([Research / Onderzoek][3])
+* KU Leuven organisational chart entry for **Wetenschappelijke Integriteit en Ethiek** showing placement under **Onderzoeksbeleid → Dienst Onderzoekscoördinatie**: ([KU Leuven][1])
+
+[1]: https://www.kuleuven.be/wieiswie/nl/unit/regional/53643260 "KU Leuven organigram - Wetenschappelijke Integriteit en Ethiek"
+[2]: https://research.kuleuven.be/en/integrity-ethics/integrity/desk "Research Integrity Reporting Desk — Research"
+[3]: https://research.kuleuven.be/en/integrity-ethics/integrity/procedures "Regulation Commission on Research Integrity — Research"
+[4]: https://research.kuleuven.be/en/integrity-ethics/integrity "Research Integrity — Research"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Academic Council (Academische Raad)**: the Reporting Desk draws up an **annual anonymised report** on handled complaints **for the Academic Council** (and for publication). ([Research / Onderzoek][1])
+* **Vice-Rector for Research Policy (vicerector onderzoek)**: the vice-rector is **kept informed** of the Commission’s work and the **status of ongoing procedures**. ([Research / Onderzoek][2])
+* **Rector (for external communication in public cases)**: if confidentiality is broken because the facts have become public and KU Leuven must respond publicly, **the rector (or a delegate)** is responsible for external communication and is informed of relevant information/status. ([Research / Onderzoek][2])
+
+b. **Decision-making authority**
+
+* **Independent handling of formal complaints** by the Commission is explicitly stated. ([Research / Onderzoek][1])
+* Within the Commission’s procedure, the **Commission assesses** whether there is **“problematic behaviour”** or an **“honest error”** (verschoonbare tekortkoming). ([Research / Onderzoek][2])
+* The **chair takes decisions provided for in the Regulation in consultation with the CRI/CWI Bureau** (except in urgent cases). ([Research / Onderzoek][1])
+* The **procedure is explicitly “not a legal procedure”** and is framed as supporting researchers/policy **through recommendations** and ensuring remediation where needed. ([Research / Onderzoek][2])
+* **Extension beyond the limitation period**: exceptionally, the **Vice-Rector for Research Policy**, after being informed by the CRI chair, may **request the Executive Board** to allow the CRI to initiate an investigation **beyond the limitation period**. ([Research / Onderzoek][3])
+* **Final disciplinary/sanctioning authority:** **Not specified in official sources.**
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Second advice (tweede advies)**: the chair may provide information/documents to the **Flemish Commission on Scientific Integrity (Vlaamse Commissie Wetenschappelijke Integriteit, VCWI)** if the VCWI is requested to provide a **second opinion/advice**. ([Research / Onderzoek][2])
+* **Other internal appeal routes:** **Not specified in official sources.**
+
+d. **Source references**
+
+* KU Leuven “Regulation Commission on Research Integrity / Reglement Commissie Wetenschappelijke Integriteit” (incl. reporting desk, annual report to Academic Council, Bureau role, vice-rector information flows, VCWI second advice). ([Research / Onderzoek][1])
+* KU Leuven “Research Integrity Reporting Desk” (Executive Board involvement for limitation-period exception). ([Research / Onderzoek][3])
+
+[1]: https://research.kuleuven.be/en/integrity-ethics/integrity/procedures "Regulation Commission on Research Integrity — Research"
+[2]: https://research.kuleuven.be/en/integrity-ethics/integrity/procedures/procedures "Reglement Commissie Wetenschappelijke Integriteit — Research"
+[3]: https://research.kuleuven.be/en/integrity-ethics/integrity/desk "Research Integrity Reporting Desk — Research"

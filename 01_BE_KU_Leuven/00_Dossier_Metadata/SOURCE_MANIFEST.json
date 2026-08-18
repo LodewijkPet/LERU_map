@@ -1,0 +1,92 @@
+{
+  "institution": "KU Leuven",
+  "country": "Belgium",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1719,
+      "sha256": "c600d6eff7bd9d58b61b7ab6ceebc328b0bd7aae6bf088b9ec503b630947ccfa",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6541,
+      "sha256": "c919c6beb19ff0ae0f809b7cde4810a388c6c35a469baf67b5101a8de1fb3db2",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3399,
+      "sha256": "a2c44e148f27329e0324f1bf22dd948170373536877293bc4de63c042a9e55e7",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 910,
+      "sha256": "6e17645e5b27d6f2bf1edcfe4087fd0e667b1da36f713d663a3bb165ce2e34cd",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 587,
+      "sha256": "84e95458f9334252060757927649a34dd319c2dec60167a767fa830bd7d242cd",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 52322,
+      "sha256": "e2dbbd9d7d1ba56d1df8305372e59faee1a4db29b4e597c6e83d21aa4640620e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 64351,
+      "sha256": "122d238a8aebef7788f40a2e027307e7c692a77e3bee1cf9e774f282653684d8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 40542,
+      "sha256": "c2fcc63d3af6e659e71a57a137e9e2d4d48a25f45050c83f28ed97735c711a7d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 5872,
+      "sha256": "f73dc41aabe3839b2ed75971f6b485b2ffd866ff4244daa05c9fe1e6cd6a7521",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_KU_Leuven_CRI_procedure.pdf",
+      "size_bytes": 29175,
+      "sha256": "bb9a4d8278ab3678b10764adbaf3b281ab3b5994df00faa5906e1e445c481dff",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "04_Reports_Statistics_and_Timeline/SNAPSHOT_KU_Leuven_CRI_annual_report_2024.html",
+      "size_bytes": 64595,
+      "sha256": "b10b5d179b26e52c01980f3745741bc2db797083ef1fc48d754574c6ffb4c0f5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1408,
+      "sha256": "0f9b38dee4ce2de0ba672c8ce041fa4e880aa21516de91df91be1fac9e10c91d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

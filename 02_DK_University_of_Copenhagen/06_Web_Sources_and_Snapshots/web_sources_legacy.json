@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://about.ku.dk/management/board/statutes/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://about.ku.dk/organisation/administration/research-and-information-security/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://praksisudvalget.ku.dk/english/about/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://praksisudvalget.ku.dk/english/contact/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://praksisudvalget.ku.dk/english/procedures/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  },
+  {
+    "url": "https://praksisudvalget.ku.dk/english/rules_guide/University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf",
+    "inferred_type": "pdf",
+    "source": "legacy institutional positioning profile",
+    "last_checked": "2026-08-18T07:55:59+02:00",
+    "local_copy": "03_Procedures_and_Policies\\Downloaded_University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf",
+    "verification_status": "downloaded_and_signature_checked",
+    "normalized_url": "https://praksisudvalget.ku.dk/english/rules_guide/University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf",
+    "http_status": 200
+  },
+  {
+    "url": "https://research.ku.dk/integrity/code-of-conduct/",
+    "inferred_type": "webpage",
+    "source": "legacy institutional positioning profile",
+    "last_checked": null,
+    "local_copy": null,
+    "verification_status": "not_rechecked"
+  }
+]

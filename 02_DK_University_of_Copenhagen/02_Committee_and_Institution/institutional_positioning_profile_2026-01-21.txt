@@ -1,0 +1,68 @@
+1. **Official name of the unit**
+   **Committee for Responsible Research Practice (the Practice Committee)** 
+
+2. **Institutional location**
+
+* **Set up/appointed by:** **the Rector** (UCPH) 
+* **Secretariat / administrative servicing:** the Practice Committee “is serviced by” **UCPH Research & Information Security**, which is a **group unit in the University Administration**. ([praksisudvalget.ku.dk][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases (research misconduct / questionable research practice): *Explicitly mentioned***
+
+  * Assesses whether complaints concern **questionable research practice** or **research misconduct**; examines complaints and issues statements in cases of questionable research practice. ([praksisudvalget.ku.dk][2])
+  * **Refers/forwards cases involving research misconduct** to the **Danish Committee/Board on Research Misconduct**. ([praksisudvalget.ku.dk][2])
+
+* **Promoting academic integrity / responsible conduct of research: *Explicitly mentioned***
+
+  * Helps **clarify norms** for responsible research practice and **ensures norms are discussed** (incl. hosting conferences on responsible conduct of research). ([praksisudvalget.ku.dk][3])
+
+* **Overseeing integrity regulations / ordinance: *Explicitly mentioned (in the sense of proposing rules/guidance)***
+
+  * May **propose rules and guidance** on responsible research practice (mandated by the Rector or on its own initiative). 
+
+4. **Source references (official UCPH sources used)**
+
+* “About the Practice Committee” (Practice Committee website). ([praksisudvalget.ku.dk][3])
+* “Contact” (Practice Committee website) — secretariat serviced by Research & Information Security. ([praksisudvalget.ku.dk][1])
+* “Administrative procedures” (Practice Committee website). ([praksisudvalget.ku.dk][2])
+* “Code of Conduct for Responsible Research” (UCPH Research Integrity pages). ([research.ku.dk][4])
+* **The University of Copenhagen’s rules for handling cases of questionable research practice and research misconduct** (PDF, Practice Committee site). 
+* “UCPH Research and Information Security” (About UCPH / Organisation page). ([about.ku.dk][5])
+
+[1]: https://praksisudvalget.ku.dk/english/contact/ "Contact – University of Copenhagen"
+[2]: https://praksisudvalget.ku.dk/english/procedures/ "Administrative procedures – University of Copenhagen"
+[3]: https://praksisudvalget.ku.dk/english/about/ "About the Practice Committee – University of Copenhagen"
+[4]: https://research.ku.dk/integrity/code-of-conduct/ "Code of Conduct for Responsible Research – University of Copenhagen"
+[5]: https://about.ku.dk/organisation/administration/research-and-information-security/ "UCPH Research and Information Security – University of Copenhagen"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Rector (UCPH)**: the Practice Committee is **appointed by the Rector**; the **Rector provides secretarial services**; and the committee **forwards its statement to the Rector** (and also submits reports to the Rector “when necessary”). ([about.ku.dk][1])
+* **Independence caveat (explicit):** in the assessment of specific cases, the Practice Committee is **independent of the Rector** and “not under the Rector’s authority” in those contexts. 
+
+b. **Decision-making authority**
+
+* **Explicitly stated authority:**
+
+  * The Practice Committee **terminates its proceedings with a “statement of opinion”** on whether a case can be characterised as **questionable research practice**. 
+  * It can **reject** a case of questionable research practice if manifestly unfounded / outside remit. 
+  * It **forwards** its statement to the parties and the **Rector “for information and any further action.”** 
+* **Research misconduct cases:** if the claim concerns **research misconduct**, the Practice Committee **sends the case to the Danish Committee on Research Misconduct** (subject to conditions described in the rules). 
+* **Sanctions / final disciplinary decisions:** **Not specified in official sources.** (The rules state the Rector may take “any further action,” but do not explicitly describe the committee as having sanctioning authority.) 
+
+c. **Appeal or second-opinion mechanisms**
+
+* **No administrative appeal (explicit):** the Practice Committee’s **statements of opinion cannot be appealed to any other administrative authority.** 
+* **Reopening mechanism (explicit):** cases can **only be reopened** if new information emerges that presumably would have led to a different outcome (with additional conditions set out in the rules). 
+* **Appeal options at the national body (Danish Committee on Research Misconduct):** **Not specified in official sources** (in the UCPH documents/pages used here). 
+
+d. **Source references**
+
+* **Statutes – University of Copenhagen** (section stating the Rector sets up the Practice Committee). ([about.ku.dk][1])
+* **The University of Copenhagen’s rules for handling cases of questionable research practice and research misconduct** (PDF; sections on independence, forwarding to Rector, statement of opinion, appeal/reopening, reporting to Rector, and referral of research misconduct). 
+* **University of Copenhagen’s rules for good scientific practice** (PDF; independence; rulings sent to Rector; no appeal; reporting to Rector). ([praksisudvalget.ku.dk][2])
+
+[1]: https://about.ku.dk/management/board/statutes/ "Statutes – University of Copenhagen"
+[2]: https://praksisudvalget.ku.dk/english/rules_guide/University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf "UCPH Rules for good scientific practice"

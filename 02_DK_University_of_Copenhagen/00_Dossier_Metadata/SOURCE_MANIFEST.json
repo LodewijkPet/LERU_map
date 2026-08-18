@@ -1,0 +1,85 @@
+{
+  "institution": "University of Copenhagen",
+  "country": "Denmark",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1734,
+      "sha256": "2d87a71e629306202e79115f2473e7e17dd38e7ec17ed938d7f4aeeb6cc4afb8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 7237,
+      "sha256": "4efbaa608b64729b2a8b35e31fb7a22c46f32c5bb822a5394c1b0ec9026e0f4a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3411,
+      "sha256": "8af860ecbfe34ff040e9867500880bfe3297eef81d90564fe65723dcbcc14139",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 940,
+      "sha256": "7c5837728d286e41b070b8a5bcf9a6440438833d2053d9ba8e844912f63ca8f5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 588,
+      "sha256": "4ec082853342da8a74c5dfc3be472c773bc246bb7f3d78d6c063d277fb38a04d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40691,
+      "sha256": "ea97b3378f4bae2e85aa51f1725381d7137c935e7959ec1f6c97fde8dd179b08",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47914,
+      "sha256": "ee87521d43eebba3efaee5ce356aa85ce3b9943284e89fe0d708833c907ef232",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 33447,
+      "sha256": "0a548b3e6ea0dcab8c27230f6d3651c6437e5fcf03416174ca6e036d1f2901fe",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 5720,
+      "sha256": "ea7d699ccee4f3a33bde14404f6bb421106c5b5e13deb4684a3a23058bb385c6",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Downloaded_University_of_Copenhagen_s_rules_for_good_scientific_practice.pdf",
+      "size_bytes": 108218,
+      "sha256": "51129bee2a48a2c45da1dc8df6f85721897ccda51c33d06924a91e4d8dd5abf5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 2248,
+      "sha256": "42690a77d64b4e0f08a9ec7ee85091c580ba107125ce38cf80568ccbd98d561b",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

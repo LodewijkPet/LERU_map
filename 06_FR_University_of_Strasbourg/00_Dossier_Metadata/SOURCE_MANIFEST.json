@@ -1,0 +1,85 @@
+{
+  "institution": "University of Strasbourg",
+  "country": "France",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1733,
+      "sha256": "32095b784271e29ee18b29c5b439756a6ad6c1d6856c29a5fab9772866d2598c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6556,
+      "sha256": "47153f0598a191b017a4efa44c1ac20d7cd896af70e6b1b1e47bb292c71451e4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3409,
+      "sha256": "602362cedb9546ab7a97c86cae85c2998a18eefea44ec50e4d9da87cb786c417",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 939,
+      "sha256": "b7d3ae032f2cb046c68873e777270e93d9104182900535e59ce725eb2f746dd2",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 585,
+      "sha256": "443ec929c91b68b5d4461ffb795c8c1bb38877171e3f8e4b193402de46d0e4f9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 41036,
+      "sha256": "a8a8e20df1c59eab45fe28c115b68bcda37bbced4ba0b0f7aba7c899ec6e54c8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 55337,
+      "sha256": "50e06ef711d64cee33bd30c1016c845a2284ea50ecf71aebaf7e0176bddf28c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34679,
+      "sha256": "4f10a0efab1e591b5dc17b636f04e0ba7a0d3da52e4f38bef3af72a931a8e943",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 7557,
+      "sha256": "da61e3612f043d28dfa3fe2f87e6d318c1773c63a4c41ffb6c38ab439f9cc879",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/SNAPSHOT_Strasbourg_scientific_integrity_referent.html",
+      "size_bytes": 363427,
+      "sha256": "d2c98693fbec9ad654b515241c69220e45048ae73a4bb3159940f264ebfbd032",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1297,
+      "sha256": "47fc7b2b2ba03c2c32314c10a5b008a103f758026aae93c639a7271af65daba4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

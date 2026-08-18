@@ -1,0 +1,83 @@
+I’ll look up the University of Strasbourg’s official research integrity/misconduct structures, then extract only what’s explicitly stated and present it in your required 4-part format with official source references.
+
+
+1. **Official name of the unit**
+   **Référent à l'intégrité scientifique** ([unistra.fr][1])
+
+2. **Institutional location**
+
+* **Not specified in official sources** (no official page states that the “Référent à l'intégrité scientifique” is administratively part of a specific directorate such as Legal Affairs or the Research Office). ([unistra.fr][1])
+* **Reporting line (explicit):** the référent submits a report to the **Présidente / Président de l’université**, who decides what measures to take. ([unistra.fr][1])
+* **Named/appointed by (explicit, in an official university article):** the référent is *“nommé … par le président de l'université”* (appointment referenced for 2017). ([recherche.unistra.fr][2])
+* **Contact affiliation/address shown for the référent (explicit):** Institut Charles Sadron (Strasbourg) is given as the postal address for contacting the référent. ([unistra.fr][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases (explicitly mentioned for research integrity / “intégrité scientifique”):**
+
+  * Receives and processes reports (“signalements”) of possible breaches of research integrity. ([unistra.fr][1])
+  * Verifies the report, may open an investigation/instruction, can seek expert advice, conducts a “contradictoire” (adversarial) process, and writes a report with recommendations submitted to the President/Presidenta. ([unistra.fr][1])
+  * Examples of issues listed include plagiarism, inappropriate manipulation/fabrication of data, authorship conflicts, undisclosed conflicts of interest. ([unistra.fr][1])
+  * **Decision-making on measures/sanctions (explicit):** the President/Presidenta decides the follow-up measures after receiving the référent’s report. ([unistra.fr][3])
+
+* **Promoting academic integrity (explicit):**
+
+  * Promotes and ensures application of the university’s **Charte de déontologie des métiers de la recherche de l’Université de Strasbourg**. ([unistra.fr][1])
+
+* **Overseeing integrity regulations / ordinance (explicitly mentioned elements):**
+
+  * “Promouvoir et faire appliquer” the university research-ethics/deontology charter (as above). ([unistra.fr][1])
+  * No explicit statement found (in the consulted official sources) that this unit “oversees” a broader integrity ordinance/regulatory framework beyond the charter and the described signalement/instruction process. ([unistra.fr][1])
+
+4. **Source references**
+
+* Université de Strasbourg — **Référent à l'intégrité scientifique** (role description, missions, process, contact). ([unistra.fr][1])
+* Université de Strasbourg — **Éthique de la recherche, intégrité scientifique et déontologie** (signalement process; report to President; President decides outcomes). ([unistra.fr][3])
+* Université de Strasbourg (recherche.unistra.fr) — **“Référent intégrité : « Nous ne sommes pas là pour instruire à charge »”** (official article mentioning appointment by the President and reporting “à la présidence”). ([recherche.unistra.fr][2])
+
+[1]: https://www.unistra.fr/fr/universite/engagements/referents/referent-lintegrite-scientifique "
+      Référent à l'intégrité scientifique | Université de Strasbourg
+    "
+[2]: https://recherche.unistra.fr/actualites-recherche/actualites-de-la-recherche/referent-integrite-nous-ne-sommes-pas-la-pour-instruire-a-charge.html "Référent intégrité : « Nous ne sommes pas là pour instruire à charge » - Université de Strasbourg - Recherche"
+[3]: https://www.unistra.fr/fr/universite/engagements/ethique-la-recherche-integrite-scientifique-et-deontologie "
+      Éthique de la recherche, intégrité scientifique et déontologie | Université de Strasbourg
+    "
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Référent / Référente (intégrité scientifique):** produces **a report addressed to the President of the university**. ([unistra.fr][1])
+* **Cellule « Déontologie de la recherche » (as described in the university’s “Guide du chercheur”):** **placed under the responsibility of the Vice-President “Recherche et Formation doctorale”**; in case of disagreement between parties, the matter can be escalated to the **President of the university**. ([documentation.unistra.fr][2])
+
+b. **Decision-making authority**
+
+* **Référent / Référente:**
+
+  * **Has procedural authority** to decide whether to open an “instruction” (“décide s’il y a lieu d’ouvrir une instruction”). ([unistra.fr][1])
+  * **Final decision authority on outcomes is explicitly with the President** (“C’est le Président qui décide des suites… (sanctions, réhabilitations, etc.)”). ([unistra.fr][1])
+  * **Classification (explicitly supported):** **Mixed** (référent decides on opening an instruction; President decides outcomes). ([unistra.fr][1])
+
+* **Cellule « Déontologie de la recherche » (Guide du chercheur):**
+
+  * Conducts preliminary instruction that can result in **closing without further action** or **continuing instruction**. ([documentation.unistra.fr][2])
+  * If there is disagreement, the **President** can order further inquiry or consult a committee; the President can also appoint ad hoc experts. ([documentation.unistra.fr][2])
+  * The document states that **“the university takes a decision”** after the investigation (e.g., injunction to end the breach, referral to disciplinary bodies). ([documentation.unistra.fr][2])
+  * **Classification:** **Not specified in official sources** in a single clear label (the text describes steps and actors, but does not explicitly label the Cellule as “advisory only” vs “final authority”). ([documentation.unistra.fr][2])
+
+c. **Appeal or second-opinion mechanisms**
+
+* **Appeal:** **Not specified in official sources.** ([unistra.fr][1])
+* **Second-opinion / escalation mechanisms (explicitly described):**
+
+  * The President may **order a supplementary inquiry** or **refer the matter to the consultative committee**; the President may appoint **ad hoc expert(s)**. ([documentation.unistra.fr][2])
+  * Possible escalation to **disciplinary bodies** (section disciplinaire / CPE) or transmission to the competent disciplinary authority for certain staff categories. ([documentation.unistra.fr][2])
+
+d. **Source references**
+
+* Université de Strasbourg — *Éthique de la recherche, intégrité scientifique et déontologie* (report to President; President decides outcomes; opening of instruction). ([unistra.fr][1])
+* Université de Strasbourg (documentation.unistra.fr) — *Charte de déontologie des métiers de la recherche* / *Guide du chercheur* (Cellule under VP Research & Doctoral Training; escalation to President; decision options; referral to disciplinary bodies). ([documentation.unistra.fr][2])
+
+[1]: https://www.unistra.fr/fr/universite/engagements/ethique-la-recherche-integrite-scientifique-et-deontologie "
+      Éthique de la recherche, intégrité scientifique et déontologie | Université de Strasbourg
+    "
+[2]: https://documentation.unistra.fr/DIREV/guide_du_chercheur/co/351-Charte_deontologie.html "Charte de déontologie des métiers de la recherche [Guide du chercheur de l'Université de Strasbourg]"

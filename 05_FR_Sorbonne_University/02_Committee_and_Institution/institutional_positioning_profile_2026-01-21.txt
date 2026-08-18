@@ -1,0 +1,41 @@
+I’ll quickly look up Sorbonne University’s official research integrity/misconduct structures on their own sites/regulations, then I’ll summarize only what’s explicitly stated and format it exactly in your requested 4-part structure with source references.
+
+
+1. **Official name of the unit**
+   **La délégation à l'intégrité scientifique** (Sorbonne Université) ([Sorbonne Université][1])
+
+2. **Institutional location**
+   **Not specified in official sources.** ([Sorbonne Université][1])
+   (What *is* explicitly stated: the delegation is **led (“conduite”) by the Référent à l’intégrité scientifique (RIS)**, who is **appointed by the President of Sorbonne Université** and presents an annual activity report to the **Conseil académique** and **Conseil d’administration**.) ([Sorbonne Université][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases**: **Explicitly mentioned** for *research integrity breaches* — the RIS must **“instruire les signalements de manquement à l’intégrité scientifique”** and the page describes the **signalement and instruction process** (receivability check, hearings, evidence, possible external experts, and a report sent to the President for follow-up decisions). ([Sorbonne Université][1])
+* **Promoting academic integrity**: **Explicitly mentioned** — the RIS has a mission to **“promouvoir la culture de l’intégrité scientifique”** across the university and to respond to researchers’ questions; the delegation includes a committee and a network of ambassadors supporting these activities. ([Sorbonne Université][1])
+* **Overseeing integrity regulations / ordinance**: **Not specified in official sources.** ([Sorbonne Université][1])
+
+4. **Source references**
+
+* Sorbonne Université (official webpage): **“La délégation à l'intégrité scientifique”** ([Sorbonne Université][1])
+
+[1]: https://www.sorbonne-universite.fr/universite/politique-detablissement/pour-une-science-en-confiance-responsable-et-ouverte/la "La délégation à l'intégrité scientifique | Sorbonne Université| Sorbonne université"
+5. **Reporting & authority structure**
+
+a. **Reports to**
+
+* **Annual reporting:** The **Référent à l’intégrité scientifique (RIS)** “établit un rapport d’activité annuel” and **presents it to the Conseil académique and the Conseil d’administration**. ([sorbonne-universite.fr][1])
+* **Case-level reporting:** For allegations, the RIS **transmits an instruction report and proposals to the President of Sorbonne Université**. ([sorbonne-universite.fr][1])
+
+b. **Decision-making authority**
+
+* **Final decision authority (explicit):** The **President of Sorbonne Université is “seule habilitée à prendre les décisions de suivi et de communication”** following the RIS’s instruction report and proposals. ([sorbonne-universite.fr][1])
+* **RIS role (explicitly described as preparatory):** The RIS conducts the instruction and provides **“propositions”** to the President. ([sorbonne-universite.fr][1])
+
+c. **Appeal or second-opinion mechanisms**
+**Not specified in official sources.** ([sorbonne-universite.fr][1])
+
+d. **Source references**
+
+* Sorbonne Université (official webpage): **“La délégation à l’intégrité scientifique”** ([sorbonne-universite.fr][1])
+
+[1]: https://www.sorbonne-universite.fr/universite/politique-detablissement/pour-une-science-en-confiance-responsable-et-ouverte/la "La délégation à l'intégrité scientifique | Sorbonne Université| Sorbonne université"

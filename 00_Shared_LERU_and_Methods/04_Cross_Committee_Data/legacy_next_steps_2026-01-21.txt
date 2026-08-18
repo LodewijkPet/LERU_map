@@ -1,0 +1,24 @@
+Next steps for completing the report
+
+1) Confirm institutional location where not specified in sources
+- Imperial College London: administrative location of the Research Misconduct Review Group
+- LMU Munich: administrative home for ombudspersons/investigation committee
+- Sorbonne University: administrative placement of the scientific integrity delegation
+- University of Strasbourg: administrative placement of the scientific integrity referent
+- University of Barcelona: administrative placement of the Research Integrity Committee
+- Heidelberg University: whether the commission is hosted by a specific office beyond legal affairs contact
+- University of Helsinki: administrative placement of research integrity advisers and legal services for academic affairs
+
+2) Clarify scope where responsibilities are split
+- University College London: confirm the single point of contact that combines research integrity promotion and misconduct case handling
+- University of Cambridge: confirm the definitive office that serves as the institutional home for the research integrity function
+- University of Edinburgh: confirm whether there is a central office for student academic misconduct or only college-level officers
+- University of Milan: confirm which unit is the primary contact for research integrity cases (ethics committee vs disciplinary bodies)
+
+3) Validate that summaries align with the request language
+- Check that each institution statement clearly answers: where the office that handles misconduct cases, promotes integrity, and oversees the integrity ordinance is located
+- Adjust for institutions where only parts of that remit are explicitly documented
+
+4) Optional expansion
+- Add direct contact emails and org chart references for each unit, if needed for a request email
+- Add student academic misconduct offices only if explicitly requested in the final deliverable

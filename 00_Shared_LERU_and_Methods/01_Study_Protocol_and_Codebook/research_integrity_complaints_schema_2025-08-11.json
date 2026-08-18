@@ -1,0 +1,751 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/research-integrity-complaints.schema.json",
+  "title": "Research Integrity Complaints — Country-Level Schema",
+  "type": "object",
+  "required": [
+    "country",
+    "governance",
+    "access",
+    "process",
+    "decision",
+    "appeal",
+    "transparency",
+    "resources",
+    "scope_exceptions",
+    "links",
+    "kpis"
+  ],
+  "properties": {
+    "country": {
+      "type": "object",
+      "required": [
+        "name",
+        "iso",
+        "system_type",
+        "legal_basis"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "iso": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "system_type": {
+          "type": "string",
+          "enum": [
+            "national_only",
+            "institutional_only",
+            "mixed"
+          ]
+        },
+        "legal_basis": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "law",
+              "regulation",
+              "guideline",
+              "code",
+              "policy",
+              "mixed"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "coverage_sectors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "universities",
+              "UMCs/hospitals",
+              "PROs",
+              "funders",
+              "private_R&D",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "scope_of_conduct": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "FFP",
+              "QRPs",
+              "other violations"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "standard_of_proof": {
+          "type": "string",
+          "enum": [
+            "balance_of_probabilities",
+            "comfortable_satisfaction",
+            "beyond_reasonable_doubt",
+            "not_specified"
+          ]
+        },
+        "limitation_period": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9]+y$"
+            },
+            {
+              "type": "string",
+              "enum": [
+                "none",
+                "not_specified"
+              ]
+            }
+          ]
+        },
+        "mandatory_institutional_bodies": {
+          "type": "boolean"
+        },
+        "national_body_exists": {
+          "type": "boolean"
+        },
+        "whistleblower_protection_framework": {
+          "type": "string",
+          "enum": [
+            "comprehensive",
+            "partial",
+            "none",
+            "not_specified"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "governance": {
+      "type": "object",
+      "required": [
+        "national_body_exists",
+        "institutional"
+      ],
+      "properties": {
+        "national_body_exists": {
+          "type": "boolean"
+        },
+        "national_body": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "type": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "advisory",
+                  "appellate",
+                  "investigative",
+                  "coordinating",
+                  "mixed"
+                ]
+              },
+              "uniqueItems": true
+            },
+            "independence": {
+              "type": "string",
+              "enum": [
+                "statutory_independent",
+                "arm’s_length",
+                "internal_to_ministry",
+                "other"
+              ]
+            },
+            "appointment_mode": {
+              "type": "string",
+              "enum": [
+                "ministerial_appointment",
+                "parliamentary_appointment",
+                "mixed",
+                "other"
+              ]
+            },
+            "budget_source": {
+              "type": "string",
+              "enum": [
+                "parliament",
+                "ministry",
+                "levy",
+                "mixed"
+              ]
+            },
+            "public_reporting": {
+              "type": "boolean"
+            },
+            "publishes_case_summaries": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "name",
+            "type"
+          ],
+          "additionalProperties": false
+        },
+        "institutional": {
+          "type": "object",
+          "properties": {
+            "committee_required": {
+              "type": "boolean"
+            },
+            "composition": {
+              "type": "object",
+              "properties": {
+                "min_size": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "external_member_required": {
+                  "type": "boolean"
+                },
+                "chair_independent": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false
+            },
+            "ombuds_present": {
+              "type": "boolean"
+            },
+            "coi_mechanisms": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "committee_required"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "access": {
+      "type": "object",
+      "properties": {
+        "who_can_file": {
+          "type": "string",
+          "enum": [
+            "anyone",
+            "parties_with_standing",
+            "staff_and_students_only",
+            "funders_only",
+            "other"
+          ]
+        },
+        "third_party_allowed": {
+          "type": "boolean"
+        },
+        "anonymous_accepted": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "conditional",
+            "no"
+          ]
+        },
+        "confidentiality": {
+          "type": "boolean"
+        },
+        "good_faith_required": {
+          "type": "boolean"
+        },
+        "representation_allowed": {
+          "type": "boolean"
+        },
+        "channels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "web_portal",
+              "email",
+              "post",
+              "whistleblower_hotline",
+              "in_person",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "required_submission_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "intake_ack_timeline_days": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "string",
+              "enum": [
+                "not_specified"
+              ]
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "process": {
+      "type": "object",
+      "properties": {
+        "admissibility_criteria": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "jurisdiction",
+              "specificity",
+              "time_limit",
+              "duplicative",
+              "bad_faith",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "triage_by": {
+          "type": "string",
+          "enum": [
+            "RI_officer",
+            "committee_chair",
+            "secretariat",
+            "other"
+          ]
+        },
+        "triage_timeline_days": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "string",
+              "enum": [
+                "not_specified"
+              ]
+            }
+          ]
+        },
+        "mediation_option": {
+          "type": "boolean"
+        },
+        "investigation_body": {
+          "type": "string",
+          "enum": [
+            "institutional_committee",
+            "external_panel",
+            "national_body",
+            "mixed"
+          ]
+        },
+        "powers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "access_data",
+              "compel_witnesses",
+              "access_emails",
+              "audit_labs",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "expert_use_allowed": {
+          "type": "boolean"
+        },
+        "respondent_rights": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "notice_of_allegations",
+              "right_to_be_heard",
+              "access_to_evidence",
+              "representation",
+              "appeal"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "complainant_rights": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "status_updates",
+              "hearing",
+              "appeal",
+              "protection_against_retaliation"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "recusal_mechanisms": {
+          "type": "boolean"
+        },
+        "data_protection_specified": {
+          "type": "boolean"
+        },
+        "typical_timeline_days": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "string",
+              "pattern": "^[0-9]+-[0-9]+$"
+            },
+            {
+              "type": "string",
+              "enum": [
+                "not_specified"
+              ]
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "properties": {
+        "decision_maker": {
+          "type": "string",
+          "enum": [
+            "institutional_committee",
+            "rector/board",
+            "national_body",
+            "funder",
+            "mixed"
+          ]
+        },
+        "possible_findings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "gegrond",
+              "deels_gegrond",
+              "ongegrond",
+              "kennelijk_ongegrond",
+              "niet-ontvankelijk",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "sanctions_research": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "correction",
+              "retraction_request",
+              "data_release_requirements",
+              "training",
+              "supervision_changes",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "sanctions_employment": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "warning",
+              "suspension",
+              "dismissal",
+              "funding_ineligibility",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "remedial_actions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "enforcement_mechanism": {
+          "type": "string",
+          "enum": [
+            "binding",
+            "recommendatory",
+            "mixed"
+          ]
+        },
+        "notification_duties": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "funder",
+              "journal",
+              "regulator",
+              "professional_body",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "appeal": {
+      "type": "object",
+      "properties": {
+        "internal_appeal": {
+          "type": "boolean"
+        },
+        "external_appeal_body": {
+          "type": "string",
+          "enum": [
+            "national_body",
+            "administrative_court",
+            "ombudsman",
+            "none",
+            "other"
+          ]
+        },
+        "appeal_deadline_days": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "string",
+              "enum": [
+                "not_specified"
+              ]
+            }
+          ]
+        },
+        "suspensive_effect": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "transparency": {
+      "type": "object",
+      "properties": {
+        "publication_policy": {
+          "type": "string",
+          "enum": [
+            "full_decisions",
+            "anonymised_summaries",
+            "statistics_only",
+            "none"
+          ]
+        },
+        "statistics_reported": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "caseload",
+              "duration",
+              "outcomes",
+              "appeal_rates",
+              "sanctions"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "open_case_data": {
+          "type": "boolean"
+        },
+        "annual_report_mandated": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "resources": {
+      "type": "object",
+      "properties": {
+        "institutional_budget": {
+          "type": [
+            "string",
+            "boolean"
+          ],
+          "enum": [
+            "not_specified",
+            true,
+            false
+          ]
+        },
+        "staff_training_required": {
+          "type": "boolean"
+        },
+        "periodic_audit": {
+          "type": "boolean"
+        },
+        "case_mgmt_system": {
+          "type": "string",
+          "enum": [
+            "bespoke_portal",
+            "generic_ticketing",
+            "none",
+            "other"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "scope_exceptions": {
+      "type": "object",
+      "properties": {
+        "research_domains_included": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "biomedical",
+              "social_sciences",
+              "STEM",
+              "arts/humanities",
+              "clinical",
+              "all"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "students_covered": {
+          "type": "string",
+          "enum": [
+            "included",
+            "separate_policy",
+            "excluded"
+          ]
+        },
+        "cross_border_collaborations": {
+          "type": "boolean"
+        },
+        "parallel_proceedings_policy": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "HR",
+              "disciplinary_board",
+              "criminal",
+              "civil",
+              "regulator"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "funder_policies_integrated": {
+          "type": "boolean"
+        },
+        "journal_notification_protocols": {
+          "type": "boolean"
+        },
+        "international_coop_treaties_mous": {
+          "type": "boolean"
+        },
+        "data_or_ethics_authority_links": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "kpis": {
+      "type": "object",
+      "properties": {
+        "reference_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "cases_per_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "admissible_share": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "upheld_share": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "median_time_to_decision_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "appeal_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "reversal_rate_on_appeal": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

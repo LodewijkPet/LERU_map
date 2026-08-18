@@ -1,0 +1,71 @@
+I’ll look up the University of Helsinki’s official pages/regulations to identify the exact unit(s) handling research integrity or academic misconduct, then extract their institutional placement, responsibilities, and cite the official sources.
+
+
+## University of Helsinki – Finland
+
+### A) Research integrity (alleged research misconduct in research)
+
+1. **Official name of the unit**
+   **Chancellor** ([University of Helsinki][1])
+
+2. **Institutional location**
+   **University-level authority: Chancellor.** (Further organisational placement is **not specified in official sources**.) ([University of Helsinki][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases:** **Explicitly mentioned** — the Chancellor “is in charge of inquiries concerning alleged violations of the research integrity,” and allegations must be submitted in writing to the Chancellor. ([University of Helsinki][1])
+* **Promoting academic integrity:** **Not specified in official sources.** ([University of Helsinki][1])
+* **Overseeing integrity regulations / ordinance:** **Not specified in official sources** (the page notes handling follows the relevant procedures/guidelines, but does not frame this as “oversight”). ([University of Helsinki][1])
+
+4. **Source references**
+
+* University of Helsinki — “Research integrity (RI)” ([University of Helsinki][1])
+* University of Helsinki — “Organisation” ([University of Helsinki][2])
+
+---
+
+### B) Research integrity support / prevention (non-adjudicative)
+
+1. **Official name of the unit**
+   **Research integrity advisers** (the **research integrity adviser system**) ([University of Helsinki][1])
+
+2. **Institutional location**
+   **Not specified in official sources.** ([University of Helsinki][1])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases:** **Explicitly not the case** — advisers “do not have authority in any RI processes… nor do they participate in them.” ([University of Helsinki][1])
+* **Promoting academic integrity:** **Explicitly mentioned** — targeted at promoting research integrity, improving preventive measures, and providing confidential guidance/negotiation support on how to proceed. ([University of Helsinki][1])
+* **Overseeing integrity regulations / ordinance:** **Not specified in official sources.** ([University of Helsinki][1])
+
+4. **Source references**
+
+* University of Helsinki — “Research integrity (RI)” ([University of Helsinki][1])
+
+---
+
+### C) Academic misconduct in studies (e.g., fraudulent conduct; disciplinary procedure support)
+
+1. **Official name of the unit**
+   **Legal services for academic affairs** ([teaching.helsinki.fi][3])
+
+2. **Institutional location**
+   **Not specified in official sources.** ([teaching.helsinki.fi][3])
+
+3. **Core responsibilities**
+
+* **Handling academic misconduct cases:** **Explicitly mentioned (procedural role)** — in disciplinary procedures, the unit’s legal counsel “would then be responsible for preparing and presenting the matter.” ([teaching.helsinki.fi][3])
+
+  * (Decision-making roles in the same official guidance: written warning by the **Rector**, suspension by the **Board of the University**.) ([teaching.helsinki.fi][3])
+* **Promoting academic integrity:** **Not specified in official sources.** ([teaching.helsinki.fi][3])
+* **Overseeing integrity regulations / ordinance:** **Not specified in official sources.** ([teaching.helsinki.fi][3])
+
+4. **Source references**
+
+* University of Helsinki — “Responsible interaction in the University community” (Instructions for teaching) ([teaching.helsinki.fi][3])
+* University of Helsinki — “What is cheating and plagiarism?” (Studies Service instructions) ([Helsinki Studies][4])
+
+[1]: https://www.helsinki.fi/en/research/research-integrity/research-ethics/responsible-conduct-research "Research integrity (RI) | University of Helsinki"
+[2]: https://www.helsinki.fi/en/about-us/university-helsinki/organisation "Organisation | University of Helsinki"
+[3]: https://teaching.helsinki.fi/instructions/article/responsible-interaction-university-community "Responsible interaction in the University community | Instructions for teaching | University of Helsinki"
+[4]: https://studies.helsinki.fi/instructions/article/what-cheating-and-plagiarism "What is cheating and plagiarism? | Instructions | Studies Service | University of Helsinki"

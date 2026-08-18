@@ -1,0 +1,72 @@
+I’ll look up Paris-Saclay University’s official research integrity / academic misconduct structures on their own sites and governance documents, then extract only what’s explicitly stated into your exact 4-part format with source references.
+
+
+1. Official name of the unit
+   Conseil pour l’éthique de la recherche et l’Intégrité scientifique de l’Université Paris-Saclay (POLÉTHIS). ([Université Paris-Saclay][1])
+
+2. Institutional location
+   Placed with the university Presidency (“placé auprès de la présidence”). ([Université Paris-Saclay][2])
+
+3. Core responsibilities
+
+* Handling academic misconduct cases
+  Explicitly mentioned (for research/scientific integrity breaches):
+
+  * The scientific integrity referents’ mission is to ensure (confidential) investigation/instruction of reported breaches. ([Université Paris-Saclay][3])
+  * The network of “référents intégrité scientifique” within/around POLÉTHIS provides advice on dealing with cases of breaches, and the referent can be contacted confidentially for cases of scientific integrity breaches (e.g., plagiarism, falsification/fabrication, conflicts of interest). ([Université Paris-Saclay][4])
+
+* Promoting academic integrity
+  Explicitly mentioned:
+
+  * POLÉTHIS is described as the university’s internal body coordinating efforts in scientific integrity and ethics and developing a shared culture of ethical engagement; it also provides training/support (e.g., ethics monitoring/consultation). ([Université Paris-Saclay][4])
+  * The “réseau de référents intégrité scientifique” is described as aiming to inform/sensitise the community and to encourage good practices, including training-related contributions. ([Université Paris-Saclay][5])
+
+* Overseeing integrity regulations / ordinance
+  Not specified in official sources (no explicit statement found that POLÉTHIS “oversees” integrity regulations/ordinances as such). ([Université Paris-Saclay][1])
+
+4. Source references
+   (Official webpages/documents used)
+
+* “Poléthis – Éthique et intégrité” (Université Paris-Saclay) ([Université Paris-Saclay][1])
+* “Poléthis vient de réinstaller son conseil…” (Université Paris-Saclay news, 13 June 2025) ([Université Paris-Saclay][2])
+* “Ethics and scientific integrity” (Université Paris-Saclay Scientific Framework page) ([Université Paris-Saclay][4])
+* “Que faire en cas de problèmes ? / What to do in case of a problem?” (Université Paris-Saclay) ([Université Paris-Saclay][3])
+* “Poléthis : axe du réseau intégrité scientifique” (Université Paris-Saclay) ([Université Paris-Saclay][6])
+* “L’exigence d’intégrité scientifique au cœur de l’Université Paris-Saclay” (Université Paris-Saclay news, updated 10 Jan 2020) ([Université Paris-Saclay][5])
+
+```text
+https://www.universite-paris-saclay.fr/research/polethis-ethique-et-integrite
+https://www.universite-paris-saclay.fr/actualites/polethis-vient-de-reinstaller-son-conseil-et-de-renouveler-sa-presidente-nathalie-guichard
+https://www.universite-paris-saclay.fr/en/about/universite-paris-saclay-scientific-framework/ethics-and-scientific-integrity
+https://www.universite-paris-saclay.fr/que-faire-en-cas-de-problemes
+https://www.universite-paris-saclay.fr/en/what-do-case-problem
+https://www.universite-paris-saclay.fr/recherche/polethis-ethique-et-integrite/polethis-axe-du-reseau-integrite-scientifique
+https://www.universite-paris-saclay.fr/actualites/lexigence-dintegrite-scientifique-au-coeur-de-luniversite-paris-saclay
+```
+
+[1]: https://www.universite-paris-saclay.fr/research/polethis-ethique-et-integrite "Poléthis - Ethique et intégrité | Université Paris-Saclay"
+[2]: https://www.universite-paris-saclay.fr/actualites/polethis-vient-de-reinstaller-son-conseil-et-de-renouveler-sa-presidente-nathalie-guichard "Poléthis vient de réinstaller son conseil et de renouveler sa présidente, Nathalie Guichard | Université Paris-Saclay"
+[3]: https://www.universite-paris-saclay.fr/que-faire-en-cas-de-problemes "Que faire en cas de problèmes ? | Université Paris-Saclay"
+[4]: https://www.universite-paris-saclay.fr/en/about/universite-paris-saclay-scientific-framework/ethics-and-scientific-integrity "Ethics and scientific integrity | Université Paris-Saclay"
+[5]: https://www.universite-paris-saclay.fr/actualites/lexigence-dintegrite-scientifique-au-coeur-de-luniversite-paris-saclay "L’exigence d’intégrité scientifique au cœur de l’Université Paris-Saclay | Université Paris-Saclay"
+[6]: https://www.universite-paris-saclay.fr/recherche/polethis-ethique-et-integrite/polethis-axe-du-reseau-integrite-scientifique "Poléthis : axe du réseau intégrité scientifique | Université Paris-Saclay"
+5. Reporting & authority structure
+
+a. Reports to
+POLÉTHIS is **placed under the authority of the President’s office / Presidency** (“Placed under the authority of the President’s office”; “Placé auprès de la Présidence”). 
+
+b. Decision-making authority
+**Advisory (explicitly stated).** Official university communications state that POLÉTHIS **advises the President’s office** and, upon request, **issues opinions/recommendations** (including for the Presidency, Governing Board and Academic Council), and **does not handle personal cases** (“sans toutefois traiter de cas personnels”). 
+For the **scientific integrity referents network** (used for handling integrity breaches), official pages state that referents **confidentially “instruct”/investigate circumstances** of alleged breaches, but **final decision authority (e.g., sanctions) is not specified in official sources.** ([Université Paris-Saclay][1])
+
+c. Appeal or second-opinion mechanisms
+**Not specified in official sources.** (In the official pages consulted, no formal internal appeal route, second-opinion body, or escalation pathway is explicitly described for research integrity/misconduct decisions.) 
+
+d. Source references
+
+* Université Paris-Saclay — Press release (15 June 2023), “Université Paris-Saclay reinstates POLÉTHIS…” (PDF). 
+* Université Paris-Saclay — Communiqué de presse (12 June 2023), “L’Université Paris-Saclay vient de réinstaller POLÉTHIS…” (PDF). 
+* Université Paris-Saclay — “Poléthis : axe du réseau intégrité scientifique” (webpage). ([Université Paris-Saclay][1])
+* Université Paris-Saclay — “Avis Poléthis…” (11 December 2025) (PDF) (example showing the Presidency formally seizing POLÉTHIS for an opinion). 
+
+[1]: https://www.universite-paris-saclay.fr/recherche/polethis-ethique-et-integrite/polethis-axe-du-reseau-integrite-scientifique "Poléthis : axe du réseau intégrité scientifique | Université Paris-Saclay"

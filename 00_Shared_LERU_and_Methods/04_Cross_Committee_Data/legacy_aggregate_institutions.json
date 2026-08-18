@@ -1,0 +1,3418 @@
+{
+  "generated_at": "2026-01-21T07:45:16.525586+00:00",
+  "items": [
+    {
+      "id": "institution:eth_zurich",
+      "name": "ETH Zurich",
+      "short_name": "ETH Zurich",
+      "country": "Switzerland",
+      "country_ref": "country:switzerland",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": "2024-01-01",
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:heidelberg_university",
+      "name": "Heidelberg University",
+      "short_name": "Heidelberg University",
+      "country": "Germany",
+      "country_ref": "country:germany",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:imperial_college_london",
+      "name": "Imperial College London",
+      "short_name": "Imperial College London",
+      "country": "United Kingdom",
+      "country_ref": "country:united_kingdom",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:ku_leuven",
+      "name": "KU Leuven (Katholieke Universiteit Leuven)",
+      "short_name": "KU Leuven",
+      "country": "Belgium",
+      "country_ref": "country:belgium",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:leiden_university",
+      "name": "Leiden University",
+      "short_name": "Leiden University",
+      "country": "Netherlands",
+      "country_ref": "country:netherlands",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "https://www.universiteitleiden.nl/en",
+      "language_of_sources": [
+        "en"
+      ],
+      "research_integrity_function": {
+        "office_name": "Academic Integrity Committee",
+        "office_type": "Academic Integrity Committee",
+        "institutional_location": {
+          "location_type": "University committee",
+          "host_unit_name": "Academic Integrity Committee",
+          "host_unit_page_url": "https://www.organisatiegids.universiteitleiden.nl/en/university-committees/academic-integrity-committee",
+          "reporting_line": {
+            "reports_to_title": "Executive Board",
+            "reports_to_unit": "Executive Board",
+            "notes": "The committee submits advice to the Executive Board, which decides on the complaint."
+          },
+          "evidence_level": "Direct",
+          "evidence_quote_snippet": "The committee formulates its advice on the merits of the complaint and submits it to the Executive Board.",
+          "source_ref_ids": [
+            "src:leiden_committee"
+          ]
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": true,
+            "questionable_research_practices": null,
+            "advice_and_consultation": true,
+            "training_and_prevention": true,
+            "policy_development": null
+          },
+          "notes": "The committee investigates suspected violations, while the confidential counsellor is the first point of contact for questions; training is described for PhD candidates and staff.",
+          "source_ref_ids": [
+            "src:leiden_committee",
+            "src:leiden_confidential_counsellor",
+            "src:leiden_academic_integrity"
+          ]
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "Academic Integrity Complaints Regulation (2019)",
+          "decision_authority": "Executive Board decides whether to adopt the committee's advice and takes the final decision after any LOWI review.",
+          "notes": "The regulation states that the Board appoints the committee and confidential advisers.",
+          "source_ref_ids": [
+            "src:leiden_complaints_regulation",
+            "src:leiden_committee"
+          ]
+        },
+        "case_handling": {
+          "model": "Committee-based (two chambers for Leiden University and LUMC)",
+          "intake_channel": "Complaints are submitted to the committee secretariat; the confidential counsellor is the first point of call for questions.",
+          "investigation_body": "Academic Integrity Committee",
+          "adjudication_body": "Executive Board",
+          "appeals_body": "Netherlands Board on Research Integrity (LOWI)",
+          "sanctions_handled_by": "Executive Board",
+          "escalation_to_external": {
+            "exists": true,
+            "where_to": "Netherlands Board on Research Integrity (LOWI)",
+            "trigger_conditions": "If one of the parties does not agree with the decision.",
+            "notes": ""
+          },
+          "process_notes": "The committee investigates complaints under the complaints regulation and the Netherlands Code of Conduct for Research Integrity.",
+          "source_ref_ids": [
+            "src:leiden_committee",
+            "src:leiden_confidential_counsellor",
+            "src:leiden_complaints_regulation"
+          ]
+        },
+        "prevention_and_training": {
+          "offers_training": true,
+          "target_groups": [
+            "PhD candidates",
+            "new academic staff"
+          ],
+          "materials_or_pages": [
+            "https://www.universiteitleiden.nl/en/research/our-research-organisation/quality-and-integrity/academic-integrity"
+          ],
+          "notes": "PhD candidates are offered courses at university and faculty level; new academic staff sign the Code of Conduct on Academic Integrity.",
+          "source_ref_ids": [
+            "src:leiden_academic_integrity"
+          ]
+        },
+        "contacts": [
+          {
+            "organization": "Leiden University",
+            "unit": "Academic Integrity Committee secretariat",
+            "role": "Committee secretariat",
+            "name": "",
+            "email": "CWI@bb.leidenuniv.nl",
+            "phone": "",
+            "website": "https://www.organisatiegids.universiteitleiden.nl/en/university-committees/academic-integrity-committee"
+          },
+          {
+            "organization": "Leiden University",
+            "unit": "Confidential counsellor for research integrity",
+            "role": "Confidential counsellor",
+            "name": "Vivian Kraaij",
+            "email": "kraaij@fsw.leidenuniv.nl",
+            "phone": "",
+            "website": "https://www.staff.universiteitleiden.nl/human-resources/social-safety/confidential-counsellors-overview/research-integrity"
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": "2018-01-01",
+          "event": "Leiden University and LUMC academic integrity committees merged into a single committee with two chambers.",
+          "notes": "",
+          "source_ref_ids": [
+            "src:leiden_academic_integrity"
+          ]
+        }
+      ],
+      "data_status": {
+        "completeness": "partial",
+        "last_verified": "2026-01-21T07:39:46.454756+00:00",
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [
+          "Is there a dedicated research integrity coordination office beyond the committee and confidential counsellor? If so, where is it positioned?"
+        ],
+        "notes": "Sources document the committee, confidential counsellor, and reporting line; office placement beyond these structures is not explicit."
+      },
+      "sources": [
+        {
+          "source_id": "src:leiden_committee",
+          "source_type": "webpage",
+          "title": "Academic Integrity Committee - Leiden University",
+          "publisher": "Leiden University",
+          "url": "https://www.organisatiegids.universiteitleiden.nl/en/university-committees/academic-integrity-committee",
+          "date_published": null,
+          "date_accessed": "2026-01-21",
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling",
+            "decision_authority"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "The Academic Integrity Committee investigates suspected violations of academic integrity by employees of Leiden University.",
+              "context": "Mandate",
+              "used_for_fields": [
+                "research_integrity_function.mandate_and_scope.covers.misconduct_cases"
+              ]
+            },
+            {
+              "snippet": "The committee formulates its advice on the merits of the complaint and submits it to the Executive Board.",
+              "context": "Reporting line",
+              "used_for_fields": [
+                "research_integrity_function.institutional_location.reporting_line",
+                "research_integrity_function.institutional_location.evidence_quote_snippet",
+                "research_integrity_function.independence_and_legal.decision_authority"
+              ]
+            },
+            {
+              "snippet": "If one of the parties does not agree, the decision can be submitted for a second opinion to the Netherlands Board on Research Integrity (LOWI).",
+              "context": "Appeals",
+              "used_for_fields": [
+                "research_integrity_function.case_handling.appeals_body",
+                "research_integrity_function.case_handling.escalation_to_external"
+              ]
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "source_id": "src:leiden_academic_integrity",
+          "source_type": "webpage",
+          "title": "Academic Integrity - Leiden University",
+          "publisher": "Leiden University",
+          "url": "https://www.universiteitleiden.nl/en/research/our-research-organisation/quality-and-integrity/academic-integrity",
+          "date_published": null,
+          "date_accessed": "2026-01-21",
+          "relevance": [
+            "mandate",
+            "prevention_and_training",
+            "timeline"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "Confidential Counsellor is your initial point of contact for questions or circumstances related to academic integrity.",
+              "context": "Intake",
+              "used_for_fields": [
+                "research_integrity_function.case_handling.intake_channel",
+                "research_integrity_function.mandate_and_scope.covers.advice_and_consultation"
+              ]
+            },
+            {
+              "snippet": "With effect from 1 January 2018 the Leiden University Committee for Academic Integrity and the Committee for Academic Integrity at the Leiden University Medical Center (LUMC) have been merged into a single committee.",
+              "context": "Timeline",
+              "used_for_fields": [
+                "timeline_highlights"
+              ]
+            },
+            {
+              "snippet": "PhD candidates are offered courses at both university and faculty level. All new members of the academic staff sign the Code of Conduct on Academic Integrity.",
+              "context": "Training and prevention",
+              "used_for_fields": [
+                "research_integrity_function.prevention_and_training"
+              ]
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "source_id": "src:leiden_confidential_counsellor",
+          "source_type": "webpage",
+          "title": "Research integrity - confidential counsellors (staff site)",
+          "publisher": "Leiden University",
+          "url": "https://www.staff.universiteitleiden.nl/human-resources/social-safety/confidential-counsellors-overview/research-integrity",
+          "date_published": null,
+          "date_accessed": "2026-01-21",
+          "relevance": [
+            "case_handling",
+            "contacts",
+            "mandate"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "The confidential counsellor for research integrity is your first port of call for any questions or situations relating to research integrity.",
+              "context": "Intake and advice",
+              "used_for_fields": [
+                "research_integrity_function.case_handling.intake_channel",
+                "research_integrity_function.mandate_and_scope.covers.advice_and_consultation"
+              ]
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "source_id": "src:leiden_complaints_regulation",
+          "source_type": "pdf",
+          "title": "Academic Integrity Complaints Regulation (Leiden University and LUMC)",
+          "publisher": "Leiden University",
+          "url": "https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/ul2staff/reglementen/onderzoek/klachtenregeling-wetenschappelijke-integriteit-2018-en.pdf",
+          "date_published": null,
+          "date_accessed": "2026-01-21",
+          "relevance": [
+            "reporting_line",
+            "decision_authority"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "The Board appoints the Committee.",
+              "context": "Committee appointment",
+              "used_for_fields": [
+                "research_integrity_function.independence_and_legal.legal_basis_internal_regulation"
+              ]
+            },
+            {
+              "snippet": "The Board appoints Confidential Advisers for a period of four years.",
+              "context": "Confidential adviser appointment",
+              "used_for_fields": [
+                "research_integrity_function.independence_and_legal.notes"
+              ]
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:lmu_munich",
+      "name": "Ludwig-Maximilians-Universitaet Muenchen (LMU Munich)",
+      "short_name": "LMU Munich",
+      "country": "Germany",
+      "country_ref": "country:germany",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:lund_university",
+      "name": "Lund University",
+      "short_name": "Lund University",
+      "country": "Sweden",
+      "country_ref": "country:sweden",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:paris_saclay_university",
+      "name": "Paris-Saclay University",
+      "short_name": "Paris-Saclay University",
+      "country": "France",
+      "country_ref": "country:france",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:sorbonne_university",
+      "name": "Sorbonne University",
+      "short_name": "Sorbonne University",
+      "country": "France",
+      "country_ref": "country:france",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:trinity_college_dublin",
+      "name": "Trinity College Dublin",
+      "short_name": "Trinity College Dublin",
+      "country": "Ireland",
+      "country_ref": "country:ireland",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_college_london",
+      "name": "University College London (UCL)",
+      "short_name": "UCL",
+      "country": "United Kingdom",
+      "country_ref": "country:united_kingdom",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_amsterdam",
+      "name": "University of Amsterdam",
+      "short_name": "University of Amsterdam",
+      "country": "Netherlands",
+      "country_ref": "country:netherlands",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_barcelona",
+      "name": "University of Barcelona",
+      "short_name": "University of Barcelona",
+      "country": "Spain",
+      "country_ref": "country:spain",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_cambridge",
+      "name": "University of Cambridge",
+      "short_name": "University of Cambridge",
+      "country": "United Kingdom",
+      "country_ref": "country:united_kingdom",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_copenhagen",
+      "name": "University of Copenhagen",
+      "short_name": "University of Copenhagen",
+      "country": "Denmark",
+      "country_ref": "country:denmark",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_edinburgh",
+      "name": "University of Edinburgh",
+      "short_name": "University of Edinburgh",
+      "country": "United Kingdom",
+      "country_ref": "country:united_kingdom",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_freiburg",
+      "name": "University of Freiburg",
+      "short_name": "University of Freiburg",
+      "country": "Germany",
+      "country_ref": "country:germany",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_geneva",
+      "name": "University of Geneva",
+      "short_name": "University of Geneva",
+      "country": "Switzerland",
+      "country_ref": "country:switzerland",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_helsinki",
+      "name": "University of Helsinki",
+      "short_name": "University of Helsinki",
+      "country": "Finland",
+      "country_ref": "country:finland",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_milan",
+      "name": "University of Milan",
+      "short_name": "University of Milan",
+      "country": "Italy",
+      "country_ref": "country:italy",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_oxford",
+      "name": "University of Oxford",
+      "short_name": "University of Oxford",
+      "country": "United Kingdom",
+      "country_ref": "country:united_kingdom",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_strasbourg",
+      "name": "University of Strasbourg",
+      "short_name": "University of Strasbourg",
+      "country": "France",
+      "country_ref": "country:france",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:university_of_zurich",
+      "name": "University of Zurich",
+      "short_name": "University of Zurich",
+      "country": "Switzerland",
+      "country_ref": "country:switzerland",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "institution:utrecht_university",
+      "name": "Utrecht University",
+      "short_name": "Utrecht University",
+      "country": "Netherlands",
+      "country_ref": "country:netherlands",
+      "network_memberships": [
+        "LERU"
+      ],
+      "leru_member": true,
+      "leru_member_since": null,
+      "institution_type": "university",
+      "website": "",
+      "language_of_sources": [],
+      "research_integrity_function": {
+        "office_name": "",
+        "office_type": "",
+        "institutional_location": {
+          "location_type": "unknown",
+          "host_unit_name": "",
+          "host_unit_page_url": "",
+          "reporting_line": {
+            "reports_to_title": "",
+            "reports_to_unit": "",
+            "notes": ""
+          },
+          "evidence_level": "unknown",
+          "evidence_quote_snippet": "",
+          "source_ref_ids": []
+        },
+        "mandate_and_scope": {
+          "responsibilities": [
+            "Handling misconduct allegations",
+            "Promoting academic integrity",
+            "Training or prevention",
+            "Policy or ordinance oversight"
+          ],
+          "covers": {
+            "misconduct_cases": null,
+            "questionable_research_practices": null,
+            "advice_and_consultation": null,
+            "training_and_prevention": null,
+            "policy_development": null
+          },
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "independence_and_legal": {
+          "independence_level": "unknown",
+          "legal_involvement_level": "unknown",
+          "legal_basis_internal_regulation": "",
+          "decision_authority": "",
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "case_handling": {
+          "model": "unknown",
+          "intake_channel": "unknown",
+          "investigation_body": "",
+          "adjudication_body": "",
+          "appeals_body": "",
+          "sanctions_handled_by": "",
+          "escalation_to_external": {
+            "exists": null,
+            "where_to": "",
+            "trigger_conditions": "",
+            "notes": ""
+          },
+          "process_notes": "",
+          "source_ref_ids": []
+        },
+        "prevention_and_training": {
+          "offers_training": null,
+          "target_groups": [],
+          "materials_or_pages": [],
+          "notes": "",
+          "source_ref_ids": []
+        },
+        "contacts": [
+          {
+            "organization": "",
+            "unit": "",
+            "role": "",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "website": ""
+          }
+        ]
+      },
+      "timeline_highlights": [
+        {
+          "date": null,
+          "event": "",
+          "notes": "",
+          "source_ref_ids": []
+        }
+      ],
+      "data_status": {
+        "completeness": "not_started",
+        "last_verified": null,
+        "confidence": {
+          "overall": "unknown",
+          "institutional_location": "unknown",
+          "reporting_line": "unknown",
+          "decision_authority": "unknown"
+        },
+        "open_questions": [],
+        "notes": ""
+      },
+      "sources": [
+        {
+          "source_id": "src:example_1",
+          "source_type": "webpage",
+          "title": "",
+          "publisher": "",
+          "url": "",
+          "date_published": null,
+          "date_accessed": null,
+          "relevance": [
+            "institutional_location",
+            "reporting_line",
+            "mandate",
+            "case_handling"
+          ],
+          "extracted_text_snippets": [
+            {
+              "snippet": "",
+              "context": "",
+              "used_for_fields": []
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

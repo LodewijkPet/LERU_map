@@ -1,0 +1,99 @@
+{
+  "institution": "Heidelberg University",
+  "country": "Germany",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 13,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1731,
+      "sha256": "41069682410a4aeb755a70c8144d7234d1a80b01edf224df038893663480ee2a",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 8837,
+      "sha256": "c07011f32f3b7579209837d09af657494ab92d04b0ca99619aa023ce1f96ce18",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3402,
+      "sha256": "5e7464ba763a100f55459d962b5045598b339f25e2cfdccbb847abe3f0b78e0d",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 934,
+      "sha256": "e606c0e4085945af2d95e0fe3254a49e345288c144422a85a5a0b2792b0823c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 587,
+      "sha256": "5bf9a7fc5198b5f114278290c44b645f7551801d19131b4d431b5f609319a81e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 40691,
+      "sha256": "ea97b3378f4bae2e85aa51f1725381d7137c935e7959ec1f6c97fde8dd179b08",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 47914,
+      "sha256": "ee87521d43eebba3efaee5ce356aa85ce3b9943284e89fe0d708833c907ef232",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 33447,
+      "sha256": "0a548b3e6ea0dcab8c27230f6d3651c6437e5fcf03416174ca6e036d1f2901fe",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 6868,
+      "sha256": "5227ada102f32d59105d90b1c74dd8d6062ba2fccf54efed8b6c76f752ece783",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/CURRENT_Heidelberg_rules_good_academic_practice_EN.pdf",
+      "size_bytes": 136578,
+      "sha256": "7ad13755654dddf78d87b26deaf3e5d4db9fd33b756581098fdd680c74d1d7fa",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Received_from_institution_DFG Code Guidelines for Safeguarding good research pracice-en-data 2019.pdf",
+      "size_bytes": 369227,
+      "sha256": "e9971ef5f56a5c5b318c0a1cfcb18b5b554e17004d93c7fd42d96380ae866203",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "03_Procedures_and_Policies/Received_from_institution_Uni Heidelberg Satzung_zur_sicherung_guter_wissenschaftlicher_praxis_und_zum_umgang_mit_fehlverhalten_in_der_wissenschaft 2021 formatiert.pdf",
+      "size_bytes": 153726,
+      "sha256": "08ba3b799ecc833627eccd0e4dd96bfd3fc50560117d76485d80c02e3c32bef3",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1816,
+      "sha256": "aa7aabfbdade386ddfe4674a8468975ca3029f7790ab8292b43e40a77b521a6e",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

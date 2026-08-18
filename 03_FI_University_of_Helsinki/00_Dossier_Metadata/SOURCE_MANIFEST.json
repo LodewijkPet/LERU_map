@@ -1,0 +1,92 @@
+{
+  "institution": "University of Helsinki",
+  "country": "Finland",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 12,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1732,
+      "sha256": "097d1dca7f2921efc265fcdbc381428327354a59b2a2bcaa79c5571d43601694",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 6434,
+      "sha256": "2d0ac60978e351940c29dbbcf4db44df091a7c9eaf3c7073772b0c3945e7bc11",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3405,
+      "sha256": "382db68d6ab2d1e16fb5575c06ec6b92c0f5ce31f2217fcae33b3f36f9eba235",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 936,
+      "sha256": "43fc8a52292b52935b0f7c184f22d0a2e77cb1c125410e227cf5758d2a315e8c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 588,
+      "sha256": "ecba2bd2e657e34f949f89ebd9a6e0898e8e21e4511499eb154b576f09ba33f9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 39763,
+      "sha256": "25decc0cb8512a6595383f49d5aed22e11ccb990e5441fa34b3a6948ce682aff",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 68978,
+      "sha256": "d555ff8b7abed6fe57c1077a51dd9d337be4158e9911e508a0d27d9a3983d09f",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 35070,
+      "sha256": "a5c4aefe04d6a15106a43f9242e7221291090d0e7396f3b5e7cd006d4c906c17",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/CURRENT_Finland_TENK_RI_Guidelines_2023_EN.pdf",
+      "size_bytes": 566748,
+      "sha256": "2f90e814907397697d33036acdd6ab8ddef23c17f562d15cfff6e11c4f03c9d6",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 4478,
+      "sha256": "d9c3b7220c367163051585c32ac63f65b105bff2aff586df257632b496975af0",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/SNAPSHOT_Helsinki_responsible_conduct_of_research.html",
+      "size_bytes": 300461,
+      "sha256": "01212b506e00c0324d4653051edfe1a5e37d3a2cc8674823bf08510572893457",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 1203,
+      "sha256": "2dc59b615f6c5d48e07f157a55bb05ed376343d5cb6efad0f394a4aa845db3b3",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}

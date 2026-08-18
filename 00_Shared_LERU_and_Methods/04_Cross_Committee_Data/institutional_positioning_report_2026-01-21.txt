@@ -1,0 +1,154 @@
+Title page
+Report: Institutional placement of research integrity coordination offices across LERU institutions
+Date: 2026-01-21
+
+Table of content
+Overall summary
+ETH Zurich
+Heidelberg University
+Imperial College London
+KU Leuven
+Leiden University
+LMU Munich
+Lund University
+Paris-Saclay University
+Sorbonne University
+Trinity College Dublin
+University College London
+University of Amsterdam
+University of Barcelona
+University of Cambridge
+University of Edinburgh
+University of Freiburg
+University of Geneva
+University of Helsinki
+University of Milan
+University of Oxford
+University of Strasbourg
+University of Zurich
+University of Copenhagen
+Utrecht University
+
+Overall summary
+Across the reviewed institutions, responsibility for research integrity case handling and integrity promotion is most often placed in a central governance unit (Rectorate, Executive Board, Vice-Chancellor/President) or within a research support office. In many systems, formal case handling sits with a committee or named officer, supported administratively by Legal Affairs or a research office. Several universities split responsibilities between research integrity (research office or Rectorate) and student academic misconduct (student services or disciplinary bodies). For a number of institutions, official sources do not specify a single administrative home for the research integrity function, so the location should be confirmed directly.
+
+Per institution summary
+ETH Zurich
+- Unit(s): Scientific Integrity Office (supports Integrity Commission)
+- Institutional location: Executive Board domain of Research
+- Notes: Case handling supported by SIO; Integrity Commission conducts investigations
+
+Heidelberg University
+- Unit(s): Senate Commission for Safeguarding Good Academic Practice; Ombudspersons
+- Institutional location: University governance (Senate/Rectorate); legal affairs listed as administrative contact
+- Missing data: No explicit statement of a single administrative office location
+
+Imperial College London
+- Unit(s): Research Misconduct Review Group (RMRG); Research Governance and Integrity Team (RGIT)
+- Institutional location: RMRG location not specified; RGIT is part of the Research Office
+- Missing data: No official statement placing RMRG within a specific office
+
+KU Leuven
+- Unit(s): Research Integrity and Ethics unit; Research Integrity Reporting Desk; Commission on Research Integrity
+- Institutional location: Research Coordination Office under Research Policy
+- Notes: Reporting Desk is housed in the Research Coordination Office; CRI handles formal complaints
+
+Leiden University
+- Unit(s): Academic Integrity Committee
+- Institutional location: University committee; secretariat in Legal Affairs
+- Notes: Committee advises Executive Board
+
+LMU Munich
+- Unit(s): Ombudspersons for good scientific practice; Investigation Committee; Self-control officer
+- Institutional location: University governance under Senate; no specific administrative office stated
+- Missing data: No explicit administrative home beyond governance structures
+
+Lund University
+- Unit(s): Deviations from Good Research Practice Review Board
+- Institutional location: Office of the Vice-Chancellor (University management)
+- Notes: Board prepares decisions for the Vice-Chancellor
+
+Paris-Saclay University
+- Unit(s): POLAETHIS (research ethics and scientific integrity council) and network of scientific integrity referents
+- Institutional location: Placed with the University Presidency
+- Notes: Referents handle reports and promote integrity culture
+
+Sorbonne University
+- Unit(s): Delegation for scientific integrity led by the Scientific Integrity Referent
+- Institutional location: Not specified in official sources; referent appointed by the President and reports to academic bodies
+- Missing data: No explicit administrative home stated
+
+Trinity College Dublin
+- Unit(s): Office of the Dean of Research; Senior Dean as Research Integrity Officer
+- Institutional location: Office of the Dean of Research; disciplinary routing via Senior Dean/Junior Dean/Dean of Graduate Studies
+- Notes: Public concerns routed to the College Secretary
+
+University College London
+- Unit(s): Compliance and Assurance team (Research and Innovation Services); Governance Team (Office of General Counsel); Casework and Regulations Team (Student and Registry Services)
+- Institutional location: RIS for integrity training/support; Governance Team for research misconduct procedure; Casework team in Student and Registry Services for student cases
+- Notes: Multiple units depending on research vs student misconduct
+
+University of Amsterdam
+- Unit(s): Committee for Academic Integrity
+- Institutional location: University-wide committee appointed by Executive Board
+- Notes: Committee advises Executive Board; provides prevention-policy advice
+
+University of Barcelona
+- Unit(s): Research Integrity Committee
+- Institutional location: Not specified; complaints enter via Vice-Rector for Research; committee reports to Rector
+- Missing data: No single administrative office stated
+
+University of Cambridge
+- Unit(s): Research Governance and Integrity Team; Research Integrity Advisory Panel support; OSCCA for student conduct
+- Institutional location: Research Governance and Integrity Team within University Research Office/Cambridge Research Office; OSCCA within Student Operations (Education Services)
+- Notes: Research integrity queries routed via Research Strategy Office to Pro-Vice-Chancellor for Research
+
+University of Edinburgh
+- Unit(s): Research Governance, Compliance and Risk team (Edinburgh Research Office); Named Persons in Colleges; SAMOS/CAMOS for student misconduct
+- Institutional location: Edinburgh Research Office for research integrity; student misconduct handled in colleges under Academic Services guidance
+- Missing data: No single central office named for student misconduct handling
+
+University of Freiburg
+- Unit(s): Coordination Office for Research Integrity
+- Institutional location: Established by Rectorate; staffed by adviser to Prorector for research integrity
+- Notes: Handles case support, prevention measures, and development of integrity guidelines
+
+University of Geneva
+- Unit(s): Legal Affairs Service; Rectorate-led integrity procedure with faculty integrity delegates
+- Institutional location: Legal Affairs attached to Rectorate; integrity procedures centered on Rectorate
+- Notes: Legal Affairs listed as responsible for integrity directives
+
+University of Helsinki
+- Unit(s): Chancellor (research integrity inquiries); Research integrity advisers (prevention); Legal services for academic affairs (student discipline support)
+- Institutional location: Chancellor is university-level authority; advisers and legal services location not specified
+- Missing data: No explicit administrative placement for advisers or legal services
+
+University of Milan
+- Unit(s): Research Ethics Office; Ethics Committee; Collegio di disciplina; Disciplinary Proceedings Office (UPD)
+- Institutional location: Ethics Office within staff unit for privacy and research ethics; Ethics Committee is governance-level; UPD in Legal Affairs
+- Notes: Multiple bodies depending on ethics support vs disciplinary cases
+
+University of Oxford
+- Unit(s): Research Strategy and Policy Unit (Research Services); Registrar for formal allegations; Research and Innovation Committee for integrity policy
+- Institutional location: Research Services for integrity support; Registrar is named officer for misconduct cases
+- Notes: Student academic misconduct handled separately by Proctors (not within research integrity procedure)
+
+University of Strasbourg
+- Unit(s): Scientific Integrity Referent
+- Institutional location: Not specified; referent reports to University President
+- Missing data: No explicit administrative home stated
+
+University of Zurich
+- Unit(s): Research Integrity Coordination Office; ombudspersons and research integrity delegates
+- Institutional location: Office of the Vice President Research within the Research and Grants Office
+- Notes: Coordination Office initiates process with integrity delegate
+
+University of Copenhagen
+- Unit(s): Committee for Responsible Research Practice
+- Institutional location: Appointed by Rector; secretariat serviced by Research and Information Security in University Administration
+- Notes: Committee handles questionable research practice and refers misconduct to national board
+
+Utrecht University
+- Unit(s): Committee for Research Integrity
+- Institutional location: Established by Executive Board; supported by Legal Affairs
+- Notes: Committee advises Executive Board on cases

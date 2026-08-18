@@ -1,0 +1,136 @@
+{
+  "id": "institution:heidelberg_university",
+  "name": "Heidelberg University",
+  "short_name": "Heidelberg University",
+  "country": "Germany",
+  "country_ref": "country:germany",
+  "network_memberships": [
+    "LERU"
+  ],
+  "leru_member": true,
+  "leru_member_since": null,
+  "institution_type": "university",
+  "website": "",
+  "language_of_sources": [],
+  "research_integrity_function": {
+    "office_name": "",
+    "office_type": "",
+    "institutional_location": {
+      "location_type": "unknown",
+      "host_unit_name": "",
+      "host_unit_page_url": "",
+      "reporting_line": {
+        "reports_to_title": "",
+        "reports_to_unit": "",
+        "notes": ""
+      },
+      "evidence_level": "unknown",
+      "evidence_quote_snippet": "",
+      "source_ref_ids": []
+    },
+    "mandate_and_scope": {
+      "responsibilities": [
+        "Handling misconduct allegations",
+        "Promoting academic integrity",
+        "Training or prevention",
+        "Policy or ordinance oversight"
+      ],
+      "covers": {
+        "misconduct_cases": null,
+        "questionable_research_practices": null,
+        "advice_and_consultation": null,
+        "training_and_prevention": null,
+        "policy_development": null
+      },
+      "notes": "",
+      "source_ref_ids": []
+    },
+    "independence_and_legal": {
+      "independence_level": "unknown",
+      "legal_involvement_level": "unknown",
+      "legal_basis_internal_regulation": "",
+      "decision_authority": "",
+      "notes": "",
+      "source_ref_ids": []
+    },
+    "case_handling": {
+      "model": "unknown",
+      "intake_channel": "unknown",
+      "investigation_body": "",
+      "adjudication_body": "",
+      "appeals_body": "",
+      "sanctions_handled_by": "",
+      "escalation_to_external": {
+        "exists": null,
+        "where_to": "",
+        "trigger_conditions": "",
+        "notes": ""
+      },
+      "process_notes": "",
+      "source_ref_ids": []
+    },
+    "prevention_and_training": {
+      "offers_training": null,
+      "target_groups": [],
+      "materials_or_pages": [],
+      "notes": "",
+      "source_ref_ids": []
+    },
+    "contacts": [
+      {
+        "organization": "",
+        "unit": "",
+        "role": "",
+        "name": "",
+        "email": "",
+        "phone": "",
+        "website": ""
+      }
+    ]
+  },
+  "timeline_highlights": [
+    {
+      "date": null,
+      "event": "",
+      "notes": "",
+      "source_ref_ids": []
+    }
+  ],
+  "data_status": {
+    "completeness": "not_started",
+    "last_verified": null,
+    "confidence": {
+      "overall": "unknown",
+      "institutional_location": "unknown",
+      "reporting_line": "unknown",
+      "decision_authority": "unknown"
+    },
+    "open_questions": [],
+    "notes": ""
+  },
+  "sources": [
+    {
+      "source_id": "src:example_1",
+      "source_type": "webpage",
+      "title": "",
+      "publisher": "",
+      "url": "",
+      "date_published": null,
+      "date_accessed": null,
+      "relevance": [
+        "institutional_location",
+        "reporting_line",
+        "mandate",
+        "case_handling"
+      ],
+      "extracted_text_snippets": [
+        {
+          "snippet": "",
+          "context": "",
+          "used_for_fields": []
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

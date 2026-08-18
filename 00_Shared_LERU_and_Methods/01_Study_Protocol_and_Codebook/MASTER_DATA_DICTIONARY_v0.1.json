@@ -1,0 +1,837 @@
+{
+  "title": "LERU Research Integrity Functions — master data dictionary",
+  "version": "0.1-working-draft",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "unit_of_inclusion": "Official LERU member university",
+  "unit_of_analysis": "Primary institutional route for receiving, reviewing, investigating, deciding on, or publishing information about potential breaches of research integrity; multiple nested route actors are permitted.",
+  "interpretation_rule": "Not found is not equivalent to absent. Every substantive value must carry field-level provenance and a validation status.",
+  "controlled_vocabularies": {
+    "route_type": [
+      "committee",
+      "board",
+      "commission",
+      "office",
+      "ombudsperson",
+      "scientific-integrity-referent",
+      "named-person",
+      "reporting-desk",
+      "adviser-network",
+      "ad-hoc-panel",
+      "executive-route",
+      "hybrid",
+      "other"
+    ],
+    "authority_type": [
+      "advisory",
+      "investigatory",
+      "decision-making",
+      "referral",
+      "sanctioning",
+      "preventive",
+      "administrative-support",
+      "publication",
+      "appeal-or-review"
+    ],
+    "evidence_status": [
+      "verified_official_public",
+      "verified_member_email",
+      "inferred",
+      "not_found",
+      "not_public",
+      "not_applicable",
+      "conflicting_sources",
+      "awaiting_validation"
+    ],
+    "confidentiality": [
+      "public",
+      "restricted-project-team",
+      "confidential-correspondence",
+      "not-for-publication"
+    ],
+    "document_category": [
+      "law-or-statutory-framework",
+      "national-code-or-guideline",
+      "terms-of-reference-or-mandate",
+      "appointment-or-composition",
+      "complaints-procedure",
+      "reporting-form",
+      "annual-report-or-statistics",
+      "decision-advice-or-case-summary",
+      "evaluation-or-monitoring",
+      "training-or-prevention",
+      "organisation-or-route-page",
+      "boundary-regime",
+      "correspondence-or-validation",
+      "method-or-codebook",
+      "other"
+    ],
+    "relationship_type": [
+      "reports_to",
+      "appoints",
+      "advises",
+      "investigates_for",
+      "decides_after",
+      "refers_to",
+      "appealed_to",
+      "reviewed_by",
+      "funded_by",
+      "shared_with",
+      "collaborates_with",
+      "publishes_for",
+      "oversees",
+      "provides_secretariat_to"
+    ],
+    "missingness": [
+      "observed",
+      "not_found",
+      "not_public",
+      "not_applicable",
+      "not_yet_searched",
+      "conflicting"
+    ]
+  },
+  "domains": [
+    {
+      "id": "01_population_identity",
+      "purpose": "Define and audit the study population.",
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "institution_id"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "official_name"
+        },
+        {
+          "type": "string",
+          "name": "english_name"
+        },
+        {
+          "type": "array[string]",
+          "name": "aliases"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "country_iso"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "country"
+        },
+        {
+          "type": "string",
+          "name": "city"
+        },
+        {
+          "type": "string",
+          "name": "institution_type"
+        },
+        {
+          "type": "boolean",
+          "required": true,
+          "name": "official_leru_member"
+        },
+        {
+          "type": "partial-date",
+          "name": "leru_membership_start"
+        },
+        {
+          "type": "string",
+          "name": "leru_membership_source_document_id"
+        },
+        {
+          "type": "enum[confirmed,unconfirmed,not_applicable]",
+          "name": "leru_inte_participation"
+        },
+        {
+          "type": "date",
+          "name": "inte_validation_date"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "inclusion_reason"
+        }
+      ]
+    },
+    {
+      "id": "02_country_system",
+      "purpose": "Describe the national system in which the institutional route operates.",
+      "fields": [
+        {
+          "type": "string",
+          "name": "system_type"
+        },
+        {
+          "type": "enum[centralised,decentralised,hybrid]",
+          "name": "centralisation"
+        },
+        {
+          "type": "array[document_id]",
+          "name": "legal_basis"
+        },
+        {
+          "type": "array[string]",
+          "name": "norm_hierarchy"
+        },
+        {
+          "type": "array[document_id]",
+          "name": "national_codes"
+        },
+        {
+          "type": "array[actor_id]",
+          "name": "national_investigation_bodies"
+        },
+        {
+          "type": "array[actor_id]",
+          "name": "national_advice_review_or_appeal_bodies"
+        },
+        {
+          "type": "string",
+          "name": "institutional_autonomy"
+        },
+        {
+          "type": "string",
+          "name": "funder_role"
+        },
+        {
+          "type": "string",
+          "name": "academy_or_sector_role"
+        },
+        {
+          "type": "string",
+          "name": "judicial_routes"
+        },
+        {
+          "type": "string",
+          "name": "transparency_regime"
+        },
+        {
+          "type": "array[relationship_id]",
+          "name": "interfaces_ethics_privacy_ip_open_science_security"
+        }
+      ]
+    },
+    {
+      "id": "03_route_governance",
+      "purpose": "Represent every committee, office, person or hybrid route involved in case handling.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "route_id"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "official_name"
+        },
+        {
+          "type": "string",
+          "name": "english_name"
+        },
+        {
+          "type": "controlled",
+          "name": "route_type"
+        },
+        {
+          "type": "string",
+          "name": "parent_organisational_unit"
+        },
+        {
+          "type": "string",
+          "name": "institutional_position"
+        },
+        {
+          "type": "enum[current,historical,planned,unclear]",
+          "name": "status"
+        },
+        {
+          "type": "partial-date",
+          "name": "established_date"
+        },
+        {
+          "type": "array[string]",
+          "name": "predecessor_route_ids"
+        },
+        {
+          "type": "array[document_id]",
+          "name": "constitutive_basis"
+        },
+        {
+          "type": "string",
+          "name": "mandate"
+        },
+        {
+          "type": "string",
+          "name": "jurisdiction"
+        },
+        {
+          "type": "array[controlled]",
+          "name": "authority_types"
+        },
+        {
+          "type": "enum[permanent,ad-hoc,hybrid]",
+          "name": "permanent_or_ad_hoc"
+        },
+        {
+          "type": "string",
+          "name": "reporting_line"
+        },
+        {
+          "type": "actor_id",
+          "name": "decision_maker"
+        },
+        {
+          "type": "actor_id",
+          "name": "secretariat"
+        },
+        {
+          "type": "string",
+          "name": "independence_safeguards"
+        },
+        {
+          "type": "string",
+          "name": "conflict_of_interest_rules"
+        },
+        {
+          "type": "integer",
+          "name": "composition_count"
+        },
+        {
+          "type": "array[string]",
+          "name": "composition_roles_and_expertise"
+        },
+        {
+          "type": "string",
+          "name": "appointment_method"
+        },
+        {
+          "type": "duration",
+          "name": "term_length"
+        }
+      ]
+    },
+    {
+      "id": "04_procedure",
+      "purpose": "Code each version of the applicable case-handling procedure.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "procedure_id"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "document_id"
+        },
+        {
+          "type": "date",
+          "name": "effective_from"
+        },
+        {
+          "type": "date",
+          "name": "effective_to"
+        },
+        {
+          "type": "string",
+          "name": "who_can_report"
+        },
+        {
+          "type": "string",
+          "name": "respondent_scope"
+        },
+        {
+          "type": "string",
+          "name": "research_scope"
+        },
+        {
+          "type": "array[string]",
+          "name": "misconduct_definitions"
+        },
+        {
+          "type": "array[string]",
+          "name": "ffp_qrp_other_categories"
+        },
+        {
+          "type": "enum[accepted,conditional,not-accepted,unclear]",
+          "name": "anonymous_reports"
+        },
+        {
+          "type": "string",
+          "name": "confidential_reports"
+        },
+        {
+          "type": "string",
+          "name": "informal_advice_or_mediation"
+        },
+        {
+          "type": "string",
+          "name": "intake_channel"
+        },
+        {
+          "type": "array[string]",
+          "name": "admissibility_criteria"
+        },
+        {
+          "type": "duration-or-string",
+          "name": "limitation_period"
+        },
+        {
+          "type": "string",
+          "name": "initial_assessment"
+        },
+        {
+          "type": "string",
+          "name": "preliminary_inquiry"
+        },
+        {
+          "type": "string",
+          "name": "formal_investigation"
+        },
+        {
+          "type": "string",
+          "name": "evidence_standard"
+        },
+        {
+          "type": "string",
+          "name": "hearing_and_response_rights"
+        },
+        {
+          "type": "string",
+          "name": "recusal_conflicts"
+        },
+        {
+          "type": "array[object]",
+          "name": "time_limits_by_stage"
+        },
+        {
+          "type": "array[string]",
+          "name": "possible_findings"
+        },
+        {
+          "type": "array[string]",
+          "name": "measures_or_sanctions"
+        },
+        {
+          "type": "actor_id",
+          "name": "decision_maker"
+        },
+        {
+          "type": "string",
+          "name": "internal_review"
+        },
+        {
+          "type": "string",
+          "name": "external_review_or_appeal"
+        },
+        {
+          "type": "string",
+          "name": "multi_institution_and_funder_cases"
+        },
+        {
+          "type": "string",
+          "name": "protections_for_parties"
+        },
+        {
+          "type": "string",
+          "name": "records_and_data_protection"
+        },
+        {
+          "type": "string",
+          "name": "publication_and_anonymisation"
+        }
+      ]
+    },
+    {
+      "id": "05_activity_statistics",
+      "purpose": "Capture annual, comparable workload and outcome data with explicit denominators.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "year",
+          "required": true,
+          "name": "reporting_year"
+        },
+        {
+          "type": "integer",
+          "name": "signals_received"
+        },
+        {
+          "type": "integer",
+          "name": "formal_complaints_received"
+        },
+        {
+          "type": "integer",
+          "name": "admissible_complaints"
+        },
+        {
+          "type": "integer",
+          "name": "investigations_started"
+        },
+        {
+          "type": "integer",
+          "name": "investigations_completed"
+        },
+        {
+          "type": "number",
+          "name": "median_duration_days"
+        },
+        {
+          "type": "object",
+          "name": "duration_range_days"
+        },
+        {
+          "type": "integer",
+          "name": "backlog_end_year"
+        },
+        {
+          "type": "array[category-count]",
+          "name": "allegation_categories"
+        },
+        {
+          "type": "array[category-count]",
+          "name": "outcomes"
+        },
+        {
+          "type": "array[category-count]",
+          "name": "measures"
+        },
+        {
+          "type": "integer",
+          "name": "reviews_or_appeals"
+        },
+        {
+          "type": "string",
+          "name": "publication_status"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "denominator_note"
+        }
+      ]
+    },
+    {
+      "id": "06_relationships",
+      "purpose": "Encode the institutional and national network as directed, dated edges.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "relationship_id"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "source_actor_id"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "target_actor_id"
+        },
+        {
+          "type": "controlled",
+          "required": true,
+          "name": "relationship_type"
+        },
+        {
+          "type": "string",
+          "name": "direction_note"
+        },
+        {
+          "type": "string",
+          "name": "scope"
+        },
+        {
+          "type": "partial-date",
+          "name": "valid_from"
+        },
+        {
+          "type": "partial-date",
+          "name": "valid_to"
+        },
+        {
+          "type": "array[string]",
+          "name": "source_document_ids"
+        }
+      ]
+    },
+    {
+      "id": "07_documents_sources",
+      "purpose": "Provide a complete provenance manifest for public, received and restricted evidence.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "document_id"
+        },
+        {
+          "type": "string",
+          "required": true,
+          "name": "title_original"
+        },
+        {
+          "type": "string",
+          "name": "title_english"
+        },
+        {
+          "type": "controlled",
+          "name": "document_category"
+        },
+        {
+          "type": "string",
+          "name": "publisher"
+        },
+        {
+          "type": "string",
+          "name": "language"
+        },
+        {
+          "type": "string",
+          "name": "version"
+        },
+        {
+          "type": "partial-date",
+          "name": "publication_date"
+        },
+        {
+          "type": "partial-date",
+          "name": "effective_date"
+        },
+        {
+          "type": "string",
+          "name": "supersedes_document_id"
+        },
+        {
+          "type": "string",
+          "name": "replaced_by_document_id"
+        },
+        {
+          "type": "uri",
+          "name": "url"
+        },
+        {
+          "type": "uri",
+          "name": "archived_url"
+        },
+        {
+          "type": "datetime",
+          "name": "accessed_at"
+        },
+        {
+          "type": "string",
+          "name": "mime_type"
+        },
+        {
+          "type": "string",
+          "name": "local_relative_path"
+        },
+        {
+          "type": "string",
+          "name": "sha256"
+        },
+        {
+          "type": "controlled",
+          "name": "confidentiality"
+        },
+        {
+          "type": "array[field-path]",
+          "name": "supported_fields"
+        },
+        {
+          "type": "enum[not-started,partial,complete,not-machine-readable]",
+          "name": "extract_status"
+        },
+        {
+          "type": "array[string]",
+          "name": "pinpoint_references"
+        },
+        {
+          "type": "controlled",
+          "name": "validation_status"
+        }
+      ]
+    },
+    {
+      "id": "08_timeline",
+      "purpose": "Construct versioned LERU, national, institutional, route and document histories.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "event_id"
+        },
+        {
+          "type": "enum[LERU,country,institution,route,procedure,document]",
+          "name": "level"
+        },
+        {
+          "type": "partial-date",
+          "name": "start_date"
+        },
+        {
+          "type": "partial-date",
+          "name": "end_date"
+        },
+        {
+          "type": "enum[day,month,year,approximate,unknown]",
+          "name": "date_precision"
+        },
+        {
+          "type": "string",
+          "name": "event_type"
+        },
+        {
+          "type": "array[string]",
+          "name": "actor_ids"
+        },
+        {
+          "type": "string",
+          "name": "title"
+        },
+        {
+          "type": "string",
+          "name": "description"
+        },
+        {
+          "type": "string",
+          "name": "comparative_significance"
+        },
+        {
+          "type": "array[string]",
+          "name": "source_document_ids"
+        },
+        {
+          "type": "string",
+          "name": "supersedes_event_id"
+        },
+        {
+          "type": "enum[historical,current,planned]",
+          "name": "status"
+        }
+      ]
+    },
+    {
+      "id": "09_email_validation",
+      "purpose": "Keep respondent confirmation separate from the public evidence base.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "validation_id"
+        },
+        {
+          "type": "string",
+          "name": "institution_id"
+        },
+        {
+          "type": "string",
+          "name": "respondent_function"
+        },
+        {
+          "type": "string",
+          "name": "message_or_thread_reference"
+        },
+        {
+          "type": "date",
+          "name": "received_date"
+        },
+        {
+          "type": "array[field-path]",
+          "name": "claims_confirmed"
+        },
+        {
+          "type": "array[object]",
+          "name": "claims_corrected"
+        },
+        {
+          "type": "array[object]",
+          "name": "claims_added"
+        },
+        {
+          "type": "array[string]",
+          "name": "attachment_document_ids"
+        },
+        {
+          "type": "enum[yes,no,partial,not-asked,unclear]",
+          "name": "permission_to_publish"
+        },
+        {
+          "type": "controlled",
+          "name": "confidentiality"
+        },
+        {
+          "type": "array[string]",
+          "name": "open_questions"
+        },
+        {
+          "type": "date",
+          "name": "last_follow_up_date"
+        },
+        {
+          "type": "enum[not-contacted,sent,reminded,responded,declined,undeliverable]",
+          "name": "response_status"
+        }
+      ]
+    },
+    {
+      "id": "10_field_validation",
+      "purpose": "Attach provenance, confidence and missingness to every substantive claim.",
+      "repeatable": true,
+      "fields": [
+        {
+          "type": "string",
+          "required": true,
+          "name": "field_path"
+        },
+        {
+          "type": "any",
+          "name": "value"
+        },
+        {
+          "type": "controlled",
+          "required": true,
+          "name": "evidence_status"
+        },
+        {
+          "type": "controlled",
+          "name": "missingness"
+        },
+        {
+          "type": "array[string]",
+          "name": "source_document_ids"
+        },
+        {
+          "type": "datetime",
+          "name": "accessed_or_confirmed_at"
+        },
+        {
+          "type": "enum[high,moderate,low,not-rated]",
+          "name": "confidence"
+        },
+        {
+          "type": "string",
+          "name": "validation_question"
+        },
+        {
+          "type": "datetime",
+          "name": "resolved_at"
+        }
+      ]
+    }
+  ]
+}

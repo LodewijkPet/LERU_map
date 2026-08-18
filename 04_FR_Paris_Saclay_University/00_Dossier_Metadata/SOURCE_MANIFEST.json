@@ -1,0 +1,85 @@
+{
+  "institution": "Paris-Saclay University",
+  "country": "France",
+  "generated": "2026-08-18T08:04:49.2679790+02:00",
+  "file_count": 11,
+  "files": [
+    {
+      "local_relative_path": "00_Dossier_Metadata/DOSSIER_README.md",
+      "size_bytes": 1732,
+      "sha256": "197099e332992bd0c984a46a43fb3a795ed61d776e80b16ad43b840f60c6be7c",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/dossier_status.json",
+      "size_bytes": 7523,
+      "sha256": "aca9a4b21816601cf20831ba0e43dbf72faf6c17278979cc2ec806e7163096b6",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/institution_record_legacy.json",
+      "size_bytes": 3406,
+      "sha256": "742834d41e53ca6c8d8e23b95878e24bf4b52ae00e5c4db15325d53e48e2cb01",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "00_Dossier_Metadata/structured_record_TEMPLATE.json",
+      "size_bytes": 937,
+      "sha256": "10b60d36998ec893d755a3d754daab7a8c23ee93e92091a5accca826c798dfc2",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_record_legacy.json",
+      "size_bytes": 585,
+      "sha256": "443ec929c91b68b5d4461ffb795c8c1bb38877171e3f8e4b193402de46d0e4f9",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_data_capture.docx",
+      "size_bytes": 41036,
+      "sha256": "a8a8e20df1c59eab45fe28c115b68bcda37bbced4ba0b0f7aba7c899ec6e54c8",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_deep_research_initial.docx",
+      "size_bytes": 55337,
+      "sha256": "50e06ef711d64cee33bd30c1016c845a2284ea50ecf71aebaf7e0176bddf28c4",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "01_Country_System/country_system_structured_research.docx",
+      "size_bytes": 34679,
+      "sha256": "4f10a0efab1e591b5dc17b636f04e0ba7a0d3da52e4f38bef3af72a931a8e943",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "02_Committee_and_Institution/institutional_positioning_profile_2026-01-21.txt",
+      "size_bytes": 6830,
+      "sha256": "b3bb59c9744552d0d1b368c73f9485f2e8535a208fbb5d269b485b37a2aea815",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/SNAPSHOT_Paris_Saclay_Polethis_scientific_integrity.html",
+      "size_bytes": 55975,
+      "sha256": "779e9944b4b59d9fbc1c050340836d334b0a8f0b30eb987675a5724b8a31e5f5",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    },
+    {
+      "local_relative_path": "06_Web_Sources_and_Snapshots/web_sources_legacy.json",
+      "size_bytes": 2225,
+      "sha256": "37b4081254e2904a1a26fb72e066082d91a118475f923dbadba44559b430a9b0",
+      "confidentiality": "public-or-working",
+      "manifest_generated_at": "2026-08-18T08:04:49.2679790+02:00"
+    }
+  ]
+}
