@@ -1,0 +1,18 @@
+{
+  "snapshot_manifest_version": "0.1",
+  "snapshot_date": "2026-08-20",
+  "created_at": "2026-08-20T00:45:27.8804736+02:00",
+  "created_by": "Codex, on instruction of Lodewijk Pet",
+  "document_id": "DOC-LERU-REPORT-0001",
+  "document_version_id": "VER-DOC-LERU-REPORT-0001-20260820-0C3F24477630",
+  "version_label": "Working draft 0.1 · 18 August 2026",
+  "original_path": "LERU_Research_Integrity_Committees_Comparative_Report_WORKING_DRAFT.docx",
+  "snapshot_path": "99_Project_Admin/Provenance/snapshots/2026-08-20/VER-DOC-LERU-REPORT-0001-20260820-0C3F24477630/LERU_Research_Integrity_Committees_Comparative_Report_working-draft-0.1_snapshot-2026-08-20.docx",
+  "sha256": "0c3f24477630c20d7662f8489bc3f5a0a73c2658956e23dadb7a65d35f8e3cff",
+  "file_size_bytes": 92145,
+  "page_count": 42,
+  "word_count": 14341,
+  "field_snapshot_count": 1147,
+  "material_fields_requiring_evidence": 609,
+  "immutability_rule": "If the hash changes, create a new document_version_id and preserve this snapshot."
+}

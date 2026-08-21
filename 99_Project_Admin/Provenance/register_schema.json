@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Point-D document/version registration, article-field fingerprinting, claim-evidence linkage and append-only change history.",
+  "identifier_patterns": {
+    "document_id": "DOC-<project>-<role>-<sequence>",
+    "document_version_id": "VER-<document_id>-<snapshot_date>-<sha256_prefix>",
+    "article_field_id": "FLD-ARTICLE-P-<Word paraId> or FLD-ARTICLE-C-<first cell paraId>",
+    "event_id": "EVT-<yyyymmdd>-<sequence>",
+    "field_change_id": "FCH-<yyyymmdd>-<sequence>"
+  },
+  "field_provenance_link_required_fields": [
+    "link_id",
+    "field_id",
+    "source_document_id",
+    "source_document_version_id",
+    "source_pinpoint",
+    "support_role",
+    "evidence_status",
+    "linked_by",
+    "linked_at",
+    "reviewer",
+    "reviewed_at",
+    "notes"
+  ],
+  "supported_evidence_statuses": [
+    "verified_official_public",
+    "verified_member_confirmation",
+    "inferred",
+    "not_found_after_search",
+    "not_public",
+    "not_applicable",
+    "conflicting_sources",
+    "outdated_source",
+    "awaiting_validation"
+  ],
+  "support_roles": [
+    "primary",
+    "corroborating",
+    "scope",
+    "conflicting",
+    "superseded",
+    "institutional_validation"
+  ],
+  "change_review_statuses": [
+    "pending_review",
+    "reviewed",
+    "accepted",
+    "rejected",
+    "superseded"
+  ]
+}

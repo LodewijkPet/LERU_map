@@ -1,0 +1,26 @@
+{
+  "register_version": "0.1",
+  "generated_at": "2026-08-20T00:52:46+02:00",
+  "snapshot_date": "2026-08-20",
+  "document_count": 1,
+  "version_count": 1,
+  "latest_document_version_id": "VER-DOC-LERU-REPORT-0001-20260820-0C3F24477630",
+  "latest_document_sha256": "0c3f24477630c20d7662f8489bc3f5a0a73c2658956e23dadb7a65d35f8e3cff",
+  "field_snapshot_count": 1147,
+  "material_fields_requiring_evidence": 609,
+  "material_fields_with_verified_link": 0,
+  "field_provenance_link_count": 0,
+  "unresolved_material_field_count": 609,
+  "change_event_count": 1,
+  "field_change_count": 0,
+  "gate_d_status": "open_evidence_linking",
+  "register_infrastructure_status": "ready",
+  "canonical_files": [
+    "documents.jsonl",
+    "document_versions.jsonl",
+    "article_field_snapshots.jsonl",
+    "field_provenance_links.jsonl",
+    "change_events.jsonl",
+    "field_changes.jsonl"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "manifest_version": "0.1",
+  "generated_at": "2026-08-20T00:52:46+02:00",
+  "files": [
+    {
+      "relative_path": "99_Project_Admin/Provenance/documents.jsonl",
+      "size_bytes": 568,
+      "sha256": "e12bee91c1a58db139c75abf8f05aa89861fcad6775a1e8b0a1256d5a8e21349"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/document_versions.jsonl",
+      "size_bytes": 1576,
+      "sha256": "566267b840ceef75f43eba84a26b91a03da1ad1ff1bed46dca7551d4428517d9"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/article_field_snapshots.jsonl",
+      "size_bytes": 1240624,
+      "sha256": "48611a3b1466145150da798b5f80fee3f924b94048adbd421d38c7627af716cf"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/field_provenance_links.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/change_events.jsonl",
+      "size_bytes": 716,
+      "sha256": "38bfe82c2ae6d1a1b821fe3b9f1d7abf89e393192852c29f57fee2f980985b62"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/field_changes.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/register_state.json",
+      "size_bytes": 910,
+      "sha256": "9a64202b6673e3114e81b412c7890efa564f4b5a4b0b3d87f69533a48dcb96a9"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/register_schema.json",
+      "size_bytes": 1398,
+      "sha256": "6198e12770d52f770048e2b2b0757db2fa3f50bf2963e700e9b088119382482b"
+    },
+    {
+      "relative_path": "99_Project_Admin/Provenance/LERU_D_document_and_field_provenance_register_v0.1_2026-08-20.html",
+      "size_bytes": 921534,
+      "sha256": "8aa6727aa1e64d66fa97ae5c2948922598a23a61995550873c9abb454ba505e0"
+    }
+  ]
+}
