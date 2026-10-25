@@ -1,0 +1,2 @@
+source_id,country,title,url,source_type,raw_documentation_category,access_date,used_for,local_path,notes
+SYNTHETIC-001,Synthetic North (demo),Fictional source,https://example.invalid/synthetic,Example,synthetic demonstration,2020-01-01,software setup only,,Not research evidence; do not fetch

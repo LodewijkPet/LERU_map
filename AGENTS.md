@@ -589,3 +589,14 @@ This section is managed by the Overview repository. Preserve it when editing oth
 - After changing Overview data, run `python C:\Users\lapet\Github\Overview\scripts\validate_data.py`.
 - Do not guess mappings for other folders or copy confidential source material into Overview.
 <!-- overview-project-link:end -->
+
+
+<!-- project-storage-policy:start -->
+## Project storage and GitHub
+
+Read the shared project-standards `POLICY.md` (workspace-relative path: `../../_Admin/project-standards/POLICY.md`) and this project's `project-policy.json` before organising, staging or uploading. Preserve all existing research instructions and Overview-generated synchronization blocks.
+
+The public repository contains only the explicitly reviewed software, map assets and synthetic examples. Keep working research inputs, member feedback, Office reviews, source captures, local reports and historical packages in their existing ignored locations. Never overwrite a working corpus with example data. Historical moves require a currently verified separate backup; GitHub and historical manifests do not prove that backup.
+
+Review exact staged content, run the shared `project_audit.py audit` against the index and outgoing history with a freshly verified remote `--base`, run the documented software checks and verify the pushed SHA and unchanged visibility. Keep audit and recovery records in ignored `local-state/`. Do not rewrite published history or change repository visibility in this rollout. Selected upload is authorised after these checks. Preserve separate restrictions on scientific publication and mail/calendar writes.
+<!-- project-storage-policy:end -->
